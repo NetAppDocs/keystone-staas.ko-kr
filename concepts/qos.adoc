@@ -1,0 +1,150 @@
+---
+sidebar: sidebar 
+permalink: concepts/qos.html 
+keywords: PSL and QoS, service level quality of service 
+summary: Keystone의 서비스 품질 
+---
+= Keystone의 서비스 품질(QoS)
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS가 없으면 여러 시스템 부팅 같은 특정 워크로드에서 전체 리소스를 일정 기간 동안 소모하여 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"].
+
+QoS를 적용하면 애플리케이션이 항상 일관된 성능을 얻을 수 있습니다. NetApp ONTAP는 QoS 상한에 대해 두 가지 매개 변수를 정의합니다. https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["QoS 최대"]및 처리량 플로어 - https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["최소 QoS"]. QoS Max는 워크로드가 달성할 수 있는 최대 IOPS 또는 MBps 또는 IOPS 및 MBps 수를 나타냅니다. 반면 QoS Min은 워크로드의 처리량이 특정 IOPS 또는 MBps, 즉 IOPS 및 MBps 이하로 보장되지 않습니다.
+
+
+
+== 적응형 QoS
+
+Keystone 서비스에는 적응형 QoS가 사용되며, QoS 정책은 크기에 따라 IOPS와 TB/GB의 비율을 유지합니다. 적응형 QoS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["적응형 QoS에 대해 알아보십시오"].
+
+Keystone은 클러스터가 운영 환경에 있을 때 설정할 수 있는 적응형 QoS 정책을 제공합니다. 모든 볼륨이 이미 생성되어 시스템에서 사용 가능한 올바른 적응형 QoS 정책과 연결되어 있는지 확인해야 합니다.
+
+
+NOTE: 볼륨에 적응형 QoS 정책을 올바르게 적용하지 않은 경우, 가입형 정액제에 따라 해당 볼륨을 가장 높은 서비스 수준에서 측정 및 청구됩니다. 이로 인해 의도하지 않은 폭발이 발생할 수 있습니다.
+
+
+
+== Adaptive QoS 정책 그룹 구성
+
+처리량 상한 또는 하한 을 볼륨 크기로 자동 확장하도록 적응형 QoS 정책을 구성할 수 있습니다. 정책을 구성할 때는 다음 사항을 염두에 두어야 합니다.
+
+* 정책 그룹 이름: 적응형 QoS 정책 그룹의 이름입니다. 예: "Keystone_extreme".
+* SVM: SVM 또는 스토리지 VM(스토리지 가상 머신)의 이름입니다.
+* 예상 IOPS: 성능 보장이 있는 경우 ONTAP에서 최소 제공하는 IOPS/TiB 수입니다.
+* 최대 IOPS 성능이 제한되기 전에 볼륨에서 사용할 수 있는 최대 IOPS/TiB
+* 예상 IOPS 할당: 할당된 공간 또는 사용된 공간이 예상 IOPS에 고려되는지 여부 이 필드는 볼륨에서 사용할 수 있는 예상 IOPS가 프로비저닝된 볼륨 또는 사용된 볼륨 크기를 기반으로 하는지 여부를 제어합니다. Keystone에서 모든 QoS 계산은 사용된 공간을 기반으로 합니다.
+* 최대 IOPS 할당: 할당된 공간 또는 사용된 공간이 최대 IOPS로 간주되는지 여부를 나타냅니다. 이 필드는 볼륨에서 사용 가능한 최대 IOPS가 프로비저닝된 볼륨 크기 또는 사용된 크기를 기반으로 하는지 여부를 제어합니다. Keystone에서 모든 QoS 계산은 사용된 공간을 기반으로 합니다.
+* 절대 최소 IOPS: 볼륨 크기가 매우 작은 경우 볼륨에 적용되는 예상되는 최소 IOPS 수로, 그렇지 않을 경우 IOPS가 허용할 수 없는 수준으로 표시됩니다. 이 값은 Extreme, 500은 Premium, 75는 다른 서비스 레벨로 기본 설정됩니다.
++
+
+NOTE: 이는 IOPS 밀도(예: 75 IOPS/TiB)가 아니라 절대 최소 IOPS 수입니다.
+
+
+
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html["적응형 QoS 정책 그룹을 사용합니다"].
+
+
+
+== 적응형 QoS 정책 설정
+
+적응형 QoS 정책에 대한 설정은 서비스 레벨마다 다릅니다.
+
+
+
+=== Extreme 서비스 레벨 설정
+
+Extreme 서비스 수준의 경우 다음과 같은 설정과 명령을 사용할 수 있습니다.
+
+* 명령 예:
+
+
+....
+qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+....
+* 최소 볼륨 크기: 100GiB, 0.1TiB
+* 최대 볼륨 크기: 10TiB
+
+
+
+
+=== 고급 서비스 수준 설정
+
+프리미엄 서비스 수준의 경우 다음과 같은 설정과 명령이 있습니다.
+
+* 명령 예:
+
+
+....
+qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+....
+* 최소 볼륨 크기: 500GiB, 0.5TiB
+* 최대 볼륨 크기: 50TiB
+
+
+
+
+=== 성능 서비스 수준에 대한 설정입니다
+
+성능 서비스 수준의 경우 다음과 같은 설정과 명령이 있습니다.
+
+* 명령 예:
+
+
+....
+qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+....
+* 최소 볼륨 크기: 500GiB, 0.5TiB
+* 최대 볼륨 크기: 80TiB
+
+
+
+
+=== Value 서비스 수준에 대한 설정입니다
+
+가치 서비스 수준의 설정 및 명령은 다음과 같습니다.
+
+* 명령 예:
+
+
+....
+qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+....
+* 최소 볼륨 크기: 1TiB
+* 최대 볼륨 크기: 100TiB
+
+
+
+
+=== 볼륨 크기 권장 사항
+
+여기에 설명된 각 서비스 수준에 대한 최소 및 최대 볼륨 크기를 통해 볼륨에 대한 최적의 IOP 및 지연 시간 값을 얻을 수 있습니다. 이 지침을 벗어나는 볼륨을 너무 많이 생성하면 해당 볼륨의 성능에 부정적인 영향을 미칠 수 있습니다.
+
+
+
+== 블록 크기 계산
+
+블럭 크기를 계산하기 전에 다음 설정을 사용하여 다음 점을 참고하십시오:
+
+* IOPS/TiB = MBps/TiB 구분(블록 크기 * 1024)
+* 블록 크기(KB/IO)입니다
+* TiB = 1024GiB, GiB = 1024MiB, MiB = 1024KiB, KiB = 1024Bytes, Base 2 당
+* TB = 1000GB, GB = 1000MB, MB = 1000KB, KB = 1000Bytes, 기본 10에 따라
+
+
+서비스 레벨(예: Extreme 서비스 레벨)의 처리량을 계산하려면 다음과 같이 합니다.
+
+* 최대 IOPS: 12,288
+* I/O당 블록 크기: 32KB
+* 최대 처리량 = (12288 * 32 * 1024) / (1024 * 1024) = 384MBps/TiB
+
+
+볼륨에 700GiB의 논리적 사용 데이터가 있는 경우 사용 가능한 처리량은 다음과 같습니다.
+
+최대 처리량 = 384 * 0.7 = 268.8MBps

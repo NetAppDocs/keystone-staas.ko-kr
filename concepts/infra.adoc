@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: concepts/infra.html 
+keywords: keystone infrastructure, infra 
+summary: Keystone 인프라 
+---
+= Keystone 인프라
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 섹션에서는 NetApp 및 고객 운영 환경을 위한 NetApp Keystone 인프라, 아키텍처 및 관리 애플리케이션에 대해 설명합니다.
+
+Keystone 인프라, 설계, 기술 선택, 구성요소 제품은 NetApp의 전적인 재량에 따라 집니다. NetApp은 다음과 같은 조치를 취할 권리를 보유합니다.
+
+* 제품을 선택, 대체 또는 재활용합니다.
+* 적절하다고 판단되는 경우 새로운 기술로 제품을 업데이트합니다.
+* 서비스 요구사항에 맞게 제품의 용량을 늘리거나 줄입니다.
+* 서비스 요구사항에 맞게 아키텍처, 기술 및/또는 제품을 수정합니다.
+
+
+Keystone 인프라에는 다음과 같은 여러 구성요소 등이 있습니다.
+
+* 스토리지 컨트롤러를 포함하는 Keystone 인프라
+* OpsRamp, Active IQ 및 Active IQ Unified Manager와 같은 서비스를 관리하고 운영하는 도구.
+
+
+
+
+== 스토리지 플랫폼
+
+엔터프라이즈 애플리케이션은 빠른 프로비저닝 워크플로우 지원, 지속적인 가용성 유지, 짧은 지연 시간으로 높은 워크로드 유지, 우수한 성능 제공, 주요 클라우드 공급자와의 통합 지원을 위한 스토리지 플랫폼이 필요합니다. NetApp은 이러한 요구사항을 지원하기 위한 여러 제품과 기술을 보유하고 있습니다. Keystone 서비스의 경우 NetApp은 AFF 및 StorageGRID 플랫폼을 사용합니다.
+
+
+
+== 모니터링 도구
+
+Keystone 고객 운영 서비스에서는 스토리지 인프라 및 모니터링 툴이 사이트에 설치됩니다. 스토리지 인프라는 초기 주문을 지원하는 데 필요한 스토리지 하드웨어와 나중에 더 많은 스토리지를 주문할 수 있는 용량 할당으로 구성됩니다.
+
+스토리지 장비 외에도 스토리지 및 소비 모니터링을 위해 2개의 모니터링 툴이 프로비저닝됩니다.
+
+* OpsRamp 로컬 게이트웨이: OpsRamp는 네트워크를 모니터링하는 데 사용되는 클라우드 기반 애플리케이션입니다. NetApp 스토리지 플랫폼과의 내장 통합을 통해 환경 데이터를 수집하고 네트워크를 모니터링할 수 있습니다. 이 서비스는 클라우드 포털과 통신하는 사이트에 설치된 로컬 게이트웨이를 사용하는 데 도움을 줍니다. 을 참조하십시오
+* Keystone 데이터 수집기: Keystone 수집기는 Keystone 고객에게 청구 서비스를 제공합니다. 이 애플리케이션은 Active IQ Unified Manager와 함께 번들로 제공됩니다. 5분마다 ONTAP 및 StorageGRID 컨트롤러의 데이터를 주기적으로 수집합니다. 데이터는 처리되고, 메타데이터는 청구 데이터 생성에 사용되는 AutoSupport 메커니즘을 통해 중앙 집중식 Active IQ 데이터 레이크에 전송됩니다. Active IQ 데이터 레이크는 청구를 위해 데이터를 처리한 후 Zuora에 전송해 청구합니다. Active IQ 디지털 자문 고객 포털을 통해 Keystone 가입 및 소비 상세 정보를 확인하고 로그인할 수 있습니다.
+
+
+image:mgmt-stack.png[""]
+
+자세한 내용은 을 참조하십시오 link:../integrations/keystone-aiq.html["Keystone 및 Active IQ 디지털 자문"]

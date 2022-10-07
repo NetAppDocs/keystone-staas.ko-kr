@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: concepts/consumed-capacity-billing.html 
+keywords: consumed capacity billing, billing and consumed capacity 
+summary: 사용한 용량에 따라 청구 
+---
+= 사용량 기반 측정
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone은 서비스 사용 중에 사용한 용량을 기준으로 측정도 제공합니다.
+
+Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적으로 모니터링하고 측정합니다. 5분마다 시스템에서 서브스크립션 서비스 이용 용량을 상세히 설명하는 소비 레코드가 생성됩니다. 이러한 레코드는 청구서 및 사용 보고서를 생성하기 위해 청구 기간 동안 집계됩니다
+
+Keystone에서 지원되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 link:../concepts/supported-storage-capacity.html["Keystone에서 지원되는 스토리지 용량"]

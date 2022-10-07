@@ -1,0 +1,137 @@
+---
+sidebar: sidebar 
+permalink: concepts/equinix.html 
+keywords: netapp, keystone, Equinix 
+summary: Keystone과 Equinix 
+---
+= Equinix를 기반으로 한 Keystone 코로케이션 서비스
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp은 Equinix 데이터 센터에서 NetApp Keystone 서비스를 호스팅하여, 통합 솔루션을 제공할 수 있도록 Equinix와 협력하고 있습니다.
+
+Equinix를 기반으로 하는 Keystone 코로케이션(Co-Lo) 서비스는 표준 Keystone 서비스 오퍼링과 동일합니다.
+
+이 서비스의 경우:
+
+* Equinix는 공간, 전력, 냉각, 네트워킹, 송장을 스토리지를 제공합니다.
+* 특정 Keystone 영업 동작에 대한 지원이 제공됩니다.
+* 이 서비스는 11개 국가의 21개 데이터 센터에서 지원됩니다.
+
+
+Equinix는 다음과 같은 위치에 데이터 센터를 두고 있습니다.
+
+|===
+| 데이터 센터 | 국가 
+
+
+ a| 
+암스테르담
+| 네덜란드 
+
+
+ a| 
+애틀랜타
+| 미국 
+
+
+ a| 
+시카고
+| 미국 
+
+
+ a| 
+댈러스
+| 미국 
+
+
+ a| 
+덴버
+| 미국 
+
+
+ a| 
+프랑크푸르트
+| 독일 
+
+
+ a| 
+런던
+| 영국 
+
+
+ a| 
+길을 잃었습니다
+| 미국 
+
+
+ a| 
+마드리드
+| 스페인 
+
+
+ a| 
+멜번
+| 오스트레일리아 
+
+
+ a| 
+마이애미
+| 미국 
+
+
+ a| 
+밀라노
+| 이탈리아 
+
+
+ a| 
+오사카
+| 일본 
+
+
+ a| 
+파리
+| 프랑스 
+
+
+ a| 
+시애틀
+| 미국 
+
+
+ a| 
+실리콘밸리
+| 미국 
+
+
+ a| 
+시드니
+| 오스트레일리아 
+
+
+ a| 
+도쿄
+| 일본 
+
+
+ a| 
+토론토
+| 캐나다 
+
+
+ a| 
+워싱턴 DC
+| 미국 
+
+
+ a| 
+취리히
+| 스위스 
+|===

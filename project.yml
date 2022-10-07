@@ -1,0 +1,136 @@
+---
+settings:
+  name: Keystone
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+    langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,fr-fr
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,fr-fr
+sidebar:
+  entries:
+  - title: Keystone 문서
+    url: "/index.html"
+  - title: 시작하십시오
+    entries:
+    - title: Keystone에 대해 자세히 알아보십시오
+      url: "/concepts/overview.html"
+    - title: Keystone에서 지원되는 스토리지 용량
+      url: "/concepts/supported-storage-capacity.html"
+    - title: Keystone 서비스의 메트릭 및 정의
+      url: "/concepts/metrics.html"
+    - title: Keystone에서 지원되는 스토리지 유형
+      url: "/concepts/supported-storage-services.html"
+    - title: Keystone의 서비스 수준
+      url: "/concepts/service-levels.html"
+    - title: 추가 서비스
+      entries:
+      - title: 데이터 계층화
+        url: "/concepts/data-tiering.html"
+      - title: 고급 데이터 보호
+        url: "/concepts/adp.html"
+      - title: 미국 시민 지원(USCS)
+        url: "/concepts/uscs.html"
+      - title: 반품 불가, 비휘발성 구성 요소 및 SnapLock 준수
+        url: "/concepts/nrnvc.html"
+      - title: Keystone과 Equinix
+        url: "/concepts/equinix.html"
+  - title: 서비스 수준에 대해 자세히 알아보십시오
+    entries:
+    - title: 서비스 품질
+      url: "/concepts/qos.html"
+    - title: 서비스 수준에 대한 용량 요구 사항
+      url: "/concepts/capacity-requirements.html"
+  - title: 청구
+    entries:
+    - title: Keystone 가격
+      url: "/concepts/pricing.html"
+    - title: 약정 용량에 따른 청구
+      url: "/concepts/committed-capacity-billing.html"
+    - title: 사용량 기반 측정
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: 버스트 소비에 기초한 청구
+      url: "/concepts/burst-consumption-billing.html"
+    - title: 기타 볼륨 유형에 따른 청구
+      url: "/concepts/misc-volume-billing.html"
+    - title: 청구 일정
+      url: "/concepts/billing-schedules.html"
+  - title: 파트너 및 고객 운영 환경
+    url: "/concepts/operational-models.html"
+  - title: Keystone 인프라
+    entries:
+    - title: 인프라 세부 정보
+      url: "/concepts/infra.html"
+    - title: 구성 요소
+      url: "/concepts/components.html"
+    - title: 모니터링 응용 프로그램으로서 OpsRamp
+      url: "/concepts/opsramp.html"
+    - title: 데이터 흐름
+      url: "/concepts/data-flow.html"
+  - title: NetApp 글로벌 서비스 지원 센터
+    url: "/concepts/gssc.html"
+  - title: Keystone 서비스로 더 많은 작업 수행
+    entries:
+    - title: Keystone과 클라우드 매니저
+      url: "/integrations/keystone-cm.html"
+    - title: Keystone 및 Active IQ 디지털 자문
+      url: "/integrations/keystone-aiq.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: NetApp Keystone란 무엇입니까?
+      url: "/concepts/overview.html"
+    - title: 측정 단위는 무엇입니까?
+      url: "/concepts/metrics.html"
+    - title: 지원되는 기본 스토리지는 무엇입니까?
+      url: "/concepts/supported-storage-services.html"
+    - title: 데이터 계층화란?
+      url: "/concepts/data-tiering.html"
+    - title: Keystone 데이터가 보호되고 있습니까?
+      url: "/concepts/adp.html"
+  - title: Keystone의 서비스 수준
+    links:
+    - title: Keystone 서비스 수준
+      url: "/concepts/service-levels.html"
+    - title: 서비스 품질(QoS)
+      url: "/concepts/qos.html"
+    - title: 서비스 수준에 대한 용량 요구 사항
+      url: "/concepts/capacity-requirements.html"
+    - title: 내 소비 데이터를 어떻게 볼 수 있습니까?
+      url: "/integrations/keystone-aiq.html"
+  - title: Keystone 가격
+    links:
+    - title: Keystone 청구에 대해 알아보십시오
+      url: "/concepts/pricing.html"
+    - title: 내 청구 일정
+      url: "/concepts/billing-schedules.html"
+    - title: 약정 용량에 따른 청구
+      url: "/concepts/committed-capacity-billing.html"
+    - title: 사용량 기반 측정
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: 약속된 용량보다 많은 용량을 소비하면 어떻게 됩니까?
+      url: "/concepts/burst-consumption-billing.html"
+  - title: Keystone 서비스로 더 많은 작업 수행
+    links:
+    - title: 지원 팀 파악(Keystone GSSC)
+      url: "/concepts/gssc.html"
+    - title: Keystone과 클라우드 매니저
+      url: "/integrations/keystone-cm.html"
+    - title: Keystone 및 Active IQ 디지털 자문
+      url: "/integrations/keystone-aiq.html"
+    - title: 미국 시민 지원
+      url: "/concepts/uscs.html"
+  - title: 자세히 알아보십시오
+    links:
+    - title: 유연한 Keystone 구독
+      url: https://docs.netapp.com/us-en/keystone/
+    - title: Active IQ Digital Advisor
+      url: https://docs.netapp.com/us-en/active-iq/index.html
+    - title: 클라우드 관리자
+      url: https://docs.netapp.com/us-en/cloud-manager-family/
+    - title: Active IQ Unified Manager
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager/
