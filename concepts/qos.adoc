@@ -16,15 +16,15 @@ summary: Keystone의 서비스 품질
 [role="lead"]
 스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS가 없으면 여러 시스템 부팅 같은 특정 워크로드에서 전체 리소스를 일정 기간 동안 소모하여 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"].
 
-QoS를 적용하면 애플리케이션이 항상 일관된 성능을 얻을 수 있습니다. NetApp ONTAP는 QoS 상한에 대해 두 가지 매개 변수를 정의합니다. https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["QoS 최대"]및 처리량 플로어 - https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["최소 QoS"]. QoS Max는 워크로드가 달성할 수 있는 최대 IOPS 또는 MBps 또는 IOPS 및 MBps 수를 나타냅니다. 반면 QoS Min은 워크로드의 처리량이 특정 IOPS 또는 MBps, 즉 IOPS 및 MBps 이하로 보장되지 않습니다.
+QoS를 적용하면 애플리케이션이 항상 일관된 성능을 얻을 수 있습니다. NetApp ONTAP는 QoS 상한에 대해 두 가지 매개 변수를 정의합니다. https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["QoS 최대"]및 처리량 플로어 - https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["최소 QoS"]. QoS Max는 워크로드가 달성할 수 있는 최대 IOPS 또는 MBps 또는 IOPS 및 MBps 수를 나타냅니다. 반면에 QoS Min은 워크로드의 처리량이 특정 IOPS 또는 MBps, 즉 IOPS 및 MBps 이하로 보장되지 않습니다.
 
 
 
 == 적응형 QoS
 
-Keystone 서비스에는 적응형 QoS가 사용되며, QoS 정책은 크기에 따라 IOPS와 TB/GB의 비율을 유지합니다. 적응형 QoS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["적응형 QoS에 대해 알아보십시오"].
+Keystone 서비스에 적응형 QoS를 사용하면 QoS 정책이 자동으로 적용되는 크기에 따라 IOPS와 TB/GB의 비율을 유지할 수 있습니다. 적응형 QoS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["적응형 QoS에 대해 알아보십시오"].
 
-Keystone은 클러스터가 운영 환경에 있을 때 설정할 수 있는 적응형 QoS 정책을 제공합니다. 모든 볼륨이 이미 생성되어 시스템에서 사용 가능한 올바른 적응형 QoS 정책과 연결되어 있는지 확인해야 합니다.
+Keystone은 클러스터가 운영 중인 경우 설정할 수 있는 적응형 QoS 정책을 제공합니다. 모든 볼륨이 이미 생성되어 시스템에서 사용 가능한 올바른 적응형 QoS 정책과 연결되어 있는지 확인해야 합니다.
 
 
 NOTE: 볼륨에 적응형 QoS 정책을 올바르게 적용하지 않은 경우, 가입형 정액제에 따라 해당 볼륨을 가장 높은 서비스 수준에서 측정 및 청구됩니다. 이로 인해 의도하지 않은 폭발이 발생할 수 있습니다.
@@ -60,7 +60,7 @@ NOTE: 이는 IOPS 밀도(예: 75 IOPS/TiB)가 아니라 절대 최소 IOPS 수�
 
 === Extreme 서비스 레벨 설정
 
-Extreme 서비스 수준의 경우 다음과 같은 설정과 명령을 사용할 수 있습니다.
+Extreme 서비스 레벨을 위한 설정 및 명령:
 
 * 명령 예:
 
@@ -76,8 +76,7 @@ qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_
 
 === 고급 서비스 수준 설정
 
-프리미엄 서비스 수준의 경우 다음과 같은 설정과 명령이 있습니다.
-
+ Settings and commands for the Premium service level:
 * 명령 예:
 
 
@@ -92,7 +91,7 @@ qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_
 
 === 성능 서비스 수준에 대한 설정입니다
 
-성능 서비스 수준의 경우 다음과 같은 설정과 명령이 있습니다.
+성능 서비스 수준에 대한 설정 및 명령:
 
 * 명령 예:
 
@@ -108,8 +107,7 @@ qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <
 
 === Value 서비스 수준에 대한 설정입니다
 
-가치 서비스 수준의 설정 및 명령은 다음과 같습니다.
-
+ Settings and commands for the Value  service level:
 * 명령 예:
 
 

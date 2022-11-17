@@ -14,19 +14,24 @@ summary: 고급 데이터 보호
 
 
 [role="lead"]
-Keystone 가입 시 고급 데이터 보호 애드온 서비스를 이용할 수 있습니다.
+Keystone 가입 시 고급 데이터 보호 애드온 서비스를 이용할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 제로 RPO(복구 시점 목표)에서 미션 크리티컬 워크로드에 대한 효율적인 데이터 보호를 보장합니다.
 
-기본 스토리지 및 클라우드 스토리지 서비스에 대한 자세한 내용은 를 참조하십시오 link:../concepts/supported-storage-services.html["지원되는 스토리지 서비스"]
+Keystone의 기본 스토리지 서비스는 파일 및 블록 스토리지 서비스를 위한 데이터 보호 서비스(SnapMirror, SnapVault, Snapshot 등의 NetApp 기술 활용)를 제공합니다.
 
-서비스 수준에 대한 자세한 내용은 을 참조하십시오 link:../concepts/service-levels.html["Keystone의 서비스 수준"]
+기본 스토리지 및 클라우드 스토리지 서비스에 대한 자세한 내용은 를 참조하십시오 link:../concepts/supported-storage-services.html["지원되는 스토리지 서비스"].
 
-Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있으며, 기본 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster 문서"]
+서비스 수준에 대한 자세한 내용은 을 참조하십시오 link:../concepts/service-levels.html["Keystone의 서비스 수준"].
 
-추가 비용은 서브스크립션의 모든 용량, 즉 소스, 미러링된 복사본 및 미러링되지 않은 데이터에 적용됩니다.
+Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster 문서"].
 
-다음 사항에 유의하십시오.
+추가 비용은 서브스크립션의 모든 용량(소스, 미러링된 복사본 및 미러링되지 않은 데이터)에 적용됩니다.
+
+
+NOTE: 참고:
 
 * 이 서비스의 경우 연결된 스토리지 서비스에서 커밋된 용량의 100%가 커밋된 용량으로 구성됩니다.
 * 스토리지는 소스 및 대상 클러스터 모두에 대해 비용이 청구됩니다. 이 애드온 서비스는 운영 및 2차(미러링된) 볼륨 모두에 대해 비용이 청구됩니다.
-* 요금은 파일 및 블록 스토리지 서비스에만 적용됩니다.
+* 요금은 파일 및 블록 스토리지 서비스에만 적용됩니다. 지원되는 MetroCluster 시나리오는 다음과 같습니다.
 
+
+image:mcc.png["Keystone에서 지원하는 MetroCluster 구성"]

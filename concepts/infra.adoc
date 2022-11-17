@@ -50,4 +50,4 @@ Keystone 고객 운영 서비스에서는 스토리지 인프라 및 모니터�
 
 image:mgmt-stack.png[""]
 
-자세한 내용은 을 참조하십시오 link:../integrations/keystone-aiq.html["Keystone 및 Active IQ 디지털 자문"]
+자세한 내용은 을 참조하십시오 link:../integrations/keystone-aiq.html["Keystone 및 Active IQ 디지털 자문"].

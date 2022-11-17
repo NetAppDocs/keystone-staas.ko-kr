@@ -14,13 +14,15 @@ summary: 지원되는 스토리지 서비스
 
 
 [role="lead"]
-Keystone 서비스는 파일 및 블록 스토리지와 같은 기본 스토리지 유형의 ONTAP를 지원합니다. StorageGRID 플랫폼용 오브젝트 스토리지도 지원합니다. Cloud Volumes ONTAP의 데이터 관리 기능도 지원됩니다.
+Keystone 서비스는 ONTAP, 파일 및 블록의 기본 스토리지 유형을 지원합니다. 또한 StorageGRID 플랫폼용 오브젝트 스토리지와 Cloud Volumes ONTAP의 데이터 관리 기능도 지원합니다.
 
-서비스 수준에 대한 자세한 내용은 을 참조하십시오 link:../concepts/service-levels.html["Keystone의 서비스 수준"]
+서비스 수준에 대한 자세한 내용은 을 참조하십시오 link:../concepts/service-levels.html["Keystone의 서비스 수준"].
 
 
 
 == 기본 스토리지 서비스
+
+Keystone의 기본 스토리지 서비스는 SnapMirror, SnapVault, Snapshot 등의 NetApp 기술과 파일 및 블록 스토리지 서비스에 지원되는 NetApp 스토리지 대상의 계층화 기능을 활용하여 데이터 보호 서비스를 제공합니다. 또한 데이터 보호 및 계층화를 위한 애드온 서비스를 선택할 수 있습니다. 추가 서비스에 대한 자세한 내용은 을 참조하십시오 link:../concepts/adp.html["고급 데이터 보호"] 및 link:../concepts/data-tiering.html["데이터 계층화"].
 
 |===
 | 스토리지 서비스 | 기초 | 지원되는 기능 | 프로토콜 
@@ -43,13 +45,13 @@ Keystone 서비스는 파일 및 블록 스토리지와 같은 기본 스토리�
 
 NOTE: NetApp 스토리지 타겟에 대한 데이터 계층화는 기본적으로 파일 및 블록 스토리지 서비스 계층에 포함됩니다.
 
-데이터 계층화에 대한 자세한 내용은 를 참조하십시오 link:../concepts/data-tiering.html["데이터 계층화"]데이터 보호 서비스에 대한 자세한 내용은 을 참조하십시오 link:../concepts/adp.html["고급 데이터 보호"]
+데이터 계층화에 대한 자세한 내용은 를 참조하십시오 link:../concepts/data-tiering.html["데이터 계층화"]. 데이터 보호 서비스에 대한 자세한 내용은 을 참조하십시오 link:../concepts/adp.html["고급 데이터 보호"].
 
 
 
 == 클라우드 스토리지 서비스
 
-Keystone은 AWS, Azure 및 Google_에서 지원되는 Cloud Volumes ONTAP의 _ 데이터 관리 기능을 지원합니다. 이 서비스는 기존 구독과 상호 연계할 수 있습니다. 클라우드 서비스는 서비스 기간 중 언제든지 포함될 수 있습니다. 그러나 가입을 갱신하지 않을 계획이라면 가입 후 90일 이내에 클라우드 서비스를 포함시킬 수 없습니다.
+Keystone은 AWS(Amazon Web Services), Microsoft Azure, Google 클라우드 플랫폼에서 Cloud Volumes ONTAP를 위한 데이터 관리 기능을 지원합니다. 이 서비스는 기존 구독과 상호 연계할 수 있습니다. 클라우드 서비스는 서비스 기간 중 언제든지 포함될 수 있습니다. 그러나 가입을 갱신하지 않을 계획이라면 가입 후 90일 이내에 클라우드 서비스를 포함시킬 수 없습니다.
 
 
-NOTE: NetApp은 하이퍼스케일 기반 컴퓨팅 및 스토리지 인프라를 Keystone 서브스크립션의 일부로 제공하지 않으며 하이퍼스케일 클라우드 서비스 공급자로부터 이를 조달해야 합니다.
+NOTE: NetApp은 하이퍼스케일 기반 컴퓨팅 및 스토리지 인프라를 Keystone 서브스크립션의 일부로 제공하지 않으며 하이퍼스케일 클라우드 서비스 공급자로부터 조달해야 합니다.

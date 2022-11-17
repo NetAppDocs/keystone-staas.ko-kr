@@ -14,19 +14,19 @@ summary: Keystone 데이터 흐름
 
 
 [role="lead"]
-Keystone 시스템은 두 시스템, Keystone Collector 트래픽 및 데이터 흐름을 모니터링하는 데이터 흐름을 마주합니다.
+Keystone 시스템은 Keystone Collector 트래픽을 통해 데이터 흐름을 마주하고 데이터 흐름을 모니터링합니다.
 
 
 
 == Keystone Collector 데이터 흐름
 
-Keystone Collector는 스토리지 컨트롤러에 대한 REST API 호출을 주기적으로 시작하고 다음 이미지에 설명된 대로 컨트롤러의 사용 세부 정보를 가져옵니다.
+Keystone Collector는 스토리지 컨트롤러에 대한 REST API 호출을 시작하고 컨트롤러의 사용 세부 정보를 정기적으로 가져옵니다.
 
 image:collector-data-flow.png[""]
 
 .범례
 . NetApp Collector는 Active-IQ 클라우드 포털에 대한 HTTPS 세션을 시작합니다.
-. 고객이 운영하는 방화벽은 이 연결을 허용해야 합니다.
+. 고객이 운영하는 방화벽은 연결을 허용합니다.
 . Active IQ 클라우드 포털은 연결을 수락하고 NetApp Collector에 대한 터널을 설정합니다.
 . NetApp Collector는 스토리지 컨트롤러의 관리 연결에 REST API 세션을 설정하고 환경 데이터를 가져온 다음 Active IQ 포털로 보냅니다.
 
@@ -41,9 +41,9 @@ image:monitoring-flow.png[""]
 
 .범례
 . OpsRamp 게이트웨이는 클라우드의 OpsRamp 클라우드 포털로 TLS 세션을 시작합니다.
-. 고객이 운영하는 방화벽은 이 연결을 허용해야 합니다.
+. 고객이 운영하는 방화벽은 연결을 허용합니다.
 . 클라우드의 OpsRamp 서버가 연결을 수락합니다.
-. TLS 터널은 OpsRamp 클라우드 포털과 OpsRamp 로컬 게이트웨이 사이에 설정됩니다.
+. OpsRamp 클라우드 포털과 OpsRamp 로컬 게이트웨이 사이에 TLS 터널이 설정됩니다.
 . NetApp 컨트롤러는 SNMP 프로토콜을 사용하여 경고를 보내거나 OpsRamp 로컬 게이트웨이로 API 요청에 응답합니다.
 . OpsRamp 로컬 게이트웨이는 이전에 설정된 TLS 세션을 사용하여 이러한 경고를 클라우드 포털로 전송합니다.
 
