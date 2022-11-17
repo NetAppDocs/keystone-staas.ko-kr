@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/ko-kr/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/ko-kr/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/ko-kr/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone-staas/js/na-search.js'></script><script src='/ko-kr/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/ko-kr/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/ko-kr/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone-staas/js/na-search.js'></script><script src='/ko-kr/keystone-staas/js/na-pagenav.js'></script><script src='/ko-kr/keystone-staas/js/na-utility.js'></script>
   <script src='/ko-kr/keystone-staas/js/clouddocs.js'></script>
   <script src='/ko-kr/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/ko-kr/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 시작하십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone에 대해 자세히 알아보십시오"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 추가 서비스</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="데이터 계층화"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 서비스 수준에 대해 자세히 알아보십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="서비스 품질"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 청구</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone 가격"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone 인프라</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="인프라 세부 정보"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone 서비스로 더 많은 작업 수행</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone과 클라우드 매니저"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:08:44 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:41:54 +0000">11/17/2022</time>
     
   
 
@@ -919,21 +907,23 @@
 
 </p>
 
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph lead">
-<p>Keystone 청구에는 여러 시나리오가 있으며, 이러한 시나리오에 대해 잘 알고 있어야 합니다.</p>
-</div>
-</div>
-</div>
 <div class="sect1">
 <h2 id="복제된-볼륨에-대한-청구">복제된 볼륨에 대한 청구</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>ONTAP에서 볼륨을 클로닝하고 이를 사용하여 데이터를 백업 및 복원하는 경우 추가 비용 없이 클론을 계속 사용할 수 있습니다. 그러나 광범위한 기간 동안 비즈니스의 다른 목적으로 사용된 복제된 볼륨은 청구됩니다.</p>
+<p>ONTAP에서 볼륨을 클론 복제한 후 데이터를 백업 및 복원하는 데 사용할 경우 추가 비용 없이 클론을 계속 사용할 수 있습니다. 그러나 광범위한 기간 동안 비즈니스의 다른 목적으로 사용된 복제된 볼륨은 청구됩니다.</p>
 </div>
-<div class="paragraph">
-<p>다음 사항에 유의하십시오.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/keystone-staas/images/note.svg" alt="참고">
+</td>
+<td class="content">
+참고:
+</td>
+</tr>
+</table>
 </div>
 <div class="ulist">
 <ul>
@@ -941,7 +931,7 @@
 <p>클론 생성 후 처음 24시간 동안에는 클론 복제된 볼륨의 사용이 고려되지 않으며 이 시간 동안 비용이 발생하지 않습니다.</p>
 </li>
 <li>
-<p>새 데이터가 볼륨에 기록되지 않은 경우 표준 및 가치 서비스 수준을 사용하여 복제된 볼륨은 소비로 간주되지 않습니다. 예를 들어 백업 또는 복원 사용 사례에서는 클론 복제된 볼륨에서 데이터를 백업 또는 복원해도 클론 복제된 볼륨 자체의 데이터는 변경되지 않으며 소비로 간주되지 않습니다.</p>
+<p>표준 및 가치 서비스 수준을 가진 클론 복제된 볼륨은 새 데이터가 볼륨에 기록되지 않는 경우 소비로 간주되지 않습니다. 예를 들어 백업 또는 복원 사용 사례에서는 클론 복제된 볼륨에서 데이터를 백업 또는 복원해도 클론 복제된 볼륨 자체의 데이터는 변경되지 않으며 소비로 간주되지 않습니다.</p>
 </li>
 </ul>
 </div>
@@ -951,7 +941,10 @@
 <h2 id="고급-데이터-보호에-대한-청구">고급 데이터 보호에 대한 청구</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>고급 데이터 보호 기능은 NetApp MetroCluster를 사용하여 물리적으로 분리된 두 클러스터 간에 데이터를 미러링합니다. MetroCluster 미러링된 애그리게이트의 경우 각 클러스터에 데이터가 두 번 기록됩니다. Keystone 서비스는 각 측면에서 독립적으로 소비에 청구되므로 두 개의 동일한 소비 레코드가 생성됩니다. ONTAP 시스템 관리자(System Manager) 또는 Active IQ Unified Manager(Unified Manager)를 통해 클러스터를 모니터링하는 경우 이러한 툴과 Keystone에 보고된 소비 사이에 차이가 있을 수 있습니다. System Manager 및 Unified Manager는 미러링된(원격) 클러스터에 볼륨을 보고하지 않으며, Keystone 서비스가 보고하는 소비 메트릭의 절반만 보고합니다.</p>
+<p>고급 데이터 보호 기능은 NetApp MetroCluster를 사용하여 물리적으로 분리된 두 클러스터 간에 데이터를 미러링합니다. MetroCluster 미러링된 애그리게이트의 경우 각 클러스터에 데이터가 두 번 기록됩니다. Keystone 서비스는 각 측면에서 독립적으로 소비에 청구되므로 두 개의 동일한 소비 레코드가 생성됩니다. 추가 비용은 데이터가 소스에 있는지, 미러링 또는 미러링되지 않은 데이터인지에 관계없이 구독의 모든 용량에 적용됩니다.</p>
+</div>
+<div class="paragraph">
+<p>ONTAP 시스템 관리자(System Manager) 또는 Active IQ Unified Manager(Unified Manager)를 통해 클러스터를 모니터링하는 경우 이러한 툴과 Keystone에 보고된 소비 사이에 차이가 있을 수 있습니다. System Manager 및 Unified Manager는 미러링된(원격) 클러스터에 볼륨을 보고하지 않으며, Keystone 서비스가 보고하는 소비 메트릭의 절반만 보고합니다.</p>
 </div>
 <div class="paragraph">
 <p>사이트 A와 사이트 B는 MetroCluster 구성으로 설정됩니다. 사용자가 사이트 A에서 10TB의 볼륨을 생성하면 사이트 B에서 동일한 10TB의 볼륨이 생성됩니다 Keystone은 각 사이트에서 10TB의 소비를 식별하여 20TB를 총 늘립니다. System Manager 및 Unified Manager에서는 사이트 A에서 10TB 볼륨을 생성하지만 사이트 B에서는 10TB 볼륨을 보고하지 않습니다</p>
@@ -981,7 +974,7 @@
 <h2 id="snapmirror-대상에-대한-청구">SnapMirror 대상에 대한 청구</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>SnapMirror 대상 볼륨의 가격은 소스에 할당된 서비스 수준에 대한 QoS 정책에 따라 결정됩니다. 하지만 소스에 연결된 QoS 정책이 없는 경우 사용 가능한 최저 서비스 수준을 기준으로 대상에 비용이 청구됩니다.</p>
+<p>SnapMirror 대상 볼륨의 가격은 소스에 할당된 서비스 수준에 대한 QoS 정책의 적용을 받습니다. 하지만 소스에 연결된 QoS 정책이 없는 경우 사용 가능한 최저 서비스 수준을 기준으로 대상에 비용이 청구됩니다.</p>
 </div>
 </div>
 </div>
@@ -989,7 +982,7 @@
 <h2 id="lun에-대한-청구">LUN에 대한 청구</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>LUN의 경우 일반적으로 QoS 정책이 적용되는 볼륨과 동일한 청구 패턴이 이어집니다. LUN에 별도의 QoS 정책이 설정된 경우 다음을 수행합니다.</p>
+<p>LUN의 경우 QoS 정책이 적용되는 볼륨과 동일한 청구 패턴이 이어집니다. LUN에 별도의 QoS 정책이 설정된 경우 다음을 수행합니다.</p>
 </div>
 <div class="ulist">
 <ul>

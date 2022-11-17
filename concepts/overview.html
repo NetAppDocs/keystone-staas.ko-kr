@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/ko-kr/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/ko-kr/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/ko-kr/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone-staas/js/na-search.js'></script><script src='/ko-kr/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/ko-kr/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/ko-kr/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone-staas/js/na-search.js'></script><script src='/ko-kr/keystone-staas/js/na-pagenav.js'></script><script src='/ko-kr/keystone-staas/js/na-utility.js'></script>
   <script src='/ko-kr/keystone-staas/js/clouddocs.js'></script>
   <script src='/ko-kr/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/ko-kr/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 시작하십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone에 대해 자세히 알아보십시오"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 추가 서비스</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="데이터 계층화"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 서비스 수준에 대해 자세히 알아보십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="서비스 품질"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 청구</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone 가격"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone 인프라</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="인프라 세부 정보"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone 서비스로 더 많은 작업 수행</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone과 클라우드 매니저"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:08:44 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:41:54 +0000">11/17/2022</time>
     
   
 
@@ -922,16 +910,16 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>Keystone(NetApp Keystone)은 확장에 따른 지불 가입형 기반 서비스 모델로, OpEx 소비 모델을 선호하는 투자자들에게 자본 지출 또는 임대를 선보이며 원활한 하이브리드 클라우드 경험을 제공합니다.</p>
+<p>Keystone(NetApp Keystone)은 확장에 따른 지불 방식의 구독 기반 서비스 모델로, OpEx 소비 모델을 선호하는 기업에 원활한 하이브리드 클라우드 경험을 제공하여 자본 지출 또는 임대를 지원합니다.</p>
 </div>
 <div class="paragraph">
-<p>따라서 고객은 예측할 수 없는 용량 증가를 관리하고 복잡한 조달 주기를 따르는 데 따르는 복잡성을 줄임으로써 가치 창출 시간을 단축할 수 있습니다. Keystone을 통해 고객은 비즈니스 우선순위에 맞게 경제성과 운영을 조정할 수 있습니다.</p>
+<p>Keystone을 통해 고객은 예측할 수 없는 용량 증가 및 복잡한 조달 주기를 관리하는 데 따르는 장애물이 줄어 비즈니스 가치를 신속하게 창출할 수 있습니다. Keystone을 통해 고객은 비즈니스 우선순위에 맞게 경제성과 운영을 조정할 수 있습니다.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="../media/nkfsosm_image2.png" alt="오류: 그래픽 이미지가 없습니다"></span></p>
 </div>
 <div class="paragraph">
-<p>Keystone은 사전 정의된 서비스 수준에서 블록, 파일 및 오브젝트 데이터 유형을 위한 스토리지 용량을 제공하며 NetApp, 파트너 또는 고객이 운영하는 구독 기반 서비스 오퍼링입니다. 뿐만 아니라, 선택한 하이퍼스케일 환경에 구축할 수 있는 Cloud Volumes ONTAP 같은 NetApp 클라우드 서비스와도 연계할 수 있습니다.</p>
+<p>Keystone은 온프레미스 및 NetApp, 파트너 또는 고객이 운영하는 블록, 파일 및 오브젝트 데이터 유형에 대해 사전 정의된 서비스 수준에서 스토리지 용량을 제공합니다. Keystone을 선택한 하이퍼스케일 환경에 구축할 수 있는 Cloud Volumes ONTAP 같은 NetApp 클라우드 서비스와 함께 사용할 수 있습니다.</p>
 </div>
 </div>
 </div>
@@ -939,7 +927,7 @@
 <h2 id="staaskeystone-스토리지-as-a-service">STaaS(Keystone 스토리지-as-a-Service)</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>대다수의 기업이 하이브리드 클라우드 전략을 수립하고 있지만, 고객으로서 OpEx 기반 Pay-per-Use_Consumption 모델로 전환을 연기하고 싶지 않을 수 있습니다. 언젠가는 클라우드로 이동해야 할 수도 있지만 워크로드의 일부 또는 전부를 클라우드로 이동해야 하는 시기를 알 수 없을 수도 있습니다. Keystone 서비스형 스토리지는 온프레미스 서비스로 시작한 후 나중에 적절한 워크로드와 클라우드로 이동할 시기를 결정할 수 있는 유연성을 제공합니다. Keystone STaaS(Storage-as-a-Service)는 온프레미스 서비스에 클라우드 서비스 비용을 추가하는 대신 전체 구축 모델에 대한 약정 보호를 제공합니다. 고객은 사내 지출을 재할당하여 클라우드 서비스를 추가하고 이 재할당이 이행되기 이전에 지불했던 최소 월간 청구서를 지불할 수 있습니다.</p>
+<p>대다수의 기업이 하이브리드 클라우드 전략을 수립하고 있지만, 고객으로서 OpEx 기반_Pay-per-use_Consumption 모델을 선택할 수 있습니다. 모든 워크로드를 클라우드로 이동해야 하는 경우도 있지만, 특정 부분 또는 모든 워크로드를 클라우드로 마이그레이션할 계획이나 일정은 아직 없습니다. Keystone STaaS(Storage-as-a-Service)는 온프레미스 서비스로 시작한 후 나중에 적절한 워크로드와 클라우드로 이동할 시기를 결정할 수 있는 유연성을 제공합니다. Keystone STaaS는 전체 구축 모델에 대한 약속 보호를 제공합니다. 온프레미스 고객은 클라우드 서비스에 대해 더 많은 비용을 지불하는 대신 사내 지출을 재할당하여 클라우드 서비스를 추가하고 이 재할당 전에 했던 것과 동일한 월간 청구서를 기본적으로 지불할 수 있습니다.</p>
 </div>
 </div>
 </div>

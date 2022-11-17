@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/ko-kr/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/ko-kr/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/ko-kr/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone-staas/js/na-search.js'></script><script src='/ko-kr/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/ko-kr/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/ko-kr/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone-staas/js/na-search.js'></script><script src='/ko-kr/keystone-staas/js/na-pagenav.js'></script><script src='/ko-kr/keystone-staas/js/na-utility.js'></script>
   <script src='/ko-kr/keystone-staas/js/clouddocs.js'></script>
   <script src='/ko-kr/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/ko-kr/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 시작하십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone에 대해 자세히 알아보십시오"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 추가 서비스</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="데이터 계층화"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 서비스 수준에 대해 자세히 알아보십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="서비스 품질"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 청구</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone 가격"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone 인프라</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="인프라 세부 정보"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone 서비스로 더 많은 작업 수행</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone과 클라우드 매니저"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:08:44 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:41:54 +0000">11/17/2022</time>
     
   
 
@@ -920,22 +908,34 @@
 </p>
 
 <div class="paragraph lead">
-<p>Keystone 가입 시 고급 데이터 보호 애드온 서비스를 이용할 수 있습니다.</p>
+<p>Keystone 가입 시 고급 데이터 보호 애드온 서비스를 이용할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 제로 RPO(복구 시점 목표)에서 미션 크리티컬 워크로드에 대한 효율적인 데이터 보호를 보장합니다.</p>
 </div>
 <div class="paragraph">
-<p>기본 스토리지 및 클라우드 스토리지 서비스에 대한 자세한 내용은 를 참조하십시오 <a href="../concepts/supported-storage-services.html">"지원되는 스토리지 서비스"</a></p>
+<p>Keystone의 기본 스토리지 서비스는 파일 및 블록 스토리지 서비스를 위한 데이터 보호 서비스(SnapMirror, SnapVault, Snapshot 등의 NetApp 기술 활용)를 제공합니다.</p>
 </div>
 <div class="paragraph">
-<p>서비스 수준에 대한 자세한 내용은 을 참조하십시오 <a href="../concepts/service-levels.html">"Keystone의 서비스 수준"</a></p>
+<p>기본 스토리지 및 클라우드 스토리지 서비스에 대한 자세한 내용은 를 참조하십시오 <a href="../concepts/supported-storage-services.html">"지원되는 스토리지 서비스"</a>.</p>
 </div>
 <div class="paragraph">
-<p>Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있으며, 기본 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <a href="https://docs.netapp.com/us-en/ontap-metrocluster">"MetroCluster 문서"</a></p>
+<p>서비스 수준에 대한 자세한 내용은 을 참조하십시오 <a href="../concepts/service-levels.html">"Keystone의 서비스 수준"</a>.</p>
 </div>
 <div class="paragraph">
-<p>추가 비용은 서브스크립션의 모든 용량, 즉 소스, 미러링된 복사본 및 미러링되지 않은 데이터에 적용됩니다.</p>
+<p>Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <a href="https://docs.netapp.com/us-en/ontap-metrocluster">"MetroCluster 문서"</a>.</p>
 </div>
 <div class="paragraph">
-<p>다음 사항에 유의하십시오.</p>
+<p>추가 비용은 서브스크립션의 모든 용량(소스, 미러링된 복사본 및 미러링되지 않은 데이터)에 적용됩니다.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/keystone-staas/images/note.svg" alt="참고">
+</td>
+<td class="content">
+참고:
+</td>
+</tr>
+</table>
 </div>
 <div class="ulist">
 <ul>
@@ -946,9 +946,12 @@
 <p>스토리지는 소스 및 대상 클러스터 모두에 대해 비용이 청구됩니다. 이 애드온 서비스는 운영 및 2차(미러링된) 볼륨 모두에 대해 비용이 청구됩니다.</p>
 </li>
 <li>
-<p>요금은 파일 및 블록 스토리지 서비스에만 적용됩니다.</p>
+<p>요금은 파일 및 블록 스토리지 서비스에만 적용됩니다. 지원되는 MetroCluster 시나리오는 다음과 같습니다.</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../media/mcc.png" alt="Keystone에서 지원하는 MetroCluster 구성"></span></p>
 </div>
 
     </article>

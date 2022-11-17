@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/ko-kr/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/ko-kr/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/ko-kr/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone-staas/js/na-search.js'></script><script src='/ko-kr/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/ko-kr/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/ko-kr/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone-staas/js/na-search.js'></script><script src='/ko-kr/keystone-staas/js/na-pagenav.js'></script><script src='/ko-kr/keystone-staas/js/na-utility.js'></script>
   <script src='/ko-kr/keystone-staas/js/clouddocs.js'></script>
   <script src='/ko-kr/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/ko-kr/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 시작하십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone에 대해 자세히 알아보십시오"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 추가 서비스</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="데이터 계층화"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 서비스 수준에 대해 자세히 알아보십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="서비스 품질"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 청구</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone 가격"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone 인프라</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="인프라 세부 정보"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone 서비스로 더 많은 작업 수행</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone과 클라우드 매니저"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:08:44 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:41:54 +0000">11/17/2022</time>
     
   
 
@@ -922,7 +910,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>OpsRamp는 Keystone에서 자산을 검색, 모니터링 및 지속적으로 관리하는 데 사용하는 SaaS 기반 애플리케이션입니다. OpsRamp 툴을 사용하면 NetApp 모니터링 팀이 Keystone을 구축하는 고객에게 모니터링 및 관리 서비스를 원격으로 제공할 수 있습니다.</p>
+<p>OpsRamp는 Keystone이 자산을 검색, 모니터링 및 지속적으로 관리하는 데 사용하는 SaaS 기반 애플리케이션입니다. OpsRamp를 사용하면 NetApp 모니터링 팀이 Keystone을 구축하는 고객에게 원격 모니터링 및 관리 서비스를 원격으로 제공할 수 있습니다.</p>
 </div>
 <div class="paragraph">
 <p>이 도구는 일반적으로 IT 환경에서 사용되는 응용 프로그램, 서버, 네트워킹 장치, 컨테이너 및 기타 리소스와 같은 자산을 검색할 수 있는 풍부하고 강력한 기능을 갖추고 있습니다. 이 원격 관리 서비스는 여러 위치에 쉽게 구축하고 데이터를 빠르게 수집하며 중앙 집중식 대시보드에서 쉽게 볼 수 있습니다. OpsRamp 프로그램에 대한 자세한 내용을 보려면 을 방문하십시오 <a href="https://docs.opsramp.com/" class="bare">https://docs.opsramp.com/</a>.</p>
@@ -964,24 +952,24 @@
 <p>OpsRamp는 SOC 2 Type II와 같은 표준을 준수하며 보안, 가용성 및 기밀성에 대한 ISO 27001 및 SOC 1 Type I 표준을 준수하는 Tier 1 데이터 센터 제공업체에서 호스팅됩니다.</p>
 </div>
 <div class="paragraph">
-<p>또한 OpsRamp는 Keystone 팀에 다음과 같은 보안 기능을 제공합니다.</p>
+<p>또한 OpsRamp는 Keystone에 다음과 같은 보안 기능을 제공합니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>OpsRamp는 사용자 활동 로그를 유지 관리하며 Keystone 팀은 사용자 활동에 대한 임시 또는 예약된 보고서를 생성할 수 있습니다</p>
+<p>OpsRamp는 사용자 활동 로그를 유지 관리하며 Keystone은 사용자 활동에 대한 임시 또는 예약된 보고서를 생성할 수 있습니다.</p>
 </li>
 <li>
-<p>OpsRamp 게이트웨이에서 OpsRamp 클라우드 포털로의 모든 통신은 TLS 암호화됩니다</p>
+<p>OpsRamp 게이트웨이에서 OpsRamp 클라우드 포털로의 모든 통신은 TLS 암호화됩니다.</p>
 </li>
 <li>
-<p>TLS를 사용하여 유휴 데이터 및 전송 중인 데이터를 암호화합니다</p>
+<p>TLS를 사용하여 유휴 데이터 및 전송 중인 데이터를 암호화합니다.</p>
 </li>
 <li>
-<p>OpsRamp는 Keystone 엔지니어링 팀을 위한 2단계 인증 옵션을 제공합니다</p>
+<p>OpsRamp는 Keystone에 대한 2단계 인증 옵션을 제공합니다.</p>
 </li>
 <li>
-<p>OpsRamp는 Keystone 팀이 여러 역할을 생성하고 적절한 권한을 사용자에게 할당할 수 있도록 역할 기반 액세스 제어를 구현합니다</p>
+<p>OpsRamp는 역할 기반 액세스 제어를 구현하여 Keystone에서 여러 역할을 생성하고 적절한 권한을 사용자에게 할당할 수 있도록 합니다.</p>
 </li>
 </ul>
 </div>

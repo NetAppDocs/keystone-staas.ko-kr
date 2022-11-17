@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/ko-kr/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/ko-kr/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/ko-kr/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/ko-kr/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone-staas/js/na-search.js'></script><script src='/ko-kr/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/ko-kr/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/ko-kr/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/ko-kr/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone-staas/js/na-search.js'></script><script src='/ko-kr/keystone-staas/js/na-pagenav.js'></script><script src='/ko-kr/keystone-staas/js/na-utility.js'></script>
   <script src='/ko-kr/keystone-staas/js/clouddocs.js'></script>
   <script src='/ko-kr/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/ko-kr/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 시작하십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone에 대해 자세히 알아보십시오"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 추가 서비스</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="데이터 계층화"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 서비스 수준에 대해 자세히 알아보십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="서비스 품질"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 청구</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone 가격"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone 인프라</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="인프라 세부 정보"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystone 서비스로 더 많은 작업 수행</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone과 클라우드 매니저"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:08:44 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:41:54 +0000">11/17/2022</time>
     
   
 
@@ -951,26 +939,26 @@
 <div class="ulist">
 <ul>
 <li>
-<p>* 용량 측정 단위는 GiB, TiB 및 PiB입니다. * 1024의 기수를 사용하여 데이터 스토리지 용량을 측정합니다(1GiB = 1024<sup>3</sup>바이트, 1TiB = 1024<sup>4</sup>바이트, 1PiB = 1024<sup>5</sup>바이트).</p>
+<p>* 용량 측정 단위는 GiB, TiB 및 PiB입니다. *: 1024의 밑을 사용한 데이터 스토리지 용량 측정(1GiB = 1024<sup>3</sup>바이트, 1TiB = 1024<sup>4</sup>바이트, 1PiB = 1024<sup>5</sup>바이트).</p>
 </li>
 <li>
 <p>* 운영 카운터 차트: IOPS/TiB. * 애플리케이션에서 요청하는 초당 프로토콜 작업을 워크로드에 사용된 볼륨 크기로 나눕니다.</p>
 </li>
 <li>
-<p>* 가용성 * 은 서비스에 의해 성공적으로 응답한 I/O 요청 수의 백분율로 측정되며, 서비스에 대한 총 I/O 요청 수로 나눈 값입니다. 이 값은 한 달 동안의 서비스 구분에서 측정되며, 고객이 제공하는 시설, 네트워크 또는 기타 서비스의 예정된 서비스 가동 중지 시간 또는 사용 불가능은 포함되지 않습니다.</p>
+<p>* 가용성 *: 서비스에 의해 성공적으로 응답한 I/O 요청 수의 백분율로 측정되며, 서비스에 대한 총 I/O 요청 수로 나눈 값입니다. 이 값은 한 달 동안의 서비스 구분에서 측정되며, 고객이 제공하는 시설, 네트워크 또는 기타 서비스의 예정된 서비스 가동 중지 시간 또는 사용 불가능은 포함되지 않습니다.</p>
 </li>
 <li>
-<p>* 내구성 * 은 고객 발생으로 인한 삭제 또는 손상을 제외하고 충실도 손실 없이 액세스되는 데이터의 비율입니다.</p>
+<p>* 내구성 *: 고객 발생으로 인한 삭제 또는 손상을 제외하고 신뢰도 저하 없이 액세스되는 데이터의 비율입니다.</p>
 </li>
 <li>
-<p>* 지연 시간. * 클라이언트로부터 수신된 I/O 요청을 처리하는 데 걸리는 시간으로, 서비스 경계(스토리지 컨트롤러 I/O 포트)에서 측정됩니다.</p>
+<p>* 지연 시간 *: 클라이언트로부터 수신된 I/O 요청을 서비스하는 시간, 서비스 경계(스토리지 컨트롤러 I/O 포트)에서 측정</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
 <h3 id="처리량-성능-메트릭">처리량 성능 메트릭</h3>
 <div class="paragraph">
-<p>처리량 성능 메트릭은 파일 및 블록 서비스에만 적용됩니다. 다음 사항을 기반으로 합니다.</p>
+<p>처리량 성능 메트릭은 다음에 기반하여 파일 및 블록 서비스에만 적용됩니다.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -986,12 +974,12 @@
 <div class="sect2">
 <h3 id="다양한-io-밀도">다양한 IO 밀도</h3>
 <div class="paragraph">
-<p>IOPS/TiB 및/또는 MBps/TiB로 계산된 IO 밀도는 다음 요소에 따라 달라질 수 있습니다.</p>
+<p>IOPS/TiB 및/또는 MBps/TiB로 계산된 IO 밀도는 다음 요소에 따라 달라집니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>워크로드 특성:</p>
+<p>워크로드 특성</p>
 </li>
 <li>
 <p>지연 시간, 다음 제외:</p>
@@ -1019,7 +1007,7 @@
 <p>사용된 용량의 일부로 계산되는 사용자 및 스냅샷 복사본 데이터입니다</p>
 </li>
 <li>
-<p>각 ONTAP 볼륨에 할당된 절대 최소 IOPS는 포함된 데이터의 양에 관계없이 다음과 같습니다.</p>
+<p>볼륨에 있는 데이터의 양에 관계없이 각 ONTAP 볼륨에 할당된 절대 최소 IOPS:</p>
 <div class="ulist">
 <ul>
 <li>
@@ -1035,7 +1023,7 @@
 </div>
 </li>
 <li>
-<p>고급 데이터 보호 추가 서비스 사용 시 대상 지연 시간은 로컬 스토리지의 입출력 요청에만 적용됩니다</p>
+<p>고급 데이터 보호 추가 서비스를 사용하는 동안 대상 지연 시간은 로컬 스토리지의 입출력 요청을 처리하는 경우에만 적용됩니다.</p>
 </li>
 </ul>
 </div>
