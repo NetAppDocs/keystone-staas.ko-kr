@@ -22,7 +22,7 @@ Keystone 서비스는 ONTAP, 파일 및 블록의 기본 스토리지 유형을 
 
 == 기본 스토리지 서비스
 
-Keystone의 기본 스토리지 서비스는 SnapMirror, SnapVault, Snapshot 등의 NetApp 기술과 파일 및 블록 스토리지 서비스에 지원되는 NetApp 스토리지 대상의 계층화 기능을 활용하여 데이터 보호 서비스를 제공합니다. 또한 데이터 보호 및 계층화를 위한 애드온 서비스를 선택할 수 있습니다. 추가 서비스에 대한 자세한 내용은 을 참조하십시오 link:../concepts/adp.html["고급 데이터 보호"] 및 link:../concepts/data-tiering.html["데이터 계층화"].
+파일 및 블록을 위한 기본 스토리지 서비스는 SnapMirror, SnapVault 및 Snapshot과 같은 NetApp 기술을 활용하여 기본 데이터 보호 서비스를 제공합니다. NetApp 스토리지 대상에 대한 데이터 계층화도 파일 및 블록 스토리지 서비스 계층에 기본적으로 포함됩니다. 또한 데이터 보호 및 계층화를 위한 애드온 서비스를 선택할 수 있습니다. 추가 서비스에 대한 자세한 내용은 을 참조하십시오 link:../concepts/adp.html["고급 데이터 보호"] 및 link:../concepts/data-tiering.html["데이터 계층화"].
 
 |===
 | 스토리지 서비스 | 기초 | 지원되는 기능 | 프로토콜 
@@ -30,23 +30,18 @@ Keystone의 기본 스토리지 서비스는 SnapMirror, SnapVault, Snapshot 등
 
  a| 
 파일 스토리지
-| ONTAP 기술 기반 | 지원되는 ONTAP 기능: FlexVol FlexGroup 스냅샷 복사본 SnapMirror(비동기식) SnapVault SnapLock 엔터프라이즈 FabricPool/클라우드 계층화 복원 클론 SnapCenter(라이센스가 포함되어 있지만 Keystone 서비스의 일부가 아니며 보장된 관리가 제공되지 않음) | NFS, CIFS 및 S3(FabricPool 타겟에 사용) 
+| ONTAP 기술 기반 | 지원되는 ONTAP 기능: FlexVol FlexGroup 스냅샷 복사본 SnapMirror(비동기식) SnapVault SnapLock 엔터프라이즈 FabricPool/클라우드 계층화 복원 클론 SnapCenter(라이센스가 포함되어 있지만 Keystone 서비스의 일부가 아니며 보장된 관리가 제공되지 않음) | NFS 및 CIFS에 대해 설명합니다. 
 
 
  a| 
 블록 스토리지
-| ONTAP 기술 기반 | 지원되는 ONTAP 기능: FlexVol FlexGroup 스냅샷 복사본 SnapMirror(비동기식) SnapVault SnapLock 엔터프라이즈 FabricPool/클라우드 계층화 복원 클론 SnapCenter(라이센스가 포함되어 있지만 Keystone 서비스의 일부가 아니며 보장된 관리가 제공되지 않음) | FC, iSCSI 및 S3(FabricPool 타겟에 사용) 
+| ONTAP 기술 기반 | 지원되는 ONTAP 기능: FlexVol FlexGroup 스냅샷 복사본 SnapMirror(비동기식) SnapVault SnapLock 엔터프라이즈 FabricPool/클라우드 계층화 복원 클론 SnapCenter(라이센스가 포함되어 있지만 Keystone 서비스의 일부가 아니며 보장된 관리가 제공되지 않음) | FC 및 iSCSI 
 
 
  a| 
 오브젝트 스토리지
 | StorageGRID 플랫폼 기반 | 여러 사이트에서 여러 ILM(정보 수명 주기 관리) 정책을 지원합니다. 참고: 각 사이트에는 별도의 구독이 있어야 합니다. | S3 
 |===
-
-NOTE: NetApp 스토리지 타겟에 대한 데이터 계층화는 기본적으로 파일 및 블록 스토리지 서비스 계층에 포함됩니다.
-
-데이터 계층화에 대한 자세한 내용은 를 참조하십시오 link:../concepts/data-tiering.html["데이터 계층화"]. 데이터 보호 서비스에 대한 자세한 내용은 을 참조하십시오 link:../concepts/adp.html["고급 데이터 보호"].
-
 
 
 == 클라우드 스토리지 서비스

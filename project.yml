@@ -19,7 +19,7 @@ sidebar:
       url: "/concepts/supported-storage-capacity.html"
     - title: Keystone 서비스의 메트릭 및 정의
       url: "/concepts/metrics.html"
-    - title: Keystone에서 지원되는 스토리지 유형
+    - title: Keystone에서 지원되는 스토리지 서비스
       url: "/concepts/supported-storage-services.html"
     - title: Keystone의 서비스 수준
       url: "/concepts/service-levels.html"
@@ -71,9 +71,9 @@ sidebar:
     url: "/concepts/gssc.html"
   - title: Keystone 서비스로 더 많은 작업 수행
     entries:
-    - title: Keystone과 클라우드 매니저
+    - title: Keystone과 BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone 및 Active IQ 디지털 자문
+    - title: Keystone 및 디지털 자문
       url: "/integrations/keystone-aiq.html"
   - title: 법적 고지
     url: "/legal-notices.html"
@@ -117,9 +117,9 @@ homepage:
     links:
     - title: 지원 팀 파악(Keystone GSSC)
       url: "/concepts/gssc.html"
-    - title: Keystone과 클라우드 매니저
+    - title: Keystone과 BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone 및 Active IQ 디지털 자문
+    - title: Keystone 및 디지털 자문
       url: "/integrations/keystone-aiq.html"
     - title: 미국 시민 지원
       url: "/concepts/uscs.html"
@@ -127,9 +127,9 @@ homepage:
     links:
     - title: 유연한 Keystone 구독
       url: https://docs.netapp.com/us-en/keystone/
-    - title: Active IQ Digital Advisor
+    - title: 디지털 자문업체
       url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: 클라우드 관리자
+    - title: BlueXP
       url: https://docs.netapp.com/us-en/cloud-manager-family/
     - title: Active IQ Unified Manager
       url: https://docs.netapp.com/us-en/active-iq-unified-manager/
