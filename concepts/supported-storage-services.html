@@ -623,11 +623,11 @@
         Keystone 서비스의 메트릭 및 정의
       </a></li><li 
       data-pdf-exists="true" 
-      data-pdf-filename="Keystone에서 지원되는 스토리지 유형"
+      data-pdf-filename="Keystone에서 지원되는 스토리지 서비스"
       data-li-level="2#" 
       class="  active "
     ><a class="na-navbar-padding" href="/ko-kr/keystone-staas/concepts/supported-storage-services.html">
-        Keystone에서 지원되는 스토리지 유형
+        Keystone에서 지원되는 스토리지 서비스
       </a></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystone의 서비스 수준"
@@ -815,18 +815,18 @@
       <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
-      data-pdf-filename="Keystone과 클라우드 매니저"
+      data-pdf-filename="Keystone과 BlueXP"
       data-li-level="2#" 
       class=" "
     ><a class="na-navbar-padding" href="/ko-kr/keystone-staas/integrations/keystone-cm.html">
-        Keystone과 클라우드 매니저
+        Keystone과 BlueXP
       </a></li><li 
       data-pdf-exists="true" 
-      data-pdf-filename="Keystone 및 Active IQ 디지털 자문"
+      data-pdf-filename="Keystone 및 디지털 자문"
       data-li-level="2#" 
       class=" "
     ><a class="na-navbar-padding" href="/ko-kr/keystone-staas/integrations/keystone-aiq.html">
-        Keystone 및 Active IQ 디지털 자문
+        Keystone 및 디지털 자문
       </a></li></ul></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="법적 고지"
@@ -897,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-17 09:41:54 +0000">11/17/2022</time>
+    <time datetime="2022-11-28 10:29:09 +0000">11/28/2022</time>
     
   
 
@@ -921,7 +921,7 @@
 <h2 id="기본-스토리지-서비스">기본 스토리지 서비스</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Keystone의 기본 스토리지 서비스는 SnapMirror, SnapVault, Snapshot 등의 NetApp 기술과 파일 및 블록 스토리지 서비스에 지원되는 NetApp 스토리지 대상의 계층화 기능을 활용하여 데이터 보호 서비스를 제공합니다. 또한 데이터 보호 및 계층화를 위한 애드온 서비스를 선택할 수 있습니다. 추가 서비스에 대한 자세한 내용은 을 참조하십시오 <a href="../concepts/adp.html">"고급 데이터 보호"</a> 및 <a href="../concepts/data-tiering.html">"데이터 계층화"</a>.</p>
+<p>파일 및 블록을 위한 기본 스토리지 서비스는 SnapMirror, SnapVault 및 Snapshot과 같은 NetApp 기술을 활용하여 기본 데이터 보호 서비스를 제공합니다. NetApp 스토리지 대상에 대한 데이터 계층화도 파일 및 블록 스토리지 서비스 계층에 기본적으로 포함됩니다. 또한 데이터 보호 및 계층화를 위한 애드온 서비스를 선택할 수 있습니다. 추가 서비스에 대한 자세한 내용은 을 참조하십시오 <a href="../concepts/adp.html">"고급 데이터 보호"</a> 및 <a href="../concepts/data-tiering.html">"데이터 계층화"</a>.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -945,7 +945,7 @@
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ONTAP 기술 기반</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">지원되는 ONTAP 기능: FlexVol FlexGroup 스냅샷 복사본 SnapMirror(비동기식) SnapVault SnapLock 엔터프라이즈 FabricPool/클라우드 계층화 복원 클론 SnapCenter(라이센스가 포함되어 있지만 Keystone 서비스의 일부가 아니며 보장된 관리가 제공되지 않음)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NFS, CIFS 및 S3(FabricPool 타겟에 사용)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NFS 및 CIFS에 대해 설명합니다.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
@@ -953,7 +953,7 @@
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ONTAP 기술 기반</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">지원되는 ONTAP 기능: FlexVol FlexGroup 스냅샷 복사본 SnapMirror(비동기식) SnapVault SnapLock 엔터프라이즈 FabricPool/클라우드 계층화 복원 클론 SnapCenter(라이센스가 포함되어 있지만 Keystone 서비스의 일부가 아니며 보장된 관리가 제공되지 않음)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">FC, iSCSI 및 S3(FabricPool 타겟에 사용)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FC 및 iSCSI</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
@@ -965,21 +965,6 @@
 </tr>
 </tbody>
 </table>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/keystone-staas/images/note.svg" alt="참고">
-</td>
-<td class="content">
-NetApp 스토리지 타겟에 대한 데이터 계층화는 기본적으로 파일 및 블록 스토리지 서비스 계층에 포함됩니다.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>데이터 계층화에 대한 자세한 내용은 를 참조하십시오 <a href="../concepts/data-tiering.html">"데이터 계층화"</a>. 데이터 보호 서비스에 대한 자세한 내용은 을 참조하십시오 <a href="../concepts/adp.html">"고급 데이터 보호"</a>.</p>
-</div>
 </div>
 </div>
 <div class="sect1">
