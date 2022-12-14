@@ -48,6 +48,7 @@ NOTE: 파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비�
 
 NetApp GSSC(글로벌 서비스 및 지원 센터)는 제품 및 서비스 상태를 모니터링하고, 원격 지원을 제공하고, Keystone 성공 매니저와 협업합니다. 관련 Keystone 가입 주문과 관련된 제품을 모니터링하는 모든 직원은 미국 시민이며 제공됩니다.
 
+.Keystone 성공 관리자
 Keystone Success Manager는 미국 미국 시민입니다 제공됩니다. 책임은 NetApp Keystone 계약에 명시되어 있습니다.
 
 자세한 내용은 을 참조하십시오 link:../concepts/uscs.html["미국 시민 지원(USCS)"].

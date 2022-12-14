@@ -136,6 +136,7 @@ qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_
 * TB = 1000GB, GB = 1000MB, MB = 1000KB, KB = 1000Bytes, 기본 10에 따라
 
 
+.샘플 블록 크기 계산
 서비스 레벨(예: Extreme 서비스 레벨)의 처리량을 계산하려면 다음과 같이 합니다.
 
 * 최대 IOPS: 12,288
