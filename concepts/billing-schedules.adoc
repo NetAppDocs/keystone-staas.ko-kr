@@ -14,7 +14,7 @@ summary: Keystone의 청구 일정
 
 
 [role="lead"]
-Keystone 서브스크립션은 매월 및 매년 청구됩니다.
+Keystone STaaS 구독은 매월 및 매년 청구됩니다.
 
 
 

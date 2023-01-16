@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: installation/vapp-installation.html 
+keywords: install, VMware 
+summary: VMware 시스템에 Keystone Collector 설치 
+---
+= VMware vSphere 시스템에 Keystone Collector 구축
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+VMware vSphere 시스템에 Keystone Collector를 구축하려면 OVA 템플릿 다운로드, * Deploy OVF Template * 마법사를 사용하여 템플릿 구축, 인증서 무결성 확인, VM 준비 상태 확인이 포함됩니다.
+
+
+
+== OVA 템플릿 배포
+
+다음 단계를 수행하십시오.
+
+.단계
+. 에서 OVA 파일을 다운로드합니다 https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[] VMware vSphere 시스템에 저장합니다.
+. VMware vSphere 시스템에서 * VMS and Templates * 보기로 이동합니다.
+. 가상 머신(VM) 또는 데이터 센터에 필요한 폴더를 마우스 오른쪽 버튼으로 클릭하고 * Deploy OVF Template * 을 선택합니다.
+. Deploy OVF Template * 마법사의_Step 1_에서 * Select 및 OVF template * 을 클릭하여 다운로드한 파일을 선택합니다 `KeystoneCollector-latest.ova` 파일.
+. 2단계_에서 VM 이름을 지정하고 VM 폴더를 선택합니다.
+. 3단계_에서 VM을 실행하는 데 필요한 컴퓨팅 리소스를 지정합니다.
+. On_Step 4: 자세히 검토 _, OVA의 정확성 및 진위 확인. 제품 이름은 _NetApp Keystone Collector_로 표시되어야 합니다.image:ova-deploy.png[""]vCenter는 OVA 내용의 무결성을 검증하고 OVA에 포함된 파일에 대해 유효한 코드 서명 다이제스트가 제공되는지 확인합니다. 그러나 코드 서명 인증서의 진위 여부를 확인하지 않습니다. 무결성을 확인하려면 전체 서명 다이제스트 인증서를 다운로드하여 Keystone에서 게시한 공개 인증서에 대해 확인해야 합니다.
++
+.. 전체 서명 다이제스트 인증서를 다운로드하려면 * Publisher * 링크를 클릭하십시오.
+.. Keystone Billing_public 인증서 다운로드: https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem[].
+.. OpenSSL을 사용하여 공개 인증서에 대한 OVA 서명 인증서의 신뢰성을 확인하십시오.
+`openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
+
+
+. Deploy OVF Template * 마법사의_5단계에서 VM 저장 위치를 지정합니다.
+. 6단계_에서 VM이 사용할 대상 네트워크를 선택합니다.
+. 7단계 사용자 정의 템플릿 _ 에서 admin 사용자 계정의 초기 네트워크 주소와 암호를 지정합니다.
++
+
+NOTE: admin 암호는 vCenter에서 해독 가능한 형식으로 저장되며, VMware vSphere 시스템에 대한 초기 액세스를 얻기 위해 부트스트랩 자격 증명으로 사용해야 합니다. 초기 소프트웨어 구성 중에 이 관리자 암호를 변경해야 합니다. IPv4 주소의 서브넷 마스크는 CIDR 표기법으로 제공되어야 합니다. 예를 들어 서브넷 마스크 255.255.255.0에 대해 24의 값을 사용합니다.
+
+. 8단계 * Deploy OVF Template * 마법사의 _ 완료 준비 단계에서 구성을 검토하고 OVA 배포에 대한 매개 변수를 올바르게 설정했는지 확인합니다.
+
+
+VM을 템플릿에서 구축하고 전원을 켠 후 VM에 대한 SSH 세션을 열고 임시 관리자 자격 증명으로 로그인하여 VM이 구성 준비가 되었는지 확인합니다.
+
+
+
+== 초기 시스템 구성
+
+OVA를 통해 구축된 Keystone Collector 서버의 초기 구성을 위해 VMware vSphere 시스템에서 다음 단계를 수행하십시오.
+
+
+NOTE: 배포를 완료하면 Keystone Collector 관리 TUI(터미널 사용자 인터페이스) 유틸리티를 사용하여 구성 및 모니터링 작업을 수행할 수 있습니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.
+
+. Keystone Collector 서버에 대한 SSH 세션을 엽니다. 로그인 시 TUI가 나타납니다. 를 실행하여 TUI를 수동으로 실행할 수도 있습니다 `keystone-collector-tui` CLI 명령:
+. 필요한 경우 TUI의 * 구성 > 네트워크 * 섹션에서 프록시 세부 정보를 구성합니다.
+. 유지보수 > 시스템 업데이트* 옵션을 사용하여 시스템/수집기를 업데이트합니다. 선택된 일부 미러를 사용할 수 없으며 몇 번 재시도하면 시스템 세부 정보가 업데이트됩니다.
+. Configuration > System * 섹션에서 시스템 호스트 이름, 위치 및 NTP 서버를 구성합니다.
+. 유지보수 > 사용자 * 섹션에서 관리자 암호를 업데이트합니다.
+. 초기 OVA 구성은 * 구성 > 고급 * 섹션에서 완료된 것으로 표시합니다.
+

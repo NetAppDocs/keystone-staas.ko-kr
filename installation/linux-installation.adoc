@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: installation/linux-installation.html 
+keywords: Linux installation Keystone, Linux Collector installation 
+summary: Linux에 Keystone Collector 설치 
+---
+= Linux 시스템에 Keystone Collector 설치
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone Collector 소프트웨어는 온라인 YUM 소프트웨어 저장소에 의해 배포됩니다. Linux 서버에서 파일을 가져오고 설치해야 합니다.
+
+Linux 서버에 소프트웨어를 설치하려면 다음 단계를 수행하십시오.
+
+. Keystone Collector 서버로 SSH를 수행하고 로 승격합니다 `root` 권한.
+. Keystone 공개 서명 서명 서명 가져오기:
+`# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
+. RPM 데이터베이스에서 Keystone 청구 플랫폼에 대한 지문을 확인하여 올바른 공개 인증서를 가져왔는지 확인합니다.
+`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`올바른 지문은 다음과 같습니다.
+`90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
+. 를 다운로드합니다 `keystonerepo.rpm` 파일:
+`# wget https://keystone.netapp.com/repo/keystonerepo.rpm`
+. 파일의 신뢰성을 확인합니다.
+`rpm --checksig -v keystonerepo.rpm`실제 파일의 서명은 다음과 같습니다.
+`Header V4 RSA/SHA512 Signature, key ID 33b6c17d: OK`
+. YUM 소프트웨어 저장소 파일을 설치합니다.
+`# yum install keystonerepo.rpm`
+. Keystone repo가 설치되면 YUM 패키지 관리자를 통해 Keystone-Collector 패키지를 설치합니다.
+`# yum install keystone-collector`
+

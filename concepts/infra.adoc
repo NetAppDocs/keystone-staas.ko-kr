@@ -14,7 +14,7 @@ summary: Keystone 인프라
 
 
 [role="lead"]
-이 섹션에서는 NetApp 및 고객 운영 환경을 위한 NetApp Keystone 인프라, 아키텍처 및 관리 애플리케이션에 대해 설명합니다.
+이 섹션에서는 NetApp 및 고객 운영 환경을 위한 NetApp Keystone STaaS 인프라, 아키텍처 및 관리 애플리케이션에 대해 설명합니다.
 
 Keystone 인프라, 설계, 기술 선택, 구성요소 제품은 NetApp의 전적인 재량에 따라 집니다. NetApp은 다음과 같은 조치를 취할 권리를 보유합니다.
 

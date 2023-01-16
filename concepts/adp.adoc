@@ -14,11 +14,12 @@ summary: 고급 데이터 보호
 
 
 [role="lead"]
-Keystone 가입 시 고급 데이터 보호 애드온 서비스를 이용할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 제로 RPO(복구 시점 목표)에서 미션 크리티컬 워크로드에 대한 효율적인 데이터 보호를 보장합니다.
+Keystone STaaS 서브스크립션의 일부로 고급 데이터 보호 애드온 서비스를 구독할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 제로 RPO(복구 시점 목표)에서 미션 크리티컬 워크로드에 대한 효율적인 데이터 보호를 보장합니다.
 
-Keystone의 기본 스토리지 서비스는 파일 및 블록 스토리지 서비스를 위한 데이터 보호 서비스(SnapMirror, SnapVault, Snapshot 등의 NetApp 기술 활용)를 제공합니다.
 
-기본 스토리지 및 클라우드 스토리지 서비스에 대한 자세한 내용은 를 참조하십시오 link:../concepts/supported-storage-services.html["지원되는 스토리지 서비스"].
+NOTE: 파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스는 SnapMirror, SnapVault, Snapshot과 같은 NetApp 기술을 활용하여 기본 데이터 보호 서비스를 제공합니다.
+
+표준 및 클라우드 서비스에 대한 자세한 내용은 을 참조하십시오 link:../concepts/supported-storage-services.html["Keystone STaaS 서비스"].
 
 서비스 수준에 대한 자세한 내용은 을 참조하십시오 link:../concepts/service-levels.html["Keystone의 서비스 수준"].
 
@@ -29,9 +30,9 @@ Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 �
 
 NOTE: 참고:
 
-* 이 서비스의 경우 연결된 스토리지 서비스에서 커밋된 용량의 100%가 커밋된 용량으로 구성됩니다.
+* 이 서비스의 경우 연결된 스토리지에서 커밋된 용량의 100%가 커밋된 용량으로 구성됩니다.
 * 스토리지는 소스 및 대상 클러스터 모두에 대해 비용이 청구됩니다. 이 애드온 서비스는 운영 및 2차(미러링된) 볼륨 모두에 대해 비용이 청구됩니다.
-* 요금은 파일 및 블록 스토리지 서비스에만 적용됩니다. 지원되는 MetroCluster 시나리오는 다음과 같습니다.
+* 요금은 파일 및 블록 스토리지에만 적용됩니다. 지원되는 MetroCluster 시나리오는 다음과 같습니다.
 
 
 image:mcc.png["Keystone에서 지원하는 MetroCluster 구성"]

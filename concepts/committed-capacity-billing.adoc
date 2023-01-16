@@ -14,8 +14,8 @@ summary: 지원되는 스토리지 용량입니다
 
 
 [role="lead"]
-Keystone(NetApp Keystone) 청구는 Keystone 서비스 구독의 일부로 커밋된 용량을 기반으로 합니다.
+Keystone(NetApp Keystone) 청구는 Keystone 가입 시 제공되는 용량을 기반으로 합니다.
 
-약정 용량은 귀사와 NetApp/파트너가 수락한 단일 가입형 정액제에 따라 다양한 서비스의 용량을 가리킵니다. 이 용량은 실제 소비량과 관계없이 각 Keystone 주문에 명시되어 있으며 청구됩니다.
+약정 용량은 가입을 구매하는 동안 특정 서비스 수준에 대해 확정된 용량입니다. 약정 용량은 귀하와 NetApp/파트너가 수락한 단일 가입에서 다양한 서비스 수준에 대한 총 용량이 될 수 있습니다. 이 용량은 실제 용량 소비에 관계없이 각 Keystone 주문에 명시되어 있으며 청구됩니다.
 
 Keystone에서 지원되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 link:../concepts/supported-storage-capacity.html["Keystone에서 지원되는 스토리지 용량"].

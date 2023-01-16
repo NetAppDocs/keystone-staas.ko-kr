@@ -1,0 +1,19 @@
+---
+sidebar: sidebar 
+permalink: installation/validation.html 
+keywords: validate, validation 
+summary: Linux 시스템에서 Keystone 수집기를 검증합니다 
+---
+= 소프트웨어 무결성의 자동 검증
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone 소프트웨어의 무결성을 검증하는 반복적 프로세스가 있습니다.
+
+에 제공된 Keystone YUM 저장소 클라이언트 구성 `keystonerepo.rpm` 이 리포지토리를 통해 다운로드한 모든 소프트웨어에서 강제 GPG 검사(gpgcheck=1)를 사용합니다. Keystone 리포지토리를 통해 다운로드된 RPM이 서명 확인에 실패하면 해당 RPM을 설치할 수 없습니다. 이 기능은 Keystone 수집기의 예약된 자동 업데이트 기능에 사용되며 사이트에 유효한 정품 소프트웨어만 설치됩니다.

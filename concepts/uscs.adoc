@@ -28,7 +28,7 @@ NetApp GSSC(글로벌 서비스 및 지원 센터)는 제품 및 서비스 상�
 
 == Keystone 성공 관리자
 
-Keystone Success Manager는 미국 미국 시민입니다 제공됩니다. 이러한 책임들의 책임은 NetApp Keystone 계약에 명시되어 있습니다.
+Keystone 성공 매니저(KSM)는 미국입니다 미국 시민입니다 제공됩니다. 이러한 책임들의 책임은 NetApp Keystone 계약에 명시되어 있습니다.
 
 
 

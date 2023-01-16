@@ -14,7 +14,7 @@ summary: Keystone 가격
 
 
 [role="lead"]
-NetApp Keystone은 스토리지 구독에 대해 예측 가능하고 사전 가격이 책정될 수 있도록 지원합니다.
+NetApp Keystone STaaS를 통해 스토리지 구독에 대한 예측 가능하고 사전 가격이 제공됩니다.
 
 자본 지출(CapEx) 또는 임대보다 운영 비용(OpEx) 소비 모델을 선호한다면, 유연하고 확장 가능한 소비 요구사항을 위해 Keystone 종량제 모델을 선택할 수 있습니다.
 

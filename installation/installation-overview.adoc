@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: installation/installation-overview.html 
+keywords: installation, Keystone Collector 
+summary: Keystone 수집기란 
+---
+= Keystone Collector 개요
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone 서비스를 사용하고 활성화하려면 사이트의 VMware vSphere 또는 Linux 시스템에 Keystone Collector를 설치해야 합니다.
+
+
+NOTE: 여기에서 제공되는 설치 및 구성 정보는 ONTAP에만 적용됩니다.
+
+Keystone 수집기는 Active IQ Unified Manager 및 기타 애플리케이션을 활용하여 ONTAP 스토리지 시스템에 연결하는 Keystone 청구 플랫폼의 주요 구성요소로, 스토리지 환경의 상태를 모니터링하는 동시에 보고용 청구 데이터를 전송할 수 있는 기능을 제공합니다.
+
+이 아키텍처 다이어그램에서는 일반적인 Keystone 환경의 구성 요소 및 연결 상태를 개략적으로 보여 줍니다.
+
+image:collector-arch.png[""]
