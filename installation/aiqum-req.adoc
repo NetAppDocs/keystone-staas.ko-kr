@@ -20,8 +20,8 @@ Unified Manager 9.7 이상이 API 게이트웨이 기능이 설정된 상태로 
 
 Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.
 
-* https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["VMware vSphere 시스템에 Unified Manager 설치"]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html["Linux 시스템에 Unified Manager 설치"]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["VMware vSphere 시스템에 Unified Manager 설치"^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html["Linux 시스템에 Unified Manager 설치"^]
 
 
 
@@ -36,15 +36,15 @@ Keystone Collector를 통해 사용 및 성능 데이터 수집을 위해 Unifie
 
 사용자 생성, 사용자 유형 및 사용자 역할에 대한 자세한 내용은 다음 링크를 참조하십시오.
 
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_types.html["사용자 유형 정의"]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html["사용자 역할의 정의"]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html["Unified Manager 사용자 역할 및 기능"]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_types.html["사용자 유형 정의"^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html["사용자 역할의 정의"^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html["Unified Manager 사용자 역할 및 기능"^]
 
 
 .단계
-. 애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 기본 관리자 사용자는 설치 중에 생성됩니다. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager 웹 UI에 액세스"].
-. 로 사용자를 생성합니다 `Operator role`. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["사용자 추가"].
-. 를 생성합니다 `Database` 사용자. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["데이터베이스 사용자 생성"].
+. 애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 기본 관리자 사용자는 설치 중에 생성됩니다. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager 웹 UI에 액세스"^].
+. 로 사용자를 생성합니다 `Operator role`. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["사용자 추가"^].
+. 를 생성합니다 `Database` 사용자. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["데이터베이스 사용자 생성"^].
 
 
 image:um-add-user.png[""]
@@ -64,8 +64,8 @@ Keystone 수집기는 Unified Manager API 게이트웨이를 사용하여 ONTAP 
 Unified Manager 웹 UI에서 API 게이트웨이를 설정하려면 다음 단계를 수행하십시오.
 
 .단계
-. 애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 기본 관리자 사용자는 설치 중에 생성됩니다. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager 웹 UI에 액세스"].
-. API 게이트웨이 활성화에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html["API 게이트웨이 활성화 중"].
+. 애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 기본 관리자 사용자는 설치 중에 생성됩니다. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager 웹 UI에 액세스"^].
+. API 게이트웨이 활성화에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html["API 게이트웨이 활성화 중"^].
 
 
 
@@ -74,7 +74,7 @@ Unified Manager 웹 UI에서 API 게이트웨이를 설정하려면 다음 단�
 
 다음 단계에서는 Unified Manager CLI를 통해 API 게이트웨이 액세스를 설정하는 방법을 설명합니다.
 
-지원되는 명령에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["지원되는 Unified Manager CLI 명령"].
+지원되는 명령에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["지원되는 Unified Manager CLI 명령"^].
 
 .단계
 . Unified Manager 서버에서 SSH 세션을 시작하고 Unified Manager CLI에 로그인합니다.
@@ -85,8 +85,8 @@ Unified Manager 웹 UI에서 API 게이트웨이를 설정하려면 다음 단�
 `um option set api.gateway.enabled=true`
 . 설정을 적용하려면 Unified Manager 서버를 다시 시작합니다. 자세한 정보:
 +
-** Linux 시스템의 경우 를 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html["Unified Manager를 다시 시작하는 중입니다"].
-** VMware vSphere 시스템의 경우 를 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html["Unified Manager 가상 머신을 재시작합니다"].
+** Linux 시스템의 경우 를 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html["Unified Manager를 다시 시작하는 중입니다"^].
+** VMware vSphere 시스템의 경우 를 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html["Unified Manager 가상 머신을 재시작합니다"^].
 
 
 

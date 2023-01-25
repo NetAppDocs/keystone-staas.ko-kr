@@ -22,6 +22,6 @@ Keystone 고객의 경우 Cloud Volumes ONTAP에 가입하면 Keystone 서비스
 
 자세한 내용은 BlueXP 문서의 다음 링크를 참조하십시오.
 
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription["Keystone 구독"]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html["Keystone 구독 관리"]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription["Keystone 구독"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html["Keystone 구독 관리"^]
 

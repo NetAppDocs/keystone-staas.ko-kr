@@ -67,7 +67,6 @@
   <block id="77fb4a998df70518a615aa086dcede60" category="summary">Keystone의 서비스 품질</block>
   <block id="b0c2a97a674f701e042904eabd2ce86c" category="doc">Keystone의 서비스 품질(QoS)</block>
   <block id="bff19ffadab3b2c0f2336fe90bfd9be9" category="inline-link">QoS 개요를 통해 처리량 보장</block>
-  <block id="40cf2c6306126b92829ce27884c4bfb5" category="paragraph">스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS가 없으면 여러 시스템 부팅 같은 특정 워크로드에서 전체 리소스를 일정 기간 동안 소모하여 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오<block ref="4aff95bf567baa6ead09a4f66961b38a" category="inline-link-rx"></block>.</block>
   <block id="4dbcb780b2afaca4e14c86b698ea3b98" category="inline-link">QoS 최대</block>
   <block id="6f84bbf222b31dbe79e07a2c75da49f7" category="inline-link">최소 QoS</block>
   <block id="acdda1c20fb3985ce840929f7525c803" category="section-title">적응형 QoS</block>
@@ -75,18 +74,9 @@
   <block id="5333a4037149d6d11a7f90a215530cfc" category="admonition">볼륨에 적응형 QoS 정책을 올바르게 적용하지 않은 경우, 가입형 정액제에 따라 해당 볼륨을 가장 높은 서비스 수준에서 측정 및 청구됩니다. 이로 인해 의도하지 않은 폭발이 발생할 수 있습니다.</block>
   <block id="e1e6381427a3975fa7597be88e8d2f70" category="section-title">Adaptive QoS 정책 그룹 구성</block>
   <block id="c9e7ca1e0ddb7dc805d3f4b515bc5b5c" category="paragraph">처리량 상한 또는 하한 을 볼륨 크기로 자동 확장하도록 적응형 QoS 정책을 구성할 수 있습니다. 정책을 구성할 때는 다음 사항을 염두에 두어야 합니다.</block>
-  <block id="dc0bf2a6006e9a578431da0999f3c3f2" category="list-text">정책 그룹 이름: 적응형 QoS 정책 그룹의 이름입니다. 예: "Keystone_extreme".</block>
-  <block id="c0b4178f000168c6ea573c9a9897fb28" category="list-text">SVM: SVM 또는 스토리지 VM(스토리지 가상 머신)의 이름입니다.</block>
-  <block id="7b3e733ebacc2050201e568993b23ceb" category="list-text">예상 IOPS: 성능 보장이 있는 경우 ONTAP에서 최소 제공하는 IOPS/TiB 수입니다.</block>
-  <block id="d1ff420a36adce394b3ddba223359344" category="list-text">최대 IOPS 성능이 제한되기 전에 볼륨에서 사용할 수 있는 최대 IOPS/TiB</block>
-  <block id="b3bce6305b3ec6759588c183b5d92f8c" category="list-text">예상 IOPS 할당: 할당된 공간 또는 사용된 공간이 예상 IOPS에 고려되는지 여부 이 필드는 볼륨에서 사용할 수 있는 예상 IOPS가 프로비저닝된 볼륨 또는 사용된 볼륨 크기를 기반으로 하는지 여부를 제어합니다. Keystone에서 모든 QoS 계산은 사용된 공간을 기반으로 합니다.</block>
-  <block id="136968f15ab6c1549edde11fcf6dbaee" category="list-text">최대 IOPS 할당: 할당된 공간 또는 사용된 공간이 최대 IOPS로 간주되는지 여부를 나타냅니다. 이 필드는 볼륨에서 사용 가능한 최대 IOPS가 프로비저닝된 볼륨 크기 또는 사용된 크기를 기반으로 하는지 여부를 제어합니다. Keystone에서 모든 QoS 계산은 사용된 공간을 기반으로 합니다.</block>
-  <block id="512aabc687910813bbed0ae5551be06b" category="list-text">절대 최소 IOPS: 볼륨 크기가 매우 작은 경우 볼륨에 적용되는 예상되는 최소 IOPS 수로, 그렇지 않을 경우 IOPS가 허용할 수 없는 수준으로 표시됩니다. 이 값은 Extreme, 500은 Premium, 75는 다른 서비스 레벨로 기본 설정됩니다.</block>
   <block id="4db69e448403f877751b701118fb0d6b" category="admonition">이는 IOPS 밀도(예: 75 IOPS/TiB)가 아니라 절대 최소 IOPS 수입니다.</block>
   <block id="0dfe1d120dbd110a4d7bb29a9dea1779" category="inline-link">적응형 QoS 정책 그룹을 사용합니다</block>
-  <block id="836728f5ee330d97ae5d9a72f9f1dc60" category="paragraph">자세한 내용은 을 참조하십시오<block ref="d3ed2247f824ed549e87cae3c22534c2" category="inline-link-rx"></block>.</block>
   <block id="2da83d8f6744d94e4db3195a4a4edfc0" category="section-title">적응형 QoS 정책 설정</block>
-  <block id="cbb6fc09497e6b462ee7b79a327e9491" category="paragraph">적응형 QoS 정책에 대한 설정은 서비스 레벨마다 다릅니다.</block>
   <block id="547c4738072689a91e04dc9c9c8f6c84" category="section-title">Extreme 서비스 레벨 설정</block>
   <block id="5fd300737b7909532dc522634d75def5" category="list-text">명령 예:</block>
   <block id="eec649d0629c0d4daca55ba4f12c8e0d" category="list-text">최소 볼륨 크기: 100GiB, 0.1TiB</block>
@@ -99,8 +89,6 @@
   <block id="43384bba14e9ac0e1e3604da457dacd3" category="section-title">Value 서비스 수준에 대한 설정입니다</block>
   <block id="c5dd4ef3a979aa464f4d87ea8ac7b398" category="list-text">최소 볼륨 크기: 1TiB</block>
   <block id="d80459bf7c52b9b618a3832a91b72964" category="list-text">최대 볼륨 크기: 100TiB</block>
-  <block id="267ac61356e61b878c714160ec38a642" category="section-title">볼륨 크기 권장 사항</block>
-  <block id="4a79ba3eedbc7e207815ec2ba4a4f49d" category="paragraph">여기에 설명된 각 서비스 수준에 대한 최소 및 최대 볼륨 크기를 통해 볼륨에 대한 최적의 IOP 및 지연 시간 값을 얻을 수 있습니다. 이 지침을 벗어나는 볼륨을 너무 많이 생성하면 해당 볼륨의 성능에 부정적인 영향을 미칠 수 있습니다.</block>
   <block id="e8cf569a737f3c6ca0de02023bb45074" category="section-title">블록 크기 계산</block>
   <block id="b77f85f9490573cc674ceb0b9512f811" category="paragraph">블럭 크기를 계산하기 전에 다음 설정을 사용하여 다음 점을 참고하십시오:</block>
   <block id="5cf0d288a8f6413cd5081b042a609034" category="list-text">IOPS/TiB = MBps/TiB 구분(블록 크기 * 1024)</block>
@@ -124,7 +112,6 @@
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">임시 볼륨에 대한 청구</block>
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">볼륨을 이동할 때 임시(TMP) 볼륨이 ONTAP에 의해 생성되는 경우가 있습니다. 이러한 임시 볼륨은 수명이 짧으며 이러한 볼륨의 소비량은 청구 대상으로 측정되지 않습니다.</block>
   <block id="f3fd1171857d8ea7abb7920fd1fd0c55" category="section-title">청구 및 적응형 QoS 정책</block>
-  <block id="81c2f1700a0bfc1c3a72e7a3bcb88cf0" category="paragraph">Keystone은 서비스 수준에 따라 소비를 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 구축하는 동안 구독한 Keystone 서비스에 대한 각 QoS 정책에 대한 세부 정보가 제공됩니다. 스토리지 관리 작업 중에 예상치 못한 청구가 발생하지 않도록 서비스에 가입한 서비스 수준에 따라 볼륨에 적절한 QoS 정책이 할당되었는지 확인합니다. ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="7f8846f19a6367d0efc82511d70933cd" category="inline-link-macro-rx"></block>.</block>
   <block id="18b8a063bbf57f20dcdbb6f12a9dc0e9" category="section-title">SnapMirror 대상에 대한 청구</block>
   <block id="c73be2f2aaeb82cecf852c49f3ea4cce" category="section-title">LUN에 대한 청구</block>
   <block id="cb1713b138a78b69b1922aa45131c2df" category="list-text">LUN의 크기는 해당 LUN의 연결된 서비스 수준에 따라 소비용으로 계산됩니다.</block>
@@ -183,7 +170,6 @@
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="section-title">지원</block>
   <block id="cedba9b370f4f8fb7584b8a96576dbce" category="paragraph">가능한 경우, 필요한 현장 문제 해결 및 지원 활동은 미국이 수행합니다 미국 시민권입니다 제공됩니다. 각주: 부인[]</block>
   <block id="2dd5f36775604dad2303abf8267a2c4a" category="summary">지원되는 스토리지 용량입니다</block>
-  <block id="96d2b38eee6470bf2333246e23312820" category="paragraph">NetApp Keystone 서비스 용량은 다음과 같습니다.</block>
   <block id="5233633b9faaa681d96ef5c43e30bea2" category="section-title">논리적 용량</block>
   <block id="4ac938291a74f21a35352afb886d2d88" category="section-title">약속된 용량</block>
   <block id="5e4631059cd88370a28a74ba7f45c7b3" category="list-text">용량은 각 서비스 레벨에 따라 커밋됩니다.</block>
@@ -400,9 +386,7 @@
   <block id="8ed38172f401cd08c379f8397810fe02" category="section-title">GSSC 모니터링</block>
   <block id="b89d8ed8d5adb2dd42ea11be1617f29c" category="paragraph">데이터 플로우에 대한 자세한 내용은 을 참조하십시오 <block ref="f2276c2e5545294a1a6121724c0f31c5" category="inline-link-macro-rx"></block>.</block>
   <block id="fc860be5f135f0d58f6a4cc1a552d57f" category="inline-link">Keystone 구독</block>
-  <block id="3b5d653ddd0a374a81cc285aeb9e4408" category="list-text"><block ref="3b5d653ddd0a374a81cc285aeb9e4408" category="inline-link-rx"></block></block>
   <block id="ae45517d4d9ba30bece696a3b49d1b3f" category="inline-link">Keystone 구독 관리</block>
-  <block id="70e5fcf0028615e75226bd07bb1ee1e4" category="list-text"><block ref="70e5fcf0028615e75226bd07bb1ee1e4" category="inline-link-rx"></block></block>
   <block id="885a7272db12515ccb176ecc5739bfc0" category="summary">NetApp Keystone 설명서</block>
   <block id="eafe2da4c3641f4864397b0d97fff137" category="doc">Keystone 설명서</block>
   <block id="e5471403f1b2eefb0fe47b6193a72bbc" category="sidebar">Keystone 문서</block>
@@ -447,7 +431,6 @@
   <block id="dfafb0db4cb7ff50434d65c4ee640f1a" category="paragraph">고객이 Keystone 인프라에 배치한 데이터입니다. 모든 Keystone 용량은 논리적 용량을 기준으로 합니다. 예를 들어, 1TiB 파일이 Keystone 인프라에 저장된 경우 최소 1TiB 용량을 구매해야 합니다.</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">서브스크립션 기간 동안 매월 청구되는 최소 논리적 용량:</block>
   <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">사용된 용량은 서비스에서 현재 사용되고 있는 용량(TiB 스토리지)을 나타냅니다. Keystone 서비스는 특정 서비스 수준에서 모든 볼륨의 논리적 사용된 크기(사용된 물리적 용량이 아님)의 합계를 계산하여 해당 서비스 수준에 대한 사용된 용량을 계산합니다.</block>
-  <block id="545407058e93b8b527830683a54322cc" category="paragraph">이 용량은 커밋된 용량을 초과한 사용된 용량입니다.</block>
   <block id="fc9d3df613063ee57906c461320744e2" category="admonition">참고:</block>
   <block id="422cb43011b8f4dd25975e284b167728" category="list-text">버스트 용량은 탄력적인 기준으로 사용할 수 있으며 평균 소비량에 대해 매일 청구됩니다.</block>
   <block id="a1cf2147a0b9adb61fa3b44016facca2" category="list-text">* 가용성 *: 서비스에 의해 성공적으로 응답한 I/O 요청 수의 백분율로 측정되며, 서비스에 대한 총 I/O 요청 수로 나눈 값입니다. 이 값은 한 달 동안의 서비스 구분에서 측정되며, 고객이 제공하는 시설, 네트워크 또는 기타 서비스의 예정된 서비스 가동 중지 시간 또는 사용 불가능은 포함되지 않습니다.</block>
@@ -461,8 +444,6 @@
   <block id="3ce74db0e604d780cccd03b9b8b34774" category="list-text">* 파트너 운영 모델 *: 파트너 또는 서비스 공급자가 최종 고객을 위해 서비스를 운영합니다. NetApp의 경우 파트너가 참조 계약 당사자인 경우 테넌트는 파트너의 고객이며 NetApp과 청구 관계가 없습니다. 파트너 운영 모델에는 테넌트 및 최종 고객/하위 테넌트가 파트너가 청구하는 자체 서브스크립션을 보유한 멀티 테넌트 환경이 있습니다. 파트너 관리자는 모든 테넌트에 대해 관리 작업을 수행합니다.</block>
   <block id="542e65f5a286fa6467f7b1c33bc0dab8" category="paragraph">배포에 대한 자세한 내용은 을 참조하십시오 <block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block> 및 <block ref="141d19b4a500cb7c8f293062f31c9e48" category="inline-link-macro-rx"></block>.</block>
   <block id="d96367d414f2f1ab0c8c14b8d62edc0e" category="list-text">특정 Keystone 영업 동작에 대한 지원이 제공됩니다.</block>
-  <block id="43ca49e93e757ca2a00eb4543f09e63a" category="paragraph">QoS를 적용하면 애플리케이션이 항상 일관된 성능을 얻을 수 있습니다. NetApp ONTAP는 QoS 상한에 대해 두 가지 매개 변수를 정의합니다.<block ref="bd312d4ec5e215241554b5a080c2074c" category="inline-link-rx"></block>및 처리량 플로어 -<block ref="3eb73ba51ff00cdb54c637e9e4162c50" category="inline-link-rx"></block>. QoS Max는 워크로드가 달성할 수 있는 최대 IOPS 또는 MBps 또는 IOPS 및 MBps 수를 나타냅니다. 반면에 QoS Min은 워크로드의 처리량이 특정 IOPS 또는 MBps, 즉 IOPS 및 MBps 이하로 보장되지 않습니다.</block>
-  <block id="7e2346a2225122036072112134535319" category="paragraph">Keystone 서비스에 적응형 QoS를 사용하면 QoS 정책이 자동으로 적용되는 크기에 따라 IOPS와 TB/GB의 비율을 유지할 수 있습니다. 적응형 QoS에 대한 자세한 내용은 를 참조하십시오<block ref="0b0432aa3ca26288c18ad101be107649" category="inline-link-rx"></block>.</block>
   <block id="62a55bd1cb01932a2345c6066f1d16c2" category="paragraph">Keystone은 클러스터가 운영 중인 경우 설정할 수 있는 적응형 QoS 정책을 제공합니다. 모든 볼륨이 이미 생성되어 시스템에서 사용 가능한 올바른 적응형 QoS 정책과 연결되어 있는지 확인해야 합니다.</block>
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Extreme 서비스 레벨을 위한 설정 및 명령:</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">성능 서비스 수준에 대한 설정 및 명령:</block>
@@ -491,7 +472,6 @@
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">이 서비스는 파일, 블록 및 오브젝트 서비스에만 적용됩니다.</block>
   <block id="b6a3337f47df4fd3f63ff2c1a9f8ec5b" category="paragraph">SnapLock 기술은 볼륨에 설정된 만료 날짜 이후에 드라이브를 사용할 수 없도록 하여 NRNVC 기능을 활성화합니다. 볼륨에 SnapLock 기술을 사용하려면 NRNVC를 구독해야 합니다. 이는 파일 및 블록 서비스에만 적용됩니다.</block>
   <block id="efdd84de779f9c449b249d2bf90a01c0" category="paragraph">SnapLock 기술에 대한 자세한 내용은 을 참조하십시오<block ref="7bc47f340e579853a1daae86dfb72c77" category="inline-link-rx"></block>.</block>
-  <block id="4c751804789e43ee2a6ae08c2c36ef43" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block ref="c63f678b886b21286031481ae7dbcfa9" category="inline-link-macro-rx"></block>.</block>
   <block id="789c0cf84faa868401f2d0fbccadc981" category="paragraph">추가 비용은 서브스크립션의 모든 용량(소스, 미러링된 복사본 및 미러링되지 않은 데이터)에 적용됩니다.</block>
   <block id="707341c09d7ffe7d139516dd4be5dcc7" category="inline-image-macro">Keystone에서 지원하는 MetroCluster 구성</block>
   <block id="5aca18c7a53d30f1878ae1f0a8d3c847" category="paragraph"><block ref="5aca18c7a53d30f1878ae1f0a8d3c847" category="inline-image-macro-rx" type="image"></block></block>
@@ -508,7 +488,6 @@
   <block id="9e5608e7c0a5ea33b2dac7e4f4da76e0" category="paragraph">고객 데이터 센터에 설치된 스토리지 인프라 또는 고객 소유의 코로케이션 서비스와 Keystone 운영 센터 간에 네트워크 연결이 필요합니다. 고객은 컴퓨팅 및 가상 시스템과 인터넷 서비스를 제공해야 합니다. 네트워크 설계는 보안 프로토콜을 통해 이루어져야 하며 방화벽 정책은 NetApp 및 고객 모두가 승인한 것입니다.</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="summary">Keystone 및 디지털 자문</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisor 설명서</block>
-  <block id="abf31de248022188b4e0cfaec81947f2" category="paragraph">Digital Advisor에 대한 자세한 내용은 를 참조하십시오<block ref="cf7e774d2d0935d58fa0d9f18081b471" category="inline-link-rx"></block>.</block>
   <block id="d98e1323795a96bdb4ab923442544f4f" category="summary">Keystone과 BlueXP</block>
   <block id="3736dc740e568bfea8adb597902add6e" category="paragraph">Keystone 가입 시 클라우드 서비스를 구입하면 BlueXP를 통해 해당 서비스에 액세스하고 관리할 수 있습니다.</block>
   <block id="ec5a85d1400f8bf17dec61b11740d60c" category="paragraph">Keystone 고객의 경우 Cloud Volumes ONTAP에 가입하면 Keystone 서비스를 통해 Cloud Volumes ONTAP 사용량을 충전하고 BlueXP를 통해 청구 및 소비 정보를 확인할 수 있습니다.</block>
@@ -521,11 +500,9 @@
   <block id="f6ea502258d48432c7bda8b0eeca5dbe" category="paragraph-title">샘플 블록 크기 계산</block>
   <block id="81eeab9506186e2dca8faefa78d54067" category="paragraph-title">예:</block>
   <block id="a1c01978d5580580fa3d133f61c34a50" category="paragraph">NetApp Keystone 서비스를 구독한 경우 디지털 자문 대시보드에서 사용 현황 보고서 및 그래프를 볼 수 있습니다.</block>
-  <block id="d32f247d19c35d87fa49120a76b3c5e4" category="paragraph">Digital Advisor를 사용하면 STaaS(Storage-as-a-Service) 세부 정보 및 소유한 NetApp 인프라에 대한 정보를 확인할 수 있습니다. Digital Advisor는 용량 사용량 및 추세 데이터를 한눈에 파악할 수 있는 단일 대시보드 뷰를 제공하며, 상세한 보고서를 생성할 수 있습니다. 또한 Digital Advisor를 통해 Keystone 서브스크립션을 관리할 수 있으며 구독에 대한 새로운 서비스를 주문하고 기존 서비스의 용량을 업데이트할 수 있습니다.</block>
   <block id="3bbfb69801d31eb97035c791f900fc27" category="paragraph">이를 위해 하나 이상의 BlueXP 계정을 생성하고 Keystone 계정과 연결해야 합니다. Keystone을 통해 클라우드 서비스를 구매하는 동안 BlueXP 계정의 세부 정보를 Keystone 성공 관리자(KSM)에 제공해야 합니다. 이를 통해 Keystone 가입을 통해 클라우드 서비스 사용량을 적절하게 계측 및 충전할 수 있습니다.</block>
   <block id="2875c453ae21cf76b51a8fa4752d6e33" category="paragraph">지표 측정을 위해 Keystone(NetApp Keystone) STaaS 서비스 내에서 다음 용어 및 정의가 사용됩니다.</block>
   <block id="c7c1919c4fd61189792daac01aa326b5" category="list-text">IO 밀도: IOPS/TiB: 워크로드에서 소비하는 총 공간(테비바이트)을 기준으로 초당 처리되는 입력/출력 작업의 수입니다.</block>
-  <block id="574fb90e35ae18c4da3a106399d7ae63" category="list-text">* 용량 측정 단위는 GiB, TiB 및 PiB *: 1024의 기수를 사용한 데이터 스토리지 용량 측정(1GiB = 1024^3^바이트, 1TiB = 1024^4^바이트, 1PiB = 1024^5^바이트).</block>
   <block id="bb145603bcdc015d5b17c8a464ceb711" category="list-text">* IOPS/TiB에 포함된 운영 카운터 차트 *: 애플리케이션에서 요청하는 1초 당 프로토콜 작업을 워크로드에 사용되는 볼륨 크기로 나눕니다.</block>
   <block id="8f8185258509b94d9c9eefe3d83808c3" category="paragraph">Keystone 성공 관리자(KSM)는 Keystone 서비스와 긴밀하게 협력하며 주간 또는 월간 청구 및 운영 보고서를 업데이트합니다. 책임은 NetApp Keystone 계약에 명시되어 있습니다.</block>
   <block id="2d0539451bff9f553647efc300f001de" category="section-title">서비스 요청을 생성하는 중입니다</block>
@@ -551,8 +528,6 @@
   <block id="e72611e56e05f623af5dc7011928a294" category="admonition">NetApp은 Cloud Volumes ONTAP에 필요한 하이퍼스케일 기반 컴퓨팅, 스토리지 및 네트워크 서비스를 Keystone STaaS 가입의 일부로 제공하지 않습니다. 하이퍼스케일 클라우드 서비스 공급자로부터 직접 서비스를 조달해야 합니다.</block>
   <block id="e18765eb2b8dddd29b66918ffb976fcc" category="paragraph">Keystone STaaS 구독은 매월 및 매년 청구됩니다.</block>
   <block id="5979b85a79f05c1c731acd749343d5ff" category="list-text">BlueXP 인터페이스 또는 Keystone 성공 관리자(KSM)를 통해 약정 용량에 대한 변경을 요청할 수 있습니다. 변경 요청에 대한 자세한 내용은 을 참조하십시오 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>.</block>
-  <block id="000b75ba9c60a2aca156fbf7475f8992" category="list-text">Keystone 서비스는 커밋된 용량 외에 추가로 사용할 수 있는 용량을 제공합니다. 버스트 용량입니다.</block>
-  <block id="75800ef8e179976b8f49540031673d8d" category="list-text">일반적으로 최대 버스트 용량은 커밋된 용량보다 최대 20% 더 많으며 약정 용량과 동일한 속도로 충전됩니다.</block>
   <block id="f8bd2c205fccea32b1d98118b791de1c" category="paragraph">이 섹션에서는 NetApp 및 고객 운영 환경을 위한 NetApp Keystone STaaS 인프라, 아키텍처 및 관리 애플리케이션에 대해 설명합니다.</block>
   <block id="5e34e90f1e2704aa18ae93d8841518d8" category="paragraph">Keystone STaaS는 구독 기반의 사전 정의된 성능 서비스 수준(서비스 수준)으로 데이터 스토리지 용량을 제공합니다.</block>
   <block id="864e6ceffc993de65f9913fb4c12ccc0" category="paragraph">서비스 수준 정의:</block>
@@ -566,13 +541,9 @@
   <block id="6c2e014c000f384666c794525cc81067" category="cell">* 볼륨당 저장된 최대 MBps/논리적 TiB *</block>
   <block id="6fad0b609a57af2ae4dbbf92ff728673" category="cell">2ms 미만</block>
   <block id="71d46f269394e963a516a1cc98340c17" category="cell">4ms 미만</block>
-  <block id="cada02c41b035b4e43ced7dbea911ae2" category="admonition">처리량 성능 메트릭에 대한 다음 사항을 확인합니다(파일 및 블록 서비스에만 해당).</block>
   <block id="188d13224eed451263dd6c85bd745307" category="list-text">파일 및 블록 서비스 수준은 ONTAP 9.7 이상을 기반으로 합니다.</block>
   <block id="4aec33bed8da506bcfc723119af226a2" category="list-text">서비스 수준에 대한 IOPS/TiB 및 지연 시간 값은 볼륨에 저장된 논리적 데이터의 양, 32KB 블록 크기, 70% 읽기 및/30% 쓰기 IO의 임의 조합을 기반으로 합니다.</block>
   <block id="5d38020d77a978c981c3a5727882af55" category="list-text">실제 IOPS/TiB 및/또는 MBps/TiB는 워크로드 동시성 및 사용 패턴에 따라 달라집니다.</block>
-  <block id="58ec0dfd62f9630c9b479a35a8b38962" category="list-text">지연 시간은 다음 사항을 포함하지 않습니다.</block>
-  <block id="409efd2026ef0cd784aaf0b606760127" category="list-text">컨트롤러 포트에서 또는 컨트롤러 포트로 전송되는 애플리케이션, 호스트 또는 고객 네트워크 지연 시간</block>
-  <block id="42a76dfeb5d6e65228e22b2817d853c7" category="list-text">지연 시간은 서비스 수준 최대 내에서 입출력을 유지하기 위해 QoS에서 자동으로 적용됩니다.</block>
   <block id="e1a5c627b57668717abd3786fef9b604" category="list-text">고급 데이터 보호 애드온 서비스를 사용하는 경우 타겟 지연 시간은 로컬 Keystone 제품의 IO 요청 서비스에만 적용됩니다.</block>
   <block id="93ed1a757e360a886c7ba5a5d93ba089" category="cell">* 볼륨당 저장된 최대 IOPS/논리적 TiB *</block>
   <block id="a082738e5a73e8698a3682d9439c6131" category="cell">* 볼륨당 저장된 최대 MBps/논리적 TiB *</block>
@@ -581,9 +552,6 @@
   <block id="eb915b9a3c101f4c453714a5ea9a7f1f" category="paragraph">* 지원되는 프로토콜 *: NFS, CIFS, iSCSI, S3(AWS 및 Azure만 해당)</block>
   <block id="9cbbc681c16afd44af52e8e1c761a406" category="cell">Cloud Volumes ONTAP ® 를 참조하십시오</block>
   <block id="c553b9ccdf9dbcac0e340f4775dc3b5a" category="paragraph">Keystone 성공 매니저(KSM)는 미국입니다 미국 시민입니다 제공됩니다. 이러한 책임들의 책임은 NetApp Keystone 계약에 명시되어 있습니다.</block>
-  <block id="4c7cec3ab08973d42ffe4fa5532704ba" category="paragraph">Keystone(NetApp Keystone) STaaS 청구 는 가입된 서비스 수준 중 확정된 용량 위에서 귀사가 소비하는 용량, 즉 버스트 용량을 기준으로 합니다.</block>
-  <block id="6c39624efb6f7b2b955a867461848132" category="paragraph">최대 한도는 Keystone 계약에 따라 결정되고 지정됩니다. 일반적으로 확정된 용량보다 20% 더 높습니다.</block>
-  <block id="65952ba805636fea0fbc45508c440465" category="paragraph">약정 용량은 가입을 구매하는 동안 특정 서비스 수준에 대해 확정된 용량입니다. 사용된 용량은 워크로드에서 실제로 사용하는 용량입니다. 사용된 용량이 서비스 수준에 대해 커밋된 용량보다 크면 버스트 소비가 기록되고 그에 따라 비용이 청구됩니다. 일반적으로 서비스 수준의 약정 용량보다 20% 더 높습니다. 버스트 용량을 초과하는 사용은 "버스트 제한 초과"로 표시됩니다.</block>
   <block id="e7585d2ee2e8c627c9574df1d741ec59" category="paragraph">이 프로세스는 생성된 각 소비 레코드에 대해 발생합니다. 따라서, 소비량의 급증은 당신의 헌신적인 능력 위에 소비된 용량의 잔기와 잔기를 모두 반영한다.</block>
   <block id="1923c743bdc7a28d03225437a33faad3" category="paragraph">NetApp Keystone(Keystone) STaaS는 파트너 운영 모델 및 고객 운영 모델의 두 가지 서비스 제공 운영 모델을 제공합니다.</block>
   <block id="ceaa88393b953e384cdb413dd3572b41" category="list-text">* 고객 운영 모델 *: 고객이 선택한 서비스 수준 및 스토리지에 따라 Keystone 서비스를 구독할 수 있습니다. NetApp은 아키텍처 및 제품을 정의하고 Keystone을 사내에 구축합니다. 스토리지 및 IT 리소스를 통해 인프라를 관리해야 합니다. 고객은 NetApp의 테넌트 또는 서브테넌트이거나 파트너/서비스 공급자입니다. 계약에 따라 NetApp 또는 서비스 공급자가 해결해야 할 서비스 요청을 제출할 수 있습니다. 관리자는 사용자 사이트(환경)에서 관리 작업을 수행할 수 있습니다. 이러한 작업은 사용자 환경의 사용자와 관련이 있습니다.</block>
@@ -640,7 +608,6 @@
   <block id="4cb7202e970020325d85bd7795afbf5c" category="list-text">* 403 * : 상태를 쿼리하는 HTTP 클라이언트가 허용되는 네트워크 CIDR 목록인 _allow_list에 없음을 나타냅니다. 이 상태에서는 상태 정보가 반환되지 않습니다. allow_list는 네트워크 CIDR 방법을 사용하여 Keystone 상태 시스템을 쿼리할 수 있는 네트워크 디바이스를 제어합니다. 이 오류가 발생하면 * Keystone Collector 관리 TUI &gt; 구성 &gt; 상태 모니터링 * 에서 _allow_list에 모니터링 시스템을 추가하십시오.</block>
   <block id="e30da5eac07974449eb112c2a4b1bbdc" category="admonition-title">Linux 사용자의 경우 이 알려진 문제를 확인하십시오.</block>
   <block id="f585d5f9723368abff5da05f5e20cb44" category="inline-link-macro">버그 1907870</block>
-  <block id="db598c1d7bcc8caa77a5a82449879c5b" category="admonition">* 문제 설명 *: Keystone 수집기는 사용량 측정 시스템의 일부로 다수의 컨테이너를 실행합니다. Red Hat Enterprise Linux 8.x 서버가 ISA(USA Defense Information Systems Agency) STIG(Security Technical Implementation Guides) 정책으로 강화되면, flapolicyd(File Access Policy Daemon)와 관련된 알려진 문제가 간헐적으로 나타납니다. 이 문제는 로 식별됩니다 <block ref="5b863d7babec7eaa4a0f1b304a46b953" category="inline-link-macro-rx"></block>. * 해결 방법 *: Red Hat Enterprise가 해결될 때까지 NetApp은 이 문제를 해결해 드립니다<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 허용 모드로 전환합니다. 인치 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>에서 값을 설정합니다<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>.</block>
   <block id="84eada60b1bce0b8092270cfdb8423d3" category="section-title">시스템 로그를 봅니다</block>
   <block id="c8753a825473dc9eb0caabf9c8626d64" category="paragraph">Keystone Collector 시스템 로그를 보고 시스템 정보를 검토하고 해당 로그를 사용하여 문제 해결을 수행할 수 있습니다. Keystone Collector는 호스트의 _저널_로깅 시스템을 사용하며, STANDARD_저널_시스템 유틸리티를 통해 시스템 로그를 검토할 수 있습니다. 다음 주요 서비스를 사용하여 로그를 검토할 수 있습니다.</block>
   <block id="bfd7c9aa7eb6376cdc2b0636379e901a" category="list-text">KS - 콜렉터</block>
@@ -742,25 +709,17 @@
   <block id="ad3045b448920c4dca9aa53735366dcc" category="paragraph">Unified Manager 9.7 이상이 API 게이트웨이 기능이 설정된 상태로 설치되어 있는 Unified Manager 서버가 구성되어 있는지 확인합니다.</block>
   <block id="b8f5f7a57bc1d52226404b891d492720" category="paragraph">Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.</block>
   <block id="d0b5d22f0f22d32554c2064ce1e75865" category="inline-link">VMware vSphere 시스템에 Unified Manager 설치</block>
-  <block id="7ff6917c9d1b71e244f0aaacd3a63915" category="list-text"><block ref="7ff6917c9d1b71e244f0aaacd3a63915" category="inline-link-rx"></block></block>
   <block id="af5e840663cada43f534ae4ad3ceb289" category="inline-link">Linux 시스템에 Unified Manager 설치</block>
-  <block id="1cda1ff8bfe6c7722843b4902cfa028c" category="list-text"><block ref="1cda1ff8bfe6c7722843b4902cfa028c" category="inline-link-rx"></block></block>
   <block id="37f222b07ebf09dfe392475f07af56ed" category="paragraph">Keystone Collector를 통해 사용 및 성능 데이터 수집을 위해 Unified Manager에 다음 사용자를 생성해야 합니다.</block>
   <block id="d5110307304cc56c38ba81dd00a2d42b" category="list-text">가 설치된 Keystone 수집기의 서비스 계정<block ref="e1b3ec89ead7f83a9245ed5c9cacfdbf" prefix=" " category="inline-code"></block> 사용자 역할. 이 사용자는 사용 데이터 수집에 필요합니다. Keystone Collector 서비스는 API를 통해 Unified Manager와 통신합니다. 이 서비스 계정은 통신에 필요합니다.</block>
   <block id="c7bf1f1fe35564032c03d3430ffc9caf" category="list-text">A<block ref="e307db07b3975fef922a80d07455ee5e" prefix=" " category="inline-code"></block> 사용자 계정, 및<block ref="500e2a5ef3a5e2ed448264b61db39efd" prefix=" " category="inline-code"></block> 역할. 이 사용자는 성능 데이터 수집에 필요합니다.</block>
   <block id="46de504f526b45c0de06f852a29508a4" category="paragraph">사용자 생성, 사용자 유형 및 사용자 역할에 대한 자세한 내용은 다음 링크를 참조하십시오.</block>
   <block id="3ce21a8f47ccabc1588563bb15ad2eb4" category="inline-link">사용자 유형 정의</block>
-  <block id="08cad0bff4f3b1af688e4f87d16518ff" category="list-text"><block ref="08cad0bff4f3b1af688e4f87d16518ff" category="inline-link-rx"></block></block>
   <block id="214e0ad375a14ed7b9c729ad961af779" category="inline-link">사용자 역할의 정의</block>
-  <block id="de14b224f39d6fc756ac0466b67f0d95" category="list-text"><block ref="de14b224f39d6fc756ac0466b67f0d95" category="inline-link-rx"></block></block>
   <block id="eeb73764fe75de1f17f8fa939253d44f" category="inline-link">Unified Manager 사용자 역할 및 기능</block>
-  <block id="5e65aa4fbc696f19c58e0eb50e411f3e" category="list-text"><block ref="5e65aa4fbc696f19c58e0eb50e411f3e" category="inline-link-rx"></block></block>
   <block id="af0d1e7c2a1092424d1db7635cad9143" category="inline-link">Unified Manager 웹 UI에 액세스</block>
-  <block id="373ac4dfbc4610c657ef8e19358dddaf" category="list-text">애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 기본 관리자 사용자는 설치 중에 생성됩니다. 을 참조하십시오<block ref="f1981049018f91dbd8b3ae5697df0757" category="inline-link-rx"></block>.</block>
   <block id="e12cdb6af9280f76fbd409784aba300f" category="inline-link">사용자 추가</block>
-  <block id="270837f06de74cf1c0a4d4880a41c928" category="list-text">로 사용자를 생성합니다<block ref="cfa584c2240d69ed179ed60a2e698402" prefix=" " category="inline-code"></block>. 을 참조하십시오<block ref="314b9f9cf079d2bbf75e108fa8785c3a" category="inline-link-rx"></block>.</block>
   <block id="50fd415addaa4c9909b813403a3c7bd4" category="inline-link">데이터베이스 사용자 생성</block>
-  <block id="23a62228eb68042b23fb0ca643fd89df" category="list-text">를 생성합니다<block ref="e307db07b3975fef922a80d07455ee5e" prefix=" " category="inline-code"></block> 사용자. 을 참조하십시오<block ref="4ef0e670b7a0ae90f8033eb68db13640" category="inline-link-rx"></block>.</block>
   <block id="c315b852e8d9f9ccef94be96ee14d237" category="paragraph"><block ref="c315b852e8d9f9ccef94be96ee14d237" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e248ff3e5885be0d25ca56d2853e64cf" category="section-title">Unified Manager에서 API 게이트웨이를 사용하도록 설정합니다</block>
   <block id="9e080d5e3d0873c0b22af56ab053b040" category="paragraph">Keystone 수집기는 Unified Manager API 게이트웨이를 사용하여 ONTAP 클러스터와 통신합니다.</block>
@@ -768,19 +727,15 @@
   <block id="cba13d286dfb58e4fa7aa4c597f9618e" category="section-title">웹 UI에서 API 게이트웨이를 활성화합니다</block>
   <block id="712755821401a9c96c96b0ede37ac613" category="paragraph">Unified Manager 웹 UI에서 API 게이트웨이를 설정하려면 다음 단계를 수행하십시오.</block>
   <block id="adaf9d0df55e24cafa452bb6683304c4" category="inline-link">API 게이트웨이 활성화 중</block>
-  <block id="61715c640f02f3c24764eb11c1914cc7" category="list-text">API 게이트웨이 활성화에 대한 자세한 내용은 을 참조하십시오<block ref="2c2c319260018f05830a9a87e0c1de09" category="inline-link-rx"></block>.</block>
   <block id="de99b8747e0d74962485b2b0ff2422a2" category="section-title">Unified Manager CLI를 통해 API 게이트웨이를 사용하도록 설정합니다</block>
   <block id="4d5b831c9948782f03d70dea8bd61ac2" category="paragraph">다음 단계에서는 Unified Manager CLI를 통해 API 게이트웨이 액세스를 설정하는 방법을 설명합니다.</block>
   <block id="349cd340e36e6c99b024c4cce5735bdc" category="inline-link">지원되는 Unified Manager CLI 명령</block>
-  <block id="ab89cfca65bde0e198d961b9ecb6d14a" category="paragraph">지원되는 명령에 대한 자세한 내용은 를 참조하십시오<block ref="ca6dd28c4b25c21bd5771470ba09dfb3" category="inline-link-rx"></block>.</block>
   <block id="59b1195d93b77107c94f0ef2fdde18d4" category="list-text">Unified Manager 서버에서 SSH 세션을 시작하고 Unified Manager CLI에 로그인합니다.<block ref="0c8c524a89baf2ffad5c88cd862dc1cc" prefix=" " category="inline-code"></block></block>
   <block id="901ed5e7d1cacfaba746d741e522220a" category="list-text">API 게이트웨이가 이미 설정되어 있는지 확인합니다.<block ref="7489a0a94d756e7169db7db466391d65" prefix=" " category="inline-code"></block>반환되는 값이 인 경우<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>API 게이트웨이 기능이 활성화되었음을 나타냅니다.</block>
   <block id="ed99779c4495e92781abe97e3cb78909" category="list-text">반환되는 값이 인 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block>에서 다음 명령을 실행하여 API 게이트웨이 기능을 사용하도록 설정합니다.<block ref="b09cad6fba489605054fc3982bb55f65" prefix=" " category="inline-code"></block></block>
   <block id="07e4e42c277e7989e64e6a8ca2abc411" category="list-text">설정을 적용하려면 Unified Manager 서버를 다시 시작합니다. 자세한 정보:</block>
   <block id="963d08ca263f6cd538d14c2e7f2ec229" category="inline-link">Unified Manager를 다시 시작하는 중입니다</block>
-  <block id="3eb83d8c4c9612836ee8c148205305b9" category="list-text">Linux 시스템의 경우 를 참조하십시오<block ref="8af69f31d0a9cfe53690a521ad3e106f" category="inline-link-rx"></block>.</block>
   <block id="f0534e91aef6ef17323964d9d72a8ced" category="inline-link">Unified Manager 가상 머신을 재시작합니다</block>
-  <block id="f4a28e9c1704429d1f6f2d044f950d2a" category="list-text">VMware vSphere 시스템의 경우 를 참조하십시오<block ref="b3be40ae1d4927f5e6b3bc51ae68d2c2" category="inline-link-rx"></block>.</block>
   <block id="4d222ee5a437d16bcebf771263f107fb" category="summary">Linux 시스템에 Keystone Collector 설치를 위한 사전 요구사항</block>
   <block id="ec42ecd035e3697033aaf0a3f87f6d29" category="doc">Linux 시스템 요구 사항</block>
   <block id="236d0b94e19b8de0c91e1d1af4193017" category="paragraph">Linux 시스템에 Keystone Collector를 설치하는 데 필요한 몇 가지 구성이 있습니다.</block>
@@ -934,4 +889,115 @@
   <block id="9246f20e80c7e18433fb482c85367cc8" category="sidebar">VMware vSphere에 Keystone Collector 설치</block>
   <block id="6c907602b1c4757ff7ea6534b13cd33e" category="sidebar">Linux에 Keystone Collector 설치</block>
   <block id="bf871fbeda66c457eaf1656d09ea34de" category="sidebar">Keystone에서 지원되는 서비스</block>
+  <block id="5b57c786a5a2f01f7f3d39a2f01fcd64" category="list-text"><block ref="5b57c786a5a2f01f7f3d39a2f01fcd64" category="inline-link-rx"></block></block>
+  <block id="7653c2f7dacbc36a17ed707c1ae4abce" category="list-text"><block ref="7653c2f7dacbc36a17ed707c1ae4abce" category="inline-link-rx"></block></block>
+  <block id="89fb8980c16c92d28af72e0579cfac9c" category="summary">Keystone 구독 보고서 및 그래프</block>
+  <block id="deaf5bbabe29231a9826b313fee569a1" category="doc">Keystone 구독 대시보드 및 리포팅</block>
+  <block id="783b1055c5e6aba9c0938d11966a2e98" category="paragraph">NetApp Keystone STaaS 서비스에 가입한 경우 디지털 어드바이저 대시보드의 * Keystone 구독 * 위젯에서 사용량을 모니터링할 수 있습니다.</block>
+  <block id="b5d0947d6bc5e70f868d560d859163f5" category="inline-link">NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다</block>
+  <block id="01c3a560c25b0965cc159e877afd7ebd" category="paragraph">Digital Advisor 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="29d7a7f90d7d38a5b51213a6c0579058" category="inline-link-rx"></block>.</block>
+  <block id="530e795f91eac0d251eb1546c915f390" category="paragraph">위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 가입 * 페이지에서 볼륨에 대한 사용 세부 정보 및 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 &gt; Keystone 가입 * 으로 이동합니다.</block>
+  <block id="2b5cc61793a2ba9e545466a73e93c16e" category="paragraph">구독 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보가 이 화면의 여러 탭에 표시됩니다.</block>
+  <block id="016b01bead3857be9fd51bfef49b23aa" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드와 보고서에 최대 소수점 이하 두 자리까지 TiB에 표시됩니다. 사용률이 0.01TiB 미만이면 값이 0 또는 로 표시됩니다<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 기타 사용량 메트릭은 를 참조하십시오 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>.</block>
+  <block id="b3c0ed0e576799a24c9e0fda06bee006" category="section-title">구독 세부 정보를 봅니다</block>
+  <block id="b5d0d2658bdd7db17a2251c2d1fa6edb" category="paragraph">계정 이름에 대한 모든 구독은 * 가입 세부 정보 * 탭에서 확인할 수 있습니다.</block>
+  <block id="3134c27d858b331bf91068bcd770722c" category="paragraph"><block ref="3134c27d858b331bf91068bcd770722c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="60d8073bb007efeabf44bc4eea759210" category="paragraph">각 구독 번호에 대해 다음 정보를 확인할 수 있습니다.</block>
+  <block id="8e43124ddee77b223f1e720973e147e7" category="list-text">* 구독 번호 *: NetApp에서 할당한 Keystone 가입 번호입니다.</block>
+  <block id="f06c1648cc175308e5d0425681e31f63" category="list-text">* 추적 ID *: 가입 활성화 시 할당된 추적 ID입니다. 구독 추적에 사용되는 각 구독 및 사이트의 고유 ID입니다.</block>
+  <block id="3644820829d44e327e43dd95769b1686" category="list-text">* 청구 기간 *: 월, 분기 또는 연간과 같은 가입 청구 기간.</block>
+  <block id="58ddac2ef16530986372a556eb9e6b7a" category="list-text">* 시작일 *: 가입일.</block>
+  <block id="88a1ec4b03612bf59b6b9bcf7bbc5ff7" category="list-text">* 종료일 *: 가입 종료 날짜. 이 날짜를 기준으로 만료가 임박한 구독 또는 규정된 유예 기간에 대한 정보 메시지가 표시될 수 있습니다.</block>
+  <block id="83adb6d347afacf7d560a4bb6f74dfa1" category="list-text">* 사용 상태 *: 구독이 얼마나 많이 사용되었거나 초과 사용되었는지 나타냅니다. 최고 소비 레코드를 보려면 이 열을 기준으로 목록을 정렬할 수 있습니다.</block>
+  <block id="5ef0de341f3206ea121fbfbf51e38e32" category="list-text"><block ref="5d188bf7f39558255a337fa21a17a0b0" category="inline-image-macro-rx" type="image"></block>: 이 아이콘을 클릭하면 이 구독에 포함된 각 서비스 수준의 사용 내역 데이터를 볼 수 있는 * 가입 시간 시리즈 * 탭이 열립니다</block>
+  <block id="dc73bcb00aeb285be26cfd179924fe9e" category="paragraph">구독 레코드에 대한 아래쪽 화살표를 클릭하면 자세한 내용을 볼 수 있습니다. 서비스 수준 이름, 커밋됨, 소비됨, 사용 가능한 용량, 현재 및 계산된 버스트 사용률 등의 세부 정보는 TiB로 표시됩니다. 더 높은 소비량을 기록하는 특정 서비스 수준이 강조 표시됩니다. 볼륨에 대해 생성된 모든 경고와 알림도 표시됩니다.</block>
+  <block id="736d5b3313fce2ba2126ffff61a7ec29" category="paragraph">다음 사용 표시기를 참조하여 각 구독의 사용 상태를 확인할 수 있습니다.</block>
+  <block id="3aaeea3f20263addb794c645bdef9c16" category="paragraph"><block ref="3aaeea3f20263addb794c645bdef9c16" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="88fa71f0a6e0dfedbb46d91cc0b37a50" category="paragraph-title">색인</block>
+  <block id="8cc14ca7f7b6ee943d77418dfa822731" category="paragraph"><block ref="56a93b6a2a3614c3aeb1b9851c5e43f2" category="inline-image-macro-rx" type="image"></block>: 서비스 수준의 약정 용량에 대해 기록된 용량 사용량이 없습니다<block ref="bb7f7720d1162aeddd650a9a9446141b" category="inline-image-macro-rx" type="image"></block>: 소비는 정상이며, 약속된 용량의 80% 이내입니다<block ref="7646cb232eca2204ee8b299f2fdebfb4" category="inline-image-macro-rx" type="image"></block>: 최대 소비량입니다. 즉, 사용량이 약속된 용량의 100% 이상에 도달하게 됩니다. Consumed * (사용량 *) 열에는 커밋된 용량의 80%를 초과하는 소비에 대한 이 표시기가 표시됩니다<block ref="2acc4efd0d7d55d52fc790f88116c2e0" category="inline-image-macro-rx" type="image"></block>: 소모량이 버스트 제한 내에 있습니다. 버스트 소비는 서비스 수준의 약정 용량 100%를 초과하는 소비량이며, 120%와 같이 합의된 최대 사용량 제한 내에 있는 소비입니다<block ref="9dd31109acddbedcca8dcf80e09eebda" category="inline-image-macro-rx" type="image"></block>: 규정된 버스트 제한을 초과하는 소비를 나타냅니다</block>
+  <block id="6258cb1a842831f15b22f87325717f37" category="section-title">과거 구독 데이터를 봅니다</block>
+  <block id="a514224616890dbac3dede8f0d533add" category="paragraph">[가입 시간 시리즈 *] 탭은 특정 기간 동안 구독의 기록 데이터를 표시합니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.</block>
+  <block id="c46ba64e2bab36ac2ede95ae5f0692dc" category="list-text">[가입 시간 시리즈 *] 탭을 클릭합니다.</block>
+  <block id="a49bb8de1f373a2c0821dd3715e2473c" category="list-text">세부 정보를 보려는 필수 구독을 선택합니다. 기본적으로 계정 이름의 첫 번째 구독이 선택됩니다.</block>
+  <block id="6dbefe5c5eccb05f98d8601a8a1dc5d2" category="list-text">From Date * 및 * To Date * 필드의 달력 아이콘에서 시간 범위를 선택합니다. 선택한 기본 시간 범위는 청구 기간의 시작 날짜부터 현재 날짜까지입니다.</block>
+  <block id="2d4b4ef84378e8e4f4407057e45d3b8b" category="list-text">세부 정보 보기 * 를 클릭합니다. 각 서비스 수준에 대한 구독의 과거 소비 데이터는 선택한 시간 범위를 기준으로 표시됩니다. 차트 위에 마우스 커서를 올려 놓으면 해당 시점의 버스트 제한 데이터 위에서 약정, 사용량, 버스트 등의 사용량 분석을 볼 수 있습니다.</block>
+  <block id="4ace5fc4007e7d1732831506700b3e06" category="paragraph"><block ref="4ace5fc4007e7d1732831506700b3e06" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="35070e1c588eb56d935a4877ffdfdb10" category="paragraph">다음과 같은 세부 정보가 표시됩니다.</block>
+  <block id="813dc3619fc1bb1123b559727f3fd6bd" category="list-text">* 현재 소비 *: 왼쪽의 게이지/도넛형 차트는 청구 기간 동안 서비스 수준의 사용된 용량을 나타냅니다. 이 차트에는 다음과 같은 용도를 나타내는 특정 색상이 표시됩니다.</block>
+  <block id="d1ed8a244f9d450a49685322184bed76" category="list-text">회색: 없음</block>
+  <block id="1cd72a87916c52cbceede4fc86600dd3" category="list-text">녹색: 약속된 용량의 80% 이내</block>
+  <block id="bf2c828404c4fb1dbd892864bcecddce" category="list-text">황색: 약속된 용량의 80%를 초과하는 모든 소모량</block>
+  <block id="d4830e54c6f111857a8f3d195ae9b3e2" category="list-text">* 현재 버스트 *: 이 게이지/도넛형 차트는 버스트 제한 범위 내에 있거나 그 이상의 서비스 수준에서 소비된 용량을 나타냅니다. 서비스 수준의 경우, 약정 용량보다 20% 이상 증가한 경우와 같이 100%와 합의된 버스트 제한 사이의 사용량이 버스트 제한 내에 있습니다. 추가 사용은 버스트 제한을 초과하는 사용량으로 간주됩니다. 이 차트에는 다음과 같은 용도를 나타내는 특정 색상이 표시됩니다.</block>
+  <block id="39e06c094ae8764d2e3f2565c4f79e14" category="list-text">빨간색: 버스트</block>
+  <block id="48aff6e4bfcc642ba455090da3bdc2b7" category="list-text">자주색: 버스트 제한 초과</block>
+  <block id="e169db8e2d04ad801fc22a8acf0e1e79" category="list-text">* 누적 버스트 *: 누적 버스트 사용량 또는 사용된 용량은 현재 청구 기간에 대해 매월 계산됩니다. 누적 버스트 사용량은 서비스 수준에 대해 커밋된 용량과 사용된 용량을 기준으로 계산됩니다.<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block></block>
+  <block id="475f135937f1a8d8c9a74e9446d85267" category="list-text">* 시간 시리즈 *: 막대 차트는 선택한 시간의 용량 사용을 표시합니다. 컬렉션의 날짜 및 시간이 차트 아래쪽에 표시됩니다. 막대 차트는 사용 현황을 나타내는 다음과 같은 색상으로 표시됩니다.</block>
+  <block id="52a3ef9cd985142f8e073c9f6c9ea04b" category="list-text">녹색: 80% 이내</block>
+  <block id="bebd45b55587bb3c0392ad3fb5289e51" category="list-text">황색: 80% - 100%</block>
+  <block id="c3b2392317dad26eb62ae53f36697f5e" category="list-text">빨간색: 버스트 사용량(약정된 버스트 한도에 대한 약속된 용량의 100%)</block>
+  <block id="f5dc602cc66a4af36e51d24f74a8a9a9" category="list-text">자주색: 버스트 제한 초과 또는<block ref="a9793d8430f5962bfc6384a1d9f6d19b" prefix=" " category="inline-code"></block></block>
+  <block id="3a7a2de2ca946be21737da030c54b35a" category="list-text">회색: 임시 사용량 - 해당 기간의 정확한 데이터를 사용할 수 없고 이전 데이터 수집 지점에서 사용 가능한 데이터로 대체될 때 기록됩니다</block>
+  <block id="ec4fc4cb1b37373b785aaee6062cfec7" category="section-title">볼륨 세부 정보를 봅니다</block>
+  <block id="2952c69578918db6a07a98aff5652c7d" category="paragraph">Keystone 가입이 관리하는 스토리지 환경의 각 볼륨에 대한 세부 정보를 보려면 * 시스템 세부 정보 * 탭을 클릭하십시오.</block>
+  <block id="2ebe85ca38ab100590dc16fd81d18da1" category="paragraph"><block ref="2ebe85ca38ab100590dc16fd81d18da1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="47341fd63db273208902316d2cab5ee2" category="paragraph">열을 기준으로 정렬하고 목록을 필터링하여 특정 정보를 볼 수 있습니다. 노드 계열 복사 * 버튼을 클릭하여 개별 노드 일련 번호를 복사할 수 있습니다.</block>
+  <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">보고서를 생성합니다</block>
+  <block id="b894fba1f7e89a49fc8cfb6cea7e1ee6" category="paragraph">다운로드 버튼을 클릭하여 구독 세부 정보, 시간 범위에 대한 기간별 사용 데이터 및 각 탭에서 시스템 세부 정보에 대한 보고서를 생성하고 볼 수 있습니다. <block ref="f865f0dd5bea740b7e77dd6862c1f366" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03051fbd458dd7625e7969d74dd74735" category="paragraph">세부 정보는 나중에 사용할 수 있도록 저장할 수 있는 CSV 형식으로 생성됩니다.</block>
+  <block id="3f564a49686a18ae09da9597e6538840" category="paragraph">그래픽 데이터가 변환되는 * Subscription Time Series * 탭의 샘플 보고서:</block>
+  <block id="0a5468723ee164f4220a0538b1ff32b4" category="paragraph"><block ref="0a5468723ee164f4220a0538b1ff32b4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">알림을 봅니다</block>
+  <block id="c71fcee7f813aa85774b9114dfba4ef1" category="paragraph">대시보드의 알림은 스토리지 환경에서 발생하는 문제를 파악할 수 있는 주의 메시지를 보냅니다.</block>
+  <block id="903961eaa166cc0c38b735276961eb0c" category="paragraph">경고는 다음 두 가지 유형이 될 수 있습니다.</block>
+  <block id="dfcc95055f4cc99edc4344c0b7d5bf1c" category="list-text">* 정보 *: 가입이 거의 끝나거나 유예 기간에 도달하는 것과 같은 문제의 경우 정보 경고를 볼 수 있습니다. 정보 아이콘 위에 커서를 올려 놓으면 문제에 대해 자세히 알아볼 수 있습니다.</block>
+  <block id="d08b54ee187c7327910bae3997812ee1" category="list-text">* 경고 *: 규정 위반 등의 문제가 경고로 표시됩니다. 예를 들어, AQoS(적응형 QoS) 정책이 연결되지 않은 관리 클러스터 내에 볼륨이 있는 경우 경고 메시지가 표시됩니다. 경고 메시지의 링크를 클릭하면 * 시스템 세부 정보 * 탭에서 비준수 볼륨 목록을 볼 수 있습니다.</block>
+  <block id="0fdfd6d11ae114ae172cdc0ad002c349" category="paragraph">AQoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="ec50deebd618280d321c610a1ff0d73b" category="inline-link-macro-rx"></block>.</block>
+  <block id="2f79ebd4f32cabd1114c688445ebf53e" category="paragraph"><block ref="2f79ebd4f32cabd1114c688445ebf53e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7e3b81d04325da2b3bbb50d615754b46" category="paragraph">이러한 주의 및 경고 메시지에 대한 자세한 내용은 지원 부서에 문의하십시오. 자세한 내용은 을 참조하십시오 <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>.</block>
+  <block id="f303aa2ecdcc69fbc97adcf5a2476825" category="paragraph">Digital Advisor를 사용하면 STaaS(Storage-as-a-Service) 세부 정보 및 소유한 NetApp 인프라에 대한 정보를 확인할 수 있습니다. Digital Advisor는 상세 보고서를 생성할 수 있는 기능과 함께 서브스크립션, 서비스 수준 및 용량 사용량을 한눈에 파악할 수 있는 단일 대시보드를 제공합니다.</block>
+  <block id="4399c15978a81e58a3e04abf32e24450" category="paragraph">Keystone용 Digital Advisor 대시보드 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="83b41b6080697e04ba49f73c6bb33a7e" category="inline-link-rx"></block>.</block>
+  <block id="7a00a46aa8b851e05a0a8783db55e3ab" category="paragraph">Keystone 대시보드 및 보고에 대한 자세한 내용은 을 참조하십시오 <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>.</block>
+  <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">* 문제 설명 *: Keystone 수집기는 사용량 측정 시스템의 일부로 다수의 컨테이너를 실행합니다. Red Hat Enterprise Linux 8.x 서버가 ISA(USA Defense Information Systems Agency) STIG(Security Technical Implementation Guides) 정책으로 강화되면, flapolicyd(File Access Policy Daemon)와 관련된 알려진 문제가 간헐적으로 나타납니다. 이 문제는 로 식별됩니다 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>. * 해결 방법 *: Red Hat Enterprise가 해결될 때까지 NetApp은 이 문제를 해결해 드립니다<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 허용 모드로 전환합니다. 인치 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>에서 값을 설정합니다<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>.</block>
+  <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
+  <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
+  <block id="2d529b5bfbdb6f2ea7a21515c9520115" category="list-text"><block ref="2d529b5bfbdb6f2ea7a21515c9520115" category="inline-link-rx"></block></block>
+  <block id="a9c3d6f1b9ab5326012f266697a5027c" category="list-text"><block ref="a9c3d6f1b9ab5326012f266697a5027c" category="inline-link-rx"></block></block>
+  <block id="1a558e30520bd539ad815f5b269ef544" category="list-text"><block ref="1a558e30520bd539ad815f5b269ef544" category="inline-link-rx"></block></block>
+  <block id="b6defa5b50b28932d58f77e1e765ba87" category="list-text">애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 기본 관리자 사용자는 설치 중에 생성됩니다. 을 참조하십시오<block ref="17aa822f94d08050e378f9f079472ac0" category="inline-link-rx"></block>.</block>
+  <block id="236351c3ce34c9c6d35a533bd0d41e7b" category="list-text">로 사용자를 생성합니다<block ref="cfa584c2240d69ed179ed60a2e698402" prefix=" " category="inline-code"></block>. 을 참조하십시오<block ref="d546132ce86c2f4d7ae2da99a793de79" category="inline-link-rx"></block>.</block>
+  <block id="2aebcc6573599fb92a201792b1b79f6e" category="list-text">를 생성합니다<block ref="e307db07b3975fef922a80d07455ee5e" prefix=" " category="inline-code"></block> 사용자. 을 참조하십시오<block ref="c2493cbb2040ec99e85202f9d90c8a99" category="inline-link-rx"></block>.</block>
+  <block id="c3df6e35437f423efc3576bdf85c8c8b" category="list-text">API 게이트웨이 활성화에 대한 자세한 내용은 을 참조하십시오<block ref="e799c624d1913638d4e246c84481fcd8" category="inline-link-rx"></block>.</block>
+  <block id="a41b0d48c6c6f2f876ec27a25b273ab0" category="paragraph">지원되는 명령에 대한 자세한 내용은 를 참조하십시오<block ref="174a15c90aa48055b15ccbe06d19bf76" category="inline-link-rx"></block>.</block>
+  <block id="716145cb0c54c69b84104e766f667c6d" category="list-text">Linux 시스템의 경우 를 참조하십시오<block ref="6eb822e8507f1f310b2723182652f292" category="inline-link-rx"></block>.</block>
+  <block id="f41275e3ce9174cd7c04319fc49798f9" category="list-text">VMware vSphere 시스템의 경우 를 참조하십시오<block ref="e7d492a81a8574f8c260a7a7e9130e4b" category="inline-link-rx"></block>.</block>
+  <block id="e41d7b27749843cacc5b63d577d05563" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>.</block>
+  <block id="580c330994127defe5cd5153bad3a4ba" category="paragraph">스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS가 없으면 여러 시스템 부팅 같은 특정 워크로드에서 전체 리소스를 일정 기간 동안 소모하여 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>.</block>
+  <block id="179e62f7e40ac7f5694e829467ad076f" category="paragraph">QoS를 적용하면 애플리케이션이 항상 일관된 성능을 얻을 수 있습니다. NetApp ONTAP는 QoS에 대한 두 가지 매개 변수, 즉 천장-<block ref="f481633ea70c9b3dfd9b26e1e0045eee" category="inline-link-rx"></block>및 처리량 플로어 -<block ref="406d3c0c34cedc53d1b49a1bfac79dea" category="inline-link-rx"></block>. QoS Max는 워크로드가 달성할 수 있는 최대 IOPS 또는 MBps 또는 IOPS 및 MBps 수를 나타냅니다. 반면에 QoS Min은 워크로드의 처리량이 특정 IOPS 또는 MBps, 즉 IOPS 및 MBps 이하로 보장되지 않습니다.</block>
+  <block id="1e75ab2f9751f71d24e5ca3107121437" category="paragraph">Keystone 서비스에 AQoS(Adaptive QoS)를 사용하여 IOPS와 TB/GB의 비율을 유지합니다. 크기가 다양해지면 QoS 정책이 자동으로 적용됩니다. 적응형 QoS에 대한 자세한 내용은 를 참조하십시오<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>.</block>
+  <block id="e7c930482608603fab44c72884516b4d" category="list-text">* 정책 그룹 이름 *: 적응형 QoS 정책 그룹의 이름입니다. 예를 들면, 다음과 같습니다.<block ref="e22fe87dc37298f80d1bbd25d59219b8" prefix=" " category="inline-code"></block>.</block>
+  <block id="e88f55d6b9c231a5c6bcae698bdfd7dc" category="list-text">* vserver *: SVM 또는 스토리지 VM(스토리지 가상 머신)의 이름입니다.</block>
+  <block id="308ede543987c09a3ef34aff33fbd87f" category="list-text">* 예상 IOPS *: 성능 보장이 있는 경우, ONTAP에서 최소 제공하는 IOPS/TiB 수입니다.</block>
+  <block id="095c182a20e3d5d17cb203ffded54217" category="list-text">* 피크 IOPS *: 성능이 제한되기 전에 볼륨에서 사용할 수 있는 최대 IOPS/TiB</block>
+  <block id="b2744d264660e6ee9104834a92616c0f" category="list-text">* 예상 IOPS 할당 *: 이 필드는 볼륨에서 사용할 수 있는 예상 IOPS가 볼륨의 할당된 크기 또는 사용된 크기를 기반으로 하는지 여부를 제어합니다. Keystone에서 이는 할당된 공간을 기반으로 합니다.</block>
+  <block id="48498032e36fc1bb3a4f2820d6c121e0" category="list-text">* Peak IOPS allocation *: 이 필드는 볼륨에서 사용 가능한 피크 IOPS가 볼륨의 할당된 크기 또는 사용된 크기를 기준으로 하는지 여부를 제어합니다. Keystone에서 이는 사용된 공간을 기반으로 합니다.</block>
+  <block id="4c90a7c231372c7d1bb879f2ac327854" category="list-text">* 절대 최소 IOPS *: 볼륨 크기가 매우 작은 경우 볼륨에 적용되는 예상 IOPS의 최소 개수이며, 그렇지 않으면 IOPS가 허용할 수 없는 수준으로 표시됩니다. 이 값은 의 경우 기본적으로 1,000으로 설정됩니다<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block>, 500for<block ref="8d5e7e72f12067991186cdf3cb7d5d9d" prefix=" " category="inline-code"></block>기타 서비스 수준에 대해 75를 참조하십시오.</block>
+  <block id="83968617de22b9218018ccb02b138d69" category="paragraph">IO 밀도에 대한 자세한 내용은 을 참조하십시오 <block ref="3ce2bf0236919e451c90f574367e80ae" category="inline-link-macro-rx"></block>. AQoS 정책 그룹에 대한 자세한 내용은 을 참조하십시오<block ref="e1f6c27c218a9f9df79e5c49fb7040d6" category="inline-link-rx"></block>.</block>
+  <block id="192df84a9403e8f9211cf3ee869e0bcf" category="paragraph">각 서비스 수준에 대한 적응형 QoS 정책 설정은 다음 섹션에서 설명합니다. 여기에 제공된 각 서비스 수준에 대한 최소 및 최대 볼륨 크기를 통해 볼륨에 대한 최적의 IOP 및 지연 시간 값을 얻을 수 있습니다. 이 지침을 벗어나는 볼륨을 너무 많이 생성하면 해당 볼륨의 성능에 부정적인 영향을 미칠 수 있습니다.</block>
+  <block id="d1dc13c797f457ef0f8af6fba8c638fa" category="paragraph">프리미엄 서비스 수준에 대한 설정 및 명령:</block>
+  <block id="7448ec74d1e6091b2ad38508ebdc37f4" category="section-title">표준 서비스 수준 설정</block>
+  <block id="f20f6fc30a0b0f9782dbad2fdc8d1694" category="paragraph">표준 서비스 수준에 대한 설정 및 명령:</block>
+  <block id="5cd7d5370bb2b4b9a46af59b9c5c279e" category="paragraph">값 서비스 수준에 대한 설정 및 명령:</block>
+  <block id="31dc6a9375ebd13745edd88d9ad398fa" category="paragraph">Keystone은 서비스 수준에 따라 소비를 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 구축하는 동안 구독한 Keystone 서비스에 대한 각 QoS 정책에 대한 세부 정보가 제공됩니다. 스토리지 관리 작업 중에 예상치 못한 청구가 발생하지 않도록 서비스에 가입한 서비스 수준에 따라 볼륨에 적절한 QoS 정책이 할당되었는지 확인합니다. ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>.</block>
+  <block id="6ee89d6c0a15491675b7cc32e34a211d" category="list-text">* gibibytes(GiB), tebytes(TiB) 및 pebibytes(PiB) *: 1024의 밑을 사용한 데이터 스토리지 용량 측정(1GiB = 1024^3^바이트, 1TiB = 1024^4^바이트, 1PiB = 1024^5^바이트).</block>
+  <block id="da87ed8022acb452323aacf7d8c334ec" category="paragraph">처리량 성능 메트릭에 대해서는 다음 사항을 참고하십시오(파일에만 해당)</block>
+  <block id="59e575bf50bc5d85d93d47cc7ef0e4e2" category="list-text">대기 시간에는 컨트롤러 포트 간 애플리케이션, 호스트 또는 고객의 네트워크 지연 시간이 포함되지 않습니다. -- QoS에서 자동으로 적용되는 지연 시간으로 서비스 수준 최대값 내에 IO를 유지합니다.</block>
+  <block id="60a76fbd6768a42afc35ac611d023d65" category="paragraph">NetApp Keystone STaaS 서비스 용량은 다음과 같습니다.</block>
+  <block id="33fdcc4581188d05dc6308f0e1c577d9" category="paragraph">서비스 수준에 대해 커밋된 용량을 초과하는 소비량은 버스트 용량입니다.</block>
+  <block id="34d81e2d25f8511b6ab5f5b492c3aaa9" category="list-text">Keystone 서비스를 사용하면 서비스 수준에 대해 커밋된 용량 외에 추가 용량을 사용할 수 있습니다. 버스트 용량입니다.</block>
+  <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">최대 용량은 Keystone 계약에 합의됩니다. 일반적으로 커밋된 용량보다 20% 높게 설정되며 커밋된 용량과 동일한 속도로 충전됩니다.</block>
+  <block id="c9963abc84e870941cff082c5577ec18" category="paragraph">Keystone(NetApp Keystone) STaaS 청구 는 가입의 확정된 용량 위에서 귀사가 소비하는 용량, 즉 버스트 용량을 기준으로 합니다.</block>
+  <block id="7e974afef4ba00b90e789eeac590a840" category="paragraph">최대 한도는 Keystone 계약에 따라 결정되고 지정됩니다. 일반적으로 커밋된 용량보다 20% 더 높습니다.</block>
+  <block id="391a68f52dcd5fd65d9c97ad33e80a85" category="paragraph">약정 용량은 가입을 구매할 때 약정 용량입니다. 커밋된 용량 및 버스트 용량은 서비스 수준별로 측정됩니다. 사용된 용량은 워크로드에서 실제로 사용하는 용량입니다. 소비된 용량이 서비스 수준에 대해 약속된 용량보다 크면 버스트 소비가 기록되고 그에 따라 비용이 청구됩니다. 일반적으로 커밋된 용량보다 20% 더 높습니다. 버스트 용량을 초과하는 사용은 "버스트 제한 초과"로 표시됩니다.</block>
+  <block id="215e085cba06e994e7e4e5cf0797e2f7" category="sidebar">Digital Advisor Keystone 대시보드 및 리포팅</block>
+  <block id="103955022b1603eabc8ae0b8c08e287a" category="sidebar">서비스 수준별 내 소모량을 어떻게 확인할 수 있습니까?</block>
 </blocks>

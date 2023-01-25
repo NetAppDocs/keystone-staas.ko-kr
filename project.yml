@@ -99,6 +99,8 @@ sidebar:
       url: "/integrations/keystone-cm.html"
     - title: Keystone 및 디지털 자문
       url: "/integrations/keystone-aiq.html"
+    - title: Digital Advisor Keystone 대시보드 및 리포팅
+      url: "/integrations/aiq-keystone-details.html"
   - title: 법적 고지
     url: "/legal-notices.html"
 homepage:
@@ -127,6 +129,8 @@ homepage:
       url: "/concepts/data-tiering.html"
     - title: Keystone 데이터가 보호되고 있습니까?
       url: "/concepts/adp.html"
+    - title: 서비스 수준별 내 소모량을 어떻게 확인할 수 있습니까?
+      url: "/integrations/aiq-keystone-details.html"
   - title: Keystone 가격
     links:
     - title: Keystone 청구에 대해 알아보십시오
