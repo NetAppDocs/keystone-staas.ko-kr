@@ -22,26 +22,26 @@ QoS를 적용하면 애플리케이션이 항상 일관된 성능을 얻을 수 
 
 == 적응형 QoS
 
-Keystone 서비스에 AQoS(Adaptive QoS)를 사용하여 IOPS와 TB/GB의 비율을 유지합니다. 크기가 다양해지면 QoS 정책이 자동으로 적용됩니다. 적응형 QoS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["적응형 QoS에 대해 알아보십시오"^].
+Keystone 서비스에 AQoS(Adaptive QoS)를 사용하여 IOPS와 TB/GB의 비율을 유지합니다. 크기가 다양해지면 QoS 정책이 자동으로 적용됩니다. AQoS 정책에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["적응형 QoS에 대해 알아보십시오"^].
 
-Keystone은 클러스터가 운영 중인 경우 설정할 수 있는 적응형 QoS 정책을 제공합니다. 모든 볼륨이 이미 생성되어 시스템에서 사용 가능한 올바른 적응형 QoS 정책과 연결되어 있는지 확인해야 합니다.
+Keystone은 클러스터가 운영 중인 경우 설정할 수 있는 AQoS 정책을 제공합니다. 모든 볼륨이 시스템에서 이미 생성되어 사용 가능한 올바른 AQoS 정책과 연결되어 있는지 확인해야 합니다.
 
 
-NOTE: 볼륨에 적응형 QoS 정책을 올바르게 적용하지 않은 경우, 가입형 정액제에 따라 해당 볼륨을 가장 높은 서비스 수준에서 측정 및 청구됩니다. 이로 인해 의도하지 않은 폭발이 발생할 수 있습니다.
+NOTE: 볼륨에 AQoS 정책을 올바르게 적용하지 않은 경우, 해당 볼륨은 가입자 서비스에 따라 가장 높은 서비스 수준에서 측정 및 청구됩니다. 이로 인해 의도하지 않은 폭발이 발생할 수 있습니다.
 
 
 
 == Adaptive QoS 정책 그룹 구성
 
-처리량 상한 또는 하한 을 볼륨 크기로 자동 확장하도록 적응형 QoS 정책을 구성할 수 있습니다. 정책을 구성할 때는 다음 사항을 염두에 두어야 합니다.
+AQoS(적응형 QoS) 정책을 구성하여 처리량 상한 또는 하한 을 볼륨 크기로 자동 확장할 수 있습니다. 정책을 구성할 때는 다음 사항을 염두에 두어야 합니다.
 
-* * 정책 그룹 이름 *: 적응형 QoS 정책 그룹의 이름입니다. 예를 들면, 다음과 같습니다. `Keystone_extreme`.
+* * 정책 그룹 이름 *: AQoS 정책 그룹의 이름입니다. 예를 들면, 다음과 같습니다. `Keystone_extreme`.
 * * vserver *: SVM 또는 스토리지 VM(스토리지 가상 머신)의 이름입니다.
 * * 예상 IOPS *: 성능 보장이 있는 경우, ONTAP에서 최소 제공하는 IOPS/TiB 수입니다.
 * * 피크 IOPS *: 성능이 제한되기 전에 볼륨에서 사용할 수 있는 최대 IOPS/TiB
 * * 예상 IOPS 할당 *: 이 필드는 볼륨에서 사용할 수 있는 예상 IOPS가 볼륨의 할당된 크기 또는 사용된 크기를 기반으로 하는지 여부를 제어합니다. Keystone에서 이는 할당된 공간을 기반으로 합니다.
 * * Peak IOPS allocation *: 이 필드는 볼륨에서 사용 가능한 피크 IOPS가 볼륨의 할당된 크기 또는 사용된 크기를 기준으로 하는지 여부를 제어합니다. Keystone에서 이는 사용된 공간을 기반으로 합니다.
-* * 절대 최소 IOPS *: 볼륨 크기가 매우 작은 경우 볼륨에 적용되는 예상 IOPS의 최소 개수이며, 그렇지 않으면 IOPS가 허용할 수 없는 수준으로 표시됩니다. 이 값은 의 경우 기본적으로 1,000으로 설정됩니다 `Extreme`, 500for `Premium`기타 서비스 수준에 대해 75를 참조하십시오.
+* * 절대 최소 IOPS *: 볼륨 크기가 매우 작은 경우 볼륨에 적용되는 예상 IOPS의 최소 개수이며, 그렇지 않으면 IOPS가 허용할 수 없는 수준으로 표시됩니다. 이 값은 의 경우 기본적으로 1,000으로 설정됩니다 `Extreme`, 500for `Premium`, 및 250 을 참조하십시오 `Performance`, 및 의 경우 75 `Standard` 및 `Value` 서비스 레벨:
 +
 
 NOTE: 이는 IOPS 밀도(예: 75 IOPS/TiB)가 아니라 절대 최소 IOPS 수입니다.
@@ -54,7 +54,7 @@ IO 밀도에 대한 자세한 내용은 을 참조하십시오 link:../concepts/
 
 == 적응형 QoS 정책 설정
 
-각 서비스 수준에 대한 적응형 QoS 정책 설정은 다음 섹션에서 설명합니다. 여기에 제공된 각 서비스 수준에 대한 최소 및 최대 볼륨 크기를 통해 볼륨에 대한 최적의 IOP 및 지연 시간 값을 얻을 수 있습니다. 이 지침을 벗어나는 볼륨을 너무 많이 생성하면 해당 볼륨의 성능에 부정적인 영향을 미칠 수 있습니다.
+각 서비스 수준에 대한 AQoS(Adaptive QoS) 정책 설정은 다음 섹션에서 설명합니다. 여기에 제공된 각 서비스 수준에 대한 최소 및 최대 볼륨 크기를 통해 볼륨에 대한 최적의 IOP 및 지연 시간 값을 얻을 수 있습니다. 이 지침을 벗어나는 볼륨을 너무 많이 생성하면 해당 볼륨의 성능에 부정적인 영향을 미칠 수 있습니다.
 
 
 
@@ -66,7 +66,7 @@ Extreme 서비스 레벨을 위한 설정 및 명령:
 
 
 ....
-qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 1000
+qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 1000
 ....
 * 최소 볼륨 크기: 100GiB, 0.1TiB
 * 최대 볼륨 크기: 10TiB
@@ -82,7 +82,7 @@ qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_
 
 
 ....
-qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 500
+qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 500
 ....
 * 최소 볼륨 크기: 500GiB, 0.5TiB
 * 최대 볼륨 크기: 50TiB
@@ -98,7 +98,7 @@ qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_
 
 
 ....
-qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 250
+qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 250
 ....
 * 최소 볼륨 크기: 500GiB, 0.5TiB
 * 최대 볼륨 크기: 80TiB
@@ -114,7 +114,7 @@ qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <
 
 
 ....
-qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM_name> -expected-iops 256 -peak-iops 512 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 77
+qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM_name> -expected-iops 256 -peak-iops 512 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 75
 ....
 * 최소 볼륨 크기: 1TiB
 * 최대 볼륨 크기: 100TiB
@@ -130,7 +130,7 @@ qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM
 
 
 ....
-qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 59
+qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 75
 ....
 * 최소 볼륨 크기: 1TiB
 * 최대 볼륨 크기: 100TiB

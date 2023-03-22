@@ -1,0 +1,315 @@
+---
+sidebar: sidebar 
+permalink: installation/data-collection.html 
+keywords: type of data collected by Keystone collector 
+summary: ONTAP 및 StorageGRID용 Keystone Collector를 통해 청구 데이터 수집 
+---
+= Keystone이 수집하는 사용자 데이터의 유형
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone은 Keystone ONTAP 및 Keystone StoragGRID 구독에 대한 구성, 상태 및 사용 정보를 수집합니다. 또한 Keystone 수집기에서 옵션이 활성화된 경우 ONTAP에 대한 성능 데이터를 수집할 수 있습니다.
+
+
+
+== ONTAP 데이터 수집
+
+.ONTAP에 대해 수집된 사용량 데이터
+[%collapsible]
+====
+다음 목록은 ONTAP에 대해 수집된 용량 소비 데이터의 대표적인 예입니다.
+
+* 클러스터
++
+** 클러스터 UUID입니다
+** 클러스터 이름
+** 일련 번호
+** 위치(ONTAP 클러스터의 값 입력 기준)
+** 연락처
+** 버전
+
+
+* 노드
++
+** 일련 번호
+** 노드 이름
+
+
+* 볼륨
++
+** 애그리게이트 이름입니다
+** 볼륨 이름
+** VolumeInstanceUUID
+** IsCloneVolume 플래그
+** IsFlexGroupConstituent 플래그입니다
+** IsSpaceEnforcementLogical 플래그
+** IsSpaceReportingLogical 플래그
+** LogicalSpaceUsedByAfs
+** PercentSnapshotSpace를 참조하십시오
+** PerformanceTierInactiveUserData 를 참조하십시오
+** PerformanceTierInactiveUserDataPercent 를 참조하십시오
+** QoSAdapitivePolicyGroup 이름입니다
+** QoSPolicyGroup 이름입니다
+** 크기
+** 사용됨
+** PhysicalUsed(PhysicalUsed)
+** SizeUsedBySnapshots입니다
+** 유형
+** VolumeStyleExtended 를 참조하십시오
+** SVM 이름
+** IsVsRoot 플래그입니다
+
+
+* 가상 서버
++
+** VserverName입니다
+** VserverUUID입니다
+** 하위 유형
+
+
+* 스토리지 애그리게이트
++
+** 스토리지 유형
+** 애그리게이트 이름
+** 총 UUID
+
+
+* 오브젝트 저장소를 통합합니다
++
+** ObjectStoreName입니다
+** ObjectStoreUUID입니다
+** providerType을 참조하십시오
+** 애그리게이트 이름
+
+
+* 클론 볼륨
++
+** 플랙스클론
+** 크기
+** 사용됨
+** SVM
+** 유형
+** ParentVolume
+** ParentVserver
+** IsConstituent(제원)
+** Splitimate
+** 상태
+** FlexCloneUsedPercent
+
+
+* 스토리지 LUN
++
+** LUN UUID입니다
+** LUN 이름입니다
+** 크기
+** 사용됨
+** IsReserved 플래그입니다
+** IsRequested 플래그입니다
+** LogicalUnit 이름입니다
+** QoSPolicyUUID입니다
+** QoSPolicyName입니다
+** UUID입니다
+** 볼륨 이름
+** SVM의 UUID입니다
+** SVM 이름
+
+
+* 스토리지 볼륨
++
+** VolumeInstanceUUID
+** 볼륨 이름
+** SVM 이름
+** SVM의 UUID입니다
+** QoSPolicyUUID입니다
+** QoSPolicyName입니다
+** 용량설치 공간
+** 성능설치 공간
+** TotalFootprint
+** TieringPolicy를 참조하십시오
+** IsProtected 플래그
+** IsDestination 플래그입니다
+** 사용됨
+** PhysicalUsed(PhysicalUsed)
+** CloneParentUUID입니다
+** LogicalSpaceUsedByAfs
+
+
+* QoS 정책 그룹
++
+** PolicyGroup을 참조하십시오
+** QoSPolicyUUID입니다
+** 최대 처리량
+** MinThroughput
+** 최대 처리량 IOPS
+** 최대 처리량
+** 최소 처리량 IOPS
+** 최소 처리량
+** IsShared 플래그
+
+
+* ONTAP 적응형 QoS 정책 그룹
++
+** QoSPolicyName입니다
+** QoSPolicyUUID입니다
+** PeakIOPS를 참조하십시오
+** PeakIOPSALLOCATION을 참조하십시오
+** 절대 최소 IOPS
+** ExpectedIOPS입니다
+** ExpectedIOPSALLOCATION을 참조하십시오
+** 블록 크기
+
+
+* 풋프린트
++
+** SVM
+** 볼륨
+** TotalFootprint
+** VolumeBlocksFootprintBin0
+** VolumeBlocksFootprintBin1
+
+
+* MetroCluster 클러스터
++
+** 클러스터 UUID입니다
+** 클러스터 이름
+** RemoteClusterUUID입니다
+** RemoteCluserName입니다
+** LocalConfigurationState 를 선택합니다
+** RemoteConfigurationState 를 선택합니다
+** 모드를 선택합니다
+
+
+* Collector Observablility Metrics(수집기 불임 메트릭)
++
+** 수집 시간
+** Active IQ Unified Manager API 종점이 쿼리되었습니다
+** 응답 시간입니다
+** 레코드 수입니다
+** AIQUMInstance IP(AIQUMInstance IP)
+** 수집기 인스턴스 ID입니다
+
+
+
+
+====
+.ONTAP에 대해 수집된 성능 데이터
+[%collapsible]
+====
+다음 목록은 ONTAP에 대해 수집된 성능 데이터의 대표적인 예입니다.
+
+* 클러스터 이름
+* 클러스터 UUID
+* ObjectID입니다
+* 볼륨 이름
+* 볼륨 인스턴스 UUID입니다
+* SVM
+* VserverUUID입니다
+* 노드 일련 번호
+* ONTAP 버전
+* AIQUM 버전
+* 집계
+* 애그리게이트 UUID입니다
+* 리소스 키
+* 타임 스탬프입니다
+* IOPSPerTb입니다
+* 지연 시간
+* 읽기 지연 시간
+* WriteMBps 를 클릭합니다
+* QoSMinThroughut지연 시간
+* QoSNBladeLatency
+* 중고 헤드룸
+* CacheMisssRatio(캐시비율
+* 기타 지연 시간
+* QoSAgregateLatency를 참조하십시오
+* IOPS
+* QoSNetworkLetency를 참조하십시오
+* 가용성 작업
+* 쓰기 대기 시간
+* QoSCloud지연 시간
+* QoSClusterInterconnectLatency를 참조하십시오
+* OtherMBps(OtherMBps)
+* QoSCop지연 시간
+* QoSDBladeLatency
+* 활용률
+* 읽기 IOPS
+* Mbps
+* 기타 IOPS
+* QoSPolicyGroupLatency를 참조하십시오
+* ReadMBps
+* QoSSyncSnap미러지연 시간
+* 쓰기 IOPS입니다
+
+
+====
+.개인 데이터 액세스를 제한할 때 제거된 항목의 목록입니다
+[%collapsible]
+====
+Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 ONTAP에 대해 다음 사용 정보가 제거됩니다. 이 옵션은 기본적으로 활성화되어 있습니다.
+
+* 클러스터 이름
+* 클러스터 위치
+* 클러스터 담당자
+* 노드 이름
+* 애그리게이트 이름입니다
+* 볼륨 이름
+* QoSAdapitivePolicyGroup 이름입니다
+* QoSPolicyGroup 이름입니다
+* SVM 이름
+* 스토리지 LUN 이름입니다
+* 애그리게이트 이름
+* LogicalUnit 이름입니다
+* SVM 이름
+* AIQUMInstance IP(AIQUMInstance IP)
+* 플랙스클론
+* RemoteClusterName(원격 클러스터 이름)
+
+
+====
+
+
+== StorageGRID 데이터 수집
+
+.StorageGRID에 대해 수집된 사용량 데이터
+[%collapsible]
+====
+다음 목록은 의 대표적인 예입니다 `Logical Data` StorageGRID를 위해 수집:
+
+* StorageGRID ID입니다
+* 계정 ID입니다
+* 계정 이름
+* 계정 할당량 바이트
+* 버킷 이름
+* 버킷 객체 수
+* 버킷 데이터 바이트
+
+
+다음 목록은 의 대표적인 예입니다 `Physical Data` StorageGRID를 위해 수집:
+
+* StorageGRID ID입니다
+* 노드 ID입니다
+* 사이트 ID입니다
+* 사이트 이름
+* 인스턴스
+* StorageGRID 스토리지 사용률 바이트
+* StorageGRID 스토리지 활용률 메타데이터 바이트
+
+
+====
+.개인 데이터 액세스를 제한할 때 제거된 항목의 목록입니다
+[%collapsible]
+====
+Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 StorageGRID에 대해 다음 사용 정보가 제거됩니다. 이 옵션은 기본적으로 활성화되어 있습니다.
+
+* 계정 이름
+* BucketName
+* 사이트 이름
+* 인스턴스/노드 이름
+
+
+====

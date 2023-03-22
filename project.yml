@@ -17,14 +17,14 @@ sidebar:
     entries:
     - title: Keystone 수집기란
       url: "/installation/installation-overview.html"
-    - title: 설치 사전 요구 사항
+    - title: Keystone Collector 설치를 위한 사전 요구사항
       entries:
       - title: VMware vSphere 사전 요구 사항
         url: "/installation/vapp-prereqs.html"
       - title: Linux 필수 구성 요소
         url: "/installation/linux-prereqs.html"
-      - title: Active IQ Unified Manager 구성
-        url: "/installation/aiqum-req.html"
+      - title: ONTAP 및 StorageGRID에 대한 특정 필수 구성 요소입니다
+        url: "/installation/addl-req.html"
     - title: 설치 절차
       entries:
       - title: VMware vSphere 구축
@@ -37,6 +37,8 @@ sidebar:
       url: "/installation/configuration.html"
     - title: 시스템 상태를 모니터링합니다
       url: "/installation/monitor-health.html"
+    - title: 대금 청구를 위해 수집된 데이터
+      url: "/installation/data-collection.html"
   - title: Keystone에 대해 자세히 알아보십시오
     entries:
     - title: 지원되는 스토리지 용량입니다
@@ -97,9 +99,9 @@ sidebar:
     entries:
     - title: Keystone과 BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone 및 디지털 자문
+    - title: Keystone 및 Active IQ 디지털 자문
       url: "/integrations/keystone-aiq.html"
-    - title: Digital Advisor Keystone 대시보드 및 리포팅
+    - title: Keystone을 위한 Active IQ 디지털 자문 보고서
       url: "/integrations/aiq-keystone-details.html"
   - title: 법적 고지
     url: "/legal-notices.html"
@@ -149,7 +151,7 @@ homepage:
       url: "/concepts/gssc.html"
     - title: Keystone과 BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone 및 디지털 자문
+    - title: Keystone 및 Active IQ 디지털 자문
       url: "/integrations/keystone-aiq.html"
     - title: 미국 시민 지원
       url: "/concepts/uscs.html"
@@ -157,7 +159,7 @@ homepage:
     links:
     - title: 유연한 Keystone 구독
       url: https://docs.netapp.com/us-en/keystone/
-    - title: 디지털 자문업체
+    - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html
     - title: BlueXP
       url: https://docs.netapp.com/us-en/cloud-manager-family/

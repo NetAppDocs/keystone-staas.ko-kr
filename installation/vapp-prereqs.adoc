@@ -46,7 +46,7 @@ NOTE: Keystone 수집기는 인터넷 연결이 필요합니다. 기본 게이�
 
 
  a| 
-Keystone 컬렉터
+Keystone Collector(Keystone ONTAP용)
  a| 
 Active IQ Unified Manager(유니파이드 매니저)
  a| 
@@ -54,14 +54,29 @@ HTTPS
  a| 
 TCP 443
  a| 
-필수입니다
+필수(Keystone ONTAP를 사용하는 경우)
  a| 
-Keystone Collector 사용 메트릭 수집
+ONTAP에 대한 Keystone Collector 사용 메트릭 수집
 
 
 
  a| 
-Keystone 컬렉터
+Keystone Collector(Keystone StorageGRID용)
+ a| 
+StorageGRID 관리 노드
+ a| 
+HTTPS
+ a| 
+TCP 443
+ a| 
+필수(Keystone StorageGRID를 사용하는 경우)
+ a| 
+StorageGRID에 대한 Keystone Collector 사용 메트릭 수집
+
+
+
+ a| 
+Keystone Collector(일반)
  a| 
 인터넷(나중에 제공된 URL 요구 사항에 따라)
  a| 
@@ -76,7 +91,7 @@ Keystone Collector 소프트웨어, OS 업데이트 및 메트릭 업로드
 
 
  a| 
-Keystone 컬렉터
+Keystone Collector(일반)
  a| 
 고객 HTTP 프록시
  a| 
@@ -91,7 +106,7 @@ Keystone Collector 소프트웨어, OS 업데이트 및 메트릭 업로드
 
 
  a| 
-Keystone 컬렉터
+Keystone Collector(일반)
  a| 
 고객 DNS 서버
  a| 
@@ -106,7 +121,7 @@ DNS 확인
 
 
  a| 
-Keystone 컬렉터
+Keystone Collector(일반)
  a| 
 고객 NTP 서버
  a| 
@@ -117,6 +132,36 @@ UDP 123입니다
 필수입니다
  a| 
 시간 동기화
+
+
+
+ a| 
+Keystone Collector(Keystone ONTAP용)
+ a| 
+Unified Manager를 참조하십시오
+ a| 
+MySQL
+ a| 
+TCP 3306
+ a| 
+옵션 기능
+ a| 
+Keystone 수집기에 대한 성능 메트릭 컬렉션
+
+
+
+ a| 
+Keystone Collector(일반)
+ a| 
+고객 모니터링 시스템
+ a| 
+HTTP
+ a| 
+TCP 777
+ a| 
+옵션 기능
+ a| 
+Keystone Collector 상태 보고
 
 
 
@@ -147,36 +192,6 @@ TCP 8000, ICMP Echo Request/Reply
 옵션 기능
  a| 
 ONTAP 펌웨어 업데이트를 위한 웹 서버입니다
-
-
-
- a| 
-Keystone 컬렉터
- a| 
-Unified Manager를 참조하십시오
- a| 
-MySQL
- a| 
-TCP 3306
- a| 
-옵션 기능
- a| 
-Keystone 수집기에 대한 성능 메트릭 컬렉션
-
-
-
- a| 
-Keystone 컬렉터
- a| 
-고객 모니터링 시스템
- a| 
-HTTP
- a| 
-TCP 777
- a| 
-옵션 기능
- a| 
-Keystone Collector 상태 보고
 
 |===
 

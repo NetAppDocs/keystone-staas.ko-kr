@@ -71,9 +71,7 @@
   <block id="6f84bbf222b31dbe79e07a2c75da49f7" category="inline-link">최소 QoS</block>
   <block id="acdda1c20fb3985ce840929f7525c803" category="section-title">적응형 QoS</block>
   <block id="24fe24243f6cf0a0fada99032a85c028" category="inline-link">적응형 QoS에 대해 알아보십시오</block>
-  <block id="5333a4037149d6d11a7f90a215530cfc" category="admonition">볼륨에 적응형 QoS 정책을 올바르게 적용하지 않은 경우, 가입형 정액제에 따라 해당 볼륨을 가장 높은 서비스 수준에서 측정 및 청구됩니다. 이로 인해 의도하지 않은 폭발이 발생할 수 있습니다.</block>
   <block id="e1e6381427a3975fa7597be88e8d2f70" category="section-title">Adaptive QoS 정책 그룹 구성</block>
-  <block id="c9e7ca1e0ddb7dc805d3f4b515bc5b5c" category="paragraph">처리량 상한 또는 하한 을 볼륨 크기로 자동 확장하도록 적응형 QoS 정책을 구성할 수 있습니다. 정책을 구성할 때는 다음 사항을 염두에 두어야 합니다.</block>
   <block id="4db69e448403f877751b701118fb0d6b" category="admonition">이는 IOPS 밀도(예: 75 IOPS/TiB)가 아니라 절대 최소 IOPS 수입니다.</block>
   <block id="0dfe1d120dbd110a4d7bb29a9dea1779" category="inline-link">적응형 QoS 정책 그룹을 사용합니다</block>
   <block id="2da83d8f6744d94e4db3195a4a4edfc0" category="section-title">적응형 QoS 정책 설정</block>
@@ -373,7 +371,6 @@
   <block id="f14c7b4687be07acacb0f5aeed1474f5" category="inline-link">SnapLock란</block>
   <block id="da0abce09003b51065ed5b06d06021f1" category="doc">약정 용량에 따른 청구</block>
   <block id="6918efdb84c8dba836b132c8c389051f" category="summary">NetApp 글로벌 서비스 지원 센터 GSSC</block>
-  <block id="6996736fb79dd4178631c9db6807f60e" category="paragraph">NetApp Keystone 서비스는 GSSC(NetApp 글로벌 서비스 및 지원 센터), NetApp Keystone 성공 관리자 및 NetApp Keystone 서비스 제공 관리자를 활용하여 실행됩니다.</block>
   <block id="10f15832f9a0baabcebb5224cb7b725e" category="section-title">NetApp 글로벌 서비스 및 지원 센터(GSSC)</block>
   <block id="0a01a33e5f29d399207cdf2d0bedd8e4" category="section-title">추가 정보 및 지원 연락처</block>
   <block id="41ac6df99b19964ddc5db21ba036a552" category="paragraph">NetApp 글로벌 서비스 및 지원 센터(GSSC) 팀은 주로 NetApp Keystone 고객에 대한 서비스를 지원합니다. 다음 정보를 사용하여 지원 팀에 연락할 수 있습니다.</block>
@@ -444,7 +441,6 @@
   <block id="3ce74db0e604d780cccd03b9b8b34774" category="list-text">* 파트너 운영 모델 *: 파트너 또는 서비스 공급자가 최종 고객을 위해 서비스를 운영합니다. NetApp의 경우 파트너가 참조 계약 당사자인 경우 테넌트는 파트너의 고객이며 NetApp과 청구 관계가 없습니다. 파트너 운영 모델에는 테넌트 및 최종 고객/하위 테넌트가 파트너가 청구하는 자체 서브스크립션을 보유한 멀티 테넌트 환경이 있습니다. 파트너 관리자는 모든 테넌트에 대해 관리 작업을 수행합니다.</block>
   <block id="542e65f5a286fa6467f7b1c33bc0dab8" category="paragraph">배포에 대한 자세한 내용은 을 참조하십시오 <block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block> 및 <block ref="141d19b4a500cb7c8f293062f31c9e48" category="inline-link-macro-rx"></block>.</block>
   <block id="d96367d414f2f1ab0c8c14b8d62edc0e" category="list-text">특정 Keystone 영업 동작에 대한 지원이 제공됩니다.</block>
-  <block id="62a55bd1cb01932a2345c6066f1d16c2" category="paragraph">Keystone은 클러스터가 운영 중인 경우 설정할 수 있는 적응형 QoS 정책을 제공합니다. 모든 볼륨이 이미 생성되어 시스템에서 사용 가능한 올바른 적응형 QoS 정책과 연결되어 있는지 확인해야 합니다.</block>
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Extreme 서비스 레벨을 위한 설정 및 명령:</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">성능 서비스 수준에 대한 설정 및 명령:</block>
   <block id="36c275d62ed815270ea3f9f9ee07eae1" category="paragraph">여기에 파일, 블록, 오브젝트 및 클라우드 서비스의 서비스 수준이 나와 있습니다.</block>
@@ -468,7 +464,6 @@
   <block id="c34a82bbff22f4441417f697ffc59087" category="paragraph">NetApp은 NetApp Keystone 고객에게 운영 서비스를 원격으로 제공합니다. 이러한 서비스는 스토리지 관리 활동 전반에 걸쳐 다양한 운영 분야를 아우릅니다. 이러한 서비스에는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트, 인시던트 및 문제 관리, 서비스 요청 이행, 보고 등이 포함됩니다. NetApp에서는 필요에 따라 제어 상태와 지원 증거를 보여줍니다.</block>
   <block id="11cc259f3fbff7a9b169739c7cd9d613" category="list-text">에스컬레이션해야 하는 미해결 케이스/티켓이 있는 경우 다음 주소 중 하나로 이메일을 보내십시오. keystone.services@netapp.com keystone.escalations@netapp.com</block>
   <block id="d1add80e839b6da3fad5b5d1d018df10" category="list-text">NetApp은 문제 해결을 위해 클라우드 기반 원격 게이트웨이 솔루션인 OpsRamp를 사용하여 NetApp Keystone 환경을 능동적으로 모니터링하고 연결합니다. OpsRamp에 대한 자세한 내용은 를 참조하십시오<block ref="ddbfe3d63449639712fee69542f32fdc" category="inline-link-rx"></block>.</block>
-  <block id="c6adba6217951ed0e1a8ae3a9a50e632" category="paragraph">자세한 내용은 다음을 참조하십시오.</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">이 서비스는 파일, 블록 및 오브젝트 서비스에만 적용됩니다.</block>
   <block id="b6a3337f47df4fd3f63ff2c1a9f8ec5b" category="paragraph">SnapLock 기술은 볼륨에 설정된 만료 날짜 이후에 드라이브를 사용할 수 없도록 하여 NRNVC 기능을 활성화합니다. 볼륨에 SnapLock 기술을 사용하려면 NRNVC를 구독해야 합니다. 이는 파일 및 블록 서비스에만 적용됩니다.</block>
   <block id="efdd84de779f9c449b249d2bf90a01c0" category="paragraph">SnapLock 기술에 대한 자세한 내용은 을 참조하십시오<block ref="7bc47f340e579853a1daae86dfb72c77" category="inline-link-rx"></block>.</block>
@@ -491,15 +486,10 @@
   <block id="d98e1323795a96bdb4ab923442544f4f" category="summary">Keystone과 BlueXP</block>
   <block id="3736dc740e568bfea8adb597902add6e" category="paragraph">Keystone 가입 시 클라우드 서비스를 구입하면 BlueXP를 통해 해당 서비스에 액세스하고 관리할 수 있습니다.</block>
   <block id="ec5a85d1400f8bf17dec61b11740d60c" category="paragraph">Keystone 고객의 경우 Cloud Volumes ONTAP에 가입하면 Keystone 서비스를 통해 Cloud Volumes ONTAP 사용량을 충전하고 BlueXP를 통해 청구 및 소비 정보를 확인할 수 있습니다.</block>
-  <block id="96fa8aa61a1fe15e7eef1735e177eb30" category="paragraph">자세한 내용은 BlueXP 문서의 다음 링크를 참조하십시오.</block>
   <block id="f208065131ee7ec38a881083b91c06e2" category="cell">FC 및 iSCSI</block>
-  <block id="64ffe96859dc5a51dab366b753c3030e" category="list-text">Keystone 데이터 수집기: Keystone 수집기는 Keystone 고객에게 청구 서비스를 제공합니다. 이 애플리케이션은 Active IQ Unified Manager와 함께 번들로 제공됩니다. 5분마다 ONTAP 및 StorageGRID 컨트롤러의 데이터를 주기적으로 수집합니다. 데이터는 처리되고, 메타데이터는 청구 데이터 생성에 사용되는 AutoSupport 메커니즘을 통해 중앙 집중식 Active IQ 데이터 레이크에 전송됩니다. Active IQ 데이터 레이크는 청구를 위해 데이터를 처리한 후 Zuora에 전송해 청구합니다. Digital Advisor 고객 포털을 사용하면 Keystone 가입 및 소비 상세 정보를 확인하고 로그인할 수 있습니다.</block>
-  <block id="190ac7d594730826c98618f6c64ccefa" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="b7b6a2338cb0518cc39a6d3713bb6e47" category="inline-link-macro-rx"></block>.</block>
-  <block id="f079f17b0940258743d34e7b771c715f" category="sidebar">디지털 자문업체</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="sidebar">BlueXP</block>
   <block id="f6ea502258d48432c7bda8b0eeca5dbe" category="paragraph-title">샘플 블록 크기 계산</block>
   <block id="81eeab9506186e2dca8faefa78d54067" category="paragraph-title">예:</block>
-  <block id="a1c01978d5580580fa3d133f61c34a50" category="paragraph">NetApp Keystone 서비스를 구독한 경우 디지털 자문 대시보드에서 사용 현황 보고서 및 그래프를 볼 수 있습니다.</block>
   <block id="3bbfb69801d31eb97035c791f900fc27" category="paragraph">이를 위해 하나 이상의 BlueXP 계정을 생성하고 Keystone 계정과 연결해야 합니다. Keystone을 통해 클라우드 서비스를 구매하는 동안 BlueXP 계정의 세부 정보를 Keystone 성공 관리자(KSM)에 제공해야 합니다. 이를 통해 Keystone 가입을 통해 클라우드 서비스 사용량을 적절하게 계측 및 충전할 수 있습니다.</block>
   <block id="2875c453ae21cf76b51a8fa4752d6e33" category="paragraph">지표 측정을 위해 Keystone(NetApp Keystone) STaaS 서비스 내에서 다음 용어 및 정의가 사용됩니다.</block>
   <block id="c7c1919c4fd61189792daac01aa326b5" category="list-text">IO 밀도: IOPS/TiB: 워크로드에서 소비하는 총 공간(테비바이트)을 기준으로 초당 처리되는 입력/출력 작업의 수입니다.</block>
@@ -522,7 +512,6 @@
   <block id="d96faa9e821e8ffac65b118996a9a5e9" category="paragraph">계층화 기능은 자주 액세스하지 않는 데이터를 사내 및 사외 오브젝트 스토리지 계층으로 자동으로 계층화하는 NetApp FabricPool 기술을 활용합니다.</block>
   <block id="8f46846cb5a320a81c56569442428909" category="paragraph">애드온 데이터 계층화 서비스를 사용하면 Extreme, Premium, Performance, Standard 및 Value 계층을 오브젝트 스토리지 타겟으로 계층화할 수 있습니다. 계층화할 핫/콜드 데이터의 비율은 고정되어 있지 않으며 각 계층에 대해 별도로 측정 및 송장이 발행됩니다.</block>
   <block id="71768d30a875fb63ecbab55da018a191" category="paragraph">예를 들어, 콜드 스토리지 계층의 타겟이 다음과 같은 경우:</block>
-  <block id="ea57181e4ce33c2393d6c03b983d0af0" category="list-text">Keystone STaaS 가치 계층, Keystone STaaS StorageGRID 오브젝트 계층 또는 기존 SGWS 그리드(고객 소유) - 추가 비용이 없으며 표준 서비스의 일부입니다.</block>
   <block id="e73034c8c3d954eb2e6e052c00601420" category="list-text">퍼블릭 클라우드(AWS, Azure, Google) 또는 Keystone STaaS 지원, 타사 오브젝트 스토리지 - 콜드 스토리지 대상에 계층화된 데이터 용량에 대한 추가 요금이 부과됩니다.</block>
   <block id="c32944bc40d1accb43f1f8bfaf090dce" category="paragraph">애드온 계층화 서비스에 대한 비용은 전체 구독 기간을 통해 적용됩니다.</block>
   <block id="e72611e56e05f623af5dc7011928a294" category="admonition">NetApp은 Cloud Volumes ONTAP에 필요한 하이퍼스케일 기반 컴퓨팅, 스토리지 및 네트워크 서비스를 Keystone STaaS 가입의 일부로 제공하지 않습니다. 하이퍼스케일 클라우드 서비스 공급자로부터 직접 서비스를 조달해야 합니다.</block>
@@ -576,7 +565,6 @@
   <block id="f768fe86ef4edbeda93c2b9eb617765e" category="paragraph">* Keystone STaaS 추가 서비스 *: 표준 Keystone STaaS 가입형 서비스 외에 추가 유틸리티 및 이점을 제공하는 유료 서비스입니다.</block>
   <block id="eb97c56b06427358a227f23b84d3b700" category="paragraph">Keystone STaaS 서비스는 서로 공존할 수 있습니다. 예를 들어, 클라우드 스토리지 구독에서 파일, 블록 및 오브젝트 스토리지 구독을 상호 연결할 수 있습니다. 클라우드 서비스는 기존 스토리지 구독의 서비스 기간 중 언제든지 포함될 수 있습니다. 그러나 기존 파일, 블록 및 오브젝트 서브스크립션을 갱신하지 않을 계획이라면, 지난 90일 동안 클라우드 스토리지 구독을 추가할 수 없습니다.</block>
   <block id="c8c350f712b7e8a483647c016478eb87" category="section-title">파일, 블록 및 오브젝트 스토리지용 서비스</block>
-  <block id="2443904e0051d0495d84f24c99f99601" category="paragraph">ONTAP 파일 및 블록 스토리지, StorageGRID 오브젝트 스토리지를 위한 Keystone STaaS 서비스는 다음 표에 설명된 다양한 기능 및 프로토콜을 지원합니다.</block>
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="cell">스토리지</block>
   <block id="419f3742e6de8e0ec4b22cce005e7630" category="cell">플랫폼</block>
   <block id="253b40ae359ba25b56231803430c4873" category="paragraph">ONTAP</block>
@@ -621,14 +609,9 @@
   <block id="89c3fbc86e0ef018aeeb33b0c6503ca0" category="list-text">Keystone Collector 관리 TUI 유틸리티 열기:<block ref="7ef986487970dbcf0ed301b58d2828c9" prefix=" " category="inline-code"></block></block>
   <block id="e385fa90b60165281bae11b6e25bff3d" category="list-text">문제 해결 &gt; 지원 번들 생성 * 으로 이동합니다.<block ref="dc6483f3f6b233df000a8215567c9e17" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7521a40f5abb349afff3a7d5461c3d42" category="list-text">생성된 경우, Bundle이 저장된 위치가 표시됩니다. FTP, SFTP 또는 SCP를 사용하여 위치에 연결하고 로그 파일을 로컬 시스템에 다운로드합니다.<block ref="0fc318456f84a64b43e2d29821df0fc8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ed045d10222ce3a6e2351fd3ee2f10ce" category="list-text">파일이 다운로드되면 Keystone ServiceNow 지원 티켓에 첨부할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>.</block>
   <block id="b34b056c73270f2209f1e8eeb513e7cc" category="summary">Keystone 수집기의 구성</block>
   <block id="b44055e981e64c62a3ac7b6994a3f19b" category="doc">Keystone Collector 구성</block>
-  <block id="708592bf4fe20baa1e707ab0e85d656b" category="paragraph">스토리지 환경에서 Keystone 수집기가 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료해야 합니다. 이 활동은 필수 수집기 구성 요소를 활성화하고 Active IQ Unified Manager(Unified Manager)에 연결하는 일회성 활동입니다.</block>
-  <block id="bd1c036bbba61bb99fdc5b65a4ab3388" category="paragraph">Unified Manager에서 관리하는 모든 ONTAP 클러스터를 모니터링할 수 있습니다. 다음 단계를 수행하십시오.</block>
   <block id="8b66faad015dc0ff933cf2356b04c048" category="inline-link-macro">Unified Manager 사용자 생성</block>
-  <block id="e4c8fb0e590cef9ffac95a7f6ede4cb1" category="list-text">[구성] &gt; [KS-Collector]로 이동하여 Keystone Collector 구성 화면을 열고 Unified Manager 서버 및 서비스 계정에 대한 세부 정보를 추가합니다. SLA를 위해 이 환경에서 성능 모니터링이 필요한 경우 ** ONTAP 성능 데이터 수집** 옵션을 활성화하고 Unified Manager 데이터베이스 사용자 계정 세부 정보를 제공합니다. 자세한 내용은 을 참조하십시오 <block ref="9bccb6411d292725bc16788ee7013ab5" category="inline-link-macro-rx"></block>.</block>
-  <block id="192ec221c58087c4d2616d633cc98c32" category="list-text">** KS-Collector 서비스 활성화** 필드를 전환합니다.</block>
   <block id="71c01bb6959115832ba956353d65fa60" category="list-text">** 저장**을 클릭합니다.<block ref="c1f5a4895b0ae5d84bc0370f9cb94b49" category="inline-image-macro-rx" type="image"></block></block>
   <block id="528f96a3d4b17dd41513f2405eff6632" category="list-text">TUI의 기본 화면으로 돌아가 ** 서비스 상태** 정보를 확인하여 Keystone 수집기가 정상 상태인지 확인합니다. 시스템은 서비스가 ** 전체적: 정상** 상태에 있음을 나타내야 합니다.<block ref="fef529ed1713f5132fce937b8a727284" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d3aea279fd0dfc2c6c0a6f4af62eaf7" category="list-text">기본 화면에서 ** Shell으로 종료** 옵션을 선택하여 Keystone Collector 관리 TUI를 종료합니다.</block>
@@ -639,11 +622,7 @@
   <block id="5d6eeca323f191b847ccaa89868f1712" category="list-text">** 저장**을 클릭합니다.<block ref="063c967c4bf177e696bdec9de5a25cb2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d66ad38cacfcba154b86b0c6d12a28a9" category="section-title">개인 데이터의 수집 제한</block>
   <block id="38256db8ac1c2018564d3df7d3f55c3e" category="paragraph">Keystone 수집기는 구독 측정을 수행하는 데 필요한 제한된 구성, 상태 및 성능 정보를 수집합니다. 업로드한 콘텐츠에서 중요한 정보를 마스킹하여 수집된 정보를 추가로 제한할 수 있는 옵션이 있습니다. 이는 청구 계산에 영향을 미치지 않습니다. 그러나 볼륨 이름과 같은 사용자가 쉽게 식별할 수 있는 일부 요소가 UUID로 교체되므로 정보를 제한하면 보고 정보의 유용성에 영향을 줄 수 있습니다.</block>
-  <block id="20aec95d0298444a6bd38c326238ff42" category="paragraph">데이터 제한 옵션인 ** 개인 데이터 제거** 는 TUI 구성 화면에서 구성할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.</block>
   <block id="fc377f8f82024ca34c5142f60fe2c788" category="paragraph"><block ref="fc377f8f82024ca34c5142f60fe2c788" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7b82fe6078598d0e52741c1259cbb33b" category="section-title">사용량 수집을 위해 수집된 정보의 샘플 목록입니다</block>
-  <block id="4c307bdee469f719b5787a3d56e381fc" category="paragraph">다음 목록은 사용 컬렉션에 포함된 항목의 대표적인 예입니다.</block>
-  <block id="249694a485fc5d3289c38986b4f8e887" category="list-text">클러스터</block>
   <block id="e63229ed25551e34e5f0a388c38141ed" category="list-text">클러스터 UUID입니다</block>
   <block id="a54372ef430f726c8343fc5550fade42" category="list-text">일련 번호</block>
   <block id="c391c76646a604c0d2afc578924ddf0f" category="list-text">위치(ONTAP 클러스터의 값 입력 기준)</block>
@@ -662,84 +641,48 @@
   <block id="e67d1986af6ba48dc8f5756dffb5d558" category="list-text">PercentSnapshotSpace를 참조하십시오</block>
   <block id="0c0367fc2898d36afe4211424e0e747d" category="list-text">PerformanceTierInactiveUserData 를 참조하십시오</block>
   <block id="6180aa9a6dffa24f8517c1e9a0b3d7ad" category="list-text">PerformanceTierInactiveUserDataPercent 를 참조하십시오</block>
-  <block id="88d44b0014d5281b63a3dc3ac5ce7cef" category="list-text">QosAdapivePolicyGroup 이름입니다</block>
-  <block id="12f4e68e8a00bc64351b0f34a3117287" category="list-text">QosPolicyGroup 이름입니다</block>
   <block id="6f6cb72d544962fa333e2e34ce64f719" category="list-text">크기</block>
   <block id="338da082f9d5dc0142743bc84612d31f" category="list-text">SizeUsedBySnapshots입니다</block>
   <block id="a1fa27779242b4902f7ae3bdd5c6d508" category="list-text">유형</block>
   <block id="87132800eba752a6465b5f7f6107e46f" category="list-text">VolumeStyleExtended 를 참조하십시오</block>
   <block id="143a9e7a312d8417274a97d0a8064dc2" category="list-text">SVM 이름</block>
   <block id="ac4d39b6e8b3424c80e27156f65c48a4" category="list-text">IsVsRoot 플래그입니다</block>
-  <block id="94ce2d9d57f7bf279a8bfea2fa75c27e" category="list-text">스토리지그스</block>
   <block id="d7eb6a2712e104a8f648247469fec6b1" category="list-text">스토리지 유형</block>
   <block id="ccaf0d2d7033af92241b8ff76cd0c8db" category="list-text">애그리게이트 이름</block>
   <block id="555183afd135f0e16d6776427dedc84e" category="list-text">총 UUID</block>
-  <block id="04c0cafaaf1e981fa3bcc3bdc2f7b9cf" category="list-text">AggregateObjectStores를 참조하십시오</block>
   <block id="c903827efbec61c2bd3045040cf53d2c" category="list-text">ObjectStoreName입니다</block>
   <block id="4d4f75fbaf0d337bc2063c03d0ba28ea" category="list-text">ObjectStoreUUID입니다</block>
   <block id="d6e877596803b14efe151a0543954e0f" category="list-text">providerType을 참조하십시오</block>
-  <block id="5f964849b2c68ebad9fe70f657ee19e3" category="list-text">스토리지런스</block>
-  <block id="64fce1f79a2e4522272d1b4656c22fcc" category="list-text">LUN UUID입니다</block>
   <block id="019d1ca7d50cc54b995f60d456435e87" category="list-text">사용됨</block>
   <block id="39911248bc0cf5c0d2f3470ab7c117ed" category="list-text">IsReserved 플래그입니다</block>
   <block id="b12e6cdf9bacb59a1f1f00f66e735715" category="list-text">IsRequested 플래그입니다</block>
   <block id="b1bbd0b58ca902b97c8ecacf17cdfc1f" category="list-text">LogicalUnit 이름입니다</block>
-  <block id="50eec87aa02d15d08419a72e66025391" category="list-text">QosPolicyUUID입니다</block>
-  <block id="a556a97469c9c92ae96017110cf88869" category="list-text">QosPolicyName입니다</block>
   <block id="06bd323ff2f6c72ae32689b8ed8391ca" category="list-text">UUID입니다</block>
   <block id="7171c6fe07e485363600c8f185ef3e94" category="list-text">볼륨 이름</block>
-  <block id="1058855c946765e1927c10b82cfffc7c" category="list-text">vmUUID입니다</block>
-  <block id="fcdd950f49e7c76912a5d91e3c7d7f6a" category="list-text">SVM 이름</block>
   <block id="f6eedcf8e2a4c1a7a3123af2e66923b8" category="list-text">Collector Observablility Metrics(수집기 불임 메트릭)</block>
   <block id="b56d9954b4aacd967a89713e1e627122" category="list-text">수집 시간</block>
-  <block id="4109ad08a06e4a86c420f1cd0eee7a15" category="list-text">AIQUM API Endpoint가 쿼리되었습니다</block>
   <block id="e681e6a42b053db41f074d3ad74ef7f9" category="list-text">응답 시간입니다</block>
   <block id="ff1c5438feed00f19d54c7c95503e0cb" category="list-text">레코드 수입니다</block>
-  <block id="6274df323315b9a27da1f8726aeb6460" category="list-text">AiqumInstance IP(AiqumInstance IP)</block>
   <block id="2f90c923a25e10268d0a9a59ce86e1e1" category="list-text">수집기 인스턴스 ID입니다</block>
   <block id="2a30ceba315ca4bc55f553102249b128" category="section-title">개인 데이터 액세스를 제한할 때 제거된 항목의 목록입니다</block>
-  <block id="9f72b95558c0ff1879e6c5f111341f92" category="paragraph">개인 데이터 제거 * 옵션이 활성화되면 다음 정보가 제거됩니다.</block>
   <block id="d6ed36bb2b00046e0edf3d24b526b7ad" category="list-text">클러스터 이름</block>
   <block id="dc9549d0555ea98d49733096efa04a51" category="list-text">클러스터 위치</block>
   <block id="cbbe2529191684481dca437fbfd68bd8" category="list-text">클러스터 담당자</block>
   <block id="b42e7e9f43276548d600d26ad21cd252" category="list-text">노드 이름</block>
   <block id="5913e0dfd50273b54bb1d960674d7abb" category="summary">Keystone 통합 관리자 사전 요구사항</block>
-  <block id="4d88b7e790033ca4166ca4ab73cdf512" category="doc">Active IQ Unified Manager를 위한 사전 요구 사항</block>
-  <block id="ac2e19aa7863e50ba1e9a70c83b8445b" category="paragraph">Keystone 수집기를 설정 및 활성화하려면 특정 구성에 Active IQ Unified Manager(Unified Manager)을 설치해야 합니다.</block>
-  <block id="ad3045b448920c4dca9aa53735366dcc" category="paragraph">Unified Manager 9.7 이상이 API 게이트웨이 기능이 설정된 상태로 설치되어 있는 Unified Manager 서버가 구성되어 있는지 확인합니다.</block>
-  <block id="b8f5f7a57bc1d52226404b891d492720" category="paragraph">Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.</block>
   <block id="d0b5d22f0f22d32554c2064ce1e75865" category="inline-link">VMware vSphere 시스템에 Unified Manager 설치</block>
   <block id="af5e840663cada43f534ae4ad3ceb289" category="inline-link">Linux 시스템에 Unified Manager 설치</block>
-  <block id="37f222b07ebf09dfe392475f07af56ed" category="paragraph">Keystone Collector를 통해 사용 및 성능 데이터 수집을 위해 Unified Manager에 다음 사용자를 생성해야 합니다.</block>
-  <block id="d5110307304cc56c38ba81dd00a2d42b" category="list-text">가 설치된 Keystone 수집기의 서비스 계정<block ref="e1b3ec89ead7f83a9245ed5c9cacfdbf" prefix=" " category="inline-code"></block> 사용자 역할. 이 사용자는 사용 데이터 수집에 필요합니다. Keystone Collector 서비스는 API를 통해 Unified Manager와 통신합니다. 이 서비스 계정은 통신에 필요합니다.</block>
-  <block id="c7bf1f1fe35564032c03d3430ffc9caf" category="list-text">A<block ref="e307db07b3975fef922a80d07455ee5e" prefix=" " category="inline-code"></block> 사용자 계정, 및<block ref="500e2a5ef3a5e2ed448264b61db39efd" prefix=" " category="inline-code"></block> 역할. 이 사용자는 성능 데이터 수집에 필요합니다.</block>
-  <block id="46de504f526b45c0de06f852a29508a4" category="paragraph">사용자 생성, 사용자 유형 및 사용자 역할에 대한 자세한 내용은 다음 링크를 참조하십시오.</block>
-  <block id="3ce21a8f47ccabc1588563bb15ad2eb4" category="inline-link">사용자 유형 정의</block>
   <block id="214e0ad375a14ed7b9c729ad961af779" category="inline-link">사용자 역할의 정의</block>
-  <block id="eeb73764fe75de1f17f8fa939253d44f" category="inline-link">Unified Manager 사용자 역할 및 기능</block>
   <block id="af0d1e7c2a1092424d1db7635cad9143" category="inline-link">Unified Manager 웹 UI에 액세스</block>
   <block id="e12cdb6af9280f76fbd409784aba300f" category="inline-link">사용자 추가</block>
   <block id="50fd415addaa4c9909b813403a3c7bd4" category="inline-link">데이터베이스 사용자 생성</block>
-  <block id="c315b852e8d9f9ccef94be96ee14d237" category="paragraph"><block ref="c315b852e8d9f9ccef94be96ee14d237" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e248ff3e5885be0d25ca56d2853e64cf" category="section-title">Unified Manager에서 API 게이트웨이를 사용하도록 설정합니다</block>
-  <block id="9e080d5e3d0873c0b22af56ab053b040" category="paragraph">Keystone 수집기는 Unified Manager API 게이트웨이를 사용하여 ONTAP 클러스터와 통신합니다.</block>
-  <block id="9ce86c493f199ef6d7b243021c36b016" category="paragraph">웹 UI에서 또는 Unified Manager CLI를 통해 몇 가지 명령을 실행하여 API 게이트웨이를 사용하도록 설정할 수 있습니다.</block>
-  <block id="cba13d286dfb58e4fa7aa4c597f9618e" category="section-title">웹 UI에서 API 게이트웨이를 활성화합니다</block>
-  <block id="712755821401a9c96c96b0ede37ac613" category="paragraph">Unified Manager 웹 UI에서 API 게이트웨이를 설정하려면 다음 단계를 수행하십시오.</block>
   <block id="adaf9d0df55e24cafa452bb6683304c4" category="inline-link">API 게이트웨이 활성화 중</block>
-  <block id="de99b8747e0d74962485b2b0ff2422a2" category="section-title">Unified Manager CLI를 통해 API 게이트웨이를 사용하도록 설정합니다</block>
-  <block id="4d5b831c9948782f03d70dea8bd61ac2" category="paragraph">다음 단계에서는 Unified Manager CLI를 통해 API 게이트웨이 액세스를 설정하는 방법을 설명합니다.</block>
   <block id="349cd340e36e6c99b024c4cce5735bdc" category="inline-link">지원되는 Unified Manager CLI 명령</block>
-  <block id="59b1195d93b77107c94f0ef2fdde18d4" category="list-text">Unified Manager 서버에서 SSH 세션을 시작하고 Unified Manager CLI에 로그인합니다.<block ref="0c8c524a89baf2ffad5c88cd862dc1cc" prefix=" " category="inline-code"></block></block>
-  <block id="901ed5e7d1cacfaba746d741e522220a" category="list-text">API 게이트웨이가 이미 설정되어 있는지 확인합니다.<block ref="7489a0a94d756e7169db7db466391d65" prefix=" " category="inline-code"></block>반환되는 값이 인 경우<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>API 게이트웨이 기능이 활성화되었음을 나타냅니다.</block>
-  <block id="ed99779c4495e92781abe97e3cb78909" category="list-text">반환되는 값이 인 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block>에서 다음 명령을 실행하여 API 게이트웨이 기능을 사용하도록 설정합니다.<block ref="b09cad6fba489605054fc3982bb55f65" prefix=" " category="inline-code"></block></block>
-  <block id="07e4e42c277e7989e64e6a8ca2abc411" category="list-text">설정을 적용하려면 Unified Manager 서버를 다시 시작합니다. 자세한 정보:</block>
   <block id="963d08ca263f6cd538d14c2e7f2ec229" category="inline-link">Unified Manager를 다시 시작하는 중입니다</block>
   <block id="f0534e91aef6ef17323964d9d72a8ced" category="inline-link">Unified Manager 가상 머신을 재시작합니다</block>
   <block id="4d222ee5a437d16bcebf771263f107fb" category="summary">Linux 시스템에 Keystone Collector 설치를 위한 사전 요구사항</block>
   <block id="ec42ecd035e3697033aaf0a3f87f6d29" category="doc">Linux 시스템 요구 사항</block>
   <block id="236d0b94e19b8de0c91e1d1af4193017" category="paragraph">Linux 시스템에 Keystone Collector를 설치하는 데 필요한 몇 가지 구성이 있습니다.</block>
-  <block id="b2fd1805099cea10b9755cec2eb2f355" category="paragraph">다음 구성이 필요합니다.</block>
   <block id="29bc7d9ab3c94b603834dbbd074f9667" category="list-text">운영 체제: CentOS 7 또는 Red Hat Enterprise Linux 8.6 이상</block>
   <block id="6c0ecb6db472eae3c84276b7cd5ea34f" category="list-text">약어 시간 동기화됨</block>
   <block id="cb4ff22dcb36625e975bdc82452939ca" category="list-text">표준 Linux 표준 소프트웨어 리포지토리에 액세스합니다</block>
@@ -764,7 +707,6 @@
   <block id="0e8433f9a404f1f3ba601c14b026d321" category="paragraph">HTTPS</block>
   <block id="5f76d762520637f1eb1b8dd5e4b71129" category="paragraph">TCP 443</block>
   <block id="e89ab59baea830bd940c300886c50efe" category="paragraph">필수입니다</block>
-  <block id="772d1ee74946ca97e3ed2ff0026d1ac0" category="paragraph">Keystone Collector 사용 메트릭 수집</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">인터넷(나중에 제공된 URL 요구 사항에 따라)</block>
   <block id="1de3382e8d585a7e028aaf322ae1a2e1" category="paragraph">HTTP, HTTPS</block>
   <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80, TCP 443</block>
@@ -856,9 +798,6 @@
   <block id="0ec21884a1f8e084bc4142f4b280b4b0" category="paragraph">에 제공된 Keystone YUM 저장소 클라이언트 구성<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 이 리포지토리를 통해 다운로드한 모든 소프트웨어에서 강제 GPG 검사(gpgcheck=1)를 사용합니다. Keystone 리포지토리를 통해 다운로드된 RPM이 서명 확인에 실패하면 해당 RPM을 설치할 수 없습니다. 이 기능은 Keystone 수집기의 예약된 자동 업데이트 기능에 사용되며 사이트에 유효한 정품 소프트웨어만 설치됩니다.</block>
   <block id="4fbba36ad0c25fac7911d3ecc475d459" category="summary">Keystone 수집기란</block>
   <block id="f5dfacf7a95f4945b3caa091e27ec747" category="doc">Keystone Collector 개요</block>
-  <block id="3ad8599d65f1ea6134d06c3e5b5c37c5" category="paragraph">Keystone 서비스를 사용하고 활성화하려면 사이트의 VMware vSphere 또는 Linux 시스템에 Keystone Collector를 설치해야 합니다.</block>
-  <block id="15264f674a628e8b6d0773cc8d1d23d5" category="admonition">여기에서 제공되는 설치 및 구성 정보는 ONTAP에만 적용됩니다.</block>
-  <block id="5ccae855bf628e16de7db39004cc76f9" category="paragraph">Keystone 수집기는 Active IQ Unified Manager 및 기타 애플리케이션을 활용하여 ONTAP 스토리지 시스템에 연결하는 Keystone 청구 플랫폼의 주요 구성요소로, 스토리지 환경의 상태를 모니터링하는 동시에 보고용 청구 데이터를 전송할 수 있는 기능을 제공합니다.</block>
   <block id="082821bd60f72deca861daa75a2c3020" category="paragraph">이 아키텍처 다이어그램에서는 일반적인 Keystone 환경의 구성 요소 및 연결 상태를 개략적으로 보여 줍니다.</block>
   <block id="d2db1c2e2de5a83644c4f38115701005" category="paragraph"><block ref="d2db1c2e2de5a83644c4f38115701005" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8bc634756fc8c4a813837243b83f84e2" category="summary">Linux에 Keystone Collector 설치</block>
@@ -868,17 +807,14 @@
   <block id="6b0c7fd3768c26e569ee5662bdcc2738" category="list-text">Keystone Collector 서버로 SSH를 수행하고 로 승격합니다<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> 권한.</block>
   <block id="fafcabb6e961377fe2b62d0f1d2e62be" category="list-text">Keystone 공개 서명 서명 서명 가져오기:<block ref="ccf45be91ebaeda977037b149762acbd" prefix=" " category="inline-code"></block></block>
   <block id="077a3466af24e8fb07c559fb31505772" category="list-text">RPM 데이터베이스에서 Keystone 청구 플랫폼에 대한 지문을 확인하여 올바른 공개 인증서를 가져왔는지 확인합니다.<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>올바른 지문은 다음과 같습니다.<block ref="0fd85ff4e797b2ec085aea480b3e9158" prefix=" " category="inline-code"></block></block>
-  <block id="b52fdb593add8bcf6dbc6992210a6702" category="list-text">를 다운로드합니다<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 파일:<block ref="bf3107618d1780d731e43697918843d5" prefix=" " category="inline-code"></block></block>
   <block id="5000c92898e0e1c2f66f175bc48765b6" category="list-text">파일의 신뢰성을 확인합니다.<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block>실제 파일의 서명은 다음과 같습니다.<block ref="4fc602b120696aeae5ab8b4ebd2a36e8" prefix=" " category="inline-code"></block></block>
   <block id="eb1f328dadd504e03e367eafd0c1e18c" category="list-text">YUM 소프트웨어 저장소 파일을 설치합니다.<block ref="90fdbfbbba2139b53a74cc0098f4e51e" prefix=" " category="inline-code"></block></block>
   <block id="9451601519fe8723586116a31c85beb6" category="list-text">Keystone repo가 설치되면 YUM 패키지 관리자를 통해 Keystone-Collector 패키지를 설치합니다.<block ref="94b62ee97dbb40aa61dd0d85daf3c424" prefix=" " category="inline-code"></block></block>
   <block id="d40fe201ca96918eaf7db3c328dc1dac" category="sidebar">Keystone에 오신 것을 환영합니다</block>
   <block id="4b5fef6350f906c92ead8e5fcb93fb21" category="sidebar">Keystone 설정 및 구성</block>
   <block id="e5e7352eac1aab74c62e3fb3c13c93eb" category="sidebar">Keystone 수집기란</block>
-  <block id="b0f17f32f0719ed2f7f708126ca779c9" category="sidebar">설치 사전 요구 사항</block>
   <block id="d495047561c1a08074d3afeeb5b5d172" category="sidebar">VMware vSphere 사전 요구 사항</block>
   <block id="634b2ff9559aed00b394d1ea933e1865" category="sidebar">Linux 필수 구성 요소</block>
-  <block id="c92343ee4605153ea6b4fa0021ccacd3" category="sidebar">Active IQ Unified Manager 구성</block>
   <block id="2ae485aa3ac00a7ebfcd427dc2f82aa4" category="sidebar">설치 절차</block>
   <block id="e1963f69cecc9ae42f0776dbde80b970" category="sidebar">VMware vSphere 구축</block>
   <block id="1f331fee3a3f66a9a0cc8b4298329656" category="sidebar">Linux 설치</block>
@@ -893,9 +829,7 @@
   <block id="7653c2f7dacbc36a17ed707c1ae4abce" category="list-text"><block ref="7653c2f7dacbc36a17ed707c1ae4abce" category="inline-link-rx"></block></block>
   <block id="89fb8980c16c92d28af72e0579cfac9c" category="summary">Keystone 구독 보고서 및 그래프</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="doc">Keystone 구독 대시보드 및 리포팅</block>
-  <block id="783b1055c5e6aba9c0938d11966a2e98" category="paragraph">NetApp Keystone STaaS 서비스에 가입한 경우 디지털 어드바이저 대시보드의 * Keystone 구독 * 위젯에서 사용량을 모니터링할 수 있습니다.</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="inline-link">NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다</block>
-  <block id="01c3a560c25b0965cc159e877afd7ebd" category="paragraph">Digital Advisor 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="29d7a7f90d7d38a5b51213a6c0579058" category="inline-link-rx"></block>.</block>
   <block id="530e795f91eac0d251eb1546c915f390" category="paragraph">위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 가입 * 페이지에서 볼륨에 대한 사용 세부 정보 및 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 &gt; Keystone 가입 * 으로 이동합니다.</block>
   <block id="2b5cc61793a2ba9e545466a73e93c16e" category="paragraph">구독 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보가 이 화면의 여러 탭에 표시됩니다.</block>
   <block id="016b01bead3857be9fd51bfef49b23aa" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드와 보고서에 최대 소수점 이하 두 자리까지 TiB에 표시됩니다. 사용률이 0.01TiB 미만이면 값이 0 또는 로 표시됩니다<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 기타 사용량 메트릭은 를 참조하십시오 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>.</block>
@@ -955,34 +889,19 @@
   <block id="2f79ebd4f32cabd1114c688445ebf53e" category="paragraph"><block ref="2f79ebd4f32cabd1114c688445ebf53e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7e3b81d04325da2b3bbb50d615754b46" category="paragraph">이러한 주의 및 경고 메시지에 대한 자세한 내용은 지원 부서에 문의하십시오. 자세한 내용은 을 참조하십시오 <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>.</block>
   <block id="f303aa2ecdcc69fbc97adcf5a2476825" category="paragraph">Digital Advisor를 사용하면 STaaS(Storage-as-a-Service) 세부 정보 및 소유한 NetApp 인프라에 대한 정보를 확인할 수 있습니다. Digital Advisor는 상세 보고서를 생성할 수 있는 기능과 함께 서브스크립션, 서비스 수준 및 용량 사용량을 한눈에 파악할 수 있는 단일 대시보드를 제공합니다.</block>
-  <block id="4399c15978a81e58a3e04abf32e24450" category="paragraph">Keystone용 Digital Advisor 대시보드 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="83b41b6080697e04ba49f73c6bb33a7e" category="inline-link-rx"></block>.</block>
   <block id="7a00a46aa8b851e05a0a8783db55e3ab" category="paragraph">Keystone 대시보드 및 보고에 대한 자세한 내용은 을 참조하십시오 <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>.</block>
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">* 문제 설명 *: Keystone 수집기는 사용량 측정 시스템의 일부로 다수의 컨테이너를 실행합니다. Red Hat Enterprise Linux 8.x 서버가 ISA(USA Defense Information Systems Agency) STIG(Security Technical Implementation Guides) 정책으로 강화되면, flapolicyd(File Access Policy Daemon)와 관련된 알려진 문제가 간헐적으로 나타납니다. 이 문제는 로 식별됩니다 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>. * 해결 방법 *: Red Hat Enterprise가 해결될 때까지 NetApp은 이 문제를 해결해 드립니다<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 허용 모드로 전환합니다. 인치 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>에서 값을 설정합니다<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>.</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
   <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
-  <block id="2d529b5bfbdb6f2ea7a21515c9520115" category="list-text"><block ref="2d529b5bfbdb6f2ea7a21515c9520115" category="inline-link-rx"></block></block>
-  <block id="a9c3d6f1b9ab5326012f266697a5027c" category="list-text"><block ref="a9c3d6f1b9ab5326012f266697a5027c" category="inline-link-rx"></block></block>
-  <block id="1a558e30520bd539ad815f5b269ef544" category="list-text"><block ref="1a558e30520bd539ad815f5b269ef544" category="inline-link-rx"></block></block>
-  <block id="b6defa5b50b28932d58f77e1e765ba87" category="list-text">애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 기본 관리자 사용자는 설치 중에 생성됩니다. 을 참조하십시오<block ref="17aa822f94d08050e378f9f079472ac0" category="inline-link-rx"></block>.</block>
-  <block id="236351c3ce34c9c6d35a533bd0d41e7b" category="list-text">로 사용자를 생성합니다<block ref="cfa584c2240d69ed179ed60a2e698402" prefix=" " category="inline-code"></block>. 을 참조하십시오<block ref="d546132ce86c2f4d7ae2da99a793de79" category="inline-link-rx"></block>.</block>
-  <block id="2aebcc6573599fb92a201792b1b79f6e" category="list-text">를 생성합니다<block ref="e307db07b3975fef922a80d07455ee5e" prefix=" " category="inline-code"></block> 사용자. 을 참조하십시오<block ref="c2493cbb2040ec99e85202f9d90c8a99" category="inline-link-rx"></block>.</block>
-  <block id="c3df6e35437f423efc3576bdf85c8c8b" category="list-text">API 게이트웨이 활성화에 대한 자세한 내용은 을 참조하십시오<block ref="e799c624d1913638d4e246c84481fcd8" category="inline-link-rx"></block>.</block>
-  <block id="a41b0d48c6c6f2f876ec27a25b273ab0" category="paragraph">지원되는 명령에 대한 자세한 내용은 를 참조하십시오<block ref="174a15c90aa48055b15ccbe06d19bf76" category="inline-link-rx"></block>.</block>
-  <block id="716145cb0c54c69b84104e766f667c6d" category="list-text">Linux 시스템의 경우 를 참조하십시오<block ref="6eb822e8507f1f310b2723182652f292" category="inline-link-rx"></block>.</block>
-  <block id="f41275e3ce9174cd7c04319fc49798f9" category="list-text">VMware vSphere 시스템의 경우 를 참조하십시오<block ref="e7d492a81a8574f8c260a7a7e9130e4b" category="inline-link-rx"></block>.</block>
   <block id="e41d7b27749843cacc5b63d577d05563" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>.</block>
   <block id="580c330994127defe5cd5153bad3a4ba" category="paragraph">스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS가 없으면 여러 시스템 부팅 같은 특정 워크로드에서 전체 리소스를 일정 기간 동안 소모하여 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>.</block>
   <block id="179e62f7e40ac7f5694e829467ad076f" category="paragraph">QoS를 적용하면 애플리케이션이 항상 일관된 성능을 얻을 수 있습니다. NetApp ONTAP는 QoS에 대한 두 가지 매개 변수, 즉 천장-<block ref="f481633ea70c9b3dfd9b26e1e0045eee" category="inline-link-rx"></block>및 처리량 플로어 -<block ref="406d3c0c34cedc53d1b49a1bfac79dea" category="inline-link-rx"></block>. QoS Max는 워크로드가 달성할 수 있는 최대 IOPS 또는 MBps 또는 IOPS 및 MBps 수를 나타냅니다. 반면에 QoS Min은 워크로드의 처리량이 특정 IOPS 또는 MBps, 즉 IOPS 및 MBps 이하로 보장되지 않습니다.</block>
-  <block id="1e75ab2f9751f71d24e5ca3107121437" category="paragraph">Keystone 서비스에 AQoS(Adaptive QoS)를 사용하여 IOPS와 TB/GB의 비율을 유지합니다. 크기가 다양해지면 QoS 정책이 자동으로 적용됩니다. 적응형 QoS에 대한 자세한 내용은 를 참조하십시오<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>.</block>
-  <block id="e7c930482608603fab44c72884516b4d" category="list-text">* 정책 그룹 이름 *: 적응형 QoS 정책 그룹의 이름입니다. 예를 들면, 다음과 같습니다.<block ref="e22fe87dc37298f80d1bbd25d59219b8" prefix=" " category="inline-code"></block>.</block>
   <block id="e88f55d6b9c231a5c6bcae698bdfd7dc" category="list-text">* vserver *: SVM 또는 스토리지 VM(스토리지 가상 머신)의 이름입니다.</block>
   <block id="308ede543987c09a3ef34aff33fbd87f" category="list-text">* 예상 IOPS *: 성능 보장이 있는 경우, ONTAP에서 최소 제공하는 IOPS/TiB 수입니다.</block>
   <block id="095c182a20e3d5d17cb203ffded54217" category="list-text">* 피크 IOPS *: 성능이 제한되기 전에 볼륨에서 사용할 수 있는 최대 IOPS/TiB</block>
   <block id="b2744d264660e6ee9104834a92616c0f" category="list-text">* 예상 IOPS 할당 *: 이 필드는 볼륨에서 사용할 수 있는 예상 IOPS가 볼륨의 할당된 크기 또는 사용된 크기를 기반으로 하는지 여부를 제어합니다. Keystone에서 이는 할당된 공간을 기반으로 합니다.</block>
   <block id="48498032e36fc1bb3a4f2820d6c121e0" category="list-text">* Peak IOPS allocation *: 이 필드는 볼륨에서 사용 가능한 피크 IOPS가 볼륨의 할당된 크기 또는 사용된 크기를 기준으로 하는지 여부를 제어합니다. Keystone에서 이는 사용된 공간을 기반으로 합니다.</block>
-  <block id="4c90a7c231372c7d1bb879f2ac327854" category="list-text">* 절대 최소 IOPS *: 볼륨 크기가 매우 작은 경우 볼륨에 적용되는 예상 IOPS의 최소 개수이며, 그렇지 않으면 IOPS가 허용할 수 없는 수준으로 표시됩니다. 이 값은 의 경우 기본적으로 1,000으로 설정됩니다<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block>, 500for<block ref="8d5e7e72f12067991186cdf3cb7d5d9d" prefix=" " category="inline-code"></block>기타 서비스 수준에 대해 75를 참조하십시오.</block>
   <block id="83968617de22b9218018ccb02b138d69" category="paragraph">IO 밀도에 대한 자세한 내용은 을 참조하십시오 <block ref="3ce2bf0236919e451c90f574367e80ae" category="inline-link-macro-rx"></block>. AQoS 정책 그룹에 대한 자세한 내용은 을 참조하십시오<block ref="e1f6c27c218a9f9df79e5c49fb7040d6" category="inline-link-rx"></block>.</block>
-  <block id="192df84a9403e8f9211cf3ee869e0bcf" category="paragraph">각 서비스 수준에 대한 적응형 QoS 정책 설정은 다음 섹션에서 설명합니다. 여기에 제공된 각 서비스 수준에 대한 최소 및 최대 볼륨 크기를 통해 볼륨에 대한 최적의 IOP 및 지연 시간 값을 얻을 수 있습니다. 이 지침을 벗어나는 볼륨을 너무 많이 생성하면 해당 볼륨의 성능에 부정적인 영향을 미칠 수 있습니다.</block>
   <block id="d1dc13c797f457ef0f8af6fba8c638fa" category="paragraph">프리미엄 서비스 수준에 대한 설정 및 명령:</block>
   <block id="7448ec74d1e6091b2ad38508ebdc37f4" category="section-title">표준 서비스 수준 설정</block>
   <block id="f20f6fc30a0b0f9782dbad2fdc8d1694" category="paragraph">표준 서비스 수준에 대한 설정 및 명령:</block>
@@ -998,6 +917,231 @@
   <block id="c9963abc84e870941cff082c5577ec18" category="paragraph">Keystone(NetApp Keystone) STaaS 청구 는 가입의 확정된 용량 위에서 귀사가 소비하는 용량, 즉 버스트 용량을 기준으로 합니다.</block>
   <block id="7e974afef4ba00b90e789eeac590a840" category="paragraph">최대 한도는 Keystone 계약에 따라 결정되고 지정됩니다. 일반적으로 커밋된 용량보다 20% 더 높습니다.</block>
   <block id="391a68f52dcd5fd65d9c97ad33e80a85" category="paragraph">약정 용량은 가입을 구매할 때 약정 용량입니다. 커밋된 용량 및 버스트 용량은 서비스 수준별로 측정됩니다. 사용된 용량은 워크로드에서 실제로 사용하는 용량입니다. 소비된 용량이 서비스 수준에 대해 약속된 용량보다 크면 버스트 소비가 기록되고 그에 따라 비용이 청구됩니다. 일반적으로 커밋된 용량보다 20% 더 높습니다. 버스트 용량을 초과하는 사용은 "버스트 제한 초과"로 표시됩니다.</block>
-  <block id="215e085cba06e994e7e4e5cf0797e2f7" category="sidebar">Digital Advisor Keystone 대시보드 및 리포팅</block>
   <block id="103955022b1603eabc8ae0b8c08e287a" category="sidebar">서비스 수준별 내 소모량을 어떻게 확인할 수 있습니까?</block>
+  <block id="1bcbd92a1182a8044032c0af47695d8a" category="list-text">를 다운로드합니다<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 파일:<block ref="d1ed07754d396f9745478bc6388ae23a" prefix=" " category="inline-code"></block></block>
+  <block id="61736ed4cf14c0d0047c1393f9ff68d3" category="admonition">설치를 완료하면 Keystone Collector 관리 터미널 사용자 인터페이스(TUI) 유틸리티를 사용하여 구성 및 모니터링 작업을 수행할 수 있습니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다. 을 참조하십시오 <block ref="14e6b60cfb93c92598e40786e00457b6" category="inline-link-macro-rx"></block> 및 <block ref="81c399588663f35131a970a2d830c241" category="inline-link-macro-rx"></block>.</block>
+  <block id="757b4ebc5c20e88eeb53580e8bf338fd" category="summary">ONTAP 및 StorageGRID용 Keystone Collector를 통해 청구 데이터 수집</block>
+  <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Keystone이 수집하는 사용자 데이터의 유형</block>
+  <block id="d980f7fd4d1a571450a5dfb6e21c1ca0" category="paragraph">Keystone은 Keystone ONTAP 및 Keystone StoragGRID 구독에 대한 구성, 상태 및 사용 정보를 수집합니다. 또한 Keystone 수집기에서 옵션이 활성화된 경우 ONTAP에 대한 성능 데이터를 수집할 수 있습니다.</block>
+  <block id="e14f2b2670997486a2e4f3918cbe9cb6" category="section-title">ONTAP 데이터 수집</block>
+  <block id="fb81e227d7ec41942ad20d4497532f70" category="example-title">ONTAP에 대해 수집된 사용량 데이터</block>
+  <block id="4752622b9e77aa409c0f10beb0726f74" category="paragraph">다음 목록은 ONTAP에 대해 수집된 용량 소비 데이터의 대표적인 예입니다.</block>
+  <block id="9b99bf7d2bfd4b09363304c166832734" category="list-text">클러스터</block>
+  <block id="9167f44e96ef14493eb91fa385a1b03a" category="list-text">클러스터 이름</block>
+  <block id="34b6cd75171affba6957e308dcbd92be" category="list-text">버전</block>
+  <block id="16b3dcedf3f7512ac57bc6aaba0111bf" category="list-text">QoSAdapitivePolicyGroup 이름입니다</block>
+  <block id="6c62f1f75b11c5904ec1b838493a986e" category="list-text">QoSPolicyGroup 이름입니다</block>
+  <block id="f613eaede8ee76e8a5ef8c08d7677fd6" category="list-text">PhysicalUsed(PhysicalUsed)</block>
+  <block id="ea438094b2a4f42c2773255365acf94b" category="list-text">가상 서버</block>
+  <block id="cfe6a9a8bc184fff2012f6f48e02ef24" category="list-text">VserverName입니다</block>
+  <block id="14550a67badc66e8732d58938aaf83ad" category="list-text">VserverUUID입니다</block>
+  <block id="071b8782129749bf39aad727ecb26d79" category="list-text">하위 유형</block>
+  <block id="ef4525b2334ade8c44cef9183f8044e9" category="list-text">스토리지 애그리게이트</block>
+  <block id="5f092d1817e2430866ec8f3f6f624cb9" category="list-text">오브젝트 저장소를 통합합니다</block>
+  <block id="fee2a02b904d6d1f207e959dbd807a75" category="list-text">클론 볼륨</block>
+  <block id="b73733e57edbb3f1929ce8038f24f089" category="list-text">SVM</block>
+  <block id="78eddfe68e4834428c6df59820a04df7" category="list-text">ParentVolume</block>
+  <block id="87325cdbd5af1d780ce7d658c4a881e4" category="list-text">ParentVserver</block>
+  <block id="73a7ca34698606d30cf4d22ac21020c1" category="list-text">IsConstituent(제원)</block>
+  <block id="e9782e3b710098314bf6fa20ad0f1180" category="list-text">Splitimate</block>
+  <block id="46a2a41cc6e552044816a2d04634545d" category="list-text">상태</block>
+  <block id="b088c1c83a9cca3a0a8600b5a91635d8" category="list-text">FlexCloneUsedPercent</block>
+  <block id="030a11012549d38ed8ec6bba580fee47" category="list-text">스토리지 LUN</block>
+  <block id="415de03f68bb9efc3c6e4fb0de75f4eb" category="list-text">LUN UUID입니다</block>
+  <block id="43188da50098252bd688d8fdc94fa0c9" category="list-text">LUN 이름입니다</block>
+  <block id="4f36f3d14aa1488f4aa8f9a0e414924b" category="list-text">QoSPolicyUUID입니다</block>
+  <block id="1068c5a3769daaa4ccf4b69cc38740ff" category="list-text">QoSPolicyName입니다</block>
+  <block id="b6e5caa11ce032a0e6cb4d6498bd8efa" category="list-text">SVM의 UUID입니다</block>
+  <block id="c50f4a752643297cd09ba0deaf0c0827" category="list-text">SVM 이름</block>
+  <block id="22e802f805cc0ae139fc4fa75879cc1f" category="list-text">스토리지 볼륨</block>
+  <block id="e790dfe9978be17c9fb3589339e80f1a" category="list-text">SVM 이름</block>
+  <block id="eaacf41582c0bb4547020cf087f1087c" category="list-text">용량설치 공간</block>
+  <block id="c0c1b93e65285ee10103465b43b5687f" category="list-text">성능설치 공간</block>
+  <block id="b872e9fe3ab7ed385230dd6764d6673a" category="list-text">TotalFootprint</block>
+  <block id="a29f9e086b019514c2f3b670c2503f3b" category="list-text">TieringPolicy를 참조하십시오</block>
+  <block id="ece4fcc898d2205466c58826dafa9f71" category="list-text">IsProtected 플래그</block>
+  <block id="46307311d2bf0980e20971fc548055d1" category="list-text">IsDestination 플래그입니다</block>
+  <block id="a94f0a2630b8f3a970ed15982f47f363" category="list-text">CloneParentUUID입니다</block>
+  <block id="d652696dcf63b8343a323a9db5a7743c" category="list-text">QoS 정책 그룹</block>
+  <block id="08f10ad62217aad2f17199a99df6664a" category="list-text">PolicyGroup을 참조하십시오</block>
+  <block id="59d6a947a3fa012342acb0cc5bb9f071" category="list-text">최대 처리량</block>
+  <block id="feefc9f1a500f33c77ecf2d3e32aff8e" category="list-text">MinThroughput</block>
+  <block id="89d5c68097857045e0569c808dc7146c" category="list-text">최대 처리량 IOPS</block>
+  <block id="d5d1ae1a459742eec1b9d42e1e81a2df" category="list-text">최대 처리량</block>
+  <block id="f60ca754c2e402e52460e6e8a42ed78b" category="list-text">최소 처리량 IOPS</block>
+  <block id="7e134db0ee1f91bffe5eaef1da5bf86e" category="list-text">최소 처리량</block>
+  <block id="2c560901400a2229f3c385ef2c941f48" category="list-text">IsShared 플래그</block>
+  <block id="59e055ccbb3c17ee6bdb718716ea3ead" category="list-text">ONTAP 적응형 QoS 정책 그룹</block>
+  <block id="da7f3e354315217a8d3c5dcbb4738f8c" category="list-text">PeakIOPS를 참조하십시오</block>
+  <block id="0eb19969399e8cfef4584ffa90a7b92e" category="list-text">PeakIOPSALLOCATION을 참조하십시오</block>
+  <block id="28e1f8fa02395e52c323a72f1c40732e" category="list-text">절대 최소 IOPS</block>
+  <block id="34f69c5fc85b82becfb3c6f1034d0f5c" category="list-text">ExpectedIOPS입니다</block>
+  <block id="9cf737e74d2ca4e47a565aa7007735bf" category="list-text">ExpectedIOPSALLOCATION을 참조하십시오</block>
+  <block id="18d721bf398e589932630551a08d2b1a" category="list-text">블록 크기</block>
+  <block id="9d88c302759cca363a7d0977457ebe34" category="list-text">풋프린트</block>
+  <block id="bd7a9717d29c5ddcab1bc175eda1e298" category="list-text">볼륨</block>
+  <block id="74042b56b5c7708c140406878f32f3af" category="list-text">VolumeBlocksFootprintBin0</block>
+  <block id="be48bdf4b450783af38839f3a15aadd0" category="list-text">VolumeBlocksFootprintBin1</block>
+  <block id="e112777481084d9223b96fb647b02196" category="list-text">MetroCluster 클러스터</block>
+  <block id="7f1ebd781923623a8e963c3c2c611842" category="list-text">RemoteClusterUUID입니다</block>
+  <block id="9c527f3509679bea8efecc1c2c405bf9" category="list-text">RemoteCluserName입니다</block>
+  <block id="c50b0f4e7fd670684a2dfa27df09c748" category="list-text">LocalConfigurationState 를 선택합니다</block>
+  <block id="6ed574c24191a7692aab50164f2950d3" category="list-text">RemoteConfigurationState 를 선택합니다</block>
+  <block id="650be61892bf690026089544abbd9d26" category="list-text">모드를 선택합니다</block>
+  <block id="a38399fd05eed54a30356063875ba5c7" category="list-text">Active IQ Unified Manager API 종점이 쿼리되었습니다</block>
+  <block id="81631db9933f83ee6511c56a7577d112" category="list-text">AIQUMInstance IP(AIQUMInstance IP)</block>
+  <block id="101f4a88b595ebd0ef997252c9f00966" category="example-title">ONTAP에 대해 수집된 성능 데이터</block>
+  <block id="06b0dd42b36609a32d1b4e237ca0b021" category="paragraph">다음 목록은 ONTAP에 대해 수집된 성능 데이터의 대표적인 예입니다.</block>
+  <block id="878efc5de6def52e25be6f622fb5a7ee" category="list-text">클러스터 UUID</block>
+  <block id="8b3f98ef5143f8196aca53b61aeccebd" category="list-text">ObjectID입니다</block>
+  <block id="fc04fed9886af801488144e5f6ba08df" category="list-text">볼륨 인스턴스 UUID입니다</block>
+  <block id="36a8c723914330ec4860d294277ed4aa" category="list-text">노드 일련 번호</block>
+  <block id="a3e280679ff79302edae59279b6cb77e" category="list-text">ONTAP 버전</block>
+  <block id="ee58c2f2ea64f15f39a239bab09f9060" category="list-text">AIQUM 버전</block>
+  <block id="2ee34178bb8415b7d7234cd27b83aed6" category="list-text">집계</block>
+  <block id="d2c93fffe3fc237b120d0088af231d57" category="list-text">애그리게이트 UUID입니다</block>
+  <block id="16c68602949967966655cfce02724ef7" category="list-text">리소스 키</block>
+  <block id="0a87878e34978e388b8cdaff2b730a12" category="list-text">타임 스탬프입니다</block>
+  <block id="6933eaf9044b51d77f33bcde735298e5" category="list-text">IOPSPerTb입니다</block>
+  <block id="26ae7bdd1d6fb8c4886e6fde8d12601c" category="list-text">지연 시간</block>
+  <block id="81338f08b1589f192ee03cd62124acab" category="list-text">읽기 지연 시간</block>
+  <block id="b6435aa6b1713e19dffdf5f95d15d5cc" category="list-text">WriteMBps 를 클릭합니다</block>
+  <block id="eee034afe0ee76e59cb0c9a6135d2db9" category="list-text">QoSMinThroughut지연 시간</block>
+  <block id="45b3ca481b949ff4d7232b4a1ab56545" category="list-text">QoSNBladeLatency</block>
+  <block id="34267f416301e46a62f8a3497a555fc8" category="list-text">중고 헤드룸</block>
+  <block id="8b6d378279239185299cf5d76c4892f2" category="list-text">CacheMisssRatio(캐시비율</block>
+  <block id="ad1e9177dc1f24abd5281cbc8cf84543" category="list-text">기타 지연 시간</block>
+  <block id="0b272bc0dbc72183094760e84e3fcdf7" category="list-text">QoSAgregateLatency를 참조하십시오</block>
+  <block id="79073619fba8242703524f16870ff858" category="list-text">IOPS</block>
+  <block id="8616a83783abb33696434719e8db99fd" category="list-text">QoSNetworkLetency를 참조하십시오</block>
+  <block id="5754f2ee0de974a60a56d70a8dae0925" category="list-text">가용성 작업</block>
+  <block id="ae214f3b4e61e9c9267cbdd5d5d34b17" category="list-text">쓰기 대기 시간</block>
+  <block id="680e1fdb5516beca6fb2b45af013d8ce" category="list-text">QoSCloud지연 시간</block>
+  <block id="40212ef1af4ab6573fbccb59579e3e97" category="list-text">QoSClusterInterconnectLatency를 참조하십시오</block>
+  <block id="ca86ff37d8c0f15503b6694909dec49e" category="list-text">OtherMBps(OtherMBps)</block>
+  <block id="6276b1d29fce8bbbb87c12541c357ce9" category="list-text">QoSCop지연 시간</block>
+  <block id="f36e8b3a6b85ff14265d49d7d0cd9ed6" category="list-text">QoSDBladeLatency</block>
+  <block id="a7d6e22f4e42b9f526689d7c05ed15ce" category="list-text">활용률</block>
+  <block id="b646f9e01aaf369deae647cf99806b14" category="list-text">읽기 IOPS</block>
+  <block id="ce52b51ab4d71cd3295318ce62cfa7ee" category="list-text">Mbps</block>
+  <block id="e01447fc318f3ce4ba5fb566774f5373" category="list-text">기타 IOPS</block>
+  <block id="2202d032b4f529ea9e11b385d82de8f6" category="list-text">QoSPolicyGroupLatency를 참조하십시오</block>
+  <block id="622ed11dd5a5b70f82c91123679be082" category="list-text">ReadMBps</block>
+  <block id="dd6b51fd52aa3e07c1dc87b12570932d" category="list-text">QoSSyncSnap미러지연 시간</block>
+  <block id="e6871f6e179f19bf305c7be5a0f3024b" category="list-text">쓰기 IOPS입니다</block>
+  <block id="42e87ad71d949a61960ad83482cb58b0" category="paragraph">Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 ONTAP에 대해 다음 사용 정보가 제거됩니다. 이 옵션은 기본적으로 활성화되어 있습니다.</block>
+  <block id="973a9795a80306129b19cf9ac732cadc" category="list-text">스토리지 LUN 이름입니다</block>
+  <block id="6519cc2cb2093a31c9e2c21cd389d7b6" category="list-text">RemoteClusterName(원격 클러스터 이름)</block>
+  <block id="8a5466dffc1fb3688afcf85af44acae0" category="section-title">StorageGRID 데이터 수집</block>
+  <block id="e4045be0afd459dcae607006e83ba4cb" category="example-title">StorageGRID에 대해 수집된 사용량 데이터</block>
+  <block id="ead7f826444254c9fd18d42967aa1bdf" category="paragraph">다음 목록은 의 대표적인 예입니다<block ref="655d716c75a0a3e6c9b4eb8987013918" prefix=" " category="inline-code"></block> StorageGRID를 위해 수집:</block>
+  <block id="4b6e9c25ecc55504ebb330411f41421a" category="list-text">StorageGRID ID입니다</block>
+  <block id="351a2eb8764e19b9e565e8a355469e70" category="list-text">계정 ID입니다</block>
+  <block id="5d55785a871474b5490ecc8da433a32d" category="list-text">계정 이름</block>
+  <block id="939b2d4bddcf500a462542e2030c1874" category="list-text">계정 할당량 바이트</block>
+  <block id="1d606ad48cfdb776c19c079d7ecf686c" category="list-text">버킷 이름</block>
+  <block id="aa6bae1eb1c833c18ec15ad5430e6d09" category="list-text">버킷 객체 수</block>
+  <block id="762730006f434275a930238bb9bf9d60" category="list-text">버킷 데이터 바이트</block>
+  <block id="3e71b5210e7190fb994895de9828d56c" category="paragraph">다음 목록은 의 대표적인 예입니다<block ref="09a4c9275302765ecff4dc7a388b935e" prefix=" " category="inline-code"></block> StorageGRID를 위해 수집:</block>
+  <block id="5c7209cbcf1475a6e48114564f387e20" category="list-text">노드 ID입니다</block>
+  <block id="b250a007769c7ffe655c74cfb8176b8c" category="list-text">사이트 ID입니다</block>
+  <block id="668445f09da337d276dc852bb6a0dbb3" category="list-text">사이트 이름</block>
+  <block id="d9a17c1c9e8ef6866e4dbeef41c741b2" category="list-text">인스턴스</block>
+  <block id="5e472656324243cf75a48a2511d9db3b" category="list-text">StorageGRID 스토리지 사용률 바이트</block>
+  <block id="e50cea427bf45d9fd842ca090a131a2e" category="list-text">StorageGRID 스토리지 활용률 메타데이터 바이트</block>
+  <block id="1b05ae60c6a95431d1144d1061deac4e" category="paragraph">Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 StorageGRID에 대해 다음 사용 정보가 제거됩니다. 이 옵션은 기본적으로 활성화되어 있습니다.</block>
+  <block id="ea0666b63b24bfb1928b030c255aa4e7" category="list-text">계정 이름</block>
+  <block id="b07e5b04b11dc203e124dd9f208e3c13" category="list-text">BucketName</block>
+  <block id="4af5ba8f28f864edfd068c1ed0926a13" category="list-text">사이트 이름</block>
+  <block id="6e743d2fd74b2d2e5de8dbef07a01421" category="list-text">인스턴스/노드 이름</block>
+  <block id="8cf5f59a1100fa36f9623b70bdb992ba" category="paragraph">Keystone 서비스를 사용하고 사용 데이터를 보려면 사이트의 VMware vSphere 또는 Linux 시스템에 Keystone Collector를 설치해야 합니다.</block>
+  <block id="7114fdaf9483bf8fda55eeb6cced9e80" category="admonition">여기에서 제공되는 설치 및 구성 정보는 ONTAP 및 StorageGRID에 적용됩니다. 요구 사항 및 절차는 ONTAP 및 StorageGRID 모두에 대해 일반적이며 예외적으로 명시되어 있습니다.</block>
+  <block id="dcca2c79206725f48705313592b94362" category="paragraph">Keystone 수집기는 Active IQ Unified Manager 및 기타 애플리케이션을 활용하여 ONTAP 및 StorageGRID 시스템에 연결하고 Keystone 가입 시 사용량 및 SLA 성능 측정을 위해 필요한 메타데이터를 수집하는 Keystone 청구 플랫폼의 사용 인수 구성요소입니다. 이 보고서를 통해 시스템 상태를 모니터링하는 동시에 보고용 청구 데이터를 전송할 수 있습니다.</block>
+  <block id="fb03e0490a19e5a8091adb56628a89c0" category="paragraph">Linux 서버에 필요한 구성은 다음과 같습니다.</block>
+  <block id="875971a9a690ce8a36d7f42afd4543e1" category="paragraph">Keystone Collector 서버 가상 시스템(SVM)에는 다음 구성이 필요합니다.</block>
+  <block id="3cd8ee624224889231554d68f6c0f471" category="list-text">코어: CPU 2개</block>
+  <block id="729c0bdf36ec5a81531eff6e6786c89d" category="list-text">RAM: 4GB RAM</block>
+  <block id="6689c36f38716c4f3b09772966e38e5d" category="list-text">디스크 공간: 50GB vDisk</block>
+  <block id="825532bab792320adbfc19da4189a29f" category="paragraph">Keystone Collector(Keystone ONTAP용)</block>
+  <block id="13ac1069774f15afd8a2e57d64c6e26c" category="paragraph">필수(Keystone ONTAP를 사용하는 경우)</block>
+  <block id="69c4b9572095206692a88cb65e57105e" category="paragraph">ONTAP에 대한 Keystone Collector 사용 메트릭 수집</block>
+  <block id="ce664ed1582986d4dd05b45447443992" category="paragraph">Keystone Collector(Keystone StorageGRID용)</block>
+  <block id="6d41df01ebe69f9a8cdb1f2a2c8a67db" category="paragraph">StorageGRID 관리 노드</block>
+  <block id="5f3404cf964777c8e1916a088cdbc3f1" category="paragraph">필수(Keystone StorageGRID를 사용하는 경우)</block>
+  <block id="d5afaa3fa8ab0daf63847efd0d324dda" category="paragraph">StorageGRID에 대한 Keystone Collector 사용 메트릭 수집</block>
+  <block id="3a9be63d84e9a8b01937ad5727618ebd" category="paragraph">Keystone Collector(일반)</block>
+  <block id="5cf9b00e7eb204d30cc672cb9dc479ca" category="doc">ONTAP 및 StorageGRID에 대한 추가 필수 구성 요소입니다</block>
+  <block id="5302a9af7c7db5b391c77f0b0b58a9ae" category="paragraph">ONTAP 및 StorageGRID에 대한 몇 가지 추가 사전 요구 사항을 완료해야 합니다. Linux/VMware vSphere 시스템 요구 사항 외에 이러한 특정 사전 요구 사항을 완료했는지 확인합니다. 자세한 내용을 보려면 필수 탭을 클릭하십시오.</block>
+  <block id="e3d9300aee94dbd6833b9b494b4e413a" category="paragraph">ONTAP에서 Keystone Collector를 설치하려면 다음 단계를 사전 요구 사항에 따라 수행합니다.</block>
+  <block id="6b127757330398600af046a789f68aff" category="list-text">Active IQ Unified Manager(Unified Manager) 서버에 Unified Manager 9.7 이상이 구성되어 있는지 확인합니다. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.</block>
+  <block id="29971410a584e921e5516d3f2b7bfb4d" category="inline-link">클러스터 추가</block>
+  <block id="86eb2db656d7aa748c750a4cf424c4f9" category="list-text">ONTAP 클러스터가 Unified Manager에 추가되었는지 확인합니다. 클러스터 추가에 대한 자세한 내용은 을 참조하십시오<block ref="b475884884d95a88bbe7062e46db77b2" category="inline-link-rx"></block>.</block>
+  <block id="8c600472916c85183244220ecd5f7a13" category="list-text">사용량 및 성능 데이터 수집에 대한 특정 역할을 가진 Unified Manager 사용자를 생성합니다. 다음 단계를 수행합니다. 사용자 역할에 대한 자세한 내용은 을 참조하십시오<block ref="710c561d5a618a0a66fb1efb6e45aca1" category="inline-link-rx"></block>.</block>
+  <block id="f4edd80748d802322bc79d366c818084" category="list-text">설치 중에 생성되는 기본 애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 을 참조하십시오<block ref="17aa822f94d08050e378f9f079472ac0" category="inline-link-rx"></block>.</block>
+  <block id="aa70630748bc7b549b73d77c79a54b64" category="list-text">을 사용하여 Keystone 수집기에 대한 서비스 계정을 생성합니다<block ref="e1b3ec89ead7f83a9245ed5c9cacfdbf" prefix=" " category="inline-code"></block> 사용자 역할. Keystone Collector 서비스 API는 이 서비스 계정을 사용하여 Unified Manager와 통신하고 사용 데이터를 수집합니다. 을 참조하십시오<block ref="d546132ce86c2f4d7ae2da99a793de79" category="inline-link-rx"></block>.</block>
+  <block id="3af92af5e2510178716df31515a15c87" category="list-text">을 생성합니다<block ref="e307db07b3975fef922a80d07455ee5e" prefix=" " category="inline-code"></block> 사용자 계정, 및<block ref="500e2a5ef3a5e2ed448264b61db39efd" prefix=" " category="inline-code"></block> 역할. 이 사용자는 성능 데이터 수집에 필요합니다. 을 참조하십시오<block ref="c2493cbb2040ec99e85202f9d90c8a99" category="inline-link-rx"></block>.</block>
+  <block id="cd538adb389ee22c5e1949befc2abd8e" category="list-text">Unified Manager에서 API 게이트웨이를 사용하도록 설정합니다. Keystone Collector는 API 게이트웨이 기능을 사용하여 ONTAP 클러스터와 통신합니다. 웹 UI에서 또는 Unified Manager CLI를 통해 몇 가지 명령을 실행하여 API 게이트웨이를 사용하도록 설정할 수 있습니다.</block>
+  <block id="d4c97e5982498adeb9de460a81335d15" category="paragraph-title">웹 UI</block>
+  <block id="7816621376966d4cc39d5feb436a6bc6" category="paragraph">Unified Manager 웹 UI에서 API 게이트웨이를 사용하도록 설정하려면 Unified Manager 웹 UI에 로그인하여 API 게이트웨이를 사용하도록 설정합니다. 자세한 내용은 을 참조하십시오<block ref="e799c624d1913638d4e246c84481fcd8" category="inline-link-rx"></block>.</block>
+  <block id="91af5705f16502125e8b2187e64202c0" category="paragraph-title">CLI를 참조하십시오</block>
+  <block id="5ed5460e1bf9b1b6cc7df4f9e33ae998" category="paragraph">Unified Manager CLI를 통해 API 게이트웨이를 설정하려면 다음 단계를 수행하십시오.</block>
+  <block id="b7796ede708f1359e9ae316d1d929e71" category="list-text">Unified Manager 서버에서 SSH 세션을 시작하고 Unified Manager CLI에 로그인합니다.<block ref="0c8c524a89baf2ffad5c88cd862dc1cc" prefix=" " category="inline-code"></block>CLI 명령에 대한 자세한 내용은 를 참조하십시오<block ref="174a15c90aa48055b15ccbe06d19bf76" category="inline-link-rx"></block>.</block>
+  <block id="7d8783e4d7d329d0fcf7e72c11915e57" category="list-text">API 게이트웨이가 이미 설정되어 있는지 확인합니다.<block ref="7489a0a94d756e7169db7db466391d65" prefix=" " category="inline-code"></block>A<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block> 값은 API 게이트웨이가 활성화되었음을 나타냅니다.</block>
+  <block id="fcfbc874f3615077bbc6781d4c993916" category="list-text">반환되는 값이 인 경우<block ref="68934a3e9455fa72420237eb05902327" prefix=" " category="inline-code"></block>에서 다음 명령을 실행합니다.<block ref="b09cad6fba489605054fc3982bb55f65" prefix=" " category="inline-code"></block></block>
+  <block id="4e99491c2d3088c139b2c1bd76870b45" category="list-text">Unified Manager 서버를 다시 시작합니다.</block>
+  <block id="a58941d5b6d99d7749ea1df9930def5e" category="list-text">Linux:<block ref="6eb822e8507f1f310b2723182652f292" category="inline-link-rx"></block>.</block>
+  <block id="afa819b7cc8f00a6b6f99f036c86710d" category="list-text">VMware vSphere:<block ref="e7d492a81a8574f8c260a7a7e9130e4b" category="inline-link-rx"></block>.</block>
+  <block id="fd22d23fe0edf1a8c1823d661ceb51b0" category="paragraph">StorageGRID에 Keystone Collector를 설치하려면 다음 구성이 필요합니다.</block>
+  <block id="76038d247a602c0245b0f461368bb87c" category="inline-link-macro">StorageGRID 소프트웨어 업그레이드: 개요</block>
+  <block id="7aa35054155773e318023838d4c86a8e" category="list-text">StorageGRID<block ref="86fb40f74065628551d7b9612d244430" prefix=" " category="inline-code"></block> 이상 버전이 설치되어 있어야 합니다. StorageGRID 업그레이드에 대한 자세한 내용은 을 참조하십시오 <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>.</block>
+  <block id="2cb4d48e9d39b65ee9a134ead27cec2e" category="list-text">사용량 데이터 수집을 위해 StorageGRID 로컬 관리자 사용자 계정을 생성해야 합니다. 이 서비스 계정은 Keystone Collector 서비스가 관리자 노드 API를 통해 StorageGRID와 통신하는 데 사용됩니다.</block>
+  <block id="bb0dd8b0b8efa5928afbafc369fda5e1" category="inline-link">Grid Manager에 로그인합니다</block>
+  <block id="ba43950d2b1731602400692e36f66ae6" category="list-text">Grid Manager에 로그인합니다. 을 참조하십시오<block ref="8bf33c163893a69feada52e3ecdbe684" category="inline-link-rx"></block>.</block>
+  <block id="770ffb0f1bec28b16cc9a1229cf9be20" category="inline-link">관리자 그룹을 생성합니다</block>
+  <block id="866e27c1e21bfcffdf78d5c6422d9007" category="list-text">를 사용하여 로컬 관리 그룹을 생성합니다<block ref="2401c2414886730a773f9d61a9d03d0c" prefix=" " category="inline-code"></block>. 을 참조하십시오<block ref="7ad90c2fe566a56773e078e9ab5e29d4" category="inline-link-rx"></block>.</block>
+  <block id="869e466aee4592c1d395838ef16af554" category="list-text">다음 권한을 추가합니다.</block>
+  <block id="ed521c8c5520a00a114abab07ebba56d" category="list-text">테넌트 계정</block>
+  <block id="10d0de28911c5f66463b9c8783f8148a" category="list-text">유지 관리</block>
+  <block id="1d31884d14bc3c8944a94ba146af781a" category="list-text">메트릭 쿼리</block>
+  <block id="1b4fcfaacbd0ae3e24bc82f8d7a82211" category="inline-link">사용자 관리</block>
+  <block id="8439ccf1446c67100be4a3a73c3d339f" category="list-text">Keystone 서비스 계정 사용자를 생성하고 이를 관리 그룹에 연결합니다. 을 참조하십시오<block ref="3f81d882f8eb86176175a8f2f30c48b0" category="inline-link-rx"></block>.</block>
+  <block id="82690bb37c8fd3910939c0d1c07adbfb" category="list-text">파일이 다운로드되면 Keystone ServiceNow 지원 티켓에 첨부할 수 있습니다. 티켓 발생에 대한 자세한 내용은 을 참조하십시오 <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>.</block>
+  <block id="df14715a510ff9aeef732a94267cca9b" category="paragraph">스토리지 환경에서 Keystone 수집기가 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료해야 합니다. 이 작업은 필요한 Collector 구성 요소를 활성화하고 스토리지 환경과 연결하는 일회성 작업입니다.</block>
+  <block id="9ab33c1f92542debbe7fbaf0686e8431" category="admonition">Keystone 수집기는 구성 및 모니터링 작업을 수행하기 위한 Keystone Collector 관리 TUI(터미널 사용자 인터페이스) 유틸리티를 제공합니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.</block>
+  <block id="39c85d7f0eb110cd413fc170604d8bc6" category="list-text">[구성] &gt; [KS-Collector]로 이동하여 Keystone Collector 구성 화면을 열고 사용 가능한 업데이트 옵션을 확인합니다.</block>
+  <block id="dc6558c87d9624db4f0f78e602308c49" category="list-text">필요한 옵션을 업데이트합니다.</block>
+  <block id="14a76c71ca702ae118d765e420178711" category="example-title">ONTAP &lt;/strong&gt;용 &lt;strong&gt;</block>
+  <block id="32a4a00508204d0cb7ced3d936d4dc7a" category="list-text">* ONTAP 사용량 수집 *: 이 옵션을 사용하면 ONTAP에 대한 사용 데이터를 수집할 수 있습니다. Active IQ Unified Manager(Unified Manager) 서버 및 서비스 계정의 세부 정보를 추가합니다.</block>
+  <block id="c8be7cc513ae14bb1045efcf84ef815f" category="list-text">* ONTAP 성능 데이터 수집 *: 이 옵션을 사용하면 ONTAP에 대한 성능 데이터를 수집할 수 있습니다. 이 기능은 기본적으로 비활성화되어 있습니다. SLA를 위해 사용자 환경에서 성능 모니터링이 필요한 경우 이 옵션을 활성화하십시오. Unified Manager 데이터베이스 사용자 계정 세부 정보를 제공합니다. 데이터베이스 사용자를 만드는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="c307c105b0ab23fea8108ee840b19ed9" category="inline-link-macro-rx"></block>.</block>
+  <block id="c6f143141daaf99baf609e695430cce9" category="list-text">* 개인 데이터 제거 *: 이 옵션은 고객의 특정 개인 데이터를 제거하며 기본적으로 활성화됩니다. 이 옵션이 활성화된 경우 메트릭에서 제외되는 데이터에 대한 자세한 내용은 을 참조하십시오 <block ref="69ef82b790beb8f156793bc199a1126b" category="inline-link-macro-rx"></block>.</block>
+  <block id="e70948bd792d621d062233c6553df7a4" category="example-title">StorageGRID &lt;/strong&gt;용 &lt;strong&gt;</block>
+  <block id="12a12ceac3b9acaa003a52c7a4a9e107" category="list-text">* Collect StorageGRID usage *: 이 옵션을 사용하면 노드 사용 세부 정보를 수집할 수 있습니다. StorageGRID 노드 주소 및 사용자 세부 정보를 추가합니다.</block>
+  <block id="501fbebe1e3204d65370c54a952426d7" category="list-text">* 개인 데이터 제거 *: 이 옵션은 고객의 특정 개인 데이터를 제거하며 기본적으로 활성화됩니다. 이 옵션이 활성화된 경우 메트릭에서 제외되는 데이터에 대한 자세한 내용은 을 참조하십시오 <block ref="e1f64bf8f82fdbd22932ca9afa1da14a" category="inline-link-macro-rx"></block>.</block>
+  <block id="60027fcd2e5db75fada38cb8c25a89ad" category="list-text">** 시작 KS-Collector with System** 필드를 토글합니다.</block>
+  <block id="12d4a3f31d7915f04142a35be1ba5a37" category="paragraph">Keystone Collector TUI 화면에서 특정 고객 데이터의 수집을 제한할 수 있습니다. 이 옵션 * 개인 데이터 제거 * 는 기본적으로 사용됩니다.</block>
+  <block id="dd771779768817666d39c63b55339112" category="paragraph">ONTAP 및 StorageGRID에서 개인 데이터 액세스를 제한하는 데 제거된 항목에 대한 자세한 내용은 을 참조하십시오 <block ref="461595833a51b2e2463fa89ad8a35ca1" category="inline-link-macro-rx"></block>.</block>
+  <block id="1188f42df486498dbe3703f5415c86aa" category="list-text">Keystone 데이터 수집기: Keystone 수집기는 Keystone 고객에게 청구 서비스를 제공합니다. 이 애플리케이션은 Active IQ Unified Manager와 함께 번들로 제공됩니다. 5분마다 ONTAP 및 StorageGRID 컨트롤러의 데이터를 주기적으로 수집합니다. 데이터는 처리되고, 메타데이터는 청구 데이터 생성에 사용되는 AutoSupport 메커니즘을 통해 중앙 집중식 Active IQ 데이터 레이크에 전송됩니다. Active IQ 데이터 레이크는 청구를 위해 데이터를 처리한 후 Zuora에 전송해 청구합니다. Active IQ 디지털 자문(디지털 자문) 고객 포털을 통해 Keystone 가입 및 소비 상세 정보를 확인하고 로그인할 수 있습니다.</block>
+  <block id="cf3d385bb2fcb3764b03ece3454042e6" category="paragraph">Digital Advisor 대시보드에서 Keystone 보고에 대한 자세한 내용은 을 참조하십시오 <block ref="b7b6a2338cb0518cc39a6d3713bb6e47" category="inline-link-macro-rx"></block>.</block>
+  <block id="6b71507d392708444982d424df1963c2" category="paragraph">ONTAP 파일 및 블록 스토리지, StorageGRID 오브젝트 스토리지를 위한 Keystone STaaS 서비스는 다음 표에 설명된 다양한 기능 및 프로토콜을 지원합니다.</block>
+  <block id="661319c881749fc4ef06edb56f84c952" category="paragraph">NetApp 글로벌 서비스 및 지원 센터(GSSC) 및 NetApp Keystone 성공 관리자(KSM)는 Keystone 가입 서비스를 제공해야 합니다.</block>
+  <block id="5e3fca9227064d2d04c47a0f13b4fffe" category="paragraph">Keystone 서비스에 대한 자세한 내용은 다음을 참조하십시오.</block>
+  <block id="1ad935b10417da04d8f4a93ed39ce8a0" category="paragraph">Keystone 서비스에 AQoS(Adaptive QoS)를 사용하여 IOPS와 TB/GB의 비율을 유지합니다. 크기가 다양해지면 QoS 정책이 자동으로 적용됩니다. AQoS 정책에 대한 자세한 내용은 을 참조하십시오<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>.</block>
+  <block id="b41d880d5f9cddb842b19d183ce73f2e" category="paragraph">Keystone은 클러스터가 운영 중인 경우 설정할 수 있는 AQoS 정책을 제공합니다. 모든 볼륨이 시스템에서 이미 생성되어 사용 가능한 올바른 AQoS 정책과 연결되어 있는지 확인해야 합니다.</block>
+  <block id="843145f4887d94733db1d1b24ca3fdfa" category="admonition">볼륨에 AQoS 정책을 올바르게 적용하지 않은 경우, 해당 볼륨은 가입자 서비스에 따라 가장 높은 서비스 수준에서 측정 및 청구됩니다. 이로 인해 의도하지 않은 폭발이 발생할 수 있습니다.</block>
+  <block id="445fbfc75bfa2a8ab6a7cdcb019f9838" category="paragraph">AQoS(적응형 QoS) 정책을 구성하여 처리량 상한 또는 하한 을 볼륨 크기로 자동 확장할 수 있습니다. 정책을 구성할 때는 다음 사항을 염두에 두어야 합니다.</block>
+  <block id="783c1c698cfe222ca1a1c69b815e8a3c" category="list-text">* 정책 그룹 이름 *: AQoS 정책 그룹의 이름입니다. 예를 들면, 다음과 같습니다.<block ref="e22fe87dc37298f80d1bbd25d59219b8" prefix=" " category="inline-code"></block>.</block>
+  <block id="680fcae2005fb4b11fdcc18c27ddd58b" category="list-text">* 절대 최소 IOPS *: 볼륨 크기가 매우 작은 경우 볼륨에 적용되는 예상 IOPS의 최소 개수이며, 그렇지 않으면 IOPS가 허용할 수 없는 수준으로 표시됩니다. 이 값은 의 경우 기본적으로 1,000으로 설정됩니다<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block>, 500for<block ref="8d5e7e72f12067991186cdf3cb7d5d9d" prefix=" " category="inline-code"></block>, 및 250 을 참조하십시오<block ref="9446a98ad14416153cc4d45ab8b531bf" prefix=" " category="inline-code"></block>, 및 의 경우 75<block ref="eb6d8ae6f20283755b339c0dc273988b" prefix=" " category="inline-code"></block> 및<block ref="689202409e48743b914713f96d93947c" prefix=" " category="inline-code"></block> 서비스 레벨:</block>
+  <block id="190dc75f5eac190e46db7ce571587dbc" category="paragraph">각 서비스 수준에 대한 AQoS(Adaptive QoS) 정책 설정은 다음 섹션에서 설명합니다. 여기에 제공된 각 서비스 수준에 대한 최소 및 최대 볼륨 크기를 통해 볼륨에 대한 최적의 IOP 및 지연 시간 값을 얻을 수 있습니다. 이 지침을 벗어나는 볼륨을 너무 많이 생성하면 해당 볼륨의 성능에 부정적인 영향을 미칠 수 있습니다.</block>
+  <block id="c9b73422281776827a4c8f78b386d48d" category="list-text">Keystone STaaS 가치 계층, Keystone STaaS StorageGRID 오브젝트 계층 또는 기존 SGWS 그리드(고객 소유) - 추가 비용이 없으며 표준 서비스의 일부입니다.</block>
+  <block id="bdb55621cf8fb40ec7b1841db7d1f702" category="paragraph">NetApp Keystone 서비스에 가입한 경우 Active IQ 디지털 자문(디지털 자문) 대시보드에서 사용 현황 보고서와 그래프를 볼 수 있습니다.</block>
+  <block id="a8db66bfea8d3f0ff898a3ca39507082" category="paragraph">Keystone용 Digital Advisor 대시보드 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="f1d08d608ab5c8900f388298993967cb" category="inline-link-rx"></block>.</block>
+  <block id="1df8c900e0f061f7bb2ff4a2177621de" category="paragraph">NetApp Keystone STaaS 서비스에 가입한 경우 Active IQ 디지털 자문(디지털 자문) 대시보드의 * Keystone 가입 * 위젯에서 사용량을 모니터링할 수 있습니다.</block>
+  <block id="9ff2a83b372e89b7fee5580c527d9e8e" category="paragraph">Digital Advisor 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="553d5c0a148912943ee201440d3b98c5" category="inline-link-rx"></block>.</block>
+  <block id="bea3a7144124c0e70f43a6748e2fb32b" category="paragraph">Keystone 및 BlueXP에 대한 자세한 내용은 BlueXP 문서의 다음 링크를 참조하십시오.</block>
+  <block id="db9c0d8e0c5e9a6fc69af04d34b56fee" category="sidebar">Keystone Collector 설치를 위한 사전 요구사항</block>
+  <block id="80d2bb01a7a85d4aa2c304e7cde98a6e" category="sidebar">ONTAP 및 StorageGRID에 대한 특정 필수 구성 요소입니다</block>
+  <block id="cdc9f551ac993c356214a8c16ca3cec2" category="sidebar">대금 청구를 위해 수집된 데이터</block>
+  <block id="a3297beb0c913ab1ce7de0647b5264d0" category="sidebar">Keystone 및 Active IQ 디지털 자문</block>
+  <block id="9a404de1def328e606c1a36e84d959a4" category="sidebar">Keystone을 위한 Active IQ 디지털 자문 보고서</block>
+  <block id="dab2edf9eaac3950e92c281ce358af01" category="sidebar">Active IQ Digital Advisor</block>
 </blocks>

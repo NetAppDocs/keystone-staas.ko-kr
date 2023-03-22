@@ -14,15 +14,36 @@ summary: Keystone 수집기의 구성
 
 
 [role="lead"]
-스토리지 환경에서 Keystone 수집기가 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료해야 합니다. 이 활동은 필수 수집기 구성 요소를 활성화하고 Active IQ Unified Manager(Unified Manager)에 연결하는 일회성 활동입니다.
+스토리지 환경에서 Keystone 수집기가 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료해야 합니다. 이 작업은 필요한 Collector 구성 요소를 활성화하고 스토리지 환경과 연결하는 일회성 작업입니다.
 
-Unified Manager에서 관리하는 모든 ONTAP 클러스터를 모니터링할 수 있습니다. 다음 단계를 수행하십시오.
+
+NOTE: Keystone 수집기는 구성 및 모니터링 작업을 수행하기 위한 Keystone Collector 관리 TUI(터미널 사용자 인터페이스) 유틸리티를 제공합니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.
 
 .단계
 . Keystone Collector 관리 TUI 유틸리티 열기:
 `$ keystone-collector-tui`
-. [구성] > [KS-Collector]로 이동하여 Keystone Collector 구성 화면을 열고 Unified Manager 서버 및 서비스 계정에 대한 세부 정보를 추가합니다. SLA를 위해 이 환경에서 성능 모니터링이 필요한 경우 ** ONTAP 성능 데이터 수집** 옵션을 활성화하고 Unified Manager 데이터베이스 사용자 계정 세부 정보를 제공합니다. 자세한 내용은 을 참조하십시오 link:../aiqum-req.html["Unified Manager 사용자 생성"].
-. ** KS-Collector 서비스 활성화** 필드를 전환합니다.
+. [구성] > [KS-Collector]로 이동하여 Keystone Collector 구성 화면을 열고 사용 가능한 업데이트 옵션을 확인합니다.
+. 필요한 옵션을 업데이트합니다.
++
+.ONTAP </strong>용 <strong>
+[%collapsible]
+====
+** * ONTAP 사용량 수집 *: 이 옵션을 사용하면 ONTAP에 대한 사용 데이터를 수집할 수 있습니다. Active IQ Unified Manager(Unified Manager) 서버 및 서비스 계정의 세부 정보를 추가합니다.
+** * ONTAP 성능 데이터 수집 *: 이 옵션을 사용하면 ONTAP에 대한 성능 데이터를 수집할 수 있습니다. 이 기능은 기본적으로 비활성화되어 있습니다. SLA를 위해 사용자 환경에서 성능 모니터링이 필요한 경우 이 옵션을 활성화하십시오. Unified Manager 데이터베이스 사용자 계정 세부 정보를 제공합니다. 데이터베이스 사용자를 만드는 방법에 대한 자세한 내용은 을 참조하십시오 link:../addl-req.html["Unified Manager 사용자 생성"].
+** * 개인 데이터 제거 *: 이 옵션은 고객의 특정 개인 데이터를 제거하며 기본적으로 활성화됩니다. 이 옵션이 활성화된 경우 메트릭에서 제외되는 데이터에 대한 자세한 내용은 을 참조하십시오 link:../installation/configuration.html#limit-collection-of-private-data["개인 데이터의 수집 제한"].
+
+
+====
++
+.StorageGRID </strong>용 <strong>
+[%collapsible]
+====
+** * Collect StorageGRID usage *: 이 옵션을 사용하면 노드 사용 세부 정보를 수집할 수 있습니다. StorageGRID 노드 주소 및 사용자 세부 정보를 추가합니다.
+** * 개인 데이터 제거 *: 이 옵션은 고객의 특정 개인 데이터를 제거하며 기본적으로 활성화됩니다. 이 옵션이 활성화된 경우 메트릭에서 제외되는 데이터에 대한 자세한 내용은 을 참조하십시오 link:../configuration.html#limit-collection-of-private-data["개인 데이터의 수집 제한"].
+
+
+====
+. ** 시작 KS-Collector with System** 필드를 토글합니다.
 . ** 저장**을 클릭합니다.image:tui-1.png[""]
 . TUI의 기본 화면으로 돌아가 ** 서비스 상태** 정보를 확인하여 Keystone 수집기가 정상 상태인지 확인합니다. 시스템은 서비스가 ** 전체적: 정상** 상태에 있음을 나타내야 합니다.image:tui-2.png[""]
 . 기본 화면에서 ** Shell으로 종료** 옵션을 선택하여 Keystone Collector 관리 TUI를 종료합니다.
@@ -47,113 +68,8 @@ Collector 소프트웨어는 HTTP 프록시를 사용하여 인터넷과 통신�
 
 Keystone 수집기는 구독 측정을 수행하는 데 필요한 제한된 구성, 상태 및 성능 정보를 수집합니다. 업로드한 콘텐츠에서 중요한 정보를 마스킹하여 수집된 정보를 추가로 제한할 수 있는 옵션이 있습니다. 이는 청구 계산에 영향을 미치지 않습니다. 그러나 볼륨 이름과 같은 사용자가 쉽게 식별할 수 있는 일부 요소가 UUID로 교체되므로 정보를 제한하면 보고 정보의 유용성에 영향을 줄 수 있습니다.
 
-데이터 제한 옵션인 ** 개인 데이터 제거** 는 TUI 구성 화면에서 구성할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
+Keystone Collector TUI 화면에서 특정 고객 데이터의 수집을 제한할 수 있습니다. 이 옵션 * 개인 데이터 제거 * 는 기본적으로 사용됩니다.
 
 image:tui-4.png[""]
 
-
-
-=== 사용량 수집을 위해 수집된 정보의 샘플 목록입니다
-
-다음 목록은 사용 컬렉션에 포함된 항목의 대표적인 예입니다.
-
-* 클러스터
-+
-** 클러스터 UUID입니다
-** 일련 번호
-** 위치(ONTAP 클러스터의 값 입력 기준)
-** 연락처
-
-
-* 노드
-+
-** 일련 번호
-** 노드 이름
-
-
-* 볼륨
-+
-** 애그리게이트 이름입니다
-** 볼륨 이름
-** VolumeInstanceUUID
-** IsCloneVolume 플래그
-** IsFlexGroupConstituent 플래그입니다
-** IsSpaceEnforcementLogical 플래그
-** IsSpaceReportingLogical 플래그
-** LogicalSpaceUsedByAfs
-** PercentSnapshotSpace를 참조하십시오
-** PerformanceTierInactiveUserData 를 참조하십시오
-** PerformanceTierInactiveUserDataPercent 를 참조하십시오
-** QosAdapivePolicyGroup 이름입니다
-** QosPolicyGroup 이름입니다
-** 크기
-** SizeUsedBySnapshots입니다
-** 유형
-** VolumeStyleExtended 를 참조하십시오
-** SVM 이름
-** IsVsRoot 플래그입니다
-
-
-* 스토리지그스
-+
-** 스토리지 유형
-** 애그리게이트 이름
-** 총 UUID
-
-
-* AggregateObjectStores를 참조하십시오
-+
-** ObjectStoreName입니다
-** ObjectStoreUUID입니다
-** providerType을 참조하십시오
-** 애그리게이트 이름
-
-
-* 스토리지런스
-+
-** LUN UUID입니다
-** 크기
-** 사용됨
-** IsReserved 플래그입니다
-** IsRequested 플래그입니다
-** LogicalUnit 이름입니다
-** QosPolicyUUID입니다
-** QosPolicyName입니다
-** UUID입니다
-** 볼륨 이름
-** vmUUID입니다
-** SVM 이름
-
-
-* Collector Observablility Metrics(수집기 불임 메트릭)
-+
-** 수집 시간
-** AIQUM API Endpoint가 쿼리되었습니다
-** 응답 시간입니다
-** 레코드 수입니다
-** AiqumInstance IP(AiqumInstance IP)
-** 수집기 인스턴스 ID입니다
-
-
-
-
-
-
-=== 개인 데이터 액세스를 제한할 때 제거된 항목의 목록입니다
-
-개인 데이터 제거 * 옵션이 활성화되면 다음 정보가 제거됩니다.
-
-* 클러스터 이름
-* 클러스터 위치
-* 클러스터 담당자
-* 노드 이름
-* 애그리게이트 이름입니다
-* 볼륨 이름
-* QosAdapivePolicyGroup 이름입니다
-* QosPolicyGroup 이름입니다
-* SVM 이름
-* 애그리게이트 이름
-* LogicalUnit 이름입니다
-* SVM 이름
-* AiqumInstance IP(AiqumInstance IP)
-
+ONTAP 및 StorageGRID에서 개인 데이터 액세스를 제한하는 데 제거된 항목에 대한 자세한 내용은 을 참조하십시오 link:../installation/data-collection.html["개인 데이터 액세스를 제한할 때 제거된 항목의 목록입니다"].

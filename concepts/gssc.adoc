@@ -14,7 +14,7 @@ summary: NetApp 글로벌 서비스 지원 센터 GSSC
 
 
 [role="lead"]
-NetApp Keystone 서비스는 GSSC(NetApp 글로벌 서비스 및 지원 센터), NetApp Keystone 성공 관리자 및 NetApp Keystone 서비스 제공 관리자를 활용하여 실행됩니다.
+NetApp 글로벌 서비스 및 지원 센터(GSSC) 및 NetApp Keystone 성공 관리자(KSM)는 Keystone 가입 서비스를 제공해야 합니다.
 
 
 
@@ -36,7 +36,7 @@ NetApp 글로벌 서비스 및 지원 센터(GSSC) 팀은 주로 NetApp Keystone
 
 NOTE: 파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비스 요청이 파트너의 서비스 데스크에 할당됩니다. 파트너의 지원 툴은 OpsRamp 및 GSSC 애플리케이션과 통합할 수 있습니다. L3 문제만 GSSC를 통해 NetApp으로 에스컬레이션됩니다.
 
-자세한 내용은 다음을 참조하십시오.
+Keystone 서비스에 대한 자세한 내용은 다음을 참조하십시오.
 
 * NetApp Keystonehttps://www.netapp.com/us/solutions/keystone/index.aspx["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
 * NetApp 제품 설명서https://docs.netapp.com["https://docs.netapp.com"^]
