@@ -830,8 +830,6 @@
   <block id="89fb8980c16c92d28af72e0579cfac9c" category="summary">Keystone 구독 보고서 및 그래프</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="doc">Keystone 구독 대시보드 및 리포팅</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="inline-link">NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다</block>
-  <block id="530e795f91eac0d251eb1546c915f390" category="paragraph">위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 가입 * 페이지에서 볼륨에 대한 사용 세부 정보 및 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 &gt; Keystone 가입 * 으로 이동합니다.</block>
-  <block id="2b5cc61793a2ba9e545466a73e93c16e" category="paragraph">구독 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보가 이 화면의 여러 탭에 표시됩니다.</block>
   <block id="016b01bead3857be9fd51bfef49b23aa" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드와 보고서에 최대 소수점 이하 두 자리까지 TiB에 표시됩니다. 사용률이 0.01TiB 미만이면 값이 0 또는 로 표시됩니다<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 기타 사용량 메트릭은 를 참조하십시오 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>.</block>
   <block id="b3c0ed0e576799a24c9e0fda06bee006" category="section-title">구독 세부 정보를 봅니다</block>
   <block id="b5d0d2658bdd7db17a2251c2d1fa6edb" category="paragraph">계정 이름에 대한 모든 구독은 * 가입 세부 정보 * 탭에서 확인할 수 있습니다.</block>
@@ -867,7 +865,6 @@
   <block id="d08b54ee187c7327910bae3997812ee1" category="list-text">* 경고 *: 규정 위반 등의 문제가 경고로 표시됩니다. 예를 들어, AQoS(적응형 QoS) 정책이 연결되지 않은 관리 클러스터 내에 볼륨이 있는 경우 경고 메시지가 표시됩니다. 경고 메시지의 링크를 클릭하면 * 시스템 세부 정보 * 탭에서 비준수 볼륨 목록을 볼 수 있습니다.</block>
   <block id="0fdfd6d11ae114ae172cdc0ad002c349" category="paragraph">AQoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="ec50deebd618280d321c610a1ff0d73b" category="inline-link-macro-rx"></block>.</block>
   <block id="2f79ebd4f32cabd1114c688445ebf53e" category="paragraph"><block ref="2f79ebd4f32cabd1114c688445ebf53e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7e3b81d04325da2b3bbb50d615754b46" category="paragraph">이러한 주의 및 경고 메시지에 대한 자세한 내용은 지원 부서에 문의하십시오. 자세한 내용은 을 참조하십시오 <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>.</block>
   <block id="f303aa2ecdcc69fbc97adcf5a2476825" category="paragraph">Digital Advisor를 사용하면 STaaS(Storage-as-a-Service) 세부 정보 및 소유한 NetApp 인프라에 대한 정보를 확인할 수 있습니다. Digital Advisor는 상세 보고서를 생성할 수 있는 기능과 함께 서브스크립션, 서비스 수준 및 용량 사용량을 한눈에 파악할 수 있는 단일 대시보드를 제공합니다.</block>
   <block id="7a00a46aa8b851e05a0a8783db55e3ab" category="paragraph">Keystone 대시보드 및 보고에 대한 자세한 내용은 을 참조하십시오 <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>.</block>
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">* 문제 설명 *: Keystone 수집기는 사용량 측정 시스템의 일부로 다수의 컨테이너를 실행합니다. Red Hat Enterprise Linux 8.x 서버가 ISA(USA Defense Information Systems Agency) STIG(Security Technical Implementation Guides) 정책으로 강화되면, flapolicyd(File Access Policy Daemon)와 관련된 알려진 문제가 간헐적으로 나타납니다. 이 문제는 로 식별됩니다 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>. * 해결 방법 *: Red Hat Enterprise가 해결될 때까지 NetApp은 이 문제를 해결해 드립니다<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 허용 모드로 전환합니다. 인치 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>에서 값을 설정합니다<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>.</block>
@@ -1115,8 +1112,6 @@
   <block id="c9b73422281776827a4c8f78b386d48d" category="list-text">Keystone STaaS 가치 계층, Keystone STaaS StorageGRID 오브젝트 계층 또는 기존 SGWS 그리드(고객 소유) - 추가 비용이 없으며 표준 서비스의 일부입니다.</block>
   <block id="bdb55621cf8fb40ec7b1841db7d1f702" category="paragraph">NetApp Keystone 서비스에 가입한 경우 Active IQ 디지털 자문(디지털 자문) 대시보드에서 사용 현황 보고서와 그래프를 볼 수 있습니다.</block>
   <block id="a8db66bfea8d3f0ff898a3ca39507082" category="paragraph">Keystone용 Digital Advisor 대시보드 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="f1d08d608ab5c8900f388298993967cb" category="inline-link-rx"></block>.</block>
-  <block id="1df8c900e0f061f7bb2ff4a2177621de" category="paragraph">NetApp Keystone STaaS 서비스에 가입한 경우 Active IQ 디지털 자문(디지털 자문) 대시보드의 * Keystone 가입 * 위젯에서 사용량을 모니터링할 수 있습니다.</block>
-  <block id="9ff2a83b372e89b7fee5580c527d9e8e" category="paragraph">Digital Advisor 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="553d5c0a148912943ee201440d3b98c5" category="inline-link-rx"></block>.</block>
   <block id="bea3a7144124c0e70f43a6748e2fb32b" category="paragraph">Keystone 및 BlueXP에 대한 자세한 내용은 BlueXP 문서의 다음 링크를 참조하십시오.</block>
   <block id="db9c0d8e0c5e9a6fc69af04d34b56fee" category="sidebar">Keystone Collector 설치를 위한 사전 요구사항</block>
   <block id="80d2bb01a7a85d4aa2c304e7cde98a6e" category="sidebar">ONTAP 및 StorageGRID에 대한 특정 필수 구성 요소입니다</block>
@@ -1159,4 +1154,11 @@
   <block id="d599237a38a37deabe01bd34298be802" category="list-text">링크를 클릭하여 각 노드의 노드 이름과 물리적 사용 정보를 확인합니다.</block>
   <block id="47e40976658c073c0e6048f08d9a27c6" category="paragraph"><block ref="47e40976658c073c0e6048f08d9a27c6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7a0a61d280e201148fcd091f8167d88f" category="list-text">* 정보 *: 가입 종료와 같은 문제의 경우 정보 경고를 볼 수 있습니다. 정보 아이콘 위에 커서를 올려 놓으면 문제에 대해 자세히 알아볼 수 있습니다.</block>
+  <block id="1aa4a8544fc94c7ce0ff8c9bc46bb523" category="paragraph">Active IQ 디지털 자문업체(디지털 자문업체) 대시보드는 NetApp Keystone 구독과 관련된 사용량을 모니터링하고 보고서를 생성하는 기능을 제공합니다. Keystone 서비스 가입 시 Digital Advisor 대시보드의 * Keystone 가입 * 위젯에서 구독 및 사용 세부 정보를 확인할 수 있습니다.</block>
+  <block id="936acd8bca51b1c47ce51ce5d9e45134" category="admonition">여기에서 제공되는 정보는 ONTAP 및 StorageGRID 모두에 적용됩니다. 관련 섹션에서 예외가 지적되었습니다.</block>
+  <block id="90022a4ed9f097be4671116b6b5b7754" category="paragraph">Keystone 디지털 자문 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="553d5c0a148912943ee201440d3b98c5" category="inline-link-rx"></block>.</block>
+  <block id="af23688fe47e4923ebd83f7238688630" category="paragraph">세부 정보를 보려면 다음 단계를 수행하십시오.</block>
+  <block id="e84dede1181b53e24bdf1d55508b83bf" category="list-text">Digital Advisor에서 위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 가입 * 페이지에서 볼륨에 대한 사용 세부 정보 및 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 &gt; Keystone 구독 * 으로 이동합니다.</block>
+  <block id="b49a48b1a3504debfe7fedab8ad4086d" category="paragraph">서브스크립션 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보는 * Keystone 가입 * 화면의 여러 탭에 표시됩니다.</block>
+  <block id="de87c00cded561268b46fe5428fdd938" category="paragraph">이러한 주의 및 경고 메시지에 대한 자세한 내용은 NetApp 지원 팀에 문의하십시오. 서비스 요청 발생에 대한 자세한 내용은 을 참조하십시오 <block ref="1bf858345505311d2a0e9fcf6e1f42da" category="inline-link-macro-rx"></block>.</block>
 </blocks>
