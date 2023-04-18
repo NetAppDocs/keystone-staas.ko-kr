@@ -37,6 +37,8 @@ sidebar:
       url: "/installation/configuration.html"
     - title: 시스템 상태를 모니터링합니다
       url: "/installation/monitor-health.html"
+    - title: Keystone Collector 업그레이드
+      url: "/installation/upgrade.html"
     - title: 대금 청구를 위해 수집된 데이터
       url: "/installation/data-collection.html"
   - title: Keystone에 대해 자세히 알아보십시오
@@ -89,8 +91,6 @@ sidebar:
       url: "/concepts/infra.html"
     - title: 구성 요소
       url: "/concepts/components.html"
-    - title: 모니터링 응용 프로그램으로서 OpsRamp
-      url: "/concepts/opsramp.html"
     - title: 데이터 흐름
       url: "/concepts/data-flow.html"
   - title: NetApp 글로벌 서비스 지원 센터

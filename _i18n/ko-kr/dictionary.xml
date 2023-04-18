@@ -27,31 +27,19 @@
   <block id="8c880fe54cae171fa97132f8c5e82297" category="section-title">냉각</block>
   <block id="e49c1cb86b679c35d94b37728ee6dfb6" category="paragraph">NetApp은 최종 구성 및 요구사항에 따라 냉각 요구사항 사양(일반 BTU, 최대 BTU)을 제공할 수 있습니다.</block>
   <block id="4d2caccc34711835f6ff99da411ac04e" category="section-title">스토리지 가상 머신</block>
-  <block id="02e1aa31c2191eece350edd271260aa9" category="paragraph">Keystone 가입 모니터링 및 측정을 지원하려면 스토리지 가상 시스템(스토리지 VM)을 다음과 같이 구축해야 합니다. Keystone 수집기에 하나의 스토리지 VM이 필요하며, OpsRamp 게이트웨이에는 다른 스토리지 VM이 필요합니다</block>
-  <block id="ea499517d120e59b698edd3b0e9b03ea" category="list-text">Keystone Collector - 사용 메트릭 수집에 사용됨:</block>
-  <block id="8bdf4f114c9098ba3fdea93bebf82839" category="list-text">vCPU: 4</block>
-  <block id="21c3987c5465a9d1dac24e575c718364" category="list-text">VRAM: 16GB</block>
-  <block id="7c0886fffc74a7b64e90744419e68707" category="list-text">vDisk: 200GB입니다</block>
-  <block id="40d3a2dbc93408ab5e3aafd7fc3b4a19" category="list-text">OpsRamp Gateway – Keystone GSSC의 실시간 모니터 + 원격 지원 ONTAP에 사용:</block>
-  <block id="2f11c8227592a45cc8abe03cd297016d" category="list-text">vCPU: 8</block>
-  <block id="f910487762637173c68eb89d21dcb743" category="list-text">vDisk: 100GB</block>
   <block id="b81687f75b28f9a0cfb73649c9cca458" category="section-title">구축 옵션</block>
   <block id="246dfda784335eef257ddd5ba4322a18" category="paragraph">Keystone 수집기는 다음 방법을 통해 구축할 수 있습니다.</block>
   <block id="a100eabbc0de64e817f5268550f98e40" category="list-text">VMware OVA 템플릿(VMware vCenter Server 6.7 이상이 필요함)</block>
-  <block id="e306861432fdc26395776b050a8d4eff" category="list-text">고객은 Red Hat Enterprise Linux 7 또는 8 또는 CentOS 7 Linux 서버를 제공하며 Keystone 소프트웨어는 '.rpm' 설치 프로세스를 통해 설치됩니다.</block>
-  <block id="3323e8fb7096cf3b5b43db57ba6576ee" category="paragraph">OpsRamp 게이트웨이는 다음 구성에 구축됩니다.</block>
   <block id="982460f46a9c865b5659aba58b2214e3" category="list-text">에 대한 부팅 가능한 .iso 설치 프로그램</block>
   <block id="12d3f37fc10bb62fe3297b7457e90417" category="list-text">Citrix XenServer를 참조하십시오</block>
   <block id="bbc2d665b02dc421c5c756db4b973610" category="list-text">Microsoft Hyper-V를 참조하십시오</block>
   <block id="e05386baa04fdb8086234b221371bac1" category="list-text">커널 기반 가상 머신(Linux KVM)</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">네트워킹</block>
-  <block id="c711d976f76bfa70e95af42b8654fb93" category="paragraph">Keystone Collector 및 OpsRamp Gateway의 운영 및 유지 관리를 위해 다음 서비스에 아웃바운드 액세스가 필요합니다.</block>
   <block id="6a289655b3295fc9e844e417d89ad1d9" category="list-text">support.netapp.com (사용량 데이터 업로드)</block>
   <block id="28e1a3383bffc4e3398dba57600db789" category="list-text">keystone.netapp.com (소프트웨어 업데이트)</block>
   <block id="ebe9aca07858175421a1a9356e13ef73" category="list-text">HUB.Docker.IO(소프트웨어 업데이트)</block>
   <block id="bc9ce1a2001f13d5a3489030a7b630e9" category="paragraph">NetApp은 NetApp에서 제공하는 인프라 장치에만 필요한 트랜시버를 제공합니다. 고객 장치에 필요한 트랜시버와 NetApp에서 제공하는 Keystone 인프라 장치에 케이블을 연결해야 합니다.</block>
   <block id="d701dcea67fd884a29f39c9adfdeb8bf" category="section-title">원격 액세스 요구 사항</block>
-  <block id="e087b210b0b25de538565418ba75ff89" category="paragraph">NetApp은 Keystone 고객에게 모니터링 및 청구 같은 서비스를 제공하기 위해 모니터링 및 관리를 위해 설치된 하드웨어 및 소프트웨어 구성요소에 액세스해야 합니다. 가장 일반적인 방법은 고객 네트워크에 대한 VPN(가상 사설망) 연결을 설정하고 필요한 데이터에 액세스하는 것입니다. 고객이 방화벽 포트를 열고 새로운 서비스로 인해 발생하는 운영상의 복잡성을 극복하기 위해 모니터링 도구는 외부 연결을 시작합니다. OpsRamp 및 Zuora와 같은 NetApp 클라우드 애플리케이션은 이 연결을 사용하여 해당 서비스를 수행합니다. 이 방법은 이 서비스의 일부인 모니터링 구성 요소에 대한 액세스를 제공하면서 방화벽 포트를 열지 않는 고객의 요구 사항을 충족합니다.</block>
   <block id="b33c741c562e791f067740096844ffe9" category="summary">Keystone에 오신 것을 환영합니다</block>
   <block id="8ae3d79d3f1b6cb3022dbfb96c477b67" category="doc">NetApp Keystone에 대해 자세히 알아보십시오</block>
   <block id="341d84aa26cb4521474864e04ea2a63b" category="inline-image-macro">오류: 그래픽 이미지가 없습니다</block>
@@ -190,13 +178,11 @@
   <block id="c9f8c46c19cc33ee0a4a750a7062ea9e" category="list-text">서비스 요구사항에 맞게 제품의 용량을 늘리거나 줄입니다.</block>
   <block id="c922e260c91e9dfb9972aed0ec4df400" category="list-text">서비스 요구사항에 맞게 아키텍처, 기술 및/또는 제품을 수정합니다.</block>
   <block id="63960c1414ae7aedf0bb17dff5c6759d" category="paragraph">Keystone 인프라에는 다음과 같은 여러 구성요소 등이 있습니다.</block>
-  <block id="50b3ca2bf45db45c46e3f489f5322d29" category="list-text">OpsRamp, Active IQ 및 Active IQ Unified Manager와 같은 서비스를 관리하고 운영하는 도구.</block>
   <block id="f9267c96d3041f6412751f589901c372" category="section-title">스토리지 플랫폼</block>
   <block id="414aed93a577927f0e7911bc9b07e11e" category="paragraph">엔터프라이즈 애플리케이션은 빠른 프로비저닝 워크플로우 지원, 지속적인 가용성 유지, 짧은 지연 시간으로 높은 워크로드 유지, 우수한 성능 제공, 주요 클라우드 공급자와의 통합 지원을 위한 스토리지 플랫폼이 필요합니다. NetApp은 이러한 요구사항을 지원하기 위한 여러 제품과 기술을 보유하고 있습니다. Keystone 서비스의 경우 NetApp은 AFF 및 StorageGRID 플랫폼을 사용합니다.</block>
   <block id="2e36da56dea864a88d8bfe77e37ce8ce" category="section-title">모니터링 도구</block>
   <block id="6961b64b96800d43e0da115e9763a226" category="paragraph">Keystone 고객 운영 서비스에서는 스토리지 인프라 및 모니터링 툴이 사이트에 설치됩니다. 스토리지 인프라는 초기 주문을 지원하는 데 필요한 스토리지 하드웨어와 나중에 더 많은 스토리지를 주문할 수 있는 용량 할당으로 구성됩니다.</block>
   <block id="ae031eb46bb3af9ef59c200e318f13e4" category="paragraph">스토리지 장비 외에도 스토리지 및 소비 모니터링을 위해 2개의 모니터링 툴이 프로비저닝됩니다.</block>
-  <block id="fd743d6b8cc0efa021c01a2c37789e28" category="list-text">OpsRamp 로컬 게이트웨이: OpsRamp는 네트워크를 모니터링하는 데 사용되는 클라우드 기반 애플리케이션입니다. NetApp 스토리지 플랫폼과의 내장 통합을 통해 환경 데이터를 수집하고 네트워크를 모니터링할 수 있습니다. 이 서비스는 클라우드 포털과 통신하는 사이트에 설치된 로컬 게이트웨이를 사용하는 데 도움을 줍니다. 을 참조하십시오</block>
   <block id="4a08d1835c4f40051f2bf2514b677434" category="paragraph"><block ref="4a08d1835c4f40051f2bf2514b677434" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8ef6698c4c0c28e13ff87fec7e5388eb" category="summary">고급 데이터 보호</block>
   <block id="c575a20db4934726a8fadd53d81a0c98" category="inline-link-macro">Keystone의 서비스 수준</block>
@@ -258,18 +244,6 @@
   <block id="382b0f5185773fa0f67a8ed8056c7759" category="cell">해당 없음</block>
   <block id="6872c2b6282a1ff41523f7b84a51d4da" category="section-title">클라우드 스토리지</block>
   <block id="a6b775035306fc8ea9ed0392f6da3bfa" category="cell">재해 복구, 소프트웨어 개발/테스트, 비즈니스 애플리케이션</block>
-  <block id="34de092c612c654c5fd27c6d9ff3bfeb" category="summary">모니터링 응용 프로그램으로서 OpsRamp</block>
-  <block id="b81ff76d52b237aa245e39913f840b9d" category="paragraph">이 도구는 일반적으로 IT 환경에서 사용되는 응용 프로그램, 서버, 네트워킹 장치, 컨테이너 및 기타 리소스와 같은 자산을 검색할 수 있는 풍부하고 강력한 기능을 갖추고 있습니다. 이 원격 관리 서비스는 여러 위치에 쉽게 구축하고 데이터를 빠르게 수집하며 중앙 집중식 대시보드에서 쉽게 볼 수 있습니다. OpsRamp 프로그램에 대한 자세한 내용을 보려면 을 방문하십시오<block ref="4490de11b8adc62f0a394db07a9aef6e" category="inline-link-rx"></block>.</block>
-  <block id="6c00330d2a26248fda642bc7d5579f3d" category="paragraph"><block ref="6c00330d2a26248fda642bc7d5579f3d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ebaea1050d4e42fa1326b2f740b72922" category="paragraph">OpsRamp 아키텍처에는 이 이미지와 같이 중앙 집중식 SaaS 애플리케이션의 두 가지 고유한 구성 요소가 있습니다. 모니터링 사이트에는 자산에서 데이터를 수집하는 OpsRamp 로컬 게이트웨이 또는 모니터링할 리소스의 OpsRamp 에이전트 또는 로컬 게이트웨이와 에이전트의 조합이 있을 수 있습니다.</block>
-  <block id="7edf5493dbd819b6a6022e6339f194cf" category="paragraph">OpsRamp 클라우드 포털은 고객 위치에 설치된 에이전트 또는 로컬 게이트웨이로부터 메타 데이터를 수집하고 처리하여 관찰과 함께 대시보드에 표시하는 SaaS 기반 애플리케이션입니다. Keystone 모니터링 팀은 정기적으로 이 대시보드를 모니터링하여 통찰력을 제공합니다.</block>
-  <block id="e3bd1d9c0841cd12eb394cd52e1a4088" category="paragraph">OpsRamp 중앙 집중식 툴 및 OpsRamp 로컬 게이트웨이는 함께 작동하여 자산을 모니터링하고 관리합니다. 중앙 집중식 도구는 명령을 실행하고 로컬 게이트웨이가 명령을 실행하여 데이터를 수집하여 중앙 집중식 포털로 다시 전송합니다.</block>
-  <block id="0f63e54ffaa738810d523b9c01ab58ef" category="paragraph">고객 사이트에 설치된 OpsRamp 로컬 게이트웨이는 다음과 같은 몇 가지 이점을 제공합니다.</block>
-  <block id="479380705f5d366e922b5a0bd903e4fd" category="list-text">모든 자산에 OpsRamp 에이전트를 설치할 필요가 없습니다.</block>
-  <block id="c4c52b5ed565bb0d9e83873baf1f9507" category="list-text">자산은 로컬 게이트웨이만 가리킬 수 있으며, 로컬 게이트웨이만 가리키며 중앙 집중식 포털로 알림을 집계 및 전송할 수 있습니다.</block>
-  <block id="cb4542f091147cb7d66b55d0dde25cf2" category="list-text">고객은 다른 장치에 구축된 OpsRamp 에이전트 트래픽을 허용하지 않고 로컬 게이트웨이에서 들어오고 나가는 트래픽을 제한하고 모니터링할 수 있습니다.</block>
-  <block id="a7b66a2d4e4ff13875009f305dd65473" category="section-title">OpsRamp 보안</block>
-  <block id="9489d34587f04c7f6c07ccbb6980e343" category="paragraph">OpsRamp는 SOC 2 Type II와 같은 표준을 준수하며 보안, 가용성 및 기밀성에 대한 ISO 27001 및 SOC 1 Type I 표준을 준수하는 Tier 1 데이터 센터 제공업체에서 호스팅됩니다.</block>
   <block id="f52cc80996d4c5f54309a0095c010fa7" category="summary">Keystone의 청구 일정</block>
   <block id="dfd0252d57910ac70c5c31013436bba6" category="doc">청구 일정</block>
   <block id="7f5043ec0394d759e4ce437fc8c9cd52" category="section-title">월간 청구</block>
@@ -352,14 +326,8 @@
   <block id="0476a04360a8efd6e70433fd2939cef7" category="section-title">Keystone Collector 데이터 흐름</block>
   <block id="7084d98d1c25d2e28eda5dd92c5dd52b" category="paragraph"><block ref="7084d98d1c25d2e28eda5dd92c5dd52b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b27e12d584b3438e811533b32e026e8" category="list-title">범례</block>
-  <block id="478005d1fa6a104e77b4c5d4465024ad" category="list-text">Active IQ 클라우드 포털은 연결을 수락하고 NetApp Collector에 대한 터널을 설정합니다.</block>
-  <block id="f287fa36e151b864ec592cb7dde90241" category="list-text">NetApp Collector는 스토리지 컨트롤러의 관리 연결에 REST API 세션을 설정하고 환경 데이터를 가져온 다음 Active IQ 포털로 보냅니다.</block>
   <block id="4cf8f8268c14ee43943d5216b5df21a8" category="section-title">데이터 흐름 모니터링</block>
   <block id="325857741b37b2bb27cc84f38d841478" category="paragraph"><block ref="325857741b37b2bb27cc84f38d841478" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="32f2b8075d98a5c6dd0b7181201d5f6f" category="list-text">OpsRamp 게이트웨이는 클라우드의 OpsRamp 클라우드 포털로 TLS 세션을 시작합니다.</block>
-  <block id="061a5118e14c355a024e0623887781e4" category="list-text">클라우드의 OpsRamp 서버가 연결을 수락합니다.</block>
-  <block id="7eeacfd620ed4cc0dd3247fe4b415256" category="list-text">NetApp 컨트롤러는 SNMP 프로토콜을 사용하여 경고를 보내거나 OpsRamp 로컬 게이트웨이로 API 요청에 응답합니다.</block>
-  <block id="e7cd3e2d72716bd82dcc540f399a494a" category="list-text">OpsRamp 로컬 게이트웨이는 이전에 설정된 TLS 세션을 사용하여 이러한 경고를 클라우드 포털로 전송합니다.</block>
   <block id="7621fcf3337893076016c8382d82f20e" category="summary">애드온, 추가 서비스 세부 정보, 데이터 계층화</block>
   <block id="20ce0ec8b53728092deec662a7406cb1" category="summary">반품 불가, 비휘발성 구성 요소 및 SnapLock 준수</block>
   <block id="240f8cd7a5a26e96dd18576d36e316a8" category="paragraph">NetApp Keystone 서브스크립션의 일부로 NetApp은 파일, 블록 및 오브젝트 서비스에 대한 반품 불가 비휘발성 구성 요소(NRNVC) 오퍼링을 확장합니다.</block>
@@ -375,7 +343,6 @@
   <block id="0a01a33e5f29d399207cdf2d0bedd8e4" category="section-title">추가 정보 및 지원 연락처</block>
   <block id="41ac6df99b19964ddc5db21ba036a552" category="paragraph">NetApp 글로벌 서비스 및 지원 센터(GSSC) 팀은 주로 NetApp Keystone 고객에 대한 서비스를 지원합니다. 다음 정보를 사용하여 지원 팀에 연락할 수 있습니다.</block>
   <block id="74ded5eeafd192c5308818ba594b43cc" category="list-text">글로벌 서비스 연락처:<block ref="85c2386291061c6540196c84b0b38a60" category="inline-link-rx"></block></block>
-  <block id="d07ce0fbeead06848c212d3cd2b328b8" category="admonition">파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비스 요청이 파트너의 서비스 데스크에 할당됩니다. 파트너의 지원 툴은 OpsRamp 및 GSSC 애플리케이션과 통합할 수 있습니다. L3 문제만 GSSC를 통해 NetApp으로 에스컬레이션됩니다.</block>
   <block id="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link"><block ref="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link-rx"></block></block>
   <block id="1c6d9d150de7c9865ab3839ec9e99e4b" category="list-text">NetApp Keystone<block ref="4b675bc45aec5ce1523a19f69a2ff928" category="inline-link-rx"></block></block>
   <block id="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link"><block ref="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link-rx"></block></block>
@@ -384,7 +351,6 @@
   <block id="b89d8ed8d5adb2dd42ea11be1617f29c" category="paragraph">데이터 플로우에 대한 자세한 내용은 을 참조하십시오 <block ref="f2276c2e5545294a1a6121724c0f31c5" category="inline-link-macro-rx"></block>.</block>
   <block id="fc860be5f135f0d58f6a4cc1a552d57f" category="inline-link">Keystone 구독</block>
   <block id="ae45517d4d9ba30bece696a3b49d1b3f" category="inline-link">Keystone 구독 관리</block>
-  <block id="885a7272db12515ccb176ecc5739bfc0" category="summary">NetApp Keystone 설명서</block>
   <block id="eafe2da4c3641f4864397b0d97fff137" category="doc">Keystone 설명서</block>
   <block id="e5471403f1b2eefb0fe47b6193a72bbc" category="sidebar">Keystone 문서</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
@@ -418,13 +384,6 @@
   <block id="6dd7fd4aac069a06bec3ae24a6b1b39b" category="paragraph">Keystone에서 지원되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>.</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">다음 섹션을 읽고 이 애드온 서비스에 구속되고 NetApp Keystone 계약 약관에 따라 제공되는 구독 요소를 이해합니다.각주:청구1 [여기에 설명된 서비스 및 오퍼링은 완전히 실행된 Keystone 계약의 적용을 받으며 이 계약에 의해 제한 및 관리됩니다.]</block>
   <block id="0d3d10747b66177a1b3af60bfd44a1fb" category="list-text">스토리지 컨트롤러를 포함하는 Keystone 인프라</block>
-  <block id="89cef79468c8f24b5592618910250749" category="paragraph">OpsRamp는 Keystone이 자산을 검색, 모니터링 및 지속적으로 관리하는 데 사용하는 SaaS 기반 애플리케이션입니다. OpsRamp를 사용하면 NetApp 모니터링 팀이 Keystone을 구축하는 고객에게 원격 모니터링 및 관리 서비스를 원격으로 제공할 수 있습니다.</block>
-  <block id="5d57eb43585ab01713e66412df10a352" category="paragraph">또한 OpsRamp는 Keystone에 다음과 같은 보안 기능을 제공합니다.</block>
-  <block id="e1466eb3e782c18a45e9d3b56d234cf9" category="list-text">OpsRamp는 사용자 활동 로그를 유지 관리하며 Keystone은 사용자 활동에 대한 임시 또는 예약된 보고서를 생성할 수 있습니다.</block>
-  <block id="99f231b87a910643a9f502f189ab4b2e" category="list-text">OpsRamp 게이트웨이에서 OpsRamp 클라우드 포털로의 모든 통신은 TLS 암호화됩니다.</block>
-  <block id="4a63430b87c3d541d5081a16fb763229" category="list-text">TLS를 사용하여 유휴 데이터 및 전송 중인 데이터를 암호화합니다.</block>
-  <block id="445063650bd188bc1560a387c9e2fda6" category="list-text">OpsRamp는 Keystone에 대한 2단계 인증 옵션을 제공합니다.</block>
-  <block id="08bef988fb33844f1581780bcae3e160" category="list-text">OpsRamp는 역할 기반 액세스 제어를 구현하여 Keystone에서 여러 역할을 생성하고 적절한 권한을 사용자에게 할당할 수 있도록 합니다.</block>
   <block id="dfafb0db4cb7ff50434d65c4ee640f1a" category="paragraph">고객이 Keystone 인프라에 배치한 데이터입니다. 모든 Keystone 용량은 논리적 용량을 기준으로 합니다. 예를 들어, 1TiB 파일이 Keystone 인프라에 저장된 경우 최소 1TiB 용량을 구매해야 합니다.</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">서브스크립션 기간 동안 매월 청구되는 최소 논리적 용량:</block>
   <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">사용된 용량은 서비스에서 현재 사용되고 있는 용량(TiB 스토리지)을 나타냅니다. Keystone 서비스는 특정 서비스 수준에서 모든 볼륨의 논리적 사용된 크기(사용된 물리적 용량이 아님)의 합계를 계산하여 해당 서비스 수준에 대한 사용된 용량을 계산합니다.</block>
@@ -463,18 +422,14 @@
   <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">재할당 요청은 고객 또는 파트너가 다음 청구 주기 최소 1주 전에 Keystone 성공 매니저(KSM)에 공식적으로 제출해야 합니다.</block>
   <block id="c34a82bbff22f4441417f697ffc59087" category="paragraph">NetApp은 NetApp Keystone 고객에게 운영 서비스를 원격으로 제공합니다. 이러한 서비스는 스토리지 관리 활동 전반에 걸쳐 다양한 운영 분야를 아우릅니다. 이러한 서비스에는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트, 인시던트 및 문제 관리, 서비스 요청 이행, 보고 등이 포함됩니다. NetApp에서는 필요에 따라 제어 상태와 지원 증거를 보여줍니다.</block>
   <block id="11cc259f3fbff7a9b169739c7cd9d613" category="list-text">에스컬레이션해야 하는 미해결 케이스/티켓이 있는 경우 다음 주소 중 하나로 이메일을 보내십시오. keystone.services@netapp.com keystone.escalations@netapp.com</block>
-  <block id="d1add80e839b6da3fad5b5d1d018df10" category="list-text">NetApp은 문제 해결을 위해 클라우드 기반 원격 게이트웨이 솔루션인 OpsRamp를 사용하여 NetApp Keystone 환경을 능동적으로 모니터링하고 연결합니다. OpsRamp에 대한 자세한 내용은 를 참조하십시오<block ref="ddbfe3d63449639712fee69542f32fdc" category="inline-link-rx"></block>.</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">이 서비스는 파일, 블록 및 오브젝트 서비스에만 적용됩니다.</block>
   <block id="b6a3337f47df4fd3f63ff2c1a9f8ec5b" category="paragraph">SnapLock 기술은 볼륨에 설정된 만료 날짜 이후에 드라이브를 사용할 수 없도록 하여 NRNVC 기능을 활성화합니다. 볼륨에 SnapLock 기술을 사용하려면 NRNVC를 구독해야 합니다. 이는 파일 및 블록 서비스에만 적용됩니다.</block>
   <block id="efdd84de779f9c449b249d2bf90a01c0" category="paragraph">SnapLock 기술에 대한 자세한 내용은 을 참조하십시오<block ref="7bc47f340e579853a1daae86dfb72c77" category="inline-link-rx"></block>.</block>
   <block id="789c0cf84faa868401f2d0fbccadc981" category="paragraph">추가 비용은 서브스크립션의 모든 용량(소스, 미러링된 복사본 및 미러링되지 않은 데이터)에 적용됩니다.</block>
   <block id="707341c09d7ffe7d139516dd4be5dcc7" category="inline-image-macro">Keystone에서 지원하는 MetroCluster 구성</block>
   <block id="5aca18c7a53d30f1878ae1f0a8d3c847" category="paragraph"><block ref="5aca18c7a53d30f1878ae1f0a8d3c847" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="04db7938f4aae80febe728615cf9c8db" category="paragraph">Keystone Collector는 스토리지 컨트롤러에 대한 REST API 호출을 시작하고 컨트롤러의 사용 세부 정보를 정기적으로 가져옵니다.</block>
   <block id="ce200ab0b7646380f2bbefd2970ed633" category="list-text">NetApp Collector는 Active-IQ 클라우드 포털에 대한 HTTPS 세션을 시작합니다.</block>
   <block id="f3cab949200d7bfe230983c92bd7983f" category="list-text">고객이 운영하는 방화벽은 연결을 허용합니다.</block>
-  <block id="a2f06455c2f260b0476431c3e2f57923" category="paragraph">스토리지 인프라의 상태를 지속적으로 모니터링하는 것은 Keystone 서비스의 가장 중요한 기능 중 하나입니다. 모니터링을 위해 Keystone은 고객 네트워크에 대한 원격 액세스가 필요한 OpsRamp를 사용합니다. 다음 이미지는 OpsRamp 도구를 통해 고객 위치에 대한 원격 액세스를 보호하는 방법을 설명합니다.</block>
-  <block id="ec48f6d1568a522d91aa99ed84175f9c" category="list-text">OpsRamp 클라우드 포털과 OpsRamp 로컬 게이트웨이 사이에 TLS 터널이 설정됩니다.</block>
   <block id="e3cdbc99a0d31e7434525d73238dcc2c" category="paragraph">송장은 약정 용량의 최소 지불을 위해 각 가입 연도가 시작될 때 생성됩니다. 서브스크립션 시작 날짜에 생성됩니다. 다른 송장은 해당 분기에 발생한 버스트 사용량에 대한 적용 가능한 요금을 합산하여 가입 분기 말에 발송됩니다. 약정 중에 약정 용량이 변경된 경우, 해당 구독 연도의 나머지 기간에 대해 비례 배분된 최소 지급에 대한 송장이 당일에 발송됩니다. 약정 용량의 변경이 유효한 날짜를 기준으로 계산됩니다.</block>
   <block id="d3d3ac1aa803d52f00804394fdd5bc1d" category="list-text">다양한 워크로드 요구사항을 충족하기 위해 IOPS 및 지연 시간 성능을 기준으로 결제 가능 Extreme, Premium, Performance, Standard, Value, 및 Object 를 사용하여 구입한 서비스 수준에 따라 스토리지를 관리할 수 있습니다.</block>
   <block id="5e803820900b74b1d5d53cef450d8ad7" category="list-text">서비스 및 결제에 대한 유연한 기간을 선택하십시오. 사이트당 12개월, 25TiB 이상을 선택할 수 있습니다. 그 이후에는 12개월 동안 자동 갱신이 가능합니다.</block>
@@ -484,7 +439,6 @@
   <block id="580577f00c6e952d8dad642fa30380db" category="summary">Keystone 및 디지털 자문</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisor 설명서</block>
   <block id="d98e1323795a96bdb4ab923442544f4f" category="summary">Keystone과 BlueXP</block>
-  <block id="3736dc740e568bfea8adb597902add6e" category="paragraph">Keystone 가입 시 클라우드 서비스를 구입하면 BlueXP를 통해 해당 서비스에 액세스하고 관리할 수 있습니다.</block>
   <block id="ec5a85d1400f8bf17dec61b11740d60c" category="paragraph">Keystone 고객의 경우 Cloud Volumes ONTAP에 가입하면 Keystone 서비스를 통해 Cloud Volumes ONTAP 사용량을 충전하고 BlueXP를 통해 청구 및 소비 정보를 확인할 수 있습니다.</block>
   <block id="f208065131ee7ec38a881083b91c06e2" category="cell">FC 및 iSCSI</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="sidebar">BlueXP</block>
@@ -585,7 +539,6 @@
   <block id="141b2b4361a2b3c206d10e1c27378c2e" category="section-title">클라우드 스토리지용 서비스</block>
   <block id="d96e0cf44b3111cb9ae984add2b97c74" category="paragraph">Keystone STaaS는 클라우드 스토리지 서비스를 제공합니다. Keystone STaaS는 AWS(Amazon Web Services), Microsoft Azure 및 Google 클라우드 플랫폼에서 Cloud Volumes ONTAP 데이터 관리 기능을 지원합니다.</block>
   <block id="2a947eac17f71a99037966f44ce8252d" category="admonition">NetApp은 Cloud Volumes ONTAP에 필요한 하이퍼스케일 기반 컴퓨팅, 스토리지 및 네트워크 서비스를 Keystone STaaS 가입의 일부로 제공하지 않습니다. 이러한 가입은 하이퍼스케일 클라우드 서비스 공급자로부터 직접 조달해야 합니다.</block>
-  <block id="3c39698e203a007bdc130ebf68723826" category="paragraph">Keystone STaaS 시스템은 Keystone Collector 트래픽을 통해 데이터 흐름을 마주하고 데이터 흐름을 모니터링합니다.</block>
   <block id="a0c7c7077f5d8959ac636195329edca4" category="summary">Keystone Collector를 통해 시스템 상태 모니터링</block>
   <block id="3b02682cee7334412169a53934571445" category="doc">시스템 상태를 모니터링합니다</block>
   <block id="31a7b7e95b2779c762661c1e75f2a6e9" category="paragraph">HTTP 요청을 지원하는 모니터링 시스템을 사용하여 Keystone Collector 서비스를 통해 시스템 상태를 모니터링할 수 있습니다.</block>
@@ -606,7 +559,6 @@
   <block id="605bfbf78c12bdf4b9a6daaba7623219" category="section-title">지원 번들을 생성하고 수집합니다</block>
   <block id="d4bdb971d4927e036a3519461abe909f" category="paragraph">Keystone Collector TUI를 사용하면 지원 번들을 생성한 다음 지원 문제 해결을 위한 서비스 요청에 추가할 수 있습니다. 다음 절차를 따르십시오.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
-  <block id="89c3fbc86e0ef018aeeb33b0c6503ca0" category="list-text">Keystone Collector 관리 TUI 유틸리티 열기:<block ref="7ef986487970dbcf0ed301b58d2828c9" prefix=" " category="inline-code"></block></block>
   <block id="e385fa90b60165281bae11b6e25bff3d" category="list-text">문제 해결 &gt; 지원 번들 생성 * 으로 이동합니다.<block ref="dc6483f3f6b233df000a8215567c9e17" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7521a40f5abb349afff3a7d5461c3d42" category="list-text">생성된 경우, Bundle이 저장된 위치가 표시됩니다. FTP, SFTP 또는 SCP를 사용하여 위치에 연결하고 로그 파일을 로컬 시스템에 다운로드합니다.<block ref="0fc318456f84a64b43e2d29821df0fc8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b34b056c73270f2209f1e8eeb513e7cc" category="summary">Keystone 수집기의 구성</block>
@@ -617,7 +569,6 @@
   <block id="3d3aea279fd0dfc2c6c0a6f4af62eaf7" category="list-text">기본 화면에서 ** Shell으로 종료** 옵션을 선택하여 Keystone Collector 관리 TUI를 종료합니다.</block>
   <block id="08762317d694c743ae82817d9e878a50" category="section-title">Keystone 수집기에서 HTTP 프록시를 구성합니다</block>
   <block id="873671849cdb27df29bd825ffd9dbc0e" category="paragraph">Collector 소프트웨어는 HTTP 프록시를 사용하여 인터넷과 통신할 수 있도록 지원합니다. TUI에서 구성할 수 있습니다.</block>
-  <block id="165ab03177c0cb7e86d181792acc3148" category="list-text">이미 닫힌 경우 Keystone Collector 관리 TUI 유틸리티 열기:<block ref="7ef986487970dbcf0ed301b58d2828c9" prefix=" " category="inline-code"></block></block>
   <block id="7b7ae59492f5cdb1d6fbc156639ee5ac" category="list-text">인증이 필요한 경우** HTTP 프록시** 필드를 토글하고 HTTP 프록시 서버, 포트 및 자격 증명의 세부 정보를 추가합니다.</block>
   <block id="5d6eeca323f191b847ccaa89868f1712" category="list-text">** 저장**을 클릭합니다.<block ref="063c967c4bf177e696bdec9de5a25cb2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d66ad38cacfcba154b86b0c6d12a28a9" category="section-title">개인 데이터의 수집 제한</block>
@@ -872,7 +823,6 @@
   <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
   <block id="e41d7b27749843cacc5b63d577d05563" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>.</block>
   <block id="580c330994127defe5cd5153bad3a4ba" category="paragraph">스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS가 없으면 여러 시스템 부팅 같은 특정 워크로드에서 전체 리소스를 일정 기간 동안 소모하여 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>.</block>
-  <block id="179e62f7e40ac7f5694e829467ad076f" category="paragraph">QoS를 적용하면 애플리케이션이 항상 일관된 성능을 얻을 수 있습니다. NetApp ONTAP는 QoS에 대한 두 가지 매개 변수, 즉 천장-<block ref="f481633ea70c9b3dfd9b26e1e0045eee" category="inline-link-rx"></block>및 처리량 플로어 -<block ref="406d3c0c34cedc53d1b49a1bfac79dea" category="inline-link-rx"></block>. QoS Max는 워크로드가 달성할 수 있는 최대 IOPS 또는 MBps 또는 IOPS 및 MBps 수를 나타냅니다. 반면에 QoS Min은 워크로드의 처리량이 특정 IOPS 또는 MBps, 즉 IOPS 및 MBps 이하로 보장되지 않습니다.</block>
   <block id="e88f55d6b9c231a5c6bcae698bdfd7dc" category="list-text">* vserver *: SVM 또는 스토리지 VM(스토리지 가상 머신)의 이름입니다.</block>
   <block id="308ede543987c09a3ef34aff33fbd87f" category="list-text">* 예상 IOPS *: 성능 보장이 있는 경우, ONTAP에서 최소 제공하는 IOPS/TiB 수입니다.</block>
   <block id="095c182a20e3d5d17cb203ffded54217" category="list-text">* 피크 IOPS *: 성능이 제한되기 전에 볼륨에서 사용할 수 있는 최대 IOPS/TiB</block>
@@ -1089,16 +1039,12 @@
   <block id="dc6558c87d9624db4f0f78e602308c49" category="list-text">필요한 옵션을 업데이트합니다.</block>
   <block id="14a76c71ca702ae118d765e420178711" category="example-title">ONTAP &lt;/strong&gt;용 &lt;strong&gt;</block>
   <block id="32a4a00508204d0cb7ced3d936d4dc7a" category="list-text">* ONTAP 사용량 수집 *: 이 옵션을 사용하면 ONTAP에 대한 사용 데이터를 수집할 수 있습니다. Active IQ Unified Manager(Unified Manager) 서버 및 서비스 계정의 세부 정보를 추가합니다.</block>
-  <block id="c8be7cc513ae14bb1045efcf84ef815f" category="list-text">* ONTAP 성능 데이터 수집 *: 이 옵션을 사용하면 ONTAP에 대한 성능 데이터를 수집할 수 있습니다. 이 기능은 기본적으로 비활성화되어 있습니다. SLA를 위해 사용자 환경에서 성능 모니터링이 필요한 경우 이 옵션을 활성화하십시오. Unified Manager 데이터베이스 사용자 계정 세부 정보를 제공합니다. 데이터베이스 사용자를 만드는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="c307c105b0ab23fea8108ee840b19ed9" category="inline-link-macro-rx"></block>.</block>
   <block id="c6f143141daaf99baf609e695430cce9" category="list-text">* 개인 데이터 제거 *: 이 옵션은 고객의 특정 개인 데이터를 제거하며 기본적으로 활성화됩니다. 이 옵션이 활성화된 경우 메트릭에서 제외되는 데이터에 대한 자세한 내용은 을 참조하십시오 <block ref="69ef82b790beb8f156793bc199a1126b" category="inline-link-macro-rx"></block>.</block>
   <block id="e70948bd792d621d062233c6553df7a4" category="example-title">StorageGRID &lt;/strong&gt;용 &lt;strong&gt;</block>
   <block id="12a12ceac3b9acaa003a52c7a4a9e107" category="list-text">* Collect StorageGRID usage *: 이 옵션을 사용하면 노드 사용 세부 정보를 수집할 수 있습니다. StorageGRID 노드 주소 및 사용자 세부 정보를 추가합니다.</block>
-  <block id="501fbebe1e3204d65370c54a952426d7" category="list-text">* 개인 데이터 제거 *: 이 옵션은 고객의 특정 개인 데이터를 제거하며 기본적으로 활성화됩니다. 이 옵션이 활성화된 경우 메트릭에서 제외되는 데이터에 대한 자세한 내용은 을 참조하십시오 <block ref="e1f64bf8f82fdbd22932ca9afa1da14a" category="inline-link-macro-rx"></block>.</block>
   <block id="60027fcd2e5db75fada38cb8c25a89ad" category="list-text">** 시작 KS-Collector with System** 필드를 토글합니다.</block>
   <block id="12d4a3f31d7915f04142a35be1ba5a37" category="paragraph">Keystone Collector TUI 화면에서 특정 고객 데이터의 수집을 제한할 수 있습니다. 이 옵션 * 개인 데이터 제거 * 는 기본적으로 사용됩니다.</block>
   <block id="dd771779768817666d39c63b55339112" category="paragraph">ONTAP 및 StorageGRID에서 개인 데이터 액세스를 제한하는 데 제거된 항목에 대한 자세한 내용은 을 참조하십시오 <block ref="461595833a51b2e2463fa89ad8a35ca1" category="inline-link-macro-rx"></block>.</block>
-  <block id="1188f42df486498dbe3703f5415c86aa" category="list-text">Keystone 데이터 수집기: Keystone 수집기는 Keystone 고객에게 청구 서비스를 제공합니다. 이 애플리케이션은 Active IQ Unified Manager와 함께 번들로 제공됩니다. 5분마다 ONTAP 및 StorageGRID 컨트롤러의 데이터를 주기적으로 수집합니다. 데이터는 처리되고, 메타데이터는 청구 데이터 생성에 사용되는 AutoSupport 메커니즘을 통해 중앙 집중식 Active IQ 데이터 레이크에 전송됩니다. Active IQ 데이터 레이크는 청구를 위해 데이터를 처리한 후 Zuora에 전송해 청구합니다. Active IQ 디지털 자문(디지털 자문) 고객 포털을 통해 Keystone 가입 및 소비 상세 정보를 확인하고 로그인할 수 있습니다.</block>
-  <block id="cf3d385bb2fcb3764b03ece3454042e6" category="paragraph">Digital Advisor 대시보드에서 Keystone 보고에 대한 자세한 내용은 을 참조하십시오 <block ref="b7b6a2338cb0518cc39a6d3713bb6e47" category="inline-link-macro-rx"></block>.</block>
   <block id="6b71507d392708444982d424df1963c2" category="paragraph">ONTAP 파일 및 블록 스토리지, StorageGRID 오브젝트 스토리지를 위한 Keystone STaaS 서비스는 다음 표에 설명된 다양한 기능 및 프로토콜을 지원합니다.</block>
   <block id="661319c881749fc4ef06edb56f84c952" category="paragraph">NetApp 글로벌 서비스 및 지원 센터(GSSC) 및 NetApp Keystone 성공 관리자(KSM)는 Keystone 가입 서비스를 제공해야 합니다.</block>
   <block id="5e3fca9227064d2d04c47a0f13b4fffe" category="paragraph">Keystone 서비스에 대한 자세한 내용은 다음을 참조하십시오.</block>
@@ -1161,4 +1107,43 @@
   <block id="e84dede1181b53e24bdf1d55508b83bf" category="list-text">Digital Advisor에서 위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 가입 * 페이지에서 볼륨에 대한 사용 세부 정보 및 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 &gt; Keystone 구독 * 으로 이동합니다.</block>
   <block id="b49a48b1a3504debfe7fedab8ad4086d" category="paragraph">서브스크립션 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보는 * Keystone 가입 * 화면의 여러 탭에 표시됩니다.</block>
   <block id="de87c00cded561268b46fe5428fdd938" category="paragraph">이러한 주의 및 경고 메시지에 대한 자세한 내용은 NetApp 지원 팀에 문의하십시오. 서비스 요청 발생에 대한 자세한 내용은 을 참조하십시오 <block ref="1bf858345505311d2a0e9fcf6e1f42da" category="inline-link-macro-rx"></block>.</block>
+  <block id="ed6736a84f4c19935077bc72bc043890" category="summary">NetApp Keystone은 클라우드 전반에서 스토리지 비용을 재할당할 수 있는 기능을 통해 온프레미스와 클라우드 데이터 스토리지 서비스 모두에 대한 용량제, 서비스형 스토리지 오퍼링입니다.</block>
+  <block id="b18e0c0378b51052e0196f91f5db38bd" category="list-text">Keystone Collector 관리 TUI 유틸리티 시작:<block ref="7ef986487970dbcf0ed301b58d2828c9" prefix=" " category="inline-code"></block></block>
+  <block id="8458abf5be9e91efddd756b28ee59439" category="list-text">* ONTAP 성능 데이터 수집 *: 이 옵션을 사용하면 ONTAP에 대한 성능 데이터를 수집할 수 있습니다. 이 기능은 기본적으로 비활성화되어 있습니다. SLA를 위해 사용자 환경에서 성능 모니터링이 필요한 경우 이 옵션을 활성화하십시오. Unified Manager 데이터베이스 사용자 계정 세부 정보를 제공합니다. 데이터베이스 사용자를 만드는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="f8f6ee868048b4a2fa1c02afb9ee5233" category="inline-link-macro-rx"></block>.</block>
+  <block id="78619a2b9d44b190ba76a3a6d430637f" category="list-text">이미 종료된 경우 Keystone Collector 관리 TUI 유틸리티를 다시 시작합니다.<block ref="7ef986487970dbcf0ed301b58d2828c9" prefix=" " category="inline-code"></block></block>
+  <block id="416bf87280a0143cd22c8728b398c998" category="summary">Keystone Collector 업그레이드</block>
+  <block id="303598db14cdac7b8531356d3fa6ae67" category="doc">Keystone Collector를 수동으로 업그레이드합니다</block>
+  <block id="eb5316849956503093c848cdd2e2189f" category="paragraph">Keystone 수집기의 자동 업데이트 기능은 기본적으로 활성화되어 있으며, 새 릴리즈마다 Keystone Collector 소프트웨어를 자동으로 업그레이드합니다. 그러나 이 기능을 비활성화하고 소프트웨어를 수동으로 업그레이드할 수 있습니다.</block>
+  <block id="c5bc18b9ae708308f165d213528edb66" category="list-text">유지 관리 화면에서 * 지금 수집기 업데이트 * 옵션을 선택합니다.</block>
+  <block id="5b540eaec8e7ad0922a0633df925d995" category="paragraph"><block ref="5b540eaec8e7ad0922a0633df925d995" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f8bc55f7c7f782e0fdeced65037abf84" category="paragraph">또는 다음 명령을 실행하여 버전을 업그레이드합니다.</block>
+  <block id="cc30a50a97fd139786e6b433136865ca" category="paragraph"><block ref="cc30a50a97fd139786e6b433136865ca" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b31f1ebf783dc22abf4699b042b9b3db" category="list-text">Keystone Collector 관리 TUI를 다시 시작하면 홈 화면의 왼쪽 상단에 최신 버전이 표시됩니다.</block>
+  <block id="bb05cc2f27b372eeefcaf8c9d31c4fba" category="paragraph">또는 다음 명령을 실행하여 최신 버전을 봅니다.</block>
+  <block id="26ff0e396ade6fe360b35528d3afe577" category="paragraph">Keystone STaaS 시스템의 데이터는 Keystone Collector와 관련 모니터링 시스템인 AIOP 솔루션 툴을 통해 전달됩니다.</block>
+  <block id="9e2f9cd4a9ee8b88a18988f62eb67dd7" category="paragraph">Keystone Collector는 스토리지 컨트롤러에 대한 REST API 호출을 시작하고 다음 흐름 다이어그램에 표시된 대로 컨트롤러의 사용 세부 정보를 정기적으로 가져옵니다.</block>
+  <block id="144be97e21d1c48cc88d9c1079fd7242" category="list-text">Active IQ 클라우드 포털은 연결을 수락하고 NetApp Collector에 대한 터널을 설정합니다.</block>
+  <block id="eb1ece97f0d4f33c42fe8c1270d9f97f" category="list-text">NetApp Collector는 스토리지 컨트롤러의 관리 연결에 REST API 세션을 설정하고 환경 데이터를 가져온 다음 Active IQ 포털로 보냅니다.</block>
+  <block id="9bd6f9bd3f316579290de54613357644" category="paragraph">스토리지 인프라의 상태를 지속적으로 모니터링하는 것은 Keystone 서비스의 가장 중요한 기능 중 하나입니다. Keystone은 모니터링 및 보고를 위해 고객 네트워크에 대한 원격 액세스가 필요한 AIOP 솔루션을 사용합니다. 다음 이미지는 AIOP 솔루션 툴을 통해 고객 위치에 대한 원격 액세스를 보호하는 방법을 설명합니다.</block>
+  <block id="130d043e9f813aac96b9057c87348371" category="list-text">AIOP 솔루션 게이트웨이는 클라우드 포털로 연결되는 TLS 세션을 시작합니다.</block>
+  <block id="243cf07b27b6811f47ef7011b0f2fcd7" category="list-text">클라우드의 AIOP 솔루션 서버가 연결을 수락합니다.</block>
+  <block id="322f1e98181b58ca0f54061626b2d948" category="list-text">클라우드 포털과 로컬 게이트웨이 사이에 TLS 터널이 설정됩니다.</block>
+  <block id="450997fb0074b4d084ffcc7c81c8194e" category="list-text">NetApp 컨트롤러는 SNMP 프로토콜을 사용하여 경고를 보내거나 로컬 게이트웨이로 API 요청에 응답합니다.</block>
+  <block id="67b0e91889520881c5ec5d57fab5f89c" category="list-text">로컬 게이트웨이는 이전에 설정된 TLS 세션을 사용하여 이러한 알림을 클라우드 포털로 전송합니다.</block>
+  <block id="0f1b5cef30787606dcebbe2aad12f047" category="list-text">AIOP 솔루션, Active IQ, Active IQ Unified Manager 등의 서비스를 관리 및 운영하는 툴</block>
+  <block id="fe69a54042d9eff356aefd4641754a9d" category="list-text">AIOP 솔루션 로컬 게이트웨이: 네트워크를 모니터링하는 데 사용되는 클라우드 기반 애플리케이션입니다. NetApp 스토리지 플랫폼과의 내장 통합을 통해 환경 데이터를 수집하고 네트워크를 모니터링할 수 있습니다. 이 서비스는 클라우드 포털과 통신하는 사이트에 설치된 로컬 게이트웨이를 사용하는 데 도움을 줍니다.</block>
+  <block id="370f5a2dcf3c761999eec9796ac7cb95" category="list-text">Keystone 데이터 수집기: Keystone 수집기는 Keystone 고객에게 청구 서비스를 제공합니다. 이 애플리케이션은 Active IQ Unified Manager와 함께 번들로 제공됩니다. 이 툴은 5분 간격으로 ONTAP 및 StorageGRID 컨트롤러에서 데이터를 수집합니다. 데이터는 처리되고, 메타데이터는 청구 데이터 생성에 사용되는 AutoSupport 메커니즘을 통해 중앙 집중식 Active IQ 데이터 레이크에 전송됩니다. Active IQ 데이터 레이크는 청구 데이터를 처리한 후 Zuora에 전송해 비용을 청구합니다.</block>
+  <block id="829e513ac5aad09d167e66738057fee0" category="paragraph">Active IQ 디지털 자문(디지털 자문)을 통해 Keystone 서브스크립션에 대한 가입 및 소비 세부 정보를 확인하고 로그인할 수 있습니다. Digital Advisor 대시보드에서 Keystone 보고에 대한 자세한 내용은 을 참조하십시오 <block ref="b7b6a2338cb0518cc39a6d3713bb6e47" category="inline-link-macro-rx"></block>.</block>
+  <block id="b061e71795ea0169fae5918033aa1426" category="inline-link-macro">Keystone Collector 설치 가이드</block>
+  <block id="ea6877769314a06b5bfd259d5acd9b87" category="paragraph">Keystone Collector 및 AIOP 솔루션 게이트웨이 구축에 스토리지 가상 머신(스토리지 VM)이 필요합니다. Keystone Collector 설치를 위한 사전 요구 사항은 다음 여기에서 확인할 수 있습니다. <block ref="1b1d53dc449052d2c1633c8027db333d" category="inline-link-macro-rx"></block>. 다른 요구 사항은 배포 중에 공유됩니다.</block>
+  <block id="78723ce66f58e9e7caf198aa1ec6dc10" category="list-text">고객이 Red Hat Enterprise Linux 7 또는 8 또는 CentOS 7 Linux 서버를 제공합니다. Keystone 소프트웨어는 를 통해 설치됩니다<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> 설치 프로세스:</block>
+  <block id="b264c507ce69115ec3b1ea258739f71a" category="paragraph">AIOP 솔루션 게이트웨이는 다음 구성에 구축됩니다.</block>
+  <block id="aed4f4cade15fb6fd54071211fa815d9" category="paragraph">Keystone Collector 및 AIOP 솔루션 게이트웨이의 운영 및 유지 관리를 위해 다음 서비스에 아웃바운드 액세스가 필요합니다.</block>
+  <block id="ea105b45dba9cd611a536c923ac08e2a" category="paragraph">NetApp은 Keystone 고객에게 모니터링 및 청구 같은 서비스를 제공하기 위해 모니터링 및 관리를 위해 설치된 하드웨어 및 소프트웨어 구성요소에 액세스해야 합니다. 가장 일반적인 방법은 고객 네트워크에 대한 VPN(가상 사설망) 연결을 설정하고 필요한 데이터에 액세스하는 것입니다. 고객이 방화벽 포트를 열고 새로운 서비스로 인해 발생하는 운영상의 복잡성을 극복하기 위해 모니터링 도구는 외부 연결을 시작합니다. AIOP 솔루션 및 Zuora 등의 NetApp 클라우드 애플리케이션은 이 연결을 사용하여 해당 서비스를 수행합니다. 이 방법은 이 서비스의 일부인 모니터링 구성 요소에 대한 액세스를 제공하면서 방화벽 포트를 열지 않는 고객의 요구 사항을 충족합니다.</block>
+  <block id="3db5d9db3e9bbb96192cdbca3e683f2d" category="list-text">NetApp은 AIOP 솔루션을 사용하여 NetApp Keystone 환경을 능동적으로 모니터링하고 연결하여 문제를 해결합니다.</block>
+  <block id="f117a997c71ee803b4f42cc859317819" category="admonition">파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비스 요청이 파트너의 서비스 데스크에 할당됩니다. 파트너의 지원 툴은 AIOP 솔루션 및 GSSC 애플리케이션과 통합할 수 있습니다. L3 문제만 GSSC를 통해 NetApp으로 에스컬레이션됩니다.</block>
+  <block id="9a7e6b4e1f16d4dce53a800b22ea9ce5" category="paragraph">QoS를 적용하면 애플리케이션이 항상 일관된 성능을 얻을 수 있습니다. NetApp ONTAP는 QoS에 대한 두 가지 매개 변수, 즉 천장-<block ref="f481633ea70c9b3dfd9b26e1e0045eee" category="inline-link-rx"></block>및 처리량 플로어 -<block ref="406d3c0c34cedc53d1b49a1bfac79dea" category="inline-link-rx"></block>. QoS Max는 워크로드가 달성할 수 있는 최대 IOPS 또는 MBps 또는 IOPS 및 MBps 수를 나타냅니다. 반면에 QoS Min은 워크로드의 처리량이 특정 IOPS 또는 MBps, 즉 IOPS 및 MBps 이하로 보장되지 않습니다.</block>
+  <block id="3416d8a49fd5d49140366de8fbebad06" category="paragraph">NetApp BlueXP는 수백 개의 데이터 소스를 모니터링할 수 있는 완벽한 플랫폼이며 자체적인 대화형 시각화 대시보드가 있습니다. NetApp Keystone 가입 시 클라우드 서비스를 구입하면 BlueXP를 통해 해당 서비스에 액세스하고 관리할 수 있습니다.</block>
+  <block id="eca1859cccb72b784538dc03d0802c4d" category="paragraph">BlueXP Digital Advisor 대시보드는 Keystone 가입 사용을 모니터링하고 보고서를 생성할 수 있는 그래픽 뷰와 드릴다운 기능을 제공합니다. Digital Advisor 대시보드 및 Keystone에 대한 자세한 내용은 를 참조하십시오 <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>.</block>
+  <block id="2951c1f61944250838607486af8b4ac0" category="sidebar">Keystone Collector 업그레이드</block>
 </blocks>

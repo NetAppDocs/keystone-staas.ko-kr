@@ -3,7 +3,7 @@ layout: astra
 sidebar: sidebar 
 permalink: index.html 
 lead: NetApp Keystone is a flexible pay-as-you-grow subscription-based service that delivers a seamless hybrid cloud experience, for customers who prefer OPEX to CAPEX or leasing. It gives you the ability to accelerate time to value by removing the IT burden on managing resources and going through the lengthy procurement cycle. Browse the docs in this library to learn more about the NetApp Keystone offering in your ONTAP or StorageGRID environment. 
-summary: NetApp Keystone 설명서 
+summary: NetApp Keystone은 클라우드 전반에서 스토리지 비용을 재할당할 수 있는 기능을 통해 온프레미스와 클라우드 데이터 스토리지 서비스 모두에 대한 용량제, 서비스형 스토리지 오퍼링입니다. 
 ---
 = Keystone 설명서
 :hardbreaks:

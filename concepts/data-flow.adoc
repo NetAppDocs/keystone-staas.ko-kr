@@ -14,13 +14,13 @@ summary: Keystone 데이터 흐름
 
 
 [role="lead"]
-Keystone STaaS 시스템은 Keystone Collector 트래픽을 통해 데이터 흐름을 마주하고 데이터 흐름을 모니터링합니다.
+Keystone STaaS 시스템의 데이터는 Keystone Collector와 관련 모니터링 시스템인 AIOP 솔루션 툴을 통해 전달됩니다.
 
 
 
 == Keystone Collector 데이터 흐름
 
-Keystone Collector는 스토리지 컨트롤러에 대한 REST API 호출을 시작하고 컨트롤러의 사용 세부 정보를 정기적으로 가져옵니다.
+Keystone Collector는 스토리지 컨트롤러에 대한 REST API 호출을 시작하고 다음 흐름 다이어그램에 표시된 대로 컨트롤러의 사용 세부 정보를 정기적으로 가져옵니다.
 
 image:collector-data-flow.png[""]
 
@@ -35,15 +35,15 @@ image:collector-data-flow.png[""]
 
 == 데이터 흐름 모니터링
 
-스토리지 인프라의 상태를 지속적으로 모니터링하는 것은 Keystone 서비스의 가장 중요한 기능 중 하나입니다. 모니터링을 위해 Keystone은 고객 네트워크에 대한 원격 액세스가 필요한 OpsRamp를 사용합니다. 다음 이미지는 OpsRamp 도구를 통해 고객 위치에 대한 원격 액세스를 보호하는 방법을 설명합니다.
+스토리지 인프라의 상태를 지속적으로 모니터링하는 것은 Keystone 서비스의 가장 중요한 기능 중 하나입니다. Keystone은 모니터링 및 보고를 위해 고객 네트워크에 대한 원격 액세스가 필요한 AIOP 솔루션을 사용합니다. 다음 이미지는 AIOP 솔루션 툴을 통해 고객 위치에 대한 원격 액세스를 보호하는 방법을 설명합니다.
 
 image:monitoring-flow.png[""]
 
 .범례
-. OpsRamp 게이트웨이는 클라우드의 OpsRamp 클라우드 포털로 TLS 세션을 시작합니다.
+. AIOP 솔루션 게이트웨이는 클라우드 포털로 연결되는 TLS 세션을 시작합니다.
 . 고객이 운영하는 방화벽은 연결을 허용합니다.
-. 클라우드의 OpsRamp 서버가 연결을 수락합니다.
-. OpsRamp 클라우드 포털과 OpsRamp 로컬 게이트웨이 사이에 TLS 터널이 설정됩니다.
-. NetApp 컨트롤러는 SNMP 프로토콜을 사용하여 경고를 보내거나 OpsRamp 로컬 게이트웨이로 API 요청에 응답합니다.
-. OpsRamp 로컬 게이트웨이는 이전에 설정된 TLS 세션을 사용하여 이러한 경고를 클라우드 포털로 전송합니다.
+. 클라우드의 AIOP 솔루션 서버가 연결을 수락합니다.
+. 클라우드 포털과 로컬 게이트웨이 사이에 TLS 터널이 설정됩니다.
+. NetApp 컨트롤러는 SNMP 프로토콜을 사용하여 경고를 보내거나 로컬 게이트웨이로 API 요청에 응답합니다.
+. 로컬 게이트웨이는 이전에 설정된 TLS 세션을 사용하여 이러한 알림을 클라우드 포털로 전송합니다.
 
