@@ -36,4 +36,4 @@ NetApp은 서비스 제공 시 사용된 모든 물리적 자산을 복구하지
 
 SnapLock 기술은 볼륨에 설정된 만료 날짜 이후에 드라이브를 사용할 수 없도록 하여 NRNVC 기능을 활성화합니다. 볼륨에 SnapLock 기술을 사용하려면 NRNVC를 구독해야 합니다. 이는 파일 및 블록 서비스에만 적용됩니다.
 
-SnapLock 기술에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["SnapLock란"].
+SnapLock 기술에 대한 자세한 내용은 을 참조하십시오 https://["SnapLock란"].

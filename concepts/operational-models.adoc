@@ -40,7 +40,7 @@ NetApp Keystone(Keystone) STaaS는 파트너 운영 모델 및 고객 운영 모
 * 구축
 * 온보드
 
-| image:check.png[""] | 없음 
+| image:check.png["체크 표시"] | 없음 
 
 
  a| 
@@ -51,7 +51,7 @@ NetApp Keystone(Keystone) STaaS는 파트너 운영 모델 및 고객 운영 모
 * 관리 작업을 수행합니다
 * 경고
 
-| 없음 | image:check.png[""] 
+| 없음 | image:check.png["체크 표시"] 
 
 
  a| 
@@ -61,7 +61,7 @@ NetApp Keystone(Keystone) STaaS는 파트너 운영 모델 및 고객 운영 모
 * 성능 관리
 * SLA 관리
 
-| 없음 | image:check.png[""] 
+| 없음 | image:check.png["체크 표시"] 
 
 
  a| 
@@ -72,6 +72,6 @@ NetApp Keystone(Keystone) STaaS는 파트너 운영 모델 및 고객 운영 모
 * 소프트웨어 지원
 * 업그레이드 및 패치
 
-| image:check.png[""] | 없음 
+| image:check.png["체크 표시"] | 없음 
 |===
 배포에 대한 자세한 내용은 을 참조하십시오 link:../concepts/infra.html["Keystone 인프라"] 및 link:..//concepts/components.html["배포용 구성 요소"].

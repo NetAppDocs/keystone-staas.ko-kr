@@ -21,7 +21,7 @@ Keystone 수집기의 자동 업데이트 기능은 기본적으로 활성화되
 `$ keystone-collector-tui`
 . 유지 관리 화면에서 * 지금 수집기 업데이트 * 옵션을 선택합니다.
 +
-image:upgrade-1.png[""]
+image:upgrade-1.png["TUI 화면"]
 
 +
 또는 다음 명령을 실행하여 버전을 업그레이드합니다.
@@ -32,7 +32,7 @@ image:upgrade-1.png[""]
 sudo yum clean metadata && sudo yum install keystone-collector
 ----
 +
-image:upgrade-2.png[""]
+image:upgrade-2.png["TUI 화면"]
 
 . Keystone Collector 관리 TUI를 다시 시작하면 홈 화면의 왼쪽 상단에 최신 버전이 표시됩니다.
 +

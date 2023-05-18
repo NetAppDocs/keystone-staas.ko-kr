@@ -16,8 +16,7 @@ summary: VMware vSphere 시스템에 Keystone Collector를 설치하기 위한 �
 [role="lead"]
 VMware vSphere 시스템에 Keystone Collector를 설치하는 데 필요한 몇 가지 가상 인프라 구성이 있습니다.
 
-Keystone Collector 서버 가상 머신의 구성 요소는 다음과 같습니다.
-
+.Keystone Collector 서버 VM의 사전 요구 사항:
 * 운영 체제: VMware vCenter Server 및 ESXi 6.5 이상
 * 코어: CPU 4개
 * RAM: 12GB RAM
@@ -28,13 +27,13 @@ Keystone Collector 서버 가상 머신의 구성 요소는 다음과 같습니�
 
 == 기타 요구 사항
 
-다음과 같은 일반 요구 사항이 충족된다는 것을 참아줍니다.
+다음과 같은 일반 요구 사항이 충족되는지 확인합니다.
 
 
 
 === 네트워킹 요구 사항
 
-다음 표에서는 Keystone 수집기의 네트워킹 요구사항을 설명합니다.
+Keystone 수집기의 네트워킹 요구사항은 다음 표에 나와 있습니다.
 
 
 NOTE: Keystone 수집기는 인터넷 연결이 필요합니다. 기본 게이트웨이(NAT를 통해) 또는 HTTP 프록시를 통해 직접 라우팅하여 인터넷 연결을 제공할 수 있습니다. 두 가지 변형 모델이 모두 여기에 설명되어 있습니다.
@@ -207,29 +206,29 @@ Keystone 수집기는 다음 인터넷 호스트에 액세스해야 합니다.
 
 
  a| 
-https://keystone.netapp.com[]
+https://[]
  a| 
 Keystone Collector 소프트웨어 업데이트 및 사용 보고
 
 
 
  a| 
-https://support.netapp.com[]
+https://[]
  a| 
 청구 정보 및 AutoSupport 제공을 위한 NetApp HQ
 
 
 
  a| 
-https://mirror.centos.org[]
-https://mirrorlist.centos.org[]
+https://[]
+https://[]
  a| 
 Keystone Collector용 OS 업데이트(OVA 구축만 해당)
 
 
 
  a| 
-http://repo.mysql.com[]
+https://[]
  a| 
 MySQL 종속성 다운로드 및 업데이트(Linux 배포에만 해당)
 

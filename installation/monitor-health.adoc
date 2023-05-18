@@ -101,7 +101,7 @@ Keystone Collector TUI를 사용하면 지원 번들을 생성한 다음 지원 
 .단계
 . Keystone Collector 관리 TUI 유틸리티 시작:
 `$ keystone-collector-tui`
-. 문제 해결 > 지원 번들 생성 * 으로 이동합니다.image:tui-sup-bundl.png[""]
-. 생성된 경우, Bundle이 저장된 위치가 표시됩니다. FTP, SFTP 또는 SCP를 사용하여 위치에 연결하고 로그 파일을 로컬 시스템에 다운로드합니다.image:tui-sup-bundl-2.png[""]
+. 문제 해결 > 지원 번들 생성 * 으로 이동합니다.image:tui-sup-bundl.png["TUI 화면"]
+. 생성된 경우, Bundle이 저장된 위치가 표시됩니다. FTP, SFTP 또는 SCP를 사용하여 위치에 연결하고 로그 파일을 로컬 시스템에 다운로드합니다.image:tui-sup-bundl-2.png["TUI 화면"]
 . 파일이 다운로드되면 Keystone ServiceNow 지원 티켓에 첨부할 수 있습니다. 티켓 발생에 대한 자세한 내용은 을 참조하십시오 link:../concepts/gssc.html["서비스 요청을 생성하는 중입니다"].
 

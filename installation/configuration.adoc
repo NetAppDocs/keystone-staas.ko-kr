@@ -44,8 +44,8 @@ NOTE: Keystone 수집기는 구성 및 모니터링 작업을 수행하기 위�
 
 ====
 . ** 시작 KS-Collector with System** 필드를 토글합니다.
-. ** 저장**을 클릭합니다.image:tui-1.png[""]
-. TUI의 기본 화면으로 돌아가 ** 서비스 상태** 정보를 확인하여 Keystone 수집기가 정상 상태인지 확인합니다. 시스템은 서비스가 ** 전체적: 정상** 상태에 있음을 나타내야 합니다.image:tui-2.png[""]
+. ** 저장**을 클릭합니다.image:tui-1.png["TUI 화면"]
+. TUI의 기본 화면으로 돌아가 ** 서비스 상태** 정보를 확인하여 Keystone 수집기가 정상 상태인지 확인합니다. 시스템은 서비스가 ** 전체적: 정상** 상태에 있음을 나타내야 합니다.image:tui-2.png["TUI 화면"]
 . 기본 화면에서 ** Shell으로 종료** 옵션을 선택하여 Keystone Collector 관리 TUI를 종료합니다.
 
 
@@ -59,7 +59,7 @@ Collector 소프트웨어는 HTTP 프록시를 사용하여 인터넷과 통신�
 . 이미 종료된 경우 Keystone Collector 관리 TUI 유틸리티를 다시 시작합니다.
 `$ keystone-collector-tui`
 . 인증이 필요한 경우** HTTP 프록시** 필드를 토글하고 HTTP 프록시 서버, 포트 및 자격 증명의 세부 정보를 추가합니다.
-. ** 저장**을 클릭합니다.image:tui-3.png[""]
+. ** 저장**을 클릭합니다.image:tui-3.png["TUI 화면"]
 
 
 
@@ -70,6 +70,6 @@ Keystone 수집기는 구독 측정을 수행하는 데 필요한 제한된 구�
 
 Keystone Collector TUI 화면에서 특정 고객 데이터의 수집을 제한할 수 있습니다. 이 옵션 * 개인 데이터 제거 * 는 기본적으로 사용됩니다.
 
-image:tui-4.png[""]
+image:tui-4.png["TUI 화면"]
 
 ONTAP 및 StorageGRID에서 개인 데이터 액세스를 제한하는 데 제거된 항목에 대한 자세한 내용은 을 참조하십시오 link:../installation/data-collection.html["개인 데이터 액세스를 제한할 때 제거된 항목의 목록입니다"].
