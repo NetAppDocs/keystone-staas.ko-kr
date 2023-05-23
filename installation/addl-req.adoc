@@ -24,22 +24,22 @@ ONTAP에서 Keystone Collector를 설치하려면 다음 단계를 사전 요구
 
 . Active IQ Unified Manager(Unified Manager) 서버에 Unified Manager 9.7 이상이 구성되어 있는지 확인합니다. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.
 +
-** https://["VMware vSphere 시스템에 Unified Manager 설치"^]
-** https://["Linux 시스템에 Unified Manager 설치"^]
+** https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["VMware vSphere 시스템에 Unified Manager 설치"^]
+** https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html["Linux 시스템에 Unified Manager 설치"^]
 
 
-. ONTAP 클러스터가 Unified Manager에 추가되었는지 확인합니다. 클러스터 추가에 대한 자세한 내용은 을 참조하십시오 https://["클러스터 추가"^].
-. 사용량 및 성능 데이터 수집에 대한 특정 역할을 가진 Unified Manager 사용자를 생성합니다. 다음 단계를 수행합니다. 사용자 역할에 대한 자세한 내용은 을 참조하십시오 https://["사용자 역할의 정의"^].
+. ONTAP 클러스터가 Unified Manager에 추가되었는지 확인합니다. 클러스터 추가에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_clusters.html["클러스터 추가"^].
+. 사용량 및 성능 데이터 수집에 대한 특정 역할을 가진 Unified Manager 사용자를 생성합니다. 다음 단계를 수행합니다. 사용자 역할에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html["사용자 역할의 정의"^].
 +
-.. 설치 중에 생성되는 기본 애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 을 참조하십시오 https://["Unified Manager 웹 UI에 액세스"^].
-.. 을 사용하여 Keystone 수집기에 대한 서비스 계정을 생성합니다 `Operator` 사용자 역할. Keystone Collector 서비스 API는 이 서비스 계정을 사용하여 Unified Manager와 통신하고 사용 데이터를 수집합니다. 을 참조하십시오 https://["사용자 추가"^].
-.. 을 생성합니다 `Database` 사용자 계정, 및 `Report Schema` 역할. 이 사용자는 성능 데이터 수집에 필요합니다. 을 참조하십시오 https://["데이터베이스 사용자 생성"^].
+.. 설치 중에 생성되는 기본 애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager 웹 UI에 액세스"^].
+.. 을 사용하여 Keystone 수집기에 대한 서비스 계정을 생성합니다 `Operator` 사용자 역할. Keystone Collector 서비스 API는 이 서비스 계정을 사용하여 Unified Manager와 통신하고 사용 데이터를 수집합니다. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["사용자 추가"^].
+.. 을 생성합니다 `Database` 사용자 계정, 및 `Report Schema` 역할. 이 사용자는 성능 데이터 수집에 필요합니다. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["데이터베이스 사용자 생성"^].
 
 
 . Unified Manager에서 API 게이트웨이를 사용하도록 설정합니다. Keystone Collector는 API 게이트웨이 기능을 사용하여 ONTAP 클러스터와 통신합니다. 웹 UI에서 또는 Unified Manager CLI를 통해 몇 가지 명령을 실행하여 API 게이트웨이를 사용하도록 설정할 수 있습니다.
 +
 .웹 UI
-Unified Manager 웹 UI에서 API 게이트웨이를 사용하도록 설정하려면 Unified Manager 웹 UI에 로그인하여 API 게이트웨이를 사용하도록 설정합니다. 자세한 내용은 을 참조하십시오 https://["API 게이트웨이 활성화 중"^].
+Unified Manager 웹 UI에서 API 게이트웨이를 사용하도록 설정하려면 Unified Manager 웹 UI에 로그인하여 API 게이트웨이를 사용하도록 설정합니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html["API 게이트웨이 활성화 중"^].
 
 +
 .CLI를 참조하십시오
@@ -47,15 +47,15 @@ Unified Manager CLI를 통해 API 게이트웨이를 설정하려면 다음 단�
 
 +
 .. Unified Manager 서버에서 SSH 세션을 시작하고 Unified Manager CLI에 로그인합니다.
-`um cli login -u _<umadmin>_`CLI 명령에 대한 자세한 내용은 를 참조하십시오 https://["지원되는 Unified Manager CLI 명령"^].
+`um cli login -u _<umadmin>_`CLI 명령에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["지원되는 Unified Manager CLI 명령"^].
 .. API 게이트웨이가 이미 설정되어 있는지 확인합니다.
 `um option list api.gateway.enabled`A `true` 값은 API 게이트웨이가 활성화되었음을 나타냅니다.
 .. 반환되는 값이 인 경우 `false`에서 다음 명령을 실행합니다.
 `um option set api.gateway.enabled=true`
 .. Unified Manager 서버를 다시 시작합니다.
 +
-*** Linux: https://["Unified Manager를 다시 시작하는 중입니다"^].
-*** VMware vSphere: https://["Unified Manager 가상 머신을 재시작합니다"^].
+*** Linux: https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html["Unified Manager를 다시 시작하는 중입니다"^].
+*** VMware vSphere: https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html["Unified Manager 가상 머신을 재시작합니다"^].
 
 
 
@@ -71,8 +71,8 @@ StorageGRID에 Keystone Collector를 설치하려면 다음 구성이 필요합�
 * 사용량 데이터 수집을 위해 StorageGRID 로컬 관리자 사용자 계정을 생성해야 합니다. 이 서비스 계정은 Keystone Collector 서비스가 관리자 노드 API를 통해 StorageGRID와 통신하는 데 사용됩니다.
 +
 .단계
-.. Grid Manager에 로그인합니다. 을 참조하십시오 https://["Grid Manager에 로그인합니다"^].
-.. 를 사용하여 로컬 관리 그룹을 생성합니다 `Access mode: Read-only`. 을 참조하십시오 https://["관리자 그룹을 생성합니다"^].
+.. Grid Manager에 로그인합니다. 을 참조하십시오 https://docs.netapp.com/us-en/storagegrid-116/admin/signing-in-to-grid-manager.html["Grid Manager에 로그인합니다"^].
+.. 를 사용하여 로컬 관리 그룹을 생성합니다 `Access mode: Read-only`. 을 참조하십시오 https://docs.netapp.com/us-en/storagegrid-116/admin/managing-admin-groups.html#create-an-admin-group["관리자 그룹을 생성합니다"^].
 .. 다음 권한을 추가합니다.
 +
 *** 테넌트 계정
@@ -80,7 +80,7 @@ StorageGRID에 Keystone Collector를 설치하려면 다음 구성이 필요합�
 *** 메트릭 쿼리
 
 
-.. Keystone 서비스 계정 사용자를 생성하고 이를 관리 그룹에 연결합니다. 을 참조하십시오 https://["사용자 관리"].
+.. Keystone 서비스 계정 사용자를 생성하고 이를 관리 그룹에 연결합니다. 을 참조하십시오 https://docs.netapp.com/us-en/storagegrid-116/admin/managing-users.html["사용자 관리"].
 
 
 

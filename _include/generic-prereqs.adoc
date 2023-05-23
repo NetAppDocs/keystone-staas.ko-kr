@@ -185,29 +185,29 @@ Keystone 수집기는 다음 인터넷 호스트에 액세스해야 합니다.
 
 
  a| 
-https://[]
+https://keystone.netapp.com[]
  a| 
 Keystone Collector 소프트웨어 업데이트 및 사용 보고
 
 
 
  a| 
-https://[]
+https://support.netapp.com[]
  a| 
 청구 정보 및 AutoSupport 제공을 위한 NetApp HQ
 
 
 
  a| 
-https://[]
-https://[]
+https://mirror.centos.org[]
+https://mirrorlist.centos.org[]
  a| 
 Keystone Collector용 OS 업데이트(OVA 구축만 해당)
 
 
 
  a| 
-https://[]
+https://repo.mysql.com[]
  a| 
 MySQL 종속성 다운로드 및 업데이트(Linux 배포에만 해당)
 

@@ -23,7 +23,7 @@ VMware vSphere 시스템에 Keystone Collector를 구축하려면 OVA 템플릿 
 다음 단계를 수행하십시오.
 
 .단계
-. 에서 OVA 파일을 다운로드합니다 https://[] VMware vSphere 시스템에 저장합니다.
+. 에서 OVA 파일을 다운로드합니다 https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[] VMware vSphere 시스템에 저장합니다.
 . VMware vSphere 시스템에서 * VMS and Templates * 보기로 이동합니다.
 . 가상 머신(VM) 또는 데이터 센터에 필요한 폴더를 마우스 오른쪽 버튼으로 클릭하고 * Deploy OVF Template * 을 선택합니다.
 . Deploy OVF Template * 마법사의_Step 1_에서 * Select 및 OVF template * 을 클릭하여 다운로드한 파일을 선택합니다 `KeystoneCollector-latest.ova` 파일.
@@ -32,7 +32,7 @@ VMware vSphere 시스템에 Keystone Collector를 구축하려면 OVA 템플릿 
 . 4단계: 세부 정보 검토 _ 에서 OVA 파일의 정확성 및 신뢰성을 확인합니다. 제품 이름은 _NetApp Keystone Collector_로 표시되어야 합니다.image:ova-deploy.png["OVA UI"]vCenter는 OVA 파일 내용의 무결성을 검증하고 OVA 파일에 포함된 파일에 대해 유효한 코드 서명 다이제스트가 제공되는지 확인합니다. 그러나 코드 서명 인증서의 진위 여부를 확인하지 않습니다. 무결성을 확인하려면 전체 서명 다이제스트 인증서를 다운로드하여 Keystone에서 게시한 공개 인증서에 대해 확인해야 합니다. 다음 단계를 수행하십시오.
 +
 .. 전체 서명 다이제스트 인증서를 다운로드하려면 * Publisher * 링크를 클릭하십시오.
-.. Keystone Billing_public 인증서 다운로드: https://[].
+.. Keystone Billing_public 인증서 다운로드: https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem[].
 .. OpenSSL을 사용하여 공개 인증서에 대한 OVA 서명 인증서의 신뢰성을 확인하십시오.
 `openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
 
