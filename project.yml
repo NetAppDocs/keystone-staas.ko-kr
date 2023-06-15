@@ -25,7 +25,7 @@ sidebar:
         url: "/installation/linux-prereqs.html"
       - title: ONTAP 및 StorageGRID에 대한 특정 필수 구성 요소입니다
         url: "/installation/addl-req.html"
-    - title: 설치 절차
+    - title: Keystone Collector를 설치합니다
       entries:
       - title: VMware vSphere 구축
         url: "/installation/vapp-installation.html"
@@ -157,7 +157,7 @@ homepage:
       url: "/concepts/uscs.html"
   - title: 자세히 알아보십시오
     links:
-    - title: 유연한 Keystone 구독
+    - title: Keystone 구독 버전 1(이전, Keystone Flex 구독)
       url: https://docs.netapp.com/us-en/keystone/
     - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html

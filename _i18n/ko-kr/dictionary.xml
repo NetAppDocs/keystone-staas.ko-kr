@@ -363,7 +363,6 @@
   <block id="a7c5201b644834daf4816d3080e93837" category="sidebar">지원 팀 파악(Keystone GSSC)</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">미국 시민 지원</block>
   <block id="f0411ca83e625da2c18b5f0c0682bd93" category="sidebar">자세히 알아보십시오</block>
-  <block id="a47bcecd4f4a1f89ad4e82bca88975ab" category="sidebar">유연한 Keystone 구독</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
   <block id="352a60ab05e46c12f3319134b5ec7ee2" category="paragraph">서비스 수준에 대한 자세한 내용은 을 참조하십시오 <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>.</block>
   <block id="6dd7fd4aac069a06bec3ae24a6b1b39b" category="paragraph">Keystone에서 지원되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>.</block>
@@ -675,14 +674,12 @@
   <block id="5636c5e292ad15c979ccdf35d4ddd63f" category="paragraph">VMware vSphere 시스템에 Keystone Collector를 구축하려면 OVA 템플릿 다운로드, * Deploy OVF Template * 마법사를 사용하여 템플릿 구축, 인증서 무결성 확인, VM 준비 상태 확인이 포함됩니다.</block>
   <block id="9f42f344107d0334c53b7214197ab946" category="section-title">OVA 템플릿 배포</block>
   <block id="deadee5e2cfce7600cfd5def40a7d618" category="paragraph">다음 단계를 수행하십시오.</block>
-  <block id="333f303d3da33179663a76488da72b3b" category="list-text">에서 OVA 파일을 다운로드합니다<block ref="c28508f3358b4bad6b96fa0b8de677a2" category="inline-link-rx"></block> VMware vSphere 시스템에 저장합니다.</block>
   <block id="2cea028d7f417e050d146ae4d5405601" category="list-text">VMware vSphere 시스템에서 * VMS and Templates * 보기로 이동합니다.</block>
   <block id="00b73a9cfc6c889062282db720dc980a" category="list-text">가상 머신(VM) 또는 데이터 센터에 필요한 폴더를 마우스 오른쪽 버튼으로 클릭하고 * Deploy OVF Template * 을 선택합니다.</block>
   <block id="9a87285999e76f01064e09d4163dacb4" category="list-text">Deploy OVF Template * 마법사의_Step 1_에서 * Select 및 OVF template * 을 클릭하여 다운로드한 파일을 선택합니다<block ref="10e7fe8d7233c9952d9060893052d234" prefix=" " category="inline-code"></block> 파일.</block>
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">2단계_에서 VM 이름을 지정하고 VM 폴더를 선택합니다.</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">3단계_에서 VM을 실행하는 데 필요한 컴퓨팅 리소스를 지정합니다.</block>
   <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">전체 서명 다이제스트 인증서를 다운로드하려면 * Publisher * 링크를 클릭하십시오.</block>
-  <block id="79aa6ff54605af89e06167728f22a5af" category="list-text">Keystone Billing_public 인증서 다운로드:<block ref="ed42a04573e7bc8bae44a0216f31177e" category="inline-link-rx"></block>.</block>
   <block id="250e025c960accde58851d9cba806aa4" category="list-text">OpenSSL을 사용하여 공개 인증서에 대한 OVA 서명 인증서의 신뢰성을 확인하십시오.<block ref="d67907543fcf70f6dfbc7d1139240042" prefix=" " category="inline-code"></block></block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">Deploy OVF Template * 마법사의_5단계에서 VM 저장 위치를 지정합니다.</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">7단계 사용자 정의 템플릿 _ 에서 admin 사용자 계정의 초기 네트워크 주소와 암호를 지정합니다.</block>
@@ -717,7 +714,6 @@
   <block id="e5e7352eac1aab74c62e3fb3c13c93eb" category="sidebar">Keystone 수집기란</block>
   <block id="d495047561c1a08074d3afeeb5b5d172" category="sidebar">VMware vSphere 사전 요구 사항</block>
   <block id="634b2ff9559aed00b394d1ea933e1865" category="sidebar">Linux 필수 구성 요소</block>
-  <block id="2ae485aa3ac00a7ebfcd427dc2f82aa4" category="sidebar">설치 절차</block>
   <block id="e1963f69cecc9ae42f0776dbde80b970" category="sidebar">VMware vSphere 구축</block>
   <block id="1f331fee3a3f66a9a0cc8b4298329656" category="sidebar">Linux 설치</block>
   <block id="5f263121a32bf1557841d7fe819ad1e8" category="sidebar">자동 무결성 검증</block>
@@ -784,7 +780,6 @@
   <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Keystone이 수집하는 사용자 데이터의 유형</block>
   <block id="d980f7fd4d1a571450a5dfb6e21c1ca0" category="paragraph">Keystone은 Keystone ONTAP 및 Keystone StoragGRID 구독에 대한 구성, 상태 및 사용 정보를 수집합니다. 또한 Keystone 수집기에서 옵션이 활성화된 경우 ONTAP에 대한 성능 데이터를 수집할 수 있습니다.</block>
   <block id="e14f2b2670997486a2e4f3918cbe9cb6" category="section-title">ONTAP 데이터 수집</block>
-  <block id="fb81e227d7ec41942ad20d4497532f70" category="example-title">ONTAP에 대해 수집된 사용량 데이터</block>
   <block id="4752622b9e77aa409c0f10beb0726f74" category="paragraph">다음 목록은 ONTAP에 대해 수집된 용량 소비 데이터의 대표적인 예입니다.</block>
   <block id="9b99bf7d2bfd4b09363304c166832734" category="list-text">클러스터</block>
   <block id="9167f44e96ef14493eb91fa385a1b03a" category="list-text">클러스터 이름</block>
@@ -850,7 +845,6 @@
   <block id="650be61892bf690026089544abbd9d26" category="list-text">모드를 선택합니다</block>
   <block id="a38399fd05eed54a30356063875ba5c7" category="list-text">Active IQ Unified Manager API 종점이 쿼리되었습니다</block>
   <block id="81631db9933f83ee6511c56a7577d112" category="list-text">AIQUMInstance IP(AIQUMInstance IP)</block>
-  <block id="101f4a88b595ebd0ef997252c9f00966" category="example-title">ONTAP에 대해 수집된 성능 데이터</block>
   <block id="06b0dd42b36609a32d1b4e237ca0b021" category="paragraph">다음 목록은 ONTAP에 대해 수집된 성능 데이터의 대표적인 예입니다.</block>
   <block id="878efc5de6def52e25be6f622fb5a7ee" category="list-text">클러스터 UUID</block>
   <block id="8b3f98ef5143f8196aca53b61aeccebd" category="list-text">ObjectID입니다</block>
@@ -893,7 +887,6 @@
   <block id="973a9795a80306129b19cf9ac732cadc" category="list-text">스토리지 LUN 이름입니다</block>
   <block id="6519cc2cb2093a31c9e2c21cd389d7b6" category="list-text">RemoteClusterName(원격 클러스터 이름)</block>
   <block id="8a5466dffc1fb3688afcf85af44acae0" category="section-title">StorageGRID 데이터 수집</block>
-  <block id="e4045be0afd459dcae607006e83ba4cb" category="example-title">StorageGRID에 대해 수집된 사용량 데이터</block>
   <block id="ead7f826444254c9fd18d42967aa1bdf" category="paragraph">다음 목록은 의 대표적인 예입니다<block ref="655d716c75a0a3e6c9b4eb8987013918" prefix=" " category="inline-code"></block> StorageGRID를 위해 수집:</block>
   <block id="4b6e9c25ecc55504ebb330411f41421a" category="list-text">StorageGRID ID입니다</block>
   <block id="351a2eb8764e19b9e565e8a355469e70" category="list-text">계정 ID입니다</block>
@@ -1012,11 +1005,9 @@
   <block id="393e226f044ba6b817b81de6d94e7276" category="admonition">현재 사용량 *, * 현재 버스트 * 및 * 누적 버스트 * 표시기는 구독의 청구 기간과 관련된 소비를 결정하며 쿼리의 날짜 범위를 기반으로 하지 않습니다.</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="section-title">시스템 세부 정보를 봅니다</block>
   <block id="819abf779095094c4f296a2f1911a333" category="paragraph">시스템 세부 정보 * 탭에서 ONTAP의 볼륨 사용 및 기타 세부 정보를 볼 수 있습니다. StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드 및 개별 사용량이 표시됩니다.</block>
-  <block id="7fdbc37a63f55a7bf94c4f7eee9fbbb6" category="example-title">&lt;strong&gt; ONTAP 볼륨 세부 정보 &lt;/strong&gt;</block>
   <block id="6f7e564e5f841331ad117d7eb3b3ae10" category="paragraph">ONTAP의 경우 * 시스템 세부 정보 * 탭은 Keystone 가입이 관리하는 스토리지 환경 내 볼륨의 용량 사용, 볼륨 유형, 클러스터, 애그리게이트, 서비스 레벨 등의 정보를 표시합니다.</block>
   <block id="d2c1241be04ae4d70013755a80c6cbd2" category="list-text">시스템 세부 정보 * 탭을 클릭합니다.</block>
   <block id="ccdbd07a063ad5631511d37c5d2f5a36" category="list-text">가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다.</block>
-  <block id="8b315ff987c2e0cfd5650f23e5464623" category="example-title">&lt;strong&gt; StorageGRID 노드 및 소비 세부 정보 &lt;/strong&gt;</block>
   <block id="45cbe8d46cd75aedbf971e2391199759" category="paragraph">StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드에 대한 물리적 사용량이 표시됩니다.</block>
   <block id="4305e9b17980561df3c63a75f32b2075" category="list-text">가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다. 구독 번호를 선택하면 객체 스토리지 세부 정보에 대한 링크가 활성화됩니다.</block>
   <block id="d599237a38a37deabe01bd34298be802" category="list-text">링크를 클릭하여 각 노드의 노드 이름과 물리적 사용 정보를 확인합니다.</block>
@@ -1079,8 +1070,6 @@
   <block id="83358b34b4abb7dcc8940f33dbf53bee" category="paragraph"><block ref="83358b34b4abb7dcc8940f33dbf53bee" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b7d00c952bfb58048323cc58b966f1a0" category="paragraph"><block ref="b7d00c952bfb58048323cc58b966f1a0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="305955a2ac717f15ce5b0f0a3abc280a" category="paragraph"><block ref="305955a2ac717f15ce5b0f0a3abc280a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="260df4711332c71713eaccd137544035" category="inline-image-macro">OVA UI</block>
-  <block id="755b21da384cfa7a50f9dd463bb59495" category="list-text">4단계: 세부 정보 검토 _ 에서 OVA 파일의 정확성 및 신뢰성을 확인합니다. 제품 이름은 _NetApp Keystone Collector_로 표시되어야 합니다.<block ref="1ff64d23a057ee58e587c113040b4ea5" category="inline-image-macro-rx" type="image"></block>vCenter는 OVA 파일 내용의 무결성을 검증하고 OVA 파일에 포함된 파일에 대해 유효한 코드 서명 다이제스트가 제공되는지 확인합니다. 그러나 코드 서명 인증서의 진위 여부를 확인하지 않습니다. 무결성을 확인하려면 전체 서명 다이제스트 인증서를 다운로드하여 Keystone에서 게시한 공개 인증서에 대해 확인해야 합니다. 다음 단계를 수행하십시오.</block>
   <block id="3a1e055c606dddb7ffa7ea4aa739f762" category="list-text">6단계_에서 VM이 사용할 대상 네트워크를 선택합니다.</block>
   <block id="77c3a99746e93de71f55722d8f5802d8" category="paragraph">OVA를 통해 구축된 Keystone Collector 서버의 초기 구성을 위해 VMware vSphere 시스템에서 다음 단계를 수행합니다.</block>
   <block id="02b9a7808a83ccb6ba15cb4854eba098" category="list-text">Keystone Collector 서버에 대한 SSH 세션을 엽니다. 로그인 시 TUI가 나타납니다. 또는 를 실행하여 TUI를 수동으로 실행할 수 있습니다<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLI 명령:</block>
@@ -1187,4 +1176,32 @@
   <block id="c5353e1a31b3a925fabe61c02b5bfc5e" category="paragraph"><block ref="c5353e1a31b3a925fabe61c02b5bfc5e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e34cff1dbe58bcff4567c9224e5370c6" category="list-text">* 종료일 *: 가입 종료 날짜. 날짜가 비어 있으면 구독에 종료 날짜가 없으며 자동으로 갱신됩니다. 이 날짜를 기준으로 만료가 임박한 구독 또는 자동 갱신 정책이 연결된 구독에 대한 정보 메시지가 표시될 수 있습니다.</block>
   <block id="85701aafc47f53d769db3988637e595c" category="admonition">빈 차트는 해당 데이터 수집 지점에 사용자 환경에서 사용할 수 있는 데이터가 없음을 나타냅니다.</block>
+  <block id="885a7272db12515ccb176ecc5739bfc0" category="inline-link">NetApp Keystone 설명서</block>
+  <block id="2aff714660911e754b718f59da053651" category="list-text">* 사용 유형 *: 여러 Keystone(버전 1) 또는 Keystone STaaS(버전 2) 구독했을 수 있습니다. 서비스 수준에 대한 요금 계획 규칙은 두 가지 구독 유형에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량에 따라 청구되는지 아니면 논리적 사용량에 따라 청구되는지 알 수 있습니다<block ref="6654c734ccab8f440ff0825eb443dc7f" prefix=" " category="inline-code"></block> 또는<block ref="1b267619c4812cc46ee281747884ca50" prefix=" " category="inline-code"></block>. Keystone 가입 버전 1에 대한 자세한 내용은 을 참조하십시오<block ref="04786649a4dbcc1655013fc588bcc7d4" category="inline-link-rx"></block>.</block>
+  <block id="382af8e8b2bf82c4df59a255786526a2" category="section-title">ONTAP 볼륨 세부 정보입니다</block>
+  <block id="936ccdb97115e9f35a11d35e3d5b5cad" category="example-title">여기를 클릭하십시오</block>
+  <block id="fc33c921eada2f71b3a548355734f006" category="section-title">StorageGRID 노드 및 소비 세부 정보</block>
+  <block id="248ee1b5c36074ad26f09b9a95a55dca" category="admonition">단일 서비스 수준 또는 요금제에 가입한 경우 비준수 볼륨에 대한 알림을 볼 수 없습니다.</block>
+  <block id="136b0008f17d90b606be2c19f82e3657" category="paragraph">구독은 여러 요금 계획을 가질 수 있으며 각 요금제는 서비스 수준에 해당합니다. 각 요금제에는 서비스 수준별로 약정 용량이 있습니다.</block>
+  <block id="08bc9c47f9116aac1e5b09b002ef9baa" category="example-title">ONTAP에 대해 수집된 &lt;strong&gt; 사용 데이터: 여기를 클릭 &lt;/strong&gt;</block>
+  <block id="4f578190261ed45b509224c2edf739f1" category="example-title">ONTAP에 대해 수집된 &lt;strong&gt; 성능 데이터: 여기를 클릭 &lt;/strong&gt;</block>
+  <block id="cd390c72a9953eea426540df402531d8" category="example-title">개인 데이터 액세스를 제한하는 데 제거된 항목의 &lt;strong&gt; 목록: 여기를 클릭 &lt;/strong&gt;</block>
+  <block id="d46219faf19708f0ca1ed17c243f5cf3" category="example-title">StorageGRID에 대해 수집된 &lt;strong&gt; 사용 데이터: 여기를 클릭 &lt;/strong&gt;</block>
+  <block id="c2e2fce3a995f59900d7afbbe58683f5" category="inline-link">이 링크</block>
+  <block id="7656f92cecd653f72ca596d6def21867" category="list-text">에서 OVA 파일을 다운로드합니다<block ref="6a1066e952a937beb3c2b32013fd7738" category="inline-link-rx"></block> VMware vSphere 시스템에 저장합니다.</block>
+  <block id="6948cdf9e6c5bdc7d80925f15f8f873e" category="list-text">4단계: 세부 정보 검토 _ 에서 OVA 파일의 정확성 및 신뢰성을 확인합니다.
+7.0u2 이전의 vCenter 버전에서는 코드 서명 인증서의 신뢰성을 자동으로 확인할 수 없습니다. vCenter 7.0u2 이상에서는 검증을 수행할 수 있지만, 이 경우 서명 인증 기관을 vCenter에 추가해야 합니다. 사용 중인 vCenter 버전에 대해 다음 지침을 따르십시오.</block>
+  <block id="dca8969f962acd76587a818d56d8c5f7" category="example-title">vCenter 7.0u1 이하: 여기를 클릭하십시오</block>
+  <block id="8b6cfff06473c4cd5cde3fa4ab929f0a" category="paragraph">vCenter는 OVA 파일 내용의 무결성을 검증하고 OVA 파일에 포함된 파일에 대해 유효한 코드 서명 다이제스트가 제공되는지 확인합니다. 그러나 코드 서명 인증서의 진위 여부를 확인하지 않습니다. 무결성을 확인하려면 전체 서명 다이제스트 인증서를 다운로드하여 Keystone에서 게시한 공개 인증서에 대해 확인해야 합니다.</block>
+  <block id="347aea822a41d615267a1a09f727c32d" category="list-text">에서 _Keystone Billing_public 인증서를 다운로드하십시오<block ref="f8a06e82c439e6817414e7a6871c3ab6" category="inline-link-rx"></block>.</block>
+  <block id="b9fe920b385d36c5f104da8b5485cfd8" category="example-title">vCenter 7.0u2 이상: 여기를 클릭하십시오</block>
+  <block id="45c3e42547d79b15a504fc354a5ea227" category="paragraph">7.0u2 이상의 vCenter 버전은 유효한 코드 서명 다이제스트가 제공된 경우 OVA 파일 내용의 무결성 및 코드 서명 인증서의 신뢰성을 검증할 수 있습니다. vCenter 루트 트러스트 저장소에는 VMware 인증서만 포함되어 있습니다. NetApp는 Entrust를 인증 기관으로 사용하며, 이러한 인증서를 vCenter 신뢰 저장소에 추가해야 합니다.</block>
+  <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">여기</block>
+  <block id="7761f250d7d1edab3e627d211af402ab" category="list-text">Entrust에서 코드 서명 CA 인증서를 다운로드합니다<block ref="d94e6f5bcf8381faff13e5c4999eb265" category="inline-link-rx"></block>.</block>
+  <block id="f35abf22d965c5c506fba6f9273a2895" category="list-text">의 단계를 따릅니다<block ref="b5a4b64b2aa505bd7c11f79b8a9f458d" prefix=" " category="inline-code"></block> 이 기술 자료(KB) 문서의 섹션:<block ref="2e578ca4f24dfc2cfe15357800b939d4" category="inline-link-rx"></block>.</block>
+  <block id="6db4d1fb4f168710dad43e921e4fec52" category="inline-image-macro">확인된 인증서를 표시하는 OVA UI</block>
+  <block id="ba20b958dd73f9247c3247dbef41c8d4" category="paragraph">Keystone Collector OVA의 무결성 및 신뢰성이 검증되면 텍스트를 볼 수 있습니다<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 퍼블리셔와 함께 합니다.
+<block ref="de3bc771b0100381aa743c5ecbd3a7df" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1f5e8b836d490bee65ada2e551662a8f" category="sidebar">Keystone Collector를 설치합니다</block>
+  <block id="da152509ccdb6d6b167f659fc63ed210" category="sidebar">Keystone 구독 버전 1(이전, Keystone Flex 구독)</block>
 </blocks>
