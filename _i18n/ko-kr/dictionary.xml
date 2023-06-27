@@ -177,7 +177,6 @@
   <block id="2e36da56dea864a88d8bfe77e37ce8ce" category="section-title">모니터링 도구</block>
   <block id="6961b64b96800d43e0da115e9763a226" category="paragraph">Keystone 고객 운영 서비스에서는 스토리지 인프라 및 모니터링 툴이 사이트에 설치됩니다. 스토리지 인프라는 초기 주문을 지원하는 데 필요한 스토리지 하드웨어와 나중에 더 많은 스토리지를 주문할 수 있는 용량 할당으로 구성됩니다.</block>
   <block id="ae031eb46bb3af9ef59c200e318f13e4" category="paragraph">스토리지 장비 외에도 스토리지 및 소비 모니터링을 위해 2개의 모니터링 툴이 프로비저닝됩니다.</block>
-  <block id="8ef6698c4c0c28e13ff87fec7e5388eb" category="summary">고급 데이터 보호</block>
   <block id="c575a20db4934726a8fadd53d81a0c98" category="inline-link-macro">Keystone의 서비스 수준</block>
   <block id="7f4d4fbe08a8a895671d05c4a82b0c85" category="inline-link-macro">MetroCluster 문서</block>
   <block id="b21152b7b912739b58060e9f661767eb" category="list-text">스토리지는 소스 및 대상 클러스터 모두에 대해 비용이 청구됩니다. 이 애드온 서비스는 운영 및 2차(미러링된) 볼륨 모두에 대해 비용이 청구됩니다.</block>
@@ -474,11 +473,9 @@
   <block id="4dc2830ae7b31704bf74b200d5350dea" category="paragraph">이 섹션에는 사용자 환경에서 NetApp Keystone STaaS 서비스를 지원하는 데 필요한 구성 요소가 나열되어 있습니다.</block>
   <block id="d9a2f9a8831ac707c49715a960ba187b" category="paragraph">NetApp Keystone STaaS를 통해 스토리지 구독에 대한 예측 가능하고 사전 가격이 제공됩니다.</block>
   <block id="0da0fcb34ab6233293608a6a36f3a615" category="paragraph">Keystone 가입이 요금 계획과 관련이 있습니다. 단일 구독에 여러 요금 계획이 첨부될 수 있습니다.</block>
-  <block id="54695ebc80c3da92b703e05eb198d2e8" category="paragraph">Keystone STaaS 서브스크립션의 일부로 고급 데이터 보호 애드온 서비스를 구독할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 제로 RPO(복구 시점 목표)에서 미션 크리티컬 워크로드에 대한 효율적인 데이터 보호를 보장합니다.</block>
   <block id="a0a3d7ac5998dcdf5286d5aa1997225c" category="admonition">파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스는 SnapMirror, SnapVault, Snapshot과 같은 NetApp 기술을 활용하여 기본 데이터 보호 서비스를 제공합니다.</block>
   <block id="4a313a9affe19522ce794cef41abbe6f" category="paragraph">표준 및 클라우드 서비스에 대한 자세한 내용은 을 참조하십시오 <block ref="32999c765ee523f7718a7908120f4502" category="inline-link-macro-rx"></block>.</block>
   <block id="4d194848bc2fab0aa3d23867126f7f3c" category="list-text">이 서비스의 경우 연결된 스토리지에서 커밋된 용량의 100%가 커밋된 용량으로 구성됩니다.</block>
-  <block id="3bed866597de0e328e69ae5fc7a77800" category="list-text">요금은 파일 및 블록 스토리지에만 적용됩니다. 지원되는 MetroCluster 시나리오는 다음과 같습니다.</block>
   <block id="5ad44de5caf375074e7467a13558fc7e" category="paragraph">Keystone(NetApp Keystone) 청구는 Keystone 가입 시 제공되는 용량을 기반으로 합니다.</block>
   <block id="659758cbadfbaf62f8c0cdaf453308f1" category="paragraph">약정 용량은 가입을 구매하는 동안 특정 서비스 수준에 대해 확정된 용량입니다. 약정 용량은 귀하와 NetApp/파트너가 수락한 단일 가입에서 다양한 서비스 수준에 대한 총 용량이 될 수 있습니다. 이 용량은 실제 용량 소비에 관계없이 각 Keystone 주문에 명시되어 있으며 청구됩니다.</block>
   <block id="86ba425a7f98b24ee3070233e0aabfd1" category="doc">Keystone STaaS 서비스에서 지원되는 스토리지</block>
@@ -728,7 +725,6 @@
   <block id="89fb8980c16c92d28af72e0579cfac9c" category="summary">Keystone 구독 보고서 및 그래프</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="doc">Keystone 구독 대시보드 및 리포팅</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="inline-link">NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다</block>
-  <block id="016b01bead3857be9fd51bfef49b23aa" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드와 보고서에 최대 소수점 이하 두 자리까지 TiB에 표시됩니다. 사용률이 0.01TiB 미만이면 값이 0 또는 로 표시됩니다<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 기타 사용량 메트릭은 를 참조하십시오 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>.</block>
   <block id="b3c0ed0e576799a24c9e0fda06bee006" category="section-title">구독 세부 정보를 봅니다</block>
   <block id="b5d0d2658bdd7db17a2251c2d1fa6edb" category="paragraph">계정 이름에 대한 모든 구독은 * 가입 세부 정보 * 탭에서 확인할 수 있습니다.</block>
   <block id="60d8073bb007efeabf44bc4eea759210" category="paragraph">각 구독 번호에 대해 다음 정보를 확인할 수 있습니다.</block>
@@ -757,7 +753,6 @@
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">* 문제 설명 *: Keystone 수집기는 사용량 측정 시스템의 일부로 다수의 컨테이너를 실행합니다. Red Hat Enterprise Linux 8.x 서버가 ISA(USA Defense Information Systems Agency) STIG(Security Technical Implementation Guides) 정책으로 강화되면, flapolicyd(File Access Policy Daemon)와 관련된 알려진 문제가 간헐적으로 나타납니다. 이 문제는 로 식별됩니다 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>. * 해결 방법 *: Red Hat Enterprise가 해결될 때까지 NetApp은 이 문제를 해결해 드립니다<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 허용 모드로 전환합니다. 인치 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>에서 값을 설정합니다<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>.</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
   <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
-  <block id="e41d7b27749843cacc5b63d577d05563" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>.</block>
   <block id="e88f55d6b9c231a5c6bcae698bdfd7dc" category="list-text">* vserver *: SVM 또는 스토리지 VM(스토리지 가상 머신)의 이름입니다.</block>
   <block id="83968617de22b9218018ccb02b138d69" category="paragraph">IO 밀도에 대한 자세한 내용은 을 참조하십시오 <block ref="3ce2bf0236919e451c90f574367e80ae" category="inline-link-macro-rx"></block>. AQoS 정책 그룹에 대한 자세한 내용은 을 참조하십시오<block ref="e1f6c27c218a9f9df79e5c49fb7040d6" category="inline-link-rx"></block>.</block>
   <block id="d1dc13c797f457ef0f8af6fba8c638fa" category="paragraph">프리미엄 서비스 수준에 대한 설정 및 명령:</block>
@@ -1113,7 +1108,6 @@
   <block id="14d0dc302a669d6a99952e49afc7861a" category="list-text">* Peak IOPS allocation *: 이 매개변수는 볼륨에서 사용 가능한 피크 IOPS가 볼륨의 할당 또는 사용된 크기를 기준으로 하는지 여부를 제어합니다. Keystone에서 이는 사용된 공간을 기반으로 합니다.</block>
   <block id="783d230c76cf1ff0dfbc8c98d7a8b01c" category="paragraph">Keystone STaaS는 구독 기반의 사전 정의된 성능 서비스 수준(서비스 수준)으로 데이터 스토리지 용량을 제공합니다. Keystone 서비스로 관리되는 각 볼륨은 서비스 수준과 연결되어 있습니다.</block>
   <block id="4d5ef2163c192509afec8de9ab79da82" category="paragraph">각 서비스 수준은 I/O 밀도, 즉 IOPS/TiB/볼륨으로 정의됩니다. 볼륨당 평균 지연 시간에서 IOPS/TiB인 성능(IOPS/출력 작업/IOPS) 및 사용된 스토리지 용량(TiB)의 비율입니다.</block>
-  <block id="46d655df10f0a99ca8d68059cbb399d8" category="paragraph">지원되는 스토리지 유형, 파일, 블록, 오브젝트 및 클라우드 서비스의 서비스 수준이 여기에 나와 있습니다.</block>
   <block id="c5164a8ba9242ffd5faec20d25175dbe" category="section-title">파일 및 블록 스토리지의 서비스 레벨</block>
   <block id="55b9320c8c3c184ea9542aa4a82ecd70" category="cell">* 볼륨당 할당된 최대 IOPS/논리적 GB *</block>
   <block id="2951c92ac7129eb5950ee23f07140f99" category="cell">* 32K B/S * 에서 볼륨당 저장된 최대 MBps/논리적 TiB</block>
@@ -1123,7 +1117,6 @@
   <block id="f43c7285b135d5fc56405612d8c6e970" category="cell">17ms</block>
   <block id="d6b228a8ed209a51c109dc08e1f357ce" category="cell">* 블록 크기 *</block>
   <block id="333ed6369ef878defe6b851fcb7a250f" category="section-title">파일 및 블록 스토리지의 서비스 수준 자세히 보기</block>
-  <block id="c4701e06633afc0b1161fbc6049cc803" category="paragraph">서비스 수준 메트릭은 다음 조건에 따라 달라집니다.</block>
   <block id="210b39d4b6b8c3231fc8e5027adff975" category="list-text">파일 및 블록 스토리지의 서비스 수준은 ONTAP 9.7 이상을 지원합니다.</block>
   <block id="5d743a4a8a32b74983387e8966fc8dfd" category="list-text">서비스 수준의 IOPS/TiB/볼륨, MBps/TiB/볼륨 및 지연 시간은 볼륨에 저장된 데이터의 양, 32KB 블록 크기, 70% 읽기 및 30% 쓰기 IO 작업의 임의 조합을 기준으로 합니다.</block>
   <block id="1ce7cadb42fda63031710acdb1e36d13" category="list-text">실제 IOPS/TiB/볼륨 및 MBps/TiB/볼륨은 실제 또는 가정된 블록 크기, 시스템 워크로드 동시성 또는 입력 출력 작업에 따라 달라질 수 있습니다.</block>
@@ -1162,7 +1155,6 @@
   <block id="c146cff58b20f1e3ad6a2139acf308cc" category="paragraph"><block ref="c146cff58b20f1e3ad6a2139acf308cc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e8f49e2b6da7339d918b4030b299167c" category="admonition">쿼리의 날짜 범위를 기반으로 사용 차트는 30개의 데이터 수집 지점 범위로 표시됩니다.</block>
   <block id="793c1a98e090ba1b0f167e3a8b0c5b37" category="paragraph">볼륨 세부 정보가 표시됩니다. 열 머리글 옆에 있는 정보 아이콘 위에 마우스를 올려 놓으면 열을 스크롤하여 해당 열에 대해 자세히 알아볼 수 있습니다. 열을 기준으로 정렬하고 목록을 필터링하여 특정 정보를 볼 수 있습니다.</block>
-  <block id="8bb44c11261c5988fa7a0b17c52ecf8a" category="admonition">노드 계열 복사 * 버튼을 클릭하여 개별 노드 일련 번호를 복사할 수 있습니다.</block>
   <block id="0bb9d5f8cc89f1784aecd52a98b80f07" category="inline-image-macro">시스템 세부 정보 탭</block>
   <block id="8b672bec07d1efa43e526f4981ffb4e7" category="paragraph"><block ref="8b672bec07d1efa43e526f4981ffb4e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="71f95b1426db5071da237d6bf6575ce7" category="inline-image-macro">StorageGRID 팝업 창이 나타납니다</block>
@@ -1204,4 +1196,44 @@
 <block ref="de3bc771b0100381aa743c5ecbd3a7df" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f5e8b836d490bee65ada2e551662a8f" category="sidebar">Keystone Collector를 설치합니다</block>
   <block id="da152509ccdb6d6b167f659fc63ed210" category="sidebar">Keystone 구독 버전 1(이전, Keystone Flex 구독)</block>
+  <block id="f4797200b978e2cdf72d828512836645" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드 및 보고서의 TiB에 표시되며 소수점 이하 두 자리까지 반올림됩니다. 사용률이 0.01TiB 미만이면 값이 0 또는 로 표시됩니다<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 기타 사용량 메트릭은 를 참조하십시오 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>.</block>
+  <block id="2cee56420a8bf3ad373606551a8bc8bf" category="inline-link-macro">고급 데이터 보호를 위한 추가 정보</block>
+  <block id="526c2c9d422fdf2baef9369203b39c92" category="admonition">고급 데이터 보호 애드온 서비스에 가입한 경우 가입 번호에 대한 도구 설명을 클릭하여 MetroCluster 설정에서 파트너 가입의 추적 ID를 확인할 수 있습니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오 <block ref="f15f9282100c644cf5e8c3defc83d6f4" category="inline-link-macro-rx"></block>.</block>
+  <block id="42bebeddc58d2391cdbd55afc8071faa" category="paragraph">고급 데이터 보호 애드온 서비스에 가입한 경우 * 가입 시간 시리즈 * 탭에서 MetroCluster 파트너 사이트의 소비 데이터 분열을 볼 수 있습니다.</block>
+  <block id="3f20b3134627198be1e0ff879a88cd8f" category="inline-link-macro">고급 데이터 보호</block>
+  <block id="31983c33f891876ff7bcaee65805fde0" category="paragraph">고급 데이터 보호 추가 서비스에 대한 자세한 내용은 을 참조하십시오 <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block>.</block>
+  <block id="04db5afbef84567f5c1ef044a2971b66" category="paragraph">ONTAP 스토리지 환경의 클러스터가 MetroCluster 설정에 구성되어 있으면 Keystone 가입 소비 데이터가 동일한 시계열 차트로 분할되어 기본 서비스 수준에 대한 기본 및 미러 사이트의 소비를 표시합니다.</block>
+  <block id="569bc20a83ee79e720c8118dfd3197e4" category="admonition">소비 막대 차트는 기본 서비스 수준에 대해서만 분할됩니다. 고급 데이터 보호 추가 서비스(_Advanced Data-Protect_service 수준)의 경우 이 경계가 나타나지 않습니다.</block>
+  <block id="fb3cbb66357c55c4f429abc77ecde8bb" category="paragraph-title">고급 데이터 보호 서비스 레벨</block>
+  <block id="5d9e0154046c312de36f5dd604c13626" category="paragraph">고급 데이터 보호 서비스 수준의 경우 총 소비량은 파트너 사이트 간에 분할되며 각 파트너 사이트의 사용량은 별도의 구독으로 반영 및 청구됩니다. 즉, 기본 사이트의 구독과 미러 사이트의 구독이 각각 하나씩 포함됩니다. 따라서 * Subscription Time Series * 탭에서 기본 사이트의 구독 번호를 선택하면 고급 데이터 보호 추가 서비스 소비 차트에 기본 사이트에만 대한 개별 소비 상세 정보가 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 하기 때문에 각 사이트의 총 사용량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.</block>
+  <block id="dc22a90e0f32f2a7c39774489ee8fb79" category="admonition">구독 정보 * 탭의 구독 ID 옆에 있는 도구 설명을 통해 MetroCluster 설정에서 파트너 구독을 확인할 수 있습니다.</block>
+  <block id="c3c3060e985c56412fb0189a9c010a6d" category="paragraph-title">기본 서비스 레벨</block>
+  <block id="fe1654f1038a98c579f04107a47b091b" category="paragraph">기본 서비스 수준에서는 각 볼륨이 운영 사이트와 미러 사이트에서 프로비저닝된 것으로 충전되므로 운영 사이트와 미러 사이트의 사용량에 따라 동일한 막대 차트가 분할됩니다.</block>
+  <block id="65626369a820db5271fac7f41d059e93" category="paragraph-title">기본 구독에 대해 확인할 수 있는 사항</block>
+  <block id="6f66763d1fa17a342e4bfd7244527ffb" category="paragraph">다음 이미지는 _Extreme_service 레벨(기본 서비스 레벨) 및 기본 서브스크립션 번호에 대한 차트를 표시합니다. 동일한 시계열 차트는 1차 사이트에 사용되는 색상 코드의 밝은 음영으로 미러 사이트 소비를 표시합니다. 마우스 포인터의 도구 설명은 운영 사이트와 미러 사이트의 소비 브레이크업(TiB)을 각각 1.02TiB와 1.05TiB로 표시합니다.</block>
+  <block id="7cbd40b0470c3f0ea1063db9202530ff" category="inline-image-macro">MCC 기본</block>
+  <block id="69ee7237e9b9f659b4b0f2cee316a662" category="paragraph"><block ref="69ee7237e9b9f659b4b0f2cee316a662" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8aed2cb2a7e1e2ed4080282a23781e67" category="paragraph">고급 데이터 보호 서비스 수준의 경우 다음과 같은 차트가 나타납니다.</block>
+  <block id="4bb0adac0644b7c8396196d410d47909" category="inline-image-macro">MCC 기본 베이스</block>
+  <block id="252d078185bf1100894fa3aae110fb74" category="paragraph"><block ref="252d078185bf1100894fa3aae110fb74" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cd9124dc0715967bbbd4e31ad8a6f35d" category="paragraph-title">2차(미러 사이트) 구독에 대해 확인할 수 있는 사항</block>
+  <block id="de7e96b640e5109ff5e8bcbb7abf5849" category="paragraph">2차 구독을 확인하는 경우 파트너 사이트와 동일한 데이터 수집 지점에서 _Extreme_service 수준(기본 서비스 수준)의 막대 차트가 반전되고 1차 및 미러 사이트의 소비 중단은 각각 1.05TiB와 1.02TiB인 것을 확인할 수 있습니다.</block>
+  <block id="ff58d4e2d2a69e5e91f9509907ba3bd1" category="inline-image-macro">MCC 미러</block>
+  <block id="292d6b6f6df888f5de022ad6bebc7e52" category="paragraph"><block ref="292d6b6f6df888f5de022ad6bebc7e52" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="20222cfe14bec28299c2fc51ff2ec704" category="paragraph">고급 데이터 보호 서비스 수준의 경우 파트너 사이트와 동일한 컬렉션 지점에 대해 다음과 같은 차트가 나타납니다.</block>
+  <block id="ab682f0abbe8b97aaec76b435ca52575" category="inline-image-macro">MCC 미러 베이스</block>
+  <block id="c2294c5f58d4fff77fcc282af6601d4a" category="paragraph"><block ref="c2294c5f58d4fff77fcc282af6601d4a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="48d59ef93e565c1c62d4604f7ddf6561" category="inline-link">MetroCluster 데이터 보호 및 재해 복구 이해</block>
+  <block id="11faa60292999fe44e704021ce9a5657" category="paragraph">MetroCluster에서 데이터를 보호하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="f22c59fda71318ed939c4a5a7c90b447" category="inline-link-rx"></block>.</block>
+  <block id="af16b731bd6e35896b00c75d9acfb1d5" category="admonition">고급 데이터 보호 애드온 서비스의 경우 MetroCluster 구성에서 볼륨이 운영 볼륨인지 미러 볼륨인지를 나타내는 추가 열이 나타납니다. 노드 계열 복사 * 버튼을 클릭하여 개별 노드 일련 번호를 복사할 수 있습니다.</block>
+  <block id="815d49ae1d640489fc7d71580a9136fb" category="paragraph">Keystone STaaS 서브스크립션의 일부로 고급 데이터 보호 애드온 서비스를 구독할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 제로 RPO(복구 시점 목표)에서 미션 크리티컬 워크로드에 대한 효율적인 데이터 보호를 보장합니다.</block>
+  <block id="5d15d69b71166851acc9decce7574df8" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. 이 추가 서비스 의 일부인 를 참조하십시오<block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 서비스 수준이 구독에 할당되었습니다.
+ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>.</block>
+  <block id="a59ea5d7cacb8e29da18d9bb6da809c7" category="paragraph">MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="f15f9282100c644cf5e8c3defc83d6f4" category="inline-link-macro-rx"></block>.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
+  <block id="c2c11a830d011ece03d73534208897a1" category="list-text">요금은 파일 및 블록 스토리지에만 적용됩니다.</block>
+  <block id="3505917ad3d0afd6896fab28f67d309e" category="paragraph">지원되는 MetroCluster 시나리오는 다음과 같습니다.</block>
+  <block id="fd625bdcc192280e06814e4fa60837f3" category="paragraph">스토리지 환경, 스토리지 및 소비 요구사항에 따라 서비스 수준을 선택합니다. 기본적으로 기본 서비스 수준을 사용할 수 있습니다. 애드온 서비스를 선택한 경우 특정 서비스 수준을 이용할 수 있습니다. 예를 들어 고급 데이터 보호 추가 기능 서비스의 경우 _Advanced Data-Protect_service 레벨이 구독에 할당됩니다.</block>
+  <block id="725c798ca9f90c6a2a238988b14387a6" category="paragraph">지원되는 스토리지 유형, 파일, 블록, 오브젝트 및 클라우드 서비스의 기본 서비스 수준이 여기에 나와 있습니다.</block>
+  <block id="6839a21037309515ac19670a2a6b09fe" category="paragraph">기본 서비스 수준 메트릭은 다음 조건에 따라 달라집니다.</block>
 </blocks>
