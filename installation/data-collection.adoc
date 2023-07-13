@@ -20,7 +20,7 @@ Keystone은 Keystone ONTAP 및 Keystone StoragGRID 구독에 대한 구성, 상�
 
 == ONTAP 데이터 수집
 
-.ONTAP에 대해 수집된 <strong> 사용 데이터: 여기를 클릭 </strong>
+.ONTAP에 대해 수집된 <strong> 사용 데이터: 자세히 알아보기 </strong>
 [%collapsible]
 ====
 다음 목록은 ONTAP에 대해 수집된 용량 소비 데이터의 대표적인 예입니다.
@@ -198,7 +198,7 @@ Keystone은 Keystone ONTAP 및 Keystone StoragGRID 구독에 대한 구성, 상�
 
 
 ====
-.ONTAP에 대해 수집된 <strong> 성능 데이터: 여기를 클릭 </strong>
+.ONTAP를 위해 수집된 <strong> 성능 데이터: 자세히 알아보기 </strong>
 [%collapsible]
 ====
 다음 목록은 ONTAP에 대해 수집된 성능 데이터의 대표적인 예입니다.
@@ -247,7 +247,7 @@ Keystone은 Keystone ONTAP 및 Keystone StoragGRID 구독에 대한 구성, 상�
 
 
 ====
-.개인 데이터 액세스를 제한하는 데 제거된 항목의 <strong> 목록: 여기를 클릭 </strong>
+.<strong> 개인 데이터 액세스를 제한할 때 제거된 항목 목록: 자세한 내용 </strong>
 [%collapsible]
 ====
 Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 ONTAP에 대해 다음 사용 정보가 제거됩니다. 이 옵션은 기본적으로 활성화되어 있습니다.
@@ -275,7 +275,7 @@ Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 O
 
 == StorageGRID 데이터 수집
 
-.StorageGRID에 대해 수집된 <strong> 사용 데이터: 여기를 클릭 </strong>
+.StorageGRID에 대해 수집된 <strong> 사용 데이터: 자세히 알아보기 </strong>
 [%collapsible]
 ====
 다음 목록은 의 대표적인 예입니다 `Logical Data` StorageGRID를 위해 수집:
@@ -301,7 +301,7 @@ Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 O
 
 
 ====
-.개인 데이터 액세스를 제한하는 데 제거된 항목의 <strong> 목록: 여기를 클릭 </strong>
+.<strong> 개인 데이터 액세스를 제한할 때 제거된 항목 목록: 자세한 내용 </strong>
 [%collapsible]
 ====
 Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 StorageGRID에 대해 다음 사용 정보가 제거됩니다. 이 옵션은 기본적으로 활성화되어 있습니다.

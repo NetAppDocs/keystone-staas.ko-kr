@@ -726,23 +726,16 @@
   <block id="deaf5bbabe29231a9826b313fee569a1" category="doc">Keystone 구독 대시보드 및 리포팅</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="inline-link">NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다</block>
   <block id="b3c0ed0e576799a24c9e0fda06bee006" category="section-title">구독 세부 정보를 봅니다</block>
-  <block id="b5d0d2658bdd7db17a2251c2d1fa6edb" category="paragraph">계정 이름에 대한 모든 구독은 * 가입 세부 정보 * 탭에서 확인할 수 있습니다.</block>
-  <block id="60d8073bb007efeabf44bc4eea759210" category="paragraph">각 구독 번호에 대해 다음 정보를 확인할 수 있습니다.</block>
   <block id="8e43124ddee77b223f1e720973e147e7" category="list-text">* 구독 번호 *: NetApp에서 할당한 Keystone 가입 번호입니다.</block>
   <block id="f06c1648cc175308e5d0425681e31f63" category="list-text">* 추적 ID *: 가입 활성화 시 할당된 추적 ID입니다. 구독 추적에 사용되는 각 구독 및 사이트의 고유 ID입니다.</block>
-  <block id="3644820829d44e327e43dd95769b1686" category="list-text">* 청구 기간 *: 월, 분기 또는 연간과 같은 가입 청구 기간.</block>
   <block id="58ddac2ef16530986372a556eb9e6b7a" category="list-text">* 시작일 *: 가입일.</block>
-  <block id="83adb6d347afacf7d560a4bb6f74dfa1" category="list-text">* 사용 상태 *: 구독이 얼마나 많이 사용되었거나 초과 사용되었는지 나타냅니다. 최고 소비 레코드를 보려면 이 열을 기준으로 목록을 정렬할 수 있습니다.</block>
   <block id="736d5b3313fce2ba2126ffff61a7ec29" category="paragraph">다음 사용 표시기를 참조하여 각 구독의 사용 상태를 확인할 수 있습니다.</block>
   <block id="88fa71f0a6e0dfedbb46d91cc0b37a50" category="paragraph-title">색인</block>
-  <block id="a514224616890dbac3dede8f0d533add" category="paragraph">[가입 시간 시리즈 *] 탭은 특정 기간 동안 구독의 기록 데이터를 표시합니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.</block>
-  <block id="c46ba64e2bab36ac2ede95ae5f0692dc" category="list-text">[가입 시간 시리즈 *] 탭을 클릭합니다.</block>
   <block id="a49bb8de1f373a2c0821dd3715e2473c" category="list-text">세부 정보를 보려는 필수 구독을 선택합니다. 기본적으로 계정 이름의 첫 번째 구독이 선택됩니다.</block>
   <block id="35070e1c588eb56d935a4877ffdfdb10" category="paragraph">다음과 같은 세부 정보가 표시됩니다.</block>
   <block id="c3b2392317dad26eb62ae53f36697f5e" category="list-text">빨간색: 버스트 사용량(약정된 버스트 한도에 대한 약속된 용량의 100%)</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">보고서를 생성합니다</block>
   <block id="03051fbd458dd7625e7969d74dd74735" category="paragraph">세부 정보는 나중에 사용할 수 있도록 저장할 수 있는 CSV 형식으로 생성됩니다.</block>
-  <block id="3f564a49686a18ae09da9597e6538840" category="paragraph">그래픽 데이터가 변환되는 * Subscription Time Series * 탭의 샘플 보고서:</block>
   <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">알림을 봅니다</block>
   <block id="c71fcee7f813aa85774b9114dfba4ef1" category="paragraph">대시보드의 알림은 스토리지 환경에서 발생하는 문제를 파악할 수 있는 주의 메시지를 보냅니다.</block>
   <block id="903961eaa166cc0c38b735276961eb0c" category="paragraph">경고는 다음 두 가지 유형이 될 수 있습니다.</block>
@@ -983,8 +976,6 @@
   <block id="dab2edf9eaac3950e92c281ce358af01" category="sidebar">Active IQ Digital Advisor</block>
   <block id="8e7561ba1f78104b205962fa9d4b44a9" category="paragraph">Keystone 스토리지 서비스 및 관련 서비스 수준에 대한 자세한 내용은 를 참조하십시오 <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>.</block>
   <block id="9ff2c2d2ffe68a2a0862d38fe356318c" category="list-text">From Date * 및 * To Date * 필드의 달력 아이콘에서 시간 범위를 선택합니다. 기본 시간 범위는 청구 기간의 시작 날짜부터 현재 날짜까지입니다.</block>
-  <block id="8cdd8d8e55dfdcaf50118c634169eaf7" category="list-text">* 구독 세부 정보 *: 가입 시작 및 종료 날짜, 청구 기간(예: 분기별, 연간 등).</block>
-  <block id="12ed0205cd7410bc01e15e4b8a285019" category="list-text">* 사용 차트 *: 막대 차트는 날짜 범위에 대한 서비스 수준 이름 및 해당 서비스 수준에 대해 소비된 용량을 표시합니다. 컬렉션의 날짜 및 시간이 차트 아래쪽에 표시됩니다.</block>
   <block id="3a6ef8ff534dc5701b3936464bf23441" category="paragraph">막대 차트의 다음 색상은 서비스 수준 내에 정의된 사용된 용량을 나타냅니다.</block>
   <block id="19e499aa450e552c41a06bb0742085d6" category="list-text">녹색: 80% 이내</block>
   <block id="744f7cb6bd1aa9077ff244891a651e80" category="list-text">황색: 80% - 100%.</block>
@@ -1010,9 +1001,6 @@
   <block id="1aa4a8544fc94c7ce0ff8c9bc46bb523" category="paragraph">Active IQ 디지털 자문업체(디지털 자문업체) 대시보드는 NetApp Keystone 구독과 관련된 사용량을 모니터링하고 보고서를 생성하는 기능을 제공합니다. Keystone 서비스 가입 시 Digital Advisor 대시보드의 * Keystone 가입 * 위젯에서 구독 및 사용 세부 정보를 확인할 수 있습니다.</block>
   <block id="936acd8bca51b1c47ce51ce5d9e45134" category="admonition">여기에서 제공되는 정보는 ONTAP 및 StorageGRID 모두에 적용됩니다. 관련 섹션에서 예외가 지적되었습니다.</block>
   <block id="90022a4ed9f097be4671116b6b5b7754" category="paragraph">Keystone 디지털 자문 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="553d5c0a148912943ee201440d3b98c5" category="inline-link-rx"></block>.</block>
-  <block id="af23688fe47e4923ebd83f7238688630" category="paragraph">세부 정보를 보려면 다음 단계를 수행하십시오.</block>
-  <block id="e84dede1181b53e24bdf1d55508b83bf" category="list-text">Digital Advisor에서 위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 가입 * 페이지에서 볼륨에 대한 사용 세부 정보 및 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 &gt; Keystone 구독 * 으로 이동합니다.</block>
-  <block id="b49a48b1a3504debfe7fedab8ad4086d" category="paragraph">서브스크립션 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보는 * Keystone 가입 * 화면의 여러 탭에 표시됩니다.</block>
   <block id="de87c00cded561268b46fe5428fdd938" category="paragraph">이러한 주의 및 경고 메시지에 대한 자세한 내용은 NetApp 지원 팀에 문의하십시오. 서비스 요청 발생에 대한 자세한 내용은 을 참조하십시오 <block ref="1bf858345505311d2a0e9fcf6e1f42da" category="inline-link-macro-rx"></block>.</block>
   <block id="ed6736a84f4c19935077bc72bc043890" category="summary">NetApp Keystone은 클라우드 전반에서 스토리지 비용을 재할당할 수 있는 기능을 통해 온프레미스와 클라우드 데이터 스토리지 서비스 모두에 대한 용량제, 서비스형 스토리지 오퍼링입니다.</block>
   <block id="b18e0c0378b51052e0196f91f5db38bd" category="list-text">Keystone Collector 관리 TUI 유틸리티 시작:<block ref="7ef986487970dbcf0ed301b58d2828c9" prefix=" " category="inline-code"></block></block>
@@ -1138,9 +1126,6 @@
   <block id="41220b85d8467c5822466b54e2f77fdf" category="inline-image-macro">구독 세부 정보 탭</block>
   <block id="3863c999fd2904d6bd45c5fac0637857" category="paragraph"><block ref="3863c999fd2904d6bd45c5fac0637857" category="inline-image-macro-rx" type="image"></block></block>
   <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">아이콘을 클릭합니다</block>
-  <block id="f25b159b1158ec16d19a7bbad6cec289" category="list-text"><block ref="435e416487181a998706b8fd7ece7b01" category="inline-image-macro-rx" type="image"></block>: 이 아이콘을 클릭하면 이 구독에 포함된 각 서비스 수준의 사용 내역 데이터를 볼 수 있는 * 가입 시간 시리즈 * 탭이 열립니다</block>
-  <block id="0e25c249c47d5b9cd3933dea0b0e9bfb" category="paragraph">구독 레코드에 대한 아래쪽 화살표를 클릭하면 자세한 내용을 볼 수 있습니다. 서비스 수준 이름, 커밋됨, 소비됨, 사용 가능한 용량, 현재 및 계산된 버스트 사용률 등의 세부 정보는 TiB로 표시됩니다.</block>
-  <block id="3a6fffe4877ca42144b232cb74b25c92" category="admonition">더 높은 소비량을 기록하는 특정 서비스 수준이 강조 표시됩니다. 볼륨에 대해 생성된 경고와 알림을 볼 수도 있습니다.</block>
   <block id="c86f468c0d26a49f12de126ed6868cbe" category="paragraph"><block ref="c86f468c0d26a49f12de126ed6868cbe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="afcefd303655b7f65e49ebd8be60e0e7" category="inline-image-macro">회색 점 아이콘</block>
   <block id="c0ffa381f5b727ea5de2afacc2018783" category="inline-image-macro">녹색 점 아이콘</block>
@@ -1166,27 +1151,19 @@
   <block id="8546ab2b8d3bedbd693707d07fe7de14" category="paragraph"><block ref="8546ab2b8d3bedbd693707d07fe7de14" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7ed21143076d0cca420653d4345baa2f" category="inline-image-macro">경고</block>
   <block id="c5353e1a31b3a925fabe61c02b5bfc5e" category="paragraph"><block ref="c5353e1a31b3a925fabe61c02b5bfc5e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e34cff1dbe58bcff4567c9224e5370c6" category="list-text">* 종료일 *: 가입 종료 날짜. 날짜가 비어 있으면 구독에 종료 날짜가 없으며 자동으로 갱신됩니다. 이 날짜를 기준으로 만료가 임박한 구독 또는 자동 갱신 정책이 연결된 구독에 대한 정보 메시지가 표시될 수 있습니다.</block>
   <block id="85701aafc47f53d769db3988637e595c" category="admonition">빈 차트는 해당 데이터 수집 지점에 사용자 환경에서 사용할 수 있는 데이터가 없음을 나타냅니다.</block>
   <block id="885a7272db12515ccb176ecc5739bfc0" category="inline-link">NetApp Keystone 설명서</block>
   <block id="2aff714660911e754b718f59da053651" category="list-text">* 사용 유형 *: 여러 Keystone(버전 1) 또는 Keystone STaaS(버전 2) 구독했을 수 있습니다. 서비스 수준에 대한 요금 계획 규칙은 두 가지 구독 유형에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량에 따라 청구되는지 아니면 논리적 사용량에 따라 청구되는지 알 수 있습니다<block ref="6654c734ccab8f440ff0825eb443dc7f" prefix=" " category="inline-code"></block> 또는<block ref="1b267619c4812cc46ee281747884ca50" prefix=" " category="inline-code"></block>. Keystone 가입 버전 1에 대한 자세한 내용은 을 참조하십시오<block ref="04786649a4dbcc1655013fc588bcc7d4" category="inline-link-rx"></block>.</block>
   <block id="382af8e8b2bf82c4df59a255786526a2" category="section-title">ONTAP 볼륨 세부 정보입니다</block>
-  <block id="936ccdb97115e9f35a11d35e3d5b5cad" category="example-title">여기를 클릭하십시오</block>
   <block id="fc33c921eada2f71b3a548355734f006" category="section-title">StorageGRID 노드 및 소비 세부 정보</block>
   <block id="248ee1b5c36074ad26f09b9a95a55dca" category="admonition">단일 서비스 수준 또는 요금제에 가입한 경우 비준수 볼륨에 대한 알림을 볼 수 없습니다.</block>
   <block id="136b0008f17d90b606be2c19f82e3657" category="paragraph">구독은 여러 요금 계획을 가질 수 있으며 각 요금제는 서비스 수준에 해당합니다. 각 요금제에는 서비스 수준별로 약정 용량이 있습니다.</block>
-  <block id="08bc9c47f9116aac1e5b09b002ef9baa" category="example-title">ONTAP에 대해 수집된 &lt;strong&gt; 사용 데이터: 여기를 클릭 &lt;/strong&gt;</block>
-  <block id="4f578190261ed45b509224c2edf739f1" category="example-title">ONTAP에 대해 수집된 &lt;strong&gt; 성능 데이터: 여기를 클릭 &lt;/strong&gt;</block>
-  <block id="cd390c72a9953eea426540df402531d8" category="example-title">개인 데이터 액세스를 제한하는 데 제거된 항목의 &lt;strong&gt; 목록: 여기를 클릭 &lt;/strong&gt;</block>
-  <block id="d46219faf19708f0ca1ed17c243f5cf3" category="example-title">StorageGRID에 대해 수집된 &lt;strong&gt; 사용 데이터: 여기를 클릭 &lt;/strong&gt;</block>
   <block id="c2e2fce3a995f59900d7afbbe58683f5" category="inline-link">이 링크</block>
   <block id="7656f92cecd653f72ca596d6def21867" category="list-text">에서 OVA 파일을 다운로드합니다<block ref="6a1066e952a937beb3c2b32013fd7738" category="inline-link-rx"></block> VMware vSphere 시스템에 저장합니다.</block>
   <block id="6948cdf9e6c5bdc7d80925f15f8f873e" category="list-text">4단계: 세부 정보 검토 _ 에서 OVA 파일의 정확성 및 신뢰성을 확인합니다.
 7.0u2 이전의 vCenter 버전에서는 코드 서명 인증서의 신뢰성을 자동으로 확인할 수 없습니다. vCenter 7.0u2 이상에서는 검증을 수행할 수 있지만, 이 경우 서명 인증 기관을 vCenter에 추가해야 합니다. 사용 중인 vCenter 버전에 대해 다음 지침을 따르십시오.</block>
-  <block id="dca8969f962acd76587a818d56d8c5f7" category="example-title">vCenter 7.0u1 이하: 여기를 클릭하십시오</block>
   <block id="8b6cfff06473c4cd5cde3fa4ab929f0a" category="paragraph">vCenter는 OVA 파일 내용의 무결성을 검증하고 OVA 파일에 포함된 파일에 대해 유효한 코드 서명 다이제스트가 제공되는지 확인합니다. 그러나 코드 서명 인증서의 진위 여부를 확인하지 않습니다. 무결성을 확인하려면 전체 서명 다이제스트 인증서를 다운로드하여 Keystone에서 게시한 공개 인증서에 대해 확인해야 합니다.</block>
   <block id="347aea822a41d615267a1a09f727c32d" category="list-text">에서 _Keystone Billing_public 인증서를 다운로드하십시오<block ref="f8a06e82c439e6817414e7a6871c3ab6" category="inline-link-rx"></block>.</block>
-  <block id="b9fe920b385d36c5f104da8b5485cfd8" category="example-title">vCenter 7.0u2 이상: 여기를 클릭하십시오</block>
   <block id="45c3e42547d79b15a504fc354a5ea227" category="paragraph">7.0u2 이상의 vCenter 버전은 유효한 코드 서명 다이제스트가 제공된 경우 OVA 파일 내용의 무결성 및 코드 서명 인증서의 신뢰성을 검증할 수 있습니다. vCenter 루트 트러스트 저장소에는 VMware 인증서만 포함되어 있습니다. NetApp는 Entrust를 인증 기관으로 사용하며, 이러한 인증서를 vCenter 신뢰 저장소에 추가해야 합니다.</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">여기</block>
   <block id="7761f250d7d1edab3e627d211af402ab" category="list-text">Entrust에서 코드 서명 CA 인증서를 다운로드합니다<block ref="d94e6f5bcf8381faff13e5c4999eb265" category="inline-link-rx"></block>.</block>
@@ -1199,13 +1176,11 @@
   <block id="f4797200b978e2cdf72d828512836645" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드 및 보고서의 TiB에 표시되며 소수점 이하 두 자리까지 반올림됩니다. 사용률이 0.01TiB 미만이면 값이 0 또는 로 표시됩니다<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 기타 사용량 메트릭은 를 참조하십시오 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>.</block>
   <block id="2cee56420a8bf3ad373606551a8bc8bf" category="inline-link-macro">고급 데이터 보호를 위한 추가 정보</block>
   <block id="526c2c9d422fdf2baef9369203b39c92" category="admonition">고급 데이터 보호 애드온 서비스에 가입한 경우 가입 번호에 대한 도구 설명을 클릭하여 MetroCluster 설정에서 파트너 가입의 추적 ID를 확인할 수 있습니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오 <block ref="f15f9282100c644cf5e8c3defc83d6f4" category="inline-link-macro-rx"></block>.</block>
-  <block id="42bebeddc58d2391cdbd55afc8071faa" category="paragraph">고급 데이터 보호 애드온 서비스에 가입한 경우 * 가입 시간 시리즈 * 탭에서 MetroCluster 파트너 사이트의 소비 데이터 분열을 볼 수 있습니다.</block>
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="inline-link-macro">고급 데이터 보호</block>
   <block id="31983c33f891876ff7bcaee65805fde0" category="paragraph">고급 데이터 보호 추가 서비스에 대한 자세한 내용은 을 참조하십시오 <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block>.</block>
   <block id="04db5afbef84567f5c1ef044a2971b66" category="paragraph">ONTAP 스토리지 환경의 클러스터가 MetroCluster 설정에 구성되어 있으면 Keystone 가입 소비 데이터가 동일한 시계열 차트로 분할되어 기본 서비스 수준에 대한 기본 및 미러 사이트의 소비를 표시합니다.</block>
   <block id="569bc20a83ee79e720c8118dfd3197e4" category="admonition">소비 막대 차트는 기본 서비스 수준에 대해서만 분할됩니다. 고급 데이터 보호 추가 서비스(_Advanced Data-Protect_service 수준)의 경우 이 경계가 나타나지 않습니다.</block>
   <block id="fb3cbb66357c55c4f429abc77ecde8bb" category="paragraph-title">고급 데이터 보호 서비스 레벨</block>
-  <block id="5d9e0154046c312de36f5dd604c13626" category="paragraph">고급 데이터 보호 서비스 수준의 경우 총 소비량은 파트너 사이트 간에 분할되며 각 파트너 사이트의 사용량은 별도의 구독으로 반영 및 청구됩니다. 즉, 기본 사이트의 구독과 미러 사이트의 구독이 각각 하나씩 포함됩니다. 따라서 * Subscription Time Series * 탭에서 기본 사이트의 구독 번호를 선택하면 고급 데이터 보호 추가 서비스 소비 차트에 기본 사이트에만 대한 개별 소비 상세 정보가 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 하기 때문에 각 사이트의 총 사용량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.</block>
   <block id="dc22a90e0f32f2a7c39774489ee8fb79" category="admonition">구독 정보 * 탭의 구독 ID 옆에 있는 도구 설명을 통해 MetroCluster 설정에서 파트너 구독을 확인할 수 있습니다.</block>
   <block id="c3c3060e985c56412fb0189a9c010a6d" category="paragraph-title">기본 서비스 레벨</block>
   <block id="fe1654f1038a98c579f04107a47b091b" category="paragraph">기본 서비스 수준에서는 각 볼륨이 운영 사이트와 미러 사이트에서 프로비저닝된 것으로 충전되므로 운영 사이트와 미러 사이트의 사용량에 따라 동일한 막대 차트가 분할됩니다.</block>
@@ -1236,4 +1211,101 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="fd625bdcc192280e06814e4fa60837f3" category="paragraph">스토리지 환경, 스토리지 및 소비 요구사항에 따라 서비스 수준을 선택합니다. 기본적으로 기본 서비스 수준을 사용할 수 있습니다. 애드온 서비스를 선택한 경우 특정 서비스 수준을 이용할 수 있습니다. 예를 들어 고급 데이터 보호 추가 기능 서비스의 경우 _Advanced Data-Protect_service 레벨이 구독에 할당됩니다.</block>
   <block id="725c798ca9f90c6a2a238988b14387a6" category="paragraph">지원되는 스토리지 유형, 파일, 블록, 오브젝트 및 클라우드 서비스의 기본 서비스 수준이 여기에 나와 있습니다.</block>
   <block id="6839a21037309515ac19670a2a6b09fe" category="paragraph">기본 서비스 수준 메트릭은 다음 조건에 따라 달라집니다.</block>
+  <block id="42bb1b11612744ae96538087e8d89e64" category="paragraph">Keystone 가입 및 사용 세부 정보를 보려면 다음 단계를 수행하십시오.</block>
+  <block id="34c39bccff9d0d20e19cce35894ae174" category="list-text">Digital Advisor에 로그인합니다. 구매한 Keystone 서비스와 비교하여 용량 사용이 요약된 * Keystone 가입 * 위젯을 확인할 수 있습니다.</block>
+  <block id="0e36e4920a72685c5bf66bc9dcc92631" category="list-text">Keystone 구독 * 위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 구독 * 페이지에서 볼륨에 대한 사용 세부 정보와 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 &gt; Keystone 구독 * 으로 이동합니다.
+서브스크립션 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보는 * Keystone 가입 * 화면의 여러 탭에 표시됩니다.</block>
+  <block id="97bc392a54093706b77166ffad5ea0d0" category="section-title">모든 구독을 봅니다</block>
+  <block id="2fe8aaafbfc1675fe82744032b0d0cf7" category="paragraph">모든 구독 * 탭에서 모든 구독 목록을 볼 수 있습니다.</block>
+  <block id="6af07443bb9ad7040cdd401c709ccbab" category="inline-image-macro">모든 구독 탭의 이미지</block>
+  <block id="1026961b348768f00fe99c6335970163" category="paragraph"><block ref="1026961b348768f00fe99c6335970163" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="476ad8a78b020e036601b4348c5a5a1e" category="paragraph">각 구독에 대해 다음 정보를 확인할 수 있습니다.</block>
+  <block id="cae11d1e043701baf38d6a3ed01e62d3" category="list-text">* 청구 기간 *: 구독의 청구 기간(월, 분기 또는 연 단위).</block>
+  <block id="3712fdca555e2046955823c405ec7da9" category="list-text">* 종료일 *: 가입 종료 날짜. 날짜 필드가 비어 있으면 구독에 종료 날짜가 없으며 자동으로 갱신됩니다. 이 날짜를 기준으로, 종료되거나 자동 갱신 정책이 연결된 구독에 대한 알림을 볼 수 있습니다.</block>
+  <block id="89daf59b9c591b51911d438bdad9f762" category="list-text">* 사용 상태 *: 사용량이 가입 한도 내에 있는지 또는 초과하는지 여부를 나타내는 사용 표시기를 표시합니다. 최고 소비 레코드를 보려면 이 열을 기준으로 목록을 정렬할 수 있습니다.</block>
+  <block id="0217421b29817efbd12b8a6b40478e08" category="list-text"><block ref="f5416884a5e4dfec0dfa2f3734568648" category="inline-image-macro-rx" type="image"></block>: 구독에 대해 이 아이콘을 클릭하면 해당 구독에 대한 추가 세부 정보가 있는 * 가입 세부 정보 * 탭이 열립니다.</block>
+  <block id="d09bca37ccedda4d9fbf38171efa8fc2" category="list-text"><block ref="435e416487181a998706b8fd7ece7b01" category="inline-image-macro-rx" type="image"></block>: 이 아이콘을 클릭하면 이 구독에 포함된 각 서비스 수준에 대한 기간별 사용 데이터를 볼 수 있는 * Time Series * 탭이 열립니다.</block>
+  <block id="8ef32aa104ea3562916b70b4b76567dc" category="paragraph">구독의 세부 정보를 확인하려면 * 구독 세부 정보 * 탭을 클릭하고 필요한 구독 번호를 선택합니다.</block>
+  <block id="5c5d0bc72c60ee286bac97972345b3e3" category="paragraph">서비스 수준 이름, 커밋됨, 소비됨, 사용 가능한 용량, 현재 및 계산된 버스트 사용률 등의 세부 정보는 TiB로 표시됩니다.</block>
+  <block id="6d3602bc1499d37d6352a07745fe82a3" category="inline-image-macro">정보 아이콘</block>
+  <block id="d99c74aa854c016d1663a41aa2c66269" category="admonition">를 클릭합니다 <block ref="41cd2369ab2f394456f5dd45b77d6e7d" category="inline-image-macro-rx" type="image"></block> 각 열 옆에 있는 아이콘 은 해당 열에 대한 포괄적인 정보를 제공합니다. 더 높은 소비량을 기록하는 특정 서비스 수준이 강조 표시됩니다. 볼륨에 대해 생성된 경고와 알림을 볼 수도 있습니다.</block>
+  <block id="709fbd370b980addbb223c0db4159108" category="section-title">Sustainability SLA 세부 정보를 봅니다</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="example-title">자세한 정보</block>
+  <block id="5688969c948a7c90de7dd2cec17072cb" category="inline-link-macro">Keystone에 대한 지속 가능성 SLA</block>
+  <block id="5b3ef641242a7204f68d8d99bd9140a6" category="paragraph">SLA 세부 정보 * 탭은 NetApp와 유효한 지속 가능성 서비스 수준 계약(SLA)이 있는 경우에만 사용할 수 있습니다. Keystone STaaS의 지속 가능성 SLA에 대한 자세한 내용은 을 참조하십시오 <block ref="62682df6fe9c12b4cb84df53c9ad9c3c" category="inline-link-macro-rx"></block>.</block>
+  <block id="d9ed28927779c814daf51e1c849056aa" category="paragraph">SLA 세부 정보 * 탭은 지속 가능성 SLA 세부 정보를 제공합니다.</block>
+  <block id="a406fa651a51eba116c486fcdb06fc3c" category="list-text">[SLA 상세정보] * 탭을 클릭합니다.</block>
+  <block id="534b8bb97f63cffcd12ecf6328b4f2bf" category="inline-link-macro">지속 가능성 SLA의 자격 기준</block>
+  <block id="f9e6d4069d8b1d756e9fd17773921335" category="list-text">세부 정보를 보려는 필수 구독을 선택합니다. 지속 가능성 SLA 기준을 충족하는 서브스크립션만 볼 수 있습니다. 조건에 대한 자세한 내용은 을 참조하십시오 <block ref="b34928c85c77e5734b71c3cedc9c0bd8" category="inline-link-macro-rx"></block>.</block>
+  <block id="3618de06c73bc87e6e05a2e2709ac1cd" category="paragraph">현재 월에 대해 측정된 지속 가능성 관련 메트릭의 일별 분석을 볼 수 있습니다.</block>
+  <block id="234915cc570526b6f53c102743f6c8c3" category="inline-image-macro">지속 가능성 세부 정보를 나열하는 SLA 세부 정보 탭</block>
+  <block id="35fb43d6729522738924342ef9589dfd" category="paragraph"><block ref="35fb43d6729522738924342ef9589dfd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="14bd46e07894d236b3a66293d8666bad" category="list-text">* 구독 *: 선택한 구독의 구독 번호, 시작 날짜, 종료 날짜 및 청구 기간.</block>
+  <block id="ad93f1094c213a299b7eeb6c06888434" category="list-text">* 평균 지속 가능성 *: 이 구독의 마지막 청구 기간 동안 소비 전력(와트/TiB)입니다.</block>
+  <block id="345634b0b78ac2123efc88af82a1dc5c" category="list-text">* 일 *: 이 데이터 항목이 검색되는 달의 날짜.</block>
+  <block id="c43085dff7355ce79f33c44793f19c04" category="list-text">* 생성된 날짜 *: 해당 월의 실제 날짜입니다.</block>
+  <block id="cf3556a89b28791c6b5489eb3e907f71" category="list-text">* 평균 와트 *: 클러스터에서 그날 소비한 평균 전력 와트</block>
+  <block id="1601f74df75f803cb2e4aa6539b1a1eb" category="list-text">* 유효 용량(TiB *): 커밋된 용량과 서비스 수준에 할당된 버스트 용량의 합계입니다.</block>
+  <block id="e8d94261cd2e1a7603966c7b5ed39baa" category="list-text">* 실제 와트(TiB *): 실제 와트/TiB는 클러스터에서 해당 날짜의 실제 전력 소비량입니다. 이 값을 * SLA Watts/TiB * 의 값과 비교하여 오버슈팅을 분석할 수 있습니다.</block>
+  <block id="b7118a9a45e609332e79cf9b6ffda147" category="list-text">* SLA Watts/TiB *: SLA에 정의된 서비스 수준에 대한 와트/TiB 값입니다.</block>
+  <block id="44041a70171dd8ccb531dd55da34ca32" category="list-text">* 평균 온도(^o^C) *: 당일 평균 주변 온도</block>
+  <block id="c116684e616e0ce2787b26417c569f60" category="inline-link">스토리지 효율성 이해</block>
+  <block id="e947e12615761f4c2e303773c72d9d27" category="list-text">* 스토리지 효율성 비율 *: Keystone 스토리지 환경의 스토리지 효율성 비율 이 비율은 스토리지 효율성 설정을 데이터 저장에 사용되는 총 물리적 공간에 대한 설정 후 시스템에서 사용하는 총 논리적 공간의 비율입니다. 스토리지 효율성 비율에 대한 자세한 내용은 을 참조하십시오<block ref="df51bbeaed5712b7f1e6ba1a864bc572" category="inline-link-rx"></block>.</block>
+  <block id="6f95405ef66a2390fbca7f1e8f2b8d05" category="inline-image-macro">경고 아이콘</block>
+  <block id="07e88e39c7578868d0a5fbcfcc0789b6" category="paragraph">SLA 위반이 있는 경우 아이콘이 표시됩니다 <block ref="cc5eb7625ab9968e31facb63a6ab7b5f" category="inline-image-macro-rx" type="image"></block> 열 옆에 있는 는 위반의 특성을 알려줍니다. 다음 경고가 표시됩니다.</block>
+  <block id="742d411c489615be21ef326229138b28" category="list-text">주변 온도: 온도가 25^o^C-27^o^C 범위를 벗어난 경우</block>
+  <block id="e5aeb4df86b32c28858df21a4762fe12" category="inline-link-macro">지속 가능성 서비스 수준</block>
+  <block id="fb709cb6e8ac1273b5788a254d6bd787" category="list-text">SLA 와트/TiB: 서비스 수준 SLA 메트릭이 충족되지 않는 경우 자세한 내용은 을 참조하십시오 <block ref="beb8f3d2ad07be99aaad2bb519c9c45f" category="inline-link-macro-rx"></block>.</block>
+  <block id="1ec01a3894497cb2c0ec6b0f170173f7" category="list-text">스토리지 효율성 비율: 스토리지 효율성이 2:1 미만인 경우</block>
+  <block id="38d045ae2297a82ee13138f1531ab028" category="paragraph">시간 시리즈 * 탭은 특정 기간 동안의 구독의 기록 데이터를 표시합니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.</block>
+  <block id="132388a6a35c7d25ea2062b8273f7f26" category="list-text">시간 시리즈 * 탭을 클릭합니다.</block>
+  <block id="4678bee42b24b1f259e76813ce5c8c11" category="list-text">구독 세부 정보: 구독의 시작 및 종료 날짜, 청구 기간(예: 분기별, 연간 등).</block>
+  <block id="0bb824bc11c0651d90f603b301be0454" category="list-text">사용 차트: 막대 차트는 날짜 범위에 대한 서비스 수준 이름 및 해당 서비스 수준에 대해 사용된 용량을 표시합니다. 컬렉션의 날짜 및 시간이 차트 아래쪽에 표시됩니다.</block>
+  <block id="f7415915998d4b4ddd0480235cfc5147" category="paragraph">고급 데이터 보호 애드온 서비스에 가입한 경우 * 시간 시리즈 * 탭에서 MetroCluster 파트너 사이트의 소비 데이터 분열을 볼 수 있습니다.</block>
+  <block id="fd8f042413e243ba85b89698462975b9" category="paragraph">고급 데이터 보호 서비스 수준의 경우 총 소비량은 파트너 사이트 간에 분할되며 각 파트너 사이트의 사용량은 별도의 구독으로 반영 및 청구됩니다. 즉, 기본 사이트의 구독과 미러 사이트의 구독이 각각 하나씩 포함됩니다. 따라서 * Time Series * 탭에서 기본 사이트의 구독 번호를 선택하면 고급 데이터 보호 추가 서비스 소비 차트에 기본 사이트에만 대한 개별 소비 상세 정보가 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 하기 때문에 각 사이트의 총 사용량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.</block>
+  <block id="1ab7bb685c5a04401573e75118c580cb" category="paragraph">그래픽 데이터가 변환되는 * Time Series * 탭의 샘플 보고서:</block>
+  <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">지속 가능성, SLA, 서비스 수준 계약</block>
+  <block id="da7b7e32fb13eed4f75ab9bd36eb819f" category="paragraph">NetApp Keystone STaaS는 서비스 수준당 소비되는 최대 와트/TiB를 정의하는 서비스 수준 계약 또는 SLA 지원 지속 가능성 서비스 수준을 제공하여 IT 지속 가능성 목표를 계획, 모니터링 및 충족할 수 있도록 지원합니다.</block>
+  <block id="e63f850b6a7adfa8bd389be83074bb7a" category="section-title">지속 가능성 지표</block>
+  <block id="4943d87926bc3f006f92aed5f268adea" category="paragraph">지속 가능성을 정의하고 측정하는 데 사용되는 메트릭은 다음과 같습니다.</block>
+  <block id="028464ee5b1f5fe9e6955a46ab6a21ff" category="list-text">와트: ONTAP AFF A-시리즈 어레이 및 연결된 SSD 쉘프의 일일 전력 소모량.</block>
+  <block id="2e26dfe1dd77116c00fbfc2697127326" category="list-text">TiB: 더 큰 항목:</block>
+  <block id="8b22b937f509c8cbc1d606095923ac4a" category="list-text">서비스 수준에 할당된 약정 용량 및 버스트 용량, 또는</block>
+  <block id="76bb5febcc9579418a7ed9f6b0de090b" category="list-text">스토리지 효율성 계수가 2라고 가정하면 실제 구축된 용량입니다. 스토리지 효율성 비율에 대한 자세한 내용은 을 참조하십시오<block ref="df51bbeaed5712b7f1e6ba1a864bc572" category="inline-link-rx"></block>.</block>
+  <block id="02f01361711ff175aa1394127c69aeb8" category="section-title">지속 가능성 서비스 수준</block>
+  <block id="954e3866b2b6702e2d5ea55904f74ef6" category="paragraph">다음 표에는 Extreme, Premium 및 Performance의 지속 가능성 서비스 수준이 요약되어 있습니다.</block>
+  <block id="d2cd9e2adbaf4876955be264272e3e87" category="cell">* SLA 기준 *</block>
+  <block id="1319573781151fa1f86a29da308f602f" category="cell">* 커밋된 최소 용량 *</block>
+  <block id="b86f7ac7010a768aee36fc0e592eceed" category="cell">* 플랫폼 *</block>
+  <block id="9991e49c37ec7ad48d495b57d0fe229e" category="cell">= 8W/TiB</block>
+  <block id="7d2e99b7f21ff40f996fbbab5c1d6feb" category="cell">200TiB</block>
+  <block id="72c62eae5362784360f3e531446bec41" category="cell">AFF A800 및 AFF A900</block>
+  <block id="7fe4d9f9a78c302eb1780698a0a051ec" category="cell">= 4W/TiB</block>
+  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300TiB</block>
+  <block id="beff29b95a5e113e62c976759f60fa0b" category="paragraph">다음 기준을 충족하는 Keystone STaaS 서브스크립션은 SLA를 충족할 수 있습니다.</block>
+  <block id="300104c96a010bfb0d9a3bcaab16f7ce" category="list-text">단일 서비스 수준으로 사용자 정의되지 않은 표준 Keystone STaaS 서브스크립션, 월별 청구 금액 기한.</block>
+  <block id="abcf044b389c708a64b488d7650926b2" category="list-text">Extreme, Premium, Performance 서비스 레벨을 이용할 수 있습니다.</block>
+  <block id="35cdaa398c806e32488f8f849bfabf96" category="list-text">사용자 정의되지 않은 참조 Keystone 지속 가능한 하드웨어 구성, 구성 요소:</block>
+  <block id="8ef73cf5ea5a09bb4cb7393f715d2618" category="inline-link">AFF A 시리즈</block>
+  <block id="4bec8ce67da751a9e6bafee7fdefd098" category="list-text">NetApp AFF A900 또는 AFF A800 All-Flash 스토리지 플랫폼 등의 ONTAP AFF A-Series 스토리지 어레이 자세한 내용은 을 참조하십시오<block ref="5a61a0a15a1a518fa8e2f92e633c3f69" category="inline-link-rx"></block>.</block>
+  <block id="7bb79cb8731b011d041a350407c2e1b2" category="list-text">스위치가 없는 2노드 클러스터
+혼합 및 MetroCluster 구성은 지원되지 않습니다.</block>
+  <block id="6645e0ebb53d4b6e68be7936af3a8039" category="inline-link">AutoSupport</block>
+  <block id="30f15485b3258ad85aa702717ab37571" category="list-text">Keystone은 AutoSupport 원격 측정 데이터 및 전송 메커니즘을 사용하여 지속 가능성 데이터를 수집합니다. AutoSupport는 모든 ONTAP AFF 스토리지 어레이에서 사용 및 작동해야 합니다. 자세한 내용은 을 참조하십시오<block ref="b096b20f4ffee8d064588e63f22e1fc6" category="inline-link-rx"></block>.</block>
+  <block id="5d0ae2c253c12c898876f16dcc1c2b3d" category="list-text">저장된 데이터는 최소 평균 스토리지 효율성 계수 2를 달성해야 합니다.</block>
+  <block id="1d95129eb45966c31b9f9f4903b9ec10" category="list-text">주변 작동 환경 온도는 25°C에서 27°C 사이여야 합니다</block>
+  <block id="acfa283707517552a4ab7682cfe07549" category="list-text">서비스 수준별 최소 약속된 용량을 충족해야 합니다.</block>
+  <block id="185e01eccb11afd93ab6330b3243709d" category="section-title">지속 가능성 보고서</block>
+  <block id="214b7c6a2e578d02dcff6a6e0d01644e" category="paragraph">Active IQ Digital Advisor(Digital Advisor) Keystone 대시보드의 SLA 탭에서는 Keystone 서브스크립션에 대한 지속 가능성 메트릭에 대한 자세한 뷰를 제공합니다. 메트릭을 보고 향후 분석 및 조치에 대한 보고서를 생성할 수 있습니다.</block>
+  <block id="70b0f05ccb3363a22b7283ba77a6a703" category="section-title">지속 가능성 서비스 크레딧</block>
+  <block id="418d8a3515dc0eaaa423eb4bf13f3ffb" category="paragraph">와트/TiB 소비가 서비스 수준에 대한 SLA에 명시된 기준을 초과하거나 충족하지 않는 경우, NetApp은 청구 기간 동안 보고된 모든 유효한 구독에 대해 서비스 크레딧 지급을 제공합니다. 서비스 수준 SLA 메트릭을 충족하지 못할 경우 서비스 달이 끝나기 1주일 전에 GSSC(NetApp 글로벌 서비스 지원 센터)에 문의하십시오 서비스 수준 위반 여부를 결정할 때 크레딧은 서비스 수준의 약정 용량을 기준으로 계산되며 다음 달의 청구서에 반영됩니다.</block>
+  <block id="c46a6fc145efc32d05eb0e6a28bea128" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>.</block>
+  <block id="ed55999d50b7451fbe4281de85f01c45" category="example-title">vCenter 7.0u1 및 그 이전 버전: 자세히 알아보십시오</block>
+  <block id="ae33212e0f96fd19173ab021f7909861" category="example-title">vCenter 7.0u2 이상: 자세히 알아보기</block>
+  <block id="ee5ca5bbfae8b59d25890e341fb270f9" category="example-title">ONTAP에 대해 수집된 &lt;strong&gt; 사용 데이터: 자세히 알아보기 &lt;/strong&gt;</block>
+  <block id="c1180c8c32ead64506dbcd62aa47c4c9" category="example-title">ONTAP를 위해 수집된 &lt;strong&gt; 성능 데이터: 자세히 알아보기 &lt;/strong&gt;</block>
+  <block id="fb4c693ae1537fcd9bba0f68cbeef17b" category="example-title">&lt;strong&gt; 개인 데이터 액세스를 제한할 때 제거된 항목 목록: 자세한 내용 &lt;/strong&gt;</block>
+  <block id="f2b69dc6ebbf3f5003867401fe70494a" category="example-title">StorageGRID에 대해 수집된 &lt;strong&gt; 사용 데이터: 자세히 알아보기 &lt;/strong&gt;</block>
+  <block id="5d8bad95eb1baa3803b9e8dce984e67b" category="admonition">Keystone Collector는 Keystone 시스템의 사용 데이터를 수집하는 표준 접근 방식을 나타냅니다. 환경에서 Keystone Collector를 지원할 수 없는 경우 Keystone 제품 관리 팀에서 AutoSupport 데이터를 대안으로 사용할 권한을 요청할 수 있습니다. AutoSupport 원격 측정 데이터에 대한 자세한 내용은 을 참조하십시오<block ref="b096b20f4ffee8d064588e63f22e1fc6" category="inline-link-rx"></block>.</block>
+  <block id="44a356ee93aa30cde0789bb1b6288edc" category="sidebar">Sustainability SLA 서비스 수준</block>
 </blocks>

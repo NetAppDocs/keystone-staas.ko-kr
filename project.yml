@@ -69,6 +69,8 @@ sidebar:
       url: "/concepts/qos.html"
     - title: 서비스 수준에 대한 용량 요구 사항
       url: "/concepts/capacity-requirements.html"
+    - title: Sustainability SLA 서비스 수준
+      url: "/concepts/sla-sustainability.html"
   - title: 청구
     entries:
     - title: Keystone 가격

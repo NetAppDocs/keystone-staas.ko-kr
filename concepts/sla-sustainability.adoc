@@ -1,0 +1,95 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-sustainability.html 
+keywords: sustainability, sla, service level agreement, 
+summary: 지속 가능성, SLA, 서비스 수준 계약 
+---
+= Keystone에 대한 지속 가능성 SLA
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone STaaS는 서비스 수준당 소비되는 최대 와트/TiB를 정의하는 서비스 수준 계약 또는 SLA 지원 지속 가능성 서비스 수준을 제공하여 IT 지속 가능성 목표를 계획, 모니터링 및 충족할 수 있도록 지원합니다.
+
+
+
+== 지속 가능성 지표
+
+지속 가능성을 정의하고 측정하는 데 사용되는 메트릭은 다음과 같습니다.
+
+* 와트: ONTAP AFF A-시리즈 어레이 및 연결된 SSD 쉘프의 일일 전력 소모량.
+* TiB: 더 큰 항목:
++
+** 서비스 수준에 할당된 약정 용량 및 버스트 용량, 또는
+** 스토리지 효율성 계수가 2라고 가정하면 실제 구축된 용량입니다. 스토리지 효율성 비율에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html["스토리지 효율성 이해"^].
+
+
+
+
+
+
+== 지속 가능성 서비스 수준
+
+다음 표에는 Extreme, Premium 및 Performance의 지속 가능성 서비스 수준이 요약되어 있습니다.
+
+|===
+
+
+| * 서비스 수준 * | * SLA 기준 * | * 커밋된 최소 용량 * | * 플랫폼 * 
+
+
+ a| 
+익스트림
+| = 8W/TiB | 200TiB | AFF A800 및 AFF A900 
+
+
+ a| 
+프리미엄
+| = 4W/TiB | 300TiB | AFF A800 및 AFF A900 
+
+
+ a| 
+성능
+| = 4W/TiB | 300TiB | AFF A800 및 AFF A900 
+|===
+
+
+== 지속 가능성 SLA의 자격 기준
+
+다음 기준을 충족하는 Keystone STaaS 서브스크립션은 SLA를 충족할 수 있습니다.
+
+* 단일 서비스 수준으로 사용자 정의되지 않은 표준 Keystone STaaS 서브스크립션, 월별 청구 금액 기한.
+* Extreme, Premium, Performance 서비스 레벨을 이용할 수 있습니다.
+* 사용자 정의되지 않은 참조 Keystone 지속 가능한 하드웨어 구성, 구성 요소:
++
+** NetApp AFF A900 또는 AFF A800 All-Flash 스토리지 플랫폼 등의 ONTAP AFF A-Series 스토리지 어레이 자세한 내용은 을 참조하십시오 https://www.netapp.com/data-storage/aff-a-series["AFF A 시리즈"^].
+** 스위치가 없는 2노드 클러스터
+혼합 및 MetroCluster 구성은 지원되지 않습니다.
+
+
+* Keystone은 AutoSupport 원격 측정 데이터 및 전송 메커니즘을 사용하여 지속 가능성 데이터를 수집합니다. AutoSupport는 모든 ONTAP AFF 스토리지 어레이에서 사용 및 작동해야 합니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^].
+* 저장된 데이터는 최소 평균 스토리지 효율성 계수 2를 달성해야 합니다.
+* 주변 작동 환경 온도는 25°C에서 27°C 사이여야 합니다
+* 서비스 수준별 최소 약속된 용량을 충족해야 합니다.
+
+
+
+
+== 지속 가능성 보고서
+
+Active IQ Digital Advisor(Digital Advisor) Keystone 대시보드의 SLA 탭에서는 Keystone 서브스크립션에 대한 지속 가능성 메트릭에 대한 자세한 뷰를 제공합니다. 메트릭을 보고 향후 분석 및 조치에 대한 보고서를 생성할 수 있습니다.
+
+Keystone 대시보드 및 보고에 대한 자세한 내용은 을 참조하십시오 link:../integrations/aiq-keystone-details.html["Keystone 구독 대시보드 및 리포팅"].
+
+
+
+== 지속 가능성 서비스 크레딧
+
+와트/TiB 소비가 서비스 수준에 대한 SLA에 명시된 기준을 초과하거나 충족하지 않는 경우, NetApp은 청구 기간 동안 보고된 모든 유효한 구독에 대해 서비스 크레딧 지급을 제공합니다. 서비스 수준 SLA 메트릭을 충족하지 못할 경우 서비스 달이 끝나기 1주일 전에 GSSC(NetApp 글로벌 서비스 지원 센터)에 문의하십시오 서비스 수준 위반 여부를 결정할 때 크레딧은 서비스 수준의 약정 용량을 기준으로 계산되며 다음 달의 청구서에 반영됩니다.
+
+자세한 내용은 을 참조하십시오 link:../concepts/gssc.html["NetApp 글로벌 서비스 지원 센터"].
