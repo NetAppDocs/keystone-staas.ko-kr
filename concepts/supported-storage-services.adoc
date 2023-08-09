@@ -53,6 +53,7 @@ NFS 및 CIFS에 대해 설명합니다
 * SnapRestore
 * 플랙스클론
 * SnapCenter(라이센스는 포함되어 있지만 Keystone 서비스의 일부가 아니며 관리가 보장되지 않음)
+* 자율적 랜섬웨어 방어 1
 
 
 
@@ -87,9 +88,13 @@ StorageGRID
  a| 
 S3
  a| 
-여러 사이트에서 여러 ILM(정보 수명 주기 관리) 정책을 지원합니다. * 참고 *: 각 사이트는 별도의 구독이 필요합니다.
+여러 사이트에 걸쳐 여러 ILM(정보 수명 주기 관리) 정책을 지원합니다
 
 |===
+
+NOTE: ONTAP의 랜섬웨어 방어에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호"^].
+각 사이트에는 별도의 가입이 필요합니다.
+
 
 
 == 클라우드 스토리지용 서비스

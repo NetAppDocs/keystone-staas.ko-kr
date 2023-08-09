@@ -4,15 +4,11 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="5c578a7cd5fdea7f09cabf897bbb389d" category="summary">인프라 구성 요소</block>
   <block id="3c0d9137e7a6bf6e7b1cbaad394ac5ec" category="doc">배포용 구성 요소</block>
   <block id="c9da0796f309773995aa86a3901c5e00" category="section-title">사이트 요구 사항</block>
@@ -501,7 +497,6 @@
   <block id="a701f5d044348085ee4f97fef6636845" category="list-text">플랙스클론</block>
   <block id="7d2113229d846a15533e691c746ce4c8" category="list-text">SnapCenter(라이센스는 포함되어 있지만 Keystone 서비스의 일부가 아니며 관리가 보장되지 않음)</block>
   <block id="392d70ca39f31f10bd637936769788df" category="paragraph">StorageGRID</block>
-  <block id="121b4f8b22349a8498673b224a8c239b" category="paragraph">여러 사이트에서 여러 ILM(정보 수명 주기 관리) 정책을 지원합니다. * 참고 *: 각 사이트는 별도의 구독이 필요합니다.</block>
   <block id="141b2b4361a2b3c206d10e1c27378c2e" category="section-title">클라우드 스토리지용 서비스</block>
   <block id="d96e0cf44b3111cb9ae984add2b97c74" category="paragraph">Keystone STaaS는 클라우드 스토리지 서비스를 제공합니다. Keystone STaaS는 AWS(Amazon Web Services), Microsoft Azure 및 Google 클라우드 플랫폼에서 Cloud Volumes ONTAP 데이터 관리 기능을 지원합니다.</block>
   <block id="2a947eac17f71a99037966f44ce8252d" category="admonition">NetApp은 Cloud Volumes ONTAP에 필요한 하이퍼스케일 기반 컴퓨팅, 스토리지 및 네트워크 서비스를 Keystone STaaS 가입의 일부로 제공하지 않습니다. 이러한 가입은 하이퍼스케일 클라우드 서비스 공급자로부터 직접 조달해야 합니다.</block>
@@ -1099,10 +1094,6 @@
   <block id="c5164a8ba9242ffd5faec20d25175dbe" category="section-title">파일 및 블록 스토리지의 서비스 레벨</block>
   <block id="55b9320c8c3c184ea9542aa4a82ecd70" category="cell">* 볼륨당 할당된 최대 IOPS/논리적 GB *</block>
   <block id="2951c92ac7129eb5950ee23f07140f99" category="cell">* 32K B/S * 에서 볼륨당 저장된 최대 MBps/논리적 TiB</block>
-  <block id="2fab0c2c1260d4eab832ce495d9a945f" category="cell">1ms</block>
-  <block id="084351f847be6c607173d4bf38542f71" category="cell">2ms</block>
-  <block id="f694c7926734a582b5156c24b9e7b563" category="cell">4ms</block>
-  <block id="f43c7285b135d5fc56405612d8c6e970" category="cell">17ms</block>
   <block id="d6b228a8ed209a51c109dc08e1f357ce" category="cell">* 블록 크기 *</block>
   <block id="333ed6369ef878defe6b851fcb7a250f" category="section-title">파일 및 블록 스토리지의 서비스 수준 자세히 보기</block>
   <block id="210b39d4b6b8c3231fc8e5027adff975" category="list-text">파일 및 블록 스토리지의 서비스 수준은 ONTAP 9.7 이상을 지원합니다.</block>
@@ -1205,7 +1196,6 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="c2c11a830d011ece03d73534208897a1" category="list-text">요금은 파일 및 블록 스토리지에만 적용됩니다.</block>
   <block id="3505917ad3d0afd6896fab28f67d309e" category="paragraph">지원되는 MetroCluster 시나리오는 다음과 같습니다.</block>
   <block id="fd625bdcc192280e06814e4fa60837f3" category="paragraph">스토리지 환경, 스토리지 및 소비 요구사항에 따라 서비스 수준을 선택합니다. 기본적으로 기본 서비스 수준을 사용할 수 있습니다. 애드온 서비스를 선택한 경우 특정 서비스 수준을 이용할 수 있습니다. 예를 들어 고급 데이터 보호 추가 기능 서비스의 경우 _Advanced Data-Protect_service 레벨이 구독에 할당됩니다.</block>
-  <block id="725c798ca9f90c6a2a238988b14387a6" category="paragraph">지원되는 스토리지 유형, 파일, 블록, 오브젝트 및 클라우드 서비스의 기본 서비스 수준이 여기에 나와 있습니다.</block>
   <block id="6839a21037309515ac19670a2a6b09fe" category="paragraph">기본 서비스 수준 메트릭은 다음 조건에 따라 달라집니다.</block>
   <block id="42bb1b11612744ae96538087e8d89e64" category="paragraph">Keystone 가입 및 사용 세부 정보를 보려면 다음 단계를 수행하십시오.</block>
   <block id="34c39bccff9d0d20e19cce35894ae174" category="list-text">Digital Advisor에 로그인합니다. 구매한 Keystone 서비스와 비교하여 용량 사용이 요약된 * Keystone 가입 * 위젯을 확인할 수 있습니다.</block>
@@ -1339,4 +1329,24 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="a7b3681fbca584aa4e58ecc74f068237" category="paragraph"><block ref="1835384cfbb7a783927d2d026c6446bc" prefix="" category="inline-code"></block></block>
   <block id="20c41bcd9366cdbd961d6554489ea863" category="inline-link">시스템 노드 AutoSupport 트리거 수정</block>
   <block id="5f6d98c1ed4256fab45f6c20e637744e" category="paragraph">이 명령에 대한 자세한 내용은 을 참조하십시오<block ref="700e80291e0b2dbcd3452a610925a1ef" category="inline-link-rx"></block>.</block>
+  <block id="f6f491a1dd00e6523775a1db454cb803" category="admonition">NetApp Keystone STaaS 서비스 수준에 대한 자세한 서비스 설명이 제공됩니다<block ref="4efefa0d10fd36d11c0037f9237e96ba" category="inline-link-rx"></block>.</block>
+  <block id="766bf6a1b0285febc0d67565c929ccb2" category="paragraph">다음 섹션에서는 지원되는 스토리지 유형, 파일, 블록, 오브젝트 및 클라우드 서비스의 기본 서비스 수준에 대해 설명합니다.</block>
+  <block id="2ecbbb6413b4f26bda9319a043adc2e2" category="cell">* 목표 90 백분위수 대기 시간 *</block>
+  <block id="99f8d77b50f8491531357b2d907d59d1" category="cell">1ms 미만</block>
+  <block id="6fad0b609a57af2ae4dbbf92ff728673" category="cell">2ms 미만</block>
+  <block id="71d46f269394e963a516a1cc98340c17" category="cell">4ms 미만</block>
+  <block id="342e06f2c04b016459176bdbbd984dfe" category="cell">17ms 미만</block>
+  <block id="1b5106e844354f799e5aa0cfdd0ead2d" category="list-text">자율적 랜섬웨어 방어 1</block>
+  <block id="ec45d0e150ff641adb7da6f8f3be1d72" category="paragraph">여러 사이트에 걸쳐 여러 ILM(정보 수명 주기 관리) 정책을 지원합니다</block>
+  <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link">자율 랜섬웨어 보호</block>
+  <block id="6b51f04b870573bccac2a4d06532aa13" category="admonition">ONTAP의 랜섬웨어 방어에 대한 자세한 내용은 을 참조하십시오<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block>.
+각 사이트에는 별도의 가입이 필요합니다.</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
 </blocks>
