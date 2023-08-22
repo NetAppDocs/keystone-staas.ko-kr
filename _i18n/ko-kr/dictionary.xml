@@ -328,7 +328,6 @@
   <block id="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link"><block ref="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link-rx"></block></block>
   <block id="0f185ccd88416daec4eee0a846d110b8" category="list-text">NetApp 제품 설명서<block ref="2e85fc867cab94d246e0bf6043b361cd" category="inline-link-rx"></block></block>
   <block id="8ed38172f401cd08c379f8397810fe02" category="section-title">GSSC 모니터링</block>
-  <block id="b89d8ed8d5adb2dd42ea11be1617f29c" category="paragraph">데이터 플로우에 대한 자세한 내용은 을 참조하십시오 <block ref="f2276c2e5545294a1a6121724c0f31c5" category="inline-link-macro-rx"></block>.</block>
   <block id="fc860be5f135f0d58f6a4cc1a552d57f" category="inline-link">Keystone 구독</block>
   <block id="ae45517d4d9ba30bece696a3b49d1b3f" category="inline-link">Keystone 구독 관리</block>
   <block id="eafe2da4c3641f4864397b0d97fff137" category="doc">Keystone 설명서</block>
@@ -720,7 +719,6 @@
   <block id="89fb8980c16c92d28af72e0579cfac9c" category="summary">Keystone 구독 보고서 및 그래프</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="doc">Keystone 구독 대시보드 및 리포팅</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="inline-link">NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다</block>
-  <block id="b3c0ed0e576799a24c9e0fda06bee006" category="section-title">구독 세부 정보를 봅니다</block>
   <block id="8e43124ddee77b223f1e720973e147e7" category="list-text">* 구독 번호 *: NetApp에서 할당한 Keystone 가입 번호입니다.</block>
   <block id="f06c1648cc175308e5d0425681e31f63" category="list-text">* 추적 ID *: 가입 활성화 시 할당된 추적 ID입니다. 구독 추적에 사용되는 각 구독 및 사이트의 고유 ID입니다.</block>
   <block id="58ddac2ef16530986372a556eb9e6b7a" category="list-text">* 시작일 *: 가입일.</block>
@@ -734,9 +732,7 @@
   <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">알림을 봅니다</block>
   <block id="c71fcee7f813aa85774b9114dfba4ef1" category="paragraph">대시보드의 알림은 스토리지 환경에서 발생하는 문제를 파악할 수 있는 주의 메시지를 보냅니다.</block>
   <block id="903961eaa166cc0c38b735276961eb0c" category="paragraph">경고는 다음 두 가지 유형이 될 수 있습니다.</block>
-  <block id="d08b54ee187c7327910bae3997812ee1" category="list-text">* 경고 *: 규정 위반 등의 문제가 경고로 표시됩니다. 예를 들어, AQoS(적응형 QoS) 정책이 연결되지 않은 관리 클러스터 내에 볼륨이 있는 경우 경고 메시지가 표시됩니다. 경고 메시지의 링크를 클릭하면 * 시스템 세부 정보 * 탭에서 비준수 볼륨 목록을 볼 수 있습니다.</block>
   <block id="0fdfd6d11ae114ae172cdc0ad002c349" category="paragraph">AQoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="ec50deebd618280d321c610a1ff0d73b" category="inline-link-macro-rx"></block>.</block>
-  <block id="f303aa2ecdcc69fbc97adcf5a2476825" category="paragraph">Digital Advisor를 사용하면 STaaS(Storage-as-a-Service) 세부 정보 및 소유한 NetApp 인프라에 대한 정보를 확인할 수 있습니다. Digital Advisor는 상세 보고서를 생성할 수 있는 기능과 함께 서브스크립션, 서비스 수준 및 용량 사용량을 한눈에 파악할 수 있는 단일 대시보드를 제공합니다.</block>
   <block id="7a00a46aa8b851e05a0a8783db55e3ab" category="paragraph">Keystone 대시보드 및 보고에 대한 자세한 내용은 을 참조하십시오 <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>.</block>
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">* 문제 설명 *: Keystone 수집기는 사용량 측정 시스템의 일부로 다수의 컨테이너를 실행합니다. Red Hat Enterprise Linux 8.x 서버가 ISA(USA Defense Information Systems Agency) STIG(Security Technical Implementation Guides) 정책으로 강화되면, flapolicyd(File Access Policy Daemon)와 관련된 알려진 문제가 간헐적으로 나타납니다. 이 문제는 로 식별됩니다 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>. * 해결 방법 *: Red Hat Enterprise가 해결될 때까지 NetApp은 이 문제를 해결해 드립니다<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 허용 모드로 전환합니다. 인치 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>에서 값을 설정합니다<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>.</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
@@ -960,7 +956,6 @@
   <block id="680fcae2005fb4b11fdcc18c27ddd58b" category="list-text">* 절대 최소 IOPS *: 볼륨 크기가 매우 작은 경우 볼륨에 적용되는 예상 IOPS의 최소 개수이며, 그렇지 않으면 IOPS가 허용할 수 없는 수준으로 표시됩니다. 이 값은 의 경우 기본적으로 1,000으로 설정됩니다<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block>, 500for<block ref="8d5e7e72f12067991186cdf3cb7d5d9d" prefix=" " category="inline-code"></block>, 및 250 을 참조하십시오<block ref="9446a98ad14416153cc4d45ab8b531bf" prefix=" " category="inline-code"></block>, 및 의 경우 75<block ref="eb6d8ae6f20283755b339c0dc273988b" prefix=" " category="inline-code"></block> 및<block ref="689202409e48743b914713f96d93947c" prefix=" " category="inline-code"></block> 서비스 레벨:</block>
   <block id="190dc75f5eac190e46db7ce571587dbc" category="paragraph">각 서비스 수준에 대한 AQoS(Adaptive QoS) 정책 설정은 다음 섹션에서 설명합니다. 여기에 제공된 각 서비스 수준에 대한 최소 및 최대 볼륨 크기를 통해 볼륨에 대한 최적의 IOP 및 지연 시간 값을 얻을 수 있습니다. 이 지침을 벗어나는 볼륨을 너무 많이 생성하면 해당 볼륨의 성능에 부정적인 영향을 미칠 수 있습니다.</block>
   <block id="c9b73422281776827a4c8f78b386d48d" category="list-text">Keystone STaaS 가치 계층, Keystone STaaS StorageGRID 오브젝트 계층 또는 기존 SGWS 그리드(고객 소유) - 추가 비용이 없으며 표준 서비스의 일부입니다.</block>
-  <block id="bdb55621cf8fb40ec7b1841db7d1f702" category="paragraph">NetApp Keystone 서비스에 가입한 경우 Active IQ 디지털 자문(디지털 자문) 대시보드에서 사용 현황 보고서와 그래프를 볼 수 있습니다.</block>
   <block id="a8db66bfea8d3f0ff898a3ca39507082" category="paragraph">Keystone용 Digital Advisor 대시보드 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="f1d08d608ab5c8900f388298993967cb" category="inline-link-rx"></block>.</block>
   <block id="bea3a7144124c0e70f43a6748e2fb32b" category="paragraph">Keystone 및 BlueXP에 대한 자세한 내용은 BlueXP 문서의 다음 링크를 참조하십시오.</block>
   <block id="db9c0d8e0c5e9a6fc69af04d34b56fee" category="sidebar">Keystone Collector 설치를 위한 사전 요구사항</block>
@@ -984,10 +979,6 @@
   <block id="8cb9900bd09a496f0e4b2e4220549b55" category="list-text">자주색: 버스트 제한 초과.</block>
   <block id="2ace5c82683c2f75d293a1427df222e4" category="list-text">* 누적 버스트 *: 현재 청구 기간 동안 매월 계산된 누적 사용량 또는 사용된 용량에 대한 표시기입니다. 누적 버스트 사용량은 서비스 수준에 대해 커밋된 용량과 사용된 용량을 기준으로 계산됩니다.<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
   <block id="393e226f044ba6b817b81de6d94e7276" category="admonition">현재 사용량 *, * 현재 버스트 * 및 * 누적 버스트 * 표시기는 구독의 청구 기간과 관련된 소비를 결정하며 쿼리의 날짜 범위를 기반으로 하지 않습니다.</block>
-  <block id="b99a21b99fb9e230b533835afc100672" category="section-title">시스템 세부 정보를 봅니다</block>
-  <block id="819abf779095094c4f296a2f1911a333" category="paragraph">시스템 세부 정보 * 탭에서 ONTAP의 볼륨 사용 및 기타 세부 정보를 볼 수 있습니다. StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드 및 개별 사용량이 표시됩니다.</block>
-  <block id="6f7e564e5f841331ad117d7eb3b3ae10" category="paragraph">ONTAP의 경우 * 시스템 세부 정보 * 탭은 Keystone 가입이 관리하는 스토리지 환경 내 볼륨의 용량 사용, 볼륨 유형, 클러스터, 애그리게이트, 서비스 레벨 등의 정보를 표시합니다.</block>
-  <block id="d2c1241be04ae4d70013755a80c6cbd2" category="list-text">시스템 세부 정보 * 탭을 클릭합니다.</block>
   <block id="ccdbd07a063ad5631511d37c5d2f5a36" category="list-text">가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다.</block>
   <block id="45cbe8d46cd75aedbf971e2391199759" category="paragraph">StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드에 대한 물리적 사용량이 표시됩니다.</block>
   <block id="4305e9b17980561df3c63a75f32b2075" category="list-text">가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다. 구독 번호를 선택하면 객체 스토리지 세부 정보에 대한 링크가 활성화됩니다.</block>
@@ -1114,8 +1105,6 @@
   <block id="c0674564129b3d9a1c0017000c9073f2" category="paragraph"><block ref="c0674564129b3d9a1c0017000c9073f2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0238a1ac6070262da13eddc5a79f01a9" category="inline-image-macro">지출 할당 방법</block>
   <block id="afab5545c10451e1f3a9804afc7c00ed" category="paragraph"><block ref="afab5545c10451e1f3a9804afc7c00ed" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="41220b85d8467c5822466b54e2f77fdf" category="inline-image-macro">구독 세부 정보 탭</block>
-  <block id="3863c999fd2904d6bd45c5fac0637857" category="paragraph"><block ref="3863c999fd2904d6bd45c5fac0637857" category="inline-image-macro-rx" type="image"></block></block>
   <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">아이콘을 클릭합니다</block>
   <block id="c86f468c0d26a49f12de126ed6868cbe" category="paragraph"><block ref="c86f468c0d26a49f12de126ed6868cbe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="afcefd303655b7f65e49ebd8be60e0e7" category="inline-image-macro">회색 점 아이콘</block>
@@ -1124,27 +1113,20 @@
   <block id="f9f0c63a81657ad2d480fa16a33c0531" category="inline-image-macro">빨간색 점 아이콘</block>
   <block id="7d7d26ff83eab48a85cd445cd29bab2e" category="inline-image-macro">자주색 점 아이콘</block>
   <block id="134efb003c0c77dd5b7268102437409d" category="paragraph"><block ref="52273d64c65862ef424a47885fe81b01" category="inline-image-macro-rx" type="image"></block>: 서비스 수준의 약정 용량에 대해 기록된 용량 사용량이 없습니다<block ref="d72ea1f055275eb6c806c044808270ee" category="inline-image-macro-rx" type="image"></block>: 소비는 정상이며, 약속된 용량의 80% 이내입니다<block ref="26b60b3bc680636be1bff71d9158314a" category="inline-image-macro-rx" type="image"></block>: 최대 소비량입니다. 즉, 사용량이 약속된 용량의 100% 이상에 도달하게 됩니다. Consumed * (사용량 *) 열에는 커밋된 용량의 80%를 초과하는 소비에 대한 이 표시기가 표시됩니다<block ref="25206057152159ddc0d0e53262070870" category="inline-image-macro-rx" type="image"></block>: 소모량이 버스트 제한 내에 있습니다. 버스트 소비는 서비스 수준의 약정 용량 100%를 초과하는 소비량이며, 120%와 같이 합의된 최대 사용량 제한 내에 있는 소비입니다<block ref="49884f5051327fb7a920e2ee64178452" category="inline-image-macro-rx" type="image"></block>: 규정된 버스트 제한을 초과하는 소비를 나타냅니다</block>
-  <block id="ce124e8ce85a3b9897dfa2dbf4b6dd2e" category="section-title">구독 내역 데이터 차트를 봅니다</block>
   <block id="abc995760236584824b9e9fb494224ef" category="admonition">최적의 성능 및 사용자 환경을 위해 쿼리의 날짜 범위를 3개월 이하로 제한합니다.</block>
   <block id="2d4b4ef84378e8e4f4407057e45d3b8b" category="list-text">세부 정보 보기 * 를 클릭합니다. 각 서비스 수준에 대한 구독의 과거 소비 데이터는 선택한 시간 범위를 기준으로 표시됩니다. 차트 위에 마우스 커서를 올려 놓으면 해당 시점의 버스트 제한 데이터 위에서 약정, 사용량, 버스트 등의 사용량 분석을 볼 수 있습니다.</block>
-  <block id="0822b24d655ec1572b18a2ff17d3ea35" category="inline-image-macro">시계열 탭</block>
-  <block id="c146cff58b20f1e3ad6a2139acf308cc" category="paragraph"><block ref="c146cff58b20f1e3ad6a2139acf308cc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e8f49e2b6da7339d918b4030b299167c" category="admonition">쿼리의 날짜 범위를 기반으로 사용 차트는 30개의 데이터 수집 지점 범위로 표시됩니다.</block>
   <block id="793c1a98e090ba1b0f167e3a8b0c5b37" category="paragraph">볼륨 세부 정보가 표시됩니다. 열 머리글 옆에 있는 정보 아이콘 위에 마우스를 올려 놓으면 열을 스크롤하여 해당 열에 대해 자세히 알아볼 수 있습니다. 열을 기준으로 정렬하고 목록을 필터링하여 특정 정보를 볼 수 있습니다.</block>
-  <block id="0bb9d5f8cc89f1784aecd52a98b80f07" category="inline-image-macro">시스템 세부 정보 탭</block>
-  <block id="8b672bec07d1efa43e526f4981ffb4e7" category="paragraph"><block ref="8b672bec07d1efa43e526f4981ffb4e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="71f95b1426db5071da237d6bf6575ce7" category="inline-image-macro">StorageGRID 팝업 창이 나타납니다</block>
   <block id="01fbf3b3ab73f44b8a4319cd449a0e34" category="paragraph"><block ref="01fbf3b3ab73f44b8a4319cd449a0e34" category="inline-image-macro-rx" type="image"></block></block>
   <block id="758fb921b8f7f93b9953a0fbc2d3fb44" category="paragraph"><block ref="758fb921b8f7f93b9953a0fbc2d3fb44" category="inline-image-macro-rx" type="image"></block></block>
   <block id="673f6d6dd1bd7cf996e745b008b601ea" category="inline-image-macro">보고서 다운로드 아이콘</block>
-  <block id="7767eafc8f9b1e0dc39313a5621976b3" category="paragraph">다운로드 버튼을 클릭하여 구독 세부 정보, 시간 범위에 대한 기간별 사용 데이터 및 각 탭에서 시스템 세부 정보에 대한 보고서를 생성하고 볼 수 있습니다. <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4789923a07d70bc200da1637f48b083c" category="inline-image-macro">보고서의 CSV입니다</block>
   <block id="8546ab2b8d3bedbd693707d07fe7de14" category="paragraph"><block ref="8546ab2b8d3bedbd693707d07fe7de14" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7ed21143076d0cca420653d4345baa2f" category="inline-image-macro">경고</block>
   <block id="c5353e1a31b3a925fabe61c02b5bfc5e" category="paragraph"><block ref="c5353e1a31b3a925fabe61c02b5bfc5e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="85701aafc47f53d769db3988637e595c" category="admonition">빈 차트는 해당 데이터 수집 지점에 사용자 환경에서 사용할 수 있는 데이터가 없음을 나타냅니다.</block>
   <block id="885a7272db12515ccb176ecc5739bfc0" category="inline-link">NetApp Keystone 설명서</block>
-  <block id="2aff714660911e754b718f59da053651" category="list-text">* 사용 유형 *: 여러 Keystone(버전 1) 또는 Keystone STaaS(버전 2) 구독했을 수 있습니다. 서비스 수준에 대한 요금 계획 규칙은 두 가지 구독 유형에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량에 따라 청구되는지 아니면 논리적 사용량에 따라 청구되는지 알 수 있습니다<block ref="6654c734ccab8f440ff0825eb443dc7f" prefix=" " category="inline-code"></block> 또는<block ref="1b267619c4812cc46ee281747884ca50" prefix=" " category="inline-code"></block>. Keystone 가입 버전 1에 대한 자세한 내용은 을 참조하십시오<block ref="04786649a4dbcc1655013fc588bcc7d4" category="inline-link-rx"></block>.</block>
   <block id="382af8e8b2bf82c4df59a255786526a2" category="section-title">ONTAP 볼륨 세부 정보입니다</block>
   <block id="fc33c921eada2f71b3a548355734f006" category="section-title">StorageGRID 노드 및 소비 세부 정보</block>
   <block id="248ee1b5c36074ad26f09b9a95a55dca" category="admonition">단일 서비스 수준 또는 요금제에 가입한 경우 비준수 볼륨에 대한 알림을 볼 수 없습니다.</block>
@@ -1165,11 +1147,8 @@
   <block id="1f5e8b836d490bee65ada2e551662a8f" category="sidebar">Keystone Collector를 설치합니다</block>
   <block id="da152509ccdb6d6b167f659fc63ed210" category="sidebar">Keystone 구독 버전 1(이전, Keystone Flex 구독)</block>
   <block id="f4797200b978e2cdf72d828512836645" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드 및 보고서의 TiB에 표시되며 소수점 이하 두 자리까지 반올림됩니다. 사용률이 0.01TiB 미만이면 값이 0 또는 로 표시됩니다<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 기타 사용량 메트릭은 를 참조하십시오 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>.</block>
-  <block id="2cee56420a8bf3ad373606551a8bc8bf" category="inline-link-macro">고급 데이터 보호를 위한 추가 정보</block>
-  <block id="526c2c9d422fdf2baef9369203b39c92" category="admonition">고급 데이터 보호 애드온 서비스에 가입한 경우 가입 번호에 대한 도구 설명을 클릭하여 MetroCluster 설정에서 파트너 가입의 추적 ID를 확인할 수 있습니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오 <block ref="f15f9282100c644cf5e8c3defc83d6f4" category="inline-link-macro-rx"></block>.</block>
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="inline-link-macro">고급 데이터 보호</block>
   <block id="31983c33f891876ff7bcaee65805fde0" category="paragraph">고급 데이터 보호 추가 서비스에 대한 자세한 내용은 을 참조하십시오 <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block>.</block>
-  <block id="04db5afbef84567f5c1ef044a2971b66" category="paragraph">ONTAP 스토리지 환경의 클러스터가 MetroCluster 설정에 구성되어 있으면 Keystone 가입 소비 데이터가 동일한 시계열 차트로 분할되어 기본 서비스 수준에 대한 기본 및 미러 사이트의 소비를 표시합니다.</block>
   <block id="fb3cbb66357c55c4f429abc77ecde8bb" category="paragraph-title">고급 데이터 보호 서비스 레벨</block>
   <block id="c3c3060e985c56412fb0189a9c010a6d" category="paragraph-title">기본 서비스 레벨</block>
   <block id="65626369a820db5271fac7f41d059e93" category="paragraph-title">기본 구독에 대해 확인할 수 있는 사항</block>
@@ -1179,7 +1158,6 @@
   <block id="4bb0adac0644b7c8396196d410d47909" category="inline-image-macro">MCC 기본 베이스</block>
   <block id="252d078185bf1100894fa3aae110fb74" category="paragraph"><block ref="252d078185bf1100894fa3aae110fb74" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cd9124dc0715967bbbd4e31ad8a6f35d" category="paragraph-title">2차(미러 사이트) 구독에 대해 확인할 수 있는 사항</block>
-  <block id="de7e96b640e5109ff5e8bcbb7abf5849" category="paragraph">2차 구독을 확인하는 경우 파트너 사이트와 동일한 데이터 수집 지점에서 _Extreme_service 수준(기본 서비스 수준)의 막대 차트가 반전되고 1차 및 미러 사이트의 소비 중단은 각각 1.05TiB와 1.02TiB인 것을 확인할 수 있습니다.</block>
   <block id="ff58d4e2d2a69e5e91f9509907ba3bd1" category="inline-image-macro">MCC 미러</block>
   <block id="292d6b6f6df888f5de022ad6bebc7e52" category="paragraph"><block ref="292d6b6f6df888f5de022ad6bebc7e52" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20222cfe14bec28299c2fc51ff2ec704" category="paragraph">고급 데이터 보호 서비스 수준의 경우 파트너 사이트와 동일한 컬렉션 지점에 대해 다음과 같은 차트가 나타납니다.</block>
@@ -1191,7 +1169,6 @@
   <block id="815d49ae1d640489fc7d71580a9136fb" category="paragraph">Keystone STaaS 서브스크립션의 일부로 고급 데이터 보호 애드온 서비스를 구독할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 제로 RPO(복구 시점 목표)에서 미션 크리티컬 워크로드에 대한 효율적인 데이터 보호를 보장합니다.</block>
   <block id="5d15d69b71166851acc9decce7574df8" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. 이 추가 서비스 의 일부인 를 참조하십시오<block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 서비스 수준이 구독에 할당되었습니다.
 ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>.</block>
-  <block id="a59ea5d7cacb8e29da18d9bb6da809c7" category="paragraph">MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="f15f9282100c644cf5e8c3defc83d6f4" category="inline-link-macro-rx"></block>.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
   <block id="c2c11a830d011ece03d73534208897a1" category="list-text">요금은 파일 및 블록 스토리지에만 적용됩니다.</block>
   <block id="3505917ad3d0afd6896fab28f67d309e" category="paragraph">지원되는 MetroCluster 시나리오는 다음과 같습니다.</block>
@@ -1201,17 +1178,9 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="34c39bccff9d0d20e19cce35894ae174" category="list-text">Digital Advisor에 로그인합니다. 구매한 Keystone 서비스와 비교하여 용량 사용이 요약된 * Keystone 가입 * 위젯을 확인할 수 있습니다.</block>
   <block id="0e36e4920a72685c5bf66bc9dcc92631" category="list-text">Keystone 구독 * 위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 구독 * 페이지에서 볼륨에 대한 사용 세부 정보와 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 &gt; Keystone 구독 * 으로 이동합니다.
 서브스크립션 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보는 * Keystone 가입 * 화면의 여러 탭에 표시됩니다.</block>
-  <block id="97bc392a54093706b77166ffad5ea0d0" category="section-title">모든 구독을 봅니다</block>
-  <block id="2fe8aaafbfc1675fe82744032b0d0cf7" category="paragraph">모든 구독 * 탭에서 모든 구독 목록을 볼 수 있습니다.</block>
-  <block id="6af07443bb9ad7040cdd401c709ccbab" category="inline-image-macro">모든 구독 탭의 이미지</block>
-  <block id="1026961b348768f00fe99c6335970163" category="paragraph"><block ref="1026961b348768f00fe99c6335970163" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="476ad8a78b020e036601b4348c5a5a1e" category="paragraph">각 구독에 대해 다음 정보를 확인할 수 있습니다.</block>
   <block id="cae11d1e043701baf38d6a3ed01e62d3" category="list-text">* 청구 기간 *: 구독의 청구 기간(월, 분기 또는 연 단위).</block>
   <block id="3712fdca555e2046955823c405ec7da9" category="list-text">* 종료일 *: 가입 종료 날짜. 날짜 필드가 비어 있으면 구독에 종료 날짜가 없으며 자동으로 갱신됩니다. 이 날짜를 기준으로, 종료되거나 자동 갱신 정책이 연결된 구독에 대한 알림을 볼 수 있습니다.</block>
   <block id="89daf59b9c591b51911d438bdad9f762" category="list-text">* 사용 상태 *: 사용량이 가입 한도 내에 있는지 또는 초과하는지 여부를 나타내는 사용 표시기를 표시합니다. 최고 소비 레코드를 보려면 이 열을 기준으로 목록을 정렬할 수 있습니다.</block>
-  <block id="0217421b29817efbd12b8a6b40478e08" category="list-text"><block ref="f5416884a5e4dfec0dfa2f3734568648" category="inline-image-macro-rx" type="image"></block>: 구독에 대해 이 아이콘을 클릭하면 해당 구독에 대한 추가 세부 정보가 있는 * 가입 세부 정보 * 탭이 열립니다.</block>
-  <block id="d09bca37ccedda4d9fbf38171efa8fc2" category="list-text"><block ref="435e416487181a998706b8fd7ece7b01" category="inline-image-macro-rx" type="image"></block>: 이 아이콘을 클릭하면 이 구독에 포함된 각 서비스 수준에 대한 기간별 사용 데이터를 볼 수 있는 * Time Series * 탭이 열립니다.</block>
-  <block id="8ef32aa104ea3562916b70b4b76567dc" category="paragraph">구독의 세부 정보를 확인하려면 * 구독 세부 정보 * 탭을 클릭하고 필요한 구독 번호를 선택합니다.</block>
   <block id="5c5d0bc72c60ee286bac97972345b3e3" category="paragraph">서비스 수준 이름, 커밋됨, 소비됨, 사용 가능한 용량, 현재 및 계산된 버스트 사용률 등의 세부 정보는 TiB로 표시됩니다.</block>
   <block id="6d3602bc1499d37d6352a07745fe82a3" category="inline-image-macro">정보 아이콘</block>
   <block id="d99c74aa854c016d1663a41aa2c66269" category="admonition">를 클릭합니다 <block ref="41cd2369ab2f394456f5dd45b77d6e7d" category="inline-image-macro-rx" type="image"></block> 각 열 옆에 있는 아이콘 은 해당 열에 대한 포괄적인 정보를 제공합니다. 더 높은 소비량을 기록하는 특정 서비스 수준이 강조 표시됩니다. 볼륨에 대해 생성된 경고와 알림을 볼 수도 있습니다.</block>
@@ -1223,13 +1192,9 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="a406fa651a51eba116c486fcdb06fc3c" category="list-text">[SLA 상세정보] * 탭을 클릭합니다.</block>
   <block id="534b8bb97f63cffcd12ecf6328b4f2bf" category="inline-link-macro">지속 가능성 SLA의 자격 기준</block>
   <block id="f9e6d4069d8b1d756e9fd17773921335" category="list-text">세부 정보를 보려는 필수 구독을 선택합니다. 지속 가능성 SLA 기준을 충족하는 서브스크립션만 볼 수 있습니다. 조건에 대한 자세한 내용은 을 참조하십시오 <block ref="b34928c85c77e5734b71c3cedc9c0bd8" category="inline-link-macro-rx"></block>.</block>
-  <block id="3618de06c73bc87e6e05a2e2709ac1cd" category="paragraph">현재 월에 대해 측정된 지속 가능성 관련 메트릭의 일별 분석을 볼 수 있습니다.</block>
   <block id="234915cc570526b6f53c102743f6c8c3" category="inline-image-macro">지속 가능성 세부 정보를 나열하는 SLA 세부 정보 탭</block>
   <block id="35fb43d6729522738924342ef9589dfd" category="paragraph"><block ref="35fb43d6729522738924342ef9589dfd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="14bd46e07894d236b3a66293d8666bad" category="list-text">* 구독 *: 선택한 구독의 구독 번호, 시작 날짜, 종료 날짜 및 청구 기간.</block>
   <block id="ad93f1094c213a299b7eeb6c06888434" category="list-text">* 평균 지속 가능성 *: 이 구독의 마지막 청구 기간 동안 소비 전력(와트/TiB)입니다.</block>
-  <block id="345634b0b78ac2123efc88af82a1dc5c" category="list-text">* 일 *: 이 데이터 항목이 검색되는 달의 날짜.</block>
-  <block id="c43085dff7355ce79f33c44793f19c04" category="list-text">* 생성된 날짜 *: 해당 월의 실제 날짜입니다.</block>
   <block id="cf3556a89b28791c6b5489eb3e907f71" category="list-text">* 평균 와트 *: 클러스터에서 그날 소비한 평균 전력 와트</block>
   <block id="1601f74df75f803cb2e4aa6539b1a1eb" category="list-text">* 유효 용량(TiB *): 커밋된 용량과 서비스 수준에 할당된 버스트 용량의 합계입니다.</block>
   <block id="e8d94261cd2e1a7603966c7b5ed39baa" category="list-text">* 실제 와트(TiB *): 실제 와트/TiB는 클러스터에서 해당 날짜의 실제 전력 소비량입니다. 이 값을 * SLA Watts/TiB * 의 값과 비교하여 오버슈팅을 분석할 수 있습니다.</block>
@@ -1238,17 +1203,10 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="c116684e616e0ce2787b26417c569f60" category="inline-link">스토리지 효율성 이해</block>
   <block id="e947e12615761f4c2e303773c72d9d27" category="list-text">* 스토리지 효율성 비율 *: Keystone 스토리지 환경의 스토리지 효율성 비율 이 비율은 스토리지 효율성 설정을 데이터 저장에 사용되는 총 물리적 공간에 대한 설정 후 시스템에서 사용하는 총 논리적 공간의 비율입니다. 스토리지 효율성 비율에 대한 자세한 내용은 을 참조하십시오<block ref="df51bbeaed5712b7f1e6ba1a864bc572" category="inline-link-rx"></block>.</block>
   <block id="6f95405ef66a2390fbca7f1e8f2b8d05" category="inline-image-macro">경고 아이콘</block>
-  <block id="07e88e39c7578868d0a5fbcfcc0789b6" category="paragraph">SLA 위반이 있는 경우 아이콘이 표시됩니다 <block ref="cc5eb7625ab9968e31facb63a6ab7b5f" category="inline-image-macro-rx" type="image"></block> 열 옆에 있는 는 위반의 특성을 알려줍니다. 다음 경고가 표시됩니다.</block>
   <block id="742d411c489615be21ef326229138b28" category="list-text">주변 온도: 온도가 25^o^C-27^o^C 범위를 벗어난 경우</block>
   <block id="e5aeb4df86b32c28858df21a4762fe12" category="inline-link-macro">지속 가능성 서비스 수준</block>
   <block id="fb709cb6e8ac1273b5788a254d6bd787" category="list-text">SLA 와트/TiB: 서비스 수준 SLA 메트릭이 충족되지 않는 경우 자세한 내용은 을 참조하십시오 <block ref="beb8f3d2ad07be99aaad2bb519c9c45f" category="inline-link-macro-rx"></block>.</block>
   <block id="1ec01a3894497cb2c0ec6b0f170173f7" category="list-text">스토리지 효율성 비율: 스토리지 효율성이 2:1 미만인 경우</block>
-  <block id="38d045ae2297a82ee13138f1531ab028" category="paragraph">시간 시리즈 * 탭은 특정 기간 동안의 구독의 기록 데이터를 표시합니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.</block>
-  <block id="132388a6a35c7d25ea2062b8273f7f26" category="list-text">시간 시리즈 * 탭을 클릭합니다.</block>
-  <block id="4678bee42b24b1f259e76813ce5c8c11" category="list-text">구독 세부 정보: 구독의 시작 및 종료 날짜, 청구 기간(예: 분기별, 연간 등).</block>
-  <block id="0bb824bc11c0651d90f603b301be0454" category="list-text">사용 차트: 막대 차트는 날짜 범위에 대한 서비스 수준 이름 및 해당 서비스 수준에 대해 사용된 용량을 표시합니다. 컬렉션의 날짜 및 시간이 차트 아래쪽에 표시됩니다.</block>
-  <block id="f7415915998d4b4ddd0480235cfc5147" category="paragraph">고급 데이터 보호 애드온 서비스에 가입한 경우 * 시간 시리즈 * 탭에서 MetroCluster 파트너 사이트의 소비 데이터 분열을 볼 수 있습니다.</block>
-  <block id="1ab7bb685c5a04401573e75118c580cb" category="paragraph">그래픽 데이터가 변환되는 * Time Series * 탭의 샘플 보고서:</block>
   <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">지속 가능성, SLA, 서비스 수준 계약</block>
   <block id="da7b7e32fb13eed4f75ab9bd36eb819f" category="paragraph">NetApp Keystone STaaS는 서비스 수준당 소비되는 최대 와트/TiB를 정의하는 서비스 수준 계약 또는 SLA 지원 지속 가능성 서비스 수준을 제공하여 IT 지속 가능성 목표를 계획, 모니터링 및 충족할 수 있도록 지원합니다.</block>
   <block id="e63f850b6a7adfa8bd389be83074bb7a" category="section-title">지속 가능성 지표</block>
@@ -1293,10 +1251,7 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="f2b69dc6ebbf3f5003867401fe70494a" category="example-title">StorageGRID에 대해 수집된 &lt;strong&gt; 사용 데이터: 자세히 알아보기 &lt;/strong&gt;</block>
   <block id="44a356ee93aa30cde0789bb1b6288edc" category="sidebar">Sustainability SLA 서비스 수준</block>
   <block id="c28b09cc41570276b2b0042903d57c79" category="admonition">소비 막대 차트는 기본 서비스 수준에 대해서만 분할됩니다. 고급 데이터 보호 추가 서비스(_Advanced Data-Protect_service 수준)의 경우 이 경계가 나타나지 않습니다.</block>
-  <block id="627187033e0d403fd6c6200ee1ae4adc" category="paragraph">Advanced Data-Protect_service 수준의 경우 총 소비량이 파트너 사이트 간에 분할되며, 각 파트너 사이트의 사용량은 별도의 구독으로 반영되고 청구됩니다. 즉, 운영 사이트에 대한 한 구독과 미러 사이트에 대한 다른 구독이 포함됩니다. 이것이 바로 * 시간 시리즈 * 탭에서 기본 사이트의 구독 번호를 선택할 때 고급 데이터 보호 애드온 서비스의 소비 차트에 기본 사이트의 개별 소비 상세 정보만 표시되는 이유입니다. MetroCluster 구성의 각 파트너 사이트는 소스와 미러 역할을 모두 수행하므로 각 사이트의 총 소비량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.</block>
-  <block id="fd52d7221e8b245c3170011b6a9ec588" category="admonition">* 구독 정보 * 탭에서 구독 추적 ID 옆에 있는 도구 설명을 통해 MetroCluster 설정에서 파트너 구독을 식별할 수 있습니다.</block>
   <block id="b0fd82c95d4d70af17cabfddda9d8ba1" category="paragraph">기본 서비스 수준의 경우 각 볼륨이 운영 사이트와 미러링 사이트에서 프로비저닝되는 대로 청구되므로 운영 사이트와 미러링 사이트의 사용량에 따라 동일한 막대 차트가 분할됩니다.</block>
-  <block id="8c7448231ca20d3d6396d889131809c0" category="paragraph">다음 이미지는 _Extreme_service 레벨(기본 서비스 레벨) 및 기본 서브스크립션 번호에 대한 차트를 표시합니다. 또한 동일한 시계열 차트는 기본 사이트에 사용된 동일한 색상 코드의 밝은 음영으로 미러 사이트 소비를 나타냅니다. 마우스로 가리키면 도구 설명이 운영 사이트와 미러 사이트의 소비 분할(TiB)을 각각 1.02TiB와 1.05TiB로 표시합니다.</block>
   <block id="8bc5c0080c428076bcf05bc51bb14788" category="inline-link-macro">Keystone용 AutoSupport를 구성합니다</block>
   <block id="6d578c7641fb44c9c4f671451a0ca720" category="admonition">Keystone Collector는 Keystone 시스템의 사용 데이터를 수집하는 표준 접근 방식을 나타냅니다. 사용 환경에서 Keystone Collector를 지원할 수 없는 경우 Keystone 제품 관리 팀에 AutoSupport 원격 측정 메커니즘을 대신 사용할 수 있는 권한을 요청할 수 있습니다. AutoSupport에 대한 자세한 내용은 을 참조하십시오<block ref="b096b20f4ffee8d064588e63f22e1fc6" category="inline-link-rx"></block>. Keystone용 AutoSupport 구성에 대한 자세한 내용은 를 참조하십시오 <block ref="580f515f260b4eafdf5c4395b86d5cc8" category="inline-link-macro-rx"></block>.</block>
   <block id="a2cb1683fa1d21863cd2e58f04cb8840" category="summary">AutoSupport for Keystone을 구성하는 절차입니다</block>
@@ -1349,4 +1304,69 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="ad18d1cc4c02be72a25ef833b2c8c734" category="inline-link-macro">고급 데이터 보호를 위한 참조 차트</block>
+  <block id="f22aed9280914d2033fc08d85dff0a10" category="paragraph">MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="c29dea45eb21035a3f68a9ee63dca01a" category="inline-link-macro-rx"></block>.</block>
+  <block id="bd8705d6dc113ed9dd8ea9cd72a8dc71" category="paragraph">NetApp Keystone STaaS 서비스를 구독하면 Active IQ 디지털 어드바이저(디지털 어드바이저) 대시보드의 * Keystone 구독 * 위젯에서 구독에 대한 개요를 볼 수 있습니다.</block>
+  <block id="9eb8ff0f43ab3ce564117624a689cfa3" category="paragraph">Digital Advisor는 * 이전/새 대시보드로 전환 * 버튼을 통해 다양한 수준의 구독 데이터 및 사용 정보에 대한 통찰력을 제공하는 통합 대시보드를 제공합니다.</block>
+  <block id="225101b6a3b9351114a047a3df14351f" category="paragraph-title">기본(이전) 대시보드</block>
+  <block id="8f1fb24849a78e74bb953db567fac415" category="paragraph">구독 서비스 수준에 따라 구독 번호, 계정 이름, 구독 시작 및 종료 날짜, 용량 사용 그래프를 볼 수 있습니다.</block>
+  <block id="5ed038c610a4830d7271f424b6634183" category="inline-image-macro">이전 대시보드</block>
+  <block id="ced86f994324c697693baedc99b0e6f2" category="paragraph"><block ref="ced86f994324c697693baedc99b0e6f2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="13d14e18f44239917913d637c7256363" category="paragraph-title">대체(새로운) 대시보드</block>
+  <block id="1a088874dce4d7e7d6594dc2f1a4f5dc" category="paragraph">구독에 따른 용량 사용량 분열과 즉각적인 주의나 조치가 필요한 경고 및 알림을 확인할 수 있습니다. 정보는 구독 및 사용 상태에 따라 선택적으로 표시됩니다. 다음 정보를 볼 수 있습니다.</block>
+  <block id="0bda3484acab035df5d99c6ae7c96b7e" category="list-text">용량 사용량(예:</block>
+  <block id="2fa390f38790bcacfa9ed28c16a417a5" category="list-text">용도가 없습니다.</block>
+  <block id="6e43137b8aba361d96929db963ff3e75" category="list-text">약정 용량의 80%를 초과하는 소비</block>
+  <block id="1098d339b4dcffce8c70209f314994f1" category="list-text">버스트 사용량.</block>
+  <block id="e34936c456a988d51f6b6e9cd0045039" category="list-text">버스트 용량 이상의 소비.</block>
+  <block id="142aad7034e026071a77d99cc89bc50a" category="list-text">서비스 수준 계약: 가입이 서비스 수준 계약(SLA)에 정의된 지속 가능성 목표를 충족하는지 여부 구독이 SLA 기준을 충족하는 경우 상태를 _All OK_로 볼 수 있습니다.</block>
+  <block id="13ec414d1eb25fd5f02712d7fff020bd" category="list-text">기타 경고가 사용자에게 해당되는 경우 표시됩니다.</block>
+  <block id="9194b7f85d509cccf4786fa0a36abb7e" category="list-text">* 만료 예정 *: 가입이 90일 이내에 만료되는 경우.</block>
+  <block id="659355b83d604f758f0912ce7d64f0b7" category="list-text">* 중요 하드웨어 업그레이드 *: 중요한 하드웨어 업그레이드가 보류 중인 경우.</block>
+  <block id="eaa4f4fae0cb4066dfc3059f1e1803c1" category="list-text">* AQoS 경고 *: AQoS 정책이 할당되지 않은 볼륨이 있습니다.</block>
+  <block id="212358b46f9bebbd9fb05f0b1ec74010" category="admonition">구독 * 탭에서 필터링된 구독 목록을 보려면 * 구독 * 링크를 클릭하십시오.</block>
+  <block id="07dd553ab0687b884de52961e62afa71" category="inline-image-macro">새로운 대시보드</block>
+  <block id="b9ce38f874875b1ede6074a5c68de1e6" category="paragraph"><block ref="b9ce38f874875b1ede6074a5c68de1e6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="124cd0f2df6f1c0e90303ec188b16200" category="section-title">구독 보기</block>
+  <block id="a77be9d41a8d417f9356cc422dd8538b" category="paragraph">구독 * 탭에서 모든 구독 목록을 볼 수 있습니다.</block>
+  <block id="48946b5a768605c40f4daddd2a8cd029" category="inline-image-macro">구독 탭 이미지</block>
+  <block id="6579015c3a8a3c02633d70f057f33dc9" category="paragraph"><block ref="6579015c3a8a3c02633d70f057f33dc9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="65c3e42df0d651d4e8f2a553285c0e5e" category="paragraph">다음 정보를 볼 수 있습니다. 특정 필드 및 열의 경우 데이터에 대한 추가 정보를 제공하는 정보 또는 경고 아이콘 및 도구 설명이 표시될 수 있습니다.</block>
+  <block id="01f431c649471bba598f69605476adcc" category="admonition">고급 데이터 보호 애드온 서비스에 가입한 경우 가입 번호에 대한 도구 설명을 클릭하여 MetroCluster 설정에서 파트너 가입의 추적 ID를 확인할 수 있습니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오 <block ref="c29dea45eb21035a3f68a9ee63dca01a" category="inline-link-macro-rx"></block>.</block>
+  <block id="b229081bc5bd662ac97cebb07282e21f" category="list-text">* 사용 유형 *: 여러 Keystone(버전 1) 또는 Keystone STaaS(버전 2) 구독했을 수 있습니다. 서비스 수준에 대한 요금 계획 규칙은 두 가지 구독 유형에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량에 따라 청구되는지 아니면 논리적 사용량에 따라 청구되는지 알 수 있습니다<block ref="6654c734ccab8f440ff0825eb443dc7f" prefix=" " category="inline-code"></block> 또는<block ref="1b267619c4812cc46ee281747884ca50" prefix=" " category="inline-code"></block>. Keystone 가입 버전 1에 대한 자세한 내용은 을 참조하십시오<block ref="c1460ec66a3867842b79c2599263400e" category="inline-link-rx"></block>.</block>
+  <block id="bb458162772cabd155e3547ccca61540" category="list-text"><block ref="f5416884a5e4dfec0dfa2f3734568648" category="inline-image-macro-rx" type="image"></block>: 구독에 대해 이 아이콘을 클릭하면 해당 구독의 사용 세부 정보가 있는 * Current Usage * 탭이 열립니다.</block>
+  <block id="b05a4811235858c3eb84ea137166df64" category="list-text"><block ref="435e416487181a998706b8fd7ece7b01" category="inline-image-macro-rx" type="image"></block>: 이 아이콘을 클릭하면 * Capacity Trend * 탭이 열리고 이 구독에 포함된 각 서비스 수준에 대한 사용 내역 데이터가 표시됩니다.</block>
+  <block id="2c7a9e8572a9ecd9910d8c030192e772" category="section-title">구독에 대한 사용 세부 정보를 봅니다</block>
+  <block id="4e9ad54d752d197a80e625993ac56eda" category="paragraph">구독의 사용 정보를 확인하려면 * Current Usage * 탭을 클릭하고 필요한 구독 번호를 선택합니다.</block>
+  <block id="9589f5efb3ba98ee4ca1d2943fd95176" category="inline-image-macro">현재 사용 현황 탭</block>
+  <block id="78186fd7282f13506d01c231dbe6998b" category="paragraph"><block ref="78186fd7282f13506d01c231dbe6998b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3c7665ea005e9e7f8da90162e4e1b776" category="list-text">세부 정보를 보려는 연도와 월을 선택합니다. 구독이 활성화된 연도와 월을 선택할 수 있습니다.</block>
+  <block id="5ccd0aad86005018126d385c81136786" category="paragraph">선택한 월에 대해 측정된 지속 가능성 관련 메트릭의 일일 분석을 확인할 수 있습니다.</block>
+  <block id="83244301c5d3072abfe763e6863dd541" category="paragraph">다음과 같은 세부 정보가 표시됩니다. 특정 필드 및 열의 경우 데이터에 대한 추가 정보를 제공하는 정보 아이콘 및 도구 설명이 표시될 수 있습니다.</block>
+  <block id="6557ce5c818100f4f7d844c58ab1f4d8" category="list-text">* 날짜 *: 수집된 SLA 데이터의 날짜.</block>
+  <block id="4b52e4de2603e12b0e1d75e28e207227" category="paragraph">SLA 위반이 있는 경우 <block ref="cc5eb7625ab9968e31facb63a6ab7b5f" category="inline-image-macro-rx" type="image"></block> 열 옆에 있는 경고 아이콘은 위반의 특성을 나타냅니다. 다음 경고가 표시됩니다.</block>
+  <block id="d1ee1008d1ce164e525dc97a67d40db9" category="section-title">사용 현황 내역 데이터를 봅니다</block>
+  <block id="6359d63590b332f2c9e436a2c96b2dae" category="paragraph">Capacity Trend * 탭은 특정 기간 동안의 구독에 대한 내역 데이터를 표시합니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.</block>
+  <block id="c55747de1491eae1cf9b3dcb88464eb6" category="list-text">Capacity Trend * 탭을 클릭합니다.</block>
+  <block id="239e6e2df7e739023e0acbac63d63a5f" category="inline-image-macro">Capacity Trend(용량 추세) 탭</block>
+  <block id="17efbdd0848bb7251844994c7ddde16c" category="paragraph"><block ref="17efbdd0848bb7251844994c7ddde16c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="28092c6b2f146233ff0fb71f61f900c8" category="list-text">* 현재 사용 *: 구독의 시작 및 종료 날짜, 청구 기간(예: 분기별, 연간 등).</block>
+  <block id="12ed0205cd7410bc01e15e4b8a285019" category="list-text">* 사용 차트 *: 막대 차트는 날짜 범위에 대한 서비스 수준 이름 및 해당 서비스 수준에 대해 소비된 용량을 표시합니다. 컬렉션의 날짜 및 시간이 차트 아래쪽에 표시됩니다.</block>
+  <block id="f0a4ed66d292dd42671bbc23f4a39b89" category="paragraph">고급 데이터 보호 애드온 서비스를 구독한 경우 * 용량 추세 * 탭에서 MetroCluster 파트너 사이트의 소비 데이터 세분화를 확인할 수 있습니다.</block>
+  <block id="08134d25afe98c23b355727b97aa82c6" category="paragraph">ONTAP 스토리지 환경의 클러스터가 MetroCluster 설정으로 구성된 경우, Keystone 구독의 소비 데이터는 동일한 기록 데이터 차트로 분할되어 기본 서비스 수준에 대한 운영 및 미러링 사이트의 소비를 표시합니다.</block>
+  <block id="a631e5144b421d637d87cb74456c4660" category="paragraph">Advanced Data-Protect_service 수준의 경우 총 소비량이 파트너 사이트 간에 분할되며, 각 파트너 사이트의 사용량은 별도의 구독으로 반영되고 청구됩니다. 즉, 운영 사이트에 대한 한 구독과 미러 사이트에 대한 다른 구독이 포함됩니다. 그렇기 때문에 * Capacity Trend * 탭에서 기본 사이트의 구독 번호를 선택하면 고급 데이터 보호 애드온 서비스의 소비 차트에 기본 사이트의 개별 소비 상세 정보만 표시되는 것입니다. MetroCluster 구성의 각 파트너 사이트는 소스와 미러 역할을 모두 수행하므로 각 사이트의 총 소비량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.</block>
+  <block id="f25c1d8bbc68ac70ff3f49b577f83657" category="admonition">현재 사용 * 탭에서 구독 추적 ID 옆에 있는 도구 설명을 통해 MetroCluster 설정에서 파트너 구독을 식별할 수 있습니다.</block>
+  <block id="e51f3e7f0941c06c83640e3bf3f8f64c" category="paragraph">다음 이미지는 _Extreme_service 레벨(기본 서비스 레벨) 및 기본 서브스크립션 번호에 대한 차트를 표시합니다. 또한 동일한 내역 데이터 차트는 기본 사이트에 사용된 동일한 색상 코드의 밝은 음영으로 미러 사이트 소비를 나타냅니다. 마우스로 가리키면 도구 설명이 운영 사이트와 미러 사이트의 소비 분할(TiB)을 각각 1.02TiB와 1.05TiB로 표시합니다.</block>
+  <block id="07f3c62f010b8713106aee665189cad9" category="paragraph">2차 구독을 확인하면 파트너 사이트와 동일한 데이터 수집 지점에서 _Extreme_service 수준(기본 서비스 레버런트 Usagel)의 막대 차트가 역전된 것을 확인할 수 있습니다. 또한 운영 사이트와 미러 사이트의 소비 분해는 각각 1.05TiB와 1.02TiB입니다.</block>
+  <block id="f9eade15df63147aad555cc771e3c457" category="section-title">볼륨 및 객체 세부 정보 보기</block>
+  <block id="ceee14333e6ef0ff6abd717629178c90" category="paragraph">볼륨 및 개체 * 탭에서 ONTAP의 볼륨에 대한 사용 및 기타 세부 정보를 볼 수 있습니다. StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드 및 개별 사용량이 표시됩니다.</block>
+  <block id="cd87ede53b5a0c972741a144d8ed79f2" category="admonition">이 탭의 이름은 사이트의 배포 특성에 따라 다릅니다. 볼륨과 오브젝트 스토리지가 모두 있는 경우 * Volumes &amp; Objects * 탭이 표시됩니다. 스토리지 환경에 ONTAP 볼륨만 있는 경우 이름이 * Volumes * 로 변경됩니다. StorageGRID 오브젝트 스토리지의 경우 * 오브젝트 * 탭이 표시됩니다.</block>
+  <block id="29d153ac1b0e976addd91c96cb93899a" category="paragraph">ONTAP의 경우 * 볼륨 * 탭에는 Keystone 구독으로 관리하는 스토리지 환경에서 볼륨의 용량 사용, 볼륨 유형, 클러스터, 애그리게이트 및 서비스 수준과 같은 정보가 표시됩니다.</block>
+  <block id="53fbb2f24baeee014d783d78fadc5102" category="list-text">볼륨 * 탭을 클릭합니다.</block>
+  <block id="50dd3f9725af8367b4d116d8c903ab1f" category="inline-image-macro">볼륨 및 앰프, 개체 탭</block>
+  <block id="3a8912c44d4de1a93b66cde81026e541" category="paragraph"><block ref="dd34412c14e5f1a824f19ba7c2c43e72" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="db17f3bfb1f855765d5586565bab1e13" category="list-text">Objects * 탭을 클릭합니다.</block>
+  <block id="297093c3fae3db4cf400ebe50badab45" category="paragraph">다운로드 버튼을 클릭하여 각 탭에서 구독 세부 정보, 특정 시간 범위의 사용 내역 데이터 및 볼륨 세부 정보에 대한 보고서를 생성하고 볼 수 있습니다. <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae133bb1aeacd8e8e2cacbda0dd91045" category="paragraph">그래픽 데이터가 변환되는 * Capacity Trend * 탭의 샘플 보고서:</block>
+  <block id="cfa76bbfd0724f28399538bdb3182c2e" category="list-text">* 경고 *: 규정 위반 등의 문제가 경고로 표시됩니다. 예를 들어, AQoS(적응형 QoS) 정책이 연결되지 않은 관리 클러스터 내에 볼륨이 있는 경우 경고 메시지가 표시됩니다. 경고 메시지의 링크를 클릭하면 * Volumes * 탭에서 비준수 볼륨 목록을 볼 수 있습니다.</block>
 </blocks>
