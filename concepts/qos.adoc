@@ -14,7 +14,7 @@ summary: Keystone의 서비스 품질
 
 
 [role="lead"]
-스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS를 사용하지 않을 경우, 여러 시스템의 부팅에 대한 워크로드 같은 특정 워크로드는 일정 기간 동안 대부분의 리소스 또는 모든 리소스를 소모하며 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"^].
+스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS가 없으면 여러 시스템의 부팅과 같은 특정 워크로드에서 일정 기간 동안 리소스의 대부분 또는 전부를 소비하고 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"^].
 
 
 
@@ -175,7 +175,7 @@ qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_na
 
 
 .샘플 블록 크기 계산
-서비스 레벨(예: Extreme 서비스 레벨)의 처리량을 계산하려면 다음과 같이 합니다.
+예를 들어, 서비스 수준의 처리량을 계산합니다 `Extreme` 서비스 수준:
 
 * 최대 IOPS: 12,288
 * I/O당 블록 크기: 32KB

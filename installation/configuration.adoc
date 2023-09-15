@@ -17,7 +17,7 @@ summary: Keystone 수집기의 구성
 스토리지 환경에서 Keystone 수집기가 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료해야 합니다. 이 작업은 필요한 Collector 구성 요소를 활성화하고 스토리지 환경과 연결하는 일회성 작업입니다.
 
 
-NOTE: Keystone 수집기는 구성 및 모니터링 작업을 수행하기 위한 Keystone Collector 관리 TUI(터미널 사용자 인터페이스) 유틸리티를 제공합니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.
+NOTE: Keystone Collector는 구성 및 모니터링 작업을 수행하기 위한 Keystone Collector 관리 터미널 사용자 인터페이스(TUI) 유틸리티를 제공합니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.
 
 .단계
 . Keystone Collector 관리 TUI 유틸리티 시작:

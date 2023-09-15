@@ -14,15 +14,15 @@ summary: 애드온, 추가 서비스 세부 정보, 데이터 계층화
 
 
 [role="lead"]
-파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스에는 자주 사용되지 않는 데이터를 식별하고 Keystone STaaS 지원 NetApp 콜드 스토리지에 계층화하는 계층화 기능이 포함됩니다. 콜드 데이터를 Keystone STaaS 지원, 비 NetApp 스토리지에 계층화하려는 경우 데이터 계층화를 애드온 서비스로 사용할 수 있습니다.
+파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스에는 자주 사용되지 않는 데이터를 식별하고 Keystone STaaS 지원 NetApp 콜드 스토리지에 계층화하는 계층화 기능이 포함됩니다. 콜드 데이터를 Keystone STaaS가 지원하는 비 NetApp 스토리지에 계층화하려는 경우 데이터 계층화를 애드온 서비스로 사용할 수 있습니다.
 
 표준 및 추가 서비스에 대한 자세한 내용은 을 참조하십시오 link:../concepts/supported-storage-services.html["Keystone STaaS 서비스"]. 서비스 수준에 대한 자세한 내용은 을 참조하십시오 link:../concepts/service-levels.html["Keystone의 서비스 수준"].
 
-계층화 애드온 서비스는 AWS(Amazon Web Services) S3, Azure Blob, Google Cloud Platform(GCP) 및 기타 Keystone STaaS 지원, S3 호환, 타사 오브젝트 스토리지와 같은 타사 스토리지로 데이터가 계층화되는 경우에만 필요합니다.
+계층화 애드온 서비스는 데이터가 AWS(Amazon Web Services) S3, Azure Blob, Google Cloud Platform(GCP) 및 기타 Keystone STaaS 지원, S3 호환, 타사 오브젝트 스토리지와 같은 타사 스토리지에 계층화된 경우에만 필요합니다.
 
 계층화 기능은 자주 액세스하지 않는 데이터를 사내 및 사외 오브젝트 스토리지 계층으로 자동으로 계층화하는 NetApp FabricPool 기술을 활용합니다.
 
-애드온 데이터 계층화 서비스를 사용하면 Extreme, Premium, Performance, Standard 및 Value 계층을 오브젝트 스토리지 타겟으로 계층화할 수 있습니다. 계층화할 핫/콜드 데이터의 비율은 고정되어 있지 않으며 각 계층에 대해 별도로 측정 및 송장이 발행됩니다.
+애드온 데이터 계층화 서비스를 사용하면 Extreme, Premium, Performance, Standard 및 Value 계층을 오브젝트 스토리지 타겟으로 계층화할 수 있습니다. 계층화할 콜드 데이터에 대한 핫 데이터의 비율은 고정되지 않으며 각 계층은 개별적으로 계산되고 송장이 발행됩니다.
 
 예를 들어, 콜드 스토리지 계층의 타겟이 다음과 같은 경우:
 

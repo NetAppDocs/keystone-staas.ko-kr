@@ -16,11 +16,11 @@ summary: Keystone과 Equinix
 [role="lead"]
 NetApp은 Equinix 데이터 센터에서 NetApp Keystone STaaS 서비스를 호스팅하여 고객에게 유니파이드 솔루션을 제공하기 위해 Equinix와 협력하고 있습니다.
 
-Equinix를 기반으로 하는 Keystone 코로케이션(Co-Lo) 서비스는 표준 Keystone 서비스 오퍼링과 동일합니다.
+Equinix에서 제공하는 Keystone 코로케이션(Co-Lo) 서비스는 표준 Keystone 서비스 오퍼링과 변경되지 않습니다.
 
 이 서비스의 경우:
 
-* Equinix는 공간, 전력, 냉각, 네트워킹, 송장을 스토리지를 제공합니다.
+* Equinix는 공간, 전력, 냉각, 네트워킹, 송장, 스토리지, 월별 기준.
 * 특정 Keystone 영업 동작에 대한 지원이 제공됩니다.
 * 서비스는 11개 국가의 데이터 센터에서 지원됩니다.
 

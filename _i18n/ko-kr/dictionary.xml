@@ -73,7 +73,6 @@
   <block id="3054b3eab6506b148b8f255cf6c91456" category="list-text">블록 크기(KB/IO)입니다</block>
   <block id="b33667f1f1bd3abb2593a5226cf7aeec" category="list-text">TiB = 1024GiB, GiB = 1024MiB, MiB = 1024KiB, KiB = 1024Bytes, Base 2 당</block>
   <block id="3f2e7c232425cd76862bc1b0de689d36" category="list-text">TB = 1000GB, GB = 1000MB, MB = 1000KB, KB = 1000Bytes, 기본 10에 따라</block>
-  <block id="9cd254eadf6bd0f0b5adf539786046ab" category="paragraph">서비스 레벨(예: Extreme 서비스 레벨)의 처리량을 계산하려면 다음과 같이 합니다.</block>
   <block id="5823839bc893623342447999dd558444" category="list-text">최대 IOPS: 12,288</block>
   <block id="d578d491479765feb511ce998c751bcc" category="list-text">I/O당 블록 크기: 32KB</block>
   <block id="99bd16c85cd1ef64c6ea102f25b33359" category="list-text">최대 처리량 = (12288 * 32 * 1024) / (1024 * 1024) = 384MBps/TiB</block>
@@ -85,7 +84,6 @@
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">복제된 볼륨에 대한 청구</block>
   <block id="9ecca21c579121ef7bd72dc9d12e518a" category="list-text">클론 생성 후 처음 24시간 동안에는 클론 복제된 볼륨의 사용이 고려되지 않으며 이 시간 동안 비용이 발생하지 않습니다.</block>
   <block id="d37a813a136d622d708c8200aef13f52" category="section-title">고급 데이터 보호에 대한 청구</block>
-  <block id="59461da5661eef64d28d9da99e80e312" category="paragraph">사이트 A와 사이트 B는 MetroCluster 구성으로 설정됩니다. 사용자가 사이트 A에서 10TB의 볼륨을 생성하면 사이트 B에서 동일한 10TB의 볼륨이 생성됩니다 Keystone은 각 사이트에서 10TB의 소비를 식별하여 20TB를 총 늘립니다. System Manager 및 Unified Manager에서는 사이트 A에서 10TB 볼륨을 생성하지만 사이트 B에서는 10TB 볼륨을 보고하지 않습니다</block>
   <block id="eeeb76af3f8badbcccdfd5a1b14f4e37" category="paragraph">또한, 고급 데이터 보호 기능을 갖춘 Keystone 시스템에서 생성된 모든 볼륨은 해당 볼륨의 미러링 여부와 관계없이 고급 데이터 보호 사용에 포함됩니다.</block>
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">임시 볼륨에 대한 청구</block>
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">볼륨을 이동할 때 임시(TMP) 볼륨이 ONTAP에 의해 생성되는 경우가 있습니다. 이러한 임시 볼륨은 수명이 짧으며 이러한 볼륨의 소비량은 청구 대상으로 측정되지 않습니다.</block>
@@ -98,9 +96,7 @@
   <block id="3655e8bb18b4941a3bf9ce392c24bbb4" category="paragraph">시스템과 루트 볼륨은 Keystone 서비스의 전체 모니터링의 일부로 모니터링되지만 계산되거나 청구되지는 않습니다. 이러한 볼륨에 대한 소비는 청구 대상에서 제외됩니다.</block>
   <block id="8ae2f411abd3cc165322ca02f81cde27" category="summary">Keystone과 Equinix</block>
   <block id="14c29ea9bc1bc3825786a06b4e07becd" category="doc">Equinix를 기반으로 한 Keystone 코로케이션 서비스</block>
-  <block id="130c3598aa08fc7ea1a58f5a13c59e7c" category="paragraph">Equinix를 기반으로 하는 Keystone 코로케이션(Co-Lo) 서비스는 표준 Keystone 서비스 오퍼링과 동일합니다.</block>
   <block id="ab8f1d41f34d86519574f8ff7d968420" category="paragraph">이 서비스의 경우:</block>
-  <block id="2e986b8517427f1318fcb6cde88cfe70" category="list-text">Equinix는 공간, 전력, 냉각, 네트워킹, 송장을 스토리지를 제공합니다.</block>
   <block id="4014aa6ca6c4b222aeea8afca1522395" category="paragraph">Equinix는 다음과 같은 위치에 데이터 센터를 두고 있습니다.</block>
   <block id="70b8a65cfdc8cb99446cf0efce595a78" category="cell">데이터 센터</block>
   <block id="59716c97497eb9694541f7c3d37b1a4d" category="cell">국가</block>
@@ -142,7 +138,6 @@
   <block id="c779911684ebe3ceed4035306e2997c3" category="paragraph">NetApp GSSC(글로벌 서비스 및 지원 센터)는 제품 및 서비스 상태를 모니터링하고, 원격 지원을 제공하고, Keystone 성공 매니저와 협업합니다. 관련 Keystone 가입 주문과 관련된 제품을 모니터링하는 모든 직원은 미국 시민이며 제공됩니다.</block>
   <block id="b47b3a710484adb2c8cfacd64043b550" category="section-title">Keystone 성공 관리자</block>
   <block id="e8483ac20b1990d2362dd45e18cfb1d2" category="section-title">구축 활동</block>
-  <block id="221d560cb3a4127ba5fc624a195a7f29" category="paragraph">가능한 경우, 미국 에서는 현장 및 원격 배포 및 설치 활동을 수행합니다 미국 시민권입니다 제공됩니다. 각주: 법적 고지 [현장 활동에 적절한 직원의 가용성은 Keystone 시스템이 구축된 지리적 위치에 따라 다릅니다.]</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="section-title">지원</block>
   <block id="cedba9b370f4f8fb7584b8a96576dbce" category="paragraph">가능한 경우, 필요한 현장 문제 해결 및 지원 활동은 미국이 수행합니다 미국 시민권입니다 제공됩니다. 각주: 부인[]</block>
   <block id="2dd5f36775604dad2303abf8267a2c4a" category="summary">지원되는 스토리지 용량입니다</block>
@@ -154,7 +149,6 @@
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">서브스크립션 기간 동안 약정 용량을 변경할 수 있습니다. 그러나 다음과 같은 몇 가지 전제 조건이 있습니다.</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="inline-link-macro">용량 절감</block>
   <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">커밋된 용량은 특정 조건에 따라 감소될 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>.</block>
-  <block id="c7ba6335b772c84090b8f2d9dd8b58a3" category="list-text">가입 만료 90일 전에는 약정 용량을 늘릴 수 없습니다. 단, 12개월 추가 기간 동안 가입을 갱신해야 합니다.</block>
   <block id="1df0745e84cded8b1998d4aaf3fce411" category="inline-link-macro">NetApp 글로벌 서비스 지원 센터</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">사용된 용량</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">버스트 용량</block>
@@ -313,7 +307,6 @@
   <block id="240f8cd7a5a26e96dd18576d36e316a8" category="paragraph">NetApp Keystone 서브스크립션의 일부로 NetApp은 파일, 블록 및 오브젝트 서비스에 대한 반품 불가 비휘발성 구성 요소(NRNVC) 오퍼링을 확장합니다.</block>
   <block id="c5362d4c47bc0b20f1e6873a4a685afd" category="paragraph">NetApp은 서비스 제공 시 사용된 모든 물리적 자산을 복구하지 않습니다. 단, NetApp이 서비스 제공 기간에 사용한 전체 물리적 자산을 복구하지 않습니다.</block>
   <block id="abda546406da466370337cf5c31e05a2" category="paragraph">이 서비스를 구입한 경우 다음 사항에 유의하십시오.</block>
-  <block id="8fb8439538faf3e9aca510b975990816" category="list-text">서비스 기간이 끝날 때 또는 서비스 기간 동안 결함이 발견되거나 장애가 발생한 경우 드라이브 및 비휘발성 메모리를 반환할 필요가 없습니다.</block>
   <block id="c390ff57b01f3da644988ff384a92bf8" category="list-text">그러나 드라이브 및/또는 비휘발성 메모리에 대한 폐기 인증서를 작성해야 하며 다른 용도로는 사용할 수 없습니다.</block>
   <block id="39fd5e3ddc496ef780ff5e3fe13bb2d1" category="section-title">SnapLock 규정 준수</block>
   <block id="f14c7b4687be07acacb0f5aeed1474f5" category="inline-link">SnapLock란</block>
@@ -361,13 +354,11 @@
   <block id="352a60ab05e46c12f3319134b5ec7ee2" category="paragraph">서비스 수준에 대한 자세한 내용은 을 참조하십시오 <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>.</block>
   <block id="6dd7fd4aac069a06bec3ae24a6b1b39b" category="paragraph">Keystone에서 지원되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>.</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">다음 섹션을 읽고 이 애드온 서비스에 구속되고 NetApp Keystone 계약 약관에 따라 제공되는 구독 요소를 이해합니다.각주:청구1 [여기에 설명된 서비스 및 오퍼링은 완전히 실행된 Keystone 계약의 적용을 받으며 이 계약에 의해 제한 및 관리됩니다.]</block>
-  <block id="0d3d10747b66177a1b3af60bfd44a1fb" category="list-text">스토리지 컨트롤러를 포함하는 Keystone 인프라</block>
   <block id="dfafb0db4cb7ff50434d65c4ee640f1a" category="paragraph">고객이 Keystone 인프라에 배치한 데이터입니다. 모든 Keystone 용량은 논리적 용량을 기준으로 합니다. 예를 들어, 1TiB 파일이 Keystone 인프라에 저장된 경우 최소 1TiB 용량을 구매해야 합니다.</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">서브스크립션 기간 동안 매월 청구되는 최소 논리적 용량:</block>
   <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">사용된 용량은 서비스에서 현재 사용되고 있는 용량(TiB 스토리지)을 나타냅니다. Keystone 서비스는 특정 서비스 수준에서 모든 볼륨의 논리적 사용된 크기(사용된 물리적 용량이 아님)의 합계를 계산하여 해당 서비스 수준에 대한 사용된 용량을 계산합니다.</block>
   <block id="fc9d3df613063ee57906c461320744e2" category="admonition">참고:</block>
   <block id="422cb43011b8f4dd25975e284b167728" category="list-text">버스트 용량은 탄력적인 기준으로 사용할 수 있으며 평균 소비량에 대해 매일 청구됩니다.</block>
-  <block id="a1cf2147a0b9adb61fa3b44016facca2" category="list-text">* 가용성 *: 서비스에 의해 성공적으로 응답한 I/O 요청 수의 백분율로 측정되며, 서비스에 대한 총 I/O 요청 수로 나눈 값입니다. 이 값은 한 달 동안의 서비스 구분에서 측정되며, 고객이 제공하는 시설, 네트워크 또는 기타 서비스의 예정된 서비스 가동 중지 시간 또는 사용 불가능은 포함되지 않습니다.</block>
   <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">* 내구성 *: 고객 발생으로 인한 삭제 또는 손상을 제외하고 신뢰도 저하 없이 액세스되는 데이터의 비율입니다.</block>
   <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">* 지연 시간 *: 클라이언트로부터 수신된 I/O 요청을 서비스하는 시간, 서비스 경계(스토리지 컨트롤러 I/O 포트)에서 측정</block>
   <block id="c51e1a8d511d7d17bd78e518ec1c554c" category="paragraph">처리량 성능 메트릭은 다음에 기반하여 파일 및 블록 서비스에만 적용됩니다.</block>
@@ -380,8 +371,6 @@
   <block id="d96367d414f2f1ab0c8c14b8d62edc0e" category="list-text">특정 Keystone 영업 동작에 대한 지원이 제공됩니다.</block>
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Extreme 서비스 레벨을 위한 설정 및 명령:</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">성능 서비스 수준에 대한 설정 및 명령:</block>
-  <block id="6511616eb91e4f26f7a37fb73c9823b2" category="list-text">컴퓨팅, 스토리지, 네트워킹과 같은 클라우드 네이티브 서비스는 클라우드 공급자가 송장을 발행합니다.</block>
-  <block id="60da46ad32edbb2f2b3eccbbafedcd9f" category="list-text">이러한 서비스는 클라우드 스토리지 및 컴퓨팅 특성에 따라 달라집니다.</block>
   <block id="77810f754f0d83cb5519f01e38866b76" category="paragraph">ONTAP에서 볼륨을 클론 복제한 후 데이터를 백업 및 복원하는 데 사용할 경우 추가 비용 없이 클론을 계속 사용할 수 있습니다. 그러나 광범위한 기간 동안 비즈니스의 다른 목적으로 사용된 복제된 볼륨은 청구됩니다.</block>
   <block id="a1cc3d09aee1ee7b9c7c5bb4e7c0be32" category="list-text">표준 및 가치 서비스 수준을 가진 클론 복제된 볼륨은 새 데이터가 볼륨에 기록되지 않는 경우 소비로 간주되지 않습니다. 예를 들어 백업 또는 복원 사용 사례에서는 클론 복제된 볼륨에서 데이터를 백업 또는 복원해도 클론 복제된 볼륨 자체의 데이터는 변경되지 않으며 소비로 간주되지 않습니다.</block>
   <block id="9899ef6b9a20de2fea89aa9492d2bbe6" category="paragraph">고급 데이터 보호 기능은 NetApp MetroCluster를 사용하여 물리적으로 분리된 두 클러스터 간에 데이터를 미러링합니다. MetroCluster 미러링된 애그리게이트의 경우 각 클러스터에 데이터가 두 번 기록됩니다. Keystone 서비스는 각 측면에서 독립적으로 소비에 청구되므로 두 개의 동일한 소비 레코드가 생성됩니다. 추가 비용은 데이터가 소스에 있는지, 미러링 또는 미러링되지 않은 데이터인지에 관계없이 구독의 모든 용량에 적용됩니다.</block>
@@ -390,14 +379,11 @@
   <block id="0d128bf188abd70ede35e6c24063c36b" category="paragraph">LUN의 경우 QoS 정책이 적용되는 볼륨과 동일한 청구 패턴이 이어집니다. LUN에 별도의 QoS 정책이 설정된 경우 다음을 수행합니다.</block>
   <block id="67a947157c35cbacef18eda1e5eb037c" category="paragraph">Keystone(NetApp Keystone)은 확장에 따른 지불 방식의 구독 기반 서비스 모델로, OpEx 소비 모델을 선호하는 기업에 원활한 하이브리드 클라우드 경험을 제공하여 자본 지출 또는 임대를 지원합니다.</block>
   <block id="4547b014d12c5d4b1d98a0de125d1aee" category="paragraph">Keystone을 통해 고객은 예측할 수 없는 용량 증가 및 복잡한 조달 주기를 관리하는 데 따르는 장애물이 줄어 비즈니스 가치를 신속하게 창출할 수 있습니다. Keystone을 통해 고객은 비즈니스 우선순위에 맞게 경제성과 운영을 조정할 수 있습니다.</block>
-  <block id="61b62d6f26e61958572029e4a86ce1d4" category="paragraph">Keystone은 온프레미스 및 NetApp, 파트너 또는 고객이 운영하는 블록, 파일 및 오브젝트 데이터 유형에 대해 사전 정의된 서비스 수준에서 스토리지 용량을 제공합니다. Keystone을 선택한 하이퍼스케일 환경에 구축할 수 있는 Cloud Volumes ONTAP 같은 NetApp 클라우드 서비스와 함께 사용할 수 있습니다.</block>
-  <block id="b951d4a500df1c69379ce5b01a7c3ca4" category="paragraph">대다수의 기업이 하이브리드 클라우드 전략을 수립하고 있지만, 고객으로서 OpEx 기반_Pay-per-use_Consumption 모델을 선택할 수 있습니다. 모든 워크로드를 클라우드로 이동해야 하는 경우도 있지만, 특정 부분 또는 모든 워크로드를 클라우드로 마이그레이션할 계획이나 일정은 아직 없습니다. Keystone STaaS(Storage-as-a-Service)는 온프레미스 서비스로 시작한 후 나중에 적절한 워크로드와 클라우드로 이동할 시기를 결정할 수 있는 유연성을 제공합니다. Keystone STaaS는 전체 구축 모델에 대한 약속 보호를 제공합니다. 온프레미스 고객은 클라우드 서비스에 대해 더 많은 비용을 지불하는 대신 사내 지출을 재할당하여 클라우드 서비스를 추가하고 이 재할당 전에 했던 것과 동일한 월간 청구서를 기본적으로 지불할 수 있습니다.</block>
   <block id="ba66768dfbbcde790d00e0de40f92803" category="paragraph">용량 절감(연간)은 _ Annual in Advance_Payment 모델 및 사내 전용 구축에 적용할 수 있습니다. 클라우드 서비스 또는 하이브리드 클라우드 서비스에는 사용할 수 없습니다. 또한 사내 용량을 프로비저닝할 수 있으므로 가입 서비스 수준당 최대 25%까지 용량을 줄일 수 있습니다. 이러한 감소는 다음 연간 청구 기간 시작 시 매년 한 번씩 시행됩니다. 온프레미스 서비스 기반 연간 지불은 용량 감소를 활용하기 위해 계약 기간 동안 언제든지 &gt;200,000가 되어야 합니다. 이 청구 모델은 사내 구축에만 지원되므로 사내 간의 비용 재할당을 지원하지 않습니다. 연간 용량 감소의 예는 다음 이미지에 나와 있습니다.</block>
   <block id="63da2e64853bf4155b1b1a1e9ee74a97" category="list-text">1년, 2년 또는 3년 약정이 있는 가입에만 적용됩니다.</block>
   <block id="6f4ccc7afb4abb0d69142d55085374fa" category="list-text">Cloud Volumes ONTAP 및 Cloud Backup Service 용량은 Keystone을 통해 구매해야 합니다.</block>
   <block id="4f4722c6a50b91ee8454e98c0ddd908a" category="list-text">재할당을 활용하려면 서비스 기반의 온프레미스 월간 지불액이 기간 중 언제든지 $16.7K보다 크거나 같아야 합니다.</block>
   <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">재할당 요청은 고객 또는 파트너가 다음 청구 주기 최소 1주 전에 Keystone 성공 매니저(KSM)에 공식적으로 제출해야 합니다.</block>
-  <block id="c34a82bbff22f4441417f697ffc59087" category="paragraph">NetApp은 NetApp Keystone 고객에게 운영 서비스를 원격으로 제공합니다. 이러한 서비스는 스토리지 관리 활동 전반에 걸쳐 다양한 운영 분야를 아우릅니다. 이러한 서비스에는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트, 인시던트 및 문제 관리, 서비스 요청 이행, 보고 등이 포함됩니다. NetApp에서는 필요에 따라 제어 상태와 지원 증거를 보여줍니다.</block>
   <block id="11cc259f3fbff7a9b169739c7cd9d613" category="list-text">에스컬레이션해야 하는 미해결 케이스/티켓이 있는 경우 다음 주소 중 하나로 이메일을 보내십시오. keystone.services@netapp.com keystone.escalations@netapp.com</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">이 서비스는 파일, 블록 및 오브젝트 서비스에만 적용됩니다.</block>
   <block id="b6a3337f47df4fd3f63ff2c1a9f8ec5b" category="paragraph">SnapLock 기술은 볼륨에 설정된 만료 날짜 이후에 드라이브를 사용할 수 없도록 하여 NRNVC 기능을 활성화합니다. 볼륨에 SnapLock 기술을 사용하려면 NRNVC를 구독해야 합니다. 이는 파일 및 블록 서비스에만 적용됩니다.</block>
@@ -425,23 +411,17 @@
   <block id="2875c453ae21cf76b51a8fa4752d6e33" category="paragraph">지표 측정을 위해 Keystone(NetApp Keystone) STaaS 서비스 내에서 다음 용어 및 정의가 사용됩니다.</block>
   <block id="c7c1919c4fd61189792daac01aa326b5" category="list-text">IO 밀도: IOPS/TiB: 워크로드에서 소비하는 총 공간(테비바이트)을 기준으로 초당 처리되는 입력/출력 작업의 수입니다.</block>
   <block id="bb145603bcdc015d5b17c8a464ceb711" category="list-text">* IOPS/TiB에 포함된 운영 카운터 차트 *: 애플리케이션에서 요청하는 1초 당 프로토콜 작업을 워크로드에 사용되는 볼륨 크기로 나눕니다.</block>
-  <block id="8f8185258509b94d9c9eefe3d83808c3" category="paragraph">Keystone 성공 관리자(KSM)는 Keystone 서비스와 긴밀하게 협력하며 주간 또는 월간 청구 및 운영 보고서를 업데이트합니다. 책임은 NetApp Keystone 계약에 명시되어 있습니다.</block>
   <block id="2d0539451bff9f553647efc300f001de" category="section-title">서비스 요청을 생성하는 중입니다</block>
   <block id="ec48441169568deaa659297bc5ea9f6c" category="paragraph">온보딩 중에 NetApp Keystone ServiceNow를 액세스 및 사용하기 위한 자격 증명을 제공받은 경우 포털을 사용하여 Keystone 구독 관련 문제에 대한 서비스 요청을 생성할 수 있습니다.</block>
   <block id="e64e3a1feaf5661d9c2afb4c8987b792" category="paragraph"><block ref="e64e3a1feaf5661d9c2afb4c8987b792" category="inline-link-rx"></block></block>
-  <block id="aa6dcd727142c64ffc558ae8b1537058" category="paragraph">서비스 요청을 제기하기 전에 시스템 세부 정보, 로그 및 관련 정보가 준비되었는지 확인하십시오. 서비스 요청을 제출할 때 GSSC 팀은 지원 티켓을 수신하고 문제 해결을 위해 정보에 액세스합니다. ServiceNow 티켓을 팔로우하여 상태와 해결 방법을 확인할 수 있습니다.</block>
   <block id="ce79b37185c18b2eba95931a0b15de7a" category="inline-link-macro">지원 번들을 생성하고 수집합니다</block>
   <block id="d5bd195454f7264ad483f3ee67bec884" category="paragraph">지원 번들 추가에 대한 자세한 내용은 을 참조하십시오 <block ref="bc06f0ccbc4013c0e8a3b640622ac4cb" category="inline-link-macro-rx"></block>.</block>
   <block id="6dbebf92ac20a669770a1b25c4ac6d66" category="paragraph">NetApp은 Equinix 데이터 센터에서 NetApp Keystone STaaS 서비스를 호스팅하여 고객에게 유니파이드 솔루션을 제공하기 위해 Equinix와 협력하고 있습니다.</block>
   <block id="0d3b8d50ce10562facf7d3d2a493816b" category="paragraph">Keystone STaaS 서비스 수준에 대한 용량 요구사항은 Keystone STaaS 구독에서 지원하는 파일, 블록, 오브젝트 또는 클라우드 스토리지에 따라 다릅니다.</block>
   <block id="7db88eb4a659597eed51505f20f9ec51" category="paragraph">다음 표에서 오브젝트 스토리지의 최소 용량 요구사항을 확인할 수 있습니다.</block>
-  <block id="bd269faa583b89f04ebbaf5a355b9a79" category="list-text">Keystone 계약을 기준으로 각 사이트에서 버스트 용량을 사용할 수 있습니다. 일반적으로 서비스 수준의 약정 용량보다 20% 더 높습니다. 모든 버스트 사용량은 해당 청구 기간에 대해서만 청구됩니다. 합의된 용량보다 큰 추가 버스트 요구사항이 필요한 경우 지원 팀에 문의하십시오.</block>
-  <block id="44ede7eae3cf7dbcd6a8e49ab4b69abd" category="paragraph">파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스에는 자주 사용되지 않는 데이터를 식별하고 Keystone STaaS 지원 NetApp 콜드 스토리지에 계층화하는 계층화 기능이 포함됩니다. 콜드 데이터를 Keystone STaaS 지원, 비 NetApp 스토리지에 계층화하려는 경우 데이터 계층화를 애드온 서비스로 사용할 수 있습니다.</block>
   <block id="702bdcf3d6f1e35319059ac6ab7ba5c9" category="inline-link-macro">Keystone STaaS 서비스</block>
   <block id="0bee51a2f4e179a1aa2d1018a8a84bbf" category="paragraph">표준 및 추가 서비스에 대한 자세한 내용은 을 참조하십시오 <block ref="32999c765ee523f7718a7908120f4502" category="inline-link-macro-rx"></block>. 서비스 수준에 대한 자세한 내용은 을 참조하십시오 <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>.</block>
-  <block id="be5a33112670331049d3e9b43e6c3564" category="paragraph">계층화 애드온 서비스는 AWS(Amazon Web Services) S3, Azure Blob, Google Cloud Platform(GCP) 및 기타 Keystone STaaS 지원, S3 호환, 타사 오브젝트 스토리지와 같은 타사 스토리지로 데이터가 계층화되는 경우에만 필요합니다.</block>
   <block id="d96faa9e821e8ffac65b118996a9a5e9" category="paragraph">계층화 기능은 자주 액세스하지 않는 데이터를 사내 및 사외 오브젝트 스토리지 계층으로 자동으로 계층화하는 NetApp FabricPool 기술을 활용합니다.</block>
-  <block id="8f46846cb5a320a81c56569442428909" category="paragraph">애드온 데이터 계층화 서비스를 사용하면 Extreme, Premium, Performance, Standard 및 Value 계층을 오브젝트 스토리지 타겟으로 계층화할 수 있습니다. 계층화할 핫/콜드 데이터의 비율은 고정되어 있지 않으며 각 계층에 대해 별도로 측정 및 송장이 발행됩니다.</block>
   <block id="71768d30a875fb63ecbab55da018a191" category="paragraph">예를 들어, 콜드 스토리지 계층의 타겟이 다음과 같은 경우:</block>
   <block id="e73034c8c3d954eb2e6e052c00601420" category="list-text">퍼블릭 클라우드(AWS, Azure, Google) 또는 Keystone STaaS 지원, 타사 오브젝트 스토리지 - 콜드 스토리지 대상에 계층화된 데이터 용량에 대한 추가 요금이 부과됩니다.</block>
   <block id="c32944bc40d1accb43f1f8bfaf090dce" category="paragraph">애드온 계층화 서비스에 대한 비용은 전체 구독 기간을 통해 적용됩니다.</block>
@@ -463,7 +443,6 @@
   <block id="ceaa88393b953e384cdb413dd3572b41" category="list-text">* 고객 운영 모델 *: 고객이 선택한 서비스 수준 및 스토리지에 따라 Keystone 서비스를 구독할 수 있습니다. NetApp은 아키텍처 및 제품을 정의하고 Keystone을 사내에 구축합니다. 스토리지 및 IT 리소스를 통해 인프라를 관리해야 합니다. 고객은 NetApp의 테넌트 또는 서브테넌트이거나 파트너/서비스 공급자입니다. 계약에 따라 NetApp 또는 서비스 공급자가 해결해야 할 서비스 요청을 제출할 수 있습니다. 관리자는 사용자 사이트(환경)에서 관리 작업을 수행할 수 있습니다. 이러한 작업은 사용자 환경의 사용자와 관련이 있습니다.</block>
   <block id="d9074f8f6ffc16585a17ec283468500b" category="paragraph">Keystone STaaS는 서비스 사용 중에 소비되는 용량을 기준으로 측정되었습니다.</block>
   <block id="6d478c5e5b9eefab3f25d9f707b30bac" category="paragraph">약정 용량은 가입을 구매하는 동안 특정 서비스 수준에 대해 확정된 용량입니다. 사용된 용량은 워크로드에서 실제로 사용하는 용량입니다. Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적으로 모니터링하고 측정합니다. 5분마다 시스템에서 서브스크립션 서비스 이용 용량을 상세히 설명하는 소비 레코드가 생성됩니다. 이러한 레코드는 청구서 및 사용 보고서를 생성하기 위해 청구 기간 동안 집계됩니다.</block>
-  <block id="f1a403608a25e7c3303a11caaf78dd6b" category="paragraph">Keystone 가입 시 이 애드온 서비스를 이용할 수 있습니다. 표준 및 클라우드 서비스에 대한 자세한 내용은 를 참조하십시오 <block ref="f4af85410fdce7688ba5a57c75086b91" category="inline-link-macro-rx"></block>.</block>
   <block id="427fa3429ea764a6d2b1f1e8f8111b9e" category="list-text">NRNVC와 관련된 추가 비용은 전체 구독 서비스(표준 서비스, 고급 데이터 보호 및 데이터 계층화 포함)의 월 단위 청구 대비 비율로 청구됩니다.</block>
   <block id="4dc2830ae7b31704bf74b200d5350dea" category="paragraph">이 섹션에는 사용자 환경에서 NetApp Keystone STaaS 서비스를 지원하는 데 필요한 구성 요소가 나열되어 있습니다.</block>
   <block id="d9a2f9a8831ac707c49715a960ba187b" category="paragraph">NetApp Keystone STaaS를 통해 스토리지 구독에 대한 예측 가능하고 사전 가격이 제공됩니다.</block>
@@ -502,7 +481,6 @@
   <block id="a0c7c7077f5d8959ac636195329edca4" category="summary">Keystone Collector를 통해 시스템 상태 모니터링</block>
   <block id="3b02682cee7334412169a53934571445" category="doc">시스템 상태를 모니터링합니다</block>
   <block id="31a7b7e95b2779c762661c1e75f2a6e9" category="paragraph">HTTP 요청을 지원하는 모니터링 시스템을 사용하여 Keystone Collector 서비스를 통해 시스템 상태를 모니터링할 수 있습니다.</block>
-  <block id="0244094e47a53ba0ffb391710aee6ac1" category="paragraph">기본적으로 Keystone 상태 서비스는 localhost 이외의 IP의 연결을 허용하지 않습니다. Keystone 상태 엔드포인트는 입니다<block ref="b2445934e628b68d6950a1056d38299a" prefix=" " category="inline-code"></block>또한 포트에서 Keystone Collector 서버의 모든 인터페이스를 수신합니다<block ref="d79c8788088c2193f0244d8f1f36d2db" prefix=" " category="inline-code"></block>. 쿼리 시 JSON 출력이 있는 HTTP 요청 상태 코드가 끝점에서 응답으로 반환되어 Keystone Collector 시스템의 상태를 설명합니다. JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3fbc3fb647215fe5fedcae04ab7c5" prefix=" " category="inline-code"></block> 속성, 부울, 에 대한 구성 요소별 상태의 세부 목록<block ref="39b49dc5cd8428b510bca14512a16a96" prefix=" " category="inline-code"></block> 속성. 예를 들면 다음과 같습니다.</block>
   <block id="c50c47143f58388e00647899f527fe17" category="paragraph">다음 상태 코드가 반환됩니다.</block>
   <block id="af5679ef3e891be048836388187233bc" category="list-text">* 200 *: 모니터링되는 모든 구성 요소가 정상 상태임을 나타냅니다</block>
   <block id="0d0f0bfa30efe54b61794d83f9981d84" category="list-text">* 503 *: 하나 이상의 구성 요소가 정상 상태가 아님을 나타냅니다</block>
@@ -674,7 +652,6 @@
   <block id="250e025c960accde58851d9cba806aa4" category="list-text">OpenSSL을 사용하여 공개 인증서에 대한 OVA 서명 인증서의 신뢰성을 확인하십시오.<block ref="d67907543fcf70f6dfbc7d1139240042" prefix=" " category="inline-code"></block></block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">Deploy OVF Template * 마법사의_5단계에서 VM 저장 위치를 지정합니다.</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">7단계 사용자 정의 템플릿 _ 에서 admin 사용자 계정의 초기 네트워크 주소와 암호를 지정합니다.</block>
-  <block id="8bcd74591dc72ada87f255c862348f72" category="admonition">admin 암호는 vCenter에서 해독 가능한 형식으로 저장되며, VMware vSphere 시스템에 대한 초기 액세스를 얻기 위해 부트스트랩 자격 증명으로 사용해야 합니다. 초기 소프트웨어 구성 중에 이 관리자 암호를 변경해야 합니다. IPv4 주소의 서브넷 마스크는 CIDR 표기법으로 제공되어야 합니다. 예를 들어 서브넷 마스크 255.255.255.0에 대해 24의 값을 사용합니다.</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">8단계 * Deploy OVF Template * 마법사의 _ 완료 준비 단계에서 구성을 검토하고 OVA 배포에 대한 매개 변수를 올바르게 설정했는지 확인합니다.</block>
   <block id="d5599cb082a40129e25bed4de770048b" category="paragraph">VM을 템플릿에서 구축하고 전원을 켠 후 VM에 대한 SSH 세션을 열고 임시 관리자 자격 증명으로 로그인하여 VM이 구성 준비가 되었는지 확인합니다.</block>
   <block id="a2840fbbafc1435ffe70d4b579b45ac6" category="section-title">초기 시스템 구성</block>
@@ -750,8 +727,6 @@
   <block id="34d81e2d25f8511b6ab5f5b492c3aaa9" category="list-text">Keystone 서비스를 사용하면 서비스 수준에 대해 커밋된 용량 외에 추가 용량을 사용할 수 있습니다. 버스트 용량입니다.</block>
   <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">최대 용량은 Keystone 계약에 합의됩니다. 일반적으로 커밋된 용량보다 20% 높게 설정되며 커밋된 용량과 동일한 속도로 충전됩니다.</block>
   <block id="c9963abc84e870941cff082c5577ec18" category="paragraph">Keystone(NetApp Keystone) STaaS 청구 는 가입의 확정된 용량 위에서 귀사가 소비하는 용량, 즉 버스트 용량을 기준으로 합니다.</block>
-  <block id="7e974afef4ba00b90e789eeac590a840" category="paragraph">최대 한도는 Keystone 계약에 따라 결정되고 지정됩니다. 일반적으로 커밋된 용량보다 20% 더 높습니다.</block>
-  <block id="391a68f52dcd5fd65d9c97ad33e80a85" category="paragraph">약정 용량은 가입을 구매할 때 약정 용량입니다. 커밋된 용량 및 버스트 용량은 서비스 수준별로 측정됩니다. 사용된 용량은 워크로드에서 실제로 사용하는 용량입니다. 소비된 용량이 서비스 수준에 대해 약속된 용량보다 크면 버스트 소비가 기록되고 그에 따라 비용이 청구됩니다. 일반적으로 커밋된 용량보다 20% 더 높습니다. 버스트 용량을 초과하는 사용은 "버스트 제한 초과"로 표시됩니다.</block>
   <block id="103955022b1603eabc8ae0b8c08e287a" category="sidebar">서비스 수준별 내 소모량을 어떻게 확인할 수 있습니까?</block>
   <block id="1bcbd92a1182a8044032c0af47695d8a" category="list-text">를 다운로드합니다<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 파일:<block ref="d1ed07754d396f9745478bc6388ae23a" prefix=" " category="inline-code"></block></block>
   <block id="61736ed4cf14c0d0047c1393f9ff68d3" category="admonition">설치를 완료하면 Keystone Collector 관리 터미널 사용자 인터페이스(TUI) 유틸리티를 사용하여 구성 및 모니터링 작업을 수행할 수 있습니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다. 을 참조하십시오 <block ref="14e6b60cfb93c92598e40786e00457b6" category="inline-link-macro-rx"></block> 및 <block ref="81c399588663f35131a970a2d830c241" category="inline-link-macro-rx"></block>.</block>
@@ -937,7 +912,6 @@
   <block id="8439ccf1446c67100be4a3a73c3d339f" category="list-text">Keystone 서비스 계정 사용자를 생성하고 이를 관리 그룹에 연결합니다. 을 참조하십시오<block ref="3f81d882f8eb86176175a8f2f30c48b0" category="inline-link-rx"></block>.</block>
   <block id="82690bb37c8fd3910939c0d1c07adbfb" category="list-text">파일이 다운로드되면 Keystone ServiceNow 지원 티켓에 첨부할 수 있습니다. 티켓 발생에 대한 자세한 내용은 을 참조하십시오 <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>.</block>
   <block id="df14715a510ff9aeef732a94267cca9b" category="paragraph">스토리지 환경에서 Keystone 수집기가 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료해야 합니다. 이 작업은 필요한 Collector 구성 요소를 활성화하고 스토리지 환경과 연결하는 일회성 작업입니다.</block>
-  <block id="9ab33c1f92542debbe7fbaf0686e8431" category="admonition">Keystone 수집기는 구성 및 모니터링 작업을 수행하기 위한 Keystone Collector 관리 TUI(터미널 사용자 인터페이스) 유틸리티를 제공합니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.</block>
   <block id="39c85d7f0eb110cd413fc170604d8bc6" category="list-text">[구성] &gt; [KS-Collector]로 이동하여 Keystone Collector 구성 화면을 열고 사용 가능한 업데이트 옵션을 확인합니다.</block>
   <block id="dc6558c87d9624db4f0f78e602308c49" category="list-text">필요한 옵션을 업데이트합니다.</block>
   <block id="14a76c71ca702ae118d765e420178711" category="example-title">ONTAP &lt;/strong&gt;용 &lt;strong&gt;</block>
@@ -949,7 +923,6 @@
   <block id="12d4a3f31d7915f04142a35be1ba5a37" category="paragraph">Keystone Collector TUI 화면에서 특정 고객 데이터의 수집을 제한할 수 있습니다. 이 옵션 * 개인 데이터 제거 * 는 기본적으로 사용됩니다.</block>
   <block id="dd771779768817666d39c63b55339112" category="paragraph">ONTAP 및 StorageGRID에서 개인 데이터 액세스를 제한하는 데 제거된 항목에 대한 자세한 내용은 을 참조하십시오 <block ref="461595833a51b2e2463fa89ad8a35ca1" category="inline-link-macro-rx"></block>.</block>
   <block id="6b71507d392708444982d424df1963c2" category="paragraph">ONTAP 파일 및 블록 스토리지, StorageGRID 오브젝트 스토리지를 위한 Keystone STaaS 서비스는 다음 표에 설명된 다양한 기능 및 프로토콜을 지원합니다.</block>
-  <block id="661319c881749fc4ef06edb56f84c952" category="paragraph">NetApp 글로벌 서비스 및 지원 센터(GSSC) 및 NetApp Keystone 성공 관리자(KSM)는 Keystone 가입 서비스를 제공해야 합니다.</block>
   <block id="5e3fca9227064d2d04c47a0f13b4fffe" category="paragraph">Keystone 서비스에 대한 자세한 내용은 다음을 참조하십시오.</block>
   <block id="b41d880d5f9cddb842b19d183ce73f2e" category="paragraph">Keystone은 클러스터가 운영 중인 경우 설정할 수 있는 AQoS 정책을 제공합니다. 모든 볼륨이 시스템에서 이미 생성되어 사용 가능한 올바른 AQoS 정책과 연결되어 있는지 확인해야 합니다.</block>
   <block id="783c1c698cfe222ca1a1c69b815e8a3c" category="list-text">* 정책 그룹 이름 *: AQoS 정책 그룹의 이름입니다. 예를 들면, 다음과 같습니다.<block ref="e22fe87dc37298f80d1bbd25d59219b8" prefix=" " category="inline-code"></block>.</block>
@@ -998,7 +971,6 @@
   <block id="144be97e21d1c48cc88d9c1079fd7242" category="list-text">Active IQ 클라우드 포털은 연결을 수락하고 NetApp Collector에 대한 터널을 설정합니다.</block>
   <block id="eb1ece97f0d4f33c42fe8c1270d9f97f" category="list-text">NetApp Collector는 스토리지 컨트롤러의 관리 연결에 REST API 세션을 설정하고 환경 데이터를 가져온 다음 Active IQ 포털로 보냅니다.</block>
   <block id="9bd6f9bd3f316579290de54613357644" category="paragraph">스토리지 인프라의 상태를 지속적으로 모니터링하는 것은 Keystone 서비스의 가장 중요한 기능 중 하나입니다. Keystone은 모니터링 및 보고를 위해 고객 네트워크에 대한 원격 액세스가 필요한 AIOP 솔루션을 사용합니다. 다음 이미지는 AIOP 솔루션 툴을 통해 고객 위치에 대한 원격 액세스를 보호하는 방법을 설명합니다.</block>
-  <block id="130d043e9f813aac96b9057c87348371" category="list-text">AIOP 솔루션 게이트웨이는 클라우드 포털로 연결되는 TLS 세션을 시작합니다.</block>
   <block id="243cf07b27b6811f47ef7011b0f2fcd7" category="list-text">클라우드의 AIOP 솔루션 서버가 연결을 수락합니다.</block>
   <block id="322f1e98181b58ca0f54061626b2d948" category="list-text">클라우드 포털과 로컬 게이트웨이 사이에 TLS 터널이 설정됩니다.</block>
   <block id="450997fb0074b4d084ffcc7c81c8194e" category="list-text">NetApp 컨트롤러는 SNMP 프로토콜을 사용하여 경고를 보내거나 로컬 게이트웨이로 API 요청에 응답합니다.</block>
@@ -1012,7 +984,6 @@
   <block id="78723ce66f58e9e7caf198aa1ec6dc10" category="list-text">고객이 Red Hat Enterprise Linux 7 또는 8 또는 CentOS 7 Linux 서버를 제공합니다. Keystone 소프트웨어는 를 통해 설치됩니다<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> 설치 프로세스:</block>
   <block id="b264c507ce69115ec3b1ea258739f71a" category="paragraph">AIOP 솔루션 게이트웨이는 다음 구성에 구축됩니다.</block>
   <block id="aed4f4cade15fb6fd54071211fa815d9" category="paragraph">Keystone Collector 및 AIOP 솔루션 게이트웨이의 운영 및 유지 관리를 위해 다음 서비스에 아웃바운드 액세스가 필요합니다.</block>
-  <block id="ea105b45dba9cd611a536c923ac08e2a" category="paragraph">NetApp은 Keystone 고객에게 모니터링 및 청구 같은 서비스를 제공하기 위해 모니터링 및 관리를 위해 설치된 하드웨어 및 소프트웨어 구성요소에 액세스해야 합니다. 가장 일반적인 방법은 고객 네트워크에 대한 VPN(가상 사설망) 연결을 설정하고 필요한 데이터에 액세스하는 것입니다. 고객이 방화벽 포트를 열고 새로운 서비스로 인해 발생하는 운영상의 복잡성을 극복하기 위해 모니터링 도구는 외부 연결을 시작합니다. AIOP 솔루션 및 Zuora 등의 NetApp 클라우드 애플리케이션은 이 연결을 사용하여 해당 서비스를 수행합니다. 이 방법은 이 서비스의 일부인 모니터링 구성 요소에 대한 액세스를 제공하면서 방화벽 포트를 열지 않는 고객의 요구 사항을 충족합니다.</block>
   <block id="3db5d9db3e9bbb96192cdbca3e683f2d" category="list-text">NetApp은 AIOP 솔루션을 사용하여 NetApp Keystone 환경을 능동적으로 모니터링하고 연결하여 문제를 해결합니다.</block>
   <block id="f117a997c71ee803b4f42cc859317819" category="admonition">파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비스 요청이 파트너의 서비스 데스크에 할당됩니다. 파트너의 지원 툴은 AIOP 솔루션 및 GSSC 애플리케이션과 통합할 수 있습니다. L3 문제만 GSSC를 통해 NetApp으로 에스컬레이션됩니다.</block>
   <block id="3416d8a49fd5d49140366de8fbebad06" category="paragraph">NetApp BlueXP는 수백 개의 데이터 소스를 모니터링할 수 있는 완벽한 플랫폼이며 자체적인 대화형 시각화 대시보드가 있습니다. NetApp Keystone 가입 시 클라우드 서비스를 구입하면 BlueXP를 통해 해당 서비스에 액세스하고 관리할 수 있습니다.</block>
@@ -1050,7 +1021,6 @@
   <block id="e55277c0c3f0e910a9213c7bc485b55e" category="paragraph"><block ref="e55277c0c3f0e910a9213c7bc485b55e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="61d927a1aed666979cd431fa1e2acade" category="inline-image-macro">체크 표시</block>
   <block id="afa99e6515d2d53209947ce07fcae1c0" category="cell"><block ref="afa99e6515d2d53209947ce07fcae1c0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5f558fad18c536fde918f6d8470c0f4c" category="paragraph">스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS를 사용하지 않을 경우, 여러 시스템의 부팅에 대한 워크로드 같은 특정 워크로드는 일정 기간 동안 대부분의 리소스 또는 모든 리소스를 소모하며 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>.</block>
   <block id="3e0c227cab019a94ad107467446bc4a1" category="paragraph">Keystone 서비스에서 AQoS(적응형 QoS)를 사용하여 볼륨 크기에 따라 IOPS/TiB 비율을 동적으로 유지합니다. AQoS 정책에 대한 자세한 내용은 을 참조하십시오<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>.</block>
   <block id="772f84cc1580c3b2eb870e7f4a05c668" category="paragraph">ONTAP 볼륨에 AQoS 정책이 적용되지 않은 경우 해당 볼륨은 규정을 준수하지 않습니다. QoS 정책이 없는 볼륨은 시스템에서 사용 가능한 입력/출력 작업을 제공하는 데 필요한 우선 순위 목록의 마지막 볼륨입니다. 그러나 입력-출력 작업을 사용할 수 있는 경우 볼륨은 사용 가능한 모든 IO를 소모할 수 있습니다.</block>
   <block id="8076a815ea253b898f1e1205fc7aa039" category="admonition">볼륨에 AQoS 정책을 적용하지 않은 경우, 해당 볼륨은 가입자 서비스에 따라 가장 높은 서비스 수준에서 측정 및 청구됩니다. 이로 인해 의도하지 않은 폭발이 발생할 수 있습니다.</block>
@@ -1156,8 +1126,6 @@
   <block id="11faa60292999fe44e704021ce9a5657" category="paragraph">MetroCluster에서 데이터를 보호하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="f22c59fda71318ed939c4a5a7c90b447" category="inline-link-rx"></block>.</block>
   <block id="af16b731bd6e35896b00c75d9acfb1d5" category="admonition">고급 데이터 보호 애드온 서비스의 경우 MetroCluster 구성에서 볼륨이 운영 볼륨인지 미러 볼륨인지를 나타내는 추가 열이 나타납니다. 노드 계열 복사 * 버튼을 클릭하여 개별 노드 일련 번호를 복사할 수 있습니다.</block>
   <block id="815d49ae1d640489fc7d71580a9136fb" category="paragraph">Keystone STaaS 서브스크립션의 일부로 고급 데이터 보호 애드온 서비스를 구독할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 제로 RPO(복구 시점 목표)에서 미션 크리티컬 워크로드에 대한 효율적인 데이터 보호를 보장합니다.</block>
-  <block id="5d15d69b71166851acc9decce7574df8" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간의 MetroCluster 구성을 활용하여 데이터 보호를 지원합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. 이 추가 서비스 의 일부인 를 참조하십시오<block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 서비스 수준이 구독에 할당되었습니다.
-ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
   <block id="c2c11a830d011ece03d73534208897a1" category="list-text">요금은 파일 및 블록 스토리지에만 적용됩니다.</block>
   <block id="3505917ad3d0afd6896fab28f67d309e" category="paragraph">지원되는 MetroCluster 시나리오는 다음과 같습니다.</block>
@@ -1229,7 +1197,6 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="185e01eccb11afd93ab6330b3243709d" category="section-title">지속 가능성 보고서</block>
   <block id="214b7c6a2e578d02dcff6a6e0d01644e" category="paragraph">Active IQ Digital Advisor(Digital Advisor) Keystone 대시보드의 SLA 탭에서는 Keystone 서브스크립션에 대한 지속 가능성 메트릭에 대한 자세한 뷰를 제공합니다. 메트릭을 보고 향후 분석 및 조치에 대한 보고서를 생성할 수 있습니다.</block>
   <block id="70b0f05ccb3363a22b7283ba77a6a703" category="section-title">지속 가능성 서비스 크레딧</block>
-  <block id="418d8a3515dc0eaaa423eb4bf13f3ffb" category="paragraph">와트/TiB 소비가 서비스 수준에 대한 SLA에 명시된 기준을 초과하거나 충족하지 않는 경우, NetApp은 청구 기간 동안 보고된 모든 유효한 구독에 대해 서비스 크레딧 지급을 제공합니다. 서비스 수준 SLA 메트릭을 충족하지 못할 경우 서비스 달이 끝나기 1주일 전에 GSSC(NetApp 글로벌 서비스 지원 센터)에 문의하십시오 서비스 수준 위반 여부를 결정할 때 크레딧은 서비스 수준의 약정 용량을 기준으로 계산되며 다음 달의 청구서에 반영됩니다.</block>
   <block id="c46a6fc145efc32d05eb0e6a28bea128" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>.</block>
   <block id="ed55999d50b7451fbe4281de85f01c45" category="example-title">vCenter 7.0u1 및 그 이전 버전: 자세히 알아보십시오</block>
   <block id="ae33212e0f96fd19173ab021f7909861" category="example-title">vCenter 7.0u2 이상: 자세히 알아보기</block>
@@ -1344,7 +1311,6 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="a631e5144b421d637d87cb74456c4660" category="paragraph">Advanced Data-Protect_service 수준의 경우 총 소비량이 파트너 사이트 간에 분할되며, 각 파트너 사이트의 사용량은 별도의 구독으로 반영되고 청구됩니다. 즉, 운영 사이트에 대한 한 구독과 미러 사이트에 대한 다른 구독이 포함됩니다. 그렇기 때문에 * Capacity Trend * 탭에서 기본 사이트의 구독 번호를 선택하면 고급 데이터 보호 애드온 서비스의 소비 차트에 기본 사이트의 개별 소비 상세 정보만 표시되는 것입니다. MetroCluster 구성의 각 파트너 사이트는 소스와 미러 역할을 모두 수행하므로 각 사이트의 총 소비량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.</block>
   <block id="f25c1d8bbc68ac70ff3f49b577f83657" category="admonition">현재 사용 * 탭에서 구독 추적 ID 옆에 있는 도구 설명을 통해 MetroCluster 설정에서 파트너 구독을 식별할 수 있습니다.</block>
   <block id="e51f3e7f0941c06c83640e3bf3f8f64c" category="paragraph">다음 이미지는 _Extreme_service 레벨(기본 서비스 레벨) 및 기본 서브스크립션 번호에 대한 차트를 표시합니다. 또한 동일한 내역 데이터 차트는 기본 사이트에 사용된 동일한 색상 코드의 밝은 음영으로 미러 사이트 소비를 나타냅니다. 마우스로 가리키면 도구 설명이 운영 사이트와 미러 사이트의 소비 분할(TiB)을 각각 1.02TiB와 1.05TiB로 표시합니다.</block>
-  <block id="07f3c62f010b8713106aee665189cad9" category="paragraph">2차 구독을 확인하면 파트너 사이트와 동일한 데이터 수집 지점에서 _Extreme_service 수준(기본 서비스 레버런트 Usagel)의 막대 차트가 역전된 것을 확인할 수 있습니다. 또한 운영 사이트와 미러 사이트의 소비 분해는 각각 1.05TiB와 1.02TiB입니다.</block>
   <block id="f9eade15df63147aad555cc771e3c457" category="section-title">볼륨 및 객체 세부 정보 보기</block>
   <block id="ceee14333e6ef0ff6abd717629178c90" category="paragraph">볼륨 및 개체 * 탭에서 ONTAP의 볼륨에 대한 사용 및 기타 세부 정보를 볼 수 있습니다. StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드 및 개별 사용량이 표시됩니다.</block>
   <block id="cd87ede53b5a0c972741a144d8ed79f2" category="admonition">이 탭의 이름은 사이트의 배포 특성에 따라 다릅니다. 볼륨과 오브젝트 스토리지가 모두 있는 경우 * Volumes &amp; Objects * 탭이 표시됩니다. 스토리지 환경에 ONTAP 볼륨만 있는 경우 이름이 * Volumes * 로 변경됩니다. StorageGRID 오브젝트 스토리지의 경우 * 오브젝트 * 탭이 표시됩니다.</block>
@@ -1372,7 +1338,6 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="0c71fdbd18cfe700717d8fc9fcfaad93" category="list-text">서비스 수준 계약: 이 상태는 하나 이상의 구독이 NetApp와 유효한 지속 가능성 서비스 수준 계약(SLA)을 가지고 있는 경우에 나타납니다. 상태는 구독이 SLA에 정의된 지속 가능성 기준을 충족하는지 여부를 나타냅니다. 구독이 SLA 기준을 충족하는 경우 상태를 _All OK_로 볼 수 있습니다.</block>
   <block id="84e36dca9b7f489eeec9dce46a296483" category="section-title">사용자 지정 루트 CA를 신뢰합니다</block>
   <block id="88a0d353b6ceac1d07247d77dcd50110" category="paragraph">공용 루트 CA(인증 기관)에 대한 인증서 확인은 Keystone Collector 보안 기능의 일부입니다. 그러나 필요한 경우 사용자 지정 루트 CA를 신뢰하도록 Keystone Collector를 구성할 수 있습니다.</block>
-  <block id="bf4054ae750c261ffc8b2cf49b3baf33" category="paragraph">시스템 방화벽에서 SSL/TLS 검사를 사용하면 사용자 지정 CA 인증서로 인터넷 기반 트래픽이 다시 암호화됩니다. 루트 인증서를 수락하고 연결을 허용하기 전에 원본을 신뢰할 수 있는 CA로 확인하도록 설정을 구성해야 합니다. 다음 단계를 수행하십시오.</block>
   <block id="cd13fbeabf87493e10f20a695d006bc0" category="list-text">CA 인증서를 준비합니다. base64로 인코딩된 X.509_file 형식이어야 합니다.</block>
   <block id="48f228c4948d9832ec5d141d4a4e74c0" category="admonition">지원되는 파일 확장명은 입니다<block ref="bdf46f9562b038d0163af0feba0b1dfa" prefix=" " category="inline-code"></block>,<block ref="af5cc73b319c31cbd55a816803ea580b" prefix=" " category="inline-code"></block>,<block ref="7f3a311051199705aef988aa587f7b4d" prefix=" " category="inline-code"></block>. 인증서가 이러한 형식 중 하나인지 확인합니다.</block>
   <block id="26030a362ba8ef1fc9d77a6177cbad4a" category="list-text">인증서를 Keystone Collector 서버에 복사합니다. 파일이 복사되는 위치를 기록해 둡니다.</block>
@@ -1383,8 +1348,47 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="0d23c3e7a4d408a396659a0350ac7a08" category="list-text">Enter 키를 누릅니다. 인증서 경로를 선택하기 위한 대화 상자가 표시됩니다.</block>
   <block id="c77dc319069249add39f558f6b9fdec1" category="list-text">파일 시스템 브라우저에서 루트 인증서를 선택하거나 정확한 경로를 입력합니다.</block>
   <block id="087c9dc5266982ef54ba80f023cbd793" category="list-text">Enter 키를 누릅니다. 고급 * 화면으로 돌아갑니다.</block>
-  <block id="215f6a98cf4df3a75c3e2413ba3efbe4" category="list-text">저장 * 을 선택합니다. 설정이 적용됩니다.</block>
   <block id="03a891b6d33a248fa861083fe4247d1c" category="inline-image-macro">CA 사용자 지정을 위한 TUI 화면</block>
   <block id="8763d534a475bad985b63c246739efb2" category="paragraph"><block ref="8763d534a475bad985b63c246739efb2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="42b719750bcc67ec4565e4a291dd81b0" category="list-text">유지 관리 &gt; 시스템 업데이트 * 옵션을 사용하여 Keystone Collector를 업데이트합니다. 선택한 일부 미러를 사용할 수 없으며 몇 번 재시도하면 시스템 세부 정보가 업데이트됩니다.</block>
+  <block id="a3eeaab8ffdf47da563e8086e097409a" category="paragraph">와트/TiB 소비량이 서비스 수준에 대해 SLA에 지정된 기준을 초과하거나 이를 충족하지 못할 경우, NetApp는 모든 적격 구독에 대해 청구 기간 동안 보고된 차이에 대해 서비스 크레딧을 지급합니다. 서비스 수준 SLA 메트릭을 충족하지 못할 경우 서비스 달이 끝나기 1주일 전에 GSSC(NetApp 글로벌 서비스 지원 센터)에 문의하십시오 서비스 수준 위반을 확인하면 서비스 수준의 약정 용량을 기준으로 크레딧이 계산되고 다음 달의 송장으로 적립됩니다.</block>
+  <block id="62da9737386f7b0511bd36a15644e898" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간 MetroCluster 구성을 활용하여 데이터를 보호합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. 이 추가 서비스 의 일부인 를 참조하십시오<block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 서비스 수준이 구독에 할당되었습니다.
+ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>.</block>
+  <block id="0315debcd2143476e3ac1f5e6124081b" category="paragraph">Equinix에서 제공하는 Keystone 코로케이션(Co-Lo) 서비스는 표준 Keystone 서비스 오퍼링과 변경되지 않습니다.</block>
+  <block id="265c7056fa7758976cd1e340298b3542" category="list-text">Equinix는 공간, 전력, 냉각, 네트워킹, 송장, 스토리지, 월별 기준.</block>
+  <block id="838f06702b7b628e0314113ea42a3b60" category="paragraph">Keystone 구독의 일부로 이 애드온 서비스를 구독할 수 있습니다.
+표준 및 클라우드 서비스에 대한 자세한 내용은 를 참조하십시오 <block ref="f4af85410fdce7688ba5a57c75086b91" category="inline-link-macro-rx"></block>.</block>
+  <block id="e35bc286817799a8ecac7de0060837be" category="list-text">서비스 기간 종료 시, 또는 서비스 기간 동안 드라이브 및 비휘발성 메모리의 반환이 실패하거나 결함이 발견된 경우에는 반환할 필요가 없습니다.</block>
+  <block id="3a4be28bbb64456f61b6d1a38574d0ac" category="paragraph">최대 한도는 Keystone 계약에 따라 결정되고 지정됩니다. 일반적으로 약정 용량보다 20% 더 높습니다.</block>
+  <block id="a8674139f5c9550b17be8bd10f91e77f" category="paragraph">약정 용량은 가입을 구매할 때 약정 용량입니다. 커밋된 용량 및 버스트 용량은 서비스 수준별로 측정됩니다. 사용된 용량은 워크로드에서 실제로 사용하는 용량입니다.
+소비된 용량이 서비스 수준에 대해 약속된 용량보다 크면 버스트 소비가 기록되고 그에 따라 비용이 청구됩니다. 일반적으로 약정 용량보다 20% 더 높습니다. 버스트 용량을 초과하는 사용은 "버스트 제한 초과"로 표시됩니다.</block>
+  <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">컴퓨팅, 스토리지, 네트워킹과 같은 클라우드 네이티브 서비스는 클라우드 공급자가 송장을 발행합니다.</block>
+  <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">이러한 서비스는 클라우드 스토리지 및 컴퓨팅 특성에 따라 다릅니다.</block>
+  <block id="250f7d64786be93dcfc476bdd51bca8f" category="list-text">AIOP 솔루션 게이트웨이는 클라우드 포털로의 TLS 세션을 시작합니다.</block>
+  <block id="0c0de0453c5b0de437eb1976c3926361" category="paragraph">사이트 A와 사이트 B는 MetroCluster 구성으로 설정됩니다. 사용자가 사이트 A에서 10TB의 볼륨을 생성하면 사이트 B에서 동일한 10TB의 볼륨이 생성됩니다 Keystone은 각 사이트에서 10TB의 소비를 식별하여 20TB를 총 늘립니다. System Manager와 Unified Manager에서 사이트 A에 10TB 볼륨이 생성되었다고 보고하지만 사이트 B에 10TB 볼륨을 보고하지 않습니다</block>
+  <block id="da20082463112c8970df057a21a7f47d" category="list-text">스토리지 컨트롤러를 포함한 Keystone 인프라</block>
+  <block id="91aa968d50f3d2ecebe3ba524c542adc" category="paragraph">NetApp은 Keystone 고객에게 모니터링 및 청구 같은 서비스를 제공하기 위해 모니터링 및 관리를 위해 설치된 하드웨어 및 소프트웨어 구성요소에 액세스해야 합니다. 가장 일반적인 방법은 고객 네트워크에 대한 VPN(가상 사설망) 연결을 설정하고 필요한 데이터에 액세스하는 것입니다. 고객이 방화벽 포트를 열고 새로운 서비스로 인해 발생하는 운영상의 복잡성을 극복하기 위해 모니터링 도구는 외부 연결을 시작합니다. AIOP 솔루션 및 Zuora와 같은 NetApp 클라우드 애플리케이션은 이 연결을 사용하여 각 서비스를 수행합니다. 이 방법은 이 서비스의 일부인 모니터링 구성 요소에 대한 액세스를 제공하면서 방화벽 포트를 열지 않는 고객의 요구 사항을 충족합니다.</block>
+  <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">구독이 12개월 추가 기간 동안 갱신되지 않는 한, 약정 용량은 구독이 만료되기 90일 전에 늘릴 수 없습니다.</block>
+  <block id="783e590ecfbaebc7caa0409a8cae6926" category="paragraph">파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스에는 자주 사용되지 않는 데이터를 식별하고 Keystone STaaS 지원 NetApp 콜드 스토리지에 계층화하는 계층화 기능이 포함됩니다. 콜드 데이터를 Keystone STaaS가 지원하는 비 NetApp 스토리지에 계층화하려는 경우 데이터 계층화를 애드온 서비스로 사용할 수 있습니다.</block>
+  <block id="29a37414986b666b1caba06ea110bc8c" category="paragraph">계층화 애드온 서비스는 데이터가 AWS(Amazon Web Services) S3, Azure Blob, Google Cloud Platform(GCP) 및 기타 Keystone STaaS 지원, S3 호환, 타사 오브젝트 스토리지와 같은 타사 스토리지에 계층화된 경우에만 필요합니다.</block>
+  <block id="e426aef809a36320814cef7dd1913cb5" category="paragraph">애드온 데이터 계층화 서비스를 사용하면 Extreme, Premium, Performance, Standard 및 Value 계층을 오브젝트 스토리지 타겟으로 계층화할 수 있습니다. 계층화할 콜드 데이터에 대한 핫 데이터의 비율은 고정되지 않으며 각 계층은 개별적으로 계산되고 송장이 발행됩니다.</block>
+  <block id="50f20ac5f57d2ffea4caf14b3d8a8277" category="list-text">Keystone 계약을 기준으로 각 사이트에서 버스트 용량을 사용할 수 있습니다. 일반적으로 서비스 수준의 약정 용량보다 20% 더 높습니다. 모든 버스트 사용량은 해당 청구 기간에 대해서만 청구됩니다. 추가 버스트 요구 사항이 합의된 용량보다 큰 경우 지원 팀에 문의하십시오.</block>
+  <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">* 가용성 *: 서비스에 의해 성공적으로 응답한 I/O 요청 수의 백분율로 측정되며, 서비스에 대한 총 I/O 요청 수로 나눈 값입니다. 이 값은 한 달 동안의 서비스 경계에서 측정되며, 고객이 제공한 시설, 네트워크 또는 기타 서비스의 예정된 서비스 중단 시간 또는 가용성 불량은 포함되지 않습니다.</block>
+  <block id="0d57513becb1cbc7c0fb1c95b5596678" category="paragraph">Keystone은 온프레미스 및 NetApp, 파트너 또는 고객이 운영하는 블록, 파일 및 오브젝트 데이터 유형에 대해 사전 정의된 서비스 수준에서 스토리지 용량을 제공합니다. Keystone은 선택한 하이퍼스케일 환경에 구축할 수 있는 Cloud Volumes ONTAP와 같은 NetApp 클라우드 서비스와 함께 사용할 수 있습니다.</block>
+  <block id="d0c3240476cd608dd4aebdf601915cb6" category="paragraph">대부분의 기업이 아직 하이브리드 클라우드 전략을 수립하고 있지만, 고객은 OpEx-based_pay-per-use_consumption 모델을 선택할 수 있습니다. 모든 워크로드를 클라우드로 이동해야 하는 경우도 있지만, 특정 부분 또는 모든 워크로드를 클라우드로 마이그레이션할 계획이나 일정은 아직 없습니다. Keystone STaaS(Storage-as-a-Service)는 온프레미스 서비스로 시작한 후 나중에 적절한 워크로드와 클라우드로 이동할 시기를 결정할 수 있는 유연성을 제공합니다. Keystone STaaS는 전체 구축 모델에 대한 약속 보호를 제공합니다. 클라우드 서비스에 더 많은 비용을 지불하는 대신, 온프레미스 고객은 온프레미스 비용을 재할당하여 클라우드 서비스를 추가하고 재할당 전에 커밋된 월간 상환액을 기본적으로 상환할 수 있습니다.</block>
+  <block id="c3241eb7a4fb8cf2ad4325cdfe553a55" category="paragraph">NetApp GSSC(글로벌 서비스 및 지원 센터) 및 NetApp Keystone KSM(Success Manager)은 Keystone 구독에 대한 서비스를 제공할 책임이 있습니다.</block>
+  <block id="8a559914d26628167b5f08a9373076e9" category="paragraph">NetApp은 NetApp Keystone 고객에게 운영 서비스를 원격으로 제공합니다. 이러한 서비스는 스토리지 관리 활동 전반에 걸쳐 다양한 운영 분야를 아우릅니다. 이러한 서비스에는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트, 인시던트 및 문제 관리, 서비스 요청 이행, 보고 등이 포함됩니다. NetApp는 필요에 따라 관리 상태와 증거 자료를 보여 줍니다.</block>
+  <block id="380091ff4f618bba4a7e7e4aa88a1ec1" category="paragraph">Keystone Success Manager(KSM)는 귀사와 Keystone 서비스를 위해 긴밀하게 협력하며 주간 또는 월별 청구 및 운영 보고서에 기반하여 업데이트를 제공합니다. 책임은 NetApp Keystone 계약에 명시되어 있습니다.</block>
+  <block id="215f812eba5abfc5c6f2c8dd59899a86" category="paragraph">서비스 요청을 제기하기 전에 시스템 세부 정보, 로그 및 관련 정보가 준비되었는지 확인하십시오. 서비스 요청을 제출할 때 GSSC 팀은 지원 티켓을 수신하고 문제 해결을 위해 정보에 액세스합니다. ServiceNow 티켓에 따라 상태와 해결 방법을 알 수 있습니다.</block>
+  <block id="2a602722d561a089297c55fb5c3f444e" category="paragraph">스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS가 없으면 여러 시스템의 부팅과 같은 특정 워크로드에서 일정 기간 동안 리소스의 대부분 또는 전부를 소비하고 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>.</block>
+  <block id="e6493c4efe3fa5e48bce86284ff1aa5f" category="paragraph">예를 들어, 서비스 수준의 처리량을 계산합니다<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block> 서비스 수준:</block>
+  <block id="82ed1e96c97e812264424ac485673960" category="paragraph">가능한 경우, 미국 에서는 현장 및 원격 배포 및 설치 활동을 수행합니다 미국 시민권입니다 제공됩니다. 각주: 책임 부인 [현장 활동에 필요한 적절한 인력의 수는 Keystone 시스템이 구축된 지리적 위치에 따라 달라집니다.]</block>
+  <block id="de7e96b640e5109ff5e8bcbb7abf5849" category="paragraph">2차 구독을 확인하는 경우 파트너 사이트와 동일한 데이터 수집 지점에서 _Extreme_service 수준(기본 서비스 수준)의 막대 차트가 반전되고 1차 및 미러 사이트의 소비 중단은 각각 1.05TiB와 1.02TiB인 것을 확인할 수 있습니다.</block>
+  <block id="9415cbbaeaf88bca0512bbfe3c3cb334" category="paragraph">기본적으로 Keystone 상태 서비스는 localhost 이외의 IP로부터의 연결을 허용하지 않습니다. Keystone 상태 엔드포인트는 입니다<block ref="b2445934e628b68d6950a1056d38299a" prefix=" " category="inline-code"></block>또한 포트에서 Keystone Collector 서버의 모든 인터페이스를 수신합니다<block ref="d79c8788088c2193f0244d8f1f36d2db" prefix=" " category="inline-code"></block>. 쿼리 시 JSON 출력이 있는 HTTP 요청 상태 코드가 끝점에서 응답으로 반환되어 Keystone Collector 시스템의 상태를 설명합니다.
+JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3fbc3fb647215fe5fedcae04ab7c5" prefix=" " category="inline-code"></block> 속성, 부울, 에 대한 구성 요소별 상태의 세부 목록<block ref="39b49dc5cd8428b510bca14512a16a96" prefix=" " category="inline-code"></block> 속성.
+예를 들면 다음과 같습니다.</block>
+  <block id="d5fc9deaa6c1da2d57596bde9fcaa038" category="admonition">Keystone Collector는 구성 및 모니터링 작업을 수행하기 위한 Keystone Collector 관리 터미널 사용자 인터페이스(TUI) 유틸리티를 제공합니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.</block>
+  <block id="c6f432b1870f0e6972013545b17800a3" category="paragraph">시스템 방화벽에서 SSL/TLS 검사를 사용하면 사용자 지정 CA 인증서로 인터넷 기반 트래픽이 다시 암호화됩니다. 루트 인증서를 수락하고 연결을 허용하기 전에 원본을 신뢰할 수 있는 CA로 확인하도록 설정을 구성해야 합니다. 다음 단계를 수행하십시오.</block>
+  <block id="f9e29c5d1d04edbbfd564585d416bd59" category="list-text">저장 * 을 선택합니다. 설정이 적용됩니다.</block>
+  <block id="f481813467557e4621102213f070e886" category="admonition">관리자 암호는 vCenter에서 가역적인 형식으로 저장되며 VMware vSphere 시스템에 대한 초기 액세스 권한을 얻기 위해 부트스트랩 자격 증명으로 사용해야 합니다. 초기 소프트웨어 구성 중에 이 관리자 암호를 변경해야 합니다. IPv4 주소의 서브넷 마스크는 CIDR 표기법으로 제공되어야 합니다. 예를 들어 서브넷 마스크 255.255.255.0에 대해 24의 값을 사용합니다.</block>
 </blocks>

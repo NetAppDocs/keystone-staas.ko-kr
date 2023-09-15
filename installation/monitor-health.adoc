@@ -16,7 +16,9 @@ summary: Keystone Collector를 통해 시스템 상태 모니터링
 [role="lead"]
 HTTP 요청을 지원하는 모니터링 시스템을 사용하여 Keystone Collector 서비스를 통해 시스템 상태를 모니터링할 수 있습니다.
 
-기본적으로 Keystone 상태 서비스는 localhost 이외의 IP의 연결을 허용하지 않습니다. Keystone 상태 엔드포인트는 입니다 `/uber/health`또한 포트에서 Keystone Collector 서버의 모든 인터페이스를 수신합니다 `7777`. 쿼리 시 JSON 출력이 있는 HTTP 요청 상태 코드가 끝점에서 응답으로 반환되어 Keystone Collector 시스템의 상태를 설명합니다. JSON 본체는 에 대한 전반적인 상태를 제공합니다 `is_healthy` 속성, 부울, 에 대한 구성 요소별 상태의 세부 목록 `component_details` 속성. 예를 들면 다음과 같습니다.
+기본적으로 Keystone 상태 서비스는 localhost 이외의 IP로부터의 연결을 허용하지 않습니다. Keystone 상태 엔드포인트는 입니다 `/uber/health`또한 포트에서 Keystone Collector 서버의 모든 인터페이스를 수신합니다 `7777`. 쿼리 시 JSON 출력이 있는 HTTP 요청 상태 코드가 끝점에서 응답으로 반환되어 Keystone Collector 시스템의 상태를 설명합니다.
+JSON 본체는 에 대한 전반적인 상태를 제공합니다 `is_healthy` 속성, 부울, 에 대한 구성 요소별 상태의 세부 목록 `component_details` 속성.
+예를 들면 다음과 같습니다.
 
 [listing]
 ----
