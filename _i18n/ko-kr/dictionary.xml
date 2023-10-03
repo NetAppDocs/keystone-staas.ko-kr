@@ -442,7 +442,6 @@
   <block id="1923c743bdc7a28d03225437a33faad3" category="paragraph">NetApp Keystone(Keystone) STaaS는 파트너 운영 모델 및 고객 운영 모델의 두 가지 서비스 제공 운영 모델을 제공합니다.</block>
   <block id="ceaa88393b953e384cdb413dd3572b41" category="list-text">* 고객 운영 모델 *: 고객이 선택한 서비스 수준 및 스토리지에 따라 Keystone 서비스를 구독할 수 있습니다. NetApp은 아키텍처 및 제품을 정의하고 Keystone을 사내에 구축합니다. 스토리지 및 IT 리소스를 통해 인프라를 관리해야 합니다. 고객은 NetApp의 테넌트 또는 서브테넌트이거나 파트너/서비스 공급자입니다. 계약에 따라 NetApp 또는 서비스 공급자가 해결해야 할 서비스 요청을 제출할 수 있습니다. 관리자는 사용자 사이트(환경)에서 관리 작업을 수행할 수 있습니다. 이러한 작업은 사용자 환경의 사용자와 관련이 있습니다.</block>
   <block id="d9074f8f6ffc16585a17ec283468500b" category="paragraph">Keystone STaaS는 서비스 사용 중에 소비되는 용량을 기준으로 측정되었습니다.</block>
-  <block id="6d478c5e5b9eefab3f25d9f707b30bac" category="paragraph">약정 용량은 가입을 구매하는 동안 특정 서비스 수준에 대해 확정된 용량입니다. 사용된 용량은 워크로드에서 실제로 사용하는 용량입니다. Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적으로 모니터링하고 측정합니다. 5분마다 시스템에서 서브스크립션 서비스 이용 용량을 상세히 설명하는 소비 레코드가 생성됩니다. 이러한 레코드는 청구서 및 사용 보고서를 생성하기 위해 청구 기간 동안 집계됩니다.</block>
   <block id="427fa3429ea764a6d2b1f1e8f8111b9e" category="list-text">NRNVC와 관련된 추가 비용은 전체 구독 서비스(표준 서비스, 고급 데이터 보호 및 데이터 계층화 포함)의 월 단위 청구 대비 비율로 청구됩니다.</block>
   <block id="4dc2830ae7b31704bf74b200d5350dea" category="paragraph">이 섹션에는 사용자 환경에서 NetApp Keystone STaaS 서비스를 지원하는 데 필요한 구성 요소가 나열되어 있습니다.</block>
   <block id="d9a2f9a8831ac707c49715a960ba187b" category="paragraph">NetApp Keystone STaaS를 통해 스토리지 구독에 대한 예측 가능하고 사전 가격이 제공됩니다.</block>
@@ -1391,4 +1390,39 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c6f432b1870f0e6972013545b17800a3" category="paragraph">시스템 방화벽에서 SSL/TLS 검사를 사용하면 사용자 지정 CA 인증서로 인터넷 기반 트래픽이 다시 암호화됩니다. 루트 인증서를 수락하고 연결을 허용하기 전에 원본을 신뢰할 수 있는 CA로 확인하도록 설정을 구성해야 합니다. 다음 단계를 수행하십시오.</block>
   <block id="f9e29c5d1d04edbbfd564585d416bd59" category="list-text">저장 * 을 선택합니다. 설정이 적용됩니다.</block>
   <block id="f481813467557e4621102213f070e886" category="admonition">관리자 암호는 vCenter에서 가역적인 형식으로 저장되며 VMware vSphere 시스템에 대한 초기 액세스 권한을 얻기 위해 부트스트랩 자격 증명으로 사용해야 합니다. 초기 소프트웨어 구성 중에 이 관리자 암호를 변경해야 합니다. IPv4 주소의 서브넷 마스크는 CIDR 표기법으로 제공되어야 합니다. 예를 들어 서브넷 마스크 255.255.255.0에 대해 24의 값을 사용합니다.</block>
+  <block id="f55b179b8cade00ad34b1162d0791a0f" category="paragraph">약정 용량은 가입을 구매하는 동안 특정 서비스 수준에 대해 확정된 용량입니다. 사용된 용량은 워크로드에서 실제로 사용하는 용량입니다.
+Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적으로 모니터링하고 측정합니다. 시스템에서 최소 5분마다 한 번 이상 소비 기록이 생성되며 구독에 사용된 현재 용량을 자세히 보여줍니다. 이러한 레코드는 청구서 및 사용 보고서를 생성하기 위해 청구 기간 동안 집계됩니다.</block>
+  <block id="24cba01226edf9c3d3a2a54ff2dcb01b" category="section-title">ONTAP 볼륨 성능을 확인합니다</block>
+  <block id="3b53297f45bd7b71fc7268ad58677e21" category="paragraph">Keystone 구독에서 관리하는 ONTAP 볼륨의 성능 세부 정보를 보려면 * 성능 * 탭을 클릭하십시오.</block>
+  <block id="0fb53446c9ba4fb31807c3858dd35fc5" category="paragraph">ONTAP 볼륨의 성능 메트릭을 보는 데 이 탭을 사용하지 못할 수도 있습니다. 이 탭을 보려면 지원 부서에 문의하십시오.</block>
+  <block id="6e72d1d005343795162600a4ae63ec11" category="list-text">성능 * 탭을 클릭합니다.</block>
+  <block id="f1addfc8f24f051397cc85f6926bf8ed" category="list-text">가입 번호를 선택합니다. 기본적으로 첫 번째 가입 번호가 선택됩니다.</block>
+  <block id="f642e4642652119f9ec47a2dc27c51ff" category="list-text">목록에서 필요한 볼륨 이름을 선택합니다.</block>
+  <block id="52dc465dcb6a1292788d1d65f181d28c" category="inline-image-macro">그래프 아이콘</block>
+  <block id="c3663dd8e997e8e07f88f594ea89534a" category="paragraph">또는 를 클릭할 수도 있습니다 <block ref="813df7a1965c665b3db93a22dec39701" category="inline-image-macro-rx" type="image"></block> 이 탭으로 이동하려면 * 볼륨 * 탭의 ONTAP 볼륨에 아이콘을 클릭합니다.</block>
+  <block id="748946393eca5431e5760647d605462b" category="list-text">쿼리의 날짜 범위를 선택합니다. 날짜 범위는 월 시작 날짜 또는 구독 시작 날짜부터 현재 날짜까지 또는 구독 종료 날짜일 수 있습니다.</block>
+  <block id="78ba841e2af7da29fc53dabaf1dfd5e5" category="inline-link-macro">Keystone의 서비스 수준</block>
+  <block id="bb690fa6b66cd77f49761854afb035e2" category="paragraph">검색된 세부 정보는 각 서비스 수준에 대한 서비스 수준 목표를 기반으로 합니다. 예를 들어, 피크 IOPS, 최대 처리량, 목표 지연 시간 및 기타 메트릭은 서비스 수준에 대한 개별 설정에 따라 결정됩니다. 설정에 대한 자세한 내용은 을 참조하십시오 <block ref="7141573db29c2af45d0b9d0159276c43" category="inline-link-macro-rx"></block>.</block>
+  <block id="8145d7f98eef781aeba1bf4e2ed3d8a0" category="admonition">SLO Reference Line * 확인란을 선택하면 서비스 수준에 대한 서비스 수준 목표를 기반으로 IOPS, 처리량 및 지연 시간 그래프가 렌더링됩니다. 그렇지 않으면 실제 숫자로 표시됩니다.</block>
+  <block id="1c9f2c60f5b1a2cf540da5ecfcf8f343" category="paragraph">수평 그래프에 표시되는 성능 데이터는 5분 간격마다 평균이며 쿼리의 날짜 범위에 따라 정렬됩니다. 그래프를 스크롤하고 특정 데이터 포인트 위로 마우스를 가져가면 수집된 데이터로 드릴다운할 수 있습니다.</block>
+  <block id="be7199993fdc167e8dadd6faa046275c" category="paragraph">구독 번호, 볼륨 이름 및 선택한 날짜 범위의 조합을 기반으로 다음 섹션에서 성능 메트릭을 보고 비교할 수 있습니다. 세부 정보는 볼륨에 할당된 서비스 수준별로 표시됩니다. 클러스터 이름과 볼륨 유형, 즉 볼륨에 할당된 읽기 및 쓰기 권한을 볼 수 있습니다. 볼륨과 관련된 모든 경고 메시지도 표시됩니다.</block>
+  <block id="4f1b175c93064365bb72c5f847f7bbd0" category="section-title">IOPS/TiB</block>
+  <block id="a0746619a848c7d48f648ce50934b43d" category="paragraph">이 섹션에는 쿼리의 날짜 범위를 기반으로 볼륨 내 워크로드에 대한 입력 출력 그래프가 표시됩니다. 서비스 수준의 피크 IOPS와 현재 IOPS(쿼리의 날짜 범위가 아닌 마지막 5분 동안)가 해당 시간 범위에 대한 최소, 최대 및 평균 IOPS(IOPS/TiB)와 함께 표시됩니다.</block>
+  <block id="39b7678a1c994ad158e2003e86860ff2" category="inline-image-macro">그래프의 IOPS 섹션</block>
+  <block id="6eef5220ce0ee019d4add6ef8f2212e8" category="paragraph"><block ref="6eef5220ce0ee019d4add6ef8f2212e8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="35484398406e066f146becbf5ade9a1f" category="section-title">처리량(MBps/TiB)</block>
+  <block id="da4fa7ec69d7af1bb610207a3c277040" category="paragraph">이 섹션에는 쿼리의 날짜 범위를 기반으로 볼륨의 워크로드에 대한 처리량 그래프가 표시됩니다. 서비스 수준의 최대 처리량(SLO Max) 및 현재 처리량(쿼리의 날짜 범위를 기준으로 하지 않고 최근 5분 이내)이 해당 시간 범위의 최소, 최대 및 평균 처리량(Mbps/TiB)과 함께 표시됩니다.</block>
+  <block id="7f753ebf99003e3a50de147adbf5688c" category="inline-image-macro">처리량 그래프</block>
+  <block id="ded93b2a5ebed6aba8869fc052419dbb" category="paragraph"><block ref="ded93b2a5ebed6aba8869fc052419dbb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="561523f74b83ed5c17b02cb73ff8a80e" category="section-title">지연 시간(ms)</block>
+  <block id="e2ca784e5909e7dac9c413d2bf636dac" category="paragraph">이 섹션에는 쿼리의 날짜 범위를 기반으로 볼륨 내 워크로드에 대한 지연 시간 그래프가 표시됩니다. 서비스 수준에 대한 최대 지연 시간(SLO 목표) 및 현재 지연 시간(쿼리의 날짜 범위를 기반으로 하지 않고 최근 5분 이내)이 시간 범위에 대한 최소, 최대 및 평균 대기 시간(밀리초)과 함께 표시됩니다.</block>
+  <block id="edf72d8b9161ba73ea48bf2e68fe9aed" category="paragraph">이 그래프의 색상은 다음과 같습니다.</block>
+  <block id="81989d847dc8278048053c5d03a4bea2" category="list-text">연한 파란색: _ 지연 시간 _. Keystone 서비스 이외의 지연 시간이 포함된 실제 지연 시간입니다. 여기에는 네트워크와 클라이언트 간에 발생하는 지연 시간과 같은 추가 지연 시간이 포함될 수 있습니다.</block>
+  <block id="4c8726ebb2509982ab96801bddd96ce9" category="list-text">진한 파란색: _ 유효 지연 시간 _. 실제 지연 시간은 SLA와 관련하여 Keystone 서비스에만 적용되는 지연 시간입니다.</block>
+  <block id="ff4b5372ded8ea29de7805373e0a5338" category="inline-image-macro">성능 그래프</block>
+  <block id="f00c097e03b4ce4a62527a13752de77d" category="paragraph"><block ref="f00c097e03b4ce4a62527a13752de77d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b8e154beb0e4292a33a0a1882f0e5a11" category="section-title">사용된 논리적 용량(TiB)</block>
+  <block id="72870aad377aa9744011edff931cfbe7" category="paragraph">이 섹션에는 볼륨의 프로비저닝된 용량과 논리적 사용된 용량이 표시됩니다. 현재 논리적 사용된 용량(쿼리의 날짜 범위를 기준으로 하지 않음)과 해당 시간 범위에 대한 최소, 최대 및 평균 사용량이 TiB에 표시됩니다. 이 그래프에서 회색 영역은 커밋된 용량을 나타내고 노란색 그래프는 논리적 용도를 나타냅니다.</block>
+  <block id="55501f4ad85eceeadd5249ad583111f6" category="inline-image-macro">논리적 사용된 용량 그래프</block>
+  <block id="5d511ef587684e994c938c0e19441988" category="paragraph"><block ref="5d511ef587684e994c938c0e19441988" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
