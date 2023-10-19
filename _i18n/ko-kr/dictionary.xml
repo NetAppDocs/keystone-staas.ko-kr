@@ -1312,7 +1312,6 @@
   <block id="5c69a894a823a6f1e25d1f277385ff77" category="list-text">색상 없음: 버스트 또는 버스트 사용량 이상.</block>
   <block id="c452de47d60f3598e66be78d36617ef7" category="list-text">회색: 사용 안 함.</block>
   <block id="ece9b76d902f947684c80e55f9218ffd" category="list-text">황색: 의 80%가 버스트 용량에 커밋됩니다.</block>
-  <block id="f1b2da32c9846a4c537afee772c677be" category="list-text">* 현재 버스트 *: 정의된 버스트 제한 내 또는 그 이상의 사용된 용량에 대한 표시기입니다. 합의된 최대 사용량(예: 약속된 용량을 20% 이상) 내에서 모든 사용량이 버스트 제한 내에 있습니다. 추가 사용은 버스트 제한을 초과하는 사용량으로 간주됩니다. 이 필드에는 특정 색상이 표시됩니다.</block>
   <block id="3fd44300bcd672c4c6d1dbe5de43532f" category="list-text">색상 없음: 버스트 사용량 없음.</block>
   <block id="bfaa63cafd86466ff5242aecfc7dad7c" category="list-text">빨간색: 버스트 사용량.</block>
   <block id="15956c549b6628aeb4d08a85d80be4b9" category="inline-image-macro">StorageGRID 대화 상자</block>
@@ -1424,7 +1423,6 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="85c7c9dc88496ccb44926915d526201d" category="inline-image-macro">Capacity Trend(용량 추세) 탭 및 세부 정보</block>
   <block id="476bf470b1b8dcf24df737be1ac03609" category="paragraph"><block ref="476bf470b1b8dcf24df737be1ac03609" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f8eaf321d70fdf3e9d097bb407d56130" category="paragraph">막대 도표의 다음 색상은 서비스 수준 내에서 정의된 소비 용량을 나타냅니다. 차트의 월별 데이터는 세로 선으로 구분됩니다.</block>
-  <block id="4bc2af7993e31ca7b54c80a630603236" category="paragraph">토글 버튼 * 현재 사용량 표시 * 를 클릭하여 구독의 청구 기간에 대한 현재 소비량과 버스트 사용량을 볼 수 있습니다. 이 값은 쿼리의 날짜 범위를 기반으로 하지 않습니다.</block>
   <block id="a122d7ff9fbb0694ecb095cdf8f27baa" category="section-title">기간별 버스트 데이터를 봅니다</block>
   <block id="7f4aafd34e1281a2bb7098e5b06084bd" category="paragraph">[누적된 버스트] 옵션을 선택한 경우 기본적으로 지난 12개월 동안의 월별 누적된 버스트 사용량 데이터를 볼 수 있습니다. 지난 30개월까지의 날짜 범위를 기준으로 쿼리할 수 있습니다.</block>
   <block id="75ddfeb3beb9d2a265ac2ce3b66ef050" category="admonition">누적된 버스트 사용량 또는 소비된 용량은 현재 청구 기간에 대해 매월 계산됩니다. 계산된 버스트 사용량은 다음 공식에 의해 서비스 수준에 대해 커밋된 용량 및 사용된 용량을 기준으로 계산됩니다.<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
@@ -1432,4 +1430,7 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="b9e135b5bcd23b0beff424e32497e77c" category="paragraph"><block ref="b9e135b5bcd23b0beff424e32497e77c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">이 기능은 미리 보기 전용 모드에서 사용할 수 있습니다. 이 기능에 대한 자세한 내용은 KSM에 문의하십시오.</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">쿼리의 날짜 범위를 선택합니다. 날짜 범위는 월 시작 날짜 또는 구독 시작 날짜부터 현재 날짜까지 또는 구독 종료 날짜일 수 있습니다. 미래 날짜는 선택할 수 없습니다.</block>
+  <block id="4c81eafa216c925957e13d302baa98d5" category="paragraph">토글 단추 * 현재 사용량 표시 * 를 클릭하여 현재 청구 기간의 사용량, 버스트 사용량 및 누적 버스트 데이터를 볼 수 있습니다. 이러한 세부 정보는 쿼리의 날짜 범위를 기반으로 하지 않습니다.</block>
+  <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">* 현재 버스트 *: 정의된 버스트 제한 내 또는 그 이상의 사용된 용량에 대한 표시기입니다. 구독의 버스트 제한 내에서 사용량(예: 약정 용량보다 20% 더 높은 사용량)은 버스트 제한 내에 있습니다. 추가 사용은 버스트 제한을 초과하는 사용량으로 간주됩니다. 이 필드에는 특정 색상이 표시됩니다.</block>
+  <block id="6b7dfe5a7e219d1bb1b0d4dec89d1cb1" category="list-text">* 누적된 버스트 *: 현재 청구 기간 동안 매월 계산된 누적된 버스트 사용량 또는 소비된 용량에 대한 표시입니다. 누적 버스트 사용량은 서비스 수준에 대해 커밋된 용량과 사용된 용량을 기준으로 계산됩니다.<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
 </blocks>
