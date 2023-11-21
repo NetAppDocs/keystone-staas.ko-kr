@@ -17,13 +17,13 @@ sidebar:
     entries:
     - title: Keystone 수집기란
       url: "/installation/installation-overview.html"
-    - title: Keystone Collector 설치를 위한 사전 요구사항
+    - title: Keystone Collector 설치를 위해 시스템을 준비합니다
       entries:
-      - title: VMware vSphere 사전 요구 사항
+      - title: VMware vSphere 요구 사항
         url: "/installation/vapp-prereqs.html"
-      - title: Linux 필수 구성 요소
+      - title: Linux 요구 사항
         url: "/installation/linux-prereqs.html"
-      - title: ONTAP 및 StorageGRID에 대한 특정 필수 구성 요소입니다
+      - title: ONTAP 및 StorageGRID 요구 사항
         url: "/installation/addl-req.html"
     - title: Keystone Collector를 설치합니다
       entries:

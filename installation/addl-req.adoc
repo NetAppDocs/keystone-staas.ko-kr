@@ -4,7 +4,7 @@ permalink: installation/addl-req.html
 keywords: keystone unified manager prerequisites, aiqum config keystone 
 summary: Keystone 통합 관리자 사전 요구사항 
 ---
-= ONTAP 및 StorageGRID에 대한 추가 필수 구성 요소입니다
+= ONTAP 및 StorageGRID에 대한 요구 사항
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -20,9 +20,15 @@ ONTAP 및 StorageGRID에 대한 몇 가지 추가 사전 요구 사항을 완료
 ====
 .ONTAP
 --
-ONTAP에서 Keystone Collector를 설치하려면 다음 단계를 사전 요구 사항에 따라 수행합니다.
+.소프트웨어 요구 사항
+. ONTAP 9.8 이상
+. Active IQ Unified Manager(Unified Manager) 9.10 이상
 
-. Active IQ Unified Manager(Unified Manager) 서버에 Unified Manager 9.7 이상이 구성되어 있는지 확인합니다. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.
+
+.필수 구성 요소
+ONTAP에 Keystone Collector를 설치하려면 다음 단계를 사전 요구 사항으로 수행하십시오.
+
+. Unified Manager 9.10 이상이 구성되어 있는지 확인합니다. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.
 +
 ** https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["VMware vSphere 시스템에 Unified Manager 설치"^]
 ** https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html["Linux 시스템에 Unified Manager 설치"^]
@@ -67,7 +73,7 @@ Unified Manager CLI를 통해 API 게이트웨이를 설정하려면 다음 단�
 --
 StorageGRID에 Keystone Collector를 설치하려면 다음 구성이 필요합니다.
 
-* StorageGRID `11.4.0` 이상 버전이 설치되어 있어야 합니다. StorageGRID 업그레이드에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/storagegrid-116/upgrade/index.html["StorageGRID 소프트웨어 업그레이드: 개요"^].
+* StorageGRID `11.6.0` 이상 버전이 설치되어 있어야 합니다. StorageGRID 업그레이드에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/storagegrid-116/upgrade/index.html["StorageGRID 소프트웨어 업그레이드: 개요"^].
 * 사용량 데이터 수집을 위해 StorageGRID 로컬 관리자 사용자 계정을 생성해야 합니다. 이 서비스 계정은 Keystone Collector 서비스가 관리자 노드 API를 통해 StorageGRID와 통신하는 데 사용됩니다.
 +
 .단계

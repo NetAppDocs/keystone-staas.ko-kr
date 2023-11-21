@@ -356,7 +356,6 @@
   <block id="dfafb0db4cb7ff50434d65c4ee640f1a" category="paragraph">고객이 Keystone 인프라에 배치한 데이터입니다. 모든 Keystone 용량은 논리적 용량을 기준으로 합니다. 예를 들어, 1TiB 파일이 Keystone 인프라에 저장된 경우 최소 1TiB 용량을 구매해야 합니다.</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">서브스크립션 기간 동안 매월 청구되는 최소 논리적 용량:</block>
   <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">사용된 용량은 서비스에서 현재 사용되고 있는 용량(TiB 스토리지)을 나타냅니다. Keystone 서비스는 특정 서비스 수준에서 모든 볼륨의 논리적 사용된 크기(사용된 물리적 용량이 아님)의 합계를 계산하여 해당 서비스 수준에 대한 사용된 용량을 계산합니다.</block>
-  <block id="fc9d3df613063ee57906c461320744e2" category="admonition">참고:</block>
   <block id="422cb43011b8f4dd25975e284b167728" category="list-text">버스트 용량은 탄력적인 기준으로 사용할 수 있으며 평균 소비량에 대해 매일 청구됩니다.</block>
   <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">* 내구성 *: 고객 발생으로 인한 삭제 또는 손상을 제외하고 신뢰도 저하 없이 액세스되는 데이터의 비율입니다.</block>
   <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">* 지연 시간 *: 클라이언트로부터 수신된 I/O 요청을 서비스하는 시간, 서비스 경계(스토리지 컨트롤러 I/O 포트)에서 측정</block>
@@ -676,8 +675,6 @@
   <block id="d40fe201ca96918eaf7db3c328dc1dac" category="sidebar">Keystone에 오신 것을 환영합니다</block>
   <block id="4b5fef6350f906c92ead8e5fcb93fb21" category="sidebar">Keystone 설정 및 구성</block>
   <block id="e5e7352eac1aab74c62e3fb3c13c93eb" category="sidebar">Keystone 수집기란</block>
-  <block id="d495047561c1a08074d3afeeb5b5d172" category="sidebar">VMware vSphere 사전 요구 사항</block>
-  <block id="634b2ff9559aed00b394d1ea933e1865" category="sidebar">Linux 필수 구성 요소</block>
   <block id="e1963f69cecc9ae42f0776dbde80b970" category="sidebar">VMware vSphere 구축</block>
   <block id="1f331fee3a3f66a9a0cc8b4298329656" category="sidebar">Linux 설치</block>
   <block id="5f263121a32bf1557841d7fe819ad1e8" category="sidebar">자동 무결성 검증</block>
@@ -718,8 +715,6 @@
   <block id="31dc6a9375ebd13745edd88d9ad398fa" category="paragraph">Keystone은 서비스 수준에 따라 소비를 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 구축하는 동안 구독한 Keystone 서비스에 대한 각 QoS 정책에 대한 세부 정보가 제공됩니다. 스토리지 관리 작업 중에 예상치 못한 청구가 발생하지 않도록 서비스에 가입한 서비스 수준에 따라 볼륨에 적절한 QoS 정책이 할당되었는지 확인합니다. ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>.</block>
   <block id="6ee89d6c0a15491675b7cc32e34a211d" category="list-text">* gibibytes(GiB), tebytes(TiB) 및 pebibytes(PiB) *: 1024의 밑을 사용한 데이터 스토리지 용량 측정(1GiB = 1024^3^바이트, 1TiB = 1024^4^바이트, 1PiB = 1024^5^바이트).</block>
   <block id="60a76fbd6768a42afc35ac611d023d65" category="paragraph">NetApp Keystone STaaS 서비스 용량은 다음과 같습니다.</block>
-  <block id="33fdcc4581188d05dc6308f0e1c577d9" category="paragraph">서비스 수준에 대해 커밋된 용량을 초과하는 소비량은 버스트 용량입니다.</block>
-  <block id="34d81e2d25f8511b6ab5f5b492c3aaa9" category="list-text">Keystone 서비스를 사용하면 서비스 수준에 대해 커밋된 용량 외에 추가 용량을 사용할 수 있습니다. 버스트 용량입니다.</block>
   <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">최대 용량은 Keystone 계약에 합의됩니다. 일반적으로 커밋된 용량보다 20% 높게 설정되며 커밋된 용량과 동일한 속도로 충전됩니다.</block>
   <block id="c9963abc84e870941cff082c5577ec18" category="paragraph">Keystone(NetApp Keystone) STaaS 청구 는 가입의 확정된 용량 위에서 귀사가 소비하는 용량, 즉 버스트 용량을 기준으로 합니다.</block>
   <block id="103955022b1603eabc8ae0b8c08e287a" category="sidebar">서비스 수준별 내 소모량을 어떻게 확인할 수 있습니까?</block>
@@ -870,10 +865,7 @@
   <block id="5f3404cf964777c8e1916a088cdbc3f1" category="paragraph">필수(Keystone StorageGRID를 사용하는 경우)</block>
   <block id="d5afaa3fa8ab0daf63847efd0d324dda" category="paragraph">StorageGRID에 대한 Keystone Collector 사용 메트릭 수집</block>
   <block id="3a9be63d84e9a8b01937ad5727618ebd" category="paragraph">Keystone Collector(일반)</block>
-  <block id="5cf9b00e7eb204d30cc672cb9dc479ca" category="doc">ONTAP 및 StorageGRID에 대한 추가 필수 구성 요소입니다</block>
   <block id="5302a9af7c7db5b391c77f0b0b58a9ae" category="paragraph">ONTAP 및 StorageGRID에 대한 몇 가지 추가 사전 요구 사항을 완료해야 합니다. Linux/VMware vSphere 시스템 요구 사항 외에 이러한 특정 사전 요구 사항을 완료했는지 확인합니다. 자세한 내용을 보려면 필수 탭을 클릭하십시오.</block>
-  <block id="e3d9300aee94dbd6833b9b494b4e413a" category="paragraph">ONTAP에서 Keystone Collector를 설치하려면 다음 단계를 사전 요구 사항에 따라 수행합니다.</block>
-  <block id="6b127757330398600af046a789f68aff" category="list-text">Active IQ Unified Manager(Unified Manager) 서버에 Unified Manager 9.7 이상이 구성되어 있는지 확인합니다. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.</block>
   <block id="29971410a584e921e5516d3f2b7bfb4d" category="inline-link">클러스터 추가</block>
   <block id="86eb2db656d7aa748c750a4cf424c4f9" category="list-text">ONTAP 클러스터가 Unified Manager에 추가되었는지 확인합니다. 클러스터 추가에 대한 자세한 내용은 을 참조하십시오<block ref="b475884884d95a88bbe7062e46db77b2" category="inline-link-rx"></block>.</block>
   <block id="8c600472916c85183244220ecd5f7a13" category="list-text">사용량 및 성능 데이터 수집에 대한 특정 역할을 가진 Unified Manager 사용자를 생성합니다. 다음 단계를 수행합니다. 사용자 역할에 대한 자세한 내용은 을 참조하십시오<block ref="710c561d5a618a0a66fb1efb6e45aca1" category="inline-link-rx"></block>.</block>
@@ -893,7 +885,6 @@
   <block id="afa819b7cc8f00a6b6f99f036c86710d" category="list-text">VMware vSphere:<block ref="e7d492a81a8574f8c260a7a7e9130e4b" category="inline-link-rx"></block>.</block>
   <block id="fd22d23fe0edf1a8c1823d661ceb51b0" category="paragraph">StorageGRID에 Keystone Collector를 설치하려면 다음 구성이 필요합니다.</block>
   <block id="76038d247a602c0245b0f461368bb87c" category="inline-link-macro">StorageGRID 소프트웨어 업그레이드: 개요</block>
-  <block id="7aa35054155773e318023838d4c86a8e" category="list-text">StorageGRID<block ref="86fb40f74065628551d7b9612d244430" prefix=" " category="inline-code"></block> 이상 버전이 설치되어 있어야 합니다. StorageGRID 업그레이드에 대한 자세한 내용은 을 참조하십시오 <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>.</block>
   <block id="2cb4d48e9d39b65ee9a134ead27cec2e" category="list-text">사용량 데이터 수집을 위해 StorageGRID 로컬 관리자 사용자 계정을 생성해야 합니다. 이 서비스 계정은 Keystone Collector 서비스가 관리자 노드 API를 통해 StorageGRID와 통신하는 데 사용됩니다.</block>
   <block id="bb0dd8b0b8efa5928afbafc369fda5e1" category="inline-link">Grid Manager에 로그인합니다</block>
   <block id="ba43950d2b1731602400692e36f66ae6" category="list-text">Grid Manager에 로그인합니다. 을 참조하십시오<block ref="8bf33c163893a69feada52e3ecdbe684" category="inline-link-rx"></block>.</block>
@@ -926,8 +917,6 @@
   <block id="c9b73422281776827a4c8f78b386d48d" category="list-text">Keystone STaaS 가치 계층, Keystone STaaS StorageGRID 오브젝트 계층 또는 기존 SGWS 그리드(고객 소유) - 추가 비용이 없으며 표준 서비스의 일부입니다.</block>
   <block id="a8db66bfea8d3f0ff898a3ca39507082" category="paragraph">Keystone용 Digital Advisor 대시보드 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="f1d08d608ab5c8900f388298993967cb" category="inline-link-rx"></block>.</block>
   <block id="bea3a7144124c0e70f43a6748e2fb32b" category="paragraph">Keystone 및 BlueXP에 대한 자세한 내용은 BlueXP 문서의 다음 링크를 참조하십시오.</block>
-  <block id="db9c0d8e0c5e9a6fc69af04d34b56fee" category="sidebar">Keystone Collector 설치를 위한 사전 요구사항</block>
-  <block id="80d2bb01a7a85d4aa2c304e7cde98a6e" category="sidebar">ONTAP 및 StorageGRID에 대한 특정 필수 구성 요소입니다</block>
   <block id="cdc9f551ac993c356214a8c16ca3cec2" category="sidebar">대금 청구를 위해 수집된 데이터</block>
   <block id="a3297beb0c913ab1ce7de0647b5264d0" category="sidebar">Keystone 및 Active IQ 디지털 자문</block>
   <block id="9a404de1def328e606c1a36e84d959a4" category="sidebar">Keystone을 위한 Active IQ 디지털 자문 보고서</block>
@@ -1433,4 +1422,17 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="4c81eafa216c925957e13d302baa98d5" category="paragraph">토글 단추 * 현재 사용량 표시 * 를 클릭하여 현재 청구 기간의 사용량, 버스트 사용량 및 누적 버스트 데이터를 볼 수 있습니다. 이러한 세부 정보는 쿼리의 날짜 범위를 기반으로 하지 않습니다.</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">* 현재 버스트 *: 정의된 버스트 제한 내 또는 그 이상의 사용된 용량에 대한 표시기입니다. 구독의 버스트 제한 내에서 사용량(예: 약정 용량보다 20% 더 높은 사용량)은 버스트 제한 내에 있습니다. 추가 사용은 버스트 제한을 초과하는 사용량으로 간주됩니다. 이 필드에는 특정 색상이 표시됩니다.</block>
   <block id="6b7dfe5a7e219d1bb1b0d4dec89d1cb1" category="list-text">* 누적된 버스트 *: 현재 청구 기간 동안 매월 계산된 누적된 버스트 사용량 또는 소비된 용량에 대한 표시입니다. 누적 버스트 사용량은 서비스 수준에 대해 커밋된 용량과 사용된 용량을 기준으로 계산됩니다.<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
+  <block id="9f06d116e9e0b83604b7fd60a2234a51" category="doc">ONTAP 및 StorageGRID에 대한 요구 사항</block>
+  <block id="7ddb33edf227a18eb76201fcb9e2c9db" category="list-title">소프트웨어 요구 사항</block>
+  <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">ONTAP 9.8 이상</block>
+  <block id="0f8980b0c0b4c0b3e722f39e2538063e" category="list-text">Active IQ Unified Manager(Unified Manager) 9.10 이상</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="paragraph-title">필수 구성 요소</block>
+  <block id="fbacd386f66318927b42b113c3987f00" category="paragraph">ONTAP에 Keystone Collector를 설치하려면 다음 단계를 사전 요구 사항으로 수행하십시오.</block>
+  <block id="ad98fcce772f03d25a2b4758c7fbf35c" category="list-text">Unified Manager 9.10 이상이 구성되어 있는지 확인합니다. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.</block>
+  <block id="8414d36b2c6d9865a2f13b42f9ef6e91" category="list-text">StorageGRID<block ref="eb0ecbdf20891e5963990e2643405555" prefix=" " category="inline-code"></block> 이상 버전이 설치되어 있어야 합니다. StorageGRID 업그레이드에 대한 자세한 내용은 을 참조하십시오 <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>.</block>
+  <block id="cc3265dfeccaee5313f6c701aeabcbef" category="paragraph">Keystone 서비스를 사용하면 서비스 수준에 대해 커밋된 용량 외에 추가 용량을 사용할 수 있습니다. 버스트 용량 사용량입니다. 다음 사항에 유의하십시오.</block>
+  <block id="d576508763dba15b711e3f85b0a11488" category="sidebar">Keystone Collector 설치를 위해 시스템을 준비합니다</block>
+  <block id="3d065b1064b64a83258ea086e540e24c" category="sidebar">VMware vSphere 요구 사항</block>
+  <block id="d6b1f1fd1fdf75b3d429783334dff437" category="sidebar">Linux 요구 사항</block>
+  <block id="0c8ee1ed841afce50051203468faba79" category="sidebar">ONTAP 및 StorageGRID 요구 사항</block>
 </blocks>
