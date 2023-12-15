@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: release-notes/fixed-issues.html 
+keywords: fixed issues 
+summary: 다양한 Keystone STaaS 릴리즈에서 해결된 문제 
+---
+= 해결된 문제
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+이전 릴리스의 NetApp Keystone STaaS 서비스에서 발견된 문제는 이후 릴리스에서 해결되었습니다. 다음 표에는 수정 사항이 나와 있습니다.
+
+[cols="3*"]
+|===
+| 문제 설명 | 수정 후 | 릴리스에서 수정되었습니다 
+
+
+ a| 
+버스트 소비 기록에 대한 사용 표시기가 호박색으로 표시되었습니다.
+ a| 
+표시등이 빨간색으로 나타납니다.
+ a| 
+2023년 12월 13일
+
+
+
+ a| 
+Capacity Trend(용량 추세), Current Usage(현재 사용량) 및 Performance(성능) 탭의 날짜 범위 및 데이터는 UTC 표준 시간대로 변환되지 않았습니다.
+ a| 
+모든 탭의 쿼리 및 데이터에 대한 날짜 범위는 UTC 시간(서버 시간대)으로 표시됩니다. 또한 UTC 표준 시간대는 탭의 각 날짜 필드에 대해 표시됩니다.
+ a| 
+2023년 12월 13일
+
+
+
+ a| 
+탭과 다운로드한 CSV 보고서 간의 시작 날짜 및 종료 날짜가 일치하지 않습니다.
+ a| 
+고정.
+ a| 
+2023년 12월 13일
+
+|===

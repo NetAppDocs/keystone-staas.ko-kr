@@ -11,6 +11,16 @@ sidebar:
   entries:
   - title: Keystone 문서
     url: "/index.html"
+  - title: 릴리스 정보
+    entries:
+    - title: Keystone STaaS의 새로운 기능
+      url: "/release-notes/whats-new.html"
+    - title: 해결된 문제
+      url: "/release-notes/fixed-issues.html"
+    - title: 알려진 제한 사항
+      url: "/release-notes/known-limitations.html"
+    - title: 알려진 문제
+      url: "/release-notes/known-issues.html"
   - title: Keystone에 오신 것을 환영합니다
     url: "/concepts/overview.html"
   - title: Keystone 설정 및 구성
@@ -43,6 +53,14 @@ sidebar:
       url: "/installation/asup-config.html"
     - title: 대금 청구를 위해 수집된 데이터
       url: "/installation/data-collection.html"
+  - title: Keystone 서비스로 더 많은 작업 수행
+    entries:
+    - title: Active IQ Digital Advisor에서 Keystone 대시보드를 확인할 수 있습니다
+      url: "/integrations/keystone-aiq.html"
+    - title: 소비 세부 정보를 보고 보고서를 생성합니다
+      url: "/integrations/aiq-keystone-details.html"
+    - title: BlueXP에서 Keystone 구독 관리
+      url: "/integrations/keystone-cm.html"
   - title: Keystone에 대해 자세히 알아보십시오
     entries:
     - title: 지원되는 스토리지 용량입니다
@@ -71,7 +89,7 @@ sidebar:
       url: "/concepts/qos.html"
     - title: 서비스 수준에 대한 용량 요구 사항
       url: "/concepts/capacity-requirements.html"
-    - title: Sustainability SLA 서비스 수준
+    - title: 지속 가능성 SLA
       url: "/concepts/sla-sustainability.html"
   - title: 청구
     entries:
@@ -99,14 +117,6 @@ sidebar:
       url: "/concepts/data-flow.html"
   - title: NetApp 글로벌 서비스 지원 센터
     url: "/concepts/gssc.html"
-  - title: Keystone 서비스로 더 많은 작업 수행
-    entries:
-    - title: Keystone과 BlueXP
-      url: "/integrations/keystone-cm.html"
-    - title: Keystone 및 Active IQ 디지털 자문
-      url: "/integrations/keystone-aiq.html"
-    - title: Keystone을 위한 Active IQ 디지털 자문 보고서
-      url: "/integrations/aiq-keystone-details.html"
   - title: 법적 고지
     url: "/legal-notices.html"
 homepage:
@@ -119,27 +129,25 @@ homepage:
       url: "/installation/vapp-installation.html"
     - title: Linux에 Keystone Collector 설치
       url: "/installation/linux-installation.html"
-    - title: 측정 단위는 무엇입니까?
-      url: "/concepts/metrics.html"
-    - title: 지원되는 기본 스토리지는 무엇입니까?
-      url: "/concepts/supported-storage-services.html"
-    - title: 내 소비 데이터를 어떻게 볼 수 있습니까?
+    - title: Digital Advisor에서 사용 현황을 확인합니다
       url: "/integrations/keystone-aiq.html"
+    - title: 사용 보고서를 생성합니다
+      url: "/integrations/aiq-keystone-details.html"
   - title: Keystone에서 지원되는 서비스
     links:
     - title: Keystone 서비스 수준
       url: "/concepts/service-levels.html"
     - title: 서비스 품질(QoS)
       url: "/concepts/qos.html"
-    - title: 데이터 계층화란?
-      url: "/concepts/data-tiering.html"
-    - title: Keystone 데이터가 보호되고 있습니까?
-      url: "/concepts/adp.html"
-    - title: 서비스 수준별 내 소모량을 어떻게 확인할 수 있습니까?
-      url: "/integrations/aiq-keystone-details.html"
-  - title: Keystone 가격
+    - title: 측정 단위는 무엇입니까?
+      url: "/concepts/metrics.html"
+    - title: 지원되는 기본 스토리지는 무엇입니까?
+      url: "/concepts/supported-storage-services.html"
+    - title: 온프레미스의 지출을 클라우드로 재할당할 수 있습니까?
+      url: "/concepts/capacity-requirements.html#capacity-adjustments"
+  - title: Keystone 가격 및 비용청구
     links:
-    - title: Keystone 청구에 대해 알아보십시오
+    - title: Keystone 가격 정보를 알고 있습니다
       url: "/concepts/pricing.html"
     - title: 내 청구 일정
       url: "/concepts/billing-schedules.html"
@@ -153,10 +161,12 @@ homepage:
     links:
     - title: 지원 팀 파악(Keystone GSSC)
       url: "/concepts/gssc.html"
+    - title: 콜드 데이터 또는 덜 사용되는 데이터로 무엇을 할 수 있는가?
+      url: "/concepts/data-tiering.html"
+    - title: Keystone 데이터를 어떻게 보호할 수 있습니까?
+      url: "/concepts/adp.html"
     - title: Keystone과 BlueXP
       url: "/integrations/keystone-cm.html"
-    - title: Keystone 및 Active IQ 디지털 자문
-      url: "/integrations/keystone-aiq.html"
     - title: 미국 시민 지원
       url: "/concepts/uscs.html"
   - title: 자세히 알아보십시오

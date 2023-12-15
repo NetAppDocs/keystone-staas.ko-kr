@@ -199,8 +199,8 @@ https://support.netapp.com[]
 
 
  a| 
-https://mirror.centos.org[]
-https://mirrorlist.centos.org[]
+http://mirror.centos.org[]
+http://mirrorlist.centos.org[]
  a| 
 Keystone Collector용 OS 업데이트(OVA 구축만 해당)
 

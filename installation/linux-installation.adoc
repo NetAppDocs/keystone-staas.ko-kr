@@ -36,4 +36,4 @@ Linux 서버에 소프트웨어를 설치하려면 다음 단계를 수행하십
 
 
 
-NOTE: 설치를 완료하면 Keystone Collector 관리 터미널 사용자 인터페이스(TUI) 유틸리티를 사용하여 구성 및 모니터링 작업을 수행할 수 있습니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다. 을 참조하십시오 link:../installation/configuration.html["Keystone Collector 구성"] 및 link:../installation/monitor-health.html["시스템 상태를 모니터링합니다"].
+NOTE: 설치를 완료하면 Keystone Collector 관리 터미널 사용자 인터페이스(TUI) 유틸리티를 사용하여 구성 및 모니터링 작업을 수행할 수 있습니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다. 을 참조하십시오 link:../installation/configuration.html["Keystone Collector 구성"] 및 link:../installation/monitor-health.html["시스템 상태를 모니터링합니다"] 를 참조하십시오.

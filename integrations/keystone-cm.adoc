@@ -4,7 +4,7 @@ permalink: integrations/keystone-cm.html
 keywords: Keystone-BlueXP 
 summary: Keystone과 BlueXP 
 ---
-= Keystone과 BlueXP
+= Keystone 및 BlueXP에 관해 자세히 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
