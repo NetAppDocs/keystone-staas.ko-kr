@@ -14,7 +14,7 @@ summary: Keystone 및 디지털 자문
 
 
 [role="lead"]
-NetApp Keystone STaaS 서비스를 구독하면 Active IQ 디지털 어드바이저(디지털 어드바이저) 대시보드의 * Keystone 구독 * 위젯에서 구독에 대한 개요를 볼 수 있습니다.
+NetApp Keystone STaaS 서비스를 구독하면 Active IQ 디지털 어드바이저(디지털 조언이라고도 함) 대시보드의 * Keystone 구독 * 위젯에서 구독에 대한 개요를 볼 수 있습니다.
 
 고객 이름이나 여러 고객이 포함된 관심 목록 이름으로 검색하여 Keystone 구독 세부 정보를 검색할 수 있습니다. 관심 목록별로 Keystone STaaS 구독을 검색하는 방법에 대한 자세한 내용은 을 참조하십시오 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Keystone 관심 목록을 사용하여 검색합니다"].
 

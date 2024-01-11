@@ -32,7 +32,6 @@
   <block id="e05386baa04fdb8086234b221371bac1" category="list-text">커널 기반 가상 머신(Linux KVM)</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">네트워킹</block>
   <block id="6a289655b3295fc9e844e417d89ad1d9" category="list-text">support.netapp.com (사용량 데이터 업로드)</block>
-  <block id="28e1a3383bffc4e3398dba57600db789" category="list-text">keystone.netapp.com (소프트웨어 업데이트)</block>
   <block id="ebe9aca07858175421a1a9356e13ef73" category="list-text">HUB.Docker.IO(소프트웨어 업데이트)</block>
   <block id="bc9ce1a2001f13d5a3489030a7b630e9" category="paragraph">NetApp은 NetApp에서 제공하는 인프라 장치에만 필요한 트랜시버를 제공합니다. 고객 장치에 필요한 트랜시버와 NetApp에서 제공하는 Keystone 인프라 장치에 케이블을 연결해야 합니다.</block>
   <block id="d701dcea67fd884a29f39c9adfdeb8bf" category="section-title">원격 액세스 요구 사항</block>
@@ -365,14 +364,11 @@
   <block id="536a21a9808fc714076b198f94a4a506" category="paragraph">ONTAP 시스템 관리자(System Manager) 또는 Active IQ Unified Manager(Unified Manager)를 통해 클러스터를 모니터링하는 경우 이러한 툴과 Keystone에 보고된 소비 사이에 차이가 있을 수 있습니다. System Manager 및 Unified Manager는 미러링된(원격) 클러스터에 볼륨을 보고하지 않으며, Keystone 서비스가 보고하는 소비 메트릭의 절반만 보고합니다.</block>
   <block id="34331c74c5db43631e74f0ed21504ce2" category="paragraph">SnapMirror 대상 볼륨의 가격은 소스에 할당된 서비스 수준에 대한 QoS 정책의 적용을 받습니다. 하지만 소스에 연결된 QoS 정책이 없는 경우 사용 가능한 최저 서비스 수준을 기준으로 대상에 비용이 청구됩니다.</block>
   <block id="0d128bf188abd70ede35e6c24063c36b" category="paragraph">LUN의 경우 QoS 정책이 적용되는 볼륨과 동일한 청구 패턴이 이어집니다. LUN에 별도의 QoS 정책이 설정된 경우 다음을 수행합니다.</block>
-  <block id="67a947157c35cbacef18eda1e5eb037c" category="paragraph">Keystone(NetApp Keystone)은 확장에 따른 지불 방식의 구독 기반 서비스 모델로, OpEx 소비 모델을 선호하는 기업에 원활한 하이브리드 클라우드 경험을 제공하여 자본 지출 또는 임대를 지원합니다.</block>
-  <block id="4547b014d12c5d4b1d98a0de125d1aee" category="paragraph">Keystone을 통해 고객은 예측할 수 없는 용량 증가 및 복잡한 조달 주기를 관리하는 데 따르는 장애물이 줄어 비즈니스 가치를 신속하게 창출할 수 있습니다. Keystone을 통해 고객은 비즈니스 우선순위에 맞게 경제성과 운영을 조정할 수 있습니다.</block>
   <block id="ba66768dfbbcde790d00e0de40f92803" category="paragraph">용량 절감(연간)은 _ Annual in Advance_Payment 모델 및 사내 전용 구축에 적용할 수 있습니다. 클라우드 서비스 또는 하이브리드 클라우드 서비스에는 사용할 수 없습니다. 또한 사내 용량을 프로비저닝할 수 있으므로 가입 서비스 수준당 최대 25%까지 용량을 줄일 수 있습니다. 이러한 감소는 다음 연간 청구 기간 시작 시 매년 한 번씩 시행됩니다. 온프레미스 서비스 기반 연간 지불은 용량 감소를 활용하기 위해 계약 기간 동안 언제든지 &gt;200,000가 되어야 합니다. 이 청구 모델은 사내 구축에만 지원되므로 사내 간의 비용 재할당을 지원하지 않습니다. 연간 용량 감소의 예는 다음 이미지에 나와 있습니다.</block>
   <block id="63da2e64853bf4155b1b1a1e9ee74a97" category="list-text">1년, 2년 또는 3년 약정이 있는 가입에만 적용됩니다.</block>
   <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">재할당 요청은 고객 또는 파트너가 다음 청구 주기 최소 1주 전에 Keystone 성공 매니저(KSM)에 공식적으로 제출해야 합니다.</block>
   <block id="11cc259f3fbff7a9b169739c7cd9d613" category="list-text">에스컬레이션해야 하는 미해결 케이스/티켓이 있는 경우 다음 주소 중 하나로 이메일을 보내십시오. keystone.services@netapp.com keystone.escalations@netapp.com</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">이 서비스는 파일, 블록 및 오브젝트 서비스에만 적용됩니다.</block>
-  <block id="b6a3337f47df4fd3f63ff2c1a9f8ec5b" category="paragraph">SnapLock 기술은 볼륨에 설정된 만료 날짜 이후에 드라이브를 사용할 수 없도록 하여 NRNVC 기능을 활성화합니다. 볼륨에 SnapLock 기술을 사용하려면 NRNVC를 구독해야 합니다. 이는 파일 및 블록 서비스에만 적용됩니다.</block>
   <block id="789c0cf84faa868401f2d0fbccadc981" category="paragraph">추가 비용은 서브스크립션의 모든 용량(소스, 미러링된 복사본 및 미러링되지 않은 데이터)에 적용됩니다.</block>
   <block id="707341c09d7ffe7d139516dd4be5dcc7" category="inline-image-macro">Keystone에서 지원하는 MetroCluster 구성</block>
   <block id="5aca18c7a53d30f1878ae1f0a8d3c847" category="paragraph"><block ref="5aca18c7a53d30f1878ae1f0a8d3c847" category="inline-image-macro-rx" type="image"></block></block>
@@ -423,7 +419,6 @@
   <block id="c553b9ccdf9dbcac0e340f4775dc3b5a" category="paragraph">Keystone 성공 매니저(KSM)는 미국입니다 미국 시민입니다 제공됩니다. 이러한 책임들의 책임은 NetApp Keystone 계약에 명시되어 있습니다.</block>
   <block id="e7585d2ee2e8c627c9574df1d741ec59" category="paragraph">이 프로세스는 생성된 각 소비 레코드에 대해 발생합니다. 따라서, 소비량의 급증은 당신의 헌신적인 능력 위에 소비된 용량의 잔기와 잔기를 모두 반영한다.</block>
   <block id="1923c743bdc7a28d03225437a33faad3" category="paragraph">NetApp Keystone(Keystone) STaaS는 파트너 운영 모델 및 고객 운영 모델의 두 가지 서비스 제공 운영 모델을 제공합니다.</block>
-  <block id="ceaa88393b953e384cdb413dd3572b41" category="list-text">* 고객 운영 모델 *: 고객이 선택한 서비스 수준 및 스토리지에 따라 Keystone 서비스를 구독할 수 있습니다. NetApp은 아키텍처 및 제품을 정의하고 Keystone을 사내에 구축합니다. 스토리지 및 IT 리소스를 통해 인프라를 관리해야 합니다. 고객은 NetApp의 테넌트 또는 서브테넌트이거나 파트너/서비스 공급자입니다. 계약에 따라 NetApp 또는 서비스 공급자가 해결해야 할 서비스 요청을 제출할 수 있습니다. 관리자는 사용자 사이트(환경)에서 관리 작업을 수행할 수 있습니다. 이러한 작업은 사용자 환경의 사용자와 관련이 있습니다.</block>
   <block id="d9074f8f6ffc16585a17ec283468500b" category="paragraph">Keystone STaaS는 서비스 사용 중에 소비되는 용량을 기준으로 측정되었습니다.</block>
   <block id="427fa3429ea764a6d2b1f1e8f8111b9e" category="list-text">NRNVC와 관련된 추가 비용은 전체 구독 서비스(표준 서비스, 고급 데이터 보호 및 데이터 계층화 포함)의 월 단위 청구 대비 비율로 청구됩니다.</block>
   <block id="4dc2830ae7b31704bf74b200d5350dea" category="paragraph">이 섹션에는 사용자 환경에서 NetApp Keystone STaaS 서비스를 지원하는 데 필요한 구성 요소가 나열되어 있습니다.</block>
@@ -650,7 +645,6 @@
   <block id="ea74ae761acf4f1176f873f6437675f6" category="paragraph">Linux 서버에 소프트웨어를 설치하려면 다음 단계를 수행하십시오.</block>
   <block id="6b0c7fd3768c26e569ee5662bdcc2738" category="list-text">Keystone Collector 서버로 SSH를 수행하고 로 승격합니다<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> 권한.</block>
   <block id="fafcabb6e961377fe2b62d0f1d2e62be" category="list-text">Keystone 공개 서명 서명 서명 가져오기:<block ref="ccf45be91ebaeda977037b149762acbd" prefix=" " category="inline-code"></block></block>
-  <block id="077a3466af24e8fb07c559fb31505772" category="list-text">RPM 데이터베이스에서 Keystone 청구 플랫폼에 대한 지문을 확인하여 올바른 공개 인증서를 가져왔는지 확인합니다.<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>올바른 지문은 다음과 같습니다.<block ref="0fd85ff4e797b2ec085aea480b3e9158" prefix=" " category="inline-code"></block></block>
   <block id="5000c92898e0e1c2f66f175bc48765b6" category="list-text">파일의 신뢰성을 확인합니다.<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block>실제 파일의 서명은 다음과 같습니다.<block ref="4fc602b120696aeae5ab8b4ebd2a36e8" prefix=" " category="inline-code"></block></block>
   <block id="eb1f328dadd504e03e367eafd0c1e18c" category="list-text">YUM 소프트웨어 저장소 파일을 설치합니다.<block ref="90fdbfbbba2139b53a74cc0098f4e51e" prefix=" " category="inline-code"></block></block>
   <block id="9451601519fe8723586116a31c85beb6" category="list-text">Keystone repo가 설치되면 YUM 패키지 관리자를 통해 Keystone-Collector 패키지를 설치합니다.<block ref="94b62ee97dbb40aa61dd0d85daf3c424" prefix=" " category="inline-code"></block></block>
@@ -909,7 +903,6 @@
   <block id="4305e9b17980561df3c63a75f32b2075" category="list-text">가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다. 구독 번호를 선택하면 객체 스토리지 세부 정보에 대한 링크가 활성화됩니다.</block>
   <block id="d599237a38a37deabe01bd34298be802" category="list-text">링크를 클릭하여 각 노드의 노드 이름과 물리적 사용 정보를 확인합니다.</block>
   <block id="7a0a61d280e201148fcd091f8167d88f" category="list-text">* 정보 *: 가입 종료와 같은 문제의 경우 정보 경고를 볼 수 있습니다. 정보 아이콘 위에 커서를 올려 놓으면 문제에 대해 자세히 알아볼 수 있습니다.</block>
-  <block id="1aa4a8544fc94c7ce0ff8c9bc46bb523" category="paragraph">Active IQ 디지털 자문업체(디지털 자문업체) 대시보드는 NetApp Keystone 구독과 관련된 사용량을 모니터링하고 보고서를 생성하는 기능을 제공합니다. Keystone 서비스 가입 시 Digital Advisor 대시보드의 * Keystone 가입 * 위젯에서 구독 및 사용 세부 정보를 확인할 수 있습니다.</block>
   <block id="936acd8bca51b1c47ce51ce5d9e45134" category="admonition">여기에서 제공되는 정보는 ONTAP 및 StorageGRID 모두에 적용됩니다. 관련 섹션에서 예외가 지적되었습니다.</block>
   <block id="90022a4ed9f097be4671116b6b5b7754" category="paragraph">Keystone 디지털 자문 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="553d5c0a148912943ee201440d3b98c5" category="inline-link-rx"></block>.</block>
   <block id="de87c00cded561268b46fe5428fdd938" category="paragraph">이러한 주의 및 경고 메시지에 대한 자세한 내용은 NetApp 지원 팀에 문의하십시오. 서비스 요청 발생에 대한 자세한 내용은 을 참조하십시오 <block ref="1bf858345505311d2a0e9fcf6e1f42da" category="inline-link-macro-rx"></block>.</block>
@@ -936,7 +929,6 @@
   <block id="0f1b5cef30787606dcebbe2aad12f047" category="list-text">AIOP 솔루션, Active IQ, Active IQ Unified Manager 등의 서비스를 관리 및 운영하는 툴</block>
   <block id="fe69a54042d9eff356aefd4641754a9d" category="list-text">AIOP 솔루션 로컬 게이트웨이: 네트워크를 모니터링하는 데 사용되는 클라우드 기반 애플리케이션입니다. NetApp 스토리지 플랫폼과의 내장 통합을 통해 환경 데이터를 수집하고 네트워크를 모니터링할 수 있습니다. 이 서비스는 클라우드 포털과 통신하는 사이트에 설치된 로컬 게이트웨이를 사용하는 데 도움을 줍니다.</block>
   <block id="370f5a2dcf3c761999eec9796ac7cb95" category="list-text">Keystone 데이터 수집기: Keystone 수집기는 Keystone 고객에게 청구 서비스를 제공합니다. 이 애플리케이션은 Active IQ Unified Manager와 함께 번들로 제공됩니다. 이 툴은 5분 간격으로 ONTAP 및 StorageGRID 컨트롤러에서 데이터를 수집합니다. 데이터는 처리되고, 메타데이터는 청구 데이터 생성에 사용되는 AutoSupport 메커니즘을 통해 중앙 집중식 Active IQ 데이터 레이크에 전송됩니다. Active IQ 데이터 레이크는 청구 데이터를 처리한 후 Zuora에 전송해 비용을 청구합니다.</block>
-  <block id="829e513ac5aad09d167e66738057fee0" category="paragraph">Active IQ 디지털 자문(디지털 자문)을 통해 Keystone 서브스크립션에 대한 가입 및 소비 세부 정보를 확인하고 로그인할 수 있습니다. Digital Advisor 대시보드에서 Keystone 보고에 대한 자세한 내용은 을 참조하십시오 <block ref="b7b6a2338cb0518cc39a6d3713bb6e47" category="inline-link-macro-rx"></block>.</block>
   <block id="b061e71795ea0169fae5918033aa1426" category="inline-link-macro">Keystone Collector 설치 가이드</block>
   <block id="ea6877769314a06b5bfd259d5acd9b87" category="paragraph">Keystone Collector 및 AIOP 솔루션 게이트웨이 구축에 스토리지 가상 머신(스토리지 VM)이 필요합니다. Keystone Collector 설치를 위한 사전 요구 사항은 다음 여기에서 확인할 수 있습니다. <block ref="1b1d53dc449052d2c1633c8027db333d" category="inline-link-macro-rx"></block>. 다른 요구 사항은 배포 중에 공유됩니다.</block>
   <block id="78723ce66f58e9e7caf198aa1ec6dc10" category="list-text">고객이 Red Hat Enterprise Linux 7 또는 8 또는 CentOS 7 Linux 서버를 제공합니다. Keystone 소프트웨어는 를 통해 설치됩니다<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> 설치 프로세스:</block>
@@ -1139,7 +1131,6 @@
   <block id="1d95129eb45966c31b9f9f4903b9ec10" category="list-text">주변 작동 환경 온도는 25°C에서 27°C 사이여야 합니다</block>
   <block id="acfa283707517552a4ab7682cfe07549" category="list-text">서비스 수준별 최소 약속된 용량을 충족해야 합니다.</block>
   <block id="185e01eccb11afd93ab6330b3243709d" category="section-title">지속 가능성 보고서</block>
-  <block id="214b7c6a2e578d02dcff6a6e0d01644e" category="paragraph">Active IQ Digital Advisor(Digital Advisor) Keystone 대시보드의 SLA 탭에서는 Keystone 서브스크립션에 대한 지속 가능성 메트릭에 대한 자세한 뷰를 제공합니다. 메트릭을 보고 향후 분석 및 조치에 대한 보고서를 생성할 수 있습니다.</block>
   <block id="c46a6fc145efc32d05eb0e6a28bea128" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>.</block>
   <block id="ed55999d50b7451fbe4281de85f01c45" category="example-title">vCenter 7.0u1 및 그 이전 버전: 자세히 알아보십시오</block>
   <block id="ae33212e0f96fd19173ab021f7909861" category="example-title">vCenter 7.0u2 이상: 자세히 알아보기</block>
@@ -1202,7 +1193,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="ad18d1cc4c02be72a25ef833b2c8c734" category="inline-link-macro">고급 데이터 보호를 위한 참조 차트</block>
   <block id="f22aed9280914d2033fc08d85dff0a10" category="paragraph">MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="c29dea45eb21035a3f68a9ee63dca01a" category="inline-link-macro-rx"></block>.</block>
-  <block id="bd8705d6dc113ed9dd8ea9cd72a8dc71" category="paragraph">NetApp Keystone STaaS 서비스를 구독하면 Active IQ 디지털 어드바이저(디지털 어드바이저) 대시보드의 * Keystone 구독 * 위젯에서 구독에 대한 개요를 볼 수 있습니다.</block>
   <block id="9eb8ff0f43ab3ce564117624a689cfa3" category="paragraph">Digital Advisor는 * 이전/새 대시보드로 전환 * 버튼을 통해 다양한 수준의 구독 데이터 및 사용 정보에 대한 통찰력을 제공하는 통합 대시보드를 제공합니다.</block>
   <block id="225101b6a3b9351114a047a3df14351f" category="paragraph-title">기본(이전) 대시보드</block>
   <block id="5ed038c610a4830d7271f424b6634183" category="inline-image-macro">이전 대시보드</block>
@@ -1354,7 +1344,6 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="5e46e614581cd458f9521294062d3783" category="list-text">클론 볼륨이 상위 물리적 크기의 10%를 초과하면 클론이 표준 볼륨(논리적 사용된 용량)으로 청구됩니다.</block>
   <block id="3819e943e22fd127a19d4e64664b72db" category="paragraph">사용 메트릭에 대한 자세한 내용은 을 참조하십시오 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>.</block>
   <block id="a4369c61f00316f67d280309b8795cde" category="paragraph">Capacity Trend * 탭에는 특정 기간 동안의 Keystone 구독에 대한 기간별 데이터가 표시됩니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.</block>
-  <block id="ef67282c9adc01fdca335af4d78a2c4b" category="list-text">내역 데이터를 보고 용량 사용 추세를 분석하려면 * Capacity Trend * 를 선택합니다. 과거 버스트 사용량 데이터를 보고 청구된 사용량을 송장에 따라 분석하려면 * 누적된 버스트 * 를 선택합니다.</block>
   <block id="856c97744d50a2803c2f50202219de2d" category="section-title">용량 추세를 봅니다</block>
   <block id="b7d541aea481ae26f60f1033b3cab726" category="paragraph">Capacity Trend * 옵션을 선택한 경우 다음 단계를 수행합니다.</block>
   <block id="f4c8dae91522d3ec93e26aff56248527" category="list-text">From Date * 및 * To Date * 필드의 달력 아이콘에서 시간 범위를 선택합니다. 쿼리의 날짜 범위를 선택합니다. 날짜 범위는 월 시작 날짜 또는 구독 시작 날짜부터 현재 날짜까지 또는 구독 종료 날짜일 수 있습니다. 미래 날짜는 선택할 수 없습니다.</block>
@@ -1363,20 +1352,15 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="85c7c9dc88496ccb44926915d526201d" category="inline-image-macro">Capacity Trend(용량 추세) 탭 및 세부 정보</block>
   <block id="476bf470b1b8dcf24df737be1ac03609" category="paragraph"><block ref="476bf470b1b8dcf24df737be1ac03609" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f8eaf321d70fdf3e9d097bb407d56130" category="paragraph">막대 도표의 다음 색상은 서비스 수준 내에서 정의된 소비 용량을 나타냅니다. 차트의 월별 데이터는 세로 선으로 구분됩니다.</block>
-  <block id="a122d7ff9fbb0694ecb095cdf8f27baa" category="section-title">기간별 버스트 데이터를 봅니다</block>
-  <block id="7f4aafd34e1281a2bb7098e5b06084bd" category="paragraph">[누적된 버스트] 옵션을 선택한 경우 기본적으로 지난 12개월 동안의 월별 누적된 버스트 사용량 데이터를 볼 수 있습니다. 지난 30개월까지의 날짜 범위를 기준으로 쿼리할 수 있습니다.</block>
-  <block id="75ddfeb3beb9d2a265ac2ce3b66ef050" category="admonition">누적된 버스트 사용량 또는 소비된 용량은 현재 청구 기간에 대해 매월 계산됩니다. 계산된 버스트 사용량은 다음 공식에 의해 서비스 수준에 대해 커밋된 용량 및 사용된 용량을 기준으로 계산됩니다.<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
   <block id="952c204f277570032cf6454e003c63da" category="inline-image-macro">누적된 버스트 사용량 차트</block>
   <block id="b9e135b5bcd23b0beff424e32497e77c" category="paragraph"><block ref="b9e135b5bcd23b0beff424e32497e77c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">이 기능은 미리 보기 전용 모드에서 사용할 수 있습니다. 이 기능에 대한 자세한 내용은 KSM에 문의하십시오.</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">쿼리의 날짜 범위를 선택합니다. 날짜 범위는 월 시작 날짜 또는 구독 시작 날짜부터 현재 날짜까지 또는 구독 종료 날짜일 수 있습니다. 미래 날짜는 선택할 수 없습니다.</block>
-  <block id="4c81eafa216c925957e13d302baa98d5" category="paragraph">토글 단추 * 현재 사용량 표시 * 를 클릭하여 현재 청구 기간의 사용량, 버스트 사용량 및 누적 버스트 데이터를 볼 수 있습니다. 이러한 세부 정보는 쿼리의 날짜 범위를 기반으로 하지 않습니다.</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">* 현재 버스트 *: 정의된 버스트 제한 내 또는 그 이상의 사용된 용량에 대한 표시기입니다. 구독의 버스트 제한 내에서 사용량(예: 약정 용량보다 20% 더 높은 사용량)은 버스트 제한 내에 있습니다. 추가 사용은 버스트 제한을 초과하는 사용량으로 간주됩니다. 이 필드에는 특정 색상이 표시됩니다.</block>
   <block id="6b7dfe5a7e219d1bb1b0d4dec89d1cb1" category="list-text">* 누적된 버스트 *: 현재 청구 기간 동안 매월 계산된 누적된 버스트 사용량 또는 소비된 용량에 대한 표시입니다. 누적 버스트 사용량은 서비스 수준에 대해 커밋된 용량과 사용된 용량을 기준으로 계산됩니다.<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
   <block id="9f06d116e9e0b83604b7fd60a2234a51" category="doc">ONTAP 및 StorageGRID에 대한 요구 사항</block>
   <block id="7ddb33edf227a18eb76201fcb9e2c9db" category="list-title">소프트웨어 요구 사항</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">ONTAP 9.8 이상</block>
-  <block id="0f8980b0c0b4c0b3e722f39e2538063e" category="list-text">Active IQ Unified Manager(Unified Manager) 9.10 이상</block>
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="paragraph-title">필수 구성 요소</block>
   <block id="fbacd386f66318927b42b113c3987f00" category="paragraph">ONTAP에 Keystone Collector를 설치하려면 다음 단계를 사전 요구 사항으로 수행하십시오.</block>
   <block id="ad98fcce772f03d25a2b4758c7fbf35c" category="list-text">Unified Manager 9.10 이상이 구성되어 있는지 확인합니다. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.</block>
@@ -1430,7 +1414,6 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="bad75a53f85a771cf752894cc064a3b7" category="admonition">설치를 완료하면 Keystone Collector 관리 터미널 사용자 인터페이스(TUI) 유틸리티를 사용하여 구성 및 모니터링 작업을 수행할 수 있습니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다. 을 참조하십시오 <block ref="14e6b60cfb93c92598e40786e00457b6" category="inline-link-macro-rx"></block> 및 <block ref="81c399588663f35131a970a2d830c241" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="53c0c730b2c0dc69ef94550cb19434f5" category="paragraph">에 제공된 Keystone YUM 저장소 클라이언트 구성<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 강제 GPG 검사를 사용합니다 <block ref="5b974d7e48c1a0878cb562eeae59f1b6" prefix="(" category="inline-code"></block>)를 클릭합니다. Keystone 리포지토리를 통해 다운로드된 RPM이 서명 확인에 실패하면 해당 RPM을 설치할 수 없습니다. 이 기능은 Keystone 수집기의 예약된 자동 업데이트 기능에 사용되며 사이트에 유효한 정품 소프트웨어만 설치됩니다.</block>
   <block id="1ae3a07b6896d577a03f95172e8b37ab" category="paragraph">SnapLock 기술에 대한 자세한 내용은 을 참조하십시오<block ref="75641a5590d09822bddecb04bdc449c0" category="inline-link-rx"></block>.</block>
-  <block id="147009f1fd514ea86c82a1aa22f620bb" category="paragraph">Active IQ 디지털 어드바이저 대시보드의 Keystone 위젯에서 SLA와 관련된 문제에 대해 자세히 알아볼 수 있습니다.</block>
   <block id="226d95bc6d792c050a420be49b381927" category="paragraph">다음 기준을 충족하는 Keystone STaaS 구독은 지속 가능성 SLA를 적용할 수 있습니다.</block>
   <block id="3b916544092c6bba180097d47f80505f" category="section-title">서비스 크레딧</block>
   <block id="12d485f3f9a8db1779ed73cf44c137be" category="paragraph">STaaS(Storage-as-a-Service) 오퍼링은 스토리지 인프라의 조달, 구축 및 관리에 필요한 퍼블릭 클라우드와 같은 모델을 제공하는 것을 목표로 합니다. 대부분의 기업이 아직 하이브리드 클라우드 전략을 수립하고 있지만, 고객은 OpEx-based_pay-per-use_consumption 모델을 선택할 수 있습니다. 모든 워크로드를 클라우드로 이동해야 하는 경우도 있지만, 특정 부분 또는 모든 워크로드를 클라우드로 마이그레이션할 계획이나 일정은 아직 없습니다. Keystone STaaS는 온프레미스 서비스로 시작한 후 나중에 클라우드 이전이 필요한 워크로드와 시점을 유연하게 결정할 수 있습니다. Keystone STaaS는 전체 구축 모델에 대한 약속 보호를 제공합니다. 클라우드 서비스에 더 많은 비용을 지불하는 대신, 온프레미스 고객은 온프레미스 비용을 재할당하여 클라우드 서비스를 추가하고 재할당 전에 커밋된 월간 상환액을 기본적으로 상환할 수 있습니다.</block>
@@ -1484,7 +1467,6 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="e10851d151ada64fb52c2407a0767d85" category="section-title">2023년 12월 15일 새로운 기능 및 개선사항</block>
   <block id="f1294b2cae09e66a510612046224408f" category="paragraph">이 릴리스의 새로운 기능에 대해 알아봅니다.</block>
   <block id="6fec807bd8a0e3b00b3818404fe99ffa" category="section-title">시청자 목록을 기준으로 검색하는 기능</block>
-  <block id="64bdd98b13006bd513f441125b17180c" category="paragraph">Active IQ 디지털 어드바이저(디지털 어드바이저)의 시청자 목록에 대한 지원이 Keystone 시스템으로 확장되었습니다. 이제 관심 목록을 사용하여 검색하여 여러 고객의 구독 세부 정보를 볼 수 있습니다. Keystone STaaS의 시청자 목록 사용에 대한 자세한 내용은 을 참조하십시오 <block ref="b7d20955ed629544dc331da927df4d8e" category="inline-link-macro-rx"></block>.</block>
   <block id="e21135b6ab126eefb31b234c688584d2" category="section-title">UTC 시간대로 변환된 날짜</block>
   <block id="c58866f1ef5f53d12f483be3139c8b21" category="paragraph">Active IQ 디지털 어드바이저의 * Keystone 구독 * 화면 탭에 반환된 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리에 날짜를 입력하면 UTC 시간으로 자동 간주됩니다. 자세한 내용은 을 참조하십시오 <block ref="fd9d2abed6b27ddb199966f81ac84d0e" category="inline-link-macro-rx"></block>.</block>
   <block id="bbf5c00a5a74c975684f1ea9625170dc" category="summary">NetApp 서비스 엔진에서 알려진 문제</block>
@@ -1522,4 +1504,53 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="60c2efc3e4aa54d923286d4b7554d471" category="sidebar">Keystone 가격 정보를 알고 있습니다</block>
   <block id="c977c72cd7678128aadf339e54fc0498" category="sidebar">콜드 데이터 또는 덜 사용되는 데이터로 무엇을 할 수 있는가?</block>
   <block id="3c433d996e071fc968830570a2649830" category="sidebar">Keystone 데이터를 어떻게 보호할 수 있습니까?</block>
+  <block id="1bd52766b0b26f4e8685843d09982927" category="paragraph">Active IQ Digital Advisor(디지털 어드바이저)라고도 하는 대시보드는 NetApp Keystone 구독과 관련된 사용량을 모니터링하고 보고서를 생성하는 기능을 제공합니다. Keystone 서비스 가입 시 Digital Advisor 대시보드의 * Keystone 가입 * 위젯에서 구독 및 사용 세부 정보를 확인할 수 있습니다.</block>
+  <block id="989f69001ddcc32301bcbd805f65e578" category="list-text">내역 데이터를 보고 용량 사용 추세를 분석하려면 * Capacity Trend * 를 선택합니다. 송장이 생성된 과거 버스트 사용량 데이터를 보려면 * 송장 발행된 버스트 * 를 선택합니다. 이 데이터를 사용하여 송장에 따라 청구된 사용량을 분석할 수 있습니다.</block>
+  <block id="3f27fae70e74fffb5824be09306c17a5" category="paragraph">토글 단추 * 현재 사용량 표시 * 를 클릭하여 현재 청구 기간의 사용량, 버스트 사용량 및 누적 버스트 데이터를 볼 수 있습니다. 이러한 세부 정보는 쿼리의 날짜 범위를 기반으로 하지 않습니다.</block>
+  <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">송장 발행된 누적 버스트 보기</block>
+  <block id="db0ef40224829d8428d6c42004012b26" category="paragraph">송장 발행된 버스트 * 옵션을 선택한 경우 기본적으로 청구된 마지막 12개월 동안의 월별 누적 버스트 사용량 데이터를 볼 수 있습니다. 지난 30개월까지의 날짜 범위를 기준으로 쿼리할 수 있습니다. 막대 차트는 송장 발행된 데이터에 대해 표시되며 사용량이 아직 청구되지 않은 경우 해당 월의 _Pending_이 표시됩니다.</block>
+  <block id="393673167b0e2f5fe79a42f45c884852" category="admonition">송장 발행된 버스트 사용량은 서비스 수준의 커밋된 용량 및 사용된 용량을 기준으로 청구 기간별로 계산됩니다.</block>
+  <block id="f1b66c366268c014ead8756ce57df913" category="paragraph">NetApp Keystone STaaS 서비스를 구독하면 Active IQ 디지털 어드바이저(디지털 조언이라고도 함) 대시보드의 * Keystone 구독 * 위젯에서 구독에 대한 개요를 볼 수 있습니다.</block>
+  <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager(Unified Manager) 9.10 이상</block>
+  <block id="81f184376266ed69a659d0030be070fc" category="list-text">RPM 데이터베이스에서 Keystone 청구 플랫폼에 대한 지문을 확인하여 올바른 공개 인증서를 가져왔는지 확인합니다.<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>
+올바른 지문은 다음과 같습니다.<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
+  <block id="82141214645629808da05e70bbc23bcf" category="list-text">keystone.netapp.com (소프트웨어 업데이트)</block>
+  <block id="cbe21b6da30db10de9cd33de72b5dc48" category="paragraph">SnapLock 기술은 볼륨에 설정된 만료 날짜 이후에 드라이브를 사용할 수 없도록 하여 NRNVC 기능을 활성화합니다. 볼륨에 SnapLock 기술을 사용하려면 NRNVC를 구독해야 합니다. 이는 파일 및 블록 서비스에만 적용됩니다.</block>
+  <block id="083c35221a46b4c297d0ce51fbf39a9f" category="paragraph">Active IQ 디지털 어드바이저(디지털 어드바이저) 대시보드의 Keystone 위젯에서 SLA와 관련된 문제에 대해 자세히 알아볼 수 있습니다.</block>
+  <block id="7f1af236cf209696a1e8c52d7ccddf59" category="paragraph">Digital Advisor의 SLA 탭 Keystone 대시보드는 Keystone 구독의 지속 가능성 메트릭에 대한 자세한 보기를 제공합니다. 메트릭을 보고 향후 분석 및 조치에 대한 보고서를 생성할 수 있습니다.</block>
+  <block id="25ee4dffb8ff9627245188cd5d5a88f9" category="paragraph">Keystone(NetApp Keystone)은 확장에 따른 지불 방식의 구독 기반 서비스 모델로, OpEx 소비 모델을 선호하는 기업에 원활한 하이브리드 클라우드 경험을 제공하여 자본 지출 또는 임대를 지원합니다.</block>
+  <block id="14ef43baeaecb16eed97981bac41fa1a" category="paragraph">Keystone을 통해 고객은 예측할 수 없는 용량 증가 및 복잡한 조달 주기를 관리하는 데 따르는 장애물이 줄어 비즈니스 가치를 신속하게 창출할 수 있습니다. Keystone을 통해 고객은 비즈니스 우선순위에 맞게 경제성과 운영을 조정할 수 있습니다.</block>
+  <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">* 관련 정보 *</block>
+  <block id="e6158c69831c3faa8af6ba0dce7118fd" category="list-text"><block ref="e6158c69831c3faa8af6ba0dce7118fd" category="inline-link-macro-rx"></block></block>
+  <block id="9e38decf152b1fba3ebe0ddbb861a5a3" category="inline-link-macro">Keystone STaaS의 애드온 서비스</block>
+  <block id="91ad65d98336ef29959957165ed0c9ea" category="list-text"><block ref="91ad65d98336ef29959957165ed0c9ea" category="inline-link-macro-rx"></block></block>
+  <block id="7141573db29c2af45d0b9d0159276c43" category="list-text"><block ref="7141573db29c2af45d0b9d0159276c43" category="inline-link-macro-rx"></block></block>
+  <block id="d7e5ccf918d68bf60a6b52690444d5ea" category="list-text"><block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block></block>
+  <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
+  <block id="cb16f0d61d1b95d7ed2e3ddca87174cb" category="summary">Keystone의 애드온 서비스</block>
+  <block id="a9d18fd494dd09ac109d0f41dd8200d6" category="paragraph">Keystone STaaS는 다양한 애드온 서비스를 제공합니다. 다음 링크에서 이러한 서비스에 대해 알아볼 수 있습니다. KSM과 논의하여 평가 및 사용 가능 여부를 확인할 수 있습니다.</block>
+  <block id="a37b84ef7962958683b36fdd11870efe" category="list-text"><block ref="a37b84ef7962958683b36fdd11870efe" category="inline-link-macro-rx"></block></block>
+  <block id="a91680a6ffe7d115054b2a3a29590c88" category="list-text"><block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block></block>
+  <block id="507239d4f0e74cca132c8dcec4572685" category="inline-link-macro">미국 시민 지원</block>
+  <block id="bf1e0d5283510e73c95e48c522f105ac" category="list-text"><block ref="bf1e0d5283510e73c95e48c522f105ac" category="inline-link-macro-rx"></block></block>
+  <block id="15d6b82ce2a881c6c9b4c3896e1f4714" category="list-text"><block ref="15d6b82ce2a881c6c9b4c3896e1f4714" category="inline-link-macro-rx"></block></block>
+  <block id="caa6137168275fe348c2a04ff68b05bf" category="list-text"><block ref="caa6137168275fe348c2a04ff68b05bf" category="inline-link-macro-rx"></block></block>
+  <block id="a2e2f97253342349ff9ef2b936b778d0" category="list-text"><block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block></block>
+  <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
+  <block id="01d1ce60b1a3aef68f02db880ec50307" category="list-text"><block ref="01d1ce60b1a3aef68f02db880ec50307" category="inline-link-macro-rx"></block></block>
+  <block id="a1daaed7f6b936bd29a0f32fd73bc833" category="list-text">* 고객 운영 모델 *: 고객이 선택한 서비스 수준 및 스토리지에 따라 Keystone 서비스를 구독할 수 있습니다. NetApp은 아키텍처 및 제품을 정의하고 Keystone을 사내에 구축합니다. 스토리지 및 IT 리소스를 통해 인프라를 관리해야 합니다. 고객은 NetApp의 테넌트 또는 서브테넌트이거나 파트너/서비스 공급자입니다. 계약에 따라 NetApp 또는 서비스 공급자가 해결해야 할 서비스 요청을 제출할 수 있습니다. 관리자는 사용자 사이트(환경)에서 관리 작업을 수행할 수 있습니다. 이러한 작업은 사용자 환경의 사용자와 관련이 있습니다.</block>
+  <block id="fe53175072711abfe4bc0ec0a1c8feda" category="list-text"><block ref="fe53175072711abfe4bc0ec0a1c8feda" category="inline-link-macro-rx"></block></block>
+  <block id="666607765db8e2a230407163fc7ea704" category="list-text"><block ref="666607765db8e2a230407163fc7ea704" category="inline-link-macro-rx"></block></block>
+  <block id="da7adc48e3ef5d5cba8270d6542a88e9" category="list-text"><block ref="da7adc48e3ef5d5cba8270d6542a88e9" category="inline-link-macro-rx"></block></block>
+  <block id="e9fba53fca09f539e7c7027e5b60c861" category="list-text"><block ref="e9fba53fca09f539e7c7027e5b60c861" category="inline-link-macro-rx"></block></block>
+  <block id="98bee96ae0c26b26f72606ccdc5c56ce" category="list-text"><block ref="98bee96ae0c26b26f72606ccdc5c56ce" category="inline-link-macro-rx"></block></block>
+  <block id="a6bf70467fe9fc8375125070b0747a86" category="paragraph">Active IQ 디지털 어드바이저(디지털 자문이라고도 함)를 사용하여 로그인하면 Keystone 구독에 대한 구독 및 소비 세부 정보를 볼 수 있습니다. Digital Advisor 대시보드에서 Keystone 보고에 대한 자세한 내용은 을 참조하십시오 <block ref="b7b6a2338cb0518cc39a6d3713bb6e47" category="inline-link-macro-rx"></block>.</block>
+  <block id="e38cc358974de030fd1c567512210d8f" category="section-title">2024년 1월 11일 새로운 기능 및 개선 사항</block>
+  <block id="dd6cacccfb5522e606e79e89d7bcd87e" category="paragraph">Active IQ 디지털 어드바이저(디지털 어드바이저)의 * Keystone 구독 * 화면에서 다음과 같은 변경 사항이 적용되었습니다.</block>
+  <block id="b08a55fcdae4be7efabe97ebd6da5f96" category="section-title">누적된 연기에 대해 반환된 송장 데이터</block>
+  <block id="759e854fe7757cee8e9beb2f278e1082" category="paragraph">이제 * Capacity Trend * 탭에서 * Accounted Burst * 의 레이블이 * Invoiced Accounting Burst * 로 수정됩니다. 이 옵션을 선택하면 청구된 누적 버스트 데이터의 월별 차트를 볼 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="1de75f05c72d9ddec6f68e5103a83e4f" category="inline-link-macro-rx"></block>.</block>
+  <block id="038fa77b2d09a08187d251d11af66fec" category="section-title">특정 요율계획에 대한 발생된 소비 상세 정보</block>
+  <block id="e8eb002764288209a5c4ba14af40e3c1" category="paragraph">rate plan이 _zero_committed capacity인 서브스크립션이 있는 경우 * Capacity Trend * 탭에서 계산된 소비 정보를 볼 수 있습니다. 송장 발행된 누적 소비 * 옵션을 선택하면 청구된 누적 소비 데이터에 대한 월별 차트를 볼 수 있습니다.</block>
+  <block id="c172354fb8ea09208116200c906a06f7" category="paragraph">Active IQ Digital Advisor(디지털 어드바이저)의 시청자 목록에 대한 지원이 Keystone 시스템으로 확장되었습니다. 이제 관심 목록을 사용하여 검색하여 여러 고객의 구독 세부 정보를 볼 수 있습니다. Keystone STaaS의 시청자 목록 사용에 대한 자세한 내용은 을 참조하십시오 <block ref="b7d20955ed629544dc331da927df4d8e" category="inline-link-macro-rx"></block>.</block>
+  <block id="b35f87e6c022106392162120d7124d39" category="sidebar">Keystone 대시보드 보기 및 구독 관리</block>
 </blocks>

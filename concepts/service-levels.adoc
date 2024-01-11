@@ -135,3 +135,10 @@ NOTE: FabricPool 스토리지의 경우, 지연 시간에 오브젝트 저장소
 
 
 ====
+* 관련 정보 *
+
+* link:../concepts/supported-storage-capacity.html["지원되는 스토리지 용량입니다"]
+* link:..//concepts/metrics.html["Keystone 서비스에 사용되는 메트릭 및 정의"]
+* link:../concepts/qos.html["Keystone의 서비스 품질(QoS)"]
+* link:../concepts/pricing.html["Keystone 가격"]
+

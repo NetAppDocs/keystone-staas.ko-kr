@@ -22,8 +22,9 @@ Linux 서버에 소프트웨어를 설치하려면 다음 단계를 수행하십
 . Keystone 공개 서명 서명 서명 가져오기:
 `# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
 . RPM 데이터베이스에서 Keystone 청구 플랫폼에 대한 지문을 확인하여 올바른 공개 인증서를 가져왔는지 확인합니다.
-`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`올바른 지문은 다음과 같습니다.
-`90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
+`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`
+올바른 지문은 다음과 같습니다.
+`90B3 83AF E07B 658A 6058 5B4E 76C2 45E4 33B6 C17D`
 . 를 다운로드합니다 `keystonerepo.rpm` 파일:
 `curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
 . 파일의 신뢰성을 확인합니다.

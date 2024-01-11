@@ -29,3 +29,12 @@ Keystone은 다음과 같은 청구 시설을 제공합니다.
 Keystone 청구는 확정된 용량 및 가변 버스트 소비를 기반으로 합니다.
 
 Keystone에서 지원되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 link:../concepts/supported-storage-capacity.html["Keystone에서 지원되는 스토리지 용량"].
+
+* 관련 정보 *
+
+* link:../concepts/committed-capacity-billing.html["약정 용량에 따른 청구"]
+* link:../concepts/consumed-capacity-billing.html["사용량 기반 측정"]
+* link:../concepts/burst-consumption-billing.html["버스트 소비에 기초한 청구"]
+* link:../concepts/misc-volume-billing.html["기타 볼륨 유형에 따른 청구"]
+* link:../concepts/billing-schedules.html["청구 일정"]
+

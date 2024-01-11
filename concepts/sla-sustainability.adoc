@@ -16,7 +16,7 @@ summary: 지속 가능성, SLA, 서비스 수준 계약
 [role="lead"]
 NetApp Keystone STaaS는 서비스 수준당 소비되는 최대 와트/TiB를 정의하는 서비스 수준 계약 또는 SLA 지원 지속 가능성 서비스 수준을 제공하여 IT 지속 가능성 목표를 계획, 모니터링 및 충족할 수 있도록 지원합니다.
 
-Active IQ 디지털 어드바이저 대시보드의 Keystone 위젯에서 SLA와 관련된 문제에 대해 자세히 알아볼 수 있습니다.
+Active IQ 디지털 어드바이저(디지털 어드바이저) 대시보드의 Keystone 위젯에서 SLA와 관련된 문제에 대해 자세히 알아볼 수 있습니다.
 
 
 
@@ -84,7 +84,7 @@ Active IQ 디지털 어드바이저 대시보드의 Keystone 위젯에서 SLA와
 
 == 지속 가능성 보고서
 
-Active IQ Digital Advisor(Digital Advisor) Keystone 대시보드의 SLA 탭에서는 Keystone 서브스크립션에 대한 지속 가능성 메트릭에 대한 자세한 뷰를 제공합니다. 메트릭을 보고 향후 분석 및 조치에 대한 보고서를 생성할 수 있습니다.
+Digital Advisor의 SLA 탭 Keystone 대시보드는 Keystone 구독의 지속 가능성 메트릭에 대한 자세한 보기를 제공합니다. 메트릭을 보고 향후 분석 및 조치에 대한 보고서를 생성할 수 있습니다.
 
 Keystone 대시보드 및 보고에 대한 자세한 내용은 을 참조하십시오 link:../integrations/aiq-keystone-details.html["Keystone 구독 대시보드 및 리포팅"].
 

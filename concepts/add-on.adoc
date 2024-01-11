@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: concepts/add-on.html 
+keywords: add-on services, additional services, chargeable add-ons 
+summary: Keystone의 애드온 서비스 
+---
+= Keystone STaaS의 애드온 서비스
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone STaaS는 다양한 애드온 서비스를 제공합니다. 다음 링크에서 이러한 서비스에 대해 알아볼 수 있습니다. KSM과 논의하여 평가 및 사용 가능 여부를 확인할 수 있습니다.
+
+* link:../concepts/data-tiering.html["데이터 계층화"]
+* link:../concepts/adp.html["고급 데이터 보호"]
+* link:../concepts/uscs.html["미국 시민 지원"]
+* link:../concepts/nrnvc.html["반품 불가, 비휘발성 구성 요소 및 SnapLock 준수"]
+* link:../concepts/equinix.html["Equinix를 기반으로 한 Keystone 코로케이션 서비스"]
+

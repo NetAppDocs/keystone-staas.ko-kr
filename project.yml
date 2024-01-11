@@ -53,7 +53,7 @@ sidebar:
       url: "/installation/asup-config.html"
     - title: 대금 청구를 위해 수집된 데이터
       url: "/installation/data-collection.html"
-  - title: Keystone 서비스로 더 많은 작업 수행
+  - title: Keystone 대시보드 보기 및 구독 관리
     entries:
     - title: Active IQ Digital Advisor에서 Keystone 대시보드를 확인할 수 있습니다
       url: "/integrations/keystone-aiq.html"
@@ -73,6 +73,8 @@ sidebar:
       url: "/concepts/service-levels.html"
     - title: 추가 서비스
       entries:
+      - title: Keystone STaaS의 애드온 서비스
+        url: "/concepts/add-on.html"
       - title: 데이터 계층화
         url: "/concepts/data-tiering.html"
       - title: 고급 데이터 보호

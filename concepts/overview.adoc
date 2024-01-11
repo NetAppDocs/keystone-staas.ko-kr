@@ -29,3 +29,12 @@ Keystone 가입이 요금 계획과 관련이 있습니다. 단일 구독에 여
 == STaaS(Keystone 스토리지-as-a-Service)
 
 STaaS(Storage-as-a-Service) 오퍼링은 스토리지 인프라의 조달, 구축 및 관리에 필요한 퍼블릭 클라우드와 같은 모델을 제공하는 것을 목표로 합니다. 대부분의 기업이 아직 하이브리드 클라우드 전략을 수립하고 있지만, 고객은 OpEx-based_pay-per-use_consumption 모델을 선택할 수 있습니다. 모든 워크로드를 클라우드로 이동해야 하는 경우도 있지만, 특정 부분 또는 모든 워크로드를 클라우드로 마이그레이션할 계획이나 일정은 아직 없습니다. Keystone STaaS는 온프레미스 서비스로 시작한 후 나중에 클라우드 이전이 필요한 워크로드와 시점을 유연하게 결정할 수 있습니다. Keystone STaaS는 전체 구축 모델에 대한 약속 보호를 제공합니다. 클라우드 서비스에 더 많은 비용을 지불하는 대신, 온프레미스 고객은 온프레미스 비용을 재할당하여 클라우드 서비스를 추가하고 재할당 전에 커밋된 월간 상환액을 기본적으로 상환할 수 있습니다.
+
+* 관련 정보 *
+
+* link:../concepts/pricing.html["Keystone 가격"]
+* link:../concepts/add-on.html["Keystone STaaS의 애드온 서비스"]
+* link:../concepts/service-levels.html["Keystone의 서비스 수준"]
+* link:../concepts/infra.html["Keystone 인프라"]
+* link:../concepts/operational-models.html["Keystone의 운영 모델"]
+
