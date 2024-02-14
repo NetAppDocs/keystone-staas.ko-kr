@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: integrations/subscriptions-tab.html 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
+summary: AIQ DA Keystone 대시보드의 구독 탭 
+---
+= 구독 탭을 클릭합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+구독 * 탭에서 모든 구독 목록을 볼 수 있습니다.
+
+이 탭을 보려면 왼쪽 탐색 창에서 * 일반 > Keystone 구독 > 구독 * 으로 이동하십시오.
+
+image:all-subs.png["구독 탭 이미지"]
+
+다음 정보를 볼 수 있습니다. 특정 필드 및 열의 경우 데이터에 대한 추가 정보를 제공하는 정보 또는 경고 아이콘 및 도구 설명이 표시될 수 있습니다.
+
+* * 구독 번호 *: NetApp에서 할당한 Keystone 가입 번호입니다.
+* * 추적 ID *: 가입 활성화 시 할당된 추적 ID입니다. 구독 추적에 사용되는 각 구독 및 사이트의 고유 ID입니다.
++
+
+TIP: 고급 데이터 보호 애드온 서비스에 가입한 경우 가입 번호에 대한 도구 설명을 클릭하여 MetroCluster 설정에서 파트너 가입의 추적 ID를 확인할 수 있습니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오 link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection["고급 데이터 보호를 위한 참조 차트"].
+
+* * 사용 유형 *: 여러 Keystone(버전 1) 또는 Keystone STaaS(버전 2) 구독했을 수 있습니다. 서비스 수준에 대한 요금 계획 규칙은 두 가지 구독 유형에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량에 따라 청구되는지 아니면 논리적 사용량에 따라 청구되는지 알 수 있습니다 `v1` 또는 `v2`. Keystone 가입 버전 1에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/index.html["NetApp Keystone 설명서"^].
+* * 청구 기간 *: 구독의 청구 기간(월, 분기 또는 연 단위).
+* * 시작일 *: 가입일.
+* * 종료일 *: 가입 종료 날짜. 매달 자동으로 갱신되는 유료 구독이 있는 경우 이 표시됩니다 `Month-on-month` 종료 날짜 대신 이 날짜를 기준으로, 종료되거나 자동 갱신 정책이 연결된 구독에 대한 알림을 볼 수 있습니다.
+* * 사용 상태 *: 사용량이 가입 한도 내에 있는지 또는 초과하는지 여부를 나타내는 사용 표시기를 표시합니다. 최고 소비 레코드를 보려면 이 열을 기준으로 목록을 정렬할 수 있습니다.
+* image:subs-dtls-icon.png["아이콘을 클릭합니다"]: 구독에 대해 이 아이콘을 클릭하면 해당 구독의 사용 세부 정보가 있는 * Current Usage * 탭이 열립니다.
+* image:aiq-ks-time-icon.png["아이콘을 클릭합니다"]: 이 아이콘을 클릭하면 * Capacity Trend * 탭이 열리고 이 구독에 포함된 각 서비스 수준에 대한 사용 내역 데이터가 표시됩니다.
+
+
+다음 사용 표시기를 참조하여 각 구독의 사용 상태를 확인할 수 있습니다.
+
+image:usage-indicator.png["아이콘을 클릭합니다"]
+
+.색인
+image:icon-grey.png["회색 점 아이콘"]: 서비스 수준의 약정 용량에 대해 기록된 용량 사용량이 없습니다image:icon-green.png["녹색 점 아이콘"]: 소비는 정상이며, 약속된 용량의 80% 이내입니다image:icon-amber.png["황색 점 아이콘"]: 최대 소비량입니다. 즉, 사용량이 약속된 용량의 100% 이상에 도달하게 됩니다. Consumed * (사용량 *) 열에는 커밋된 용량의 80%를 초과하는 소비에 대한 이 표시기가 표시됩니다image:icon-red.png["빨간색 점 아이콘"]: 소모량이 버스트 제한 내에 있습니다. 버스트 소비는 서비스 수준의 약정 용량 100%를 초과하는 소비량이며, 120%와 같이 합의된 최대 사용량 제한 내에 있는 소비입니다image:icon-purple.png["자주색 점 아이콘"]: 규정된 버스트 제한을 초과하는 소비를 나타냅니다
+
+* 관련 정보 *
+
+* link:../integrations/aiq-keystone-details.html["Keystone 대시보드 및 보고를 사용합니다"]
+* link:../integrations/current-usage-tab.html["현재 사용량"]
+* link:../integrations/sla-details-tab.html["SLA 세부 정보"]
+* link:../integrations/capacity-trend-tab.html["용량 추세"]
+* link:../integrations/volumes-objects-tab.html["볼륨 및 앰프; 오브젝트"]
+* link:../integrations/performance-tab.html["성능"]
+

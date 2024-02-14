@@ -56,9 +56,23 @@ sidebar:
   - title: Keystone 대시보드 보기 및 구독 관리
     entries:
     - title: Active IQ Digital Advisor에서 Keystone 대시보드를 확인할 수 있습니다
-      url: "/integrations/keystone-aiq.html"
-    - title: 소비 세부 정보를 보고 보고서를 생성합니다
-      url: "/integrations/aiq-keystone-details.html"
+      entries:
+      - title: Keystone 및 Digital Advisor 대시보드
+        url: "/integrations/keystone-aiq.html"
+      - title: 소비 세부 정보를 보고 보고서를 생성합니다
+        url: "/integrations/aiq-keystone-details.html"
+      - title: 구독 탭을 클릭합니다
+        url: "/integrations/subscriptions-tab.html"
+      - title: 현재 사용 현황 탭
+        url: "/integrations/current-usage-tab.html"
+      - title: "[SLA 세부 정보] 탭"
+        url: "/integrations/sla-details-tab.html"
+      - title: Capacity Trend(용량 추세) 탭
+        url: "/integrations/capacity-trend-tab.html"
+      - title: 볼륨 및 개체 탭
+        url: "/integrations/volumes-objects-tab.html"
+      - title: 성능 탭
+        url: "/integrations/performance-tab.html"
     - title: BlueXP에서 Keystone 구독 관리
       url: "/integrations/keystone-cm.html"
   - title: Keystone에 대해 자세히 알아보십시오
@@ -121,63 +135,3 @@ sidebar:
     url: "/concepts/gssc.html"
   - title: 법적 고지
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 시작하십시오
-    links:
-    - title: NetApp Keystone란 무엇입니까?
-      url: "/concepts/overview.html"
-    - title: VMware vSphere에 Keystone Collector 설치
-      url: "/installation/vapp-installation.html"
-    - title: Linux에 Keystone Collector 설치
-      url: "/installation/linux-installation.html"
-    - title: Digital Advisor에서 사용 현황을 확인합니다
-      url: "/integrations/keystone-aiq.html"
-    - title: 사용 보고서를 생성합니다
-      url: "/integrations/aiq-keystone-details.html"
-  - title: Keystone에서 지원되는 서비스
-    links:
-    - title: Keystone 서비스 수준
-      url: "/concepts/service-levels.html"
-    - title: 서비스 품질(QoS)
-      url: "/concepts/qos.html"
-    - title: 측정 단위는 무엇입니까?
-      url: "/concepts/metrics.html"
-    - title: 지원되는 기본 스토리지는 무엇입니까?
-      url: "/concepts/supported-storage-services.html"
-    - title: 온프레미스의 지출을 클라우드로 재할당할 수 있습니까?
-      url: "/concepts/capacity-requirements.html#capacity-adjustments"
-  - title: Keystone 가격 및 비용청구
-    links:
-    - title: Keystone 가격 정보를 알고 있습니다
-      url: "/concepts/pricing.html"
-    - title: 내 청구 일정
-      url: "/concepts/billing-schedules.html"
-    - title: 약정 용량에 따른 청구
-      url: "/concepts/committed-capacity-billing.html"
-    - title: 사용량 기반 측정
-      url: "/concepts/consumed-capacity-billing.html"
-    - title: 약속된 용량보다 많은 용량을 소비하면 어떻게 됩니까?
-      url: "/concepts/burst-consumption-billing.html"
-  - title: Keystone 서비스로 더 많은 작업 수행
-    links:
-    - title: 지원 팀 파악(Keystone GSSC)
-      url: "/concepts/gssc.html"
-    - title: 콜드 데이터 또는 덜 사용되는 데이터로 무엇을 할 수 있는가?
-      url: "/concepts/data-tiering.html"
-    - title: Keystone 데이터를 어떻게 보호할 수 있습니까?
-      url: "/concepts/adp.html"
-    - title: Keystone과 BlueXP
-      url: "/integrations/keystone-cm.html"
-    - title: 미국 시민 지원
-      url: "/concepts/uscs.html"
-  - title: 자세히 알아보십시오
-    links:
-    - title: Keystone 구독 버전 1(이전, Keystone Flex 구독)
-      url: https://docs.netapp.com/us-en/keystone/
-    - title: Active IQ Digital Advisor
-      url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: BlueXP
-      url: https://docs.netapp.com/us-en/cloud-manager-family/
-    - title: Active IQ Unified Manager
-      url: https://docs.netapp.com/us-en/active-iq-unified-manager/

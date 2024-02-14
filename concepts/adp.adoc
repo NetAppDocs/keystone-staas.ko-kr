@@ -24,7 +24,7 @@ NOTE: 파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스�
 Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간 MetroCluster 구성을 활용하여 데이터를 보호합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. 이 추가 서비스 의 일부인 를 참조하십시오 `Advanced Data-Protect` 서비스 수준이 구독에 할당되었습니다.
 ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster 문서"^].
 
-MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오 link:../integrations/aiq-keystone-details.html#reference-charts-for-advanced-data-protection["고급 데이터 보호를 위한 참조 차트"].
+MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오 link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection["고급 데이터 보호를 위한 참조 차트"].
 
 추가 비용은 서브스크립션의 모든 용량(소스, 미러링된 복사본 및 미러링되지 않은 데이터)에 적용됩니다.
 
