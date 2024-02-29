@@ -4,7 +4,7 @@ permalink: installation/linux-installation.html
 keywords: Linux installation Keystone, Linux Collector installation 
 summary: Linux에 Keystone Collector 설치 
 ---
-= Linux 시스템에 Keystone Collector 설치
+= Linux 시스템에 Keystone Collector를 설치합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

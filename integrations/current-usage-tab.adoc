@@ -37,4 +37,5 @@ Keystone 스토리지 서비스 및 관련 서비스 수준에 대한 자세한 
 * link:../integrations/capacity-trend-tab.html["용량 추세"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 앰프; 오브젝트"]
 * link:../integrations/performance-tab.html["성능"]
+* link:../integrations/assets-tab.html["자산 탭"]
 

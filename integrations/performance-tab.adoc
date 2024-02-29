@@ -84,4 +84,5 @@ image:perf-log-usd.png["논리적 사용된 용량 그래프"]
 * link:../integrations/sla-details-tab.html["SLA 세부 정보"]
 * link:../integrations/capacity-trend-tab.html["용량 추세"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 앰프; 오브젝트"]
+* link:../integrations/assets-tab.html["자산"]
 

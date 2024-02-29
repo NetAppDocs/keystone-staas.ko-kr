@@ -13,9 +13,9 @@ indexpage:
     links:
     - title: NetApp Keystone란 무엇입니까?
       url: "/concepts/overview.html"
-    - title: VMware vSphere에 Keystone Collector 설치
+    - title: VMware vSphere에 Keystone Collector를 설치합니다
       url: "/installation/vapp-installation.html"
-    - title: Linux에 Keystone Collector 설치
+    - title: Linux에 Keystone Collector를 설치합니다
       url: "/installation/linux-installation.html"
     - title: Digital Advisor에서 사용 현황을 확인합니다
       url: "/integrations/keystone-aiq.html"

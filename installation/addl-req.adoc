@@ -20,14 +20,12 @@ ONTAP 및 StorageGRID에 대한 몇 가지 추가 사전 요구 사항을 완료
 ====
 .ONTAP
 --
-.소프트웨어 요구 사항
+.소프트웨어 버전
 . ONTAP 9.8 이상
 . Active IQ Unified Manager(Unified Manager) 9.10 이상
 
 
-.필수 구성 요소
-ONTAP에 Keystone Collector를 설치하려면 다음 단계를 사전 요구 사항으로 수행하십시오.
-
+.시작하기 전에
 . Unified Manager 9.10 이상이 구성되어 있는지 확인합니다. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.
 +
 ** https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["VMware vSphere 시스템에 Unified Manager 설치"^]

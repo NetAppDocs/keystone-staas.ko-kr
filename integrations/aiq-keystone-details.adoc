@@ -14,10 +14,12 @@ summary: Keystone 구독 보고서 및 그래프
 
 
 [role="lead"]
-Active IQ Digital Advisor(디지털 어드바이저)라고도 하는 대시보드는 NetApp Keystone 구독과 관련된 사용량을 모니터링하고 보고서를 생성하는 기능을 제공합니다. Keystone 서비스 가입 시 Digital Advisor 대시보드의 * Keystone 가입 * 위젯에서 구독 및 사용 세부 정보를 확인할 수 있습니다.
+Keystone STaaS 가입을 위한 Active IQ 디지털 어드바이저(디지털 자문이라고도 함) 대시보드를 사용하여 용량 사용을 모니터링하고 보고서를 생성할 수 있습니다.
+
+Keystone 서비스 가입 시 Digital Advisor 대시보드의 * Keystone 가입 * 위젯에서 구독 및 사용 세부 정보를 확인할 수 있습니다.
 
 
-NOTE: 여기에서 제공되는 정보는 ONTAP 및 StorageGRID 모두에 적용됩니다. 관련 섹션에서 예외가 지적되었습니다.
+NOTE: 이 문서의 정보는 ONTAP 및 StorageGRID 모두에 적용됩니다. 관련 섹션에서 예외가 지적되었습니다.
 
 Keystone 디지털 자문 위젯에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다"^].
 

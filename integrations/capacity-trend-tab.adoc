@@ -137,4 +137,5 @@ MetroCluster에서 데이터를 보호하는 방법에 대한 자세한 내용�
 * link:../integrations/sla-details-tab.html["SLA 세부 정보"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 앰프; 오브젝트"]
 * link:../integrations/performance-tab.html["성능"]
+* link:../integrations/assets-tab.html["자산"]
 

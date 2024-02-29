@@ -14,9 +14,11 @@ summary: Linux 시스템에 Keystone Collector 설치를 위한 사전 요구사
 
 
 [role="lead"]
-Linux 시스템에 Keystone Collector를 설치하는 데 필요한 몇 가지 구성이 있습니다.
+필요한 소프트웨어로 Linux 시스템을 준비하면 Keystone Collector를 통해 정확한 설치 및 데이터 수집이 가능합니다.
 
-.Linux 서버의 필수 구성 요소:
+Linux 및 Keystone Collector 서버 VM에 이러한 구성이 있는지 확인합니다.
+
+.Linux 서버:
 * 운영 체제: CentOS 7 또는 Red Hat Enterprise Linux 8.6 이상
 * 약어 시간 동기화됨
 * 표준 Linux 소프트웨어 저장소에 대한 액세스
@@ -30,7 +32,7 @@ Linux 시스템에 Keystone Collector를 설치하는 데 필요한 몇 가지 �
 * Python 3 (3.6.8 ~ 3.3.13)
 
 
-.Keystone Collector 서버 VM의 사전 요구 사항:
+.Keystone Collector 서버 VM:
 * 코어: CPU 2개
 * RAM: 4GB RAM
 * 디스크 공간: 50GB vDisk

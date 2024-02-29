@@ -27,7 +27,7 @@ sidebar:
     entries:
     - title: Keystone 수집기란
       url: "/installation/installation-overview.html"
-    - title: Keystone Collector 설치를 위해 시스템을 준비합니다
+    - title: 시스템을 준비합니다
       entries:
       - title: VMware vSphere 요구 사항
         url: "/installation/vapp-prereqs.html"
@@ -73,6 +73,8 @@ sidebar:
         url: "/integrations/volumes-objects-tab.html"
       - title: 성능 탭
         url: "/integrations/performance-tab.html"
+      - title: 자산 탭
+        url: "/integrations/assets-tab.html"
     - title: BlueXP에서 Keystone 구독 관리
       url: "/integrations/keystone-cm.html"
   - title: Keystone에 대해 자세히 알아보십시오
