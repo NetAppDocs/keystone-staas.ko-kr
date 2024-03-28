@@ -33,7 +33,6 @@ Keystone 스토리지 서비스 및 관련 서비스 수준에 대한 자세한 
 
 * link:../integrations/aiq-keystone-details.html["Keystone 대시보드 및 보고를 사용합니다"]
 * link:../integrations/subscriptions-tab.html["구독"]
-* link:../integrations/sla-details-tab.html["SLA 세부 정보"]
 * link:../integrations/capacity-trend-tab.html["용량 추세"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 앰프; 오브젝트"]
 * link:../integrations/performance-tab.html["성능"]

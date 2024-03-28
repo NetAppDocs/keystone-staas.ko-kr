@@ -134,7 +134,6 @@ MetroCluster에서 데이터를 보호하는 방법에 대한 자세한 내용�
 * link:../integrations/aiq-keystone-details.html["Keystone 대시보드 및 보고를 사용합니다"]
 * link:../integrations/subscriptions-tab.html["구독"]
 * link:../integrations/current-usage-tab.html["현재 사용량"]
-* link:../integrations/sla-details-tab.html["SLA 세부 정보"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 앰프; 오브젝트"]
 * link:../integrations/performance-tab.html["성능"]
 * link:../integrations/assets-tab.html["자산"]

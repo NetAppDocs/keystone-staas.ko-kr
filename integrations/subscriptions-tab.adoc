@@ -48,7 +48,6 @@ image:icon-grey.png["회색 점 아이콘"]: 서비스 수준의 약정 용량�
 
 * link:../integrations/aiq-keystone-details.html["Keystone 대시보드 및 보고를 사용합니다"]
 * link:../integrations/current-usage-tab.html["현재 사용량"]
-* link:../integrations/sla-details-tab.html["SLA 세부 정보"]
 * link:../integrations/capacity-trend-tab.html["용량 추세"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 앰프; 오브젝트"]
 * link:../integrations/performance-tab.html["성능"]

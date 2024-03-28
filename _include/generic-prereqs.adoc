@@ -196,19 +196,4 @@ https://support.netapp.com[]
  a| 
 청구 정보 및 AutoSupport 제공을 위한 NetApp HQ
 
-
-
- a| 
-http://mirror.centos.org[]
-http://mirrorlist.centos.org[]
- a| 
-Keystone Collector용 OS 업데이트(OVA 구축만 해당)
-
-
-
- a| 
-https://repo.mysql.com[]
- a| 
-MySQL 종속성 다운로드 및 업데이트(Linux 배포에만 해당)
-
 |===
