@@ -58,7 +58,7 @@ Keystone Collector(일반)
  a| 
 인터넷(나중에 제공된 URL 요구 사항에 따라)
  a| 
-HTTP, HTTPS
+HTTPS
  a| 
 TCP 80, TCP 443
  a| 
@@ -133,7 +133,7 @@ Keystone Collector(일반)
  a| 
 고객 모니터링 시스템
  a| 
-HTTP
+HTTPS
  a| 
 TCP 777
  a| 

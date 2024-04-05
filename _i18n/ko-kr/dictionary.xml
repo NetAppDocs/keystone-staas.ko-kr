@@ -564,7 +564,6 @@
   <block id="5f76d762520637f1eb1b8dd5e4b71129" category="paragraph">TCP 443</block>
   <block id="e89ab59baea830bd940c300886c50efe" category="paragraph">필수입니다</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">인터넷(나중에 제공된 URL 요구 사항에 따라)</block>
-  <block id="1de3382e8d585a7e028aaf322ae1a2e1" category="paragraph">HTTP, HTTPS</block>
   <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80, TCP 443</block>
   <block id="882da07ddabac1aa28b5f358bcbeb2ce" category="paragraph">필수(인터넷 연결)</block>
   <block id="01633331ef3bca3e96b0dfd60ceb54bd" category="paragraph">Keystone Collector 소프트웨어, OS 업데이트 및 메트릭 업로드</block>
@@ -594,7 +593,6 @@
   <block id="9bb201387a3fc98daabac0d0184d67b2" category="paragraph">TCP 3306</block>
   <block id="1cdcb6b512bcad3d3f44e441ef4b8b27" category="paragraph">Keystone 수집기에 대한 성능 메트릭 컬렉션</block>
   <block id="9dcb5a3c0168fd793b27b3a0ad251e42" category="paragraph">고객 모니터링 시스템</block>
-  <block id="293c9ea246ff9985dc6f62a650f78986" category="paragraph">HTTP</block>
   <block id="763598941dbbbfc084a41d50118d7cf0" category="paragraph">TCP 777</block>
   <block id="6ef2c9b331690e63d11b8024f8e69408" category="paragraph">Keystone Collector 상태 보고</block>
   <block id="4e38d92cc04c51157b68c55909b859b7" category="section-title">URL 액세스</block>
@@ -606,9 +604,6 @@
   <block id="fbf8359989576f0800cb2da4a25f4be1" category="summary">VMware vSphere 시스템에 Keystone Collector를 설치하기 위한 사전 요구사항</block>
   <block id="2f0d22e6971fda1cbc3411961fec8360" category="doc">가상 인프라 요구 사항</block>
   <block id="080838bb01c5d3b3c97a54a92d98023d" category="list-text">운영 체제: VMware vCenter Server 및 ESXi 6.5 이상</block>
-  <block id="a6074a8dda65f87c74db6e5b6a444683" category="list-text">코어: CPU 4개</block>
-  <block id="f003ca1f65b35534eb0dad8c4f388f6a" category="list-text">RAM: 12GB RAM</block>
-  <block id="12bd6e40a7bc94d413c13b8520e74365" category="list-text">디스크 공간: 200GB vDisk</block>
   <block id="b0450b259fdefd76bfc3006ccd12c375" category="summary">VMware 시스템에 Keystone Collector 설치</block>
   <block id="a1c9c4a1979d4de63c959aa0eb8db228" category="doc">VMware vSphere 시스템에 Keystone Collector 구축</block>
   <block id="5636c5e292ad15c979ccdf35d4ddd63f" category="paragraph">VMware vSphere 시스템에 Keystone Collector를 구축하려면 OVA 템플릿 다운로드, * Deploy OVF Template * 마법사를 사용하여 템플릿 구축, 인증서 무결성 확인, VM 준비 상태 확인이 포함됩니다.</block>
@@ -907,9 +902,7 @@
   <block id="303598db14cdac7b8531356d3fa6ae67" category="doc">Keystone Collector를 수동으로 업그레이드합니다</block>
   <block id="eb5316849956503093c848cdd2e2189f" category="paragraph">Keystone 수집기의 자동 업데이트 기능은 기본적으로 활성화되어 있으며, 새 릴리즈마다 Keystone Collector 소프트웨어를 자동으로 업그레이드합니다. 그러나 이 기능을 비활성화하고 소프트웨어를 수동으로 업그레이드할 수 있습니다.</block>
   <block id="c5bc18b9ae708308f165d213528edb66" category="list-text">유지 관리 화면에서 * 지금 수집기 업데이트 * 옵션을 선택합니다.</block>
-  <block id="f8bc55f7c7f782e0fdeced65037abf84" category="paragraph">또는 다음 명령을 실행하여 버전을 업그레이드합니다.</block>
   <block id="b31f1ebf783dc22abf4699b042b9b3db" category="list-text">Keystone Collector 관리 TUI를 다시 시작하면 홈 화면의 왼쪽 상단에 최신 버전이 표시됩니다.</block>
-  <block id="bb05cc2f27b372eeefcaf8c9d31c4fba" category="paragraph">또는 다음 명령을 실행하여 최신 버전을 봅니다.</block>
   <block id="26ff0e396ade6fe360b35528d3afe577" category="paragraph">Keystone STaaS 시스템의 데이터는 Keystone Collector와 관련 모니터링 시스템인 AIOP 솔루션 툴을 통해 전달됩니다.</block>
   <block id="9e2f9cd4a9ee8b88a18988f62eb67dd7" category="paragraph">Keystone Collector는 스토리지 컨트롤러에 대한 REST API 호출을 시작하고 다음 흐름 다이어그램에 표시된 대로 컨트롤러의 사용 세부 정보를 정기적으로 가져옵니다.</block>
   <block id="144be97e21d1c48cc88d9c1079fd7242" category="list-text">Active IQ 클라우드 포털은 연결을 수락하고 NetApp Collector에 대한 터널을 설정합니다.</block>
@@ -1555,4 +1548,11 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="2edc64c57ca29e2f950fd753874bafbc" category="list-text">성능 * 탭의 ONTAP 볼륨에 대한 성능 지표,</block>
   <block id="7a7b2bda8aa958fd2f922e2acb85ca1e" category="paragraph">모두 선택한 구독 날짜를 기준으로 데이터를 표시합니다.</block>
   <block id="f37be92ace88534a02480f8f04d48882" category="paragraph">알려진 문제는 확인되지 않습니다.</block>
+  <block id="5f2b8b9897b51974b3e829ddd4511e8e" category="paragraph">또는 다음 명령을 실행하여 버전을 업그레이드합니다.</block>
+  <block id="014327995266184e82832bad8c943216" category="paragraph">CentOS의 경우:</block>
+  <block id="21a26c88c032eccbe4aba03b7481511e" category="paragraph">데비안의 경우:</block>
+  <block id="6c6acbd25509a9e20307e1496a9b9db2" category="paragraph">또는 다음 명령을 실행하여 최신 버전을 볼 수도 있습니다.</block>
+  <block id="0ed064e2cd201442fba4d1be4a8ee19c" category="list-text">코어: 1 CPU</block>
+  <block id="2e82715d47e898df71b0f37522311a05" category="list-text">RAM: 2GB RAM</block>
+  <block id="54c62dd9045f6805a09d9d86b629862d" category="list-text">디스크 공간: 20GB vDisk</block>
 </blocks>
