@@ -619,12 +619,8 @@
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">7단계 사용자 정의 템플릿 _ 에서 admin 사용자 계정의 초기 네트워크 주소와 암호를 지정합니다.</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">8단계 * Deploy OVF Template * 마법사의 _ 완료 준비 단계에서 구성을 검토하고 OVA 배포에 대한 매개 변수를 올바르게 설정했는지 확인합니다.</block>
   <block id="d5599cb082a40129e25bed4de770048b" category="paragraph">VM을 템플릿에서 구축하고 전원을 켠 후 VM에 대한 SSH 세션을 열고 임시 관리자 자격 증명으로 로그인하여 VM이 구성 준비가 되었는지 확인합니다.</block>
-  <block id="a2840fbbafc1435ffe70d4b579b45ac6" category="section-title">초기 시스템 구성</block>
   <block id="a0416d96615fb872a7f19a13f6e245aa" category="admonition">배포를 완료하면 Keystone Collector 관리 TUI(터미널 사용자 인터페이스) 유틸리티를 사용하여 구성 및 모니터링 작업을 수행할 수 있습니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.</block>
-  <block id="25f96d2dea5d65fdf3a40639ee4d2baf" category="list-text">필요한 경우 TUI의 * 구성 &gt; 네트워크 * 섹션에서 프록시 세부 정보를 구성합니다.</block>
   <block id="ea0dbfc6ab6c0af39db6e8b2db365d7f" category="list-text">Configuration &gt; System * 섹션에서 시스템 호스트 이름, 위치 및 NTP 서버를 구성합니다.</block>
-  <block id="b6b465ab63a0aae38b40c4f7c52e2ebe" category="list-text">유지보수 &gt; 사용자 * 섹션에서 관리자 암호를 업데이트합니다.</block>
-  <block id="6d001a04aa3a4da5de64981a8c657ad6" category="list-text">초기 OVA 구성은 * 구성 &gt; 고급 * 섹션에서 완료된 것으로 표시합니다.</block>
   <block id="84f5023b640dd27c1674e40684ab2961" category="summary">Linux 시스템에서 Keystone 수집기를 검증합니다</block>
   <block id="35aa404988b4754613fc18c25cec1e7f" category="doc">소프트웨어 무결성의 자동 검증</block>
   <block id="cf28efdbdaf364aa104021336a5f5cf4" category="paragraph">Keystone 소프트웨어의 무결성을 검증하는 반복적 프로세스가 있습니다.</block>
@@ -937,7 +933,6 @@
   <block id="305955a2ac717f15ce5b0f0a3abc280a" category="paragraph"><block ref="305955a2ac717f15ce5b0f0a3abc280a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3a1e055c606dddb7ffa7ea4aa739f762" category="list-text">6단계_에서 VM이 사용할 대상 네트워크를 선택합니다.</block>
   <block id="77c3a99746e93de71f55722d8f5802d8" category="paragraph">OVA를 통해 구축된 Keystone Collector 서버의 초기 구성을 위해 VMware vSphere 시스템에서 다음 단계를 수행합니다.</block>
-  <block id="02b9a7808a83ccb6ba15cb4854eba098" category="list-text">Keystone Collector 서버에 대한 SSH 세션을 엽니다. 로그인 시 TUI가 나타납니다. 또는 를 실행하여 TUI를 수동으로 실행할 수 있습니다<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLI 명령:</block>
   <block id="79e0703c840b981be16f9e1a40c5a0b4" category="inline-image-macro">Collector 아키텍처</block>
   <block id="009d77d3b79ee4c7df16ef0658dd3bc3" category="paragraph"><block ref="009d77d3b79ee4c7df16ef0658dd3bc3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="25c10b524de794226cf520c9a3dacc83" category="list-text">표준 Linux 소프트웨어 저장소에 대한 액세스</block>
@@ -1090,10 +1085,7 @@
   <block id="bcc16de506d1dbb7779a3062decf2fa6" category="paragraph">이러한 하위 시스템은 매주 AutoSupport 번들에 기본적으로 포함되어 있습니다. 여기서 는 입니다<block ref="c2f7a910dac56891bdc98acd8bf80faa" prefix=" " category="inline-code"></block> 은(는) _dot-regular_, 및 입니다<block ref="155fe96c8db8042fed76defa0f5b6d97" prefix=" " category="inline-code"></block> IS_HA 그룹 알림(weekly_log) 공지 _. 그러나 Keystone 사용 데이터를 검색 및 보고하기 위해 일별 번들에 추가해야 합니다.</block>
   <block id="0615b5bfa7b669de144331b512440192" category="inline-link">SSH를 사용하여 클러스터에 액세스합니다</block>
   <block id="75637cd8fe530b3ca0a91d01f7a154b3" category="list-text">시스템 관리자 사용자는 SSH를 사용하여 Keystone ONTAP 클러스터에 로그인합니다. 자세한 내용은 을 참조하십시오<block ref="72c78e462556b03d46e2f3029d4a0613" category="inline-link-rx"></block>.</block>
-  <block id="d4139f82ccaf32f8e108d4cd48dc0801" category="inline-link">시스템 노드 AutoSupport 매니페스트가 표시됩니다</block>
-  <block id="fcd234d37052b608416125513e6350d6" category="paragraph">이 명령에 대한 자세한 내용은 을 참조하십시오<block ref="ebf3b588f9456f5d9eb4379234927367" category="inline-link-rx"></block>.</block>
   <block id="b25e1baa640468dcaf7b5bcd975ace0a" category="list-text">다음 명령을 실행하여 일별 로그 콘텐츠를 수정합니다.</block>
-  <block id="a7b3681fbca584aa4e58ecc74f068237" category="paragraph"><block ref="1835384cfbb7a783927d2d026c6446bc" prefix="" category="inline-code"></block></block>
   <block id="20c41bcd9366cdbd961d6554489ea863" category="inline-link">시스템 노드 AutoSupport 트리거 수정</block>
   <block id="5f6d98c1ed4256fab45f6c20e637744e" category="paragraph">이 명령에 대한 자세한 내용은 을 참조하십시오<block ref="700e80291e0b2dbcd3452a610925a1ef" category="inline-link-rx"></block>.</block>
   <block id="766bf6a1b0285febc0d67565c929ccb2" category="paragraph">다음 섹션에서는 지원되는 스토리지 유형, 파일, 블록, 오브젝트 및 클라우드 서비스의 기본 서비스 수준에 대해 설명합니다.</block>
@@ -1173,7 +1165,6 @@
   <block id="087c9dc5266982ef54ba80f023cbd793" category="list-text">Enter 키를 누릅니다. 고급 * 화면으로 돌아갑니다.</block>
   <block id="03a891b6d33a248fa861083fe4247d1c" category="inline-image-macro">CA 사용자 지정을 위한 TUI 화면</block>
   <block id="8763d534a475bad985b63c246739efb2" category="paragraph"><block ref="8763d534a475bad985b63c246739efb2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="42b719750bcc67ec4565e4a291dd81b0" category="list-text">유지 관리 &gt; 시스템 업데이트 * 옵션을 사용하여 Keystone Collector를 업데이트합니다. 선택한 일부 미러를 사용할 수 없으며 몇 번 재시도하면 시스템 세부 정보가 업데이트됩니다.</block>
   <block id="62da9737386f7b0511bd36a15644e898" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 두 사이트 간 MetroCluster 구성을 활용하여 데이터를 보호합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. 이 추가 서비스 의 일부인 를 참조하십시오<block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 서비스 수준이 구독에 할당되었습니다.
 ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>.</block>
   <block id="0315debcd2143476e3ac1f5e6124081b" category="paragraph">Equinix에서 제공하는 Keystone 코로케이션(Co-Lo) 서비스는 표준 Keystone 서비스 오퍼링과 변경되지 않습니다.</block>
@@ -1417,8 +1408,6 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="694ddc221b1ba079b86890f70c44cb11" category="section-title">2024년 2월 13일 새로운 기능 및 개선 사항</block>
   <block id="0031be5085bbcd93406b2aa424a49c42" category="section-title">기본 구독에 연결된 구독을 볼 수 있습니다</block>
   <block id="7a76691411d2b3f52e0613b9090e3000" category="paragraph">일부 기본 구독에는 연결된 보조 구독이 있을 수 있습니다. 이 경우 * 구독 번호 * 열에 기본 구독 번호가 계속 표시되고, 연결된 구독 번호는 * 구독 * 탭의 새 열 * 링크된 구독 * 에 나열됩니다. 연결된 구독 * 열은 구독이 연결된 경우에만 사용할 수 있으며, 구독에 대해 알리는 정보 메시지를 볼 수 있습니다.</block>
-  <block id="75c6f7540c7b06e4afb66c0e49e2b6eb" category="list-text">다음 명령을 실행하고 기존 서브시스템에 대한 기존 구성을 확인합니다.</block>
-  <block id="3ae087a778fc31353925828cff4f6c5e" category="paragraph"><block ref="8c5d13e75d7b6fef515d481823c7b360" prefix="" category="inline-code"></block></block>
   <block id="6986ced354a8932900d97fca40ed0a5b" category="summary">볼륨 - 개체 - 탭</block>
   <block id="80a766e7eebce2ca48e414230534ddb7" category="doc">볼륨 및 개체 탭</block>
   <block id="7f54c89739f450385c8dcecb323dd15f" category="list-text">일반 &gt; Keystone 구독 &gt; 개체 * 를 클릭합니다.</block>
@@ -1577,4 +1566,10 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="0c3292833800a62d7f718700dbce3a67" category="list-text">NRNVC와 관련된 추가 비용은 총 구독 서비스(표준 서비스, 고급 데이터 보호 및 데이터 계층화 포함) 월별 요금의 비율로 부과됩니다.</block>
   <block id="e5a6cc7fd3fb0ce58296055c4fa99a5d" category="admonition">NetApp Keystone STaaS 서비스 수준에 대한 자세한 서비스 설명이 제공됩니다<block ref="d71be405d81c1e2747195607ed9eca90" category="inline-link-rx"></block>.</block>
   <block id="087e52621b1299752b891e4115749950" category="sidebar">Keystone 구독 서비스 버전 1</block>
+  <block id="899a771b5dc110dfc5fafd791b598948" category="section-title">초기 시스템 구성</block>
+  <block id="2cc31eb816941afbd27aaf7e157c893c" category="list-text">Keystone Collector 서버에 대한 SSH 세션을 엽니다. 연결할 때 admin 암호를 업데이트하라는 메시지가 표시됩니다. 필요에 따라 관리자 암호 업데이트를 완료합니다.</block>
+  <block id="9b511d4b9fae2194e94ea56697f90270" category="list-text">TUI에 액세스하려면 새 암호를 사용하여 로그인하십시오.  로그인 시 TUI가 나타납니다.</block>
+  <block id="76a9fcc99866cc713d361014e5f04c71" category="paragraph">또는 을 실행하여 수동으로 시작할 수도 있습니다<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLI 명령:</block>
+  <block id="c74d63e364ced8b98060b508c4df9160" category="list-text">필요한 경우 TUI의 * 구성 &gt; 네트워크 섹션 * 에서 프록시 세부 정보를 구성합니다.</block>
+  <block id="3901dacdf71718d8755295861e5a2509" category="list-text">유지 관리 &gt; Collector 업데이트 * 옵션을 사용하여 Keystone Collector를 업데이트합니다. 업데이트 후 Keystone Collector 관리 TUI 유틸리티를 다시 시작하여 변경 사항을 적용합니다.</block>
 </blocks>

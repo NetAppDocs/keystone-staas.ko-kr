@@ -52,17 +52,12 @@ WAFL
 
 .단계
 . 시스템 관리자 사용자는 SSH를 사용하여 Keystone ONTAP 클러스터에 로그인합니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["SSH를 사용하여 클러스터에 액세스합니다"^].
-. 다음 명령을 실행하고 기존 서브시스템에 대한 기존 구성을 확인합니다.
-+
-`autosupport trigger show -node * -autosupport-message management.log -fields basic-additional`
-
-+
-이 명령에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters["시스템 노드 AutoSupport 매니페스트가 표시됩니다"^].
-
 . 다음 명령을 실행하여 일별 로그 콘텐츠를 수정합니다.
 +
-`autosupport trigger modify -node * -autosupport-message management.log -basic-additional _<existing comma-separated subsystems>_, _<new subsystems>_`
-
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform,object_store_server,san,raid,snapmirror
+----
 +
 이 명령에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html["시스템 노드 AutoSupport 트리거 수정"^].
 

@@ -80,10 +80,12 @@ OVA를 통해 구축된 Keystone Collector 서버의 초기 구성을 위해 VMw
 
 NOTE: 배포를 완료하면 Keystone Collector 관리 TUI(터미널 사용자 인터페이스) 유틸리티를 사용하여 구성 및 모니터링 작업을 수행할 수 있습니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.
 
-. Keystone Collector 서버에 대한 SSH 세션을 엽니다. 로그인 시 TUI가 나타납니다. 또는 를 실행하여 TUI를 수동으로 실행할 수 있습니다 `keystone-collector-tui` CLI 명령:
-. 필요한 경우 TUI의 * 구성 > 네트워크 * 섹션에서 프록시 세부 정보를 구성합니다.
-. 유지 관리 > 시스템 업데이트 * 옵션을 사용하여 Keystone Collector를 업데이트합니다. 선택한 일부 미러를 사용할 수 없으며 몇 번 재시도하면 시스템 세부 정보가 업데이트됩니다.
+. Keystone Collector 서버에 대한 SSH 세션을 엽니다. 연결할 때 admin 암호를 업데이트하라는 메시지가 표시됩니다. 필요에 따라 관리자 암호 업데이트를 완료합니다.
+. TUI에 액세스하려면 새 암호를 사용하여 로그인하십시오.  로그인 시 TUI가 나타납니다.
++
+또는 을 실행하여 수동으로 시작할 수도 있습니다 `keystone-collector-tui` CLI 명령:
+
+. 필요한 경우 TUI의 * 구성 > 네트워크 섹션 * 에서 프록시 세부 정보를 구성합니다.
 . Configuration > System * 섹션에서 시스템 호스트 이름, 위치 및 NTP 서버를 구성합니다.
-. 유지보수 > 사용자 * 섹션에서 관리자 암호를 업데이트합니다.
-. 초기 OVA 구성은 * 구성 > 고급 * 섹션에서 완료된 것으로 표시합니다.
+. 유지 관리 > Collector 업데이트 * 옵션을 사용하여 Keystone Collector를 업데이트합니다. 업데이트 후 Keystone Collector 관리 TUI 유틸리티를 다시 시작하여 변경 사항을 적용합니다.
 
