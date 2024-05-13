@@ -135,7 +135,7 @@ Keystone Collector(일반)
  a| 
 HTTPS
  a| 
-TCP 777
+TCP 7777
  a| 
 옵션 기능
  a| 

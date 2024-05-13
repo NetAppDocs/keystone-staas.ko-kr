@@ -20,45 +20,28 @@ AutoSupport 원격 측정 메커니즘을 사용할 때 Keystone은 AutoSupport 
 Keystone 데이터를 포함하도록 AutoSupport을 구성하기 전에 다음 사항에 유의하십시오.
 
 * ONTAP CLI를 사용하여 AutoSupport 원격 측정 옵션을 편집합니다. AutoSupport 서비스 및 시스템(클러스터) 관리자 역할 관리에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["AutoSupport 개요 관리"^] 및 https://docs.netapp.com/us-en/ontap/system-admin/cluster-svm-administrators-concept.html["클러스터 및 SVM 관리자"^].
-* 일상적인 AutoSupport 번들에 다음 서브시스템을 포함하여 Keystone에 대한 데이터를 정확하게 수집할 수 있습니다. AutoSupport 하위 시스템에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html["AutoSupport 하위 시스템이란 무엇입니까"^].
-+
-|===
-| 하위 시스템 이름입니다 | Keystone에 필요한 데이터 항목입니다 
-
-
- a| 
-WAFL
-| `VOLUME-CLONE-SHOW.XML` 
-
-
- a| 
-성능
-| `QOS-POLICY-GROUP.XML` 및 `QOS-ADAPTIVE-POLICY.XML` 
-
-
- a| 
-스냅샷
-| `SNAPSHOT.XML` 
-
-
- a| 
-플랫폼
-| `ENVIRONMENT.txt` 
-|===
-+
-이러한 하위 시스템은 매주 AutoSupport 번들에 기본적으로 포함되어 있습니다. 여기서 는 입니다 `asup_type` 은(는) _dot-regular_, 및 입니다 `asup_subject` IS_HA 그룹 알림(weekly_log) 공지 _. 그러나 Keystone 사용 데이터를 검색 및 보고하기 위해 일별 번들에 추가해야 합니다.
-
+* 일별 및 주별 AutoSupport 번들에 서브시스템을 포함하여 Keystone의 데이터를 정확하게 수집할 수 있습니다. AutoSupport 하위 시스템에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html["AutoSupport 하위 시스템이란 무엇입니까"^].
 
 
 .단계
 . 시스템 관리자 사용자는 SSH를 사용하여 Keystone ONTAP 클러스터에 로그인합니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["SSH를 사용하여 클러스터에 액세스합니다"^].
-. 다음 명령을 실행하여 일별 로그 콘텐츠를 수정합니다.
+. 로그 내용을 수정합니다.
++
+** 다음 명령을 실행하여 일별 로그 콘텐츠를 수정합니다.
 +
 [source]
 ----
 autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform,object_store_server,san,raid,snapmirror
 ----
+** 다음 명령을 실행하여 주간 로그 내용을 수정합니다.
++
+[source]
+----
+autosupport trigger modify -autosupport-message weekly -troubleshooting-additional wafl -node *
+----
 +
 이 명령에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html["시스템 노드 AutoSupport 트리거 수정"^].
+
+
 
 

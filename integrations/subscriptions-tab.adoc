@@ -28,7 +28,7 @@ image:all-subs.png["구독 탭 이미지"]
 
 TIP: 고급 데이터 보호 애드온 서비스에 가입한 경우 가입 번호에 대한 도구 설명을 클릭하여 MetroCluster 설정에서 파트너 가입의 추적 ID를 확인할 수 있습니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오 link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection["고급 데이터 보호를 위한 참조 차트"].
 
-* * 사용 유형 *: 여러 Keystone(버전 1) 또는 Keystone STaaS(버전 2) 구독했을 수 있습니다. 서비스 수준에 대한 요금 계획 규칙은 두 가지 구독 유형에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량에 따라 청구되는지 아니면 논리적 사용량에 따라 청구되는지 알 수 있습니다 `v1` 또는 `v2`. Keystone 가입 버전 1에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/index.html["NetApp Keystone 설명서"^].
+* * 사용 유형 *: 여러 Keystone(버전 1) 또는 Keystone STaaS(버전 2) 구독했을 수 있습니다. 서비스 수준에 대한 요금 계획 규칙은 두 가지 구독 유형에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝되거나 물리적 또는 논리적 사용량에 따라 청구되는지 알 수 있습니다 `v1` 또는 `v2`. Keystone 가입 버전 1에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/index.html["NetApp Keystone 설명서"^].
 * * 청구 기간 *: 구독의 청구 기간(월, 분기 또는 연 단위).
 * * 시작일 *: 가입일.
 * * 종료일 *: 가입 종료 날짜. 매달 자동으로 갱신되는 유료 구독이 있는 경우 이 표시됩니다 `Month-on-month` 종료 날짜 대신 이 날짜를 기준으로, 종료되거나 자동 갱신 정책이 연결된 구독에 대한 알림을 볼 수 있습니다.
