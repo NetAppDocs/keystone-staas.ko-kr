@@ -16,4 +16,18 @@ summary: Keystone STaaS의 알려진 문제
 [role="lead"]
 알려진 문제에서는 Keystone 구독 서비스를 효과적으로 사용하지 못할 수 있는 문제를 식별합니다.
 
-알려진 문제는 확인되지 않습니다.
+NetApp Keystone STaaS에 다음과 같은 알려진 문제가 보고되었습니다.
+
+[cols="3*"]
+|===
+| 알려진 문제입니다 | 설명 | 해결 방법 
+
+
+ a| 
+CSV 보고서에 Keystone 데이터가 잘못 표시됩니다.
+ a| 
+CSV 보고서의 * Account Name * 열에 * Capacity Trend * 탭에서 생성된 계정 이름이 쉼표와 함께 포함된 경우 `(,)`, Keystone 데이터가 CSV 보고서에 잘못 배치된 것으로 나타납니다.
+ a| 
+없음
+
+|===
