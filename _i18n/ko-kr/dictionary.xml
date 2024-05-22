@@ -320,9 +320,6 @@
   <block id="eafe2da4c3641f4864397b0d97fff137" category="doc">Keystone 설명서</block>
   <block id="e5471403f1b2eefb0fe47b6193a72bbc" category="sidebar">Keystone 문서</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
-  <block id="4c9a4fbc49b946c974f43f9b95467093" category="sidebar">Keystone에 대해 자세히 알아보십시오</block>
-  <block id="8c2dbe4be9f9daf82f71c41e1cd8f1e1" category="sidebar">추가 서비스</block>
-  <block id="5acf3eaacab2f897759e5e1e27667847" category="sidebar">서비스 수준에 대해 자세히 알아보십시오</block>
   <block id="8bc14f0cb78851f59e85c1d447c2c99f" category="sidebar">서비스 품질</block>
   <block id="780c462e85ba4399a5d42e88f69a15ca" category="sidebar">청구</block>
   <block id="c8c7fb7e022f78b915af0ad7300b7824" category="sidebar">파트너 및 고객 운영 환경</block>
@@ -640,9 +637,7 @@
   <block id="e1963f69cecc9ae42f0776dbde80b970" category="sidebar">VMware vSphere 구축</block>
   <block id="1f331fee3a3f66a9a0cc8b4298329656" category="sidebar">Linux 설치</block>
   <block id="5f263121a32bf1557841d7fe819ad1e8" category="sidebar">자동 무결성 검증</block>
-  <block id="7c4f193978ce4b287894738f7157bab0" category="sidebar">지원되는 스토리지 용량입니다</block>
   <block id="a84d47a9c10091a234dee7fdfbd4ae68" category="sidebar">메트릭 및 정의</block>
-  <block id="4e4be6640d3e6688fbc771ec3b218a39" category="sidebar">Keystone에서 지원되는 스토리지</block>
   <block id="bf871fbeda66c457eaf1656d09ea34de" category="sidebar">Keystone에서 지원되는 서비스</block>
   <block id="5b57c786a5a2f01f7f3d39a2f01fcd64" category="list-text"><block ref="5b57c786a5a2f01f7f3d39a2f01fcd64" category="inline-link-rx"></block></block>
   <block id="7653c2f7dacbc36a17ed707c1ae4abce" category="list-text"><block ref="7653c2f7dacbc36a17ed707c1ae4abce" category="inline-link-rx"></block></block>
@@ -1319,7 +1314,6 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="685a2d4e29e36911ce3e10342f33cd34" category="sidebar">Keystone STaaS의 새로운 기능</block>
   <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="sidebar">알려진 문제</block>
-  <block id="6a0617231ec31c63e7ed4938f21803d2" category="sidebar">소비 세부 정보를 보고 보고서를 생성합니다</block>
   <block id="762ebffa1ca7f322e0038aec263c4c5e" category="sidebar">BlueXP에서 Keystone 구독 관리</block>
   <block id="3269606fef80bba2d9e8f69108e0e4a6" category="sidebar">Digital Advisor에서 사용 현황을 확인합니다</block>
   <block id="3149c3d9b5fcd4691d16b1b31ce2a5ed" category="sidebar">사용 보고서를 생성합니다</block>
@@ -1348,14 +1342,6 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="7141573db29c2af45d0b9d0159276c43" category="list-text"><block ref="7141573db29c2af45d0b9d0159276c43" category="inline-link-macro-rx"></block></block>
   <block id="d7e5ccf918d68bf60a6b52690444d5ea" category="list-text"><block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block></block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
-  <block id="cb16f0d61d1b95d7ed2e3ddca87174cb" category="summary">Keystone의 애드온 서비스</block>
-  <block id="a9d18fd494dd09ac109d0f41dd8200d6" category="paragraph">Keystone STaaS는 다양한 애드온 서비스를 제공합니다. 다음 링크에서 이러한 서비스에 대해 알아볼 수 있습니다. KSM과 논의하여 평가 및 사용 가능 여부를 확인할 수 있습니다.</block>
-  <block id="a37b84ef7962958683b36fdd11870efe" category="list-text"><block ref="a37b84ef7962958683b36fdd11870efe" category="inline-link-macro-rx"></block></block>
-  <block id="a91680a6ffe7d115054b2a3a29590c88" category="list-text"><block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block></block>
-  <block id="507239d4f0e74cca132c8dcec4572685" category="inline-link-macro">미국 시민 지원</block>
-  <block id="bf1e0d5283510e73c95e48c522f105ac" category="list-text"><block ref="bf1e0d5283510e73c95e48c522f105ac" category="inline-link-macro-rx"></block></block>
-  <block id="15d6b82ce2a881c6c9b4c3896e1f4714" category="list-text"><block ref="15d6b82ce2a881c6c9b4c3896e1f4714" category="inline-link-macro-rx"></block></block>
-  <block id="caa6137168275fe348c2a04ff68b05bf" category="list-text"><block ref="caa6137168275fe348c2a04ff68b05bf" category="inline-link-macro-rx"></block></block>
   <block id="a2e2f97253342349ff9ef2b936b778d0" category="list-text"><block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
   <block id="01d1ce60b1a3aef68f02db880ec50307" category="list-text"><block ref="01d1ce60b1a3aef68f02db880ec50307" category="inline-link-macro-rx"></block></block>
@@ -1372,7 +1358,6 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="038fa77b2d09a08187d251d11af66fec" category="section-title">특정 요율계획에 대한 발생된 소비 상세 정보</block>
   <block id="e8eb002764288209a5c4ba14af40e3c1" category="paragraph">rate plan이 _zero_committed capacity인 서브스크립션이 있는 경우 * Capacity Trend * 탭에서 계산된 소비 정보를 볼 수 있습니다. 송장 발행된 누적 소비 * 옵션을 선택하면 청구된 누적 소비 데이터에 대한 월별 차트를 볼 수 있습니다.</block>
   <block id="c172354fb8ea09208116200c906a06f7" category="paragraph">Active IQ Digital Advisor(디지털 어드바이저)의 시청자 목록에 대한 지원이 Keystone 시스템으로 확장되었습니다. 이제 관심 목록을 사용하여 검색하여 여러 고객의 구독 세부 정보를 볼 수 있습니다. Keystone STaaS의 시청자 목록 사용에 대한 자세한 내용은 을 참조하십시오 <block ref="b7d20955ed629544dc331da927df4d8e" category="inline-link-macro-rx"></block>.</block>
-  <block id="b35f87e6c022106392162120d7124d39" category="sidebar">Keystone 대시보드 보기 및 구독 관리</block>
   <block id="58b8c716856200f705d08eebb54e18f2" category="paragraph">MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="dce2e2b996a813464c91ed5f90c2ee95" category="inline-link-macro-rx"></block>.</block>
   <block id="c85fec4626e8f76d3daa40fe4d78d085" category="paragraph">Keystone Collector 및 AIOP 솔루션 게이트웨이 구축에 스토리지 가상 머신(스토리지 VM)이 필요합니다. Keystone Collector 설치를 위한 사전 요구 사항은 다음 여기에서 확인할 수 있습니다. <block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>. 다른 요구 사항은 배포 중에 공유됩니다.</block>
   <block id="694ddc221b1ba079b86890f70c44cb11" category="section-title">2024년 2월 13일 새로운 기능 및 개선 사항</block>
@@ -1407,7 +1392,6 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="e25aef7d73f188d691460fe7a81c1615" category="list-text">일반 &gt; Keystone 구독 &gt; 성능 * 을 클릭합니다.</block>
   <block id="b38469a0957abb9fcc179f471234aeb1" category="paragraph">다음 링크를 클릭하면 각 탭에 대한 자세한 정보를 볼 수 있습니다.</block>
   <block id="0b580e09545eed5c13b43b700d66ec91" category="sidebar">NetApp Keystone는 자본 지출 또는 리스보다 운영 비용을 선호하는 고객에게 원활한 하이브리드 클라우드 경험을 제공하는 유연한 종량제 구독 기반 서비스입니다. 리소스를 관리하고 긴 조달 주기를 거쳐야 하는 IT 부담을 없애 비즈니스 가치를 신속하게 창출할 수 있도록 지원할 뿐만 아니라, 이 라이브러리에서 ONTAP 또는 StorageGRID 환경의 NetApp Keystone STaaS 오퍼링에 대해 자세히 알아보십시오.</block>
-  <block id="02444803498fb5ed3737e66f538618bf" category="sidebar">Keystone 및 Digital Advisor 대시보드</block>
   <block id="1c0f41481171759a2f8494a860a70f33" category="summary">Keystone STaaS의 알려진 문제</block>
   <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Keystone STaaS의 알려진 문제</block>
   <block id="b7539220d8497299938ec75ae391ea23" category="paragraph">알려진 문제에서는 Keystone 구독 서비스를 효과적으로 사용하지 못할 수 있는 문제를 식별합니다.</block>
@@ -1457,7 +1441,6 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="2e39d86c2e5278dfaca0be9560d7f655" category="paragraph">이 탭을 보려면 왼쪽 탐색 창에서 * 일반 &gt; Keystone 구독 &gt; 구독 * 으로 이동하십시오. 모든 구독이 나열됩니다.</block>
   <block id="97825813aecf3fd0b76fd5af1d609182" category="inline-image-macro">햄버거 아이콘</block>
   <block id="25dd6edff020c29e0a2583baf58ad0c8" category="paragraph">햄버거 아이콘을 클릭하여 선택 항목을 필터링할 수 있습니다 <block ref="c4c64623305772cdd7984286a7bda51b" category="inline-image-macro-rx" type="image"></block> 열의 경우 * Clear Filters * (필터 해제 *) 버튼을 클릭하여 모든 구독을 확인합니다. 특정 필드 및 열의 경우 데이터에 대한 추가 정보를 제공하는 정보 또는 경고 아이콘 및 도구 설명이 표시될 수 있습니다.</block>
-  <block id="34df0a0c90fe719bb1d752f41652791b" category="paragraph">고객 또는 관심 목록 이름의 처음 3자 또는 Keystone 구독 번호를 입력하여 Keystone 구독을 검색할 수 있습니다. 관심 목록별로 Keystone STaaS 구독을 검색하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="4cde7d0fd0a0facd634a3b8f00ac9a8e" category="inline-link-macro-rx"></block>.</block>
   <block id="8eed6aaca290f3e94450ad74ee4ec058" category="paragraph">구독한 서비스 수준에 따라 고객 이름 및 구독 번호, 계정 이름, 구독 시작 및 종료 날짜, 용량 사용 그래프를 볼 수 있습니다. UTC 시간으로 소비 데이터의 수집 타임스탬프를 볼 수 있습니다.</block>
   <block id="a9eee5d90e9374cafc7e77151fd75489" category="list-text">* 용량 사용량 *: 다음과 같은 소비 데이터:</block>
   <block id="bdca3ca2afa1706094d192b0cd927373" category="list-text">* 경고 * : 다양한 시나리오에 대한 경고를 볼 수 있습니다.</block>
@@ -1573,4 +1556,36 @@ Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적�
   <block id="05890055e47d7356b21b212f915e3d3b" category="paragraph">CSV 보고서에 Keystone 데이터가 잘못 표시됩니다.</block>
   <block id="cf57a91fb76a6fe323d7bc94294753a2" category="paragraph">CSV 보고서의 * Account Name * 열에 * Capacity Trend * 탭에서 생성된 계정 이름이 쉼표와 함께 포함된 경우<block ref="e1266d71c305ae3767d9d953acaf0aae" prefix=" " category="inline-code"></block>, Keystone 데이터가 CSV 보고서에 잘못 배치된 것으로 나타납니다.</block>
   <block id="7186d4f0f71f9b706a05940b8abcacd0" category="cell">문제 설명</block>
+  <block id="0242b80cbb6d235dc499fd8128673a7e" category="paragraph">고객 또는 관심 목록 이름의 처음 3자 또는 Keystone 구독 번호를 입력하여 Keystone 구독을 검색할 수 있습니다. 관심 목록별로 Keystone STaaS 구독을 검색하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="2fe9d6682f1bd534173abd0da0d980f6" category="inline-link-macro-rx"></block>.</block>
+  <block id="c8cfdcd3f2e7ef01cbd8180e33c9bf8d" category="summary">Keystone Collector에는 Keystone 시스템의 성능 및 사용 메트릭을 모니터링하는 보안 기능이 포함되어 있으며, 보안이 강화된 구성을 사용하도록 구성됩니다.</block>
+  <block id="e2fec427072f2bbc5fdc0cebd43b2b99" category="doc">Keystone Collector 보안</block>
+  <block id="15cfadbe8065734e9eb4ea47ca07ab83" category="paragraph">Keystone Collector에는 고객 데이터의 보안을 침해하지 않고 Keystone 시스템의 성능 및 사용 메트릭을 모니터링하는 보안 기능이 포함되어 있습니다.</block>
+  <block id="68e9a2406a2232b94872e64f773ac3c5" category="paragraph">Keystone Collector의 기능은 다음과 같은 보안 원칙을 기반으로 합니다.</block>
+  <block id="f956bccb154816364b44be52379e1626" category="inline-link-macro">개인 데이터를 제거합니다</block>
+  <block id="2616e5d3895322dd3346f34a17c9a1d8" category="list-text">* Privacy * - Keystone Collector는 사용량 측정 및 성능 모니터링을 수행하기 위해 제한된 양의 데이터를 수집합니다. 자세한 내용은 을 참조하십시오 <block ref="8a76728d85eff5a7f710d8dd59e08576" category="inline-link-macro-rx"></block>. 를 클릭합니다 <block ref="de6739393ca0d7e8d335fd50ddf9fd92" category="inline-link-macro-rx"></block> 옵션은 기본적으로 활성화되어 있으며 중요한 정보를 마스크하고 보호합니다.</block>
+  <block id="741e4b49f766c75061a9ccff5ec138c6" category="list-text">* 액세스 * - Keystone Collector는 스토리지 시스템을 모니터링할 수 있는 최소 권한이 필요하므로 보안 위험을 최소화하고 의도하지 않은 데이터 수정을 방지합니다. 이 접근 방식은 최소 권한 원칙에 따라 모니터링되는 환경의 전반적인 보안 상태를 개선합니다.</block>
+  <block id="5db4b8ea4012f0bb3589acb4c751d5a7" category="list-text">* Framework * - Keystone은 개발 주기 전반에 걸쳐 안전한 소프트웨어 개발 프레임워크를 사용하여 위험을 완화하고 취약점을 줄이며 잠재적인 위협으로부터 시스템을 보호합니다.</block>
+  <block id="addb25ae677e0b8a55734ab57c09d585" category="section-title">보안 강화</block>
+  <block id="74be99a15297c53a45ed7f7c29f68de5" category="paragraph">기본적으로 Keystone Collector는 보안이 강화된 구성을 사용하도록 구성됩니다. 권장되는 보안 구성은 다음과 같습니다.</block>
+  <block id="200252c3ea347de4cac0f3c372a7da7f" category="list-text">Keystone Collector 가상 머신의 운영 체제:</block>
+  <block id="bd0255a6a16effaf5439f1c91c74ef41" category="inline-link-macro">CIS 벤치마크 가이드</block>
+  <block id="651dcf96e1a04268c1afac19dadbb813" category="list-text">CIS Debian Linux 12 벤치마크 표준을 준수합니다. Keystone Collector 관리 소프트웨어 외부에서 OS 구성을 변경하면 시스템 보안이 저하될 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="d167b32fa1f045a53a10171f183d8f49" category="inline-link-macro-rx"></block>.</block>
+  <block id="da745fe6c680201ce89eaa9b5117edac" category="list-text">자동 업데이트 기능을 통해 Keystone Collector에서 확인된 보안 패치를 자동으로 수신하고 설치합니다. 이 기능을 사용하지 않도록 설정하면 소프트웨어 취약점이 발생할 수 있습니다.</block>
+  <block id="67427492d47dd85b25ea09183d2f56fc" category="list-text">Keystone Collector에서 받은 업데이트를 인증합니다. APT 리포지토리 확인을 사용하지 않도록 설정하면 승인되지 않은 패치가 자동으로 설치되어 취약점이 발생할 수 있습니다.</block>
+  <block id="f4d2c82d15d6fc8d9cf411e5062de691" category="list-text">Keystone Collector는 자동으로 HTTPS 인증서를 검증하여 연결 보안을 보장합니다. 이 기능을 사용하지 않으면 외부 끝점을 가장하고 사용 데이터가 유출될 수 있습니다.</block>
+  <block id="6f97d409f18fbb10e56aad800fa8f000" category="inline-link-macro">사용자 지정 신뢰할 수 있는 CA</block>
+  <block id="495ae3f7931870e35eab3d7f70b370f6" category="inline-link-macro">Mozilla CA 인증서 프로그램</block>
+  <block id="85717ece6d99586ad31e2263c45f0f95" category="list-text">Keystone Collector가 지원합니다 <block ref="ae59e8e314bb3ce8c2aaccbf9f26c489" category="inline-link-macro-rx"></block> 인증. 기본적으로 이 인증서는 에서 인식하는 공용 루트 CA에 의해 서명된 인증서를 신뢰합니다 <block ref="bc7ae49cd96ed7595a0f92e1fe9ad9a2" category="inline-link-macro-rx"></block>. Keystone Collector는 신뢰할 수 있는 CA를 추가로 활성화하여 이러한 인증서를 제공하는 엔드포인트에 대한 연결에 대해 HTTPS 인증서 유효성 검사를 활성화합니다.</block>
+  <block id="c6be8447da6831aee9f8aeca8c0a8651" category="list-text">Keystone Collector는 기본적으로 * Remove Private Data * 옵션을 사용하도록 설정하며, 이 옵션은 중요한 정보를 마스킹하고 보호합니다. 자세한 내용은 을 참조하십시오 <block ref="44bfa5963b761ae9d090eb3ec0204b9f" category="inline-link-macro-rx"></block>. 이 옵션을 비활성화하면 Keystone 시스템에 추가로 데이터가 전달됩니다. 예를 들어, 중요한 정보로 간주될 수 있는 볼륨 이름과 같은 사용자 입력 정보를 포함할 수 있습니다.</block>
+  <block id="115ceb474aac932219b8265f50f7455a" category="list-text"><block ref="115ceb474aac932219b8265f50f7455a" category="inline-link-macro-rx"></block></block>
+  <block id="005befdfb2d6724e6f5d61b4c885115b" category="list-text"><block ref="005befdfb2d6724e6f5d61b4c885115b" category="inline-link-macro-rx"></block></block>
+  <block id="14e6b60cfb93c92598e40786e00457b6" category="list-text"><block ref="14e6b60cfb93c92598e40786e00457b6" category="inline-link-macro-rx"></block></block>
+  <block id="c611d30bb877e2a53d2f8ee6c00ceb78" category="sidebar">Keystone 대시보드 보기</block>
+  <block id="ba0b19b07df7a68a7c3cf9b1725f68c5" category="sidebar">사용 세부 정보를 보고 보고서를 생성합니다</block>
+  <block id="bff50f1947dbec1e11bc66d60ca0b1d9" category="sidebar">지원되는 스토리지</block>
+  <block id="7618f9f854f7d4bc7c7026ffaab24dae" category="sidebar">지원되는 용량</block>
+  <block id="c6f45ce2284ef7f44c38a58ebbd013e0" category="sidebar">서비스 레벨</block>
+  <block id="0ef9feb54d3856bdf6e5a2f5a9007f98" category="sidebar">서비스 수준을 위해 지원되는 용량</block>
+  <block id="ab556116f6e3e88a66d6fb6d623318fa" category="sidebar">애드온 서비스</block>
+  <block id="2bd211076b668ce560dbd1fb33cce8cb" category="sidebar">Equinix 지원 서비스</block>
 </blocks>

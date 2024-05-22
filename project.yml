@@ -17,10 +17,10 @@ sidebar:
       url: "/release-notes/whats-new.html"
     - title: 해결된 문제
       url: "/release-notes/fixed-issues.html"
-    - title: 알려진 제한 사항
-      url: "/release-notes/known-limitations.html"
     - title: 알려진 문제
       url: "/release-notes/known-issues.html"
+    - title: 알려진 제한 사항
+      url: "/release-notes/known-limitations.html"
   - title: Keystone에 오신 것을 환영합니다
     url: "/concepts/overview.html"
   - title: Keystone 설정 및 구성
@@ -51,62 +51,58 @@ sidebar:
       url: "/installation/upgrade.html"
     - title: Keystone용 AutoSupport를 구성합니다
       url: "/installation/asup-config.html"
+    - title: Keystone Collector 보안
+      url: "/installation/security.html"
     - title: 대금 청구를 위해 수집된 데이터
       url: "/installation/data-collection.html"
-  - title: Keystone 대시보드 보기 및 구독 관리
+  - title: Keystone 대시보드
     entries:
-    - title: Active IQ Digital Advisor에서 Keystone 대시보드를 확인할 수 있습니다
-      entries:
-      - title: Keystone 및 Digital Advisor 대시보드
-        url: "/integrations/keystone-aiq.html"
-      - title: 소비 세부 정보를 보고 보고서를 생성합니다
-        url: "/integrations/aiq-keystone-details.html"
-      - title: 구독 탭을 클릭합니다
-        url: "/integrations/subscriptions-tab.html"
-      - title: 현재 사용 현황 탭
-        url: "/integrations/current-usage-tab.html"
-      - title: Capacity Trend(용량 추세) 탭
-        url: "/integrations/capacity-trend-tab.html"
-      - title: 볼륨 및 개체 탭
-        url: "/integrations/volumes-objects-tab.html"
-      - title: 성능 탭
-        url: "/integrations/performance-tab.html"
-      - title: 자산 탭
-        url: "/integrations/assets-tab.html"
+    - title: Keystone 대시보드 보기
+      url: "/integrations/keystone-aiq.html"
+    - title: 사용 세부 정보를 보고 보고서를 생성합니다
+      url: "/integrations/aiq-keystone-details.html"
+    - title: 구독 탭을 클릭합니다
+      url: "/integrations/subscriptions-tab.html"
+    - title: 현재 사용 현황 탭
+      url: "/integrations/current-usage-tab.html"
+    - title: Capacity Trend(용량 추세) 탭
+      url: "/integrations/capacity-trend-tab.html"
+    - title: 볼륨 및 개체 탭
+      url: "/integrations/volumes-objects-tab.html"
+    - title: 성능 탭
+      url: "/integrations/performance-tab.html"
+    - title: 자산 탭
+      url: "/integrations/assets-tab.html"
     - title: BlueXP에서 Keystone 구독 관리
       url: "/integrations/keystone-cm.html"
-  - title: Keystone에 대해 자세히 알아보십시오
+  - title: Keystone STaaS 서비스
     entries:
-    - title: 지원되는 스토리지 용량입니다
-      url: "/concepts/supported-storage-capacity.html"
     - title: 메트릭 및 정의
       url: "/concepts/metrics.html"
-    - title: Keystone에서 지원되는 스토리지
-      url: "/concepts/supported-storage-services.html"
-    - title: Keystone의 서비스 수준
-      url: "/concepts/service-levels.html"
-    - title: 추가 서비스
-      entries:
-      - title: Keystone STaaS의 애드온 서비스
-        url: "/concepts/add-on.html"
-      - title: 데이터 계층화
-        url: "/concepts/data-tiering.html"
-      - title: 고급 데이터 보호
-        url: "/concepts/adp.html"
-      - title: 미국 시민 지원(USCS)
-        url: "/concepts/uscs.html"
-      - title: 반품 불가, 비휘발성 구성 요소 및 SnapLock 준수
-        url: "/concepts/nrnvc.html"
-      - title: Keystone과 Equinix
-        url: "/concepts/equinix.html"
-    - title: Keystone 구독 서비스 버전 1
-      url: "/subscription-services-v1.html"
-  - title: 서비스 수준에 대해 자세히 알아보십시오
-    entries:
     - title: 서비스 품질
       url: "/concepts/qos.html"
-    - title: 서비스 수준에 대한 용량 요구 사항
+    - title: 지원되는 스토리지
+      url: "/concepts/supported-storage-services.html"
+    - title: 지원되는 용량
+      url: "/concepts/supported-storage-capacity.html"
+    - title: 서비스 레벨
+      url: "/concepts/service-levels.html"
+    - title: 서비스 수준을 위해 지원되는 용량
       url: "/concepts/capacity-requirements.html"
+    - title: Keystone 구독 서비스 버전 1
+      url: "/subscription-services-v1.html"
+    - title: 애드온 서비스
+      entries:
+      - title: 고급 데이터 보호
+        url: "/concepts/adp.html"
+      - title: 데이터 계층화
+        url: "/concepts/data-tiering.html"
+      - title: Equinix 지원 서비스
+        url: "/concepts/equinix.html"
+      - title: 반품 불가, 비휘발성 구성 요소 및 SnapLock 준수
+        url: "/concepts/nrnvc.html"
+      - title: 미국 시민 지원(USCS)
+        url: "/concepts/uscs.html"
   - title: 청구
     entries:
     - title: Keystone 가격
