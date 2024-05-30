@@ -67,7 +67,7 @@ image:report_1.png["보고서의 CSV입니다"]
 
 NOTE: 단일 서비스 수준 또는 요금제에 가입한 경우 비준수 볼륨에 대한 알림을 볼 수 없습니다.
 
-image:alert-aiq-1.png["경고"]
+image:alert-aiq-2.png["경고"]
 
 AQoS 정책에 대한 자세한 내용은 을 참조하십시오 link:../concepts/qos.html["적응형 QoS"].
 

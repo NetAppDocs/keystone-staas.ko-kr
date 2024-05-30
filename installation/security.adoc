@@ -18,9 +18,9 @@ Keystone Collector에는 고객 데이터의 보안을 침해하지 않고 Keyst
 
 Keystone Collector의 기능은 다음과 같은 보안 원칙을 기반으로 합니다.
 
-* * Privacy * - Keystone Collector는 사용량 측정 및 성능 모니터링을 수행하기 위해 제한된 양의 데이터를 수집합니다. 자세한 내용은 을 참조하십시오 link:../installation/data-collection.html["대금 청구를 위해 수집된 데이터"^]. 를 클릭합니다 link:../installation/configuration.html#limit-collection-of-private-data["개인 데이터를 제거합니다"] 옵션은 기본적으로 활성화되어 있으며 중요한 정보를 마스크하고 보호합니다.
-* * 액세스 * - Keystone Collector는 스토리지 시스템을 모니터링할 수 있는 최소 권한이 필요하므로 보안 위험을 최소화하고 의도하지 않은 데이터 수정을 방지합니다. 이 접근 방식은 최소 권한 원칙에 따라 모니터링되는 환경의 전반적인 보안 상태를 개선합니다.
-* * Framework * - Keystone은 개발 주기 전반에 걸쳐 안전한 소프트웨어 개발 프레임워크를 사용하여 위험을 완화하고 취약점을 줄이며 잠재적인 위협으로부터 시스템을 보호합니다.
+* * 프라이버시 설계 * - Keystone Collector는 사용량 측정 및 성능 모니터링을 수행하기 위해 최소 데이터를 수집합니다. 자세한 내용은 을 참조하십시오 link:data-collection.html["대금 청구를 위해 수집된 데이터"^]. 를 클릭합니다 link:configuration.html#limit-collection-of-private-data["개인 데이터를 제거합니다"] 옵션은 기본적으로 활성화되어 있으며 중요한 정보를 마스크하고 보호합니다.
+* * 최소 권한 액세스 * - Keystone Collector는 스토리지 시스템을 모니터링할 수 있는 최소 권한을 요구하므로 보안 위험을 최소화하고 의도하지 않은 데이터 수정을 방지할 수 있습니다. 이 접근 방식은 최소 권한 원칙에 따라 모니터링되는 환경의 전반적인 보안 상태를 개선합니다.
+* * 보안 소프트웨어 개발 프레임워크 * - Keystone은 개발 주기 전반에 걸쳐 보안 소프트웨어 개발 프레임워크를 사용하여 위험을 완화하고 취약점을 줄이며 잠재적인 위협으로부터 시스템을 보호합니다.
 
 
 
@@ -31,19 +31,19 @@ Keystone Collector의 기능은 다음과 같은 보안 원칙을 기반으로 �
 
 * Keystone Collector 가상 머신의 운영 체제:
 +
-** CIS Debian Linux 12 벤치마크 표준을 준수합니다. Keystone Collector 관리 소프트웨어 외부에서 OS 구성을 변경하면 시스템 보안이 저하될 수 있습니다. 자세한 내용은 을 참조하십시오 link:https://learn.cisecurity.org/benchmarks["CIS 벤치마크 가이드"].
-** 자동 업데이트 기능을 통해 Keystone Collector에서 확인된 보안 패치를 자동으로 수신하고 설치합니다. 이 기능을 사용하지 않도록 설정하면 소프트웨어 취약점이 발생할 수 있습니다.
+** CIS Debian Linux 12 벤치마크 표준을 준수합니다. Keystone Collector 관리 소프트웨어 외부에서 OS 구성을 변경하면 시스템 보안이 저하될 수 있습니다. 자세한 내용은 을 참조하십시오 link:https://learn.cisecurity.org/benchmarks["CIS 벤치마크 가이드"^].
+** 자동 업데이트 기능을 통해 Keystone Collector에서 확인된 보안 패치를 자동으로 수신하고 설치합니다. 이 기능을 비활성화하면 패치가 적용되지 않은 소프트웨어가 발생할 수 있습니다.
 ** Keystone Collector에서 받은 업데이트를 인증합니다. APT 리포지토리 확인을 사용하지 않도록 설정하면 승인되지 않은 패치가 자동으로 설치되어 취약점이 발생할 수 있습니다.
 
 
 * Keystone Collector는 자동으로 HTTPS 인증서를 검증하여 연결 보안을 보장합니다. 이 기능을 사용하지 않으면 외부 끝점을 가장하고 사용 데이터가 유출될 수 있습니다.
-* Keystone Collector가 지원합니다 link:../installation/configuration.html#trust-a-custom-root-ca["사용자 지정 신뢰할 수 있는 CA"] 인증. 기본적으로 이 인증서는 에서 인식하는 공용 루트 CA에 의해 서명된 인증서를 신뢰합니다 link:https://wiki.mozilla.org/CA["Mozilla CA 인증서 프로그램"]. Keystone Collector는 신뢰할 수 있는 CA를 추가로 활성화하여 이러한 인증서를 제공하는 엔드포인트에 대한 연결에 대해 HTTPS 인증서 유효성 검사를 활성화합니다.
-* Keystone Collector는 기본적으로 * Remove Private Data * 옵션을 사용하도록 설정하며, 이 옵션은 중요한 정보를 마스킹하고 보호합니다. 자세한 내용은 을 참조하십시오 link:../installation/configuration.html#limit-collection-of-private-data["개인 데이터의 수집 제한"^]. 이 옵션을 비활성화하면 Keystone 시스템에 추가로 데이터가 전달됩니다. 예를 들어, 중요한 정보로 간주될 수 있는 볼륨 이름과 같은 사용자 입력 정보를 포함할 수 있습니다.
+* Keystone Collector가 지원합니다 link:configuration.html#trust-a-custom-root-ca["사용자 지정 신뢰할 수 있는 CA"] 인증. 기본적으로 이 인증서는 에서 인식하는 공용 루트 CA에 의해 서명된 인증서를 신뢰합니다 link:https://wiki.mozilla.org/CA["Mozilla CA 인증서 프로그램"^]. Keystone Collector는 신뢰할 수 있는 CA를 추가로 활성화하여 이러한 인증서를 제공하는 엔드포인트에 대한 연결에 대해 HTTPS 인증서 유효성 검사를 활성화합니다.
+* Keystone Collector는 기본적으로 * Remove Private Data * 옵션을 사용하도록 설정하며, 이 옵션은 중요한 정보를 마스킹하고 보호합니다. 자세한 내용은 을 참조하십시오 link:configuration.html#limit-collection-of-private-data["개인 데이터의 수집 제한"^]. 이 옵션을 비활성화하면 Keystone 시스템에 추가로 데이터가 전달됩니다. 예를 들어, 중요한 정보로 간주될 수 있는 볼륨 이름과 같은 사용자 입력 정보를 포함할 수 있습니다.
 
 
 * 관련 정보 *
 
-* link:../installation/installation-overview.html["Keystone Collector 개요"]
-* link:../installation/vapp-prereqs.html["가상 인프라 요구 사항"]
-* link:../installation/configuration.html["Keystone Collector 구성"]
+* link:installation-overview.html["Keystone Collector 개요"]
+* link:vapp-prereqs.html["가상 인프라 요구 사항"]
+* link:configuration.html["Keystone Collector 구성"]
 
