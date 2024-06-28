@@ -4,7 +4,7 @@ permalink: release-notes/known-issues.html
 keywords: netapp, keystone, release notes, known issues 
 summary: Keystone STaaS의 알려진 문제 
 ---
-= Keystone STaaS의 알려진 문제
+= 알려진 문제
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,45 +16,4 @@ summary: Keystone STaaS의 알려진 문제
 [role="lead"]
 알려진 문제에서는 Keystone 구독 서비스를 효과적으로 사용하지 못할 수 있는 문제를 식별합니다.
 
-NetApp Keystone STaaS에 다음과 같은 알려진 문제가 보고되었습니다.
-
-[cols="3*"]
-|===
-| 알려진 문제입니다 | 설명 | 해결 방법 
-
-
- a| 
-용량 추세 * 탭에서 1일 선택을 위한 확장 데이터 표시
- a| 
-오늘에 해당하는 날짜가 * Capacity Trends * 탭의 * Capacity Trend * 옵션에서 이전 달의 시작일과 종료일로 모두 선택된 경우, 사용 차트에 선택한 시작일에서 현재 날짜까지 연장되는 기간의 데이터가 표시됩니다. 지정된 1일 기간에 대한 데이터를 표시하는 대신
- a| 
-없음
-
-
-
- a| 
-기록된 버스트 데이터를 서비스 수준에 사용할 수 없습니다.
- a| 
-Capacity Trend * 탭 내의 * CVO 기본 * 및 * CVO 보조 * 서비스 수준에 대한 기록된 누적 버스트 사용량 데이터는 MetroCluster 구성으로 구성되지 않은 구독에 사용할 수 없습니다.
- a| 
-없음
-
-
-
- a| 
-AutoSupport 구독에 사용된 객체 스토리지 값이 잘못 표시됩니다.
- a| 
-AutoSupport 원격 측정을 사용하여 Keystone 데이터를 수집하는 경우 파일, 블록 및 오브젝트 서비스가 포함된 구독의 경우 * 볼륨 세부 정보 * 탭에 나열된 오브젝트 스토리지에 대해 사용된 값이 잘못 표시됩니다.
- a| 
-올바른 정보는 * Current Usage * 탭 내에 언급된 객체 저장에 사용된 값을 참조하십시오.
-
-
-
- a| 
-자산 * 탭 내에서 클러스터 레벨 정보를 볼 수 없습니다.
- a| 
-MetroCluster 구성으로 구성된 AutoSupport 구독의 경우 * Assets * 탭에서 클러스터 레벨의 세부 정보를 사용할 수 없습니다.
- a| 
-없음
-
-|===
+현재 알려진 문제가 없습니다.

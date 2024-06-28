@@ -14,7 +14,7 @@ summary: Keystone 구독 보고서 및 그래프
 
 
 [role="lead"]
-Active IQ 디지털 어드바이저(디지털 자문이라고도 함) 대시보드를 사용하여 Keystone 구독의 세부 정보를 확인하고 용량 사용량을 모니터링하며 보고서를 생성할 수 있습니다.
+Digital Advisor 대시보드를 사용하여 Keystone 구독의 세부 정보를 보고, 용량 사용량을 모니터링하고, 보고서를 생성할 수 있습니다.
 
 Keystone 서비스 가입 시 Digital Advisor 대시보드의 * Keystone 가입 * 위젯에서 구독 및 사용 세부 정보를 확인할 수 있습니다.
 
