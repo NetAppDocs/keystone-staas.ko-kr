@@ -21,7 +21,7 @@ Keystone 서비스 가입 시 Digital Advisor 대시보드의 * Keystone 가입 
 
 NOTE: 이 문서의 정보는 ONTAP 및 StorageGRID 모두에 적용됩니다. 관련 섹션에서 예외가 지적되었습니다.
 
-Keystone 디지털 자문 위젯에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다"^].
+Keystone Digital Advisor 위젯에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다"^]참조하십시오.
 
 Keystone 가입 및 사용 세부 정보를 보려면 다음 단계를 수행하십시오.
 
@@ -34,16 +34,16 @@ Keystone 가입 및 사용 세부 정보를 보려면 다음 단계를 수행하
 
 NOTE: Keystone 서브스크립션의 용량 소비는 대시보드 및 보고서의 TiB에 표시되며 소수점 이하 두 자리까지 반올림됩니다. 사용률이 0.01TiB 미만이면 값이 0 또는 로 표시됩니다 `No Usage`. 이러한 화면의 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리에 날짜를 입력하면 UTC 시간으로 자동 간주됩니다.
 
-사용 메트릭에 대한 자세한 내용은 을 참조하십시오 link:../concepts/metrics.html#metrics-measurement["측정 지표"]. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 link:../concepts/supported-storage-capacity.html["지원되는 스토리지 용량입니다"].
+사용 메트릭에 대한 자세한 내용은 을 link:../concepts/metrics.html#metrics-measurement["측정 지표"]참조하십시오. Keystone에서 사용되는 다양한 용량에 대한 자세한 내용은 을 참조하십시오 link:../concepts/supported-storage-capacity.html["지원되는 스토리지 용량입니다"].
 
 다음 링크를 클릭하면 각 탭에 대한 자세한 정보를 볼 수 있습니다.
 
 * link:../integrations/subscriptions-tab.html["구독"]
-* link:../integrations/current-usage-tab.html["현재 사용량"]
-* link:../integrations/capacity-trend-tab.html["용량 추세"]
+* link:../integrations/current-usage-tab.html["전류 소비량"]
+* link:../integrations/capacity-trend-tab.html["소비 경향"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 앰프; 오브젝트"]
-* link:../integrations/performance-tab.html["성능"]
 * link:../integrations/assets-tab.html["자산"]
+* link:../integrations/performance-tab.html["성능"]
 
 
 
@@ -54,7 +54,7 @@ Keystone 데이터에 대한 보고서를 생성하고 볼 수 있습니다. Key
 
 세부 정보는 CSV 형식으로 생성되며 나중에 사용하고 비교할 수 있도록 저장할 수 있습니다.
 
-그래픽 데이터가 변환되는 * Capacity Trend * 탭의 샘플 보고서:
+그래픽 데이터가 변환되는 * 소비 경향 * 탭의 샘플 보고서:
 
 image:report_1.png["보고서의 CSV입니다"]
 
@@ -67,7 +67,7 @@ image:report_1.png["보고서의 CSV입니다"]
 
 NOTE: 단일 서비스 수준 또는 요금제에 가입한 경우 비준수 볼륨에 대한 알림을 볼 수 없습니다.
 
-image:alert-aiq-2.png["경고"]
+image:alert-aiq-3.png["경고"]
 
 AQoS 정책에 대한 자세한 내용은 을 참조하십시오 link:../concepts/qos.html["적응형 QoS"].
 

@@ -75,16 +75,16 @@ sidebar:
       url: "/integrations/aiq-keystone-details.html"
     - title: 구독 탭을 클릭합니다
       url: "/integrations/subscriptions-tab.html"
-    - title: 현재 사용 현황 탭
+    - title: 현재 소비 탭
       url: "/integrations/current-usage-tab.html"
-    - title: Capacity Trend(용량 추세) 탭
+    - title: 소비 경향 탭
       url: "/integrations/capacity-trend-tab.html"
     - title: 볼륨 및 개체 탭
       url: "/integrations/volumes-objects-tab.html"
-    - title: 성능 탭
-      url: "/integrations/performance-tab.html"
     - title: 자산 탭
       url: "/integrations/assets-tab.html"
+    - title: 성능 탭
+      url: "/integrations/performance-tab.html"
     - title: BlueXP에서 Keystone 구독 관리
       url: "/integrations/keystone-cm.html"
   - title: Keystone STaaS 서비스

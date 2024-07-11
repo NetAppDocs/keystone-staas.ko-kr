@@ -14,34 +14,39 @@ summary: 볼륨 - 개체 - 탭
 
 
 [role="lead"]
-볼륨 및 개체 * 탭을 사용하여 ONTAP 볼륨의 요약 정보 및 세부 정보를 봅니다. StorageGRID의 경우 이 탭을 사용하여 오브젝트 스토리지 환경의 개별 노드의 사용량을 읽을 수 있습니다.
+ONTAP 볼륨 및 오브젝트 스토리지의 세부 정보를 보려면 * 볼륨 및 오브젝트 * 탭을 사용하십시오. StorageGRID의 경우 이 탭을 사용하여 오브젝트 스토리지 환경의 개별 노드의 사용량을 읽을 수 있습니다.
 
 
 NOTE: 이 탭의 제목은 사이트의 배포 특성에 따라 다릅니다. ONTAP와 객체 스토리지가 모두 있는 경우 탭 제목이 * Volumes & Objects * 로 표시됩니다. ONTAP에만 해당 이름이 * Volumes * 로 표시됩니다. StorageGRID 오브젝트 스토리지의 경우 * 오브젝트 * 탭이 표시됩니다.
 
 
 
-== ONTAP 볼륨 요약 및 세부 정보 보기
+== ONTAP 볼륨 및 오브젝트 스토리지의 세부 정보를 봅니다
 
-볼륨 탭은 ONTAP 시스템 볼륨에 대한 다양한 수준의 세부 정보를 제공합니다. ONTAP 볼륨의 요약 및 세부 정보 뷰를 확인하기 위한 두 개의 탭이 있습니다. Volume Summary * 탭은 가입된 서비스 레벨에 매핑된 볼륨의 전체 개수를 제공합니다. 해당 볼륨이 다시 * Volume Details * (볼륨 세부 정보 *) 탭에 해당 세부 정보와 함께 나열됩니다.
+볼륨 및 오브젝트 * 탭은 ONTAP 시스템 볼륨 및 오브젝트 스토리지에 대한 다양한 수준의 세부 정보를 제공합니다. ONTAP 볼륨의 경우, 두 개의 하위 탭이 있습니다. * Volume Summary * (볼륨 요약)는 서비스 수준에 매핑된 볼륨의 전체 개수를 제공하며 * Volume Details * (볼륨 세부 정보)는 이러한 볼륨을 특정 세부 정보와 함께 다시 나열합니다. Objects * 하위 탭은 파일 및 오브젝트 스토리지에 대한 서비스 수준을 포함하는 구독의 객체 스토리지에 대한 세부 정보를 제공합니다.
+
+
+NOTE: Objects * 하위 탭은 * Volumes * 탭에서 사용할 수 없으며 * Objects * 탭 내에서 * Volume Summary * 및 * Volume Details * 하위 탭에는 데이터가 없습니다.
 
 [role="tabbed-block"]
 ====
 .볼륨 요약
 --
 . 일반 > Keystone 구독 > 볼륨 및 오브젝트 > 볼륨 요약 * 을 클릭합니다.
-. 가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다.
-
-
+. 가입 번호를 선택합니다.
++
 선택한 Keystone STaaS 구독에 대해 총 볼륨 수, AQoS 규정 준수 상태, 보호된 볼륨 수, 모든 볼륨에서 커밋된 총 용량, 소비된 용량 및 사용 가능한 용량을 확인할 수 있습니다. 비준수 볼륨 또는 보호된 볼륨 수를 클릭하면 * 볼륨 세부 정보 * 탭으로 이동합니다. 여기에서 선택한 내용에 따라 비준수 볼륨 또는 보호된 볼륨을 표시하는 필터링된 목록을 볼 수 있습니다.
 
-image:volume-summary-1.png["볼륨 요약 탭"]
++
+image:volume-summary-2.png["볼륨 요약 탭"]
+
+
 
 --
 .볼륨 세부 정보
 --
 . 일반 > Keystone 구독 > 볼륨 > 볼륨 세부 정보 * 를 클릭합니다.
-. 가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다.
+. 가입 번호를 선택합니다.
 +
 용량 사용량, 볼륨 유형, 클러스터, 애그리게이트 및 할당된 Keystone 서비스 수준과 같은 볼륨의 표 형식 목록을 볼 수 있습니다. 열 머리글 옆에 있는 정보 아이콘 위에 마우스를 올려 놓으면 열을 스크롤하여 해당 열에 대해 자세히 알아볼 수 있습니다. 열을 기준으로 정렬하고 목록을 필터링하여 특정 정보를 볼 수 있습니다.
 
@@ -50,40 +55,32 @@ image:volume-summary-1.png["볼륨 요약 탭"]
 NOTE: 고급 데이터 보호 애드온 서비스의 경우 MetroCluster 구성에서 볼륨이 운영 볼륨인지 미러 볼륨인지를 나타내는 추가 열이 나타납니다. 노드 계열 복사 * 버튼을 클릭하여 개별 노드 일련 번호를 복사할 수 있습니다.
 
 +
+image:volume-details-3.png["볼륨 세부 정보 탭"]
 
-NOTE: 파일 및 개체의 서비스 수준을 모두 포함하는 구독의 경우 * Object Storage Details * 버튼을 클릭하여 오브젝트 스토리지 세부 정보를 볼 수 있습니다.
+
+
+--
+.오브젝트
+--
+. 일반 > Keystone 구독 > 개체 * 를 클릭합니다.
+. 가입 번호를 선택합니다. 이전에 선택한 구독에 파일 및 오브젝트 스토리지에 대한 서비스 수준이 포함되지 않은 경우 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다.
++
+
+NOTE: StorageGRID의 경우 이 탭에는 객체 스토리지에 대한 노드의 물리적 사용량이 표시됩니다.
 
 +
-image:volume-details-2.png["볼륨 세부 정보 탭"]
+image:objects-details.png["개체 탭"]
 
 
 
 --
 ====
-
-
-== StorageGRID 노드 및 소비를 확인하십시오
-
-StorageGRID의 경우 이 탭에는 객체 스토리지에 대한 노드의 물리적 사용량이 표시됩니다.
-
-.단계
-. 일반 > Keystone 구독 > 개체 * 를 클릭합니다.
-. 가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다. 구독 번호를 선택하면 객체 스토리지 세부 정보에 대한 링크가 활성화됩니다.
-+
-image:sg-link.png["StorageGRID 대화 상자"]
-
-. 링크를 클릭하여 각 노드의 노드 이름과 물리적 사용 정보를 확인합니다.
-+
-image:sg-link-2.png["StorageGRID 대화 상자"]
-
-
-
 * 관련 정보 *
 
 * link:../integrations/aiq-keystone-details.html["Keystone 대시보드 및 보고를 사용합니다"]
 * link:../integrations/subscriptions-tab.html["구독"]
-* link:../integrations/current-usage-tab.html["현재 사용량"]
-* link:../integrations/capacity-trend-tab.html["용량 추세"]
-* link:../integrations/performance-tab.html["성능"]
+* link:../integrations/current-usage-tab.html["전류 소비량"]
+* link:../integrations/capacity-trend-tab.html["소비 경향"]
 * link:../integrations/assets-tab.html["자산"]
+* link:../integrations/performance-tab.html["성능"]
 

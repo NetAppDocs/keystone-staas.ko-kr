@@ -20,6 +20,22 @@ Active IQ 디지털 어드바이저(디지털 어드바이저라고도 함)의 *
 
 
 
+== 2024년 07월 10일
+
+
+
+=== 라벨 수정
+
+레이블 * Current Usage * 가 * Current Consumption * 로 변경되고 * Capacity Trend * 가 * Consumption Trend * 로 변경됩니다.
+
+
+
+=== 구독 검색 표시줄
+
+이제 * Keystone 구독 * 화면의 모든 탭에 있는 * 구독 * 드롭다운에 검색 표시줄이 포함됩니다. 구독 * 드롭다운에 나열된 특정 구독을 검색할 수 있습니다.
+
+
+
 == 2024년 6월 27일
 
 
@@ -174,7 +190,7 @@ Keystone 구독 * 위젯의 이전 대시보드에서 소비 데이터의 타임
 
 === 누적된 연기에 대해 반환된 송장 데이터
 
-이제 * Capacity Trend * 탭에서 * Accounted Burst * 의 레이블이 * Invoiced Accounting Burst * 로 수정됩니다. 이 옵션을 선택하면 청구된 누적 버스트 데이터의 월별 차트를 볼 수 있습니다. 자세한 내용은 을 참조하십시오 link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst["송장 발행된 누적 버스트 보기"^].
+이제 * Capacity Trend * 탭에서 * Accounted Burst * 의 레이블이 * Invoiced Accounting Burst * 로 수정됩니다. 이 옵션을 선택하면 청구된 누적 버스트 데이터의 월별 차트를 볼 수 있습니다. 자세한 내용은 을 link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["송장 발행된 누적 버스트 보기"^]참조하십시오.
 
 
 
@@ -190,7 +206,7 @@ rate plan이 _zero_committed capacity인 서브스크립션이 있는 경우 * C
 
 === 시청자 목록을 기준으로 검색하는 기능
 
-Digital Advisor의 감시 목록에 대한 지원이 Keystone 시스템까지 확장되었습니다. 이제 관심 목록을 사용하여 검색하여 여러 고객의 구독 세부 정보를 볼 수 있습니다. Keystone STaaS의 시청자 목록 사용에 대한 자세한 내용은 을 참조하십시오 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Keystone 관심 목록을 사용하여 검색합니다"^].
+Digital Advisor의 감시 목록에 대한 지원이 Keystone 시스템까지 확장되었습니다. 이제 관심 목록을 사용하여 검색하여 여러 고객의 구독 세부 정보를 볼 수 있습니다. Keystone STaaS의 시청자 목록 사용에 대한 자세한 내용은 을 참조하십시오 link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Keystone 관심 목록으로 검색합니다"^].
 
 
 

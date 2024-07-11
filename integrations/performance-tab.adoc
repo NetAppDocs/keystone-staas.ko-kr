@@ -80,8 +80,8 @@ image:perf-log-usd.png["논리적 사용된 용량 그래프"]
 
 * link:../integrations/aiq-keystone-details.html["Keystone 대시보드 및 보고를 사용합니다"]
 * link:../integrations/subscriptions-tab.html["구독"]
-* link:../integrations/current-usage-tab.html["현재 사용량"]
-* link:../integrations/capacity-trend-tab.html["용량 추세"]
+* link:../integrations/current-usage-tab.html["전류 소비량"]
+* link:../integrations/capacity-trend-tab.html["소비 경향"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 앰프; 오브젝트"]
 * link:../integrations/assets-tab.html["자산"]
 

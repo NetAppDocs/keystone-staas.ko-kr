@@ -21,18 +21,19 @@ Digital Advisor는 배포에 대한 포괄적인 인벤토리 수준 정보를 �
 .단계
 . 일반 > Keystone 구독 > 자산 * 을 클릭합니다.
 . 클러스터를 보려는 구독 번호를 선택합니다.
-
-
++
 스토리지 효율성 설정, 플랫폼 유형 및 용량 세부 정보별로 클러스터 세부 정보를 확인할 수 있습니다. 클러스터 중 하나를 클릭하면 Digital Advisor 화면의 * Clusters * 위젯으로 이동하여 해당 클러스터에 대한 추가 정보를 볼 수 있습니다.
 
-image:assets-tab-2.png["자산 탭"]
+
+
+image:assets-tab-3.png["자산 탭"]
 
 * 관련 정보 *
 
 * link:../integrations/aiq-keystone-details.html["Keystone 대시보드 및 보고를 사용합니다"]
 * link:../integrations/subscriptions-tab.html["구독"]
-* link:../integrations/current-usage-tab.html["현재 사용량"]
+* link:../integrations/current-usage-tab.html["전류 소비량"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 앰프; 오브젝트"]
-* link:../integrations/capacity-trend-tab.html["용량 추세"]
+* link:../integrations/capacity-trend-tab.html["소비 경향"]
 * link:../integrations/performance-tab.html["성능"]
 
