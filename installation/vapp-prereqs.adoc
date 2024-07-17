@@ -194,6 +194,9 @@ ONTAP 펌웨어 업데이트를 위한 웹 서버입니다
 
 |===
 
+NOTE: MySQL의 기본 포트인 3306은 Unified Manager를 새로 설치할 때 로컬 호스트로만 제한되므로 Keystone Collector에 대한 성능 메트릭을 수집하지 못합니다. 자세한 내용은 을 link:addl-req.html["ONTAP 요구 사항"]참조하십시오.
+
+
 
 === URL 액세스
 

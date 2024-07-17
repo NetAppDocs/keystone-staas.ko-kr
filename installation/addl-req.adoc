@@ -38,6 +38,10 @@ ONTAP 및 StorageGRID에 대한 몇 가지 추가 사전 요구 사항을 완료
 .. 설치 중에 생성되는 기본 애플리케이션 관리자 사용자 자격 증명을 사용하여 Unified Manager 웹 UI에 로그인합니다. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager 웹 UI에 액세스"^].
 .. 을 사용하여 Keystone 수집기에 대한 서비스 계정을 생성합니다 `Operator` 사용자 역할. Keystone Collector 서비스 API는 이 서비스 계정을 사용하여 Unified Manager와 통신하고 사용 데이터를 수집합니다. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["사용자 추가"^].
 .. 을 생성합니다 `Database` 사용자 계정, 및 `Report Schema` 역할. 이 사용자는 성능 데이터 수집에 필요합니다. 을 참조하십시오 https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["데이터베이스 사용자 생성"^].
++
+
+NOTE: MySQL의 기본 포트인 3306은 Unified Manager를 새로 설치할 때 로컬 호스트로만 제한되므로 Keystone ONTAP에 대한 성능 데이터가 수집되지 않습니다. 이 구성을 수정할 수 있으며 Unified Manager 유지보수 콘솔의 옵션을 사용하여 다른 호스트에서 연결을 사용할 수 있습니다 `Control access to MySQL port 3306` . 자세한 내용은 을 link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_additional_menu_options.html["추가 메뉴 옵션"^]참조하십시오.
+
 
 
 . Unified Manager에서 API 게이트웨이를 사용하도록 설정합니다. Keystone Collector는 API 게이트웨이 기능을 사용하여 ONTAP 클러스터와 통신합니다. 웹 UI에서 또는 Unified Manager CLI를 통해 몇 가지 명령을 실행하여 API 게이트웨이를 사용하도록 설정할 수 있습니다.
