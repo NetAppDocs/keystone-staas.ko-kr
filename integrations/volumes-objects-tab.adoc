@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/volumes-objects-tab.html 
 keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGRID objects details, ONTAP volumes 
-summary: 볼륨 - 개체 - 탭 
+summary: 볼륨 또는 오브젝트 스토리지 레벨에서 용량 세부 정보를 봅니다. 
 ---
-= 볼륨 및 개체 탭
+= ONTAP 볼륨 및 오브젝트 스토리지에 대한 세부 정보를 봅니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 볼륨 - 개체 - 탭
 
 
 [role="lead"]
-ONTAP 볼륨 및 오브젝트 스토리지의 세부 정보를 보려면 * 볼륨 및 오브젝트 * 탭을 사용하십시오. StorageGRID의 경우 이 탭을 사용하여 오브젝트 스토리지 환경의 개별 노드의 사용량을 읽을 수 있습니다.
+볼륨 또는 오브젝트 스토리지 레벨에서 용량 세부 정보를 보려면 * Volumes & Objects * 로 이동합니다. StorageGRID의 경우 이 탭을 사용하여 오브젝트 스토리지 환경의 개별 노드의 사용량을 읽을 수 있습니다.
 
 
 NOTE: 이 탭의 제목은 사이트의 배포 특성에 따라 다릅니다. ONTAP와 객체 스토리지가 모두 있는 경우 탭 제목이 * Volumes & Objects * 로 표시됩니다. ONTAP에만 해당 이름이 * Volumes * 로 표시됩니다. StorageGRID 오브젝트 스토리지의 경우 * 오브젝트 * 탭이 표시됩니다.
@@ -35,7 +35,7 @@ NOTE: Objects * 하위 탭은 * Volumes * 탭에서 사용할 수 없으며 * Ob
 . 일반 > Keystone 구독 > 볼륨 및 오브젝트 > 볼륨 요약 * 을 클릭합니다.
 . 가입 번호를 선택합니다.
 +
-선택한 Keystone STaaS 구독에 대해 총 볼륨 수, AQoS 규정 준수 상태, 보호된 볼륨 수, 모든 볼륨에서 커밋된 총 용량, 소비된 용량 및 사용 가능한 용량을 확인할 수 있습니다. 비준수 볼륨 또는 보호된 볼륨 수를 클릭하면 * 볼륨 세부 정보 * 탭으로 이동합니다. 여기에서 선택한 내용에 따라 비준수 볼륨 또는 보호된 볼륨을 표시하는 필터링된 목록을 볼 수 있습니다.
+선택한 Keystone STaaS 구독에 대해 총 볼륨 수, QoS 규정 준수 상태, 보호된 볼륨 수, 모든 볼륨에서 커밋됨, 소비됨 및 사용 가능한 총 용량을 확인할 수 있습니다. 비준수 볼륨 또는 보호된 볼륨 수를 클릭하면 * 볼륨 세부 정보 * 탭으로 이동합니다. 여기에서 선택한 내용에 따라 비준수 볼륨 또는 보호된 볼륨을 표시하는 필터링된 목록을 볼 수 있습니다.
 
 +
 image:volume-summary-2.png["볼륨 요약 탭"]

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/adp.html 
 keywords: data protection advanced 
-summary: 고급 데이터 보호 
+summary: 고급 데이터 보호 애드온 서비스를 사용하여 미션 크리티컬 워크로드의 데이터를 효율적으로 보호합니다. 
 ---
-= 고급 데이터 보호
+= 고급 데이터 보호에 대해 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 고급 데이터 보호
 
 
 [role="lead"]
-Keystone STaaS 서브스크립션의 일부로 고급 데이터 보호 애드온 서비스를 구독할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 제로 RPO(복구 시점 목표)에서 미션 크리티컬 워크로드에 대한 효율적인 데이터 보호를 보장합니다.
+Keystone STaaS 구독의 일부로 고급 데이터 보호 애드온 서비스를 구독할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 복구 시점 목표(RPO)가 0인 상태에서 미션 크리티컬 워크로드의 데이터를 효율적으로 보호합니다.
 
 
 NOTE: 파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스는 SnapMirror, SnapVault, Snapshot과 같은 NetApp 기술을 활용하여 기본 데이터 보호 서비스를 제공합니다.

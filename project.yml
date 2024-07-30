@@ -27,19 +27,19 @@ sidebar:
       url: "/concepts/overview.html"
     - title: Keystone 인프라
       url: "/concepts/infra.html"
+    - title: Keystone 컬렉터
+      url: "/installation/installation-overview.html"
     - title: 구성 요소
       url: "/concepts/components.html"
     - title: 데이터 흐름
       url: "/concepts/data-flow.html"
     - title: 운영 모델
       url: "/concepts/operational-models.html"
-    - title: Keystone 컬렉터
-      url: "/installation/installation-overview.html"
   - title: Keystone 설정 및 구성
     entries:
     - title: 요구 사항
       entries:
-      - title: VMware vSphere를 참조하십시오
+      - title: 가상 인프라
         url: "/installation/vapp-prereqs.html"
       - title: 리눅스
         url: "/installation/linux-prereqs.html"
@@ -51,7 +51,7 @@ sidebar:
         url: "/installation/vapp-installation.html"
       - title: Linux에 설치합니다
         url: "/installation/linux-installation.html"
-      - title: 무결성을 검증합니다
+      - title: Keystone 소프트웨어 자동 검증
         url: "/installation/validation.html"
     - title: Keystone Collector 구성
       url: "/installation/configuration.html"
@@ -63,13 +63,13 @@ sidebar:
       url: "/installation/data-collection.html"
   - title: 모니터링 및 업그레이드
     entries:
-    - title: 시스템 상태를 모니터링합니다
+    - title: Keystone Collector 상태 모니터링
       url: "/installation/monitor-health.html"
     - title: Keystone Collector 업그레이드
       url: "/installation/upgrade.html"
   - title: Keystone 대시보드
     entries:
-    - title: Keystone 대시보드 보기
+    - title: Keystone 대시보드 개요
       url: "/integrations/keystone-aiq.html"
     - title: 사용 세부 정보를 보고 보고서를 생성합니다
       url: "/integrations/aiq-keystone-details.html"
@@ -85,13 +85,13 @@ sidebar:
       url: "/integrations/assets-tab.html"
     - title: 성능 탭
       url: "/integrations/performance-tab.html"
-    - title: BlueXP에서 Keystone 구독 관리
+    - title: Keystone 및 BlueXP에 관해 자세히 알아보십시오
       url: "/integrations/keystone-cm.html"
   - title: Keystone STaaS 서비스
     entries:
     - title: 메트릭 및 정의
       url: "/concepts/metrics.html"
-    - title: 서비스 품질
+    - title: 스토리지 서비스 품질
       url: "/concepts/qos.html"
     - title: 지원되는 스토리지
       url: "/concepts/supported-storage-services.html"
@@ -99,7 +99,7 @@ sidebar:
       url: "/concepts/supported-storage-capacity.html"
     - title: 서비스 레벨
       url: "/concepts/service-levels.html"
-    - title: 서비스 수준을 위해 지원되는 용량
+    - title: 서비스 수준에 대한 용량 요구사항
       url: "/concepts/capacity-requirements.html"
     - title: Keystone 구독 서비스 버전 1
       url: "/subscription-services-v1.html"
@@ -111,7 +111,7 @@ sidebar:
         url: "/concepts/data-tiering.html"
       - title: Equinix 지원 서비스
         url: "/concepts/equinix.html"
-      - title: 반품 불가, 비휘발성 구성 요소 및 SnapLock 준수
+      - title: 반품 불가, 비휘발성 구성 요소 및 SnapLock 규정 준수
         url: "/concepts/nrnvc.html"
       - title: 미국 시민 지원(USCS)
         url: "/concepts/uscs.html"
@@ -125,11 +125,11 @@ sidebar:
       url: "/concepts/consumed-capacity-billing.html"
     - title: 버스트 소비에 기초한 청구
       url: "/concepts/burst-consumption-billing.html"
-    - title: 기타 볼륨 유형에 따른 청구
+    - title: Keystone 청구를 위한 기타 시나리오
       url: "/concepts/misc-volume-billing.html"
     - title: 청구 일정
       url: "/concepts/billing-schedules.html"
-  - title: NetApp 글로벌 서비스 지원 센터
+  - title: Keystone에 대한 도움을 받으십시오
     url: "/concepts/gssc.html"
   - title: 법적 고지
     url: "/legal-notices.html"

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/billing-schedules.html 
 keywords: billing schedules, schedule for payment 
-summary: Keystone의 청구 일정 
+summary: Keystone STaaS 구독은 매월 및 매년 청구됩니다. 
 ---
 = 청구 일정
 :hardbreaks:

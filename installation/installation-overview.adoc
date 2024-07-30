@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: installation/installation-overview.html 
 keywords: installation, Keystone Collector 
-summary: Keystone 수집기란 
+summary: Keystone Collector는 사이트의 VMware vSphere 또는 Linux 호스트에 설치하는 NetApp 소프트웨어입니다. Keystone 시스템의 사용 데이터를 수집합니다. 
 ---
-= Keystone Collector 개요
+= Keystone Collector에 대해 자세히 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,15 +14,11 @@ summary: Keystone 수집기란
 
 
 [role="lead"]
-Keystone 서비스를 사용하고 사용 데이터를 보려면 사이트의 VMware vSphere 또는 Linux 시스템에 Keystone Collector를 설치해야 합니다.
+_Keystone Collector_는 Keystone 서비스에 액세스하기 위해 사이트의 VMware vSphere 또는 Linux 호스트에 설치하는 NetApp 소프트웨어입니다. Keystone 시스템의 사용 데이터를 수집합니다.
 
+Keystone Collector는 Keystone 청구 플랫폼의 사용 취득 구성 요소입니다. 이 솔루션은 Active IQ Unified Manager 및 기타 애플리케이션을 활용하여 ONTAP 및 StorageGRID 시스템에 연결하여 Keystone 구독의 사용량 및 SLA 성능 측정에 필요한 메타데이터를 수집합니다. 이 보고서를 통해 시스템 상태를 모니터링하는 동시에 보고용 청구 데이터를 전송할 수 있습니다.
 
-NOTE: Keystone Collector는 Keystone 시스템의 사용 데이터를 수집하는 표준 접근 방식을 나타냅니다. 사용 환경에서 Keystone Collector를 지원할 수 없는 경우 Keystone 제품 관리 팀에 AutoSupport 원격 측정 메커니즘을 대신 사용할 수 있는 권한을 요청할 수 있습니다. AutoSupport에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]. Keystone용 AutoSupport 구성에 대한 자세한 내용은 를 참조하십시오 link:../installation/asup-config.html["Keystone용 AutoSupport를 구성합니다"].
-
-Keystone 수집기는 Active IQ Unified Manager 및 기타 애플리케이션을 활용하여 ONTAP 및 StorageGRID 시스템에 연결하고 Keystone 가입 시 사용량 및 SLA 성능 측정을 위해 필요한 메타데이터를 수집하는 Keystone 청구 플랫폼의 사용 인수 구성요소입니다. 이 보고서를 통해 시스템 상태를 모니터링하는 동시에 보고용 청구 데이터를 전송할 수 있습니다.
-
-
-NOTE: 여기에서 제공되는 설치 및 구성 정보는 ONTAP 및 StorageGRID에 적용됩니다. 요구 사항 및 절차는 ONTAP 및 StorageGRID 모두에 대해 일반적이며 예외적으로 명시되어 있습니다.
+Keystone Collector는 Keystone 시스템의 사용 데이터를 수집하는 표준 접근 방식을 나타냅니다. 사용 환경에서 Keystone Collector를 지원할 수 없는 경우 Keystone 제품 관리 팀에 AutoSupport 원격 측정 메커니즘을 대신 사용할 수 있는 권한을 요청할 수 있습니다. AutoSupport에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]. Keystone용 AutoSupport 구성에 대한 자세한 내용은 를 참조하십시오 link:../installation/asup-config.html["Keystone용 AutoSupport를 구성합니다"].
 
 이 아키텍처 다이어그램에서는 일반적인 Keystone 환경의 구성 요소 및 연결 상태를 개략적으로 보여 줍니다.
 

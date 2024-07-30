@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/data-tiering.html 
 keywords: add-on services, add-on, data tiering 
-summary: 애드온, 추가 서비스 세부 정보, 데이터 계층화 
+summary: 데이터 계층화 애드온 서비스는 자주 사용되지 않는 데이터를 식별하고 지원되는 스토리지로 계층화합니다. 
 ---
-= 데이터 계층화
+= 데이터 계층화에 대해 자세히 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

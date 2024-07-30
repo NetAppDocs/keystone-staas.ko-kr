@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/vapp-installation.html 
 keywords: install, VMware 
-summary: VMware 시스템에 Keystone Collector 설치 
+summary: OVA 템플릿 다운로드, 템플릿 배포 등을 통해 VMware vSphere 시스템에 Keystone Collector를 구축합니다. 
 ---
 = VMware vSphere 시스템에 Keystone Collector 구축
 :hardbreaks:

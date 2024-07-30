@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/linux-installation.html 
 keywords: Linux installation Keystone, Linux Collector installation 
-summary: Linux에 Keystone Collector 설치 
+summary: YUM 소프트웨어 저장소에서 Keystone Collector 소프트웨어를 설치합니다. 
 ---
 = Linux 시스템에 Keystone Collector를 설치합니다
 :hardbreaks:

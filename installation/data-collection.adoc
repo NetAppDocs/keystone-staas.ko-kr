@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/data-collection.html 
 keywords: type of data collected by Keystone collector 
-summary: ONTAP 및 StorageGRID용 Keystone Collector를 통해 청구 데이터 수집 
+summary: Keystone은 ONTAP 및 StorageGRID 구독에 대한 구성, 상태 및 사용 정보를 수집합니다. 또한 ONTAP 성능 데이터를 수집할 수 있습니다. 
 ---
 = Keystone이 수집하는 사용자 데이터의 유형
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: ONTAP 및 StorageGRID용 Keystone Collector를 통해 청구 데이터 
 
 
 [role="lead"]
-Keystone은 Keystone ONTAP 및 Keystone StoragGRID 구독에 대한 구성, 상태 및 사용 정보를 수집합니다. 또한 Keystone 수집기에서 옵션이 활성화된 경우 ONTAP에 대한 성능 데이터를 수집할 수 있습니다.
+Keystone ONTAP 및 Keystone StorageGRID 구독에 대한 구성, 상태 및 사용 정보를 수집합니다. 또한 Keystone 수집기에서 옵션이 활성화된 경우 ONTAP에 대한 성능 데이터를 수집할 수 있습니다.
 
 
 

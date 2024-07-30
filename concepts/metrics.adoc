@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/metrics.html 
 keywords: metrics, GiB, IOPS, latency, durability 
-summary: Keystone 서비스의 메트릭 계산 및 정의 
+summary: NetApp Keystone STaaS 서비스는 여러 가지 용어를 사용하여 메트릭을 측정합니다. Keystone을 사용할 때 이러한 용어에 대해 자세히 알아보려는 경우가 있습니다. 
 ---
-= Keystone 서비스에 사용되는 메트릭 및 정의
+= Keystone에 사용되는 메트릭 및 정의
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,9 @@ summary: Keystone 서비스의 메트릭 계산 및 정의
 
 
 [role="lead"]
-지표 측정을 위해 Keystone(NetApp Keystone) STaaS 서비스 내에서 다음 용어 및 정의가 사용됩니다.
+NetApp Keystone STaaS 서비스는 여러 가지 용어를 사용하여 메트릭을 측정합니다. Keystone을 사용할 때 이러한 용어에 대해 자세히 알아보려는 경우가 있습니다.
+
+Keystone STaaS 서비스 내에서 메트릭을 측정하기 위해 다음 용어와 정의가 사용됩니다.
 
 * 용량 측정 단위: GiB, TiB 및 PiB
 * IO 밀도: IOPS/TiB: 워크로드에서 소비하는 총 공간(테비바이트)을 기준으로 초당 처리되는 입력/출력 작업의 수입니다.

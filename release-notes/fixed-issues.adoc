@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes/fixed-issues.html 
 keywords: fixed issues 
-summary: 다양한 Keystone STaaS 릴리즈에서 해결된 문제 
+summary: 이전 릴리스의 NetApp Keystone STaaS 서비스에서 발견된 문제는 이후 릴리스에서 해결되었습니다. 
 ---
 = 해결된 문제
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 다양한 Keystone STaaS 릴리즈에서 해결된 문제
 
 
 [role="lead"]
-이전 릴리스의 NetApp Keystone STaaS 서비스에서 발견된 문제는 이후 릴리스에서 해결되었습니다. 이러한 수정 사항이 있습니다.
+이전 릴리스의 NetApp Keystone STaaS 서비스에서 발견된 문제는 이후 릴리스에서 해결되었습니다.
 
 [cols="3*"]
 |===

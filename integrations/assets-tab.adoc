@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
-summary: Keystone 구독 보고서 및 그래프 
+summary: 자산 탭을 사용하여 Keystone 구독에서 관리하는 클러스터와 노드에 대한 세부 정보를 볼 수 있습니다. 
 ---
-= 자산 탭
+= Keystone으로 관리되는 클러스터 및 노드 세부 정보 보기
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone 구독 보고서 및 그래프
 
 
 [role="lead"]
-자산 * 탭을 사용하여 Keystone 구독으로 관리되는 클러스터 및 노드에 대한 관점을 수집할 수 있습니다.
+Asset * 탭을 사용하여 Keystone 구독에서 관리되는 클러스터와 노드에 대한 세부 정보를 볼 수 있습니다.
 
 Digital Advisor는 배포에 대한 포괄적인 인벤토리 수준 정보를 제공합니다. 반면, Keystone 대시보드의 * Assets * 탭은 구독에 따라 클러스터 레벨 정보를 누적하며 정확한 레벨의 정보로 분할하여 제공합니다.
 

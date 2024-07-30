@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/performance-tab.html 
 keywords: keystone-aiq, digital advisor keystone, performance tab 
-summary: Keystone 구독 AIQ DA 대시보드의 성능 탭 
+summary: 시스템 성능을 모니터링하기 위해 Keystone 구독에서 관리하는 ONTAP 볼륨의 성능 메트릭을 볼 수 있습니다. 
 ---
-= 성능 탭
+= 성능 메트릭을 봅니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone 구독 AIQ DA 대시보드의 성능 탭
 
 
 [role="lead"]
-성능 * 탭을 사용하면 Keystone 구독에서 관리하는 ONTAP 볼륨의 성능 메트릭을 볼 수 있습니다.
+시스템 성능을 모니터링하기 위해 Keystone 구독에서 관리하는 ONTAP 볼륨의 성능 메트릭을 볼 수 있습니다.
 
 
 TIP: 이 탭은 선택적으로 사용할 수 있습니다. 이 탭을 보려면 지원 부서에 문의하십시오.

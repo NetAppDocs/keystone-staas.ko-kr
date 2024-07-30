@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/infra.html 
 keywords: keystone infrastructure, infra 
-summary: Keystone 인프라 
+summary: Keystone 인프라, 설계, 기술 선택, 구성요소 제품은 NetApp의 전적인 재량에 따라 집니다. 
 ---
 = Keystone 인프라
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: Keystone 인프라
 
 
 [role="lead"]
-이 섹션에서는 NetApp 및 고객 운영 환경을 위한 NetApp Keystone STaaS 인프라, 아키텍처 및 관리 애플리케이션에 대해 설명합니다.
+NetApp은 NetApp 및 고객 운영 환경 모두에 적용되는 Keystone의 인프라, 설계, 기술 선택 및 구성요소에 대한 전적인 책임을 집니다.
 
-Keystone 인프라, 설계, 기술 선택, 구성요소 제품은 NetApp의 전적인 재량에 따라 집니다. NetApp은 다음과 같은 조치를 취할 권리를 보유합니다.
+NetApp은 다음과 같은 조치를 취할 권리를 보유합니다.
 
 * 제품을 선택, 대체 또는 재활용합니다.
 * 적절하다고 판단되는 경우 새로운 기술로 제품을 업데이트합니다.
@@ -32,7 +32,7 @@ Keystone 인프라에는 다음과 같은 여러 구성요소 등이 있습니�
 
 
 
-== 스토리지 플랫폼
+== 지원합니다
 
 엔터프라이즈 애플리케이션은 빠른 프로비저닝 워크플로우 지원, 지속적인 가용성 유지, 짧은 지연 시간으로 높은 워크로드 유지, 우수한 성능 제공, 주요 클라우드 공급자와의 통합 지원을 위한 스토리지 플랫폼이 필요합니다. NetApp은 이러한 요구사항을 지원하기 위한 여러 제품과 기술을 보유하고 있습니다. Keystone 서비스의 경우 NetApp은 AFF 및 StorageGRID 플랫폼을 사용합니다.
 
@@ -50,4 +50,4 @@ Keystone 고객 운영 서비스에서는 스토리지 인프라 및 모니터�
 
 image:mgmt-stack.png["스택 관리"]
 
- Digital Advisor enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].
+Digital Advisor를 사용하면 Keystone 구독에 대한 구독 및 소비 세부 정보를 로그인하여 볼 수 있습니다. Digital Advisor 대시보드의 Keystone 보고에 대한 자세한 내용은 을 참조하십시오 link:../integrations/keystone-aiq.html["Keystone 및 디지털 자문"].

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/upgrade.html 
 keywords: Keystone Collector upgrade 
-summary: Keystone Collector 업그레이드 
+summary: 자동 업데이트 기능이 비활성화된 경우 Keystone Collector를 수동으로 업그레이드합니다. 
 ---
 = Keystone Collector를 수동으로 업그레이드합니다
 :hardbreaks:

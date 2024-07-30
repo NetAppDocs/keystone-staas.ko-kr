@@ -4,7 +4,7 @@ permalink: concepts/equinix.html
 keywords: netapp, keystone, Equinix 
 summary: Keystone과 Equinix 
 ---
-= Equinix를 기반으로 한 Keystone 코로케이션 서비스
+= Equinix에서 제공하는 코로케이션 서비스에 대해 자세히 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone과 Equinix
 
 
 [role="lead"]
-NetApp은 Equinix 데이터 센터에서 NetApp Keystone STaaS 서비스를 호스팅하여 고객에게 유니파이드 솔루션을 제공하기 위해 Equinix와 협력하고 있습니다.
+NetApp은 서비스형 전체 스택 솔루션을 제공하기 위해 Equinix 데이터 센터에서 NetApp Keystone STaaS 서비스를 호스팅하기 위해 Equinix와 파트너 관계를 맺었습니다.
 
 Equinix에서 제공하는 Keystone 코로케이션(Co-Lo) 서비스는 표준 Keystone 서비스 오퍼링과 변경되지 않습니다.
 
@@ -25,7 +25,7 @@ Equinix에서 제공하는 Keystone 코로케이션(Co-Lo) 서비스는 표준 K
 * 서비스는 11개 국가의 데이터 센터에서 지원됩니다.
 
 
-Equinix는 다음과 같은 위치에 데이터 센터를 두고 있습니다.
+Equinix에서는 다음과 같은 위치의 데이터 센터를 갖추고 있습니다.
 
 |===
 | 데이터 센터 | 국가 

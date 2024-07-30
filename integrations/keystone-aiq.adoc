@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/keystone-aiq.html 
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq 
-summary: Keystone 및 디지털 자문 
+summary: NetApp Keystone STaaS 가입자는 디지털 어드바이저 대시보드에서 구독에 대한 개요를 확인할 수 있습니다. 
 ---
-= Digital Advisor에서 Keystone 대시보드를 확인할 수 있습니다
+= Keystone 대시보드 개요
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone 및 디지털 자문
 
 
 [role="lead"]
-NetApp Keystone STaaS 서비스를 구독하면 Active IQ 디지털 어드바이저(디지털 조언이라고도 함) 대시보드의 * Keystone 구독 * 위젯에서 구독에 대한 개요를 볼 수 있습니다.
+NetApp Keystone STaaS 가입자는 Active IQ 디지털 어드바이저(디지털 조언이라고도 함) 대시보드의 * Keystone 구독 * 위젯에서 구독에 대한 개요를 볼 수 있습니다.
 
 고객 또는 관심 목록 이름의 처음 3자 또는 Keystone 구독 번호를 입력하여 Keystone 구독을 검색할 수 있습니다. 관심 목록별로 Keystone STaaS 구독을 검색하는 방법에 대한 자세한 내용은 을 참조하십시오 link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Keystone 관심 목록을 사용하여 검색합니다"].
 

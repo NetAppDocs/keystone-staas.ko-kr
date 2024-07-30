@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/service-levels.html 
 keywords: service levels, service level, rate plan or service level 
-summary: 지원되는 서비스 수준 
+summary: Keystone STaaS는 사전 정의된 서비스 수준에서 스토리지 용량을 제공합니다. Keystone에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다. 
 ---
 = Keystone의 서비스 수준
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 지원되는 서비스 수준
 
 
 [role="lead"]
-Keystone STaaS는 구독 기반의 사전 정의된 성능 서비스 수준(서비스 수준)으로 데이터 스토리지 용량을 제공합니다. Keystone 서비스로 관리되는 각 볼륨은 서비스 수준과 연결되어 있습니다.
+Keystone STaaS는 사전 정의된 성능 서비스 수준으로 데이터 스토리지 용량을 제공합니다. Keystone 서비스에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다.
 
 구독은 여러 요금 계획을 가질 수 있으며 각 요금제는 서비스 수준에 해당합니다. 각 요금제에는 서비스 수준별로 약정 용량이 있습니다.
 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/overview.html 
 keywords: learn about keystone, keystone introduction, keystone, STaaS, service, offering, overview 
-summary: Keystone에 오신 것을 환영합니다 
+summary: Keystone은 선행 CapEx 또는 리스보다 OpEx 소비 모델을 선호하는 기업을 위한 용량제 구독 기반 서비스 모델입니다. 
 ---
 = NetApp Keystone에 대해 자세히 알아보십시오
 :hardbreaks:

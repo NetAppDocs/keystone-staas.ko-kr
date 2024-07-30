@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/linux-prereqs.html 
 keywords: prerequisites, Linux 
-summary: Linux 시스템에 Keystone Collector 설치를 위한 사전 요구사항 
+summary: Keystone Collector를 설치하기 전에 필요한 소프트웨어로 Linux 시스템을 준비합니다. 
 ---
 = Linux 시스템 요구 사항
 :hardbreaks:

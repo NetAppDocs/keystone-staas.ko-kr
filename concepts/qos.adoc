@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/qos.html 
 keywords: PSL and QoS, service level quality of service 
-summary: Keystone의 서비스 품질 
+summary: Keystone은 스토리지 QoS를 사용하여 애플리케이션이 일관되고 예측 가능한 성능을 제공하도록 보장합니다. 
 ---
-= Keystone의 서비스 품질(QoS)
+= Keystone에서의 스토리지 QoS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,9 @@ summary: Keystone의 서비스 품질
 
 
 [role="lead"]
-스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS가 없으면 여러 시스템의 부팅과 같은 특정 워크로드에서 일정 기간 동안 리소스의 대부분 또는 전부를 소비하고 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"^].
+Keystone은 스토리지 QoS(Quality of Service)를 사용하여 애플리케이션에 일관되고 예측 가능한 성능을 제공합니다. QoS가 없으면 여러 시스템의 부팅과 같은 특정 워크로드가 일정 기간 동안 리소스의 대부분 또는 전부를 소비하고 다른 워크로드에 영향을 미칠 수 있습니다.
+
+QoS에 대한 자세한 내용은 를 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"^]참조하십시오.
 
 
 

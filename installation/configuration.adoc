@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/configuration.html 
 keywords: configuration keystone collector 
-summary: Keystone 수집기의 구성 
+summary: Keystone Collector가 스토리지 환경에서 사용량 데이터를 수집할 수 있도록 완벽한 구성 
 ---
 = Keystone Collector 구성
 :hardbreaks:
@@ -14,10 +14,10 @@ summary: Keystone 수집기의 구성
 
 
 [role="lead"]
-스토리지 환경에서 Keystone 수집기가 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료해야 합니다. 이 작업은 필요한 Collector 구성 요소를 활성화하고 스토리지 환경과 연결하는 일회성 작업입니다.
+스토리지 환경에서 Keystone 수집기가 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료해야 합니다. 필수 구성 요소를 활성화하고 스토리지 환경을 연결하는 일회성 활동입니다.
 
 
-NOTE: Keystone Collector는 구성 및 모니터링 작업을 수행하기 위한 Keystone Collector 관리 터미널 사용자 인터페이스(TUI) 유틸리티를 제공합니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.
+NOTE: Keystone Collector는 구성 및 모니터링 작업을 수행할 수 있는 Keystone Collector Management Terminal User Interface(TUI) 유틸리티를 제공합니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.
 
 .단계
 . Keystone Collector 관리 TUI 유틸리티 시작:
@@ -66,7 +66,7 @@ Collector 소프트웨어는 HTTP 프록시를 사용하여 인터넷과 통신�
 
 == 개인 데이터의 수집 제한
 
-Keystone 수집기는 구독 측정을 수행하는 데 필요한 제한된 구성, 상태 및 성능 정보를 수집합니다. 업로드한 콘텐츠에서 중요한 정보를 마스킹하여 수집된 정보를 추가로 제한할 수 있는 옵션이 있습니다. 이는 청구 계산에 영향을 미치지 않습니다. 그러나 볼륨 이름과 같은 사용자가 쉽게 식별할 수 있는 일부 요소가 UUID로 교체되므로 정보를 제한하면 보고 정보의 유용성에 영향을 줄 수 있습니다.
+Keystone Collector는 구독 측정을 수행하는 데 필요한 제한된 구성, 상태 및 성능 정보를 수집합니다. 업로드한 콘텐츠에서 중요한 정보를 마스킹하여 수집된 정보를 추가로 제한할 수 있는 옵션이 있습니다. 이는 청구 계산에 영향을 미치지 않습니다. 그러나 볼륨 이름과 같은 사용자가 쉽게 식별할 수 있는 일부 요소가 UUID로 교체되므로 정보를 제한하면 보고 정보의 유용성에 영향을 줄 수 있습니다.
 
 Keystone Collector TUI 화면에서 특정 고객 데이터의 수집을 제한할 수 있습니다. 이 옵션 * 개인 데이터 제거 * 는 기본적으로 사용됩니다.
 
