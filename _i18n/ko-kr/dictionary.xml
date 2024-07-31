@@ -1098,7 +1098,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="f4c8dae91522d3ec93e26aff56248527" category="list-text">From Date * 및 * To Date * 필드의 달력 아이콘에서 시간 범위를 선택합니다. 쿼리의 날짜 범위를 선택합니다. 날짜 범위는 월 시작 날짜 또는 구독 시작 날짜부터 현재 날짜까지 또는 구독 종료 날짜일 수 있습니다. 미래 날짜는 선택할 수 없습니다.</block>
   <block id="9a1db55a20b384661303cf6789a6fed8" category="list-text">세부 정보 보기 * 를 클릭합니다. 각 서비스 수준에 대한 구독의 과거 소비 데이터는 선택한 시간 범위를 기준으로 표시됩니다.</block>
   <block id="5c0d50dc2c715b658984931c688519eb" category="paragraph">막대 차트에는 서비스 레벨 이름과 해당 서비스 레벨에 대해 사용된 용량이 날짜 범위에 표시됩니다. 컬렉션의 날짜 및 시간이 차트 아래쪽에 표시됩니다. 쿼리의 날짜 범위를 기반으로 사용 차트는 30개의 데이터 수집 지점 범위로 표시됩니다. 차트 위에 마우스 커서를 올려 놓으면 해당 데이터 수집 지점의 버스트 제한 데이터 위에서 사용량 분석을 확인할 수 있습니다.</block>
-  <block id="85c7c9dc88496ccb44926915d526201d" category="inline-image-macro">Capacity Trend(용량 추세) 탭 및 세부 정보</block>
   <block id="f8eaf321d70fdf3e9d097bb407d56130" category="paragraph">막대 도표의 다음 색상은 서비스 수준 내에서 정의된 소비 용량을 나타냅니다. 차트의 월별 데이터는 세로 선으로 구분됩니다.</block>
   <block id="952c204f277570032cf6454e003c63da" category="inline-image-macro">누적된 버스트 사용량 차트</block>
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">이 기능은 미리 보기 전용 모드에서 사용할 수 있습니다. 이 기능에 대한 자세한 내용은 KSM에 문의하십시오.</block>
@@ -1402,8 +1401,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="09202d1f550debc90536918fe48073d2" category="section-title">서비스 수준 추가</block>
   <block id="698a24cda3201383036fa310a4f6dcdc" category="paragraph">서비스 수준 * CVO 기본 * 및 * CVO 보조 * 는 약정 용량이 없는 요금제 또는 Metro 클러스터로 구성된 요금제를 위한 Cloud Volumes ONTAP를 지원하기 위해 포함됩니다.</block>
   <block id="b4a4e7fcb0047788c24de350740273e2" category="list-text">Keystone 구독 * 위젯의 이전 대시보드와 * 용량 추세 * 탭의 * 에서 이러한 서비스 레벨에 대한 용량 사용 그래프를 볼 수 있으며, * 현재 사용량 * 탭에서 자세한 사용 정보를 확인할 수도 있습니다.</block>
-  <block id="997bfb6646529389b763e6cabd21c37a" category="section-title">마이크로버스트 인사이트를 위한 확대 기능</block>
-  <block id="c93882722f26936f556f483ae7c22259" category="paragraph">이제 * Capacity Trend * 탭에는 마이크로버스트로 알려진 단기 서지 세부 정보를 사용 차트에서 볼 수 있는 확대 기능이 포함되어 있습니다. 자세한 내용은 을 참조하십시오 <block ref="45b36c44a7c4fb4ef2168b619f60755c" category="inline-link-macro-rx"></block>.</block>
   <block id="6c48d999111838f1ba95a5cf4091e681" category="section-title">향상된 구독 표시</block>
   <block id="f5bd7be5a51d8e07eec34f2c9ddb662a" category="section-title">향상된 누적 버스트 디스플레이</block>
   <block id="f42805586acc16ac661193d0d72e676a" category="paragraph">이제 * Capacity Trend * 탭의 용량 사용 막대 차트 위로 마우스를 가져가면 나타나는 도구 설명에 커밋된 용량을 기준으로 누적된 버스트 유형이 표시됩니다. 약정 용량 요금제가 0인 구독의 경우 임시 소모 * 와 * 송장 발행된 소모 * 를 표시하고, 약정 용량이 0이 아닌 구독의 경우 * 임시 소모 * 및 * 송장 발행된 버스트 * 를 표시하여 임시 및 송장 발행된 버스트 * 를 구분합니다.</block>
@@ -1411,7 +1408,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="b45b03a249b5f6cfa9e1cc559ba79e40" category="section-title">2024년 2월 13일</block>
   <block id="b06c73c3805ce52954e13f27b28cb072" category="section-title">2024년 1월 11일</block>
   <block id="6171bdf5841e2bfa70f97036e02d1f44" category="section-title">2023년 12월 15일</block>
-  <block id="c3d408e303aadca10fcde3732cec0448" category="paragraph">확대 기능을 사용하여 마이크로버스트라고 하는 사용 차트에서 단기 급증을 볼 수 있습니다. 마이크로버스트(microburst)가 있는 경우 해당 막대에 파란색 점으로 표시되거나 데이터가 사용되지 않는 경우 X축에 직접 표시됩니다. 세부 정보를 보려면 파란색 점이 나타나는 막대 또는 X축을 클릭하고 누른 상태에서 커서를 차트 위로 끌어 원하는 시간 간격을 선택한 다음, 손을 떼면 선택 내용이 확인됩니다. 이 작업을 수행하면 데이터가 확대되어 선택한 간격 동안 해당 서비스 수준에서 사용된 용량을 자세히 볼 수 있습니다. 추가로 확대하여 2분 간격으로 세부 정보를 볼 수 있습니다. Reset Zoom(확대/축소 재설정) * 버튼을 클릭하여 원래 차트 보기로 돌아갈 수 있습니다.</block>
   <block id="8a19ac37aa90f4bbe7f16a2f7767bbcd" category="list-text">* 프라이버시 설계 * - Keystone Collector는 사용량 측정 및 성능 모니터링을 수행하기 위해 최소 데이터를 수집합니다. 자세한 내용은 을 참조하십시오 <block ref="d45e4cc5f7d31c567a5a7e94087cf357" category="inline-link-macro-rx"></block>. 를 클릭합니다 <block ref="056e2bf20fc58bf3ad9e840fe1ebc39f" category="inline-link-macro-rx"></block> 옵션은 기본적으로 활성화되어 있으며 중요한 정보를 마스크하고 보호합니다.</block>
   <block id="252857c59cbe54ddba7bda3d2d19b7a3" category="list-text">* 최소 권한 액세스 * - Keystone Collector는 스토리지 시스템을 모니터링할 수 있는 최소 권한을 요구하므로 보안 위험을 최소화하고 의도하지 않은 데이터 수정을 방지할 수 있습니다. 이 접근 방식은 최소 권한 원칙에 따라 모니터링되는 환경의 전반적인 보안 상태를 개선합니다.</block>
   <block id="8f14f42f9cacaaf485cd3e478fca2ae7" category="list-text">* 보안 소프트웨어 개발 프레임워크 * - Keystone은 개발 주기 전반에 걸쳐 보안 소프트웨어 개발 프레임워크를 사용하여 위험을 완화하고 취약점을 줄이며 잠재적인 위협으로부터 시스템을 보호합니다.</block>
@@ -1518,7 +1514,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="479449c6cb6b88b7c379b1672435686c" category="admonition">MySQL의 기본 포트인 3306은 Unified Manager를 새로 설치할 때 로컬 호스트로만 제한되므로 Keystone Collector에 대한 성능 메트릭을 수집하지 못합니다. 자세한 내용은 을 <block ref="997798a1af398517058dc0d935faaa2c" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">추가 메뉴 옵션</block>
   <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">MySQL의 기본 포트인 3306은 Unified Manager를 새로 설치할 때 로컬 호스트로만 제한되므로 Keystone ONTAP에 대한 성능 데이터가 수집되지 않습니다. 이 구성을 수정할 수 있으며 Unified Manager 유지보수 콘솔의 옵션을 사용하여 다른 호스트에서 연결을 사용할 수 있습니다<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> . 자세한 내용은 을 <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="f693bd6f9d65926fbf70950854618f50" category="paragraph"><block ref="f693bd6f9d65926fbf70950854618f50" category="inline-image-macro-rx" type="image"></block></block>
   <block id="82417085e656251b41cd76814fd5b48a" category="paragraph"><block ref="82417085e656251b41cd76814fd5b48a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4927a3debc365e92273fa3de8985ec2" category="paragraph"><block ref="f4927a3debc365e92273fa3de8985ec2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">고급 데이터 보호 애드온 서비스를 사용하여 미션 크리티컬 워크로드의 데이터를 효율적으로 보호합니다.</block>
@@ -1639,4 +1634,140 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d339106c5234c4fffed6b25356ff263d" category="sidebar">모니터링 및 업그레이드</block>
   <block id="7b373ff6530e34788cfaf1ee2a5d46b5" category="sidebar">Keystone Collector 상태 모니터링</block>
   <block id="be373fb58d77d15be6b1ad3433c36936" category="sidebar">스토리지 서비스 품질</block>
+  <block id="22b84f9f97a424698d7726d02f067c07" category="summary">가용성, SLA, 서비스 수준 계약</block>
+  <block id="b809b21522a310a2526e263d79f9259a" category="doc">가용성 SLA</block>
+  <block id="a383f57fb1f133e23d708fa682c4de38" category="paragraph">가용성 SLA는 Keystone 주문을 위해 구축된 모든 NetApp ONTAP 플래시 스토리지 어레이의 청구 기간 중 99.999%의 가동 시간을 목표로 합니다.</block>
+  <block id="f32c3edaacea72c0ddb30ecf0135c4de" category="section-title">메트릭</block>
+  <block id="e67906640477f8681e506869bc6e612e" category="list-text">* 월별 가동 시간 백분율 * = [(한 달의 적격 초 수 - 해당 달에 Keystone 주문을 제공하기 위해 구축된 모든 AFF 스토리지 어레이에 대한 다운타임 평균 초 수)/한 달에 적격 초 수] x 100%</block>
+  <block id="53ca36728241336dcf15ee413e4d7946" category="list-text">* 다운타임 *: NetApp에서 결정한 대로 스토리지 어레이 내의 한 쌍 내에 있는 두 컨트롤러를 모두 사용할 수 없는 기간.</block>
+  <block id="e3af360bffb0ac501e3dff5765197e4e" category="list-text">* 유효 시간(초) *: 이 값은 한 달에 초 단위로 계산되어 가동 시간 계산에 포함됩니다. 계획된 유지 관리, 업그레이드, 지원 활동으로 인해 STaaS 서비스를 사용할 수 없는 기간 또는 NetApp과 합의된 서비스로 인해 또는 NetApp 또는 Keystone 서비스의 통제나 책임을 다할 수 없는 상황으로 인해 STaaS 서비스를 사용할 수 없는 기간은 포함되지 않습니다.</block>
+  <block id="b8cbf0764e5d7f6f10308786d0f252b5" category="paragraph">ONTAP 플래시 스토리지 어레이가 지원하는 모든 서비스 수준은 가용성 SLA를 적용할 수 있습니다. 자세한 내용은 을 <block ref="5ac7feee2bb1965f2cc5b973896ee439" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="3b916544092c6bba180097d47f80505f" category="section-title">서비스 크레딧</block>
+  <block id="563fcbc0524e38c0a55e5aece4d67824" category="paragraph">적격 구독에 대한 ONTAP 플래시 스토리지 어레이의 가용성이 청구 기간 이내에 월별 가동 시간 목표 99.999% 미만으로 떨어지면 NetApp은 다음과 같이 서비스 크레딧을 발급합니다.</block>
+  <block id="e92fc6300f495b762ab94da55380457b" category="cell">* 월간 가동 시간(이하) *</block>
+  <block id="5178c68cc936db933ad4703eeb49414c" category="cell">* 서비스 크레딧 *</block>
+  <block id="4976c7cf214ee731a167dd46c1579825" category="paragraph">99.999%</block>
+  <block id="159a57128f3918d387e13cc8a5a7f2f2" category="paragraph">5%</block>
+  <block id="19fb9916968211db983d13bffe0cc6af" category="paragraph">99.99%</block>
+  <block id="bb1a5a2b7eec4f940f8e78abe48d68bf" category="paragraph">10%</block>
+  <block id="ebb51b0b7e8f1fcf89ef483709bd61c6" category="paragraph">99.9%</block>
+  <block id="ae0ce64fc49cd0aa826b50099f869922" category="paragraph">25%</block>
+  <block id="35a2d0b107eb0fd223479b0ab02ffd0d" category="paragraph">99.0%</block>
+  <block id="2496af30b64c3a4ff21e8505ea439a73" category="paragraph">50%</block>
+  <block id="f086e6ea351565075aec266b27d7808a" category="section-title">서비스 크레딧 계산</block>
+  <block id="b71fb0239a9f9bd482967a91eeab0936" category="paragraph">서비스 크레딧은 다음 공식에 따라 결정됩니다.</block>
+  <block id="25c407ad6633f6e284ed84bee3a409db" category="paragraph">서비스 크레딧 = (영향받은 용량/약정 총 용량) X 용량 수수료 X 크레딧 비율</block>
+  <block id="4cd361459ea2bb087ed6c989579796c7" category="paragraph">여기서,</block>
+  <block id="b40f8895b827f227835eb3bc2f25b9e6" category="list-text">* 영향받은 용량 *: 영향을 받는 저장 용량의 양.</block>
+  <block id="7dbf58090874a3542e3d87aa654d8cad" category="list-text">* 총 약정 용량 *: Keystone 주문에 대한 서비스 수준에 대한 약정 용량</block>
+  <block id="3d1f89c9f1a96ed5b2b2badbb5aa02dc" category="list-text">* 용량 수수료 * : 해당 월의 해당 서비스 수준에 대한 수수료.</block>
+  <block id="44582b33017b5fbb933f27e3c80d845a" category="list-text">* 크레딧 백분율 *: 서비스 크레딧에 대해 미리 결정된 비율입니다.</block>
+  <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">* 예 *</block>
+  <block id="1bddd707a0359d778b1d813a90c93052" category="paragraph">다음 예는 서비스 크레딧의 계산 방법을 보여줍니다.</block>
+  <block id="8675aaab182cd1ede22d88336898c1ea" category="list-text">월별 가동 시간을 계산하여 서비스 크레딧 비율을 결정합니다.</block>
+  <block id="fefccd3601226bfde489bb3cb07d859b" category="list-text">30일 달의 적용 가능 시간: 30(일) X 24(시/일) X 60(분/시간) X 60(초/분) = 2,592,000초</block>
+  <block id="df212c5e5de67c296152f5d72add0126" category="list-text">몇 초 만에 가동 중지 시간: 95초</block>
+  <block id="b40d5e2f3db898060ede6a53207406c4" category="paragraph">공식 사용: Monthly Uptime Percentage=[(2,592,000-95)/(2,592,000개)] X 100</block>
+  <block id="d5a0ad93e7cae0cea5d2164c32e6c7bb" category="paragraph">계산 기준, 월별 가동 시간은 99.996%, 서비스 크레딧 비율은 5%가 됩니다.</block>
+  <block id="b63c272bec6c081cf8f64799562fc87e" category="list-text">서비스 크레딧 계산:</block>
+  <block id="57083671d3a4c5d078576f2774acaae3" category="cell">* 영향을 받는 용량 *</block>
+  <block id="6319b3ae1be9dc9c6905e608cb789a7a" category="cell">* 총 약정 용량 *</block>
+  <block id="159b517c08e421584e24e48d485c1ccc" category="cell">* 용량 요금 *</block>
+  <block id="4446d2e739a007870c02f013ca45ebde" category="cell">* 신용 백분율 *</block>
+  <block id="b76181e0697998338d4a37bf656675c7" category="cell">95초에 10TiB를 사용할 수 있습니다</block>
+  <block id="6855eef8daff30988247789b63790191" category="cell">100TiB</block>
+  <block id="6ff79498e54770f62cf549ca824c38fc" category="cell">1,000달러</block>
+  <block id="9eae698db2f9979943823c8ee1440c7d" category="paragraph">공식을 사용하는 경우: 서비스 크레딧 = (10/100) X 1000 x 0.05</block>
+  <block id="df3634b399ce52d35f1816fa036f42b4" category="paragraph">계산에 따르면 서비스 크레딧은 5달러입니다.</block>
+  <block id="182bf07a2845568515ca20b4e4654296" category="section-title">서비스 크레딧 요청</block>
+  <block id="d914d7b4a96bed82ab1c41c97e6c5742" category="paragraph">SLA 위반이 감지된 경우 Keystone 글로벌 서비스 및 지원 센터(GSSC)에서 우선순위 3(P3) 지원 티켓을 여십시오.</block>
+  <block id="6d3089ef2f50007a659aa12b3a7415f8" category="list-text">다음 세부 정보가 필요합니다.</block>
+  <block id="e3e23368bff57e5796042f5fba6c3fbd" category="list-text">Keystone 구독 번호</block>
+  <block id="5e27e36d07d4a7286d88cd834cfbd611" category="list-text">볼륨 및 스토리지 컨트롤러 세부 정보입니다</block>
+  <block id="3b6a4c4dee52c0519690b8a93c60159e" category="list-text">문제에 대한 사이트, 시간, 날짜 및 설명</block>
+  <block id="de0480c0f5c929948100ece899e9724e" category="list-text">지연 시간을 감지하는 계산된 시간입니다</block>
+  <block id="f657fc20931370f67393f5612ec70ffe" category="list-text">측정 도구 및 방법</block>
+  <block id="2ecd994c3d59e0ce0211ab40d4167837" category="list-text">기타 해당 문서</block>
+  <block id="dc33a5089714f6579a5ab21118922cef" category="list-text">Keystone GSSC로 개설된 P3 티켓에 대해 아래 표시된 대로 Excel 시트에 세부 정보를 제공합니다.</block>
+  <block id="892db0165f2238f40c3370386d79cac7" category="inline-image-macro">Excel 시트 템플릿</block>
+  <block id="f0fbc9cddebee973debd106e878bebdd" category="paragraph"><block ref="f0fbc9cddebee973debd106e878bebdd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eb0abc09e7b5678911ee2656102c8868" category="list-text">GSSC에서 위반이 확인되면 6주 이내에 서비스 크레딧 요청을 개시해야 합니다. 모든 서비스 크레딧은 NetApp에서 승인하고 승인해야 합니다.</block>
+  <block id="45a3835755fcd6b1bf728c884bcc8d34" category="list-text">서비스 크레딧은 향후 송장에 적용될 수 있습니다. 만료된 Keystone 구독에는 서비스 크레딧이 적용되지 않습니다. 자세한 내용은 을 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">지속 가능성, SLA, 서비스 수준 계약</block>
+  <block id="4bcbaed6ba1519c1f0036c82537ffc1f" category="doc">성능 SLA</block>
+  <block id="8c9a4601149bbf6f607b6419227dc5e3" category="paragraph">NetApp Keystone은 다음에 열거된 이용 약관에 따라 소비된 용량에 대해 Keystone 주문에서 최대 버스트 제한까지 설명된 대로 서비스 수준별 지연 시간 기반 SLA를 제공합니다.</block>
+  <block id="23f04236d1f84e52d087f768059adbbe" category="list-text">* 성능 저하 *: 90번째 백분위수 지연 목표가 충족되지 않는 인시던트당 시간(분)입니다.</block>
+  <block id="3fe43b4ffa54563c104bbdf1eeea2b59" category="list-text">90번째 백분위수 대기 시간 * 은 Keystone 주문 내의 모든 볼륨에 대해 성능 수준별로 볼륨별로 측정됩니다. 지연 시간은 5분마다 샘플링되며 24시간 동안 계산된 90번째 백분위수 값은 다음 사항을 고려하여 일일 측정값으로 사용됩니다.</block>
+  <block id="35254eb51c71659b3cf343855354b8b1" category="list-text">메트릭 수집 시 최소 5개의 IOPS를 기록하는 볼륨은 샘플에 대해 고려됩니다.</block>
+  <block id="0e0e9d5bae73de26860af74cb8fc6ac2" category="list-text">메트릭 수집 시 쓰기 작업이 30%를 초과하는 볼륨은 샘플에서 제외됩니다.</block>
+  <block id="ab4c900b0e1430edc1bd09939be8859a" category="list-text">대상 IOPS/TiB보다 큰 요청된 IOPS/TiB에 대해 AQoS가 추가한 지연 시간은 샘플에서 제외됩니다.</block>
+  <block id="565d8433df6c6c23be6de8fd7871abae" category="list-text">볼륨당 최소 IOPS를 유지하기 위해 AQoS에 의해 추가된 지연 시간은 샘플에서 제외됩니다.</block>
+  <block id="f901dbc53f8dea2d74e68635ec84a298" category="list-text">FabricPool가 활성화된 볼륨의 경우 타겟(콜드) 스토리지와의 데이터 전송으로 인해 발생한 대기 시간은 계산되지 않습니다.</block>
+  <block id="23ca5c8d56457bbd625ff236b3c706ef" category="list-text">ONTAP 클러스터 외부의 애플리케이션, 호스트 또는 고객 네트워크로 인한 지연 시간은 계산되지 않습니다.</block>
+  <block id="57d56dc842f4da79392d5bc2178582dc" category="list-text">고급 데이터 보호 애드온 서비스를 사용할 경우 타겟 지연 시간에는 로컬 스토리지 시스템 간에 입출력 작업만 포함됩니다.</block>
+  <block id="efbd8d78a7008161e0e4f42c63d84ad6" category="list-text">24시간 동안 10개 이상의 유효한 메트릭을 사용할 수 있어야 합니다. 그렇지 않으면 메트릭이 삭제됩니다.</block>
+  <block id="5b8e1d393a8c6bf1b5c0be8eb268aba3" category="list-text">스토리지 어레이에 있는 하나 이상의 볼륨에 유효한 AQoS 정책이 적용되지 않으면 다른 볼륨에 사용할 수 있는 IOPS 수가 영향을 받을 수 있으며 NetApp는 해당 스토리지 어레이의 성능 수준을 대상으로 지정하거나 충족하지 않습니다.</block>
+  <block id="d8ace9c4f3c105767c7ec01ce669eca3" category="list-text">FabricPool 구성에서는 요청된 모든 데이터 블록이 FabricPool 소스(핫) 스토리지에 있고 소스 스토리지가 SnapMirror Synchronous 관계에 있지 않은 경우에 성능 수준을 적용할 수 있습니다.</block>
+  <block id="711c8ebd035f0ec5d70c9afa8d3996ba" category="paragraph">ONTAP 플래시 스토리지 어레이가 지원하는 모든 서비스 수준은 성능 SLA를 적용할 수 있으며 다음 목표 지연 시간을 보장할 수 있습니다.</block>
+  <block id="ce8f4bd254d7fa591c64caccc3aa3eeb" category="cell">1ms 미만</block>
+  <block id="101d21e523f12f01303be5acdf4141d9" category="cell">2ms 미만</block>
+  <block id="65e7d97f5e59814284d01d2b0cd62581" category="cell">4ms 미만</block>
+  <block id="898c79ff0b480671f7fa964d846a9316" category="paragraph">서비스 수준의 지연 시간 요구사항에 대한 자세한 내용은 을 참조하십시오 <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>.</block>
+  <block id="4528f5e882cc88c8842dcf9b1ac1b1bc" category="paragraph">NetApp은 성능 저하된 성능에 대해 서비스 크레딧을 발행합니다.</block>
+  <block id="72c2dabc519f204563247ef9d2fd1c7a" category="cell">* 성능 임계값 *</block>
+  <block id="133c2090971805c26a4b7780a43a4e1f" category="paragraph">90%의 백분위수 지연 시간이 목표 대기 시간보다 짧습니다</block>
+  <block id="1ec8365151cced34dc67c0dcce455e5e" category="cell">각 발생 일자에 대해 3%</block>
+  <block id="68bff7f600a4d4bddae207bf52b8dbdb" category="paragraph">서비스 크레딧 = (영향받은 용량/약정 총 용량) X 용량 수수료 X 영향 받은 일 X 크레딧 비율</block>
+  <block id="518fb0e9794f4b9e14b0dc061ac61fda" category="list-text">* 용량 수수료 *: Keystone 주문에 따른 해당 성능 수준에 대한 수수료.</block>
+  <block id="9bd7cf79d77a54ab7c62e80f778e9d2a" category="list-text">* 영향받은 일수 *: 영향을 받는 일수.</block>
+  <block id="b452a2e7bf15034c9bd63c001b3e6e64" category="cell">* 영향을 받는 달력 일수 *</block>
+  <block id="a22d50cab82690cbdc8113c3ff9c2076" category="cell">10TiB</block>
+  <block id="58f24a17f570c7949880710fdf616d32" category="cell">50TiB</block>
+  <block id="c81e728d9d4c2f636f067f89cc14862c" category="cell">2</block>
+  <block id="dcfe0b3ef8eb8156a5e83949c2e2f7b6" category="cell">3%</block>
+  <block id="b9ad6821bc2a0e4300b5b91ca5245476" category="paragraph">공식 사용: 서비스 크레딧 = (10/50) X 1000 x 2 x 0.03</block>
+  <block id="732192040cca36723308ae6b02982093" category="paragraph">계산에 따르면 서비스 크레딧은 12달러가 됩니다.</block>
+  <block id="fed70707a2e768c22f4b0fc06a401786" category="summary">NetApp은 랜섬웨어 복구 보증 프로그램을 통해 랜섬웨어 공격이 발생할 경우 SnapLock Compliance 볼륨의 스냅샷 데이터 복구를 보장합니다</block>
+  <block id="30a37a729e8d5bdf11c9e3c6965f6872" category="doc">랜섬웨어 복구 보장</block>
+  <block id="c314df61fd93029a87d16eb15b842e7d" category="paragraph">NetApp은 랜섬웨어 복구 보증 프로그램을 통해 랜섬웨어 공격이 발생할 경우 SnapLock Compliance 볼륨의 스냅샷 데이터 복구를 보장합니다. NetApp 랜섬웨어 복구 보증 서비스는 랜섬웨어 복구 보증 프로그램을 지원하려면 필요하며, 관련 Keystone 주문과 별도로 구매해야 합니다.</block>
+  <block id="99b0e05699c63fe883231037a5d59d8c" category="paragraph">해당 구독 기간 동안 Keystone 구독을 지원하는 모든 하드웨어에 랜섬웨어 복구 보증 서비스가 필요합니다.</block>
+  <block id="28a098f372ec3073fc5e647934157274" category="paragraph">모범 사례에 따라 SnapLock Compliance가 구축되고 NetApp 프로페셔널 서비스가 랜섬웨어 복구 보증 서비스를 구매할 때 이를 구성하거나 검증하는 경우, SnapLock로 보호되는 데이터를 복구할 수 없는 경우 NetApp는 서비스 크레딧을 발급합니다. 이 크레딧의 기준은 다음과 같습니다.</block>
+  <block id="7624fb3c672dd8786b7b17fae31c1f0c" category="list-text">향후 송장에 서비스 크레딧을 적용할 수 있습니다. 크레딧의 한도는 약정 계약 금액(CCV)의 10%이며 구독 기준으로 지급됩니다.</block>
+  <block id="edb32d0cffb273251a459f28452610a9" category="list-text">크레딧은 관련 Keystone 주문의 활성 구독 기간 동안 제공됩니다.</block>
+  <block id="a5c0e3b5e544c9e98cfff04374762f87" category="list-text">월별 청구가 있는 구독의 경우 크레딧은 향후 12개월 동안 분할되며 구독 기간이 끝날 때까지 향후 Keystone 송장에 사용할 수 있습니다. 구독이 12개월 이내에 종료되는 경우 크레딧을 계속 사용하도록 갱신하거나 다른 NetApp 송장에 크레딧을 적용할 수 있습니다.</block>
+  <block id="accb4d9ec21427fc3d795090c44c8639" category="list-text">연간 구독의 경우 크레딧이 가능한 경우 다음 Keystone 송장에 적용됩니다. 향후 Keystone 송장이 없는 경우 크레딧을 다른 NetApp 송장에 적용할 수 있습니다.</block>
+  <block id="c45f003136d304ebcf90c3d9ef36e2a5" category="doc">지속 가능성 SLA</block>
+  <block id="8098263ee670c19264303ffd6cc934c8" category="paragraph">NetApp Keystone은 지속 가능성 SLA가 있는 ONTAP 플래시 스토리지 어레이를 기반으로 스토리지 서비스에 대해 테비바이트(W/TiB)당 최대 실제 와트 수를 보장합니다. 지속 가능성 SLA는 조직이 적격 서비스 수준별로 최대 W/TiB를 정의하여 지속 가능성 목표를 달성할 수 있도록 도와줍니다.</block>
+  <block id="864c642a56d20e6430164211b9f12588" category="list-text">* 와트 *: 컨트롤러 및 연결된 디스크 셸프의 사용량을 포함하여 일일 AutoSupport에서 보고된 전력 소비량</block>
+  <block id="fbce2f0375e75ac94f7d2ed62924d9bc" category="list-text">* 테비바이트 * : 최대값:</block>
+  <block id="4d3ea8c46694851a5676d28d94c2044b" category="list-text">약정 용량 + 서비스 수준에 할당된 버스트 용량입니다. 또는</block>
+  <block id="359b2a968ad487e93ac13bd70001517c" category="list-text">스토리지 효율성 비율을 가정한 유효 배포 용량입니다.<block ref="6af2d30e671ebc9deaa134b9f0a1e248" prefix=" " category="inline-code"></block></block>
+  <block id="7c6137cde05014e7fab83f78a553dffa" category="inline-link">용량 및 스토리지 효율성 절감 분석</block>
+  <block id="f113a645920e8735b32ceb02f13e8f0e" category="paragraph">스토리지 효율성 비율에 대한 자세한 내용은 을<block ref="0b320c60938d31987498bfd27213b133" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="7cb67ea6d99999bbcfd14f6aaa5c5f1c" category="paragraph">지속 가능성 SLA는 다음 소비 기준을 기반으로 합니다.</block>
+  <block id="d2cd9e2adbaf4876955be264272e3e87" category="cell">* SLA 기준 *</block>
+  <block id="1319573781151fa1f86a29da308f602f" category="cell">* 커밋된 최소 용량 *</block>
+  <block id="b86f7ac7010a768aee36fc0e592eceed" category="cell">* 플랫폼 *</block>
+  <block id="3c541a9c0b82dd48b86975ee394b3ee3" category="cell">&lt;= 8W/TiB</block>
+  <block id="7d2e99b7f21ff40f996fbbab5c1d6feb" category="cell">200TiB</block>
+  <block id="72c62eae5362784360f3e531446bec41" category="cell">AFF A800 및 AFF A900</block>
+  <block id="3291342846d33d69a17f1d4cdac855f0" category="cell">&lt;= 4W/TiB</block>
+  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300TiB</block>
+  <block id="0d671512d24f669e4da894030bfdf975" category="paragraph">자세한 내용은 을 <block ref="5ac7feee2bb1965f2cc5b973896ee439" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="27bddf685047b887365f1db06595c078" category="paragraph">청구 기간 중 W/TiB 소비가 SLA 기준을 충족하지 못하는 경우 NetApp은 다음과 같이 서비스 크레딧을 발급합니다.</block>
+  <block id="ecbb890e24d251759ba476b9c893862e" category="cell">SLA가 청구 기간에 누락된 일수입니다</block>
+  <block id="499023bc51a126935827ef29f6bd520b" category="cell">서비스 크레딧</block>
+  <block id="5aebd95c292f266eb59b8073d99a7699" category="paragraph">1 - 2</block>
+  <block id="1190761e382695cb9416b27ee7eed4d3" category="paragraph">3 - 7</block>
+  <block id="f5c2de6939fdeaa3904b08a1fad7a2d3" category="paragraph">15%</block>
+  <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
+  <block id="87b656ee6c82131afa7ac0871d8168e8" category="paragraph">SLA 위반이 감지된 경우 Keystone 글로벌 서비스 및 지원 센터(GSSC)에서 우선순위 3(P3) 지원 티켓을 개설하고 아래 표시된 대로 Excel 시트에서 요청된 세부 정보를 제공하십시오.</block>
+  <block id="b16f882170095725eb371909f87f469f" category="paragraph">막대 차트는 단기 버스트를 표시하며 확대 기능을 사용하여 이러한 버스트를 볼 수 있습니다. 단기 연사가 있는 경우 해당 막대에 파란색 점으로 표시되거나 데이터가 사용되지 않는 경우 X축에 직접 표시됩니다. 세부 정보를 보려면 파란색 점이 나타나는 막대 또는 X축을 클릭하고 누른 상태에서 커서를 차트 위로 끌어 원하는 시간 간격을 선택한 다음, 손을 떼면 선택 내용이 확인됩니다. 이 작업을 수행하면 데이터가 확대되어 선택한 간격 동안 해당 서비스 수준에서 사용된 용량을 보다 세밀하게 볼 수 있습니다. Reset Zoom(확대/축소 재설정) * 버튼을 클릭하여 원래 차트 보기로 돌아갈 수 있습니다.</block>
+  <block id="78a0f8f91a436c9b95253697658f1b15" category="inline-image-macro">소비 경향 탭(세부 정보 포함</block>
+  <block id="0dd96295669c1478814661e7ab071d6e" category="paragraph"><block ref="0dd96295669c1478814661e7ab071d6e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a7d38300f41bba6c7ac41d2b9c6de4c3" category="section-title">단기간 버스트를 위한 확대 기능</block>
+  <block id="adc169249aa5bb5c38a27b4a1c617bcd" category="paragraph">이제 * Capacity Trend * 탭에는 사용 차트에서 단기 폭주에 대한 세부 정보를 볼 수 있는 확대 기능이 포함되어 있습니다. 자세한 내용은 을 <block ref="45b36c44a7c4fb4ef2168b619f60755c" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="9cda68e54ae42ad7708b87ba7d09426f" category="sidebar">Keystone STaaS SLA</block>
+  <block id="faeaec9eda6bc4c8cb6e1a9156a858be" category="sidebar">가용성</block>
+  <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">지속 가능성</block>
 </blocks>

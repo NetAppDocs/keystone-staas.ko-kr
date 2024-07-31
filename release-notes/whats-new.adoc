@@ -70,9 +70,9 @@ Keystone 구독 * 화면이 업데이트되어 모든 탭에 선택된 구독 �
 
 
 
-=== 마이크로버스트 인사이트를 위한 확대 기능
+=== 단기간 버스트를 위한 확대 기능
 
-이제 * Capacity Trend * 탭에는 마이크로버스트로 알려진 단기 서지 세부 정보를 사용 차트에서 볼 수 있는 확대 기능이 포함되어 있습니다. 자세한 내용은 을 참조하십시오 link:../integrations/capacity-trend-tab.html["Capacity Trend(용량 추세) 탭"^].
+이제 * Capacity Trend * 탭에는 사용 차트에서 단기 폭주에 대한 세부 정보를 볼 수 있는 확대 기능이 포함되어 있습니다. 자세한 내용은 을 link:../integrations/capacity-trend-tab.html["Capacity Trend(용량 추세) 탭"^]참조하십시오.
 
 
 
