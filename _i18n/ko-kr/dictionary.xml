@@ -1767,4 +1767,31 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">SLA 및 보장은 후보 지명을 통해 제공됩니다.</block>
   <block id="90c1605e73fc10bc5c46dc4183664885" category="paragraph">2024년 08월 07일</block>
   <block id="5b56041030df17cc6aeb8d87e04d16db" category="paragraph">현재 알려진 문제가 없습니다.</block>
+  <block id="1e4eb13a6a1b07eeb2e7895fbc7a1bb1" category="section-title">성능 서비스 수준 생성</block>
+  <block id="5053594f32aa62a7113e670df7c0dcf6" category="paragraph">Keystone Collector 관리 TUI 유틸리티를 사용하여 PSL(성능 서비스 수준)을 생성할 수 있습니다. TUI를 통해 PSL을 생성하면 각 서비스 수준에 대해 설정된 기본값이 자동으로 선택되므로 Active IQ Unified Manager를 통해 PSL을 생성하는 동안 이러한 값을 수동으로 설정할 때 발생할 수 있는 오류가 줄어듭니다.</block>
+  <block id="9dc46e9b8e8e3325a5f950ba6b189e61" category="inline-link-macro">성능 서비스 레벨</block>
+  <block id="30b9ea415acabd68ca478ac9f480dcc4" category="paragraph">PSL에 대한 자세한 내용은 을 <block ref="618fbf54ef577c932e12b764c4672483" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="3366047110e1d4df81bd4a3c7e56a81a" category="paragraph">서비스 수준에 대한 자세한 내용은 을 <block ref="65aad034e764c488cc9555200d7886f8" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="754f3f64186991aaafd04c50afc33fb9" category="list-text">Configure &gt; AIQUM * 으로 이동하여 AIQUM 화면을 엽니다.</block>
+  <block id="820f541e6131074b12653bbfb5e98b09" category="list-text">AIQUM 성능 프로파일 만들기 * 옵션을 활성화합니다.</block>
+  <block id="a7fedce0e566016c4bf5bca06e58e7e3" category="list-text">Active IQ Unified Manager 서버 및 사용자 계정의 세부 정보를 입력합니다. 이러한 세부 정보는 PSL을 만드는 데 필요하며 저장되지 않습니다.</block>
+  <block id="0cae276070a3b9dc1d52e1054be203d8" category="inline-image-macro">TUI 화면에서 AIQUM 서버 및 서비스 계정의 세부 정보를 입력합니다</block>
+  <block id="a340f4e56ce95ec64b455e8f0d0011b3" category="paragraph"><block ref="a340f4e56ce95ec64b455e8f0d0011b3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03336d42dcb5f12fad5c27a77d7fc3bb" category="list-text">Select Keystone 버전 * 의 경우 를<block ref="c26733d354ae6936934c7e8958092daa" prefix=" " category="inline-code"></block>선택합니다.</block>
+  <block id="0e6957f023ba901638c8f4ab7d0fbcec" category="list-text">Enter 키를 누릅니다. Keystone 버전을 선택하기 위한 대화 상자가 표시됩니다.</block>
+  <block id="921dbe2a6293b980a37507e9b0ef99c9" category="list-text">STaaS * 를 강조 표시하여 Keystone STaaS의 Keystone 버전을 지정한 다음 Enter 키를 누릅니다.</block>
+  <block id="fcb2a80e16744614cdf6c2f2f82c4e2e" category="inline-image-macro">Keystone 버전을 지정하는 TUI 화면</block>
+  <block id="1e2d635219881df0b1d0ff05ce928dde" category="paragraph"><block ref="1e2d635219881df0b1d0ff05ce928dde" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d93cccfc0748834998c1743a905f0d3" category="admonition">Keystone 구독 서비스 버전 1의 * KFS * 옵션을 강조 표시할 수 있습니다. Keystone 구독 서비스는 구성 서비스 수준, 서비스 오퍼링 및 청구 원칙에서 Keystone STaaS와 다릅니다. 자세한 내용은 을 <block ref="28860fa9118cfd783678772e54f9b578" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="5a8df8e784147e10e20a7f96a1911ce8" category="list-text">지원되는 모든 Keystone 서비스 수준은 지정된 Keystone 버전에 대해 * Keystone 서비스 수준 선택 * 옵션 내에 표시됩니다. 목록에서 원하는 서비스 수준을 활성화합니다.</block>
+  <block id="6792bca92745749645838a609966a8c2" category="inline-image-macro">지원되는 모든 Keystone 서비스 수준을 표시하는 TUI 화면</block>
+  <block id="40107ce73af0b4c30bdedbdec9454440" category="paragraph"><block ref="40107ce73af0b4c30bdedbdec9454440" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="be76688bb0584656dac7cefe07517b47" category="admonition">여러 서비스 수준을 동시에 선택하여 PSL을 생성할 수 있습니다.</block>
+  <block id="18e5eacb4fdad1ff92aee1fb4f0f41cc" category="list-text">Save * 를 선택하고 Enter 키를 누릅니다. 성능 서비스 수준이 생성됩니다.</block>
+  <block id="0e0dd84db86e72ae77b4739377c3a4e1" category="inline-link-macro">성능 서비스 수준 생성 및 편집</block>
+  <block id="be298fbf55a1c81157761b8b02a6d696" category="paragraph">STaaS용 프리미엄-KS-STaaS 또는 KFS용 익스트림 KFS와 같이 생성된 PSL은 Active IQ Unified Manager의 * 성능 서비스 수준 * 페이지에서 볼 수 있습니다. 생성된 PSL이 요구 사항을 충족하지 않는 경우 필요에 맞게 PSL을 수정할 수 있습니다. 자세한 내용은 을 <block ref="84f3a19cf4d829ad37ba5eddb2b177a0" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="e481e00ab54faed62b9dea98ed860aea" category="inline-image-macro">생성된 AQoS 정책을 표시하는 UI 스크린 샷</block>
+  <block id="43b019fa12d041b6c5cbfe89c5f52205" category="paragraph"><block ref="43b019fa12d041b6c5cbfe89c5f52205" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">TUI 화면에서 정책 생성에 대한 오류 메시지를 표시합니다</block>
+  <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">선택한 서비스 수준에 대한 PSL이 지정된 Active IQ 통합 관리자 서버에 이미 있으면 다시 만들 수 없습니다. 이렇게 하면 오류 메시지가 나타납니다. <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
