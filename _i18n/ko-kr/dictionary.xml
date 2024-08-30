@@ -550,7 +550,6 @@
   <block id="c52919f8e1a989864d933795a6103494" category="paragraph">Keystone Collector 소프트웨어 업데이트 및 사용 보고</block>
   <block id="0dc1066c9360d7e2bbaf4bb6e9c5ebe1" category="paragraph">청구 정보 및 AutoSupport 제공을 위한 NetApp HQ</block>
   <block id="2f0d22e6971fda1cbc3411961fec8360" category="doc">가상 인프라 요구 사항</block>
-  <block id="080838bb01c5d3b3c97a54a92d98023d" category="list-text">운영 체제: VMware vCenter Server 및 ESXi 6.5 이상</block>
   <block id="a1c9c4a1979d4de63c959aa0eb8db228" category="doc">VMware vSphere 시스템에 Keystone Collector 구축</block>
   <block id="5636c5e292ad15c979ccdf35d4ddd63f" category="paragraph">VMware vSphere 시스템에 Keystone Collector를 구축하려면 OVA 템플릿 다운로드, * Deploy OVF Template * 마법사를 사용하여 템플릿 구축, 인증서 무결성 확인, VM 준비 상태 확인이 포함됩니다.</block>
   <block id="9f42f344107d0334c53b7214197ab946" category="section-title">OVA 템플릿 배포</block>
@@ -1794,4 +1793,5 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="43b019fa12d041b6c5cbfe89c5f52205" category="paragraph"><block ref="43b019fa12d041b6c5cbfe89c5f52205" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">TUI 화면에서 정책 생성에 대한 오류 메시지를 표시합니다</block>
   <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">선택한 서비스 수준에 대한 PSL이 지정된 Active IQ 통합 관리자 서버에 이미 있으면 다시 만들 수 없습니다. 이렇게 하면 오류 메시지가 나타납니다. <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">운영 체제: VMware vCenter Server 및 ESXi 6.7 이상</block>
 </blocks>
