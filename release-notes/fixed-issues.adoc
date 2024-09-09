@@ -22,6 +22,15 @@ summary: 이전 릴리스의 NetApp Keystone STaaS 서비스에서 발견된 문
 
 
  a| 
+날짜 범위를 선택하는 * 시작 날짜 * 필드에는 * 소비 경향 * 탭으로 이동할 때 기본적으로 미래 날짜가 표시됩니다.
+ a| 
+고정
+ a| 
+2024년 09월 04일
+
+
+
+ a| 
 AQoS 정책을 설정할 때 Keystone Collector 관리 TUI가 응답하지 않습니다.
  a| 
 고정

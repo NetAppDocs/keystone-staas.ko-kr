@@ -1794,4 +1794,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">TUI 화면에서 정책 생성에 대한 오류 메시지를 표시합니다</block>
   <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">선택한 서비스 수준에 대한 PSL이 지정된 Active IQ 통합 관리자 서버에 이미 있으면 다시 만들 수 없습니다. 이렇게 하면 오류 메시지가 나타납니다. <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">운영 체제: VMware vCenter Server 및 ESXi 6.7 이상</block>
+  <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">날짜 범위를 선택하는 * 시작 날짜 * 필드에는 * 소비 경향 * 탭으로 이동할 때 기본적으로 미래 날짜가 표시됩니다.</block>
+  <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">2024년 09월 04일</block>
 </blocks>
