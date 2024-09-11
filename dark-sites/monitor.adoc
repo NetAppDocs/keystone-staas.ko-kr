@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: dark-sites/monitor.html 
+keywords: monitoring system health 
+summary: 데이터를 사용할 수 있는지 확인하려면 HTTP 요청을 지원하는 모니터링 시스템을 사용하여 Keystone Collector의 상태를 모니터링할 수 있습니다. 
+---
+= 개인 모드에서 Keystone Collector 상태를 모니터링합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+HTTP 요청을 지원하는 모니터링 시스템을 사용하여 Keystone Collector의 상태를 모니터링할 수 있습니다.
+
+기본적으로 Keystone 상태 서비스는 localhost 이외의 IP로부터의 연결을 허용하지 않습니다. Keystone 상태 엔드포인트는 입니다 `/uber/health`또한 포트에서 Keystone Collector 서버의 모든 인터페이스를 수신합니다 `7777`. 쿼리 시 JSON 출력이 있는 HTTP 요청 상태 코드가 끝점에서 응답으로 반환되어 Keystone Collector 시스템의 상태를 설명합니다.
+JSON 본체는 에 대한 전반적인 상태를 제공합니다 `is_healthy` 속성, 부울, 에 대한 구성 요소별 상태의 세부 목록 `component_details` 속성.
+예를 들면 다음과 같습니다.
+
+[listing]
+----
+$ curl http://127.0.0.1:7777/uber/health
+{"is_healthy": true, "component_details": {"vicmet": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
+----
+다음 상태 코드가 반환됩니다.
+
+* * 200 *: 모니터링되는 모든 구성 요소가 정상 상태임을 나타냅니다
+* * 503 *: 하나 이상의 구성 요소가 정상 상태가 아님을 나타냅니다
+* * 403 * : 상태를 쿼리하는 HTTP 클라이언트가 허용되는 네트워크 CIDR 목록인 _allow_list에 없음을 나타냅니다. 이 상태에서는 상태 정보가 반환되지 않습니다.
++
+allow_list는 네트워크 CIDR 방법을 사용하여 Keystone 상태 시스템을 쿼리할 수 있는 네트워크 디바이스를 제어합니다. 403 오류가 표시되면 * Keystone Collector 관리 TUI > 구성 > 상태 모니터링 * 에서 모니터링 시스템을 _allow_list에 추가합니다.
+
++
+image:cidr-list.png["허용된 네트워크 ID입니다"]
+
+
+
+
+
+== 지원 번들을 생성하고 수집합니다
+
+Keystone Collector 관련 문제를 해결하려면 _.tar_file을 요청할 수 있는 NetApp 지원 팀과 상의하십시오. Keystone Collector 관리 TUI 유틸리티를 통해 이 파일을 생성할 수 있습니다.
+
+다음 단계에 따라 _.tar_file을 생성합니다.
+
+. 문제 해결 > 지원 번들 생성 * 으로 이동합니다.
+. 번들을 저장할 위치를 선택한 다음 * 지원 번들 생성 * 을 클릭합니다.
++
+image:dark-site-generate-support-bundle-1.png["지원 번들을 생성합니다"]
+
++
+이 프로세스는 `tar` 문제 해결을 위해 NetApp와 공유할 수 있는 패키지를 언급된 위치에 생성합니다.
+
+. 파일이 다운로드되면 Keystone ServiceNow 지원 티켓에 첨부할 수 있습니다. 티켓 발생에 대한 자세한 내용은 을 참조하십시오 link:../concepts/gssc.html["서비스 요청을 생성하는 중입니다"].
+

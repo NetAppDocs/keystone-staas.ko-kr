@@ -1796,4 +1796,135 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">운영 체제: VMware vCenter Server 및 ESXi 6.7 이상</block>
   <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">날짜 범위를 선택하는 * 시작 날짜 * 필드에는 * 소비 경향 * 탭으로 이동할 때 기본적으로 미래 날짜가 표시됩니다.</block>
   <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">2024년 09월 04일</block>
+  <block id="3564049af4b6d8549eeccf2c18fc9bb7" category="summary">Keystone Collector가 인터넷에 액세스할 수 없는 환경(예: A_Dark site_ 또는 _private mode_라고도 함)에서 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료합니다.</block>
+  <block id="ac1824aafbc93ef9f076e8c86d829ea7" category="doc">Keystone Collector를 비공개 모드로 구성합니다</block>
+  <block id="4725d6ccb258fcebc2d1c40c828efdad" category="paragraph">Keystone Collector가 인터넷에 액세스할 수 없는 환경(예: A_Dark site_ 또는 _private mode_라고도 함)에서 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료합니다. 필수 구성 요소를 활성화하고 스토리지 환경을 연결하는 일회성 활동입니다. 구성되면 Keystone Collector는 Active IQ Unified Manager에서 관리하는 모든 ONTAP 클러스터를 모니터링합니다.</block>
+  <block id="091f26e937a9d40df8650aa04378561d" category="list-text">Keystone Collector 관리 TUI 유틸리티 시작:</block>
+  <block id="94cefb0a79f9c3f84bd04977a81563ca" category="paragraph"><block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix="" category="inline-code"></block></block>
+  <block id="5e59f93ec115cbf6c1706dafd6e0a394" category="list-text">구성 &gt; 고급 * 으로 이동합니다.</block>
+  <block id="73b977b85895cbcd73d5cae7b659f22e" category="list-text">Darksite Mode * 옵션을 전환합니다.</block>
+  <block id="3a1a1f72fb5c80286671617e3f2e15fe" category="inline-image-macro">Darksite 모드입니다</block>
+  <block id="d34b0bfdc6b7445e829382e924943f47" category="paragraph"><block ref="d34b0bfdc6b7445e829382e924943f47" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">저장 * 을 선택합니다.</block>
+  <block id="f453453ec2e0d84c0efecd53364a2ac8" category="list-text">Configure &gt; KS-Collector * 로 이동하여 Keystone Collector를 구성합니다.</block>
+  <block id="07f0f6576397dde30e86f684caff5918" category="list-text">Start KS Collector with System * 필드를 토글합니다.</block>
+  <block id="289603a0abeee13d0d3d3bedfbc870ef" category="list-text">ONTAP 사용량 수집 * 필드를 토글합니다. Active IQ Unified Manager(Unified Manager) 서버 및 사용자 계정의 세부 정보를 추가합니다.</block>
+  <block id="8974c2e7306c3a08fe35287aa40fe159" category="list-text">* 선택 사항 *: 가입에 데이터 계층화가 필요한 경우 * 계층화 비율 계획 사용 * 필드를 전환합니다.</block>
+  <block id="561de8cab3868c6dd56aab581ba0aced" category="paragraph">구매한 구독 유형에 따라 * 사용 유형 * 을 업데이트합니다.</block>
+  <block id="bd9d5764503a3efdfcbf0ab33d03c4d5" category="admonition">구성하기 전에 NetApp에서 구독과 연결된 사용 유형을 확인하십시오.</block>
+  <block id="e4bb43b60b06d1c96c946d586acf8d29" category="inline-image-macro">사용 유형 옵션입니다</block>
+  <block id="bf3773602f7e291e23f1fc28bed24fcc" category="paragraph"><block ref="bf3773602f7e291e23f1fc28bed24fcc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7247045253ce8f5029d0a8b1a0c88283" category="list-text">Configure &gt; KS-Collector * 로 이동하여 Keystone Collector 키페이어를 생성합니다.</block>
+  <block id="7f850c80ec6362c7a0008d2e68c3bfb5" category="list-text">Encryption Key Manager * 로 이동한 후 Enter 키를 누릅니다.</block>
+  <block id="96c8e57baa05bd2263ce2848104e20ca" category="inline-image-macro">암호화 키 관리자 옵션</block>
+  <block id="a105220c548eaedd5039d83d50e5fb25" category="paragraph"><block ref="a105220c548eaedd5039d83d50e5fb25" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9989d5f558b00b14637eded383066d8f" category="list-text">Generate Collector keypair * 를 선택하고 Enter 키를 누릅니다.</block>
+  <block id="ef06e7851efacc91e9c529b6e422d6c8" category="inline-image-macro">Collector 키패드 생성 옵션</block>
+  <block id="216db5e98775635c45af8fd76d3f120f" category="paragraph"><block ref="216db5e98775635c45af8fd76d3f120f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="63eb3f8b8783ba2307d650252c320fc0" category="list-text">TUI의 기본 화면으로 돌아가 * 서비스 상태 * 정보를 확인하여 Keystone Collector가 정상 상태인지 확인합니다. 시스템에서 서비스가 * 전체: 정상 * 상태임을 표시해야 합니다. 최대 10분 동안 기다립니다. 이 기간 후에도 전체 상태가 정상 상태가 지속되면 이전 구성 단계를 검토하고 NetApp 지원 팀에 문의하십시오.</block>
+  <block id="095b2736fda36d0222656cf6f4c5be55" category="inline-image-macro">서비스 상태입니다</block>
+  <block id="fdc583538b94d7a1b00a631fea6a48d1" category="paragraph"><block ref="fdc583538b94d7a1b00a631fea6a48d1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="355f50922b8f701f647de7da778ad2c7" category="list-text">기본 화면에서 * Exit to Shell * 옵션을 선택하여 Keystone Collector 관리 TUI를 종료합니다.</block>
+  <block id="73851b479605eb5d7961a4f17abc4861" category="list-text">생성된 공개 키 검색:</block>
+  <block id="1fb69ffa43c5d2393747fb8591908923" category="paragraph"><block ref="0aa1845efe7a628c5cf5087616257084" prefix="" category="inline-code"></block></block>
+  <block id="e3f489c24017dacebdfc4336a7c526f6" category="list-text">이 파일이 포함된 이메일을 keystone.services@ NetApp.com으로 보냅니다.</block>
+  <block id="b9a6d96820187805409aa2a1c60142ae" category="section-title">사용 보고서를 내보냅니다</block>
+  <block id="7213bdfaef9f90b96334939108353cdc" category="paragraph">매월 말에 NetApp에 월별 사용량 요약 보고서를 보내야 합니다. 이 보고서를 수동으로 생성할 수 있습니다.</block>
+  <block id="9229403d63b77e4aef85fd68e230e0ad" category="paragraph">사용 현황 보고서를 생성하려면 다음 단계를 수행하십시오.</block>
+  <block id="d28319812905a38f64e9f59d61f93d22" category="list-text">Keystone Collector TUI 홈 화면의 * Export Usage * 로 이동합니다.</block>
+  <block id="712c8cee897bc7d934e369862f1de46f" category="list-text">파일을 수집하여 keystone.services@ NetApp.com에 보냅니다.</block>
+  <block id="06c85910e7b6c5d744082a8b771fd05e" category="paragraph">Keystone Collector는 일반 파일과 암호화된 파일을 모두 생성하며, 이 파일은 수동으로 NetApp로 전송되어야 합니다. 지우기 파일 보고서에는 고객이 확인할 수 있는 다음과 같은 세부 정보가 포함됩니다.</block>
+  <block id="75d8461b47629d5f6688144d087a37f1" category="inline-image-macro">파일 보고서를 지웁니다</block>
+  <block id="37cc95117623c08b2d6c6fec6aa2e8a1" category="paragraph"><block ref="37cc95117623c08b2d6c6fec6aa2e8a1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d04e5f519989e5f2ca95f9541ffe17a0" category="section-title">ONTAP를 업그레이드합니다</block>
+  <block id="7da296afc06722d4011bf107449ce811" category="paragraph">Keystone Collector는 TUI를 통한 ONTAP 업그레이드를 지원합니다.</block>
+  <block id="ab3523caa55cc430ce23c9d121772ed2" category="paragraph">ONTAP를 업그레이드하려면 다음 단계를 수행하십시오.</block>
+  <block id="71ece05e2541d5310d5c42e32226e091" category="list-text">유지 관리 &gt; ONTAP 업그레이드 웹 서버 * 로 이동합니다.</block>
+  <block id="35f01f8a1c6a4619b0104f40d24a4086" category="list-text">ONTAP 업그레이드 이미지 파일을 */opt/NetApp/ONTAP-upgrade/ * 로 복사한 다음 * 웹 서버 시작 * 을 선택하여 웹 서버를 시작합니다.</block>
+  <block id="fb123a7b444cd374b7ac10caba50e88b" category="inline-image-macro">Webserver 시작 옵션</block>
+  <block id="cf04058d80eac818246874f910eb2ab2" category="paragraph"><block ref="cf04058d80eac818246874f910eb2ab2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a8044aea994fa3363bcd4c256ce5d88e" category="list-text"><block ref="1c23bf18bce0ce7f2bb813cdd6798bbd" category="inline-link-rx"></block>업그레이드 지원을 받으려면 웹 브라우저 사용 으로 이동하십시오.</block>
+  <block id="f650c6d8e69bf10094accbd07b391694" category="section-title">Keystone Collector를 다시 시작합니다</block>
+  <block id="93317cb239ead322a8c1e1452ffcabe3" category="paragraph">TUI를 통해 Keystone Collector 서비스를 다시 시작할 수 있습니다. TUI에서 * 유지 관리 &gt; 수집기 * 서비스 다시 시작 으로 이동합니다. 그러면 모든 Collector 서비스가 재부팅되고 해당 상태는 TUI 홈 화면에서 모니터링될 수 있습니다.</block>
+  <block id="9bc0cd001c38d64376373002ab821fad" category="inline-image-macro">Collector Services 옵션을 다시 시작합니다</block>
+  <block id="036ef23275f196562d13518b49a2ed83" category="paragraph"><block ref="036ef23275f196562d13518b49a2ed83" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="80024926366ce6db30555b19701d4fe9" category="summary">인터넷에 액세스할 수 없는 환경(_Dark site_또는_private mode_라고도 함)에 Keystone Collector를 설치하는 몇 가지 단계를 완료합니다.</block>
+  <block id="349f0971d9198a978df2459caa0ed3a3" category="doc">Keystone Collector를 비공개 모드로 설치합니다</block>
+  <block id="81cbee7d67c9cedc8a890b0c496df593" category="paragraph">인터넷에 액세스할 수 없는 환경(_Dark site_또는_private mode_라고도 함)에 Keystone Collector를 설치하는 몇 가지 단계를 완료합니다. 이러한 유형의 설치는 보안 사이트에 적합합니다.</block>
+  <block id="0c7e29e635f61377d7a6044b730f88fc" category="paragraph">요구 사항에 따라 Keystone Collector를 VMware vSphere 시스템에 구축하거나 Linux 시스템에 설치할 수 있습니다. 선택한 옵션에 해당하는 설치 단계를 따릅니다.</block>
+  <block id="03472404912f6a4900008ff71e6be88c" category="inline-link">NetApp Keystone 웹 포털</block>
+  <block id="03cf869353768af577873ac5a5393829" category="list-text">에서 OVA 템플릿 파일을<block ref="8582f110f3aed6db1f6b0e4620b46e9b" category="inline-link-rx"></block> 다운로드합니다.</block>
+  <block id="c48f5f946b5abf4863a3512b8938574a" category="list-text">OVA 파일을 사용하여 Keystone Collector를 구축하는 단계는 섹션을 참조하십시오<block ref="726f88f126ebc7cf88d58154fb14e877" category="inline-link-macro-rx"></block>.</block>
+  <block id="153a56a20cb1cbcc19b94c5a567c3860" category="paragraph">Keystone Collector 소프트웨어는 Linux 배포판을 기반으로 제공된 .deb 또는 .rpm 파일을 사용하여 Linux 서버에 설치됩니다.</block>
+  <block id="a06bf6f43e34c7dd3517f972707a7c17" category="list-text">Keystone Collector 설치 파일을 Linux 서버로 다운로드하거나 전송합니다.</block>
+  <block id="c94a810e155f05157eaa0fceb22bc3eb" category="paragraph"><block ref="4465d493622bd977095276c975cc599a" prefix="" category="inline-code"></block></block>
+  <block id="b9ba2f26adabe79a75845086e6174811" category="list-text">서버에서 터미널을 열고 다음 명령을 실행하여 설치를 시작합니다.</block>
+  <block id="2f751f6e597627ca4c25edfb593985d5" category="list-text">* 데비안 패키지 사용 *</block>
+  <block id="007a583aba8753b37fab84d5e966b042" category="paragraph"><block ref="213c9f7b141d8cc940793f40c6be1481" prefix="" category="inline-code"></block></block>
+  <block id="cba2bf24a5b589d36a5d208734fe763d" category="list-text">* RPM 파일 사용 *</block>
+  <block id="a7795c5340aa0dff7aa9758ca37f0d72" category="paragraph"><block ref="27afd863ef5dc2599a8f584f1f225361" prefix="" category="inline-code"></block></block>
+  <block id="e81c4e4f2b7b93b481e13a8553c2ae1b" category="paragraph">또는</block>
+  <block id="ea516f02b3d88684b3027a26744d53bd" category="paragraph"><block ref="2c4ca7d1c139ade286c991f2ba3b1c55" prefix="" category="inline-code"></block></block>
+  <block id="cda45047bd90a14f3c7cd26f36a536a2" category="list-text"><block ref="415290769594460e2e485922904f345d" prefix=" " category="inline-code"></block>패키지를 설치하라는 메시지가 표시되면 를 입력합니다.</block>
+  <block id="406ef11c23672cacf561d90b1786b09c" category="doc">개인 모드에서 Keystone Collector 상태를 모니터링합니다</block>
+  <block id="08a24a041433562dcebc0e73add29ce1" category="paragraph">HTTP 요청을 지원하는 모니터링 시스템을 사용하여 Keystone Collector의 상태를 모니터링할 수 있습니다.</block>
+  <block id="a6bc86a175b0bd6759a0bd21f3a8a22b" category="list-text">* 403 * : 상태를 쿼리하는 HTTP 클라이언트가 허용되는 네트워크 CIDR 목록인 _allow_list에 없음을 나타냅니다. 이 상태에서는 상태 정보가 반환되지 않습니다.</block>
+  <block id="9e13a8a51b852397f2122dddc40009ae" category="paragraph">allow_list는 네트워크 CIDR 방법을 사용하여 Keystone 상태 시스템을 쿼리할 수 있는 네트워크 디바이스를 제어합니다. 403 오류가 표시되면 * Keystone Collector 관리 TUI &gt; 구성 &gt; 상태 모니터링 * 에서 모니터링 시스템을 _allow_list에 추가합니다.</block>
+  <block id="1bd81da74d0a5fc1f56e3b9597ac78c1" category="inline-image-macro">허용된 네트워크 ID입니다</block>
+  <block id="69b9b7ddff09b5bf16de75d0dc3e0ffc" category="paragraph"><block ref="69b9b7ddff09b5bf16de75d0dc3e0ffc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="34a3f29ecab2ec81c0b4e49e2c46c196" category="paragraph">Keystone Collector 관련 문제를 해결하려면 _.tar_file을 요청할 수 있는 NetApp 지원 팀과 상의하십시오. Keystone Collector 관리 TUI 유틸리티를 통해 이 파일을 생성할 수 있습니다.</block>
+  <block id="5c1d8eca83e13d1f2c6940ebed9b840f" category="paragraph">다음 단계에 따라 _.tar_file을 생성합니다.</block>
+  <block id="8ed752b8463949393c5cdb5045d7fef4" category="list-text">문제 해결 &gt; 지원 번들 생성 * 으로 이동합니다.</block>
+  <block id="9617b78d46da392d051df4c7fe3b1d94" category="list-text">번들을 저장할 위치를 선택한 다음 * 지원 번들 생성 * 을 클릭합니다.</block>
+  <block id="d8d50c12bd11a2109a7a384f43b0930a" category="inline-image-macro">지원 번들을 생성합니다</block>
+  <block id="7605fc3bbddce380c28f25b5327f5fab" category="paragraph"><block ref="7605fc3bbddce380c28f25b5327f5fab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="572eb7b481dd9edd4e8e79e98f5702e7" category="paragraph">이 프로세스는<block ref="db5570bf61464b46e2bde31ed61a7dc6" prefix=" " category="inline-code"></block> 문제 해결을 위해 NetApp와 공유할 수 있는 패키지를 언급된 위치에 생성합니다.</block>
+  <block id="df607436cb358c9158c17df17c648c95" category="summary">Keystone은 _private_dark site_라고도 하는 _private_deployment 모드를 제공하여 비즈니스 및 보안 요구사항을 충족합니다.</block>
+  <block id="89776fa991dc9a854be133c1980588a2" category="doc">Keystone에 대해 자세히 알아보기(프라이빗 모드)</block>
+  <block id="5580118283395cf4a34aae1cbd8449f9" category="paragraph">Keystone은 _private_dark site_라고도 하는 _private_deployment 모드를 제공하여 비즈니스 및 보안 요구사항을 충족합니다. 이 모드는 연결이 제한된 조직에서 사용할 수 있습니다.</block>
+  <block id="992dbd3c9033c22e0a3a71601032b203" category="paragraph">NetApp은 인터넷 연결이 제한되거나 없는 환경(다크 사이트라고도 함)에 맞게 조정된 Keystone STaaS를 전문적으로 구현합니다. 보안, 규정 준수 또는 운영 요구 사항으로 인해 외부 통신이 제한된 보안 또는 격리된 환경입니다.</block>
+  <block id="875907ebe59351ce3319b9b573d3a1a4" category="paragraph">NetApp Keystone의 경우, 다크 사이트에 대한 서비스를 제공하면 이러한 환경의 제약을 존중하는 방식으로 Keystone의 유연한 스토리지 구독 서비스를 제공할 수 있습니다. 여기에는 다음이 포함됩니다.</block>
+  <block id="863f823abfea772036833b72009a8512" category="list-text">* 로컬 배포 *: Keystone은 분리된 환경 내에서 독립적으로 구성될 수 있으므로 인터넷 연결이나 외부 인력이 설치 액세스에 필요하지 않습니다.</block>
+  <block id="78adfdd834784260d5b8244517bdf390" category="list-text">* 오프라인 운영 *: 상태 점검 및 청구 기능이 있는 모든 스토리지 관리 기능을 오프라인으로 사용할 수 있습니다.</block>
+  <block id="d3993a5abe0b6a23304df783ff4c8274" category="list-text">* 보안 및 규정 준수 *: Keystone은 고급 암호화, 보안 액세스 제어 및 세부 감사 기능을 비롯한 다크 사이트의 보안 및 규정 준수 요구 사항을 충족하도록 배포를 보장합니다.</block>
+  <block id="03c2aad4e03233252313fd2a0a64a404" category="list-text">* 도움말 및 지원 * : NetApp는 지원 및 문제 해결을 위해 각 계정에 할당된 Keystone 성공 전담 관리자를 통해 연중무휴 24시간 글로벌 지원을 제공합니다.</block>
+  <block id="f36f18853fa52bc729eb0fe8a16e4565" category="admonition">Keystone Collector는 연결 제한 없이 구성할 수 있으며, _STANDARD_MODE라고도 합니다. 자세한 내용은 을 <block ref="b0296221493226383d9c4765d8ebec27" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="6312d7e5601c4666e99485375665a5c4" category="section-title">개인 모드의 Keystone Collector</block>
+  <block id="5e88a9702083984bc1d9e155cd42bc21" category="paragraph">Keystone Collector는 스토리지 시스템에서 사용량 데이터를 주기적으로 수집하고 메트릭을 오프라인 사용량 리포터 및 로컬 파일 저장소로 내보내는 작업을 담당합니다. 생성된 파일은 암호화된 형식 및 일반 텍스트 형식으로 작성되며 유효성 검사 후 사용자가 수동으로 NetApp에 전달합니다. NetApp의 Keystone 결제 플랫폼은 이러한 파일을 인증 및 처리하여 청구 및 구독 관리 시스템에 통합하여 월별 요금을 계산합니다.</block>
+  <block id="eec5cd5bddb59148f9317bbbcbb08a0b" category="inline-image-macro">컴퓨터 시스템 다이어그램</block>
+  <block id="0aebbe7a6b0f46b9b7ec57efee94cbba" category="paragraph"><block ref="0aebbe7a6b0f46b9b7ec57efee94cbba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="aab07ba36c285520f2929a739b4a3c91" category="paragraph">서버의 Keystone Collector 서비스는 주기적으로 사용 데이터를 수집하고, 이 정보를 처리하고, 서버에서 로컬로 사용 파일을 생성하는 업무를 담당합니다. 상태 서비스는 시스템 상태 점검을 수행하며 고객이 사용하는 상태 모니터링 시스템과 연동하도록 설계되었습니다. 이러한 보고서는 사용자가 오프라인에서 액세스할 수 있으므로 유효성 검사를 수행하고 문제를 해결하는 데 도움이 됩니다.</block>
+  <block id="faedc5ec46a38871a78be1ed37e01e63" category="inline-image-macro">고객의 사내</block>
+  <block id="1d43476b2c183791ba51d56636a41b1c" category="paragraph"><block ref="1d43476b2c183791ba51d56636a41b1c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ddedaabf1afb461a6e3d2fe1320dcca0" category="summary">인터넷에 액세스할 수 없는 환경(예: _ Dark site_ 또는 _private mode_)에 Keystone Collector를 설치하기 전에 시스템이 필요한 소프트웨어를 준비하고 필요한 모든 필수 구성 요소를 충족하는지 확인하십시오.</block>
+  <block id="fd7fae83015d688b86a7ec1ed256864e" category="doc">비공개 모드로 설치를 준비합니다</block>
+  <block id="2b9854b0330b42530e0aaf8e893e2f28" category="section-title">요구 사항을 충족합니다</block>
+  <block id="4b78be970b5500221a819608df5616e7" category="list-text">운영 체제: VMware vCenter Server 및 ESXi 6.7 이상</block>
+  <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM: 2GB</block>
+  <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Linux에 대한 요구 사항</block>
+  <block id="839c50014246079994053b486bb0f80c" category="list-text">운영 체제: Debian v12 또는 Red Hat Enterprise Linux 8.6 이상</block>
+  <block id="6adf0487ff5b4dadf30c70a5107314fc" category="list-text">코어: 2 CPU</block>
+  <block id="9b254436141f0faf599283567283dff9" category="list-text">RAM: 4GB</block>
+  <block id="52bef7e9917e522c1436572ddc5a3a3f" category="list-text">에서 최소 2GB의 여유 공간이 있습니다<block ref="9854ed422bddbda845d9be18e5812dbc" prefix=" " category="inline-code"></block></block>
+  <block id="3db3f2076eb3e58b05c6ae1e6accb36e" category="list-text">최소 48GB의 여유 공간<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block></block>
+  <block id="574288454beb0127b5c5892882343abf" category="paragraph">또한 동일한 서버에 다음과 같은 타사 패키지가 설치되어 있어야 합니다. 리포지토리를 통해 사용할 수 있는 경우 이러한 패키지는 사전 요구 사항으로 자동으로 설치됩니다.</block>
+  <block id="131e01e2ecbd7de2f9b3f16afa129bcd" category="list-text">RHEL8를 참조하십시오</block>
+  <block id="9a1a91cd8e61e7975513444f1156020d" category="list-text">python3&gt;= v3.6.8, python3\&lt;= v3.9.13</block>
+  <block id="abe31bcfb59f2265c2fb97dde407366c" category="list-text">포더맨</block>
+  <block id="964ff658eeb150fa1ca6d823c1c0c1a7" category="list-text">yum-utils입니다</block>
+  <block id="8813c65f21a446bf554bec3604466fff" category="list-text">python3-dnf-plugin-versionlock 을 참조하십시오</block>
+  <block id="d1017bbf5ca9632f130271f7d6ed04fd" category="list-text">데비안 v12</block>
+  <block id="2c2d19cda9d3644fca17a9ca3bc09d0b" category="list-text">python3&gt;= v3.9.0, python3\&lt;= v3.12.0</block>
+  <block id="7fbcd4e7fad4671c547f823bdaeba2b6" category="list-text">Sosreport(Sosreport</block>
+  <block id="9251700e586dc1a410f2e755a8643751" category="section-title">네트워킹 요구 사항</block>
+  <block id="a044d8f85fe2375b7be98e59d8a6ee02" category="paragraph">Keystone Collector의 네트워킹 요구 사항은 다음과 같습니다.</block>
+  <block id="84d581305434aa96d1aa4a8a716b2b80" category="list-text">Active IQ Unified Manager(Unified Manager) 9.10 이상, API 게이트웨이 기능이 활성화된 서버에서 구성됩니다.</block>
+  <block id="f9017eb4d160c5625e2911de7136c2fe" category="list-text">Unified Manager 서버는 포트 443(HTTPS)에서 Keystone Collector 서버를 통해 액세스할 수 있어야 합니다.</block>
+  <block id="c55d18e0937cb0a3844d2da3ecbc7e82" category="list-text">Unified Manager 서버에서 Keystone Collector에 대해 애플리케이션 사용자 권한이 있는 서비스 계정을 설정해야 합니다.</block>
+  <block id="4be679fb0c05782454656e48556dab1d" category="list-text">외부 인터넷 연결이 필요하지 않습니다.</block>
+  <block id="9fc9a5ce8278ada254052c62e048d22b" category="list-text">매달 Keystone Collector에서 파일을 내보내고 NetApp 지원 팀에 이메일로 보냅니다. 지원 팀에 문의하는 방법에 대한 자세한 내용은 을 <block ref="77e2a4ca04ba16c3bb0a4c8df0385121" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="b7e3d459da53b2456951d0a5d3237300" category="inline-link-macro">비공개 모드의 Keystone</block>
+  <block id="d94b27c65b00f48ddf2590d54d34311d" category="list-text">Keystone Collector는 인터넷에 액세스할 수 없는 조직(_Dark site_또는_private mode_라고도 함)에 대해 구성할 수 있습니다. 에 대한 자세한 내용은 을 <block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="70746148197a1842a9455cddc0c18adc" category="paragraph">Keystone Collector는 연결 제한 없이 작동하는 _STANDARD_MODE 또는 연결 제한이 있는 조직을 위해 설계된 _PRIVATE_MODE 중 하나로 구성할 수 있습니다. Keystone Collector를 표준 모드로 설치하려면 을 <block ref="a9306132ed6aac4cbc6f1e3f3feb8703" category="inline-link-macro-rx"></block>참조하십시오. 개인 모드에 대해서는 을 <block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="67f289221dc2b8315be57c85a28e0619" category="sidebar">설치 준비</block>
 </blocks>

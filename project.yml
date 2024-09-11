@@ -125,6 +125,18 @@ sidebar:
       url: "/concepts/sla-sustainability.html"
     - title: 랜섬웨어 복구 보장
       url: "/concepts/sla-ransomware.html"
+  - title: 비공개 모드의 Keystone
+    entries:
+    - title: 개요
+      url: "/dark-sites/overview.html"
+    - title: 설치 준비
+      url: "/dark-sites/requirements.html"
+    - title: Keystone Collector를 설치합니다
+      url: "/dark-sites/install-collector.html"
+    - title: Keystone Collector 구성
+      url: "/dark-sites/configure-collector.html"
+    - title: Keystone Collector 상태 모니터링
+      url: "/dark-sites/monitor.html"
   - title: 청구
     entries:
     - title: Keystone 가격
