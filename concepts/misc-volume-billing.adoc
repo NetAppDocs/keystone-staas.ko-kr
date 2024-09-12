@@ -52,22 +52,22 @@ ONTAP 시스템 관리자(System Manager) 또는 Active IQ Unified Manager(Unifi
 
 == 청구 및 적응형 QoS 정책
 
-Keystone은 서비스 수준에 따라 소비를 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 구축하는 동안 구독한 Keystone 서비스에 대한 각 QoS 정책에 대한 세부 정보가 제공됩니다. 스토리지 관리 작업 중에 예상치 못한 청구가 발생하지 않도록 서비스에 가입한 서비스 수준에 따라 볼륨에 적절한 QoS 정책이 할당되었는지 확인합니다. ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"^].
+Keystone은 서비스 수준을 기준으로 소비를 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 구축 중에 구독한 Keystone 서비스의 각 적응형 QoS 정책에 대한 세부 정보를 통보받게 됩니다. 스토리지 관리 작업 중에 볼륨에 가입된 서비스 수준에 따라 적합한 적응형 QoS 정책이 할당되어 있는지 확인하여 예기치 않은 청구가 발생하지 않도록 하십시오. ONTAP의 적응형 QoS 정책에 대한 자세한 내용은 를 참조하십시오link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"^].
 
 
 
 == SnapMirror 대상에 대한 청구
 
-SnapMirror 대상 볼륨의 가격은 소스에 할당된 서비스 수준에 대한 QoS 정책의 적용을 받습니다. 하지만 소스에 연결된 QoS 정책이 없는 경우 사용 가능한 최저 서비스 수준을 기준으로 대상에 비용이 청구됩니다.
+SnapMirror 타겟 볼륨의 가격은 소스에 할당된 서비스 수준에 대한 적응형 QoS 정책이 적용됩니다. 그러나 소스에 연결된 적응형 QoS 정책이 없는 경우 사용 가능한 최저 서비스 수준을 기준으로 대상이 청구됩니다.
 
 
 
 == LUN에 대한 청구
 
-LUN의 경우 QoS 정책이 적용되는 볼륨과 동일한 청구 패턴이 이어집니다. LUN에 별도의 QoS 정책이 설정된 경우 다음을 수행합니다.
+LUN의 경우 적응형 QoS 정책에 따라 관리되는 볼륨의 청구 패턴이 동일합니다. LUN에 별도의 적응형 QoS 정책을 설정한 경우:
 
 * LUN의 크기는 해당 LUN의 연결된 서비스 수준에 따라 소비용으로 계산됩니다.
-* 볼륨에 설정된 서비스 수준의 QoS 정책에 따라 볼륨의 나머지 공간이 청구되는 경우
+* 볼륨의 나머지 공간이 있는 경우, 볼륨에 설정된 서비스 수준의 적응형 QoS 정책에 따라 비용이 청구됩니다.
 
 
 

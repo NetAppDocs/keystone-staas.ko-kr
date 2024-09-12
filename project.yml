@@ -137,6 +137,18 @@ sidebar:
       url: "/dark-sites/configure-collector.html"
     - title: Keystone Collector 상태 모니터링
       url: "/dark-sites/monitor.html"
+  - title: Digital Advisor REST API에서 Keystone에 액세스합니다
+    entries:
+    - title: Digital Advisor REST API를 사용하여 Keystone 데이터를 검색하십시오
+      url: "/rest-api/retrieve-keystone-data-with-digital-advisor-rest-api.html"
+    - title: 새로 고침 및 액세스 토큰을 생성합니다
+      url: "/rest-api/generate-tokens.html"
+    - title: Digital Advisor REST API를 사용하여 모든 고객 목록을 확인하십시오
+      url: "/rest-api/get-customer-list.html"
+    - title: Digital Advisor REST API를 사용하여 고객 구독을 얻을 수 있습니다
+      url: "/rest-api/get-customer-subscriptions.html"
+    - title: Digital Advisor REST API를 사용하여 고객 소비 세부 정보를 확인하십시오
+      url: "/rest-api/get-customer-consumption.html"
   - title: 청구
     entries:
     - title: Keystone 가격

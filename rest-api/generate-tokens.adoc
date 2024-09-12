@@ -1,0 +1,94 @@
+---
+sidebar: sidebar 
+permalink: rest-api/generate-tokens.html 
+keywords: Refresh token, AIQ Digital Advisor portal,access 
+summary: 새로 고침 토큰은 프로그래밍 방식으로 새 액세스 토큰 집합을 가져오는 데 사용되며 1주일 동안 또는 새 토큰 집합을 얻는 데 사용될 때까지 유효합니다. 
+---
+= 새로 고침 및 액세스 토큰을 생성합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+새로 고침 토큰은 프로그래밍 방식으로 새 액세스 토큰 집합을 가져오는 데 사용되며 1주일 동안 또는 새 토큰 집합을 얻는 데 사용될 때까지 유효합니다.
+
+Digital Advisor 포털을 사용하여 새로 고침 토큰을 생성하는 단계는 다음과 같습니다.
+
+.  https://aiq.netapp.com/api["Digital Advisor 포털"]NetApp 자격 증명을 사용하여 에 로그인하고 * 토큰 생성 * 을 선택합니다.
++
+image:rest-api-aiq-portal.png["Digital Advisor 포털을 사용하여 새로 고침 토큰을 생성하는 단계입니다"]
+
++
+
+NOTE: 최초 사용자의 경우 * 토큰 생성 * 옵션을 사용할 수 없는 경우 * 등록 * 을 선택하여 승인 요청을 제출하십시오. 이 기능을 사용하려면 등록 양식을 작성하십시오.
+
+. 시스템에서 액세스 토큰과 새로 고침 토큰을 생성합니다. 신뢰할 수 있는 플랫폼에 새로 고침 토큰을 저장합니다.
++
+
+NOTE: 포털은 세트에 하나 또는 두 개의 토큰을 저장하는 여러 가지 방법을 제공합니다. 클립보드로 복사하거나 텍스트 파일로 다운로드하거나 일반 텍스트로 볼 수 있습니다.
+
++
+image:rest-api-token-types.png["토큰의 유형"]
+
+
+
+
+
+== Digital Advisor REST API를 사용하여 액세스 토큰을 생성합니다
+
+액세스 토큰은 Digital Advisor API 요청을 인증하는 데 사용됩니다. 새로 고침 토큰과 함께 콘솔을 통해 직접 생성하거나 다음 API 호출을 사용하여 생성할 수 있습니다.
+
+* 요청: *
+
+[cols="41%,59%"]
+|===
+
+
+| * 방법 * | 게시 
+
+
+| * 끝점 * | https://api.activeiq.netapp.com/v1/tokens/accessToken[] 
+
+
+| * 머리글 *  a| 
+* 수락: application/json
+* Content-Type: application/json
+
+
+
+
+| * 요청 본문 *  a| 
+{"refresh_token":"<refresh-token>"}
+
+|===
+
+NOTE: 이 끝점에 액세스하려면 Digital Advisor용 관리 Privileges가 있어야 합니다.
+
+* 응답: *
+
+API는 액세스 토큰과 새로 고침 토큰을 JSON 형식으로 응답으로 반환합니다.
+
+[listing]
+----
+{
+"refresh_token": "string",
+"access_token": "string"
+}
+----
+* 상태 코드 *: 200 – 요청이 성공했습니다
+
+* 컬의 예 *:
+
+[source, curl]
+----
+curl -X 'POST' \ 'https://api.activeiq.netapp.com/v1/tokens/accessToken' \ -H 'accept: application/json' \ -H 'Content-Type: application/json' \ -d ' { "refresh_token": "<refresh-token>" }'
+----
+
+
+== API 호출을 수행한다
+
+액세스 토큰이 성공적으로 생성되면 필요한 정보에 대해 인증된 Digital Advisor API 호출을 실행할 수 있습니다.
