@@ -30,7 +30,7 @@ summary: '인터넷에 액세스할 수 없는 환경(예: _ Dark site_ 또는 _
 
 == Linux에 대한 요구 사항
 
-* 운영 체제: Debian v12 또는 Red Hat Enterprise Linux 8.6 이상
+* 운영 체제: RHEL 8.x 시리즈 내의 Debian v12 또는 Red Hat Enterprise Linux(RHEL) 8.6 이상 버전
 * 코어: 2 CPU
 * RAM: 4GB
 * 디스크 공간: 50GB vDisk
