@@ -10,7 +10,7 @@ summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
@@ -19,6 +19,16 @@ summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않�
 
 
 == Keystone Collector 제한 사항
+
+
+
+=== StorageGRID SSO가 활성화된 상태에서 Keystone Collector 인증에 실패했습니다
+
+StorageGRID 시스템에 SSO(Single Sign-On)가 활성화된 경우 Keystone Collector는 측정을 지원하지 않습니다. 로그에 다음 오류 메시지가 표시됩니다.
+
+`panic: json: cannot unmarshal object into Go struct field AuthResponse.data of type string`
+
+정보 및 해결 방법은 기술 자료 link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_authenticate_with_StorageGRID_in_SSO_Mode["Keystone Collector가 SSO 모드에서 StorageGRID를 인증하지 못합니다"^]문서를 참조하십시오.
 
 
 

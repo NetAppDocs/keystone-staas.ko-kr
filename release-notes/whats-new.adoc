@@ -10,7 +10,7 @@ summary: NetApp은 모든 Keystone STaaS 서비스에서 새롭고 향상된 기
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

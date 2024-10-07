@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: rest-api/get-customer-list.html 
-keywords: customer, keystone, api, IDs 
-summary: 이 API는 사용자와 연결된 모든 고객 ID 목록을 검색합니다. 
+keywords: customer, keystone, api, IDs,  Digital Advisor 
+summary: Digital Advisor REST API는 사용자와 연결된 모든 고객 ID 목록을 검색합니다. 
 ---
 = Digital Advisor REST API를 사용하여 모든 고객 목록을 확인하십시오
 :hardbreaks:
@@ -25,7 +25,7 @@ summary: 이 API는 사용자와 연결된 모든 고객 ID 목록을 검색합�
 | * 방법 * | 가져오기 
 
 
-| * 끝점 * | https://api.activeiq.netapp.com/v1/keystone/customers[] 
+| * 끝점 * | `https://api.activeiq.netapp.com/v1/keystone/customers` 
 
 
 | * 머리글 *  a| 

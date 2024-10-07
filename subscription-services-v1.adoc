@@ -10,7 +10,7 @@ summary: Keystone Flex Subscription 서비스를 지원하는 Keystone STaaS
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

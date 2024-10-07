@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rest-api/get-customer-subscriptions.html 
 keywords: subscriptions, service levels, customer IDs, keystone, api 
-summary: 이 API는 지정된 CustomerID와 관련된 모든 구독 및 서비스 수준 목록을 검색합니다. 
+summary: Digital Advisor REST API는 지정된 CustomerID와 관련된 모든 구독 및 서비스 수준 목록을 검색합니다. 
 ---
 = Digital Advisor REST API를 사용하여 고객 구독을 얻을 수 있습니다
 :hardbreaks:
@@ -25,7 +25,7 @@ summary: 이 API는 지정된 CustomerID와 관련된 모든 구독 및 서비�
 | * 방법 * | 가져오기 
 
 
-| * 끝점 * | https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info[] 
+| * 끝점 * | `https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info` 
 
 
 | * 매개변수 *  a| 

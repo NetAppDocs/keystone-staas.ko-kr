@@ -10,7 +10,7 @@ summary: 알려진 문제에서는 Keystone 구독 서비스를 효과적으로 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
