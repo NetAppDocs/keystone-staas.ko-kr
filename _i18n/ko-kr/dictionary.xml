@@ -49,16 +49,9 @@
   <block id="2da83d8f6744d94e4db3195a4a4edfc0" category="section-title">적응형 QoS 정책 설정</block>
   <block id="547c4738072689a91e04dc9c9c8f6c84" category="section-title">Extreme 서비스 레벨 설정</block>
   <block id="5fd300737b7909532dc522634d75def5" category="list-text">명령 예:</block>
-  <block id="eec649d0629c0d4daca55ba4f12c8e0d" category="list-text">최소 볼륨 크기: 100GiB, 0.1TiB</block>
-  <block id="92583c0936263d9a68a3fd624b7b24db" category="list-text">최대 볼륨 크기: 10TiB</block>
   <block id="25720426b4f9400d825effad9cc98cf4" category="section-title">고급 서비스 수준 설정</block>
-  <block id="1e8543e81fe8622a8aa785a23448ce74" category="list-text">최소 볼륨 크기: 500GiB, 0.5TiB</block>
-  <block id="f59d8a930f65f82d8f21450de71784f2" category="list-text">최대 볼륨 크기: 50TiB</block>
   <block id="c335b79291cf3c370f0819292ea37103" category="section-title">성능 서비스 수준에 대한 설정입니다</block>
-  <block id="647b2fc1150676057fa08112aa455c76" category="list-text">최대 볼륨 크기: 80TiB</block>
   <block id="43384bba14e9ac0e1e3604da457dacd3" category="section-title">Value 서비스 수준에 대한 설정입니다</block>
-  <block id="c5dd4ef3a979aa464f4d87ea8ac7b398" category="list-text">최소 볼륨 크기: 1TiB</block>
-  <block id="d80459bf7c52b9b618a3832a91b72964" category="list-text">최대 볼륨 크기: 100TiB</block>
   <block id="e8cf569a737f3c6ca0de02023bb45074" category="section-title">블록 크기 계산</block>
   <block id="b77f85f9490573cc674ceb0b9512f811" category="paragraph">블럭 크기를 계산하기 전에 다음 설정을 사용하여 다음 점을 참고하십시오:</block>
   <block id="5cf0d288a8f6413cd5081b042a609034" category="list-text">IOPS/TiB = MBps/TiB 구분(블록 크기 * 1024)</block>
@@ -2006,4 +1999,24 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">볼륨 요약 * 탭에는 볼륨 총 수, QoS 준수 상태, 보호된 볼륨 수, 기본 및 연결된 보조 구독의 총 사용 용량에 대해 0이 표시됩니다.</block>
   <block id="e50629aea15eaa890e9555d823c3aa0e" category="paragraph">* 볼륨 요약 * StorageGRID 구독에 대한 하위 탭이 로드되지 않습니다</block>
   <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">StorageGRID 구독에 대해 * 볼륨 및 개체 * 탭의 * 볼륨 요약 * 하위 탭이 로드되지 않습니다.</block>
+  <block id="51f4eff2679d00a84e768ca09b950896" category="list-text">권장되는 최소 볼륨 크기는 100GiB, 0.1TiB</block>
+  <block id="0a972e42bf2862708f1b761f38f43097" category="list-text">권장되는 최대 볼륨 크기: 10TiB</block>
+  <block id="15338332b8fcdeeb5cf2e61fbed1f587" category="list-text">권장되는 최소 볼륨 크기는 500GiB, 0.5TiB입니다</block>
+  <block id="b153328fc34aa79250fe1cd04b633016" category="list-text">권장되는 최대 볼륨 크기: 50TiB</block>
+  <block id="1fd6dacdb284abe9cc20a2bbb9c6a535" category="list-text">권장되는 최대 볼륨 크기: 80TiB</block>
+  <block id="cf94268a733259e784ff458e2880c445" category="list-text">권장되는 최소 볼륨 크기: 1TiB</block>
+  <block id="b28606b9957df145a655531d978d4f7a" category="list-text">권장되는 최대 볼륨 크기: 100TiB</block>
+  <block id="13c09ed2290110fb23f7ef738098a6ce" category="section-title">통합 보고서 생성</block>
+  <block id="b5c31f8fc651c0b6091927bd1388396c" category="paragraph">구독, 내역 사용량, 버스트 사용량, 성능, 자산, 볼륨 및 오브젝트에 대한 통합 보고서를 생성하고 볼 수 있습니다. 이렇게 하려면 Digital Advisor의 보고서 기능에서 보고서 유형으로 * Keystone 구독 * 을 선택합니다. 이러한 보고서는 고객, 클러스터, 감시 목록 또는 구독 수준에서 생성할 수 있습니다.</block>
+  <block id="d9c75c79440b3db3ac3e86ae04bc9f19" category="inline-image-macro">보고서를 만듭니다</block>
+  <block id="ad127b553d070e603bcca75c99aa0aa4" category="paragraph"><block ref="ad127b553d070e603bcca75c99aa0aa4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f1ac17aa812b21fe2bbdc58cbe5d6efa" category="paragraph">보고서는 Excel 형식으로 생성되며, 구독 세부 정보 또는 사용 기록 등의 각 정보 유형이 별도의 시트에 표시됩니다. 이 시트는 쉽게 볼 수 있도록 * Keystone 구독 * 페이지의 탭에 따라 이름이 지정됩니다. 나중에 사용할 수 있도록 보고서를 저장할 수 있습니다.</block>
+  <block id="9fe5e0c0b5051c9c5712e923a00cc8c1" category="paragraph">한 시트에 서브스크립션 세부 정보가 포함된 샘플 통합 보고서:</block>
+  <block id="2badbe4f31c12aae368f255a571f80b1" category="inline-image-macro">별도의 시트를 표시하는 Excel 형식으로 생성된 보고서</block>
+  <block id="a273e12df0b06489ccec9e5faa39deae" category="paragraph"><block ref="a273e12df0b06489ccec9e5faa39deae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8b00815fc5298212e3dc28a279ed4a10" category="inline-link-macro">사용자 정의 보고서를 생성합니다</block>
+  <block id="05ae21f139b4223ee2536ce651cf54b9" category="paragraph">보고서 생성에 대한 자세한 내용은 을 <block ref="5ee515b7098121299290c8d9ddbc9e18" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="8a1116f55c6659c55d506df698030041" category="section-title">2024년 11월 11일</block>
+  <block id="1503d912784bec55335f32e3c747c9df" category="section-title">향상된 보고서 생성</block>
+  <block id="bab5e70b8fca6215bd90bf396708d647" category="paragraph">이제 Digital Advisor의 보고서 기능을 사용하여 Keystone 데이터의 세부 정보를 볼 수 있는 통합 보고서를 생성할 수 있습니다. 자세한 내용은 을 <block ref="f3fd429c1c2a13f9f8f5c8d4ec2129e6" category="inline-link-macro-rx"></block>참조하십시오.</block>
 </blocks>

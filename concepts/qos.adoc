@@ -96,8 +96,8 @@ Extreme 서비스 레벨을 위한 설정 및 명령:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 1000
 ....
-* 최소 볼륨 크기: 100GiB, 0.1TiB
-* 최대 볼륨 크기: 10TiB
+* 권장되는 최소 볼륨 크기는 100GiB, 0.1TiB
+* 권장되는 최대 볼륨 크기: 10TiB
 
 
 
@@ -112,8 +112,8 @@ qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_
 ....
 qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 500
 ....
-* 최소 볼륨 크기: 500GiB, 0.5TiB
-* 최대 볼륨 크기: 50TiB
+* 권장되는 최소 볼륨 크기는 500GiB, 0.5TiB입니다
+* 권장되는 최대 볼륨 크기: 50TiB
 
 
 
@@ -128,8 +128,8 @@ qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_
 ....
 qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 250
 ....
-* 최소 볼륨 크기: 500GiB, 0.5TiB
-* 최대 볼륨 크기: 80TiB
+* 권장되는 최소 볼륨 크기는 500GiB, 0.5TiB입니다
+* 권장되는 최대 볼륨 크기: 80TiB
 
 
 
@@ -144,8 +144,8 @@ qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <
 ....
 qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM_name> -expected-iops 256 -peak-iops 512 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 75
 ....
-* 최소 볼륨 크기: 1TiB
-* 최대 볼륨 크기: 100TiB
+* 권장되는 최소 볼륨 크기: 1TiB
+* 권장되는 최대 볼륨 크기: 100TiB
 
 
 
@@ -160,8 +160,8 @@ qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM
 ....
 qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 75
 ....
-* 최소 볼륨 크기: 1TiB
-* 최대 볼륨 크기: 100TiB
+* 권장되는 최소 볼륨 크기: 1TiB
+* 권장되는 최대 볼륨 크기: 100TiB
 
 
 
