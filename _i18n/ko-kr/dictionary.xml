@@ -2019,4 +2019,7 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="8a1116f55c6659c55d506df698030041" category="section-title">2024년 11월 11일</block>
   <block id="1503d912784bec55335f32e3c747c9df" category="section-title">향상된 보고서 생성</block>
   <block id="bab5e70b8fca6215bd90bf396708d647" category="paragraph">이제 Digital Advisor의 보고서 기능을 사용하여 Keystone 데이터의 세부 정보를 볼 수 있는 통합 보고서를 생성할 수 있습니다. 자세한 내용은 을 <block ref="f3fd429c1c2a13f9f8f5c8d4ec2129e6" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="70852ac05a65501c650a9135c4a2ab17" category="cell">* 약정 및 용량제 용량 유형 *</block>
+  <block id="e7a731a6342f126055b89b80d800a180" category="cell">논리적</block>
+  <block id="ce898d62ed9ca7653a01fe0c781e97e9" category="cell">물리적</block>
 </blocks>
