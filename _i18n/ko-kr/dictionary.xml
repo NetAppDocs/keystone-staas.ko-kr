@@ -1173,7 +1173,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c977c72cd7678128aadf339e54fc0498" category="sidebar">콜드 데이터 또는 덜 사용되는 데이터로 무엇을 할 수 있는가?</block>
   <block id="3c433d996e071fc968830570a2649830" category="sidebar">Keystone 데이터를 어떻게 보호할 수 있습니까?</block>
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">송장 발행된 누적 버스트 보기</block>
-  <block id="db0ef40224829d8428d6c42004012b26" category="paragraph">송장 발행된 버스트 * 옵션을 선택한 경우 기본적으로 청구된 마지막 12개월 동안의 월별 누적 버스트 사용량 데이터를 볼 수 있습니다. 지난 30개월까지의 날짜 범위를 기준으로 쿼리할 수 있습니다. 막대 차트는 송장 발행된 데이터에 대해 표시되며 사용량이 아직 청구되지 않은 경우 해당 월의 _Pending_이 표시됩니다.</block>
   <block id="393673167b0e2f5fe79a42f45c884852" category="admonition">송장 발행된 버스트 사용량은 서비스 수준의 커밋된 용량 및 사용된 용량을 기준으로 청구 기간별로 계산됩니다.</block>
   <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager(Unified Manager) 9.10 이상</block>
   <block id="81f184376266ed69a659d0030be070fc" category="list-text">RPM 데이터베이스에서 Keystone 청구 플랫폼에 대한 지문을 확인하여 올바른 공개 인증서를 가져왔는지 확인합니다.<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>
@@ -1200,7 +1199,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="b08a55fcdae4be7efabe97ebd6da5f96" category="section-title">누적된 연기에 대해 반환된 송장 데이터</block>
   <block id="038fa77b2d09a08187d251d11af66fec" category="section-title">특정 요율계획에 대한 발생된 소비 상세 정보</block>
   <block id="e8eb002764288209a5c4ba14af40e3c1" category="paragraph">rate plan이 _zero_committed capacity인 서브스크립션이 있는 경우 * Capacity Trend * 탭에서 계산된 소비 정보를 볼 수 있습니다. 송장 발행된 누적 소비 * 옵션을 선택하면 청구된 누적 소비 데이터에 대한 월별 차트를 볼 수 있습니다.</block>
-  <block id="58b8c716856200f705d08eebb54e18f2" category="paragraph">MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="dce2e2b996a813464c91ed5f90c2ee95" category="inline-link-macro-rx"></block>.</block>
   <block id="0031be5085bbcd93406b2aa424a49c42" category="section-title">기본 구독에 연결된 구독을 볼 수 있습니다</block>
   <block id="7a76691411d2b3f52e0613b9090e3000" category="paragraph">일부 기본 구독에는 연결된 보조 구독이 있을 수 있습니다. 이 경우 * 구독 번호 * 열에 기본 구독 번호가 계속 표시되고, 연결된 구독 번호는 * 구독 * 탭의 새 열 * 링크된 구독 * 에 나열됩니다. 연결된 구독 * 열은 구독이 연결된 경우에만 사용할 수 있으며, 구독에 대해 알리는 정보 메시지를 볼 수 있습니다.</block>
   <block id="80a766e7eebce2ca48e414230534ddb7" category="doc">볼륨 및 개체 탭</block>
@@ -1215,7 +1213,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="14eaf858e86c38bf5f21aa319c01ad8b" category="list-text"><block ref="75640177dd65c74f10505e0d1d77322f" category="inline-link-macro-rx"></block></block>
   <block id="f5308d78e48927072f23b5c9ea1d54f9" category="paragraph">선택한 구독에 대해 구독의 시작 및 종료 날짜와 같은 세부 정보와 월별 또는 연간과 같은 청구 기간을 볼 수 있습니다. 구독 사용량 의 일부로 서비스 수준 이름, 약정, 사용된 용량, 사용 가능한 용량, 현재 및 누적된 버스트 사용량(TiB)을 볼 수 있습니다.</block>
   <block id="1623545ecb1ca990b229d62e7e5fc4b4" category="doc">구독 탭을 클릭합니다</block>
-  <block id="edc29cab045406ca906dd10b5912883e" category="admonition">고급 데이터 보호 애드온 서비스에 가입한 경우 가입 번호에 대한 도구 설명을 클릭하여 MetroCluster 설정에서 파트너 가입의 추적 ID를 확인할 수 있습니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오 <block ref="dce2e2b996a813464c91ed5f90c2ee95" category="inline-link-macro-rx"></block>.</block>
   <block id="109b44d9ae88073ca74514f04dce3f43" category="doc">성능 탭</block>
   <block id="e25aef7d73f188d691460fe7a81c1615" category="list-text">일반 &gt; Keystone 구독 &gt; 성능 * 을 클릭합니다.</block>
   <block id="b38469a0957abb9fcc179f471234aeb1" category="paragraph">다음 링크를 클릭하면 각 탭에 대한 자세한 정보를 볼 수 있습니다.</block>
@@ -1488,7 +1485,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">추가 메뉴 옵션</block>
   <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">MySQL의 기본 포트인 3306은 Unified Manager를 새로 설치할 때 로컬 호스트로만 제한되므로 Keystone ONTAP에 대한 성능 데이터가 수집되지 않습니다. 이 구성을 수정할 수 있으며 Unified Manager 유지보수 콘솔의 옵션을 사용하여 다른 호스트에서 연결을 사용할 수 있습니다<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> . 자세한 내용은 을 <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="82417085e656251b41cd76814fd5b48a" category="paragraph"><block ref="82417085e656251b41cd76814fd5b48a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f4927a3debc365e92273fa3de8985ec2" category="paragraph"><block ref="f4927a3debc365e92273fa3de8985ec2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">고급 데이터 보호 애드온 서비스를 사용하여 미션 크리티컬 워크로드의 데이터를 효율적으로 보호합니다.</block>
   <block id="a6b5c7400b59e86e1201f869cdba2c1a" category="doc">고급 데이터 보호에 대해 알아보십시오</block>
   <block id="7322651c5a3929e757c7e2a38e363825" category="paragraph">Keystone STaaS 구독의 일부로 고급 데이터 보호 애드온 서비스를 구독할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 복구 시점 목표(RPO)가 0인 상태에서 미션 크리티컬 워크로드의 데이터를 효율적으로 보호합니다.</block>
@@ -1997,7 +1993,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">해결 방법</block>
   <block id="3156e09a94461db7bf19fe1f351546ed" category="paragraph">기본 및 연결된 구독에 대한 볼륨 세부 정보를 사용할 수 없습니다</block>
   <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">볼륨 요약 * 탭에는 볼륨 총 수, QoS 준수 상태, 보호된 볼륨 수, 기본 및 연결된 보조 구독의 총 사용 용량에 대해 0이 표시됩니다.</block>
-  <block id="e50629aea15eaa890e9555d823c3aa0e" category="paragraph">* 볼륨 요약 * StorageGRID 구독에 대한 하위 탭이 로드되지 않습니다</block>
   <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">StorageGRID 구독에 대해 * 볼륨 및 개체 * 탭의 * 볼륨 요약 * 하위 탭이 로드되지 않습니다.</block>
   <block id="51f4eff2679d00a84e768ca09b950896" category="list-text">권장되는 최소 볼륨 크기는 100GiB, 0.1TiB</block>
   <block id="0a972e42bf2862708f1b761f38f43097" category="list-text">권장되는 최대 볼륨 크기: 10TiB</block>
@@ -2022,4 +2017,23 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="70852ac05a65501c650a9135c4a2ab17" category="cell">* 약정 및 용량제 용량 유형 *</block>
   <block id="e7a731a6342f126055b89b80d800a180" category="cell">논리적</block>
   <block id="ce898d62ed9ca7653a01fe0c781e97e9" category="cell">물리적</block>
+  <block id="77755c419ef346c65225a7d2709520ab" category="paragraph">MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>.</block>
+  <block id="138155ee615aaf4d4e698be7c61a12c0" category="paragraph">송장 발행된 버스트 * 옵션을 선택한 경우 선택한 결제 기간에 따라 월별 또는 분기별로 누적된 버스트 사용량 데이터를 볼 수 있습니다. 이 데이터는 청구된 지난 12개월 동안 사용할 수 있으며 지난 30개월 동안 날짜 범위로 쿼리할 수 있습니다. 막대 차트에는 송장 발행된 데이터가 표시되며 사용량이 아직 청구되지 않은 경우 해당 기간에 대해 _Pending_으로 표시됩니다.</block>
+  <block id="df54e0aa337c00aed9738ce50d6f7d40" category="paragraph">분기별 청구 기간의 경우, 해당 월의 1일 이외의 날짜에 가입이 시작되면 분기별 청구서에는 이후 90일 기간이 적용됩니다. 예를 들어 8월 15일에 구독이 시작되는 경우 8월 15일부터 10월 14일까지 송장이 생성됩니다.</block>
+  <block id="a15b1d5c20a80360a519fdba86f9d359" category="paragraph">분기별 청구에서 월별 청구로 전환하더라도 분기별 청구서에는 여전히 90일 기간이 적용되며, 분기별 청구 기간에 대해 각각 하나씩, 나머지 날짜에 대해 두 개의 송장이 생성됩니다. 이 전환을 통해 매월 청구 기간이 다음 달 1일에 시작됩니다. 예를 들어 구독이 10월 15일에 시작되는 경우 월 청구 기간이 2월 1일에 시작되기 전에 1월에 각각 10월 15일부터 1월 14일까지, 1월 15일부터 31일까지 송장 두 장을 받게 됩니다.</block>
+  <block id="19c39546a17d632b3f81a88517195dcb" category="inline-image-macro">분기별로 누적된 버스트 사용량입니다</block>
+  <block id="8215e5a0d8116559b577a00ac7f9d7a4" category="paragraph"><block ref="8215e5a0d8116559b577a00ac7f9d7a4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd743c791b4d6ca2e7a1d3c5f2d40a95" category="section-title">MetroCluster의 고급 데이터 보호 기능에 대한 참조 차트를 참조하십시오</block>
+  <block id="abdc803a1b380f3cb4c996e2b30a1820" category="paragraph"><block ref="abdc803a1b380f3cb4c996e2b30a1820" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0bf27b930a0841a9485431dd01de3f4" category="admonition">고급 데이터 보호 애드온 서비스에 가입한 경우 가입 번호에 대한 도구 설명을 클릭하여 MetroCluster 설정에서 파트너 가입의 추적 ID를 확인할 수 있습니다. MetroCluster 구성에서 파트너 구독별 상세 소비를 확인하는 방법은 을 참조하십시오.<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block></block>
+  <block id="24685db79ee3df152404bc24333590fd" category="paragraph">2024년 11월 21일</block>
+  <block id="2531cde1a4803cc2a1ae862eb5d81705" category="paragraph">구독에 대한 보고서를 생성할 수 없습니다</block>
+  <block id="4b22f859addb0f523b4eb20c8a3de953" category="paragraph">Keystone 구독 * 페이지의 * 구독 * 탭에서 10-12개 이상의 구독을 선택한 경우 * CSV * 다운로드 버튼을 클릭하면 각 서비스 수준에 대한 데이터 포함 * 옵션이 포함된 보고서가 생성되지 않습니다.</block>
+  <block id="01e50fa0cb5ca9093067bd7f7b5ce77d" category="section-title">송장 발행된 증액 버스트</block>
+  <block id="68282426b20517fa5a804475f31878a9" category="paragraph">이제 분기별 청구 기간을 선택한 경우 * 송장 누적된 버스트 * 옵션을 통해 분기별로 누적된 버스트 사용량 데이터를 볼 수 있습니다. 자세한 내용은 을 <block ref="b9f581509f4f5c092d1e1e258ec0cc04" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="f916fd7c91361d368cb72a24d8c89422" category="section-title">볼륨 세부 정보 탭의 새 열</block>
+  <block id="6f3602613697bd7c1dd3b585d5221b75" category="paragraph">논리적 사용량 계산의 명확성을 높이기 위해 * Volumes &amp; Objects * 탭의 * Volume Details * 탭에 두 개의 새 열이 추가되었습니다.</block>
+  <block id="ff33e32470641c161a9b0ae3c97385c3" category="list-text">* 논리적 AFS *: 볼륨의 활성 파일 시스템에서 사용하는 논리적 용량을 표시합니다.</block>
+  <block id="4a1c882b0ab41fd998beccee85292567" category="list-text">* 물리적 스냅샷 *: 스냅샷이 사용하는 물리적 공간을 표시합니다.</block>
+  <block id="ff17f3533de401f605df9cf9c2553b80" category="paragraph">이 열은 볼륨의 활성 파일 시스템에서 사용하는 논리적 용량과 스냅숏에서 사용하는 물리적 공간을 모두 보여 주는 * Logical Used * 열을 보다 명확하게 보여 줍니다.</block>
 </blocks>

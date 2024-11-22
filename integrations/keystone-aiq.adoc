@@ -48,7 +48,7 @@ TIP: 구독 * 탭에서 필터링된 구독 목록을 보려면 * 구독 * 링�
 
 
 
-image:new-db-3.png["새로운 대시보드"]
+image:new-db-4.png["새로운 대시보드"]
 
 Keystone용 Digital Advisor 대시보드 위젯에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Digital Advisor 설명서"^].
 
