@@ -1,0 +1,71 @@
+---
+sidebar: sidebar 
+permalink: installation/itom-prereqs.html 
+keywords: prerequisites, ITOM, 
+summary: ITOM Collector를 설치하려면 시스템이 여러 요구 사항을 충족해야 합니다. 
+---
+= ITOM Collector 설치 요구 사항
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+ITOM Collector를 설치하기 전에 시스템에 필요한 소프트웨어가 준비되어 있고 필요한 모든 필수 구성 요소를 충족하는지 확인하십시오.
+
+.ITOM Collector 서버 VM의 사전 요구 사항:
+* 지원되는 운영 체제: Debian 12, Windows Server 2016, Ubuntu 20.04 LTS, Red Hat Enterprise Linux(RHEL) 8.x, Amazon Linux 2023 또는 이러한 운영 체제의 최신 버전.
++
+
+NOTE: 권장되는 운영 체제는 Debian 12, Windows Server 2016 또는 이후 버전입니다.
+
+* 리소스 요구 사항: 모니터링되는 NetApp 노드 수에 따른 VM 리소스 요구 사항은 다음과 같습니다.
++
+** 2-10개 노드: CPU 4개, 8GB RAM, 40GB 디스크
+** 12-20개 노드: CPU 8개, 16GB RAM, 40GB 디스크
+
+
+* 구성 요구 사항: 모니터링되는 장치에 읽기 전용 계정과 SNMP가 구성되어 있는지 확인합니다. ITOM Collector 서버 VM도 NetApp 클러스터 및 클러스터 스위치에서 SNMP 트랩 호스트 및 Syslog 서버로 구성해야 합니다(해당하는 경우).
+
+
+
+
+== 네트워킹 요구 사항
+
+다음 표에는 ITOM Collector의 네트워킹 요구 사항이 나와 있습니다.
+
+|===
+
+
+| 출처 | 목적지 | 프로토콜 | 포트 | 설명 
+
+
+| ITOM 수집기 | NetApp ONTAP 클러스터 관리 IP | HTTPS, SNMP | TCP 443, UDP 161 | ONTAP 컨트롤러 모니터링 
+
+
+| NetApp ONTAP 클러스터 및 노드 관리 IP | ITOM 수집기 | SNMP, Syslog | UDP 162, UDP 514 | 컨트롤러의 SNMP 트랩 및 Syslog 
+
+
+| ITOM 수집기 | 클러스터 스위치 | SNMP를 선택합니다 | UDP 161 를 참조하십시오 | 스위치 모니터링 
+
+
+| 클러스터 스위치 | ITOM 수집기 | SNMP, Syslog | UDP 162, UDP 514 | 스위치의 SNMP 트랩 및 Syslog 
+
+
+| ITOM 수집기 | StorageGRID 노드 IP | HTTPS, SNMP | TCP 443, UDP 161 | StorageGRID의 SNMP 모니터링 
+
+
+| StorageGRID 노드 IP | ITOM 수집기 | SNMP, Syslog | UDP 162, UDP 514 | StorageGRID의 SNMP 트랩 
+
+
+| ITOM 수집기 | Keystone 컬렉터 | SSH, HTTPS, SNMP를 선택합니다 | TCP 22, TCP 443, UDP 161 | Keystone Collector 모니터링 및 원격 관리 
+
+
+| ITOM 수집기 | 로컬 DNS | DNS | UDP 53 를 참조하십시오 | 공용 또는 사설 DNS 서비스 
+
+
+| ITOM 수집기 | 선택한 NTP 서버입니다 | NTP | UDP 123입니다 | 시간 유지 
+|===

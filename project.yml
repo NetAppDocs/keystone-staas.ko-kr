@@ -55,6 +55,14 @@ sidebar:
         url: "/installation/validation.html"
     - title: Keystone Collector 구성
       url: "/installation/configuration.html"
+    - title: ITOM Collector를 설치합니다
+      entries:
+      - title: 설치 준비
+        url: "/installation/itom-prereqs.html"
+      - title: Linux에 설치합니다
+        url: "/installation/install-itom-linux.html"
+      - title: Windows에 설치합니다
+        url: "/installation/install-itom-windows.html"
     - title: AutoSupport를 구성합니다
       url: "/installation/asup-config.html"
     - title: Keystone Collector 보안
@@ -115,8 +123,8 @@ sidebar:
         url: "/concepts/equinix.html"
       - title: 반품 불가, 비휘발성 구성 요소 및 SnapLock 규정 준수
         url: "/concepts/nrnvc.html"
-      - title: 미국 시민 지원(USCS)
-        url: "/concepts/uscs.html"
+      - title: USPS(미국 보호 지원)
+        url: "/concepts/usps.html"
   - title: Keystone STaaS SLA
     entries:
     - title: 가용성

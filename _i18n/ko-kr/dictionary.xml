@@ -21,13 +21,8 @@
   <block id="39eeade2e73eb4823932331e5a459f8c" category="paragraph">필요한 전원을 제공해야 합니다. NetApp은 200V 등급(일반 A, 최대 A, 일반 W, 최대 W, 전원 코드 유형, 및 수량), 최종 구성 기준 모든 구성 요소에는 중복 전원 공급 장치가 있습니다. NetApp은 캐비닛 내 전원 코드를 제공합니다.</block>
   <block id="8c880fe54cae171fa97132f8c5e82297" category="section-title">냉각</block>
   <block id="e49c1cb86b679c35d94b37728ee6dfb6" category="paragraph">NetApp은 최종 구성 및 요구사항에 따라 냉각 요구사항 사양(일반 BTU, 최대 BTU)을 제공할 수 있습니다.</block>
-  <block id="4d2caccc34711835f6ff99da411ac04e" category="section-title">스토리지 가상 머신</block>
   <block id="b81687f75b28f9a0cfb73649c9cca458" category="section-title">구축 옵션</block>
   <block id="a100eabbc0de64e817f5268550f98e40" category="list-text">VMware OVA 템플릿(VMware vCenter Server 6.7 이상이 필요함)</block>
-  <block id="982460f46a9c865b5659aba58b2214e3" category="list-text">에 대한 부팅 가능한 .iso 설치 프로그램</block>
-  <block id="12d3f37fc10bb62fe3297b7457e90417" category="list-text">Citrix XenServer를 참조하십시오</block>
-  <block id="bbc2d665b02dc421c5c756db4b973610" category="list-text">Microsoft Hyper-V를 참조하십시오</block>
-  <block id="e05386baa04fdb8086234b221371bac1" category="list-text">커널 기반 가상 머신(Linux KVM)</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">네트워킹</block>
   <block id="bc9ce1a2001f13d5a3489030a7b630e9" category="paragraph">NetApp은 NetApp에서 제공하는 인프라 장치에만 필요한 트랜시버를 제공합니다. 고객 장치에 필요한 트랜시버와 NetApp에서 제공하는 Keystone 인프라 장치에 케이블을 연결해야 합니다.</block>
   <block id="d701dcea67fd884a29f39c9adfdeb8bf" category="section-title">원격 액세스 요구 사항</block>
@@ -110,10 +105,6 @@
   <block id="af2d21b994ceb580773abb07a8691b58" category="paragraph">워싱턴 DC</block>
   <block id="2b29c5739ec4158573c66d2124e2c7e9" category="paragraph">취리히</block>
   <block id="3ad08396dc5afa78f34f548eea3c1d64" category="cell">스위스</block>
-  <block id="3b4d5a194534074e4e26b153c90a2ef6" category="doc">미국 시민 지원(USCS)</block>
-  <block id="90770185e7f0d93f4befd67871a81092" category="paragraph">미국 시민 지원(USCS)은 NetApp Keystone 구독을 위한 추가 서비스입니다. 이 서비스를 통해 미국 Keystone의 지속적인 서비스 제공 및 지원을 받을 수 있습니다 미국 시민권입니다 제공됩니다.</block>
-  <block id="616e342ef98270057c5d3a2f3e3e7338" category="section-title">NetApp 글로벌 서비스 지원 센터 모니터링</block>
-  <block id="c779911684ebe3ceed4035306e2997c3" category="paragraph">NetApp GSSC(글로벌 서비스 및 지원 센터)는 제품 및 서비스 상태를 모니터링하고, 원격 지원을 제공하고, Keystone 성공 매니저와 협업합니다. 관련 Keystone 가입 주문과 관련된 제품을 모니터링하는 모든 직원은 미국 시민이며 제공됩니다.</block>
   <block id="b47b3a710484adb2c8cfacd64043b550" category="section-title">Keystone 성공 관리자</block>
   <block id="e8483ac20b1990d2362dd45e18cfb1d2" category="section-title">구축 활동</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="section-title">지원</block>
@@ -274,12 +265,10 @@
   <block id="39fd5e3ddc496ef780ff5e3fe13bb2d1" category="section-title">SnapLock 규정 준수</block>
   <block id="f14c7b4687be07acacb0f5aeed1474f5" category="inline-link">SnapLock란</block>
   <block id="da0abce09003b51065ed5b06d06021f1" category="doc">약정 용량에 따른 청구</block>
-  <block id="0a01a33e5f29d399207cdf2d0bedd8e4" category="section-title">추가 정보 및 지원 연락처</block>
   <block id="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link"><block ref="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link-rx"></block></block>
   <block id="1c6d9d150de7c9865ab3839ec9e99e4b" category="list-text">NetApp Keystone<block ref="4b675bc45aec5ce1523a19f69a2ff928" category="inline-link-rx"></block></block>
   <block id="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link"><block ref="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link-rx"></block></block>
   <block id="0f185ccd88416daec4eee0a846d110b8" category="list-text">NetApp 제품 설명서<block ref="2e85fc867cab94d246e0bf6043b361cd" category="inline-link-rx"></block></block>
-  <block id="8ed38172f401cd08c379f8397810fe02" category="section-title">GSSC 모니터링</block>
   <block id="fc860be5f135f0d58f6a4cc1a552d57f" category="inline-link">Keystone 구독</block>
   <block id="ae45517d4d9ba30bece696a3b49d1b3f" category="inline-link">Keystone 구독 관리</block>
   <block id="e5471403f1b2eefb0fe47b6193a72bbc" category="sidebar">Keystone 문서</block>
@@ -334,7 +323,6 @@
   <block id="5e803820900b74b1d5d53cef450d8ad7" category="list-text">서비스 및 결제에 대한 유연한 기간을 선택하십시오. 사이트당 12개월, 25TiB 이상을 선택할 수 있습니다. 그 이후에는 12개월 동안 자동 갱신이 가능합니다.</block>
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">충분한 C13 콘센트가 있는 2개의 독립된 보호 회로에 연결된 PDU(Power Distribution Unit)를 제공해야 합니다. 고객 운영 서비스의 경우 경우에 따라 C19 아울렛이 필요합니다. NetApp에서 운영하는 오퍼링의 경우 요구사항에 따라 NetApp 또는 고객이 PDU를 제공할 수 있습니다.</block>
   <block id="9696806b0bc121063e619b6f0922f330" category="paragraph">고객 요구 사항 및 사용하는 스토리지 컨트롤러에 따라 NetApp은 고객 사이트에서 10GB, 40GB, 100GB 연결을 제공할 수 있습니다.</block>
-  <block id="9e5608e7c0a5ea33b2dac7e4f4da76e0" category="paragraph">고객 데이터 센터에 설치된 스토리지 인프라 또는 고객 소유의 코로케이션 서비스와 Keystone 운영 센터 간에 네트워크 연결이 필요합니다. 고객은 컴퓨팅 및 가상 시스템과 인터넷 서비스를 제공해야 합니다. 네트워크 설계는 보안 프로토콜을 통해 이루어져야 하며 방화벽 정책은 NetApp 및 고객 모두가 승인한 것입니다.</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="summary">Keystone 및 디지털 자문</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisor 설명서</block>
   <block id="d98e1323795a96bdb4ab923442544f4f" category="summary">Keystone과 BlueXP</block>
@@ -802,18 +790,9 @@
   <block id="9e2f9cd4a9ee8b88a18988f62eb67dd7" category="paragraph">Keystone Collector는 스토리지 컨트롤러에 대한 REST API 호출을 시작하고 다음 흐름 다이어그램에 표시된 대로 컨트롤러의 사용 세부 정보를 정기적으로 가져옵니다.</block>
   <block id="144be97e21d1c48cc88d9c1079fd7242" category="list-text">Active IQ 클라우드 포털은 연결을 수락하고 NetApp Collector에 대한 터널을 설정합니다.</block>
   <block id="eb1ece97f0d4f33c42fe8c1270d9f97f" category="list-text">NetApp Collector는 스토리지 컨트롤러의 관리 연결에 REST API 세션을 설정하고 환경 데이터를 가져온 다음 Active IQ 포털로 보냅니다.</block>
-  <block id="9bd6f9bd3f316579290de54613357644" category="paragraph">스토리지 인프라의 상태를 지속적으로 모니터링하는 것은 Keystone 서비스의 가장 중요한 기능 중 하나입니다. Keystone은 모니터링 및 보고를 위해 고객 네트워크에 대한 원격 액세스가 필요한 AIOP 솔루션을 사용합니다. 다음 이미지는 AIOP 솔루션 툴을 통해 고객 위치에 대한 원격 액세스를 보호하는 방법을 설명합니다.</block>
-  <block id="243cf07b27b6811f47ef7011b0f2fcd7" category="list-text">클라우드의 AIOP 솔루션 서버가 연결을 수락합니다.</block>
-  <block id="322f1e98181b58ca0f54061626b2d948" category="list-text">클라우드 포털과 로컬 게이트웨이 사이에 TLS 터널이 설정됩니다.</block>
-  <block id="450997fb0074b4d084ffcc7c81c8194e" category="list-text">NetApp 컨트롤러는 SNMP 프로토콜을 사용하여 경고를 보내거나 로컬 게이트웨이로 API 요청에 응답합니다.</block>
   <block id="67b0e91889520881c5ec5d57fab5f89c" category="list-text">로컬 게이트웨이는 이전에 설정된 TLS 세션을 사용하여 이러한 알림을 클라우드 포털로 전송합니다.</block>
-  <block id="0f1b5cef30787606dcebbe2aad12f047" category="list-text">AIOP 솔루션, Active IQ, Active IQ Unified Manager 등의 서비스를 관리 및 운영하는 툴</block>
-  <block id="fe69a54042d9eff356aefd4641754a9d" category="list-text">AIOP 솔루션 로컬 게이트웨이: 네트워크를 모니터링하는 데 사용되는 클라우드 기반 애플리케이션입니다. NetApp 스토리지 플랫폼과의 내장 통합을 통해 환경 데이터를 수집하고 네트워크를 모니터링할 수 있습니다. 이 서비스는 클라우드 포털과 통신하는 사이트에 설치된 로컬 게이트웨이를 사용하는 데 도움을 줍니다.</block>
   <block id="370f5a2dcf3c761999eec9796ac7cb95" category="list-text">Keystone 데이터 수집기: Keystone 수집기는 Keystone 고객에게 청구 서비스를 제공합니다. 이 애플리케이션은 Active IQ Unified Manager와 함께 번들로 제공됩니다. 이 툴은 5분 간격으로 ONTAP 및 StorageGRID 컨트롤러에서 데이터를 수집합니다. 데이터는 처리되고, 메타데이터는 청구 데이터 생성에 사용되는 AutoSupport 메커니즘을 통해 중앙 집중식 Active IQ 데이터 레이크에 전송됩니다. Active IQ 데이터 레이크는 청구 데이터를 처리한 후 Zuora에 전송해 비용을 청구합니다.</block>
   <block id="b061e71795ea0169fae5918033aa1426" category="inline-link-macro">Keystone Collector 설치 가이드</block>
-  <block id="b264c507ce69115ec3b1ea258739f71a" category="paragraph">AIOP 솔루션 게이트웨이는 다음 구성에 구축됩니다.</block>
-  <block id="3db5d9db3e9bbb96192cdbca3e683f2d" category="list-text">NetApp은 AIOP 솔루션을 사용하여 NetApp Keystone 환경을 능동적으로 모니터링하고 연결하여 문제를 해결합니다.</block>
-  <block id="f117a997c71ee803b4f42cc859317819" category="admonition">파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비스 요청이 파트너의 서비스 데스크에 할당됩니다. 파트너의 지원 툴은 AIOP 솔루션 및 GSSC 애플리케이션과 통합할 수 있습니다. L3 문제만 GSSC를 통해 NetApp으로 에스컬레이션됩니다.</block>
   <block id="eca1859cccb72b784538dc03d0802c4d" category="paragraph">BlueXP Digital Advisor 대시보드는 Keystone 가입 사용을 모니터링하고 보고서를 생성할 수 있는 그래픽 뷰와 드릴다운 기능을 제공합니다. Digital Advisor 대시보드 및 Keystone에 대한 자세한 내용은 를 참조하십시오 <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>.</block>
   <block id="2951c1f61944250838607486af8b4ac0" category="sidebar">Keystone Collector 업그레이드</block>
   <block id="aabaac678332e131002e20e29c167e21" category="paragraph">다음과 같은 일반 요구 사항이 충족되는지 확인합니다.</block>
@@ -836,9 +815,7 @@
   <block id="09bf9d4349f1cb8b47852b136c5b73f7" category="list-text">서비스는 11개 국가의 데이터 센터에서 지원됩니다.</block>
   <block id="d0aa2dffa0da83f1f34681308d04db5d" category="paragraph">로스앤젤레스</block>
   <block id="30b2358cb02ac28dab20e543f65090a3" category="inline-image-macro">수집기 구성 요소 내의 데이터 흐름을 표시합니다</block>
-  <block id="0eacfc824aac3b0caf281a91b0150a47" category="paragraph"><block ref="0eacfc824aac3b0caf281a91b0150a47" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cd7ff698af2c2f69b7a1e0b0f9bd6fc0" category="inline-image-macro">데이터 흐름</block>
-  <block id="70d6d93b80cc0f0a782725d14559b395" category="paragraph"><block ref="70d6d93b80cc0f0a782725d14559b395" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b8e36d91b1526b0c712db2327c72889e" category="inline-image-macro">키스톤</block>
   <block id="e55277c0c3f0e910a9213c7bc485b55e" category="paragraph"><block ref="e55277c0c3f0e910a9213c7bc485b55e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="61d927a1aed666979cd431fa1e2acade" category="inline-image-macro">체크 표시</block>
@@ -880,7 +857,6 @@
   <block id="d292740ed171285325a91f3bddbbc59d" category="list-text">_expected IOPS_는 계층화 정책이 "없음"으로 설정되고 클라우드에 블록이 없는 경우에만 FabricPool를 대상으로 합니다. _expected IOPS_는 SnapMirror 동기식 관계가 아닌 볼륨을 대상으로 합니다.</block>
   <block id="acad586f6e3c240e49bc22095d3d4c92" category="list-text">워크로드 IO 작업은 Keystone 순서에 따라 구축된 모든 컨트롤러 간에 균형을 이루어야 합니다.</block>
   <block id="e6329950dc4e8e2123e22d6e9b5d6db8" category="inline-image-macro">스택 관리</block>
-  <block id="385cf44e2725480b6b1fff1e85799b05" category="paragraph"><block ref="385cf44e2725480b6b1fff1e85799b05" category="inline-image-macro-rx" type="image"></block></block>
   <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">아이콘을 클릭합니다</block>
   <block id="afcefd303655b7f65e49ebd8be60e0e7" category="inline-image-macro">회색 점 아이콘</block>
   <block id="c0ffa381f5b727ea5de2afacc2018783" category="inline-image-macro">녹색 점 아이콘</block>
@@ -1021,10 +997,8 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="3a4be28bbb64456f61b6d1a38574d0ac" category="paragraph">최대 한도는 Keystone 계약에 따라 결정되고 지정됩니다. 일반적으로 약정 용량보다 20% 더 높습니다.</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">컴퓨팅, 스토리지, 네트워킹과 같은 클라우드 네이티브 서비스는 클라우드 공급자가 송장을 발행합니다.</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">이러한 서비스는 클라우드 스토리지 및 컴퓨팅 특성에 따라 다릅니다.</block>
-  <block id="250f7d64786be93dcfc476bdd51bca8f" category="list-text">AIOP 솔루션 게이트웨이는 클라우드 포털로의 TLS 세션을 시작합니다.</block>
   <block id="0c0de0453c5b0de437eb1976c3926361" category="paragraph">사이트 A와 사이트 B는 MetroCluster 구성으로 설정됩니다. 사용자가 사이트 A에서 10TB의 볼륨을 생성하면 사이트 B에서 동일한 10TB의 볼륨이 생성됩니다 Keystone은 각 사이트에서 10TB의 소비를 식별하여 20TB를 총 늘립니다. System Manager와 Unified Manager에서 사이트 A에 10TB 볼륨이 생성되었다고 보고하지만 사이트 B에 10TB 볼륨을 보고하지 않습니다</block>
   <block id="da20082463112c8970df057a21a7f47d" category="list-text">스토리지 컨트롤러를 포함한 Keystone 인프라</block>
-  <block id="91aa968d50f3d2ecebe3ba524c542adc" category="paragraph">NetApp은 Keystone 고객에게 모니터링 및 청구 같은 서비스를 제공하기 위해 모니터링 및 관리를 위해 설치된 하드웨어 및 소프트웨어 구성요소에 액세스해야 합니다. 가장 일반적인 방법은 고객 네트워크에 대한 VPN(가상 사설망) 연결을 설정하고 필요한 데이터에 액세스하는 것입니다. 고객이 방화벽 포트를 열고 새로운 서비스로 인해 발생하는 운영상의 복잡성을 극복하기 위해 모니터링 도구는 외부 연결을 시작합니다. AIOP 솔루션 및 Zuora와 같은 NetApp 클라우드 애플리케이션은 이 연결을 사용하여 각 서비스를 수행합니다. 이 방법은 이 서비스의 일부인 모니터링 구성 요소에 대한 액세스를 제공하면서 방화벽 포트를 열지 않는 고객의 요구 사항을 충족합니다.</block>
   <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">구독이 12개월 추가 기간 동안 갱신되지 않는 한, 약정 용량은 구독이 만료되기 90일 전에 늘릴 수 없습니다.</block>
   <block id="783e590ecfbaebc7caa0409a8cae6926" category="paragraph">파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스에는 자주 사용되지 않는 데이터를 식별하고 Keystone STaaS 지원 NetApp 콜드 스토리지에 계층화하는 계층화 기능이 포함됩니다. 콜드 데이터를 Keystone STaaS가 지원하는 비 NetApp 스토리지에 계층화하려는 경우 데이터 계층화를 애드온 서비스로 사용할 수 있습니다.</block>
   <block id="29a37414986b666b1caba06ea110bc8c" category="paragraph">계층화 애드온 서비스는 데이터가 AWS(Amazon Web Services) S3, Azure Blob, Google Cloud Platform(GCP) 및 기타 Keystone STaaS 지원, S3 호환, 타사 오브젝트 스토리지와 같은 타사 스토리지에 계층화된 경우에만 필요합니다.</block>
@@ -1034,7 +1008,6 @@ ONTAP MetroCluster에 대한 자세한 내용은 을 참조하십시오 <block r
   <block id="0d57513becb1cbc7c0fb1c95b5596678" category="paragraph">Keystone은 온프레미스 및 NetApp, 파트너 또는 고객이 운영하는 블록, 파일 및 오브젝트 데이터 유형에 대해 사전 정의된 서비스 수준에서 스토리지 용량을 제공합니다. Keystone은 선택한 하이퍼스케일 환경에 구축할 수 있는 Cloud Volumes ONTAP와 같은 NetApp 클라우드 서비스와 함께 사용할 수 있습니다.</block>
   <block id="8a559914d26628167b5f08a9373076e9" category="paragraph">NetApp은 NetApp Keystone 고객에게 운영 서비스를 원격으로 제공합니다. 이러한 서비스는 스토리지 관리 활동 전반에 걸쳐 다양한 운영 분야를 아우릅니다. 이러한 서비스에는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트, 인시던트 및 문제 관리, 서비스 요청 이행, 보고 등이 포함됩니다. NetApp는 필요에 따라 관리 상태와 증거 자료를 보여 줍니다.</block>
   <block id="380091ff4f618bba4a7e7e4aa88a1ec1" category="paragraph">Keystone Success Manager(KSM)는 귀사와 Keystone 서비스를 위해 긴밀하게 협력하며 주간 또는 월별 청구 및 운영 보고서에 기반하여 업데이트를 제공합니다. 책임은 NetApp Keystone 계약에 명시되어 있습니다.</block>
-  <block id="215f812eba5abfc5c6f2c8dd59899a86" category="paragraph">서비스 요청을 제기하기 전에 시스템 세부 정보, 로그 및 관련 정보가 준비되었는지 확인하십시오. 서비스 요청을 제출할 때 GSSC 팀은 지원 티켓을 수신하고 문제 해결을 위해 정보에 액세스합니다. ServiceNow 티켓에 따라 상태와 해결 방법을 알 수 있습니다.</block>
   <block id="e6493c4efe3fa5e48bce86284ff1aa5f" category="paragraph">예를 들어, 서비스 수준의 처리량을 계산합니다<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block> 서비스 수준:</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">가능한 경우, 미국 에서는 현장 및 원격 배포 및 설치 활동을 수행합니다 미국 시민권입니다 제공됩니다. 각주: 책임 부인 [현장 활동에 필요한 적절한 인력의 수는 Keystone 시스템이 구축된 지리적 위치에 따라 달라집니다.]</block>
   <block id="9415cbbaeaf88bca0512bbfe3c3cb334" category="paragraph">기본적으로 Keystone 상태 서비스는 localhost 이외의 IP로부터의 연결을 허용하지 않습니다. Keystone 상태 엔드포인트는 입니다<block ref="b2445934e628b68d6950a1056d38299a" prefix=" " category="inline-code"></block>또한 포트에서 Keystone Collector 서버의 모든 인터페이스를 수신합니다<block ref="d79c8788088c2193f0244d8f1f36d2db" prefix=" " category="inline-code"></block>. 쿼리 시 JSON 출력이 있는 HTTP 요청 상태 코드가 끝점에서 응답으로 반환되어 Keystone Collector 시스템의 상태를 설명합니다.
@@ -1105,8 +1078,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="bad75a53f85a771cf752894cc064a3b7" category="admonition">설치를 완료하면 Keystone Collector 관리 터미널 사용자 인터페이스(TUI) 유틸리티를 사용하여 구성 및 모니터링 작업을 수행할 수 있습니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다. 을 참조하십시오 <block ref="14e6b60cfb93c92598e40786e00457b6" category="inline-link-macro-rx"></block> 및 <block ref="81c399588663f35131a970a2d830c241" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="1ae3a07b6896d577a03f95172e8b37ab" category="paragraph">SnapLock 기술에 대한 자세한 내용은 을 참조하십시오<block ref="75641a5590d09822bddecb04bdc449c0" category="inline-link-rx"></block>.</block>
   <block id="12d485f3f9a8db1779ed73cf44c137be" category="paragraph">STaaS(Storage-as-a-Service) 오퍼링은 스토리지 인프라의 조달, 구축 및 관리에 필요한 퍼블릭 클라우드와 같은 모델을 제공하는 것을 목표로 합니다. 대부분의 기업이 아직 하이브리드 클라우드 전략을 수립하고 있지만, 고객은 OpEx-based_pay-per-use_consumption 모델을 선택할 수 있습니다. 모든 워크로드를 클라우드로 이동해야 하는 경우도 있지만, 특정 부분 또는 모든 워크로드를 클라우드로 마이그레이션할 계획이나 일정은 아직 없습니다. Keystone STaaS는 온프레미스 서비스로 시작한 후 나중에 클라우드 이전이 필요한 워크로드와 시점을 유연하게 결정할 수 있습니다. Keystone STaaS는 전체 구축 모델에 대한 약속 보호를 제공합니다. 클라우드 서비스에 더 많은 비용을 지불하는 대신, 온프레미스 고객은 온프레미스 비용을 재할당하여 클라우드 서비스를 추가하고 재할당 전에 커밋된 월간 상환액을 기본적으로 상환할 수 있습니다.</block>
-  <block id="ff3ee75715261a301448444dad2f844d" category="list-text">글로벌 서비스 연락처:
-<block ref="983f8b40dae4baa1de985ce6d2ebbb0c" category="inline-link-rx"></block></block>
   <block id="b2a258e6f0a0dc74fded47cb9cc5413c" category="paragraph"><block ref="b2a258e6f0a0dc74fded47cb9cc5413c" category="inline-link-rx"></block></block>
   <block id="de70c043bed2cffae85b828a6246d7e2" category="inline-image-macro">재할당 논리에 대해 설명합니다</block>
   <block id="2ac0f144048cf5fb3e17783ff993bfa0" category="paragraph"><block ref="2ac0f144048cf5fb3e17783ff993bfa0" category="inline-image-macro-rx" type="image"></block></block>
@@ -1498,7 +1469,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7053560fccb48096070dc008e686cf8d" category="summary">사용자 환경에서 NetApp Keystone STaaS 서비스를 지원하는 데 필요한 구성 요소에 관해 알아보십시오.</block>
   <block id="605e1ff8075e66e13ef5bc1257800be7" category="doc">배포에 필요한 구성 요소입니다</block>
   <block id="1d338514e4b31738eb689c9e5bf1deca" category="paragraph">현재 환경에서 NetApp Keystone STaaS 서비스를 지원하려면 몇 가지 구성 요소가 필요합니다. 시작하기 전에 이러한 구성 요소에 대한 세부 정보를 검토해야 합니다.</block>
-  <block id="147c46cde84c281f55a6c47d275ff845" category="paragraph">Keystone Collector 및 AIOP 솔루션 게이트웨이를 구축하려면 스토리지 가상 머신(스토리지 VM)이 필요합니다. Keystone Collector를 설치하기 위한 사전 요구사항은 여기 에서 확인할 수 <block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>있습니다. 다른 요구 사항은 배포 중에 공유됩니다.</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">Keystone Collector는 다음 방법을 통해 배포할 수 있습니다.</block>
   <block id="3332bc574644f77a870b242a631af1e3" category="summary">사용된 용량은 서비스 사용 중에 워크로드가 실제로 사용하는 용량입니다.</block>
   <block id="7a6709ab5e3b396814fccf37c263ad1f" category="paragraph">Keystone STaaS는 서비스 사용 중에 소비되는 용량을 기준으로 측정되었습니다. 사용된 용량은 워크로드에서 실제로 사용하는 용량입니다.</block>
@@ -1511,10 +1481,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="a129a1a3a2b62ad0169083e37600a64e" category="paragraph">Equinix에서는 다음과 같은 위치의 데이터 센터를 갖추고 있습니다.</block>
   <block id="baec7a90ff5a6d18f6dd7ef76c3e4998" category="summary">도움이 필요하면 NetApp 글로벌 서비스 및 지원 센터에 문의하십시오.</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">Keystone에 대한 도움을 받으십시오</block>
-  <block id="4ddf6c6712971dd15c713fad57953735" category="paragraph">NetApp GSSC(글로벌 서비스 및 지원 센터) 및 NetApp Keystone KSM(Success Manager)은 Keystone 구독에 대한 서비스를 제공할 책임이 있습니다. 도움이 필요한 경우 지원 팀에 문의할 수 있습니다.</block>
-  <block id="31ff08d41c8cc35bada27e791db4e753" category="section-title">NetApp 글로벌 서비스 및 지원 센터</block>
-  <block id="a38771031bc7d08419a9e331d277bafd" category="paragraph">NetApp 글로벌 서비스 및 지원 센터 팀은 기본적으로 NetApp Keystone 고객에 대한 서비스를 지원합니다. 다음 정보를 사용하여 지원 팀에 연락할 수 있습니다.</block>
-  <block id="add73d271d7391eeb698cf556eed70ac" category="paragraph">NetApp 글로벌 서비스 및 지원 센터는 고객의 제품 및 구독 서비스의 상태를 모니터링하고 원격 지원을 제공하며 Keystone 성공 관리자와 협업합니다. 관련 Keystone 구독 주문과 관련된 제품을 모니터링하는 모든 직원은 u입니다 미국 토양에서 활동하는 시민들.</block>
   <block id="24acde87a618c9dc2d11377311afc495" category="summary">Keystone 인프라, 설계, 기술 선택, 구성요소 제품은 NetApp의 전적인 재량에 따라 집니다.</block>
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp은 NetApp 및 고객 운영 환경 모두에 적용되는 Keystone의 인프라, 설계, 기술 선택 및 구성요소에 대한 전적인 책임을 집니다.</block>
   <block id="adf9ce2fefed448c1faa955a05142679" category="paragraph">NetApp은 다음과 같은 조치를 취할 권리를 보유합니다.</block>
@@ -1548,8 +1514,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="e561d7dfcd6620325c8edbb7b2c1d749" category="paragraph">NetApp Keystone STaaS 서비스는 다양한 유형의 스토리지 용량을 지원합니다. 서로 다른 용량 용어를 이해하면 Keystone을 사용하는 데 도움이 될 수 있습니다.</block>
   <block id="db7ef8b55156f5b6fc1f3807d49d1119" category="summary">Keystone STaaS 서비스는 ONTAP 및 StorageGRID를 지원합니다.</block>
   <block id="4e4be6640d3e6688fbc771ec3b218a39" category="doc">Keystone에서 지원되는 스토리지</block>
-  <block id="b04b9612a34a45ebf4b2053eb712e1de" category="summary">미국 시민 지원은 미국 영토에 거주하는 미국 시민으로부터 지속적인 Keystone 서비스를 제공하고 지원하는 추가 서비스입니다.</block>
-  <block id="efb798aa1e5f26018339774ed88a11c6" category="doc">USCS에 대해 알아보십시오</block>
   <block id="9bb097552337391bef04a8384c5c2779" category="summary">Keystone을 시작하기 전에 ONTAP 클러스터 및 StorageGRID 시스템이 몇 가지 요구사항을 충족하는지 확인해야 합니다.</block>
   <block id="5a289dbd2bdf9da48705d83b541e6b93" category="summary">ONTAP 클러스터에서 보내는 일일 지원 번들에 Keystone 데이터를 통합하도록 AutoSupport를 구성합니다.</block>
   <block id="eb592abffb734f57a7f3958cfe6176bd" category="summary">Keystone Collector가 스토리지 환경에서 사용량 데이터를 수집할 수 있도록 완벽한 구성</block>
@@ -1894,7 +1858,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="f9017eb4d160c5625e2911de7136c2fe" category="list-text">Unified Manager 서버는 포트 443(HTTPS)에서 Keystone Collector 서버를 통해 액세스할 수 있어야 합니다.</block>
   <block id="c55d18e0937cb0a3844d2da3ecbc7e82" category="list-text">Unified Manager 서버에서 Keystone Collector에 대해 애플리케이션 사용자 권한이 있는 서비스 계정을 설정해야 합니다.</block>
   <block id="4be679fb0c05782454656e48556dab1d" category="list-text">외부 인터넷 연결이 필요하지 않습니다.</block>
-  <block id="9fc9a5ce8278ada254052c62e048d22b" category="list-text">매달 Keystone Collector에서 파일을 내보내고 NetApp 지원 팀에 이메일로 보냅니다. 지원 팀에 문의하는 방법에 대한 자세한 내용은 을 <block ref="77e2a4ca04ba16c3bb0a4c8df0385121" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="b7e3d459da53b2456951d0a5d3237300" category="inline-link-macro">비공개 모드의 Keystone</block>
   <block id="d94b27c65b00f48ddf2590d54d34311d" category="list-text">Keystone Collector는 인터넷에 액세스할 수 없는 조직(_Dark site_또는_private mode_라고도 함)에 대해 구성할 수 있습니다. 에 대한 자세한 내용은 을 <block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="70746148197a1842a9455cddc0c18adc" category="paragraph">Keystone Collector는 연결 제한 없이 작동하는 _STANDARD_MODE 또는 연결 제한이 있는 조직을 위해 설계된 _PRIVATE_MODE 중 하나로 구성할 수 있습니다. Keystone Collector를 표준 모드로 설치하려면 을 <block ref="a9306132ed6aac4cbc6f1e3f3feb8703" category="inline-link-macro-rx"></block>참조하십시오. 개인 모드에 대해서는 을 <block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>참조하십시오.</block>
@@ -2081,4 +2044,118 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="749c79ba020f9d0aaf1b465f6dd56db8" category="inline-image-macro">사용자 추가 옵션을 보여 주는 스크린샷</block>
   <block id="c0a1f4b52f74dc2cd70fa3478d9d97ca" category="paragraph"><block ref="c0a1f4b52f74dc2cd70fa3478d9d97ca" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9406fb3af0e8e2bf8446823785c0e069" category="sidebar">데이터 인프라 인사이트</block>
+  <block id="137f19e6e2dc1219f33553b812627bc2" category="section-title">가상 머신</block>
+  <block id="7f76b7c3d58c94507679ec4e89236f5b" category="inline-link-macro">ITOM Collector 설치 요구 사항</block>
+  <block id="edf9f0e23de8308b9cbd2cee93fc5ce2" category="paragraph">Keystone Collector 및 ITOM Collector를 구축하려면 가상 머신이 필요합니다. 설치 필수 구성 요소에 대해서는 <block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>및 <block ref="9bc3880c82515bce110d54618fdd016a" category="inline-link-macro-rx"></block>을 참조하십시오. 다른 요구 사항은 배포 중에 공유됩니다.</block>
+  <block id="e928ba962ab987ce8326c040dd6a7083" category="paragraph">ITOM Collector는 다음 방법을 통해 배포할 수 있습니다.</block>
+  <block id="96791c51d091db61be7d6912c6675765" category="list-text">고객은 Debian 12, Ubuntu 20.04 LTS, Red Hat Enterprise Linux(RHEL) 8.x, Amazon Linux 2023 이상 버전에서 실행되는 Linux 서버를 제공합니다.</block>
+  <block id="1c6db71abb5563b4658fbc63f51e8b24" category="list-text">고객이 Windows Server 2016 이상 버전을 실행하는 Windows 서버를 제공합니다.</block>
+  <block id="1364c79d952bcd4745981c580d2edc5a" category="admonition">권장되는 운영 체제는 Debian 12, Windows Server 2016 또는 이후 버전입니다.</block>
+  <block id="43eefb573a809ff61e1c8d3d07813ee3" category="paragraph">고객 데이터 센터에 설치된 스토리지 인프라 또는 고객 소유의 코로케이션 서비스와 Keystone 운영 센터 간에 네트워크 연결이 필요합니다. 고객은 컴퓨팅 및 가상 시스템과 인터넷 서비스를 제공해야 합니다. 또한 고객은 내부 보안 정책을 기반으로 OS 패치(비 OVA 기반 배포) 및 보안 강화에 대한 책임이 있습니다. 네트워크 설계는 보안 프로토콜을 통해 이루어져야 하며 방화벽 정책은 NetApp 및 고객 모두가 승인한 것입니다.</block>
+  <block id="3bd97f0b75ad0b75e89607ca3389444d" category="paragraph">NetApp은 Keystone 고객에게 모니터링 및 청구 같은 서비스를 제공하기 위해 모니터링 및 관리를 위해 설치된 하드웨어 및 소프트웨어 구성요소에 액세스해야 합니다. 가장 일반적인 방법은 고객 네트워크에 대한 VPN(가상 사설망) 연결을 설정하고 필요한 데이터에 액세스하는 것입니다. 고객이 방화벽 포트를 열고 새로운 서비스로 인해 발생하는 운영상의 복잡성을 극복하기 위해 모니터링 도구는 외부 연결을 시작합니다. ITOM 모니터링 솔루션 및 Zuora와 같은 NetApp 클라우드 응용 프로그램은 이 연결을 사용하여 각 서비스를 수행합니다. 이 방법은 이 서비스의 일부인 모니터링 구성 요소에 대한 액세스를 제공하면서 방화벽 포트를 열지 않는 고객의 요구 사항을 충족합니다.</block>
+  <block id="daaeac371cb5600a69ff928296058e7c" category="paragraph">Keystone STaaS 시스템의 데이터는 관련 모니터링 시스템인 Keystone Collector 및 ITOM 모니터링 솔루션을 통해 흐릅니다.</block>
+  <block id="137a100b0d612b21a3e5cf73f112b6ad" category="paragraph"><block ref="137a100b0d612b21a3e5cf73f112b6ad" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="179406659d7fde9a1cfbcd5d2e57830c" category="paragraph">스토리지 인프라의 상태를 지속적으로 모니터링하는 것은 Keystone 서비스의 가장 중요한 기능 중 하나입니다. Keystone은 모니터링 및 보고를 위해 ITOM 모니터링 솔루션을 사용합니다. 다음 이미지는 ITOM 모니터링 솔루션을 통해 고객 위치에 대한 원격 액세스가 보호되는 방법을 설명합니다. 고객은 원격 세션 기능을 사용하도록 선택할 수 있습니다. 그러면 Keystone 지원 팀이 문제 해결을 위해 모니터링되는 장치에 연결할 수 있습니다.</block>
+  <block id="d28beba29b63444d6424d03c5390b388" category="paragraph"><block ref="d28beba29b63444d6424d03c5390b388" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16866b1071bb4f12cb7915045075b519" category="list-text">ITOM 모니터링 솔루션 게이트웨이는 클라우드 포털로의 TLS 세션을 시작합니다.</block>
+  <block id="451930752182f50216eef4cb75f0d96e" category="list-text">클라우드의 ITOM 모니터링 솔루션 서버가 연결을 수락합니다.</block>
+  <block id="66b4b72a98576d6a82927d721f9082ce" category="list-text">TLS 세션은 클라우드 포털과 로컬 게이트웨이 사이에 설정됩니다.</block>
+  <block id="6727d943adce470174c18dc949a30ae0" category="list-text">NetApp 컨트롤러는 SNMP/Syslog 프로토콜을 사용하여 경고를 보내거나 로컬 게이트웨이에 대한 API 요청에 응답합니다.</block>
+  <block id="c41ce7fe395738925814b2d06467e3ec" category="section-title">규정 준수 표준</block>
+  <block id="03242372ae5b03ca7f547f3cb7dab64f" category="inline-link-macro">DPA(Data Protection Addendum)</block>
+  <block id="a58e8ea096956351960d74a5b466e9e0" category="paragraph">Keystone ITOM 모니터링 솔루션은 유럽 연합 GDPR(General Data Protection Regulation) 및 CCPA(California Consumer Privacy Act)를 준수합니다. 이러한 약속을 문서화하기 위한 에도 를 <block ref="12861122e9a15898b646770ef3c2b260" category="inline-link-macro-rx"></block>제공합니다. ITOM 모니터링 솔루션은 개인 데이터를 수집하거나 저장하지 않습니다.</block>
+  <block id="9271c91f15a89ae66145641e94752632" category="paragraph">NetApp Keystone 지원 팀 및 Keystone 성공 관리자(KSM)는 Keystone 구독에 대한 서비스를 제공할 책임이 있습니다. 도움이 필요하면 Keystone 지원 팀에 문의할 수 있습니다.</block>
+  <block id="1d15537f2746347dfa1ac4acd53c9adb" category="section-title">NetApp Keystone 지원</block>
+  <block id="0f68b904e33d9ac04605aecc958bcf52" category="section-title">추가 정보</block>
+  <block id="49b12603d90b8d1e26781b4c49aa661a" category="paragraph">NetApp는 ITOM 모니터링 솔루션을 사용하여 문제 해결을 위해 NetApp Keystone 환경을 사전에 모니터링하고 연결합니다.</block>
+  <block id="aee6a3bc19432c3c01a246f89d46a987" category="admonition">파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비스 요청이 파트너의 서비스 데스크에 할당됩니다. 파트너의 지원 도구는 ITOM 솔루션과 통합될 수 있습니다.</block>
+  <block id="01a2b3dbd173b41f042686cdc48ed6d5" category="section-title">Keystone 지원 모니터링</block>
+  <block id="9c63af51824784bfae9cd146a00bdd21" category="paragraph">NetApp Keystone 지원은 NetApp 제품 및 구독 서비스의 상태를 모니터링하고 원격 지원을 제공하며 Keystone 성공 관리자와 협업합니다.</block>
+  <block id="4bb1ec7470540bdb0d6aeee19ef42670" category="paragraph">서비스 요청을 제기하기 전에 시스템 세부 정보, 로그 및 관련 정보가 준비되었는지 확인하십시오. 서비스 요청을 제출할 때 Keystone 지원 팀은 지원 티켓을 수신하고 문제 해결을 위한 정보에 액세스합니다. ServiceNow 티켓에 따라 상태와 해결 방법을 알 수 있습니다.</block>
+  <block id="d0b8f9213f7c1943447dc74174b7005a" category="list-text">ITOM 모니터링 솔루션, Active IQ 및 Active IQ Unified Manager와 같은 서비스를 관리하고 운영하는 도구.</block>
+  <block id="8851c6fe19bf967cca1a7747c9a0b08e" category="list-text">Keystone IT 운영 관리(ITOM) 모니터링 솔루션: Keystone 환경을 모니터링하는 데 사용되는 클라우드 기반 SaaS 애플리케이션입니다. NetApp 스토리지 플랫폼과의 통합 기능이 내장되어 있어 환경 데이터를 수집하고 Keystone 인프라의 컴퓨팅, 네트워크 및 스토리지 구성 요소를 모니터링할 수 있습니다. 이 모니터링 기능은 온프레미스 설정, 데이터 센터, 클라우드 환경 또는 이러한 구성 요소까지 확장됩니다. 이 서비스는 클라우드 포털과 통신하는 사이트에 설치된 로컬 ITOM Collector를 사용하여 활성화됩니다.</block>
+  <block id="1ff9ceb23d392b2e0eb7fcd6c3f61c34" category="paragraph"><block ref="1ff9ceb23d392b2e0eb7fcd6c3f61c34" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b9582a9d01a3bb00c5c7df318f3cd4ed" category="summary">미국 보호 지원은 미국 토양에 있는 미국 시민으로부터 지속적인 Keystone 서비스를 제공하고 지원하는 애드온 서비스입니다.</block>
+  <block id="3ed89ff08462e73f47156395fd0c75ac" category="doc">USPS에 대해 알아보십시오</block>
+  <block id="21fe13388dd575bae131356d62eb3d04" category="paragraph">USPS(미국 보호 지원)는 NetApp Keystone 구독에 대한 추가 서비스입니다. 이를 통해 미국 영토에 거주하는 미국 시민으로부터 지속적인 Keystone 서비스를 제공하고 지원할 수 있습니다.</block>
+  <block id="10d701676d6c78ebafad1c0adf816cc7" category="section-title">NetApp USPS 모니터링</block>
+  <block id="75d0ff56559c8650dad12b15a71e6950" category="paragraph">NetApp USPS Keystone 지원 팀은 고객의 제품 및 구독 서비스의 상태를 모니터링하고 원격 지원을 제공하며 Keystone 성공 관리자와 협력합니다. 관련 Keystone 구독 주문과 관련된 제품을 모니터링하는 모든 직원은 u입니다 미국 토양에서 활동하는 시민들.</block>
+  <block id="70a7925bd880e8632a66c41a83d2a2e9" category="list-text">매달 Keystone Collector에서 파일을 내보내고 NetApp 지원 팀에 이메일로 보냅니다. 지원 팀에 문의하는 방법에 대한 자세한 내용은 을 <block ref="2dd3cb549793fb90ba3abaee885c98ff" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="9c62788e882432afb4a67231a8793b98" category="summary">Linux 기반 시스템에 ITOM Collector 소프트웨어를 설치합니다.</block>
+  <block id="76c87a002b2f377e07b664132c3a197e" category="doc">Linux 시스템에 ITOM Collector를 설치합니다</block>
+  <block id="473f0144f9eff452e654f0b15b23fab1" category="paragraph">스토리지 환경에서 메트릭 데이터를 수집하는 ITOM Collector를 설치하는 몇 가지 단계를 완료합니다. 요구 사항에 따라 Windows 또는 Linux 시스템에 설치할 수 있습니다.</block>
+  <block id="ed5f434c9fb860090390831cf62c2cda" category="admonition">Keystone 지원 팀은 ITOM Collector 설정 파일을 다운로드할 수 있는 동적 링크를 제공합니다. 이 파일은 2시간 후에 만료됩니다.</block>
+  <block id="15e54aabc31e95c20bd5b9e9534cb8f3" category="inline-link-macro">Windows 시스템에 ITOM Collector를 설치합니다</block>
+  <block id="78c894c65eab257836a2fa2a880d28b4" category="paragraph">Windows 시스템에 ITOM Collector를 설치하려면 을 <block ref="d04ab87c73184a2a7be46f1ebca8138a" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="0469628de5f4d496f41adb03905fd222" category="paragraph">Linux 서버에 소프트웨어를 설치하려면 다음 단계를 수행하십시오.</block>
+  <block id="8dfe1a76c7708340f1a9c5c2da042672" category="list-text">Linux 설치 스크립트에 Bourne 셸을 사용할 수 있는지 확인합니다.</block>
+  <block id="21a7f021975f9926da34a1c18c2d1781" category="list-text"><block ref="a5b39ca919b44c4b20de11533d426fd3" prefix=" " category="inline-code"></block>패키지를 설치하여 ITOM Collector 설치 파일에 필요한 * xxd * 바이너리를 가져옵니다.</block>
+  <block id="0ec0c41988a7979f58ae73234195ffed" category="list-text">ITOM Collector를 루트가 아닌 사용자로 실행하려면 가<block ref="2974b76bb8b6b3ad0840b451721d13f3" prefix=" " category="inline-code"></block> 설치되어 있어야 합니다.</block>
+  <block id="1eab632bbcbedc9b6dd199a778338044" category="list-text">Linux 서버에 ITOM Collector 설정 파일을 다운로드합니다.</block>
+  <block id="af81ca81473ba340a8e57bfa13f48e41" category="list-text">서버에서 터미널을 열고 다음 명령을 실행하여 권한을 변경하고 바이너리를 실행 파일로 만듭니다.<block ref="4c1bdb3b42b686e644525cc5ebc20903" prefix=" " category="inline-code"></block></block>
+  <block id="103a1b6f97b780d9d5d4e2dd5fd11876" category="list-text">다음 명령을 실행하여 ITOM Collector 설정 파일을 시작합니다.<block ref="48ccf91210e9cc3f76224127818295e1" prefix=" " category="inline-code"></block></block>
+  <block id="987f69a9c64fc75031a80018493523ee" category="list-text">설치 파일을 실행하면 다음 메시지가 표시됩니다.</block>
+  <block id="d287a2c00d5fc479ec02c44e15915feb" category="list-text">최종 사용자 사용권 계약(EULA)에 동의합니다.</block>
+  <block id="e4581ea781ff41558849658bc2396372" category="list-text">설치에 대한 사용자 세부 정보를 입력합니다.</block>
+  <block id="764b4dd654d82af9df435bc3342b38b3" category="list-text">설치 상위 디렉토리를 지정합니다.</block>
+  <block id="a9f6d20bce0781102f878dc6d5929e12" category="list-text">수집기 크기를 선택합니다.</block>
+  <block id="e244fb07ad95ea6115c9f9fb0773e98b" category="list-text">해당하는 경우 프록시 세부 정보를 제공합니다.</block>
+  <block id="ef679c97f76c37ed8d59368b6f534a42" category="paragraph">각 프롬프트마다 기본 옵션이 표시됩니다. 특정 요구 사항이 없는 경우 기본 옵션을 선택하는 것이 좋습니다. Enter * 키를 눌러 기본 옵션을 선택합니다. 설치가 완료되면 ITOM Collector가 성공적으로 설치되었음을 확인하는 메시지가 표시됩니다.</block>
+  <block id="e745f331db61ec53e80cf6dc50cce124" category="list-text">ITOM Collector 설치 파일은 서비스 재시작 및 메모리 덤프를 처리하기 위해 에<block ref="6c109d6e94c97fb519007c1f06880582" prefix=" " category="inline-code"></block> 추가합니다.</block>
+  <block id="091667f5525be41b118e74bea7f11636" category="list-text">Linux 서버에 ITOM Collector를 설치하면 * ITOM * 이라는 기본 사용자가 만들어져 루트 Privileges 없이 ITOM Collector를 실행할 수 있습니다. 다른 사용자를 선택하거나 루트로 실행할 수 있지만 Linux 설치 스크립트로 만든 ITOM 사용자를 사용하는 것이 좋습니다.</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
+  <block id="6a2b2a3198f14986193621fc68f7d1b0" category="paragraph">설치가 완료되면 Keystone 지원 팀에 문의하여 ITOM 지원 포털을 통해 ITOM Collector가 성공적으로 설치되었는지 확인합니다. 확인 후 Keystone 지원 팀은 추가 장치 검색 및 모니터링 설정을 포함하여 ITOM Collector를 원격으로 구성하고 구성이 완료되면 확인 메시지를 보냅니다. 문의 사항이나 추가 정보는 keystone.services@ NetApp.com에 문의하십시오.</block>
+  <block id="c8c33002525e3af8118ac88b999e0a36" category="summary">Windows 기반 시스템에 ITOM Collector를 설치합니다.</block>
+  <block id="9a1aca3d0a5022aa5c935121f269f5da" category="paragraph">ITOM Collector 설정 파일을 다운로드하고 InstallShield 마법사를 실행한 다음 필요한 모니터링 자격 증명을 입력하여 Windows 시스템에 ITOM Collector를 설치합니다.</block>
+  <block id="cc466e787bcb3bcc61f4d18911009dd3" category="paragraph">요구 사항에 따라 Linux 시스템에 설치할 수 있습니다. Linux 시스템에 ITOM Collector를 설치하려면 을 <block ref="27b59bee15cd9541248108e38df9589e" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="78b7c5e4378b650d67d668c8aae60c6d" category="paragraph">Windows 서버에 ITOM Collector 소프트웨어를 설치하려면 다음 단계를 수행하십시오.</block>
+  <block id="a13a5fc563489a1109d5d87f428f77b9" category="paragraph">ITOM Collector 서비스가 부여되었는지 확인 * Windows 서버의 로컬 보안 정책 설정에 있는 로컬 정책/사용자 권한 할당 아래의 서비스로 로그온 *.</block>
+  <block id="1778106db6e3aca4579c648608f40eb8" category="list-text">ITOM Collector 설정 파일을 Windows 서버에 다운로드합니다.</block>
+  <block id="1ec09dc4e6db38b1f452962c210006b6" category="list-text">설치 파일을 열어 InstallShield 마법사를 시작합니다.</block>
+  <block id="5f9e970fd1f32ef2b46ec34c48880830" category="list-text">최종 사용자 사용권 계약(EULA)에 동의합니다. InstallShield 마법사가 필요한 바이너리를 추출하고 자격 증명을 입력하라는 메시지를 표시합니다.</block>
+  <block id="c03cade745ec5543fe1bd8588393bafd" category="list-text">ITOM Collector가 실행할 계정의 자격 증명을 입력합니다.</block>
+  <block id="8afb8b7b6e5ba46146a989919c02a849" category="list-text">ITOM Collector가 다른 Windows 서버를 모니터링하지 않는 경우 로컬 시스템을 사용합니다.</block>
+  <block id="316b1f7d821d723eb574667b6cb9302b" category="list-text">ITOM Collector가 동일한 도메인의 다른 Windows 서버를 모니터링하는 경우 로컬 관리자 권한이 있는 도메인 계정을 사용합니다.</block>
+  <block id="12b899c7f1e72badef82e030788edfc8" category="list-text">ITOM Collector가 동일한 도메인에 속하지 않는 다른 Windows 서버를 모니터링하는 경우 로컬 관리자 계정을 사용하고 로컬 관리자 자격 증명을 사용하여 각 리소스에 연결합니다. ITOM Collector와 모니터링되는 리소스 간의 인증 문제를 줄이기 위해 만료되지 않도록 암호를 설정할 수 있습니다.</block>
+  <block id="004bff76ec6e0eda1b94e3ffc3ba1ad7" category="list-text">수집기 크기를 선택합니다. 기본값은 설치 파일을 기준으로 권장되는 크기입니다. 구체적인 요구 사항이 없는 경우 제안된 크기를 계속 진행합니다.</block>
+  <block id="e97143745b175c3b72479889956c6a2b" category="list-text">설치를 시작하려면 _Next_를 선택하십시오. 채워진 폴더를 사용하거나 다른 폴더를 선택할 수 있습니다. 상태 상자에 설치 진행률이 표시된 후 InstallShield 마법사 완료 대화 상자가 나타납니다.</block>
+  <block id="6cf5a787f8e9babecd7e3e62b472c0f1" category="summary">ITOM Collector를 설치하려면 시스템이 여러 요구 사항을 충족해야 합니다.</block>
+  <block id="067857c91d7e95767cebced037df51fc" category="paragraph">ITOM Collector를 설치하기 전에 시스템에 필요한 소프트웨어가 준비되어 있고 필요한 모든 필수 구성 요소를 충족하는지 확인하십시오.</block>
+  <block id="382c090cdf20988adebc3da3af734475" category="list-title">ITOM Collector 서버 VM의 사전 요구 사항:</block>
+  <block id="f086ae2281105a95b9f676071bb5da54" category="list-text">지원되는 운영 체제: Debian 12, Windows Server 2016, Ubuntu 20.04 LTS, Red Hat Enterprise Linux(RHEL) 8.x, Amazon Linux 2023 또는 이러한 운영 체제의 최신 버전.</block>
+  <block id="756e04f777f1ed6cee954325099dfc00" category="list-text">리소스 요구 사항: 모니터링되는 NetApp 노드 수에 따른 VM 리소스 요구 사항은 다음과 같습니다.</block>
+  <block id="a008248e3966fc8b2c95be03552c4466" category="list-text">2-10개 노드: CPU 4개, 8GB RAM, 40GB 디스크</block>
+  <block id="ab3a29aba303bfd353ff5e6fb0b2db96" category="list-text">12-20개 노드: CPU 8개, 16GB RAM, 40GB 디스크</block>
+  <block id="a2257f11d613296885301983ffe6776d" category="list-text">구성 요구 사항: 모니터링되는 장치에 읽기 전용 계정과 SNMP가 구성되어 있는지 확인합니다. ITOM Collector 서버 VM도 NetApp 클러스터 및 클러스터 스위치에서 SNMP 트랩 호스트 및 Syslog 서버로 구성해야 합니다(해당하는 경우).</block>
+  <block id="e4c91d77f6e08017c82c7fdd34476249" category="paragraph">다음 표에는 ITOM Collector의 네트워킹 요구 사항이 나와 있습니다.</block>
+  <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">프로토콜</block>
+  <block id="407c4e9fac86b98147da49acd4fa0d01" category="cell">포트</block>
+  <block id="859944346c3dd9a26e3d2b955b505719" category="cell">ITOM 수집기</block>
+  <block id="ee5ece347c0f7881a3c0fc86f9fdcffa" category="cell">NetApp ONTAP 클러스터 관리 IP</block>
+  <block id="3ac5095d5929679753e1ca6589d594ce" category="cell">HTTPS, SNMP</block>
+  <block id="008117d5243d637d0f718d44531d6195" category="cell">TCP 443, UDP 161</block>
+  <block id="401590a5f8ea5fcc8af254e7154db96a" category="cell">ONTAP 컨트롤러 모니터링</block>
+  <block id="cfad39dcf092a0e70fbecdad147efce3" category="cell">NetApp ONTAP 클러스터 및 노드 관리 IP</block>
+  <block id="ad064e6c7842af70fa17d071f3d73376" category="cell">SNMP, Syslog</block>
+  <block id="0631e975432229862b992ba6076ff584" category="cell">UDP 162, UDP 514</block>
+  <block id="3cb8f57e4b0f5634e015d61f58d5a285" category="cell">컨트롤러의 SNMP 트랩 및 Syslog</block>
+  <block id="f267a68fd1c8bddcc992701898021398" category="cell">클러스터 스위치</block>
+  <block id="305af65222ed3fff91f5c8bcdfe17162" category="cell">SNMP를 선택합니다</block>
+  <block id="d6bf88c792de5d84a555c4437037d09c" category="cell">UDP 161 를 참조하십시오</block>
+  <block id="3e0245f7e867ca454b47cb5cebcebed8" category="cell">스위치 모니터링</block>
+  <block id="101456c198283ec795d2c8241d55e9b7" category="cell">스위치의 SNMP 트랩 및 Syslog</block>
+  <block id="791a8f03040c18a43dcbd68302786ae7" category="cell">StorageGRID 노드 IP</block>
+  <block id="e73f9940bf39eca2e6c94f83f892d044" category="cell">StorageGRID의 SNMP 모니터링</block>
+  <block id="0230fd83cc5847de0511e75c4a9bc734" category="cell">StorageGRID의 SNMP 트랩</block>
+  <block id="3a7a184ceb1bfebf10c52fb898098871" category="cell">SSH, HTTPS, SNMP를 선택합니다</block>
+  <block id="04bb5e2ca7fa6728ad7244e65be06704" category="cell">TCP 22, TCP 443, UDP 161</block>
+  <block id="979f40d640a4eef558bbb55c64add9a1" category="cell">Keystone Collector 모니터링 및 원격 관리</block>
+  <block id="2e9c43ef7b6bd474b0531e7ee01ed0da" category="cell">로컬 DNS</block>
+  <block id="a9382e24532861463ad8c02646d03ec7" category="cell">UDP 53 를 참조하십시오</block>
+  <block id="604e16aef35dcff33260b6091ac4de5b" category="cell">공용 또는 사설 DNS 서비스</block>
+  <block id="b8238d20e6d90959c58ff56a063bce2c" category="cell">선택한 NTP 서버입니다</block>
+  <block id="e6b92e04e8bdad7c1346f8024d1fca8d" category="cell">시간 유지</block>
+  <block id="fee7b996a8ab0bee47684563d23b4926" category="sidebar">ITOM Collector를 설치합니다</block>
+  <block id="8869eeb557230a1ee1c042d1156e4eef" category="sidebar">Windows에 설치합니다</block>
+  <block id="fbb165d9f99339f62e1190730a20d297" category="sidebar">USPS(미국 보호 지원)</block>
 </blocks>
