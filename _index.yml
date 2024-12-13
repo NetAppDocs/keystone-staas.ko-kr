@@ -13,10 +13,10 @@ indexpage:
     links:
     - title: NetApp Keystone란 무엇입니까?
       url: "/concepts/overview.html"
-    - title: VMware vSphere에 Keystone Collector를 설치합니다
+    - title: Keystone Collector를 설치합니다
       url: "/installation/vapp-installation.html"
-    - title: Linux에 Keystone Collector를 설치합니다
-      url: "/installation/linux-installation.html"
+    - title: ITOM Collector를 설치합니다
+      url: "/installation/itom-prereqs.html"
     - title: Keystone Collector를 비공개 모드로 설치합니다
       url: "/dark-sites/overview.html"
     - title: Digital Advisor에서 사용 현황을 확인합니다
@@ -49,12 +49,14 @@ indexpage:
       url: "/concepts/burst-consumption-billing.html"
   - title: Keystone 서비스로 더 많은 작업 수행
     links:
-    - title: 지원 팀 파악(Keystone GSSC)
+    - title: 지원 팀을 파악합니다
       url: "/concepts/gssc.html"
     - title: 콜드 데이터 또는 덜 사용되는 데이터로 무엇을 할 수 있는가?
       url: "/concepts/data-tiering.html"
     - title: Keystone 데이터를 어떻게 보호할 수 있습니까?
       url: "/concepts/adp.html"
+    - title: 스토리지를 모니터링, 문제 해결 및 개선합니다
+      url: "/concepts/data-infra-insights.html"
     - title: Keystone과 BlueXP
       url: "/integrations/keystone-cm.html"
     - title: 미국 시민 지원

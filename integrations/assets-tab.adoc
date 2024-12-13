@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
-summary: 자산 탭을 사용하여 Keystone 구독에서 관리하는 클러스터와 노드에 대한 세부 정보를 볼 수 있습니다. 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID 
+summary: 자산 탭을 사용하면 ONTAP 클러스터와 노드, Keystone 구독으로 관리되는 StorageGRID 그리드, 사이트 및 노드의 세부 정보를 볼 수 있습니다. 
 ---
-= Keystone으로 관리되는 클러스터 및 노드 세부 정보 보기
+= Keystone으로 관리되는 클러스터 및 그리드 세부 정보를 봅니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,20 +14,41 @@ summary: 자산 탭을 사용하여 Keystone 구독에서 관리하는 클러스
 
 
 [role="lead"]
-Asset * 탭을 사용하여 Keystone 구독에서 관리되는 클러스터와 노드에 대한 세부 정보를 볼 수 있습니다.
+자산 * 탭을 사용하면 ONTAP 클러스터와 노드, StorageGRID 그리드, 사이트 및 Keystone 구독으로 관리되는 노드의 세부 정보를 볼 수 있습니다.
 
-Digital Advisor는 배포에 대한 포괄적인 인벤토리 수준 정보를 제공합니다. 반면, Keystone 대시보드의 * Assets * 탭은 구독에 따라 클러스터 레벨 정보를 누적하며 정확한 레벨의 정보로 분할하여 제공합니다.
+Keystone 대시보드의 * Assets * 탭에는 * ONTAP * 와 * StorageGRID * 의 두 개의 하위 탭이 포함되어 있습니다. 이 탭은 구독 기준으로 ONTAP에 대한 클러스터 레벨 정보와 StorageGRID의 그리드 레벨 정보를 누적하여 데이터를 분리하고 정확한 세부 정보로 제공합니다. 각 하위 탭을 클릭하여 이 정보를 볼 수 있습니다.
 
+[role="tabbed-block"]
+====
+.ONTAP
+--
 .단계
-. 일반 > Keystone 구독 > 자산 * 을 클릭합니다.
+. 일반 > Keystone 구독 > 자산 > ONTAP * 을 클릭합니다.
 . 클러스터를 보려는 구독 번호를 선택합니다.
 +
-스토리지 효율성 설정, 플랫폼 유형 및 용량 세부 정보별로 클러스터 세부 정보를 확인할 수 있습니다. 클러스터 중 하나를 클릭하면 Digital Advisor 화면의 * Clusters * 위젯으로 이동하여 해당 클러스터에 대한 추가 정보를 볼 수 있습니다.
+스토리지 효율성 설정, 플랫폼 유형 및 용량 세부 정보별로 클러스터 세부 정보를 확인할 수 있습니다. 클러스터 중 하나를 클릭하면 Digital Advisor 화면의 * Clusters * 위젯으로 이동하여 해당 클러스터에 대한 추가 정보를 볼 수 있습니다. Digital Advisor는 배포에 대한 포괄적인 인벤토리 수준 정보를 제공합니다.
+
++
+image:assets-tab-3.png["ONTAP에 대한 클러스터 레벨의 정보를 보여주는 스크린샷"]
 
 
 
-image:assets-tab-3.png["자산 탭"]
+--
+.StorageGRID
+--
+.단계
+. 일반 > Keystone 구독 > 자산 > StorageGRID * 을 클릭합니다.
+. 가입 번호를 선택합니다.
++
+그리드 세부 정보는 그리드 및 노드 식별자, 사이트 정보, 하드웨어 사양 및 용량 세부 정보별로 분류되어 StorageGRID 인프라에서 노드를 모니터링하고 관리하는 데 도움이 됩니다.
 
++
+image:assets-tab-storagegrid.png["StorageGRID에 대한 그리드 수준 정보를 표시하는 스크린샷"]
+
+
+
+--
+====
 * 관련 정보 *
 
 * link:../integrations/aiq-keystone-details.html["Keystone 대시보드 및 보고를 사용합니다"]
