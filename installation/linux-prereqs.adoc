@@ -102,7 +102,7 @@ Keystone Collector(일반)
  a| 
 HTTPS
  a| 
-TCP 80, TCP 443
+TCP 443
  a| 
 필수(인터넷 연결)
  a| 

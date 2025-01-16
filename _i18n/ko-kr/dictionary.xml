@@ -118,7 +118,6 @@
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">서브스크립션 기간 동안 약정 용량을 변경할 수 있습니다. 그러나 다음과 같은 몇 가지 전제 조건이 있습니다.</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="inline-link-macro">용량 절감</block>
   <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">커밋된 용량은 특정 조건에 따라 감소될 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>.</block>
-  <block id="1df0745e84cded8b1998d4aaf3fce411" category="inline-link-macro">NetApp 글로벌 서비스 지원 센터</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">사용된 용량</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">버스트 용량</block>
   <block id="b6e76ea727138e1a2c7199dd3f0874db" category="section-title">비용 청구 용량</block>
@@ -346,7 +345,6 @@
   <block id="c32944bc40d1accb43f1f8bfaf090dce" category="paragraph">애드온 계층화 서비스에 대한 비용은 전체 구독 기간을 통해 적용됩니다.</block>
   <block id="e72611e56e05f623af5dc7011928a294" category="admonition">NetApp은 Cloud Volumes ONTAP에 필요한 하이퍼스케일 기반 컴퓨팅, 스토리지 및 네트워크 서비스를 Keystone STaaS 가입의 일부로 제공하지 않습니다. 하이퍼스케일 클라우드 서비스 공급자로부터 직접 서비스를 조달해야 합니다.</block>
   <block id="e18765eb2b8dddd29b66918ffb976fcc" category="paragraph">Keystone STaaS 구독은 매월 및 매년 청구됩니다.</block>
-  <block id="5979b85a79f05c1c731acd749343d5ff" category="list-text">BlueXP 인터페이스 또는 Keystone 성공 관리자(KSM)를 통해 약정 용량에 대한 변경을 요청할 수 있습니다. 변경 요청에 대한 자세한 내용은 을 참조하십시오 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>.</block>
   <block id="9b25613e0d8ca22f20fe93edf63407f1" category="cell">* 샘플 워크로드 유형 *</block>
   <block id="548dcac52aca7f6902fd2de4648c5e9e" category="cell">* 볼륨당 저장된 최대 IOPS/논리적 GB *</block>
   <block id="93ed1a757e360a886c7ba5a5d93ba089" category="cell">* 볼륨당 저장된 최대 IOPS/논리적 TiB *</block>
@@ -486,7 +484,6 @@
   <block id="5f76d762520637f1eb1b8dd5e4b71129" category="paragraph">TCP 443</block>
   <block id="e89ab59baea830bd940c300886c50efe" category="paragraph">필수입니다</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">인터넷(나중에 제공된 URL 요구 사항에 따라)</block>
-  <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80, TCP 443</block>
   <block id="882da07ddabac1aa28b5f358bcbeb2ce" category="paragraph">필수(인터넷 연결)</block>
   <block id="01633331ef3bca3e96b0dfd60ceb54bd" category="paragraph">Keystone Collector 소프트웨어, OS 업데이트 및 메트릭 업로드</block>
   <block id="18cc1486462950320ca2ccc7310af46b" category="paragraph">고객 HTTP 프록시</block>
@@ -1143,8 +1140,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">송장 발행된 누적 버스트 보기</block>
   <block id="393673167b0e2f5fe79a42f45c884852" category="admonition">송장 발행된 버스트 사용량은 서비스 수준의 커밋된 용량 및 사용된 용량을 기준으로 청구 기간별로 계산됩니다.</block>
   <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager(Unified Manager) 9.10 이상</block>
-  <block id="81f184376266ed69a659d0030be070fc" category="list-text">RPM 데이터베이스에서 Keystone 청구 플랫폼에 대한 지문을 확인하여 올바른 공개 인증서를 가져왔는지 확인합니다.<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>
-올바른 지문은 다음과 같습니다.<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
   <block id="cbe21b6da30db10de9cd33de72b5dc48" category="paragraph">SnapLock 기술은 볼륨에 설정된 만료 날짜 이후에 드라이브를 사용할 수 없도록 하여 NRNVC 기능을 활성화합니다. 볼륨에 SnapLock 기술을 사용하려면 NRNVC를 구독해야 합니다. 이는 파일 및 블록 서비스에만 적용됩니다.</block>
   <block id="25ee4dffb8ff9627245188cd5d5a88f9" category="paragraph">Keystone(NetApp Keystone)은 확장에 따른 지불 방식의 구독 기반 서비스 모델로, OpEx 소비 모델을 선호하는 기업에 원활한 하이브리드 클라우드 경험을 제공하여 자본 지출 또는 임대를 지원합니다.</block>
   <block id="14ef43baeaecb16eed97981bac41fa1a" category="paragraph">Keystone을 통해 고객은 예측할 수 없는 용량 증가 및 복잡한 조달 주기를 관리하는 데 따르는 장애물이 줄어 비즈니스 가치를 신속하게 창출할 수 있습니다. Keystone을 통해 고객은 비즈니스 우선순위에 맞게 경제성과 운영을 조정할 수 있습니다.</block>
@@ -1470,7 +1465,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="db35003a371cb115e382b44e289c2eba" category="doc">Equinix에서 제공하는 코로케이션 서비스에 대해 자세히 알아보십시오</block>
   <block id="89cb717227b1e2f0129bc67abb7b696c" category="paragraph">NetApp은 서비스형 전체 스택 솔루션을 제공하기 위해 Equinix 데이터 센터에서 NetApp Keystone STaaS 서비스를 호스팅하기 위해 Equinix와 파트너 관계를 맺었습니다.</block>
   <block id="a129a1a3a2b62ad0169083e37600a64e" category="paragraph">Equinix에서는 다음과 같은 위치의 데이터 센터를 갖추고 있습니다.</block>
-  <block id="baec7a90ff5a6d18f6dd7ef76c3e4998" category="summary">도움이 필요하면 NetApp 글로벌 서비스 및 지원 센터에 문의하십시오.</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">Keystone에 대한 도움을 받으십시오</block>
   <block id="24acde87a618c9dc2d11377311afc495" category="summary">Keystone 인프라, 설계, 기술 선택, 구성요소 제품은 NetApp의 전적인 재량에 따라 집니다.</block>
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp은 NetApp 및 고객 운영 환경 모두에 적용되는 Keystone의 인프라, 설계, 기술 선택 및 구성요소에 대한 전적인 책임을 집니다.</block>
@@ -1600,7 +1594,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="9eae698db2f9979943823c8ee1440c7d" category="paragraph">공식을 사용하는 경우: 서비스 크레딧 = (10/100) X 1000 x 0.05</block>
   <block id="df3634b399ce52d35f1816fa036f42b4" category="paragraph">계산에 따르면 서비스 크레딧은 5달러입니다.</block>
   <block id="182bf07a2845568515ca20b4e4654296" category="section-title">서비스 크레딧 요청</block>
-  <block id="d914d7b4a96bed82ab1c41c97e6c5742" category="paragraph">SLA 위반이 감지된 경우 Keystone 글로벌 서비스 및 지원 센터(GSSC)에서 우선순위 3(P3) 지원 티켓을 여십시오.</block>
   <block id="6d3089ef2f50007a659aa12b3a7415f8" category="list-text">다음 세부 정보가 필요합니다.</block>
   <block id="e3e23368bff57e5796042f5fba6c3fbd" category="list-text">Keystone 구독 번호</block>
   <block id="5e27e36d07d4a7286d88cd834cfbd611" category="list-text">볼륨 및 스토리지 컨트롤러 세부 정보입니다</block>
@@ -1608,11 +1601,8 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="de0480c0f5c929948100ece899e9724e" category="list-text">지연 시간을 감지하는 계산된 시간입니다</block>
   <block id="f657fc20931370f67393f5612ec70ffe" category="list-text">측정 도구 및 방법</block>
   <block id="2ecd994c3d59e0ce0211ab40d4167837" category="list-text">기타 해당 문서</block>
-  <block id="dc33a5089714f6579a5ab21118922cef" category="list-text">Keystone GSSC로 개설된 P3 티켓에 대해 아래 표시된 대로 Excel 시트에 세부 정보를 제공합니다.</block>
   <block id="892db0165f2238f40c3370386d79cac7" category="inline-image-macro">Excel 시트 템플릿</block>
   <block id="f0fbc9cddebee973debd106e878bebdd" category="paragraph"><block ref="f0fbc9cddebee973debd106e878bebdd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eb0abc09e7b5678911ee2656102c8868" category="list-text">GSSC에서 위반이 확인되면 6주 이내에 서비스 크레딧 요청을 개시해야 합니다. 모든 서비스 크레딧은 NetApp에서 승인하고 승인해야 합니다.</block>
-  <block id="45a3835755fcd6b1bf728c884bcc8d34" category="list-text">서비스 크레딧은 향후 송장에 적용될 수 있습니다. 만료된 Keystone 구독에는 서비스 크레딧이 적용되지 않습니다. 자세한 내용은 을 <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">지속 가능성, SLA, 서비스 수준 계약</block>
   <block id="4bcbaed6ba1519c1f0036c82537ffc1f" category="doc">성능 SLA</block>
   <block id="8c9a4601149bbf6f607b6419227dc5e3" category="paragraph">NetApp Keystone은 다음에 열거된 이용 약관에 따라 소비된 용량에 대해 Keystone 주문에서 최대 버스트 제한까지 설명된 대로 서비스 수준별 지연 시간 기반 SLA를 제공합니다.</block>
@@ -1681,7 +1671,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="1190761e382695cb9416b27ee7eed4d3" category="paragraph">3 - 7</block>
   <block id="f5c2de6939fdeaa3904b08a1fad7a2d3" category="paragraph">15%</block>
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
-  <block id="87b656ee6c82131afa7ac0871d8168e8" category="paragraph">SLA 위반이 감지된 경우 Keystone 글로벌 서비스 및 지원 센터(GSSC)에서 우선순위 3(P3) 지원 티켓을 개설하고 아래 표시된 대로 Excel 시트에서 요청된 세부 정보를 제공하십시오.</block>
   <block id="b16f882170095725eb371909f87f469f" category="paragraph">막대 차트는 단기 버스트를 표시하며 확대 기능을 사용하여 이러한 버스트를 볼 수 있습니다. 단기 연사가 있는 경우 해당 막대에 파란색 점으로 표시되거나 데이터가 사용되지 않는 경우 X축에 직접 표시됩니다. 세부 정보를 보려면 파란색 점이 나타나는 막대 또는 X축을 클릭하고 누른 상태에서 커서를 차트 위로 끌어 원하는 시간 간격을 선택한 다음, 손을 떼면 선택 내용이 확인됩니다. 이 작업을 수행하면 데이터가 확대되어 선택한 간격 동안 해당 서비스 수준에서 사용된 용량을 보다 세밀하게 볼 수 있습니다. Reset Zoom(확대/축소 재설정) * 버튼을 클릭하여 원래 차트 보기로 돌아갈 수 있습니다.</block>
   <block id="78a0f8f91a436c9b95253697658f1b15" category="inline-image-macro">소비 경향 탭(세부 정보 포함</block>
   <block id="0dd96295669c1478814661e7ab071d6e" category="paragraph"><block ref="0dd96295669c1478814661e7ab071d6e" category="inline-image-macro-rx" type="image"></block></block>
@@ -1966,7 +1955,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="e7a731a6342f126055b89b80d800a180" category="cell">논리적</block>
   <block id="ce898d62ed9ca7653a01fe0c781e97e9" category="cell">물리적</block>
   <block id="77755c419ef346c65225a7d2709520ab" category="paragraph">MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>.</block>
-  <block id="138155ee615aaf4d4e698be7c61a12c0" category="paragraph">송장 발행된 버스트 * 옵션을 선택한 경우 선택한 결제 기간에 따라 월별 또는 분기별로 누적된 버스트 사용량 데이터를 볼 수 있습니다. 이 데이터는 청구된 지난 12개월 동안 사용할 수 있으며 지난 30개월 동안 날짜 범위로 쿼리할 수 있습니다. 막대 차트에는 송장 발행된 데이터가 표시되며 사용량이 아직 청구되지 않은 경우 해당 기간에 대해 _Pending_으로 표시됩니다.</block>
   <block id="df54e0aa337c00aed9738ce50d6f7d40" category="paragraph">분기별 청구 기간의 경우, 해당 월의 1일 이외의 날짜에 가입이 시작되면 분기별 청구서에는 이후 90일 기간이 적용됩니다. 예를 들어 8월 15일에 구독이 시작되는 경우 8월 15일부터 10월 14일까지 송장이 생성됩니다.</block>
   <block id="a15b1d5c20a80360a519fdba86f9d359" category="paragraph">분기별 청구에서 월별 청구로 전환하더라도 분기별 청구서에는 여전히 90일 기간이 적용되며, 분기별 청구 기간에 대해 각각 하나씩, 나머지 날짜에 대해 두 개의 송장이 생성됩니다. 이 전환을 통해 매월 청구 기간이 다음 달 1일에 시작됩니다. 예를 들어 구독이 10월 15일에 시작되는 경우 월 청구 기간이 2월 1일에 시작되기 전에 1월에 각각 10월 15일부터 1월 14일까지, 1월 15일부터 31일까지 송장 두 장을 받게 됩니다.</block>
   <block id="19c39546a17d632b3f81a88517195dcb" category="inline-image-macro">분기별로 누적된 버스트 사용량입니다</block>
@@ -1975,8 +1963,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="abdc803a1b380f3cb4c996e2b30a1820" category="paragraph"><block ref="abdc803a1b380f3cb4c996e2b30a1820" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0bf27b930a0841a9485431dd01de3f4" category="admonition">고급 데이터 보호 애드온 서비스에 가입한 경우 가입 번호에 대한 도구 설명을 클릭하여 MetroCluster 설정에서 파트너 가입의 추적 ID를 확인할 수 있습니다. MetroCluster 구성에서 파트너 구독별 상세 소비를 확인하는 방법은 을 참조하십시오.<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block></block>
   <block id="24685db79ee3df152404bc24333590fd" category="paragraph">2024년 11월 21일</block>
-  <block id="2531cde1a4803cc2a1ae862eb5d81705" category="paragraph">구독에 대한 보고서를 생성할 수 없습니다</block>
-  <block id="4b22f859addb0f523b4eb20c8a3de953" category="paragraph">Keystone 구독 * 페이지의 * 구독 * 탭에서 10-12개 이상의 구독을 선택한 경우 * CSV * 다운로드 버튼을 클릭하면 각 서비스 수준에 대한 데이터 포함 * 옵션이 포함된 보고서가 생성되지 않습니다.</block>
   <block id="01e50fa0cb5ca9093067bd7f7b5ce77d" category="section-title">송장 발행된 증액 버스트</block>
   <block id="68282426b20517fa5a804475f31878a9" category="paragraph">이제 분기별 청구 기간을 선택한 경우 * 송장 누적된 버스트 * 옵션을 통해 분기별로 누적된 버스트 사용량 데이터를 볼 수 있습니다. 자세한 내용은 을 <block ref="b9f581509f4f5c092d1e1e258ec0cc04" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="f916fd7c91361d368cb72a24d8c89422" category="section-title">볼륨 세부 정보 탭의 새 열</block>
@@ -2182,4 +2168,29 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="653181dc830ebbf1153310c93a009c52" category="list-text">데비안 12</block>
   <block id="015c84a3348885955ce882f1beed478e" category="list-text">Red Hat Enterprise Linux 8.6 이상 8.x 버전</block>
   <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7(기존 환경 전용)</block>
+  <block id="265561b81e51364d306e58144832b7a8" category="summary">도움이 필요하면 NetApp Keystone 지원 팀에 문의하십시오.</block>
+  <block id="9dc4e2b4f34e5f118e35019c46b06a4a" category="paragraph">SLA 위반이 감지되면 NetApp Keystone 지원 팀과 함께 우선 순위 3(P3) 지원 티켓을 엽니다.</block>
+  <block id="5ece80a8e6fc51ca90ea8b795dbe7f83" category="list-text">NetApp Keystone 지원 부서에서 개설한 P3 티켓에 대해 아래 표시된 대로 Excel 시트에 세부 정보를 제공합니다.</block>
+  <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">서비스 크레딧 요청은 NetApp Keystone 지원 부서에서 위반이 확인된 후 6주 이내에 시작해야 합니다. 모든 서비스 크레딧은 NetApp에서 승인하고 승인해야 합니다.</block>
+  <block id="193dec405e65293a13ce97bb2c01440c" category="list-text">서비스 크레딧은 향후 송장에 적용될 수 있습니다. 만료된 Keystone 구독에는 서비스 크레딧이 적용되지 않습니다. 자세한 내용은 을 <block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">SLA 위반이 감지되면 NetApp Keystone 지원 팀과 함께 우선 순위 3(P3) 지원 티켓을 개설하고 아래 표시된 대로 Excel 시트에서 요청된 세부 정보를 제공합니다.</block>
+  <block id="87b542a75a4c78cc8d36c595c7c05de1" category="list-text">BlueXP 인터페이스 또는 Keystone 성공 관리자(KSM)를 통해 약정 용량에 대한 변경을 요청할 수 있습니다. 변경 요청에 대한 자세한 내용은 을 <block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="b22fed8db0bb580ac39be331b010b1cd" category="list-text">RPM 데이터베이스에서 Keystone 청구 플랫폼의 지문을 확인하여 올바른 공용 인증서를 가져왔는지 확인합니다. 올바른 지문은 다음과 같습니다<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block>.<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block></block>
+  <block id="46c3e6e27fbc70afa310c1553eb52893" category="paragraph">송장 발행된 버스트 * 옵션을 선택한 경우 선택한 청구 기간에 따라 월별 또는 분기별로 누적된 버스트 데이터 사용량을 볼 수 있습니다. 이 데이터는 청구된 지난 12개월 동안 사용할 수 있으며 지난 30개월 동안 날짜 범위로 쿼리할 수 있습니다. 막대 차트에는 송장 발행된 데이터가 표시되며 사용량이 아직 청구되지 않은 경우 해당 기간에 대해 _Pending_으로 표시됩니다.</block>
+  <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">매일 누적된 버스트 데이터 사용량을 봅니다</block>
+  <block id="5f79c46e242a47bee55e1f47143a24eb" category="paragraph">월별 또는 분기별 청구 기간 동안 매일 누적된 버스트 데이터 사용량을 볼 수 있습니다. 송장이 발행된 데이터를 표시하는 막대를 클릭하면 Billable Provisioned Capacity(청구 가능 용량) 섹션이 막대 차트 아래에 나타나며 * Graph * 및 * Table * 보기 옵션이 제공됩니다. 기본 그래프 보기에서는 일별 누적된 버스트 데이터 사용량을 선 그래프 형식으로 표시하여 시간에 따른 사용량 변화를 보여 줍니다.</block>
+  <block id="bc3f9a56f76203c42fc9f8ff6b19fe46" category="inline-image-macro">가로 막대형 차트를 보여 주는 스크린샷</block>
+  <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eba7556a1fc4fd160e9d81ddb2112a3e" category="paragraph">선형 그래프에 일일 누적된 버스트 데이터 사용량을 보여주는 예제 이미지:</block>
+  <block id="515f3b344653c49257ced259fb9261bd" category="inline-image-macro">연속 사용 데이터를 선 그래프 형식으로 보여 주는 스크린샷</block>
+  <block id="47fdc60b1d26d7e27d3b186be572a4d8" category="paragraph"><block ref="47fdc60b1d26d7e27d3b186be572a4d8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afb651343eb4e95550b828492b0990bf" category="paragraph">그래프의 오른쪽 위에 있는 * Table * 옵션을 클릭하여 표 보기로 전환할 수 있습니다. 테이블 뷰는 서비스 수준, 타임스탬프, 약정 용량, 사용된 용량 및 청구 가능한 프로비저닝 용량을 비롯한 자세한 일별 사용 메트릭을 제공합니다. 나중에 사용하고 비교할 수 있도록 이러한 세부 정보에 대한 보고서를 CSV 형식으로 생성할 수도 있습니다.</block>
+  <block id="ef839937832da4065ea73d2af5bb0212" category="inline-image-macro">버스트 사용량 데이터를 표 형식으로 보여 주는 스크린샷</block>
+  <block id="fd4179e96bb6b563483e2da193ee3515" category="paragraph"><block ref="fd4179e96bb6b563483e2da193ee3515" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c47baa61c22503bd11f03c33a6eb4733" category="paragraph">Keystone 구독 * 페이지의 * 구독 * 탭에서 10-12개 이상의 구독을 선택할 경우 구독에 대한 보고서를 생성할 수 없습니다.</block>
+  <block id="823d73fac48b123a5c54fb36b35fa946" category="paragraph">2025년 01월 08일</block>
+  <block id="0210cb3765fda3047d9297b0f453ca44" category="paragraph">QoS 정책 유형이 잘못 표시됩니다</block>
+  <block id="2fd8a3db64e08617acb19923d6feb044" category="paragraph">볼륨 세부 정보 * 탭에서 * QoS 정책 유형 * 열은 QoS 정책이 적용되지 않으면 _QOS_를 표시하고 준수 열에 _NOT SET_가 표시되어 표시된 QoS 정책 상태의 불일치를 유발합니다.</block>
+  <block id="6fac87c4e304acd1c313d83787f9b7bd" category="section-title">매일 누적된 데이터 사용량 보기 옵션 추가</block>
+  <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">이제 송장 발행된 데이터를 표시하는 막대를 클릭하여 월별 또는 분기별 청구 기간에 대한 그래프 또는 표 형식으로 일별 누적 버스트 데이터 사용량을 볼 수 있습니다. 자세한 내용은 을 <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>참조하십시오.</block>
 </blocks>

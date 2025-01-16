@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/gssc.html 
 keywords: Keystone support, service request, support ticket 
-summary: 도움이 필요하면 NetApp 글로벌 서비스 및 지원 센터에 문의하십시오. 
+summary: 도움이 필요하면 NetApp Keystone 지원 팀에 문의하십시오. 
 ---
 = Keystone에 대한 도움을 받으십시오
 :hardbreaks:
