@@ -19,7 +19,13 @@ summary: Keystone Collector를 설치하기 전에 필요한 소프트웨어로 
 Linux 및 Keystone Collector 서버 VM에 이러한 구성이 있는지 확인합니다.
 
 .Linux 서버:
-* 운영 체제: RHEL 8.x 시리즈 내의 CentOS 7 또는 Red Hat Enterprise Linux(RHEL) 8.6 이상 버전
+* 운영 체제: 다음 중 하나:
++
+** 데비안 12
+** Red Hat Enterprise Linux 8.6 이상 8.x 버전
+** CentOS 7(기존 환경 전용)
+
+
 * 약어 시간 동기화됨
 * 표준 Linux 소프트웨어 저장소에 대한 액세스
 

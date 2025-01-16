@@ -14,10 +14,12 @@ summary: YUM 소프트웨어 저장소에서 Keystone Collector 소프트웨어�
 
 
 [role="lead"]
-Keystone Collector 소프트웨어는 온라인 YUM 소프트웨어 저장소에 의해 배포됩니다. Linux 서버에서 파일을 가져오고 설치해야 합니다.
+RPM 또는 데비안 패키지를 사용하여 Linux 서버에 Keystone Collector 소프트웨어를 설치할 수 있습니다. Linux 배포에 따라 설치 단계를 따릅니다.
 
-Linux 서버에 소프트웨어를 설치하려면 다음 단계를 수행하십시오.
-
+[role="tabbed-block"]
+====
+.RPM 사용
+--
 . Keystone Collector 서버로 SSH를 수행하고 로 승격합니다 `root` 권한.
 . Keystone 공개 서명 서명 서명 가져오기:
 `# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
@@ -36,5 +38,22 @@ Linux 서버에 소프트웨어를 설치하려면 다음 단계를 수행하십
 `# yum install keystone-collector`
 
 
+--
+.데비안 사용하기
+--
+. Keystone Collector 서버에 SSH로 연결하고 권한을
+`sudo su` 상승합니다. `root`
+.  `keystone-sw-repo.deb`다음 파일을 다운로드합니다.
+`curl -O https://keystone.netapp.com/downloads/keystone-sw-repo.deb`
+. Keystone 소프트웨어 저장소 파일을 설치합니다.
+`# dpkg -i keystone-sw-repo.deb`
+. 패키지 목록 업데이트:
+`# apt-get update`
+. Keystone 리포지토리가 설치되면 키스톤-수집기 패키지를 설치합니다.
+`# apt-get install keystone-collector`
+
+
+--
+====
 
 NOTE: 설치를 완료하면 Keystone Collector 관리 터미널 사용자 인터페이스(TUI) 유틸리티를 사용하여 구성 및 모니터링 작업을 수행할 수 있습니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다. 을 참조하십시오 link:../installation/configuration.html["Keystone Collector 구성"] 및 link:../installation/monitor-health.html["시스템 상태를 모니터링합니다"] 를 참조하십시오.
