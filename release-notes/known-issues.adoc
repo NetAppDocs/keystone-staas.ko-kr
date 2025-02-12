@@ -4,7 +4,7 @@ permalink: release-notes/known-issues.html
 keywords: netapp, keystone, release notes, known issues 
 summary: 알려진 문제에서는 Keystone 구독 서비스를 효과적으로 사용하지 못할 수 있는 문제를 식별합니다. 
 ---
-= 알려진 문제
+= Keystone STaaS의 알려진 문제
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -21,6 +21,15 @@ NetApp Keystone STaaS에는 다음과 같은 알려진 문제가 보고됩니다
 [cols="3*"]
 |===
 | 알려진 문제입니다 | 설명 | 해결 방법 
+
+
+ a| 
+기록 데이터를 볼 수 없습니다
+ a| 
+소비 경향 * 탭에서, 구독이 만료되고 동일한 추적 ID로 갱신되면 이전 구독과 연관된 서비스 수준이 표시되지 않으며 서비스 수준이 다릅니다. 이 경우 기간별 소비 데이터에 대한 액세스 권한이 손실됩니다.
+ a| 
+없음
+
 
 
  a| 
