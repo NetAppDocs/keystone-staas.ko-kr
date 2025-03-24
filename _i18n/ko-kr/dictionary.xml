@@ -2183,7 +2183,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eba7556a1fc4fd160e9d81ddb2112a3e" category="paragraph">선형 그래프에 일일 누적된 버스트 데이터 사용량을 보여주는 예제 이미지:</block>
   <block id="515f3b344653c49257ced259fb9261bd" category="inline-image-macro">연속 사용 데이터를 선 그래프 형식으로 보여 주는 스크린샷</block>
-  <block id="47fdc60b1d26d7e27d3b186be572a4d8" category="paragraph"><block ref="47fdc60b1d26d7e27d3b186be572a4d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="afb651343eb4e95550b828492b0990bf" category="paragraph">그래프의 오른쪽 위에 있는 * Table * 옵션을 클릭하여 표 보기로 전환할 수 있습니다. 테이블 뷰는 서비스 수준, 타임스탬프, 약정 용량, 사용된 용량 및 청구 가능한 프로비저닝 용량을 비롯한 자세한 일별 사용 메트릭을 제공합니다. 나중에 사용하고 비교할 수 있도록 이러한 세부 정보에 대한 보고서를 CSV 형식으로 생성할 수도 있습니다.</block>
   <block id="ef839937832da4065ea73d2af5bb0212" category="inline-image-macro">버스트 사용량 데이터를 표 형식으로 보여 주는 스크린샷</block>
   <block id="fd4179e96bb6b563483e2da193ee3515" category="paragraph"><block ref="fd4179e96bb6b563483e2da193ee3515" category="inline-image-macro-rx" type="image"></block></block>
@@ -2195,7 +2194,10 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">이제 송장 발행된 데이터를 표시하는 막대를 클릭하여 월별 또는 분기별 청구 기간에 대한 그래프 또는 표 형식으로 일별 누적 버스트 데이터 사용량을 볼 수 있습니다. 자세한 내용은 을 <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="0488df5729275bc610c775109a5e97ed" category="doc">Keystone STaaS의 문제 해결</block>
   <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Keystone STaaS의 알려진 문제</block>
-  <block id="cf456956bf4b18082e3ed1243aff31f5" category="paragraph">기록 데이터를 볼 수 없습니다</block>
-  <block id="7b19f6e9d0fb85adf96f95ba11a7325e" category="paragraph">소비 경향 * 탭에서, 구독이 만료되고 동일한 추적 ID로 갱신되면 이전 구독과 연관된 서비스 수준이 표시되지 않으며 서비스 수준이 다릅니다. 이 경우 기간별 소비 데이터에 대한 액세스 권한이 손실됩니다.</block>
   <block id="1dd6b840b80d1691b68b67682f45c121" category="doc">알려진 제한 사항: Keystone STaaS</block>
+  <block id="d84ae5b6becc67f38fe4f478e713f236" category="paragraph"><block ref="d84ae5b6becc67f38fe4f478e713f236" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="71246a468b7dd0ee3663403dfb3f159b" category="paragraph">Digital Advisor 대시보드의 * Reports * 에 * Keystone 구독 * 옵션 및 * Reports * 에 * 구독 번호 * 옵션이 없습니다.</block>
+  <block id="738bb3187467e21f957b2120a45e356a" category="paragraph">2025년 03월 19일</block>
+  <block id="f2c2ba26aedbdce8dba144e80789d0b1" category="paragraph">Digital Advisor 대시보드에서 시청목록 생성 또는 수정 후 * 시청목록 * 에서 Keystone 구독이 몇 개 누락되었습니다.</block>
+  <block id="dd3b859a25ffcf974732975af6e5a4e9" category="paragraph">만료되어 동일한 추적 ID로 갱신되었지만 다른 서비스 수준으로 갱신된 구독과 연결된 서비스 수준에 대한 * 소비 경향 * 탭에서 기록 데이터를 볼 수 없습니다.</block>
 </blocks>
