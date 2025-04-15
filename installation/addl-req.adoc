@@ -26,6 +26,34 @@ Keystone을 시작하기 전에 ONTAP 클러스터 및 StorageGRID 시스템이 
 
 
 .시작하기 전에
+ONTAP를 통해서만 사용 데이터를 수집하려는 경우 다음 요구 사항을 충족해야 합니다.
+
+. ONTAP 9.8 이상이 구성되어 있는지 확인합니다. 새 클러스터를 구성하는 방법에 대한 자세한 내용은 다음 링크를 참조하십시오.
++
+** https://docs.netapp.com/us-en/ontap/task_configure_ontap.html["System Manager를 사용하여 새 클러스터에서 ONTAP를 구성합니다"]
+** https://docs.netapp.com/us-en/ontap/software_setup/task_create_the_cluster_on_the_first_node.html["CLI를 사용하여 클러스터 설정"]
+
+
+. 특정 역할을 사용하여 ONTAP 로그인 계정을 생성합니다. 자세한 내용은 을 https://docs.netapp.com/us-en/ontap/authentication/create-svm-user-accounts-task.html#cluster-and-svm-administrators["ONTAP 로그인 계정 생성에 대해 자세히 알아봅니다"]참조하십시오.
++
+** 웹 UI *
++
+... 기본 자격 증명을 사용하여 ONTAP System Manager에 로그인합니다. 자세한 내용은 을 https://docs.netapp.com/us-en/ontap/concept_administration_overview.html["System Manager를 이용한 클러스터 관리"]참조하십시오.
+... "readonly" 역할과 "http" 애플리케이션 유형으로 ONTAP 사용자를 생성하고 * 클러스터 > 설정 > 보안 > 사용자 * 로 이동하여 암호 인증을 사용하도록 설정합니다.
+
+
+** * CLI *
++
+... 기본 자격 증명을 사용하여 ONTAP CLI에 로그인합니다. 자세한 내용은 을 https://docs.netapp.com/us-en/ontap/system-admin/index.html["CLI를 사용한 클러스터 관리"]참조하십시오.
+... "readonly" 역할과 "http" 응용 프로그램 유형으로 ONTAP 사용자를 생성하고 암호 인증을 활성화합니다. 인증에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/ontap/authentication/enable-password-account-access-task.html["ONTAP 계정 암호 액세스를 활성화합니다"]참조하십시오.
+
+
+
+
+
+
+Active IQ Unified Manager를 통해 사용 데이터를 수집하려는 경우 다음 요구 사항을 충족해야 합니다.
+
 . Unified Manager 9.10 이상이 구성되어 있는지 확인합니다. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.
 +
 ** https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["VMware vSphere 시스템에 Unified Manager 설치"^]
