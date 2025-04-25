@@ -34,9 +34,7 @@ image:dark-site-mode-1.png["Darksite 모드입니다"]
 . Start KS Collector with System * 필드를 토글합니다.
 . ONTAP 사용량 수집 * 필드를 토글합니다. Active IQ Unified Manager(Unified Manager) 서버 및 사용자 계정의 세부 정보를 추가합니다.
 . * 선택 사항 *: 가입에 데이터 계층화가 필요한 경우 * 계층화 비율 계획 사용 * 필드를 전환합니다.
-+
-구매한 구독 유형에 따라 * 사용 유형 * 을 업데이트합니다.
-
+. 구매한 구독 유형에 따라 * 사용 유형 * 을 업데이트합니다.
 +
 
 NOTE: 구성하기 전에 NetApp에서 구독과 연결된 사용 유형을 확인하십시오.
