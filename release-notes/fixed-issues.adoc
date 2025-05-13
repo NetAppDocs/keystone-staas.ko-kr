@@ -22,6 +22,15 @@ summary: 이전 릴리스의 NetApp Keystone STaaS 서비스에서 발견된 문
 
 
  a| 
+공통 설정이 누락되어 StorageGRID용 Keystone Collector가 올바르게 구성되지 않습니다.
+ a| 
+고정
+ a| 
+2025년 05월 12일
+
+
+
+ a| 
 Keystone Collector가 9.11 미만의 버전을 실행하는 ONTAP 클러스터에 대한 사용 데이터를 수집하지 못합니다.
  a| 
 고정

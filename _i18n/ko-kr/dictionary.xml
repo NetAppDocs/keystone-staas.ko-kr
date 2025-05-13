@@ -2229,4 +2229,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="b2a0ad297e26236d750246160723aa4e" category="list-text">원본 볼륨 크기의 10%를 초과하는 클론 볼륨을 저장하는 데 사용되는 논리적 용량입니다.</block>
   <block id="93fcc6bc4dfbcffb60fef19d3e82a054" category="list-text">스냅샷 복사본의 차등 데이터를 저장하는 데 사용되는 물리적 용량</block>
   <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">할당된 물리적 용량입니다.</block>
+  <block id="b972ea8fcf6c823010b9b37178b9d608" category="paragraph">공통 설정이 누락되어 StorageGRID용 Keystone Collector가 올바르게 구성되지 않습니다.</block>
+  <block id="3af3083ee373e5ebbb20d7719411dd4c" category="paragraph">2025년 05월 12일</block>
 </blocks>
