@@ -22,6 +22,15 @@ summary: 이전 릴리스의 NetApp Keystone STaaS 서비스에서 발견된 문
 
 
  a| 
+데비안 패키지를 사용하여 설치된 기존 Keystone Collector가 Keystone Collector 관리 TUI를 통해 HTTP 프록시를 구성하거나 Unified Manager를 활성화하려고 하면 TUI가 응답하지 않습니다.
+ a| 
+고정
+ a| 
+2025년 05월 19일
+
+
+
+ a| 
 공통 설정이 누락되어 StorageGRID용 Keystone Collector가 올바르게 구성되지 않습니다.
  a| 
 고정

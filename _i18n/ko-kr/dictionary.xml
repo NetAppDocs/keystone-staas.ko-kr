@@ -2231,4 +2231,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">할당된 물리적 용량입니다.</block>
   <block id="b972ea8fcf6c823010b9b37178b9d608" category="paragraph">공통 설정이 누락되어 StorageGRID용 Keystone Collector가 올바르게 구성되지 않습니다.</block>
   <block id="3af3083ee373e5ebbb20d7719411dd4c" category="paragraph">2025년 05월 12일</block>
+  <block id="e52daa0a0f5a4268d3b3cd4835eb59fa" category="paragraph">데비안 패키지를 사용하여 설치된 기존 Keystone Collector가 Keystone Collector 관리 TUI를 통해 HTTP 프록시를 구성하거나 Unified Manager를 활성화하려고 하면 TUI가 응답하지 않습니다.</block>
+  <block id="2d8e5cb76ecb9ff05fdec5e05251eb14" category="paragraph">2025년 05월 19일</block>
 </blocks>
