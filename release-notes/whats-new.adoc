@@ -16,7 +16,24 @@ summary: NetApp은 모든 Keystone STaaS 서비스에서 새롭고 향상된 기
 [role="lead"]
 NetApp은 모든 Keystone STaaS 서비스에서 새롭고 향상된 기능을 제공합니다.
 
-Active IQ 디지털 어드바이저(디지털 어드바이저라고도 함)의 * Keystone 구독 * 화면에 다음과 같은 개선 사항이 도입되었습니다.
+
+
+== 2025년 06월 19일
+
+
+
+=== BlueXP의 Keystone 대시보드
+
+이제 BlueXP에서 Keystone 대시보드에 바로 액세스할 수 있습니다. 이 통합을 통해 모든 Keystone 구독과 다른 NetApp 서비스를 한곳에서 모니터링, 관리 및 추적할 수 있습니다.
+
+BlueXP의 Keystone 대시보드를 사용하면 다음을 수행할 수 있습니다.
+
+* 모든 구독 세부 정보, 용량 사용량 및 자산을 한 곳에서 확인하세요.
+* 필요에 따라 구독을 쉽게 관리하고 변경을 요청하세요.
+* 귀하의 스토리지 환경에 대한 최신 정보를 받아보세요.
+
+
+시작하려면 BlueXP 왼쪽 탐색 메뉴에서 *저장소 > 키스톤*으로 이동하세요. 자세한 내용은 을 link:../integrations/dashboard-overview.html["Keystone 대시보드 개요"^]참조하십시오.
 
 
 
@@ -26,7 +43,7 @@ Active IQ 디지털 어드바이저(디지털 어드바이저라고도 함)의 *
 
 === 매일 누적된 데이터 사용량 보기 옵션 추가
 
-이제 송장 발행된 데이터를 표시하는 막대를 클릭하여 월별 또는 분기별 청구 기간에 대한 그래프 또는 표 형식으로 일별 누적 버스트 데이터 사용량을 볼 수 있습니다. 자세한 내용은 을 link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage["매일 누적된 버스트 데이터 사용량을 봅니다"]참조하십시오.
+이제 송장 발행된 데이터를 표시하는 막대를 클릭하여 월별 또는 분기별 청구 기간에 대한 그래프 또는 표 형식으로 일별 누적 버스트 데이터 사용량을 볼 수 있습니다. 자세한 내용은 을 link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["매일 누적된 버스트 데이터 사용량을 봅니다"]참조하십시오.
 
 
 
@@ -58,7 +75,7 @@ Keystone 구독 * 화면의 * 자산 * 탭에는 * ONTAP * 및 * StorageGRID * �
 
 === 송장 발행된 증액 버스트
 
-이제 분기별 청구 기간을 선택한 경우 * 송장 누적된 버스트 * 옵션을 통해 분기별로 누적된 버스트 사용량 데이터를 볼 수 있습니다. 자세한 내용은 을 link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["송장 발행된 누적 버스트 보기"^]참조하십시오.
+이제 분기별 청구 기간을 선택한 경우 * 송장 누적된 버스트 * 옵션을 통해 분기별로 누적된 버스트 사용량 데이터를 볼 수 있습니다. 자세한 내용은 을 link:../integrations/consumption-tab.html#view-accrued-burst["송장 발행된 누적 버스트 보기"^]참조하십시오.
 
 
 
@@ -80,7 +97,7 @@ Keystone 구독 * 화면의 * 자산 * 탭에는 * ONTAP * 및 * StorageGRID * �
 
 === 향상된 보고서 생성
 
-이제 Digital Advisor의 보고서 기능을 사용하여 Keystone 데이터의 세부 정보를 볼 수 있는 통합 보고서를 생성할 수 있습니다. 자세한 내용은 을 link:../integrations/aiq-keystone-details.html#generate-consolidated-report["통합 보고서 생성"^]참조하십시오.
+이제 Digital Advisor의 보고서 기능을 사용하여 Keystone 데이터의 세부 정보를 볼 수 있는 통합 보고서를 생성할 수 있습니다. 자세한 내용은 다음을 참조하세요. link:../integrations/options.html#generate-consolidated-report-from-digital-advisor["통합 보고서 생성"^] .
 
 
 
@@ -136,7 +153,7 @@ Keystone 구독 * 화면이 업데이트되어 모든 탭에 선택된 구독 �
 
 === 단기간 버스트를 위한 확대 기능
 
-이제 * Capacity Trend * 탭에는 사용 차트에서 단기 폭주에 대한 세부 정보를 볼 수 있는 확대 기능이 포함되어 있습니다. 자세한 내용은 을 link:../integrations/capacity-trend-tab.html["Capacity Trend(용량 추세) 탭"^]참조하십시오.
+이제 * Capacity Trend * 탭에는 사용 차트에서 단기 폭주에 대한 세부 정보를 볼 수 있는 확대 기능이 포함되어 있습니다. 자세한 내용은 을 link:../integrations/consumption-tab.html["Capacity Trend(용량 추세) 탭"^]참조하십시오.
 
 
 
@@ -254,7 +271,7 @@ Keystone 구독 * 위젯의 이전 대시보드에서 소비 데이터의 타임
 
 === 누적된 연기에 대해 반환된 송장 데이터
 
-이제 * Capacity Trend * 탭에서 * Accounted Burst * 의 레이블이 * Invoiced Accounting Burst * 로 수정됩니다. 이 옵션을 선택하면 청구된 누적 버스트 데이터의 월별 차트를 볼 수 있습니다. 자세한 내용은 을 link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["송장 발행된 누적 버스트 보기"^]참조하십시오.
+이제 * Capacity Trend * 탭에서 * Accounted Burst * 의 레이블이 * Invoiced Accounting Burst * 로 수정됩니다. 이 옵션을 선택하면 청구된 누적 버스트 데이터의 월별 차트를 볼 수 있습니다. 자세한 내용은 을 link:../integrations/consumption-tab.html#view-accrued-burst["송장 발행된 누적 버스트 보기"^]참조하십시오.
 
 
 
@@ -276,4 +293,4 @@ Digital Advisor의 감시 목록에 대한 지원이 Keystone 시스템까지 �
 
 === UTC 시간대로 변환된 날짜
 
-Digital Advisor의 * Keystone 가입 * 화면의 탭에 반환된 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리에 날짜를 입력하면 UTC 시간으로 자동 간주됩니다. 자세한 내용은 을 참조하십시오 link:../integrations/aiq-keystone-details.html["Keystone 구독 대시보드 및 리포팅"^].
+Digital Advisor의 *Keystone 구독* 화면 탭에 반환된 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리에 날짜를 입력하면 UTC 시간으로 자동 간주됩니다. 자세한 내용은 을 link:../integrations/keystone-aiq.html["Keystone 구독 대시보드 및 리포팅"^]참조하십시오.

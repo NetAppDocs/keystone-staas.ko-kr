@@ -16,7 +16,7 @@ summary: 데이터 계층화 애드온 서비스는 자주 사용되지 않는 �
 [role="lead"]
 파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스에는 자주 사용되지 않는 데이터를 식별하고 Keystone STaaS 지원 NetApp 콜드 스토리지에 계층화하는 계층화 기능이 포함됩니다. 콜드 데이터를 Keystone STaaS가 지원하는 비 NetApp 스토리지에 계층화하려는 경우 데이터 계층화를 애드온 서비스로 사용할 수 있습니다.
 
-표준 및 추가 서비스에 대한 자세한 내용은 을 참조하십시오 link:../concepts/supported-storage-services.html["Keystone STaaS 서비스"]. 서비스 수준에 대한 자세한 내용은 을 참조하십시오 link:../concepts/service-levels.html["Keystone의 서비스 수준"].
+표준 및 추가 서비스에 대한 정보는 다음을 참조하세요. link:../concepts/supported-storage-services.html["Keystone STaaS 서비스"] . 성과 서비스 수준에 대한 정보는 다음을 참조하세요. link:../concepts/service-levels.html["키스톤의 성능 서비스 수준"] .
 
 계층화 애드온 서비스는 데이터가 AWS(Amazon Web Services) S3, Azure Blob, Google Cloud Platform(GCP) 및 기타 Keystone STaaS 지원, S3 호환, 타사 오브젝트 스토리지와 같은 타사 스토리지에 계층화된 경우에만 필요합니다.
 

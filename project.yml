@@ -21,9 +21,9 @@ sidebar:
       url: "/release-notes/known-issues.html"
     - title: 알려진 제한 사항
       url: "/release-notes/known-limitations.html"
-  - title: Keystone에 대해 자세히 알아보십시오
+  - title: 시작하십시오
     entries:
-    - title: 개요
+    - title: Keystone STaaS에 대해 알아보세요
       url: "/concepts/overview.html"
     - title: Keystone 인프라
       url: "/concepts/infra.html"
@@ -65,52 +65,82 @@ sidebar:
         url: "/installation/install-itom-windows.html"
     - title: AutoSupport를 구성합니다
       url: "/installation/asup-config.html"
+    - title: 모니터링 및 업그레이드
+      entries:
+      - title: Keystone Collector 상태 모니터링
+        url: "/installation/monitor-health.html"
+      - title: Keystone Collector 업그레이드
+        url: "/installation/upgrade.html"
     - title: Keystone Collector 보안
       url: "/installation/security.html"
     - title: 대금 청구를 위해 수집된 데이터
       url: "/installation/data-collection.html"
-  - title: 모니터링 및 업그레이드
+    - title: 비공개 모드의 Keystone
+      entries:
+      - title: 개요
+        url: "/dark-sites/overview.html"
+      - title: 설치 준비
+        url: "/dark-sites/requirements.html"
+      - title: Keystone Collector를 설치합니다
+        url: "/dark-sites/install-collector.html"
+      - title: Keystone Collector 구성
+        url: "/dark-sites/configure-collector.html"
+      - title: Keystone Collector 상태 모니터링
+        url: "/dark-sites/monitor.html"
+  - title: Keystone 구독 관리 및 모니터링
     entries:
-    - title: Keystone Collector 상태 모니터링
-      url: "/installation/monitor-health.html"
-    - title: Keystone Collector 업그레이드
-      url: "/installation/upgrade.html"
-  - title: Keystone 대시보드
-    entries:
-    - title: Keystone 대시보드 개요
-      url: "/integrations/keystone-aiq.html"
-    - title: 사용 세부 정보를 보고 보고서를 생성합니다
-      url: "/integrations/aiq-keystone-details.html"
-    - title: 구독 탭을 클릭합니다
-      url: "/integrations/subscriptions-tab.html"
-    - title: 현재 소비 탭
-      url: "/integrations/current-usage-tab.html"
-    - title: 소비 경향 탭
-      url: "/integrations/capacity-trend-tab.html"
-    - title: 볼륨 및 개체 탭
+    - title: Keystone 대시보드 이해하기
+      entries:
+      - title: Keystone 대시보드에 대해 알아보세요
+        url: "/integrations/dashboard-overview.html"
+      - title: Keystone 대시보드 시작하기
+        url: "/integrations/dashboard-access.html"
+      - title: BlueXP의 Keystone 대시보드
+        url: "/integrations/keystone-bluexp.html"
+      - title: Digital Advisor의 Keystone 대시보드
+        url: "/integrations/keystone-aiq.html"
+      - title: 데이터 검색, 보고서 생성 및 알림 보기
+        url: "/integrations/options.html"
+    - title: 구독 통찰력 보기
+      entries:
+      - title: 구독 세부 정보 보기
+        url: "/integrations/subscriptions-tab.html"
+      - title: 현재 소비량 세부 정보를 확인하세요
+        url: "/integrations/current-usage-tab.html"
+      - title: 소비 경향 보기
+        url: "/integrations/consumption-tab.html"
+      - title: 구독 일정 보기
+        url: "/integrations/subscription-timeline.html"
+    - title: 자산을 봅니다
+      entries:
+      - title: 구독과 관련된 자산 보기
+        url: "/integrations/assets-tab.html"
+      - title: 여러 구독의 자산 보기
+        url: "/integrations/assets.html"
+    - title: 구독 수정
+      url: "/integrations/modify-subscription.html"
+    - title: 서비스 요청 보기
+      url: "/integrations/administration-tab.html"
+    - title: 볼륨 및 개체 스토리지 세부 정보 보기
       url: "/integrations/volumes-objects-tab.html"
-    - title: 자산 탭
-      url: "/integrations/assets-tab.html"
-    - title: 성능 탭
+    - title: 성능 메트릭을 봅니다
       url: "/integrations/performance-tab.html"
-    - title: Keystone 및 BlueXP에 관해 자세히 알아보십시오
-      url: "/integrations/keystone-cm.html"
-  - title: Keystone STaaS 서비스
+  - title: 개념
     entries:
-    - title: 메트릭 및 정의
-      url: "/concepts/metrics.html"
-    - title: 스토리지 서비스 품질
-      url: "/concepts/qos.html"
-    - title: 지원되는 스토리지
-      url: "/concepts/supported-storage-services.html"
-    - title: 지원되는 용량
-      url: "/concepts/supported-storage-capacity.html"
-    - title: 서비스 레벨
-      url: "/concepts/service-levels.html"
-    - title: 서비스 수준에 대한 용량 요구사항
-      url: "/concepts/capacity-requirements.html"
-    - title: Keystone 구독 서비스 버전 1
-      url: "/subscription-services-v1.html"
+    - title: Keystone STaaS 서비스
+      entries:
+      - title: 메트릭 및 정의
+        url: "/concepts/metrics.html"
+      - title: 스토리지 서비스 품질
+        url: "/concepts/qos.html"
+      - title: 지원되는 스토리지
+        url: "/concepts/supported-storage-services.html"
+      - title: 지원되는 용량
+        url: "/concepts/supported-storage-capacity.html"
+      - title: 성능 서비스 수준
+        url: "/concepts/service-levels.html"
+      - title: 성능 서비스 수준에 대한 용량 요구 사항
+        url: "/concepts/capacity-requirements.html"
     - title: 애드온 서비스
       entries:
       - title: 고급 데이터 보호
@@ -125,28 +155,30 @@ sidebar:
         url: "/concepts/nrnvc.html"
       - title: USPS(미국 보호 지원)
         url: "/concepts/usps.html"
-  - title: Keystone STaaS SLA
-    entries:
-    - title: 가용성
-      url: "/concepts/sla-availability.html"
-    - title: 성능
-      url: "/concepts/sla-performance.html"
-    - title: 지속 가능성
-      url: "/concepts/sla-sustainability.html"
-    - title: 랜섬웨어 복구 보장
-      url: "/concepts/sla-ransomware.html"
-  - title: 비공개 모드의 Keystone
-    entries:
-    - title: 개요
-      url: "/dark-sites/overview.html"
-    - title: 설치 준비
-      url: "/dark-sites/requirements.html"
-    - title: Keystone Collector를 설치합니다
-      url: "/dark-sites/install-collector.html"
-    - title: Keystone Collector 구성
-      url: "/dark-sites/configure-collector.html"
-    - title: Keystone Collector 상태 모니터링
-      url: "/dark-sites/monitor.html"
+    - title: Keystone STaaS SLA
+      entries:
+      - title: 가용성
+        url: "/concepts/sla-availability.html"
+      - title: 성능
+        url: "/concepts/sla-performance.html"
+      - title: 지속 가능성
+        url: "/concepts/sla-sustainability.html"
+      - title: 랜섬웨어 복구 보장
+        url: "/concepts/sla-ransomware.html"
+    - title: 청구
+      entries:
+      - title: Keystone 가격
+        url: "/concepts/pricing.html"
+      - title: 약정 용량에 따른 청구
+        url: "/concepts/committed-capacity-billing.html"
+      - title: 사용량 기반 측정
+        url: "/concepts/consumed-capacity-billing.html"
+      - title: 버스트 소비에 기초한 청구
+        url: "/concepts/burst-consumption-billing.html"
+      - title: Keystone 청구를 위한 기타 시나리오
+        url: "/concepts/misc-volume-billing.html"
+      - title: 청구 일정
+        url: "/concepts/billing-schedules.html"
   - title: Digital Advisor REST API에서 Keystone에 액세스합니다
     entries:
     - title: Digital Advisor REST API를 사용하여 Keystone 데이터를 검색하십시오
@@ -159,20 +191,8 @@ sidebar:
       url: "/rest-api/get-customer-subscriptions.html"
     - title: Digital Advisor REST API를 사용하여 고객 소비 세부 정보를 확인하십시오
       url: "/rest-api/get-customer-consumption.html"
-  - title: 청구
-    entries:
-    - title: Keystone 가격
-      url: "/concepts/pricing.html"
-    - title: 약정 용량에 따른 청구
-      url: "/concepts/committed-capacity-billing.html"
-    - title: 사용량 기반 측정
-      url: "/concepts/consumed-capacity-billing.html"
-    - title: 버스트 소비에 기초한 청구
-      url: "/concepts/burst-consumption-billing.html"
-    - title: Keystone 청구를 위한 기타 시나리오
-      url: "/concepts/misc-volume-billing.html"
-    - title: 청구 일정
-      url: "/concepts/billing-schedules.html"
+  - title: Keystone 구독 서비스 버전 1
+    url: "/subscription-services-v1.html"
   - title: Keystone에 대한 도움을 받으십시오
     url: "/concepts/gssc.html"
   - title: 법적 고지

@@ -22,6 +22,24 @@ summary: 이전 릴리스의 NetApp Keystone STaaS 서비스에서 발견된 문
 
 
  a| 
+*자산* 탭에서 StorageGRID에 대한 자산은 표시되지 않습니다.
+ a| 
+고정
+ a| 
+2025년 06월 19일
+
+
+
+ a| 
+Advanced Data-Protect 서비스 수준의 경우, *소비 추세* 탭에서 차트는 기본 사이트와 미러 사이트를 구분하여 보여줍니다.
+ a| 
+차트에는 더 이상 기본 사이트와 미러 사이트의 구분이 표시되지 않습니다.
+ a| 
+2025년 06월 19일
+
+
+
+ a| 
 데비안 패키지를 사용하여 설치된 기존 Keystone Collector가 Keystone Collector 관리 TUI를 통해 HTTP 프록시를 구성하거나 Unified Manager를 활성화하려고 하면 TUI가 응답하지 않습니다.
  a| 
 고정

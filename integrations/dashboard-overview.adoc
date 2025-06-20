@@ -1,0 +1,102 @@
+---
+sidebar: sidebar 
+permalink: integrations/dashboard-overview.html 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard 
+summary: NetApp Keystone STaaS 구독자인 경우 NetApp BlueXP 또는 Digital Advisor에서 구독 개요를 확인할 수 있습니다. 
+---
+= Keystone 대시보드에 대해 알아보세요
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone 대시보드는 Keystone 구독을 효율적으로 모니터링, 분석 및 관리할 수 있는 최적의 솔루션입니다. Keystone 대시보드를 통해 다음과 같은 목표를 달성할 수 있습니다.
+
+* *구독 세부 정보 모니터링*: 성능 서비스 수준, 용량 사용, 자산 및 알림을 포함하여 Keystone 구독에 대한 자세한 정보를 확인하세요.
+* *용량 사용량 추적 및 보고서 생성*: 현재 및 과거 용량 사용량을 추적하고, 구독 데이터를 분석하여 정보에 입각한 의사 결정을 내릴 수 있는 보고서를 생성합니다.
+* *구독 타임라인 보기*: 구독 타임라인을 모니터링하여 주요 날짜와 이벤트에 대한 정보를 얻으세요.
+* *구독 관리*: 요구 사항이 변경되면 성과 서비스 수준이나 기타 구독 매개변수를 수정하기 위한 요청을 제출합니다.
+* *볼륨 및 객체 분석*: 볼륨 및 객체 수준에서의 용량을 포함하여 구독의 볼륨 및 객체에 대한 자세한 통찰력을 얻으세요.
+
+
+
+
+== Keystone 대시보드에 액세스하세요
+
+Keystone 대시보드에 접속하려면 다음을 수행하세요.
+
+* *BlueXP*: BlueXP의 *저장소 > Keystone > 개요*에서 대시보드에 액세스합니다. 자세한 내용은 을 link:../integrations/keystone-bluexp.html["BlueXP의 Keystone 대시보드"^]참조하십시오.
+* *Active IQ Digital Advisor* (디지털 어드바이저라고도 함): Digital Advisor의 *일반 > Keystone 구독*에서 대시보드에 액세스하세요. 자세한 내용은 을 link:../integrations/keystone-aiq.html["Digital Advisor의 Keystone 대시보드"^]참조하십시오.
+
+
+다음 사항에 유의하십시오.
+
+* BlueXP와 Digital Advisor는 일부 독점적인 기능을 제공하는 반면, BlueXP는 Keystone에 대한 관리 기능을 제공하여 구독을 관리하고 필요한 조정을 할 수 있습니다.
+* 구독을 수정하려면 *Keystone 관리자* 역할이 지정되어야 합니다. 자세한 내용은 을 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  액세스 역할에 대해 알아보십시오"^]참조하십시오.
+* Digital Advisor는 BlueXP와 통합되어 있어 Keystone 대시보드를 포함한 모든 Digital Advisor 기능에 BlueXP에서 바로 액세스할 수 있습니다. 자세한 내용은 을 link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview["BlueXP와 디지털 어드바이저 통합"^]참조하십시오.
+
+
+
+
+== BlueXP 및 Digital Advisor의 Keystone 기능
+
+다음 표는 BlueXP와 Digital Advisor의 기능 가용성을 보여주며, 이를 통해 귀하의 요구 사항에 맞는 올바른 플랫폼을 빠르게 찾는 데 도움이 됩니다.
+
+|===
+
+
+| * 피처 * | *블루XP* | *디지털 어드바이저* 
+
+
+ a| 
+link:../integrations/subscriptions-tab.html["구독 세부 정보 보기"]
+| 예 | 예 
+
+
+ a| 
+link:../integrations/current-usage-tab.html["현재 및 과거 용량 사용량 모니터링"]
+| 예 | 예 
+
+
+ a| 
+link:../integrations/subscription-timeline.html["구독 타임라인 추적"]
+| 예 | 아니요 
+
+
+ a| 
+link:../integrations/assets-tab.html["Keystone 구독과 관련된 자산 보기"]
+| 예 | 예 
+
+
+| link:../integrations/assets.html["여러 Keystone 구독의 자산 보기"] | 예 | 아니요 
+
+
+ a| 
+link:../integrations/modify-subscription.html["구독 수정"] (Keystone 관리자에게만 해당)
+| 예 | 아니요 
+
+
+ a| 
+link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor["보고서를 생성합니다"]
+| 예 | 예 
+
+
+ a| 
+link:../integrations/volumes-objects-tab.html["볼륨 및 객체 세부 정보 보기"]
+| 예 | 예 
+
+
+ a| 
+link:../integrations/performance-tab.html["성능 메트릭을 봅니다"]
+| 아니요 | 예 
+|===
+* 관련 정보 *
+
+* link:../integrations/dashboard-access.html["Keystone 대시보드 시작하기"]
+* link:../integrations/keystone-bluexp.html["BlueXP의 Keystone 대시보드"]
+* link:..//integrations/keystone-aiq.html["Digital Advisor의 Keystone 대시보드"]
+
