@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/sla-sustainability.html 
+permalink: concepts/sla-sustainability-v2.html 
 keywords: sustainability, sla, service level agreement, slo, service level objectives 
 summary: 'Keystone은 지속 가능성 SLO를 갖춘 ONTAP 플래시 스토리지 어레이 기반 스토리지 서비스에 대해 테비바이트당 최대 실제 와트 수(W/TiB)를 보장된 측정값으로 제공합니다.' 
 ---

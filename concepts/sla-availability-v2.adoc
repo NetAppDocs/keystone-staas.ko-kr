@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/sla-availability.html 
+permalink: concepts/sla-availability-v2.html 
 keywords: availability, sla, service level agreement, slo, service level objectives 
 summary: '가용성 SLO는 Keystone 주문을 위해 구축된 모든 NetApp ONTAP 플래시 스토리지 어레이의 청구 기간 중 99.999%의 가동 시간을 목표로 합니다.' 
 ---

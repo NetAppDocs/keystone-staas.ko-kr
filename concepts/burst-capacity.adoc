@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: concepts/burst-capacity.html 
+keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp Keystone 
+summary: 고객이 약속한 용량 외에 추가 저장 용량을 사용할 수 있습니다. 
+---
+= 버스트 용량 옵션
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone 구독의 일부로 버스트 용량 추가 서비스를 선택할 수 있습니다. 이 서비스를 사용하면 버스트 용량 한도를 약정 용량의 40% 또는 60%까지 늘릴 수 있어 예상치 못한 워크로드 수요 급증에도 유연하게 대처할 수 있습니다.
+
+버스트 용량은 구독 시 약정된 용량을 초과하여 사용할 수 있는 추가 저장 용량을 의미합니다. 은 성능 서비스 수준에 따라 측정 및 청구됩니다. 기본적으로 버스트 한도는 약정된 용량의 20% 초과로 설정됩니다. 하지만 이 추가 서비스를 이용하면 한도를 40% 또는 60%까지 늘릴 수 있습니다.
+
+버스트 한도를 40% 또는 60%로 변경하려면 NetApp Keystone 지원팀에 문의하세요.
+
+버스트 용량 청구 방법에 대해 자세히 알아보려면 다음을 참조하세요. link:../concepts/burst-consumption-billing.html["버스트 소비에 기초한 청구"] .

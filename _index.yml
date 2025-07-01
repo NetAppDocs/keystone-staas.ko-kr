@@ -1,13 +1,13 @@
 ---
 indexpage:
   title: Keystone 설명서
-  summary: NetApp Keystone은 클라우드 전반에서 스토리지 비용을 재할당할 수 있는 기능을 통해 온프레미스와 클라우드 데이터 스토리지
-    서비스 모두에 대한 용량제, 서비스형 스토리지 오퍼링입니다.
+  summary: NetApp Keystone은 온프레미스와 클라우드 데이터 스토리지 서비스 모두를 위한 종량제 방식의 스토리지 서비스로, 하나의
+    구독으로 제공되며, 스토리지 비용을 클라우드 전반에 걸쳐 재할당할 수 있는 기능을 제공합니다.
   keywords: Keystone STaaS
-  lead: NetApp Keystone는 자본 지출 또는 리스보다 운영 비용을 선호하는 고객에게 원활한 하이브리드 클라우드 경험을 제공하는 유연한
+  lead: NetApp Keystone은 자본 지출이나 임대보다 운영 비용을 선호하는 고객에게 원활한 하이브리드 클라우드 환경을 제공하는 유연한
     종량제 구독 기반 서비스입니다. 리소스를 관리하고 긴 조달 주기를 거쳐야 하는 IT 부담을 없애 비즈니스 가치를 신속하게 창출할 수 있도록
-    지원할 뿐만 아니라, 이 라이브러리에서 ONTAP 또는 StorageGRID 환경의 NetApp Keystone STaaS 오퍼링에 대해 자세히
-    알아보십시오.
+    지원할 뿐만 아니라, 이 라이브러리의 문서를 탐색하여 ONTAP 또는 StorageGRID 환경에서 NetApp Keystone Storage-as-a-Service(STaaS)에
+    대한 자세한 내용을 확인하세요.
   tiles:
   - title: 시작하십시오
     links:
@@ -59,6 +59,8 @@ indexpage:
     links:
     - title: 지원 팀을 파악합니다
       url: "/concepts/gssc.html"
+    - title: 버스트 용량 증가
+      url: "/concepts/burst-capacity.html"
     - title: 콜드 데이터 또는 덜 사용되는 데이터로 무엇을 할 수 있는가?
       url: "/concepts/data-tiering.html"
     - title: Keystone 데이터를 어떻게 보호할 수 있습니까?

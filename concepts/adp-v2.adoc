@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/adp.html 
+permalink: concepts/adp-v2.html 
 keywords: data protection advanced 
 summary: 고급 데이터 보호 애드온 서비스를 사용하여 미션 크리티컬 워크로드의 데이터를 효율적으로 보호합니다. 
 ---

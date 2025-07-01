@@ -34,7 +34,13 @@ RPM 또는 데비안 패키지를 사용하여 Linux 서버에 Keystone Collecto
 . YUM 소프트웨어 저장소 파일을 설치합니다.
 `# yum install keystonerepo.rpm`
 . Keystone repo가 설치되면 YUM 패키지 관리자를 통해 Keystone-Collector 패키지를 설치합니다.
++
 `# yum install keystone-collector`
+
++
+Red Hat Enterprise Linux 9의 경우 다음 명령을 실행하여 keystone-collector 패키지를 설치합니다. 
+`# yum install keystone-collector-rhel9`
+
 
 
 --

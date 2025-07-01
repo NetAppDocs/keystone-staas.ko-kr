@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: concepts/data-tiering-v2.html 
+keywords: add-on services, add-on, data tiering 
+summary: 데이터 계층화 애드온 서비스는 자주 사용되지 않는 데이터를 식별하고 지원되는 스토리지로 계층화합니다. 
+---
+= 데이터 계층화에 대해 자세히 알아보십시오
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스에는 자주 사용되지 않는 데이터를 식별하고 Keystone STaaS 지원 NetApp 콜드 스토리지에 계층화하는 계층화 기능이 포함됩니다. 콜드 데이터를 Keystone STaaS가 지원하는 비 NetApp 스토리지에 계층화하려는 경우 데이터 계층화를 애드온 서비스로 사용할 수 있습니다.
+
+표준 및 추가 서비스에 대한 정보는 다음을 참조하세요. link:../concepts/supported-storage-services.html["Keystone STaaS 서비스"] . 성과 서비스 수준에 대한 정보는 다음을 참조하세요. link:../concepts/service-levels.html["키스톤의 성능 서비스 수준"] .
+
+계층화 애드온 서비스는 데이터가 AWS(Amazon Web Services) S3, Azure Blob, Google Cloud Platform(GCP) 및 기타 Keystone STaaS 지원, S3 호환, 타사 오브젝트 스토리지와 같은 타사 스토리지에 계층화된 경우에만 필요합니다.
+
+계층화 기능은 자주 액세스하지 않는 데이터를 사내 및 사외 오브젝트 스토리지 계층으로 자동으로 계층화하는 NetApp FabricPool 기술을 활용합니다.
+
+애드온 데이터 계층화 서비스를 사용하면 Extreme, Premium, Performance, Standard 및 Value 계층을 오브젝트 스토리지 타겟으로 계층화할 수 있습니다. 계층화할 콜드 데이터에 대한 핫 데이터의 비율은 고정되지 않으며 각 계층은 개별적으로 계산되고 송장이 발행됩니다.
+
+예를 들어, 콜드 스토리지 계층의 타겟이 다음과 같은 경우:
+
+* Keystone STaaS 가치 계층, Keystone STaaS StorageGRID 오브젝트 계층 또는 기존 SGWS 그리드(고객 소유) - 추가 비용이 없으며 표준 서비스의 일부입니다.
+* 퍼블릭 클라우드(AWS, Azure, Google) 또는 Keystone STaaS 지원, 타사 오브젝트 스토리지 - 콜드 스토리지 대상에 계층화된 데이터 용량에 대한 추가 요금이 부과됩니다.
+
+
+애드온 계층화 서비스에 대한 비용은 전체 구독 기간을 통해 적용됩니다.
+
+
+NOTE: NetApp은 Cloud Volumes ONTAP에 필요한 하이퍼스케일 기반 컴퓨팅, 스토리지 및 네트워크 서비스를 Keystone STaaS 가입의 일부로 제공하지 않습니다. 하이퍼스케일 클라우드 서비스 공급자로부터 직접 서비스를 조달해야 합니다.
+
+* 관련 정보 *
+
+link:https://kb.netapp.com/hybrid/Keystone/AIQ_Dashboard/How_to_approximate_Keystone_Consumption_with_Data_Tiering_(FabricPool)_through_the_ONTAP_cli["ONTAP CLI를 사용하여 데이터 계층화(FabricPool)에서 Keystone 소비의 근사치를 보는 방법"^]

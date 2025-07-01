@@ -14,7 +14,14 @@ summary: Keystone STaaS 서비스는 ONTAP 및 StorageGRID를 지원합니다.
 
 
 [role="lead"]
-Keystone STaaS 서비스는 ONTAP의 파일 및 블록 스토리지, StorageGRID 플랫폼의 오브젝트 스토리지, Cloud Volumes ONTAP의 데이터 관리 기능을 지원합니다.
+버전 3(v3)용 Keystone STaaS 서비스는 NetApp 및 Cloud Volumes ONTAP의 통합, 블록 최적화 및 개체 스토리지를 지원합니다.
+
+각 저장 유형에는 다음이 포함됩니다.
+
+* *통합 스토리지*: NetApp ONTAP AFF와 FAS 시스템에서 사용할 수 있는 파일, 블록 및 S3 개체 스토리지를 모두 포함합니다.
+* *블록 최적화 스토리지*: NetApp ONTAP ASA 시스템에서 사용 가능한 블록 스토리지가 포함됩니다.
+* *객체 스토리지*: NetApp StorageGRID 시스템에서 사용할 수 있는 객체 스토리지를 포함합니다.
+
 
 Keystone STaaS는 스토리지에 대한 표준 및 옵션 서비스를 제공합니다.
 
@@ -22,62 +29,37 @@ Keystone STaaS는 스토리지에 대한 표준 및 옵션 서비스를 제공�
 
 * Keystone STaaS 추가 서비스 *: 표준 Keystone STaaS 가입형 서비스 외에 추가 유틸리티 및 이점을 제공하는 유료 서비스입니다.
 
-Keystone STaaS 서비스는 서로 공존할 수 있습니다. 예를 들어, 클라우드 스토리지 구독에서 파일, 블록 및 오브젝트 스토리지 구독을 상호 연결할 수 있습니다. 클라우드 서비스는 기존 스토리지 구독의 서비스 기간 중 언제든지 포함될 수 있습니다. 그러나 기존 파일, 블록 및 오브젝트 서브스크립션을 갱신하지 않을 계획이라면, 지난 90일 동안 클라우드 스토리지 구독을 추가할 수 없습니다.
+Keystone STaaS 서비스는 동시에 사용할 수 있습니다. 예를 들어, 클라우드 스토리지 구독은 통합, 블록 최적화, 객체 스토리지 구독과 동일한 기간을 가질 수 있습니다. 클라우드 서비스는 기존 스토리지 구독의 서비스 기간 중 언제든지 포함될 수 있습니다. 단, 기존 통합, 블록 최적화 또는 객체 스토리지 구독을 갱신할 계획이 없는 경우, 구독 기간의 마지막 90일 동안은 클라우드 스토리지 구독을 추가할 수 없습니다.
 
 
 
-== 파일, 블록 및 오브젝트 스토리지용 서비스
+== 통합, 블록 최적화 및 객체 스토리지를 위한 서비스
 
-ONTAP 파일 및 블록 스토리지, StorageGRID 오브젝트 스토리지를 위한 Keystone STaaS 서비스는 다음 표에 설명된 다양한 기능 및 프로토콜을 지원합니다.
+통합, 블록 최적화 및 객체 스토리지를 위한 Keystone STaaS 서비스는 여러 기능과 프로토콜을 지원하며, 다음 표에 설명되어 있습니다.
 
 |===
 | 스토리지 | 플랫폼 | 프로토콜 | 지원되는 기능 
 
 
  a| 
-파일 스토리지
+유니파이드 스토리지
  a| 
 ONTAP
  a| 
 NFS 및 CIFS에 대해 설명합니다
  a| 
-지원되는 ONTAP 기능:
-
-* FlexVol
-* FlexGroup
-* Snapshot 복사본
-* SnapMirror(비동기식)
-* SnapVault
-* SnapLock 엔터프라이즈
-* FabricPool/클라우드 계층화
-* SnapRestore
-* 플랙스클론
-* SnapCenter(라이센스는 포함되어 있지만 Keystone 서비스의 일부가 아니며 관리가 보장되지 않음)
-* 자율적 랜섬웨어 방어 1
-
+모든 ONTAP One 기능 지원
 
 
 
  a| 
-블록 스토리지
+블록 최적화된 스토리지
  a| 
 ONTAP
  a| 
 FC 및 iSCSI
  a| 
-지원되는 ONTAP 기능:
-
-* FlexVol
-* FlexGroup
-* Snapshot 복사본
-* SnapMirror(비동기식)
-* SnapVault
-* SnapLock 엔터프라이즈
-* FabricPool/클라우드 계층화
-* SnapRestore
-* 플랙스클론
-* SnapCenter(라이센스는 포함되어 있지만 Keystone 서비스의 일부가 아니며 관리가 보장되지 않음)
-
+모든 ONTAP One 기능 지원
 
 
 
@@ -88,12 +70,10 @@ StorageGRID
  a| 
 S3
  a| 
-여러 사이트에 걸쳐 여러 ILM(정보 수명 주기 관리) 정책을 지원합니다
+모든 ONTAP One 기능 지원
 
 |===
-
-NOTE: ONTAP의 랜섬웨어 방어에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["자율 랜섬웨어 보호"^].
-각 사이트에는 별도의 가입이 필요합니다.
+ONTAP One에 대해 자세히 알아보려면 다음을 참조하세요. link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one["ONTAP 라이센스 개요"^] 그리고 link:https://www.netapp.com/blog/ontap-one/["ONTAP One: ONTAP의 모든 기능을 이제 하나로"^] .
 
 
 
