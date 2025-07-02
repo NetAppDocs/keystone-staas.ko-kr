@@ -1131,10 +1131,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="6c48d999111838f1ba95a5cf4091e681" category="section-title">향상된 구독 표시</block>
   <block id="f5bd7be5a51d8e07eec34f2c9ddb662a" category="section-title">향상된 누적 버스트 디스플레이</block>
   <block id="f42805586acc16ac661193d0d72e676a" category="paragraph">이제 * Capacity Trend * 탭의 용량 사용 막대 차트 위로 마우스를 가져가면 나타나는 도구 설명에 커밋된 용량을 기준으로 누적된 버스트 유형이 표시됩니다. 약정 용량 요금제가 0인 구독의 경우 임시 소모 * 와 * 송장 발행된 소모 * 를 표시하고, 약정 용량이 0이 아닌 구독의 경우 * 임시 소모 * 및 * 송장 발행된 버스트 * 를 표시하여 임시 및 송장 발행된 버스트 * 를 구분합니다.</block>
-  <block id="c7f25f44be7b366785438d8acef9c492" category="section-title">2024년 5월 9일</block>
-  <block id="b45b03a249b5f6cfa9e1cc559ba79e40" category="section-title">2024년 2월 13일</block>
-  <block id="b06c73c3805ce52954e13f27b28cb072" category="section-title">2024년 1월 11일</block>
-  <block id="6171bdf5841e2bfa70f97036e02d1f44" category="section-title">2023년 12월 15일</block>
   <block id="8a19ac37aa90f4bbe7f16a2f7767bbcd" category="list-text">* 프라이버시 설계 * - Keystone Collector는 사용량 측정 및 성능 모니터링을 수행하기 위해 최소 데이터를 수집합니다. 자세한 내용은 을 참조하십시오 <block ref="d45e4cc5f7d31c567a5a7e94087cf357" category="inline-link-macro-rx"></block>. 를 클릭합니다 <block ref="056e2bf20fc58bf3ad9e840fe1ebc39f" category="inline-link-macro-rx"></block> 옵션은 기본적으로 활성화되어 있으며 중요한 정보를 마스크하고 보호합니다.</block>
   <block id="252857c59cbe54ddba7bda3d2d19b7a3" category="list-text">* 최소 권한 액세스 * - Keystone Collector는 스토리지 시스템을 모니터링할 수 있는 최소 권한을 요구하므로 보안 위험을 최소화하고 의도하지 않은 데이터 수정을 방지할 수 있습니다. 이 접근 방식은 최소 권한 원칙에 따라 모니터링되는 환경의 전반적인 보안 상태를 개선합니다.</block>
   <block id="8f14f42f9cacaaf485cd3e478fca2ae7" category="list-text">* 보안 소프트웨어 개발 프레임워크 * - Keystone은 개발 주기 전반에 걸쳐 보안 소프트웨어 개발 프레임워크를 사용하여 위험을 완화하고 취약점을 줄이며 잠재적인 위협으로부터 시스템을 보호합니다.</block>
@@ -1192,7 +1188,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="8f0fe81a9b7f4cb142f2a7084f33fd88" category="inline-image-macro">개체 탭</block>
   <block id="ff86b04f28e9deb882d5f8b709958474" category="paragraph"><block ref="ff86b04f28e9deb882d5f8b709958474" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d3be07034d0ea358558d4e2243a27e4a" category="paragraph">AQoS 정책을 설정할 때 Keystone Collector 관리 TUI가 응답하지 않습니다.</block>
-  <block id="e358ee99bcdc82fedabffa4fe9dda483" category="section-title">2024년 07월 10일</block>
   <block id="fff7af8a2fab8d84dd9f7858aff6d7d9" category="section-title">라벨 수정</block>
   <block id="6176afc8abbdfc6c0a7c0274a19d9ef8" category="paragraph">레이블 * Current Usage * 가 * Current Consumption * 로 변경되고 * Capacity Trend * 가 * Consumption Trend * 로 변경됩니다.</block>
   <block id="b7e76ab52f2e3b0375203a91e2e782c6" category="section-title">구독 검색 표시줄</block>
@@ -1659,7 +1654,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="f1ac17aa812b21fe2bbdc58cbe5d6efa" category="paragraph">보고서는 Excel 형식으로 생성되며, 구독 세부 정보 또는 사용 기록 등의 각 정보 유형이 별도의 시트에 표시됩니다. 이 시트는 쉽게 볼 수 있도록 * Keystone 구독 * 페이지의 탭에 따라 이름이 지정됩니다. 나중에 사용할 수 있도록 보고서를 저장할 수 있습니다.</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="inline-link-macro">사용자 정의 보고서를 생성합니다</block>
   <block id="05ae21f139b4223ee2536ce651cf54b9" category="paragraph">보고서 생성에 대한 자세한 내용은 을 <block ref="5ee515b7098121299290c8d9ddbc9e18" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="8a1116f55c6659c55d506df698030041" category="section-title">2024년 11월 11일</block>
   <block id="1503d912784bec55335f32e3c747c9df" category="section-title">향상된 보고서 생성</block>
   <block id="70852ac05a65501c650a9135c4a2ab17" category="cell">* 약정 및 용량제 용량 유형 *</block>
   <block id="e7a731a6342f126055b89b80d800a180" category="cell">논리적</block>
@@ -1837,7 +1831,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">StorageGRID에 대한 그리드 수준 정보를 표시하는 스크린샷</block>
   <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">열 숨기기/표시 * 를 사용하여 테이블에 표시된 열을 추가하거나 제거할 수 있습니다. 기본적으로 * 부서 * 열을 제외한 모든 열이 선택됩니다. 부서 * 열을 포함한 모든 열을 선택하거나 선택 취소할 수 있으며, 나중에 사용할 수 있도록 기본 설정이 저장됩니다. CSV 보고서를 다운로드할 때 선택한 경우 * Department * 열 세부 정보가 포함되고 다른 열은 테이블의 선택 상태에 관계없이 표시됩니다.</block>
-  <block id="bc6d0fec5ccd5f580ac081a7231e72de" category="section-title">2024년 12월 12일</block>
   <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">이름이 변경된 논리적 사용됨 열</block>
   <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">볼륨 및 개체 * 의 * 볼륨 세부 정보 * 탭에 있는 * 논리적 사용된 * 열이 이제 * Keystone 논리적 사용됨 * 으로 이름이 바뀌었습니다.</block>
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">Enhanced Assets(향상된 자산) 탭</block>
@@ -2294,7 +2287,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="5b7c6725d8b710448bbafba8cd2d8b2d" category="sidebar">여러 구독의 자산 보기</block>
   <block id="2be8bdf6afad72e1374d8e9f15f013b7" category="sidebar">서비스 요청 보기</block>
   <block id="3f775298ba0cfa10a0ca4aa35ffb3451" category="sidebar">볼륨 및 개체 스토리지 세부 정보 보기</block>
-  <block id="4898fd0a5ee16e30d54e5fbe3aa21539" category="paragraph">시작하려면 BlueXP 왼쪽 탐색 메뉴에서 *저장소 &gt; 키스톤*으로 이동하세요. 자세한 내용은 을 <block ref="5a609c392d8730053e3d7fc9f1d0ffab" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="1ed44c5a16415a7d9d45f3042a5ab4d6" category="inline-link-macro">Keystone 대시보드 이해하기</block>
   <block id="d8bb10358d95aee9ba36f75f10ee0402" category="list-text"><block ref="d8bb10358d95aee9ba36f75f10ee0402" category="inline-link-macro-rx"></block></block>
   <block id="f9aa2dce9983bf50b4dea33bd009613c" category="doc">Keystone 대시보드 시작하기</block>
@@ -2524,7 +2516,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="4b74c9be479e8905d4e8f29ad9f1af7c" category="paragraph"><block ref="52273d64c65862ef424a47885fe81b01" category="inline-image-macro-rx" type="image"></block> *소비 없음*: 성능 서비스 수준의 약정 용량에 대해 기록된 용량 사용량이 없습니다. <block ref="d72ea1f055275eb6c806c044808270ee" category="inline-image-macro-rx" type="image"></block> *정상*: 소비량이 정상입니다. <block ref="26b60b3bc680636be1bff71d9158314a" category="inline-image-macro-rx" type="image"></block> *높음*: 최대 소비, 즉 사용량이 약정 용량의 100% 이상에 도달하려고 하는 상태입니다. <block ref="25206057152159ddc0d0e53262070870" category="inline-image-macro-rx" type="image"></block> *버스트*: 사용량이 버스트 한도 내에 있습니다. 버스트 사용량은 성능 서비스 수준의 100% 할당 용량을 초과하고, 합의된 버스트 사용량 한도 내에 있는 사용량입니다. <block ref="49884f5051327fb7a920e2ee64178452" category="inline-image-macro-rx" type="image"></block> *버스트 한도 초과*: 합의된 버스트 한도를 초과하는 소비를 나타냅니다.</block>
   <block id="b4bfc97b4a6664c07d3cb265b1f77f66" category="admonition">QoS 정책은 Keystone 버전 3(v3)에 적용되지 않습니다.</block>
   <block id="288b4e42b32faccce4a2d55e94593bd9" category="admonition">Keystone 버전 3에서는 QoS 정책이 적용되지 않습니다.</block>
-  <block id="456bce9e2eb71173431186ef514e346e" category="section-title">2025년 06월 30일</block>
   <block id="b0ff511b21770d18a844437708e370f3" category="inline-link-macro">v3용 Keystone STaaS 서비스</block>
   <block id="cbe56bacc5be238a1afeadbbf1210e9d" category="paragraph">이제 NetApp Keystone STaaS의 최신 릴리스인 Keystone 버전 3(v3)을 구독하실 수 있습니다. 이 버전은 간소화된 성능 서비스 수준, 추가 버스트 용량 옵션, 유연한 과금 주기 등 여러 가지 향상된 기능을 제공합니다. 이러한 개선 사항을 통해 스토리지 솔루션의 관리, 최적화 및 확장이 간소화됩니다. 자세한 내용은 을 <block ref="b4f947544b8e7d98521ee012686e2640" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="ee326973c25ecfa958c9bcb665f7c905" category="list-text">*용량 추세* 탭에서 소비량 및 누적 버스트 사용 데이터를 확인할 수 있습니다.</block>
@@ -2537,4 +2528,20 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="66fb046e2c5f18ee0925adc05ac14d1f" category="sidebar">Keystone STaaS SLO</block>
   <block id="af7cd0085fe6b7c0200fe4c5a018cbdc" category="sidebar">v2를 위한 Keystone STaaS 개념</block>
   <block id="cfa9db7c89ff68cb147c3dad7e8b0b59" category="section-title">Keystone 버전 3(v3) 릴리스</block>
+  <block id="e4662d7ea2c66dc53eb2e68d2bceffac" category="paragraph">시작하려면 BlueXP 왼쪽 탐색 메뉴에서 *저장소 &gt; 키스톤*으로 이동하세요. 자세한 내용은 을 <block ref="d1eddf69542d0beadf02459455377203" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025년 6월 30일</block>
+  <block id="273397c35cb726b0eb4cc33e4cf912da" category="section-title">2025년 6월 19일</block>
+  <block id="71eeb52ffaba4c6613b9365a34bd8e71" category="section-title">2025년 1월 8일</block>
+  <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">2024년 12월 12일</block>
+  <block id="47ce8cbac679bab0474690083f967486" category="section-title">2024년 11월 21일</block>
+  <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024년 11월 11일</block>
+  <block id="ea20f074fbafdf3f3dab344dbef51b10" category="section-title">2024년 7월 10일</block>
+  <block id="032f76ed9b6cf8701fd026535eb70ffc" category="section-title">2024년 6월 27일</block>
+  <block id="a0fddfafeaadc4d32eb33ea13f162dd4" category="section-title">2024년 5월 29일</block>
+  <block id="55dbbb1b9d8c3fb56ba5e847c7dd506c" category="section-title">2024년 5월 9일</block>
+  <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">2024년 3월 28일</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">2024년 2월 29일</block>
+  <block id="96e33a5d1e2356ba12a5de62a859d567" category="section-title">2024년 2월 13일</block>
+  <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024년 1월 11일</block>
+  <block id="8017dc46d55f13a6a86439ecb091248d" category="section-title">2023년 12월 15일</block>
 </blocks>
