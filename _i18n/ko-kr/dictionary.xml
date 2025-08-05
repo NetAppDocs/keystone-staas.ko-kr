@@ -29,40 +29,14 @@
   <block id="8ae3d79d3f1b6cb3022dbfb96c477b67" category="doc">NetApp Keystone에 대해 자세히 알아보십시오</block>
   <block id="a6f1b0a7a0dc76c228aff931a7f131c9" category="summary">Keystone 가격</block>
   <block id="5866f5199f36da24870932aa9db6ab49" category="list-text">약정 용량에 대한 예측 가능한 청구와 가변(버스트) 용량 사용량에 대한 종량제 비용을 표시합니다.</block>
-  <block id="a40d52252bf8cd6939e9352eeffb837b" category="list-text">하드웨어, 코어 OS의 번들 가격을 선택하고 $/TiB 단일 가격을 지원할 수 있습니다. 각 스토리지 유형, 파일, 블록, 오브젝트 또는 클라우드 스토리지 서비스에 대한 단일 송장이 있습니다.</block>
   <block id="1506e8c7e13ed05e538e60e10a3477b1" category="paragraph">Keystone 청구는 확정된 용량 및 가변 버스트 소비를 기반으로 합니다.</block>
   <block id="b3f5d2a190d6e7bd7689ffbabbb1e2f2" category="inline-link-macro">Keystone에서 지원되는 스토리지 용량</block>
-  <block id="b0c2a97a674f701e042904eabd2ce86c" category="doc">Keystone의 서비스 품질(QoS)</block>
-  <block id="bff19ffadab3b2c0f2336fe90bfd9be9" category="inline-link">QoS 개요를 통해 처리량 보장</block>
-  <block id="acdda1c20fb3985ce840929f7525c803" category="section-title">적응형 QoS</block>
-  <block id="24fe24243f6cf0a0fada99032a85c028" category="inline-link">적응형 QoS에 대해 알아보십시오</block>
-  <block id="e1e6381427a3975fa7597be88e8d2f70" category="section-title">Adaptive QoS 정책 그룹 구성</block>
-  <block id="4db69e448403f877751b701118fb0d6b" category="admonition">이는 IOPS 밀도(예: 75 IOPS/TiB)가 아니라 절대 최소 IOPS 수입니다.</block>
-  <block id="0dfe1d120dbd110a4d7bb29a9dea1779" category="inline-link">적응형 QoS 정책 그룹을 사용합니다</block>
-  <block id="2da83d8f6744d94e4db3195a4a4edfc0" category="section-title">적응형 QoS 정책 설정</block>
-  <block id="547c4738072689a91e04dc9c9c8f6c84" category="section-title">Extreme 서비스 레벨 설정</block>
-  <block id="5fd300737b7909532dc522634d75def5" category="list-text">명령 예:</block>
-  <block id="25720426b4f9400d825effad9cc98cf4" category="section-title">고급 서비스 수준 설정</block>
-  <block id="c335b79291cf3c370f0819292ea37103" category="section-title">성능 서비스 수준에 대한 설정입니다</block>
-  <block id="43384bba14e9ac0e1e3604da457dacd3" category="section-title">Value 서비스 수준에 대한 설정입니다</block>
-  <block id="e8cf569a737f3c6ca0de02023bb45074" category="section-title">블록 크기 계산</block>
-  <block id="b77f85f9490573cc674ceb0b9512f811" category="paragraph">블럭 크기를 계산하기 전에 다음 설정을 사용하여 다음 점을 참고하십시오:</block>
-  <block id="5cf0d288a8f6413cd5081b042a609034" category="list-text">IOPS/TiB = MBps/TiB 구분(블록 크기 * 1024)</block>
-  <block id="3054b3eab6506b148b8f255cf6c91456" category="list-text">블록 크기(KB/IO)입니다</block>
-  <block id="b33667f1f1bd3abb2593a5226cf7aeec" category="list-text">TiB = 1024GiB, GiB = 1024MiB, MiB = 1024KiB, KiB = 1024Bytes, Base 2 당</block>
-  <block id="3f2e7c232425cd76862bc1b0de689d36" category="list-text">TB = 1000GB, GB = 1000MB, MB = 1000KB, KB = 1000Bytes, 기본 10에 따라</block>
-  <block id="5823839bc893623342447999dd558444" category="list-text">최대 IOPS: 12,288</block>
-  <block id="d578d491479765feb511ce998c751bcc" category="list-text">I/O당 블록 크기: 32KB</block>
-  <block id="99bd16c85cd1ef64c6ea102f25b33359" category="list-text">최대 처리량 = (12288 * 32 * 1024) / (1024 * 1024) = 384MBps/TiB</block>
-  <block id="237499763b358b8ef0c6dc69fde2706a" category="paragraph">볼륨에 700GiB의 논리적 사용 데이터가 있는 경우 사용 가능한 처리량은 다음과 같습니다.</block>
-  <block id="02a49e3ec5c5ab57dc26bbd217365bc3" category="paragraph">최대 처리량 = 384 * 0.7 = 268.8MBps</block>
   <block id="8a73a45becb1972a998dc8490856f730" category="summary">버스트 소비에 기초한 청구</block>
   <block id="83cd48b4617f1e69361a1ecec3f5b3a3" category="summary">기타 볼륨 유형에 따른 청구</block>
   <block id="bb6903e39254cc1a8d4ee2116c8e91e1" category="doc">Keystone 청구를 위한 기타 시나리오</block>
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">복제된 볼륨에 대한 청구</block>
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">임시 볼륨에 대한 청구</block>
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">볼륨을 이동할 때 임시(TMP) 볼륨이 ONTAP에 의해 생성되는 경우가 있습니다. 이러한 임시 볼륨은 수명이 짧으며 이러한 볼륨의 소비량은 청구 대상으로 측정되지 않습니다.</block>
-  <block id="f3fd1171857d8ea7abb7920fd1fd0c55" category="section-title">청구 및 적응형 QoS 정책</block>
   <block id="18b8a063bbf57f20dcdbb6f12a9dc0e9" category="section-title">SnapMirror 대상에 대한 청구</block>
   <block id="c73be2f2aaeb82cecf852c49f3ea4cce" category="section-title">LUN에 대한 청구</block>
   <block id="cb1713b138a78b69b1922aa45131c2df" category="list-text">LUN의 크기는 해당 LUN의 연결된 서비스 수준에 따라 소비용으로 계산됩니다.</block>
@@ -76,7 +50,6 @@
   <block id="5233633b9faaa681d96ef5c43e30bea2" category="section-title">논리적 용량</block>
   <block id="4ac938291a74f21a35352afb886d2d88" category="section-title">약속된 용량</block>
   <block id="5e4631059cd88370a28a74ba7f45c7b3" category="list-text">용량은 각 서비스 레벨에 따라 커밋됩니다.</block>
-  <block id="c6eb79bc54b68ec5e0cc19ef77aaf577" category="list-text">약정 용량 및 추가 서비스 레벨을 기간 동안 추가할 수 있습니다.</block>
   <block id="326cde132ee3d2c6dbda5e81887d37fd" category="section-title">약속된 용량의 변경</block>
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">서브스크립션 기간 동안 약정 용량을 변경할 수 있습니다. 그러나 다음과 같은 몇 가지 전제 조건이 있습니다.</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="inline-link-macro">용량 절감</block>
@@ -102,56 +75,18 @@
   <block id="f99112a4c6eaa146943fa5e2ddfd9879" category="list-text">정확한 데이터 액세스에서의 내구성</block>
   <block id="4e8c569f63eedc90f70f80e1008f201e" category="list-text">지연 시간 및 속도</block>
   <block id="0719eeba43039e5122ee28a4a45955e4" category="section-title">측정 지표</block>
-  <block id="fb0313f9403d2f1c6713354a48e245bd" category="section-title">처리량 성능 메트릭</block>
-  <block id="5048ff69f87c85209021d8c026e01f3c" category="list-text">32KB 블록 크기</block>
-  <block id="e8fbd9f6f420e483e6c622bb47cd6854" category="list-text">70% 읽기/30% 쓰기 I/O 혼합</block>
-  <block id="60498bea38bc14433a21075b5c7d0b46" category="section-title">다양한 IO 밀도</block>
-  <block id="8ec22227c0b030947bddd2c4d3531d9c" category="list-text">지연 시간, 다음 제외:</block>
-  <block id="5b8941c55ade7ebbdc315d116077e1cb" category="list-text">애플리케이션 지연 시간</block>
-  <block id="3dc995ca2f3e29ab83828237ddfb6e01" category="list-text">호스트 지연 시간</block>
-  <block id="b75777b15e142a11a322b36f867e1049" category="list-text">컨트롤러 포트와 데이터를 전송하는 동안 고객 네트워크의 지연 시간</block>
-  <block id="f8ed1667ffe2b20a5273752af4726faa" category="list-text">FabricPool의 경우 오브젝트 저장소로 데이터를 전송하는 데 따른 오버헤드 지연 시간입니다</block>
-  <block id="cb5a96c5a4ffa77a49aaa4721d1fdbcf" category="list-text">지연 시간은 서비스 수준 최대 내에서 입출력을 유지하기 위해 QoS에서 자동으로 적용됩니다</block>
-  <block id="72c371ac4eea814fdca22073c43b5cd2" category="list-text">사용된 용량의 일부로 계산되는 사용자 및 스냅샷 복사본 데이터입니다</block>
-  <block id="41a82de5cce1f4315d40362417d5400e" category="list-text">익스트림: 1,000 IOPS</block>
-  <block id="87c7ebf0218d3670ce3d2f93a702663e" category="list-text">Premium: 500 IOPS</block>
-  <block id="69cbdfcaaeb853a3a22106281d7479e4" category="list-text">성능, 표준 및 가치: 75 IOPS</block>
-  <block id="6d254a15ba3fea951a58068af61e1688" category="section-title">볼륨 AQoS</block>
-  <block id="8c037b7d81c288bf1b9266d8836d1b4a" category="paragraph">각 ONTAP 볼륨에는 적용 가능한 AQoS(적응형 서비스 품질) 정책이 적용되어 있어야 합니다. 그렇지 않으면 AQoS 정책이 적용되지 않은 각 볼륨 내의 용량은 최고 서비스 수준의 비율로 청구됩니다.</block>
-  <block id="73cf2790a3f92d26764722174d70cf34" category="paragraph">* 지원되는 프로토콜 *: NFS, CIFS, iSCSI, FC</block>
   <block id="079bbc110741f438dfb37f32218c4c21" category="cell">* 서비스 수준 *</block>
   <block id="cdf0cc519fabc4c14999e89090d33dc1" category="cell">* 익스트림 *</block>
   <block id="153a19d482de580ce84c77ac52c6f907" category="cell">* 프리미엄 *</block>
-  <block id="64bd5015546813c113a50d1d816a2fce" category="cell">* 성능 *</block>
   <block id="3ecb63821538cb0fde443d82bdb28861" category="cell">* 표준 *</block>
   <block id="4cc402eecdb589b122553e660ac696c4" category="cell">* 값 *</block>
-  <block id="9256405ef4b3e50cc40cc8f3d4e135e9" category="cell">* 워크로드 유형 *</block>
-  <block id="9b00e85f3de98b33a5dc104b3336a02c" category="cell">분석, 데이터베이스, 미션 크리티컬 애플리케이션</block>
-  <block id="bb606d4181e97fbe036b3b9ea110f0cd" category="cell">VDI, VSI, 소프트웨어 개발</block>
-  <block id="b1082bbe755cf28c4bb0924c487eeb62" category="cell">OLTP, OLAP, 컨테이너, 소프트웨어 개발</block>
-  <block id="ff1c70afac4394fd1bdfad3ce8d0fbe9" category="cell">파일 공유, 웹 서버</block>
-  <block id="3500ba09d0538297440ca620c9dd46bf" category="cell">백업</block>
-  <block id="d38753fed54aa499bc5e6c27d3945c19" category="cell">12,288</block>
-  <block id="c9ca1ec49e8aac1615059e421cbb4793" category="cell">4,096개</block>
-  <block id="4546199e2bcb9ae49a13edef9675fd03" category="cell">2,048</block>
-  <block id="10a7cdd970fe135cf4f7bb55c0e3b59f" category="cell">512</block>
-  <block id="76dc611d6ebaafc66cc0879c71b5db5c" category="cell">128</block>
-  <block id="0584ce565c824b7b7f50282d9a19945b" category="cell">384</block>
-  <block id="ea5d2f1c4608232e07d3aa3d998e5135" category="cell">64</block>
-  <block id="c74d97b01eae257e44aa9d5bade97baf" category="cell">16</block>
   <block id="a87ff679a2f3e71d9181a67b7542122c" category="cell">4</block>
   <block id="670aaecb1a526fbed439dad3ec353a96" category="section-title">오브젝트 스토리지</block>
   <block id="58d801506333ab644845942779162cbc" category="paragraph">* 지원되는 프로토콜 *: S3</block>
-  <block id="497031794414a552435f90151ac3b54b" category="cell">오브젝트</block>
-  <block id="346ddf53d2d569d0bb73eb7826cf95d8" category="cell">미디어 저장소, 아카이브</block>
-  <block id="382b0f5185773fa0f67a8ed8056c7759" category="cell">해당 없음</block>
   <block id="6872c2b6282a1ff41523f7b84a51d4da" category="section-title">클라우드 스토리지</block>
-  <block id="a6b775035306fc8ea9ed0392f6da3bfa" category="cell">재해 복구, 소프트웨어 개발/테스트, 비즈니스 애플리케이션</block>
   <block id="dfd0252d57910ac70c5c31013436bba6" category="doc">청구 일정</block>
   <block id="7f5043ec0394d759e4ce437fc8c9cd52" category="section-title">월간 청구</block>
   <block id="4984e08f464a2069cf4e4d2bc61ffe7e" category="paragraph">송장은 매월 발송됩니다. 서비스를 사용할 수 있는 달의 경우 다음 달에 송장이 전송됩니다. 예를 들어 1월에 사용한 서비스에 대한 송장은 2월 초에 배달됩니다. 이 송장에는 약정 용량에 대한 비용 및 해당되는 경우 버스트 사용료가 포함됩니다.</block>
-  <block id="51ebf10290dc90afa947ed3f3696db87" category="section-title">연간 청구</block>
-  <block id="f9b23c1d6c500cf58f2bd0f79306c64b" category="section-title">파일 및 블록 서비스에 대한 최소 용량 요구사항</block>
   <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="cell">용량</block>
   <block id="ba1f6c59525d71aee4c027798d2470fd" category="cell">익스트림</block>
   <block id="8d5e7e72f12067991186cdf3cb7d5d9d" category="cell">프리미엄</block>
@@ -166,8 +101,6 @@
   <block id="5f35f43a84523349d7512aad7cebc67d" category="section-title">오브젝트 스토리지의 최소 용량 요구사항</block>
   <block id="396928510e06818ef017921022cce2af" category="cell">데이터 계층화</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="cell">Cloud Volumes ONTAP</block>
-  <block id="7f3147ea4e9363ef0179f80965b58649" category="cell">Cloud Backup Service</block>
-  <block id="e681a3b45989b468533c4b90ee960bf9" category="paragraph">해당 없음</block>
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="paragraph">500입니다</block>
   <block id="c4ca4238a0b923820dcc509a6f75849b" category="paragraph">1</block>
   <block id="00fbf03a10283116fbaa1df317c78879" category="section-title">용량 조정</block>
@@ -206,8 +139,6 @@
   <block id="4f0b4700902f5cec62b2b3a60c2d65b9" category="doc">사용량 기반 측정</block>
   <block id="f6d7a1a39c7e76b0a2ad7044af130caf" category="cell">지원되는 기능</block>
   <block id="9985b4390c40137573e6da05caf85874" category="cell">프로토콜</block>
-  <block id="4bf6c8c02a43c4ae5ff566acdd8213b8" category="paragraph">파일 스토리지</block>
-  <block id="4f0550f066ae72bb8c24fc3f59c323bf" category="paragraph">블록 스토리지</block>
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="cell">S3</block>
   <block id="8b9ebc949c2bd3b7f585608d2fec312f" category="doc">Keystone 데이터 흐름</block>
   <block id="0476a04360a8efd6e70433fd2939cef7" category="section-title">Keystone Collector 데이터 흐름</block>
@@ -230,28 +161,16 @@
   <block id="895b14af35ea6854d4009fe0ca2d99a9" category="sidebar">NetApp Keystone란 무엇입니까?</block>
   <block id="272552b591277a155ab212d038a32279" category="sidebar">측정 단위는 무엇입니까?</block>
   <block id="202e5e87c64fed77827697acb780124e" category="sidebar">지원되는 기본 스토리지는 무엇입니까?</block>
-  <block id="edfc4c86589e31546a8fb2d8b085b8c9" category="sidebar">서비스 품질(QoS)</block>
   <block id="7fb6ecbfc2c7172d977f1ac481edef36" category="sidebar">내 청구 일정</block>
   <block id="e6bdb181d03ed18f61204d6fa6f9e26d" category="sidebar">약속된 용량보다 많은 용량을 소비하면 어떻게 됩니까?</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">미국 시민 지원</block>
-  <block id="f0411ca83e625da2c18b5f0c0682bd93" category="sidebar">자세히 알아보십시오</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
   <block id="6dd7fd4aac069a06bec3ae24a6b1b39b" category="paragraph">Keystone에서 지원되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>.</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">다음 섹션을 읽고 이 애드온 서비스에 구속되고 NetApp Keystone 계약 약관에 따라 제공되는 구독 요소를 이해합니다.각주:청구1 [여기에 설명된 서비스 및 오퍼링은 완전히 실행된 Keystone 계약의 적용을 받으며 이 계약에 의해 제한 및 관리됩니다.]</block>
-  <block id="dfafb0db4cb7ff50434d65c4ee640f1a" category="paragraph">고객이 Keystone 인프라에 배치한 데이터입니다. 모든 Keystone 용량은 논리적 용량을 기준으로 합니다. 예를 들어, 1TiB 파일이 Keystone 인프라에 저장된 경우 최소 1TiB 용량을 구매해야 합니다.</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">서브스크립션 기간 동안 매월 청구되는 최소 논리적 용량:</block>
-  <block id="422cb43011b8f4dd25975e284b167728" category="list-text">버스트 용량은 탄력적인 기준으로 사용할 수 있으며 평균 소비량에 대해 매일 청구됩니다.</block>
   <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">* 내구성 *: 고객 발생으로 인한 삭제 또는 손상을 제외하고 신뢰도 저하 없이 액세스되는 데이터의 비율입니다.</block>
   <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">* 지연 시간 *: 클라이언트로부터 수신된 I/O 요청을 서비스하는 시간, 서비스 경계(스토리지 컨트롤러 I/O 포트)에서 측정</block>
-  <block id="c51e1a8d511d7d17bd78e518ec1c554c" category="paragraph">처리량 성능 메트릭은 다음에 기반하여 파일 및 블록 서비스에만 적용됩니다.</block>
-  <block id="3b2bc0696ff8c2bf7f6ea81e28f71fb2" category="paragraph">IOPS/TiB 및/또는 MBps/TiB로 계산된 IO 밀도는 다음 요소에 따라 달라집니다.</block>
-  <block id="ff2ffc71212f10c4ae9ba5e5f77d7464" category="list-text">워크로드 특성</block>
-  <block id="891eaaff20ee8e899b87e4592ad45a89" category="list-text">볼륨에 있는 데이터의 양에 관계없이 각 ONTAP 볼륨에 할당된 절대 최소 IOPS:</block>
-  <block id="66dda1e1896da52a0c1c47a30b024aa2" category="list-text">고급 데이터 보호 추가 서비스를 사용하는 동안 대상 지연 시간은 로컬 스토리지의 입출력 요청을 처리하는 경우에만 적용됩니다.</block>
   <block id="542e65f5a286fa6467f7b1c33bc0dab8" category="paragraph">배포에 대한 자세한 내용은 을 참조하십시오 <block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block> 및 <block ref="141d19b4a500cb7c8f293062f31c9e48" category="inline-link-macro-rx"></block>.</block>
-  <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Extreme 서비스 레벨을 위한 설정 및 명령:</block>
-  <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">성능 서비스 수준에 대한 설정 및 명령:</block>
-  <block id="536a21a9808fc714076b198f94a4a506" category="paragraph">ONTAP 시스템 관리자(System Manager) 또는 Active IQ Unified Manager(Unified Manager)를 통해 클러스터를 모니터링하는 경우 이러한 툴과 Keystone에 보고된 소비 사이에 차이가 있을 수 있습니다. System Manager 및 Unified Manager는 미러링된(원격) 클러스터에 볼륨을 보고하지 않으며, Keystone 서비스가 보고하는 소비 메트릭의 절반만 보고합니다.</block>
   <block id="ba66768dfbbcde790d00e0de40f92803" category="paragraph">용량 절감(연간)은 _ Annual in Advance_Payment 모델 및 사내 전용 구축에 적용할 수 있습니다. 클라우드 서비스 또는 하이브리드 클라우드 서비스에는 사용할 수 없습니다. 또한 사내 용량을 프로비저닝할 수 있으므로 가입 서비스 수준당 최대 25%까지 용량을 줄일 수 있습니다. 이러한 감소는 다음 연간 청구 기간 시작 시 매년 한 번씩 시행됩니다. 온프레미스 서비스 기반 연간 지불은 용량 감소를 활용하기 위해 계약 기간 동안 언제든지 &gt;200,000가 되어야 합니다. 이 청구 모델은 사내 구축에만 지원되므로 사내 간의 비용 재할당을 지원하지 않습니다. 연간 용량 감소의 예는 다음 이미지에 나와 있습니다.</block>
   <block id="63da2e64853bf4155b1b1a1e9ee74a97" category="list-text">1년, 2년 또는 3년 약정이 있는 가입에만 적용됩니다.</block>
   <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">재할당 요청은 고객 또는 파트너가 다음 청구 주기 최소 1주 전에 Keystone 성공 매니저(KSM)에 공식적으로 제출해야 합니다.</block>
@@ -261,16 +180,10 @@
   <block id="707341c09d7ffe7d139516dd4be5dcc7" category="inline-image-macro">Keystone에서 지원하는 MetroCluster 구성</block>
   <block id="5aca18c7a53d30f1878ae1f0a8d3c847" category="paragraph"><block ref="5aca18c7a53d30f1878ae1f0a8d3c847" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f3cab949200d7bfe230983c92bd7983f" category="list-text">고객이 운영하는 방화벽은 연결을 허용합니다.</block>
-  <block id="e3cdbc99a0d31e7434525d73238dcc2c" category="paragraph">송장은 약정 용량의 최소 지불을 위해 각 가입 연도가 시작될 때 생성됩니다. 서브스크립션 시작 날짜에 생성됩니다. 다른 송장은 해당 분기에 발생한 버스트 사용량에 대한 적용 가능한 요금을 합산하여 가입 분기 말에 발송됩니다. 약정 중에 약정 용량이 변경된 경우, 해당 구독 연도의 나머지 기간에 대해 비례 배분된 최소 지급에 대한 송장이 당일에 발송됩니다. 약정 용량의 변경이 유효한 날짜를 기준으로 계산됩니다.</block>
-  <block id="d3d3ac1aa803d52f00804394fdd5bc1d" category="list-text">다양한 워크로드 요구사항을 충족하기 위해 IOPS 및 지연 시간 성능을 기준으로 결제 가능 Extreme, Premium, Performance, Standard, Value, 및 Object 를 사용하여 구입한 서비스 수준에 따라 스토리지를 관리할 수 있습니다.</block>
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">충분한 C13 콘센트가 있는 2개의 독립된 보호 회로에 연결된 PDU(Power Distribution Unit)를 제공해야 합니다. 고객 운영 서비스의 경우 경우에 따라 C19 아울렛이 필요합니다. NetApp에서 운영하는 오퍼링의 경우 요구사항에 따라 NetApp 또는 고객이 PDU를 제공할 수 있습니다.</block>
   <block id="9696806b0bc121063e619b6f0922f330" category="paragraph">고객 요구 사항 및 사용하는 스토리지 컨트롤러에 따라 NetApp은 고객 사이트에서 10GB, 40GB, 100GB 연결을 제공할 수 있습니다.</block>
   <block id="f208065131ee7ec38a881083b91c06e2" category="cell">FC 및 iSCSI</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="sidebar">BlueXP</block>
-  <block id="f6ea502258d48432c7bda8b0eeca5dbe" category="paragraph-title">샘플 블록 크기 계산</block>
-  <block id="81eeab9506186e2dca8faefa78d54067" category="paragraph-title">예:</block>
-  <block id="c7c1919c4fd61189792daac01aa326b5" category="list-text">IO 밀도: IOPS/TiB: 워크로드에서 소비하는 총 공간(테비바이트)을 기준으로 초당 처리되는 입력/출력 작업의 수입니다.</block>
-  <block id="bb145603bcdc015d5b17c8a464ceb711" category="list-text">* IOPS/TiB에 포함된 운영 카운터 차트 *: 애플리케이션에서 요청하는 1초 당 프로토콜 작업을 워크로드에 사용되는 볼륨 크기로 나눕니다.</block>
   <block id="2d0539451bff9f553647efc300f001de" category="section-title">서비스 요청을 생성하는 중입니다</block>
   <block id="ec48441169568deaa659297bc5ea9f6c" category="paragraph">온보딩 중에 NetApp Keystone ServiceNow를 액세스 및 사용하기 위한 자격 증명을 제공받은 경우 포털을 사용하여 Keystone 구독 관련 문제에 대한 서비스 요청을 생성할 수 있습니다.</block>
   <block id="ce79b37185c18b2eba95931a0b15de7a" category="inline-link-macro">지원 번들을 생성하고 수집합니다</block>
@@ -284,35 +197,17 @@
   <block id="e72611e56e05f623af5dc7011928a294" category="admonition">NetApp은 Cloud Volumes ONTAP에 필요한 하이퍼스케일 기반 컴퓨팅, 스토리지 및 네트워크 서비스를 Keystone STaaS 가입의 일부로 제공하지 않습니다. 하이퍼스케일 클라우드 서비스 공급자로부터 직접 서비스를 조달해야 합니다.</block>
   <block id="e18765eb2b8dddd29b66918ffb976fcc" category="paragraph">Keystone STaaS 구독은 매월 및 매년 청구됩니다.</block>
   <block id="9b25613e0d8ca22f20fe93edf63407f1" category="cell">* 샘플 워크로드 유형 *</block>
-  <block id="548dcac52aca7f6902fd2de4648c5e9e" category="cell">* 볼륨당 저장된 최대 IOPS/논리적 GB *</block>
-  <block id="93ed1a757e360a886c7ba5a5d93ba089" category="cell">* 볼륨당 저장된 최대 IOPS/논리적 TiB *</block>
-  <block id="a082738e5a73e8698a3682d9439c6131" category="cell">* 볼륨당 저장된 최대 MBps/논리적 TiB *</block>
-  <block id="61871926ab208323c9981229029b2c82" category="cell">* 평균 지연 시간 *</block>
-  <block id="a2fc4fb8d2c1f832a708597b03fe2218" category="admonition">FabricPool 스토리지의 경우, 지연 시간에 오브젝트 저장소로 데이터를 전송하는 데 따른 오버헤드는 포함되지 않습니다.</block>
-  <block id="eb915b9a3c101f4c453714a5ea9a7f1f" category="paragraph">* 지원되는 프로토콜 *: NFS, CIFS, iSCSI, S3(AWS 및 Azure만 해당)</block>
   <block id="c553b9ccdf9dbcac0e340f4775dc3b5a" category="paragraph">Keystone 성공 매니저(KSM)는 미국입니다 미국 시민입니다 제공됩니다. 이러한 책임들의 책임은 NetApp Keystone 계약에 명시되어 있습니다.</block>
-  <block id="a0a3d7ac5998dcdf5286d5aa1997225c" category="admonition">파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스는 SnapMirror, SnapVault, Snapshot과 같은 NetApp 기술을 활용하여 기본 데이터 보호 서비스를 제공합니다.</block>
   <block id="4a313a9affe19522ce794cef41abbe6f" category="paragraph">표준 및 클라우드 서비스에 대한 자세한 내용은 을 참조하십시오 <block ref="32999c765ee523f7718a7908120f4502" category="inline-link-macro-rx"></block>.</block>
   <block id="4d194848bc2fab0aa3d23867126f7f3c" category="list-text">이 서비스의 경우 연결된 스토리지에서 커밋된 용량의 100%가 커밋된 용량으로 구성됩니다.</block>
   <block id="83051df9527e67fafbf41db513cd8e94" category="paragraph">Keystone STaaS는 스토리지에 대한 표준 및 옵션 서비스를 제공합니다.</block>
   <block id="f711abd7b1376e4ea173ce403853e332" category="paragraph">* Keystone STaaS 표준 서비스 *: 표준 서비스는 기본 서비스 내에 포함되며 별도 비용이 청구되지 않습니다.</block>
   <block id="f768fe86ef4edbeda93c2b9eb617765e" category="paragraph">* Keystone STaaS 추가 서비스 *: 표준 Keystone STaaS 가입형 서비스 외에 추가 유틸리티 및 이점을 제공하는 유료 서비스입니다.</block>
-  <block id="c8c350f712b7e8a483647c016478eb87" category="section-title">파일, 블록 및 오브젝트 스토리지용 서비스</block>
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="cell">스토리지</block>
   <block id="419f3742e6de8e0ec4b22cce005e7630" category="cell">플랫폼</block>
   <block id="253b40ae359ba25b56231803430c4873" category="paragraph">ONTAP</block>
   <block id="bcb30b4b4c5f93b9e66badd1fc91f6dc" category="paragraph">NFS 및 CIFS에 대해 설명합니다</block>
-  <block id="6a2ad0d44539352fd04c903f84fa3a89" category="paragraph">지원되는 ONTAP 기능:</block>
-  <block id="84b9523e45d813a33b6812a09967996f" category="list-text">FlexVol</block>
-  <block id="54452390cac5f65f3bcec580ba079531" category="list-text">FlexGroup</block>
-  <block id="92d0a1aef2134a70d5c0f0279dc22ec6" category="list-text">Snapshot 복사본</block>
-  <block id="57a6112c79ff86026f727cd1499c0cec" category="list-text">SnapMirror(비동기식)</block>
-  <block id="5bc075cee240a70af54270621d93765c" category="list-text">SnapVault</block>
-  <block id="8fe0c9f8f23d1eb8317ecbfc3412e145" category="list-text">SnapLock 엔터프라이즈</block>
-  <block id="8dc15fd420da8bda739ceb80f1f8cc73" category="list-text">FabricPool/클라우드 계층화</block>
-  <block id="82ef718f4ebe0c276814ee3d51e33361" category="list-text">SnapRestore</block>
   <block id="a701f5d044348085ee4f97fef6636845" category="list-text">플랙스클론</block>
-  <block id="7d2113229d846a15533e691c746ce4c8" category="list-text">SnapCenter(라이센스는 포함되어 있지만 Keystone 서비스의 일부가 아니며 관리가 보장되지 않음)</block>
   <block id="392d70ca39f31f10bd637936769788df" category="paragraph">StorageGRID</block>
   <block id="141b2b4361a2b3c206d10e1c27378c2e" category="section-title">클라우드 스토리지용 서비스</block>
   <block id="d96e0cf44b3111cb9ae984add2b97c74" category="paragraph">Keystone STaaS는 클라우드 스토리지 서비스를 제공합니다. Keystone STaaS는 AWS(Amazon Web Services), Microsoft Azure 및 Google 클라우드 플랫폼에서 Cloud Volumes ONTAP 데이터 관리 기능을 지원합니다.</block>
@@ -488,18 +383,10 @@
   <block id="58ddac2ef16530986372a556eb9e6b7a" category="list-text">* 시작일 *: 가입일.</block>
   <block id="a49bb8de1f373a2c0821dd3715e2473c" category="list-text">세부 정보를 보려는 필수 구독을 선택합니다. 기본적으로 계정 이름의 첫 번째 구독이 선택됩니다.</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">보고서를 생성합니다</block>
-  <block id="0fdfd6d11ae114ae172cdc0ad002c349" category="paragraph">AQoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="ec50deebd618280d321c610a1ff0d73b" category="inline-link-macro-rx"></block>.</block>
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">* 문제 설명 *: Keystone 수집기는 사용량 측정 시스템의 일부로 다수의 컨테이너를 실행합니다. Red Hat Enterprise Linux 8.x 서버가 ISA(USA Defense Information Systems Agency) STIG(Security Technical Implementation Guides) 정책으로 강화되면, flapolicyd(File Access Policy Daemon)와 관련된 알려진 문제가 간헐적으로 나타납니다. 이 문제는 로 식별됩니다 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>. * 해결 방법 *: Red Hat Enterprise가 해결될 때까지 NetApp은 이 문제를 해결해 드립니다<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 허용 모드로 전환합니다. 인치 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>에서 값을 설정합니다<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>.</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
   <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
-  <block id="e88f55d6b9c231a5c6bcae698bdfd7dc" category="list-text">* vserver *: SVM 또는 스토리지 VM(스토리지 가상 머신)의 이름입니다.</block>
-  <block id="83968617de22b9218018ccb02b138d69" category="paragraph">IO 밀도에 대한 자세한 내용은 을 참조하십시오 <block ref="3ce2bf0236919e451c90f574367e80ae" category="inline-link-macro-rx"></block>. AQoS 정책 그룹에 대한 자세한 내용은 을 참조하십시오<block ref="e1f6c27c218a9f9df79e5c49fb7040d6" category="inline-link-rx"></block>.</block>
-  <block id="d1dc13c797f457ef0f8af6fba8c638fa" category="paragraph">프리미엄 서비스 수준에 대한 설정 및 명령:</block>
-  <block id="7448ec74d1e6091b2ad38508ebdc37f4" category="section-title">표준 서비스 수준 설정</block>
-  <block id="f20f6fc30a0b0f9782dbad2fdc8d1694" category="paragraph">표준 서비스 수준에 대한 설정 및 명령:</block>
-  <block id="5cd7d5370bb2b4b9a46af59b9c5c279e" category="paragraph">값 서비스 수준에 대한 설정 및 명령:</block>
   <block id="6ee89d6c0a15491675b7cc32e34a211d" category="list-text">* gibibytes(GiB), tebytes(TiB) 및 pebibytes(PiB) *: 1024의 밑을 사용한 데이터 스토리지 용량 측정(1GiB = 1024^3^바이트, 1TiB = 1024^4^바이트, 1PiB = 1024^5^바이트).</block>
-  <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">최대 용량은 Keystone 계약에 합의됩니다. 일반적으로 커밋된 용량보다 20% 높게 설정되며 커밋된 용량과 동일한 속도로 충전됩니다.</block>
   <block id="1bcbd92a1182a8044032c0af47695d8a" category="list-text">를 다운로드합니다<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> 파일:<block ref="d1ed07754d396f9745478bc6388ae23a" prefix=" " category="inline-code"></block></block>
   <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Keystone이 수집하는 사용자 데이터의 유형</block>
   <block id="e14f2b2670997486a2e4f3918cbe9cb6" category="section-title">ONTAP 데이터 수집</block>
@@ -682,12 +569,7 @@
   <block id="60027fcd2e5db75fada38cb8c25a89ad" category="list-text">** 시작 KS-Collector with System** 필드를 토글합니다.</block>
   <block id="12d4a3f31d7915f04142a35be1ba5a37" category="paragraph">Keystone Collector TUI 화면에서 특정 고객 데이터의 수집을 제한할 수 있습니다. 이 옵션 * 개인 데이터 제거 * 는 기본적으로 사용됩니다.</block>
   <block id="dd771779768817666d39c63b55339112" category="paragraph">ONTAP 및 StorageGRID에서 개인 데이터 액세스를 제한하는 데 제거된 항목에 대한 자세한 내용은 을 참조하십시오 <block ref="461595833a51b2e2463fa89ad8a35ca1" category="inline-link-macro-rx"></block>.</block>
-  <block id="6b71507d392708444982d424df1963c2" category="paragraph">ONTAP 파일 및 블록 스토리지, StorageGRID 오브젝트 스토리지를 위한 Keystone STaaS 서비스는 다음 표에 설명된 다양한 기능 및 프로토콜을 지원합니다.</block>
   <block id="5e3fca9227064d2d04c47a0f13b4fffe" category="paragraph">Keystone 서비스에 대한 자세한 내용은 다음을 참조하십시오.</block>
-  <block id="b41d880d5f9cddb842b19d183ce73f2e" category="paragraph">Keystone은 클러스터가 운영 중인 경우 설정할 수 있는 AQoS 정책을 제공합니다. 모든 볼륨이 시스템에서 이미 생성되어 사용 가능한 올바른 AQoS 정책과 연결되어 있는지 확인해야 합니다.</block>
-  <block id="783c1c698cfe222ca1a1c69b815e8a3c" category="list-text">* 정책 그룹 이름 *: AQoS 정책 그룹의 이름입니다. 예를 들면, 다음과 같습니다.<block ref="e22fe87dc37298f80d1bbd25d59219b8" prefix=" " category="inline-code"></block>.</block>
-  <block id="680fcae2005fb4b11fdcc18c27ddd58b" category="list-text">* 절대 최소 IOPS *: 볼륨 크기가 매우 작은 경우 볼륨에 적용되는 예상 IOPS의 최소 개수이며, 그렇지 않으면 IOPS가 허용할 수 없는 수준으로 표시됩니다. 이 값은 의 경우 기본적으로 1,000으로 설정됩니다<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block>, 500for<block ref="8d5e7e72f12067991186cdf3cb7d5d9d" prefix=" " category="inline-code"></block>, 및 250 을 참조하십시오<block ref="9446a98ad14416153cc4d45ab8b531bf" prefix=" " category="inline-code"></block>, 및 의 경우 75<block ref="eb6d8ae6f20283755b339c0dc273988b" prefix=" " category="inline-code"></block> 및<block ref="689202409e48743b914713f96d93947c" prefix=" " category="inline-code"></block> 서비스 레벨:</block>
-  <block id="190dc75f5eac190e46db7ce571587dbc" category="paragraph">각 서비스 수준에 대한 AQoS(Adaptive QoS) 정책 설정은 다음 섹션에서 설명합니다. 여기에 제공된 각 서비스 수준에 대한 최소 및 최대 볼륨 크기를 통해 볼륨에 대한 최적의 IOP 및 지연 시간 값을 얻을 수 있습니다. 이 지침을 벗어나는 볼륨을 너무 많이 생성하면 해당 볼륨의 성능에 부정적인 영향을 미칠 수 있습니다.</block>
   <block id="c9b73422281776827a4c8f78b386d48d" category="list-text">Keystone STaaS 가치 계층, Keystone STaaS StorageGRID 오브젝트 계층 또는 기존 SGWS 그리드(고객 소유) - 추가 비용이 없으며 표준 서비스의 일부입니다.</block>
   <block id="cdc9f551ac993c356214a8c16ca3cec2" category="sidebar">대금 청구를 위해 수집된 데이터</block>
   <block id="dab2edf9eaac3950e92c281ce358af01" category="sidebar">Active IQ Digital Advisor</block>
@@ -724,42 +606,18 @@
   <block id="cd7ff698af2c2f69b7a1e0b0f9bd6fc0" category="inline-image-macro">데이터 흐름</block>
   <block id="61d927a1aed666979cd431fa1e2acade" category="inline-image-macro">체크 표시</block>
   <block id="afa99e6515d2d53209947ce07fcae1c0" category="cell"><block ref="afa99e6515d2d53209947ce07fcae1c0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3e0c227cab019a94ad107467446bc4a1" category="paragraph">Keystone 서비스에서 AQoS(적응형 QoS)를 사용하여 볼륨 크기에 따라 IOPS/TiB 비율을 동적으로 유지합니다. AQoS 정책에 대한 자세한 내용은 을 참조하십시오<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block>.</block>
-  <block id="772f84cc1580c3b2eb870e7f4a05c668" category="paragraph">ONTAP 볼륨에 AQoS 정책이 적용되지 않은 경우 해당 볼륨은 규정을 준수하지 않습니다. QoS 정책이 없는 볼륨은 시스템에서 사용 가능한 입력/출력 작업을 제공하는 데 필요한 우선 순위 목록의 마지막 볼륨입니다. 그러나 입력-출력 작업을 사용할 수 있는 경우 볼륨은 사용 가능한 모든 IO를 소모할 수 있습니다.</block>
-  <block id="8076a815ea253b898f1e1205fc7aa039" category="admonition">볼륨에 AQoS 정책을 적용하지 않은 경우, 해당 볼륨은 가입자 서비스에 따라 가장 높은 서비스 수준에서 측정 및 청구됩니다. 이로 인해 의도하지 않은 폭발이 발생할 수 있습니다.</block>
-  <block id="bc26ba2885b2bd7d8c41202e1d58b847" category="section-title">적응형 QoS 설정</block>
-  <block id="d2c88ef05da757a3aeaaf8bc9fe70038" category="paragraph">AQoS(Adaptive QoS) 설정은 서비스 수준에 따라 다릅니다.</block>
-  <block id="3e1621011a15ff9b858d144dd8b32184" category="cell">* 정책 이름 *</block>
-  <block id="911c903acff40c3f442bbae7f73ea081" category="cell">6,144</block>
-  <block id="a980f22074119d4103953f70f2fd69ce" category="cell">1,024</block>
-  <block id="f718499c1c8cef6730f9fd03c8125cab" category="cell">256</block>
-  <block id="8dea0526cd966f1d2b8537ec99d156b6" category="cell">* 예상 IOPS 할당 *</block>
-  <block id="d948b8bd026bed9e90e7989a41fdbb46" category="cell">할당된 공간입니다</block>
-  <block id="13533e52f2c161b3cad8ec91b2a8bc26" category="cell">* 최대 IOPS 할당 *</block>
-  <block id="aa06850d5c9d77127d7340a724cb89be" category="cell">사용된 공간</block>
-  <block id="fd5c2880a704553c642b2e60a6ff5cf2" category="cell">* 블록 크기 *</block>
-  <block id="de66b0668daa0803e4322ddd80158d6c" category="cell">32K</block>
-  <block id="1485819d1bb1109d78f142c11b8e830d" category="paragraph">AQoS(적응형 QoS) 정책을 구성하여 처리량 상한 또는 하한 을 볼륨 크기로 자동 확장할 수 있습니다. 모든 Keystone 서비스 수준이 기본 ONTAP QoS 정책에 부합되는 것은 아닙니다. 사용자에 대한 사용자 지정 QoS 정책을 생성할 수 있습니다. 정책을 구성할 때는 다음 사항을 염두에 두어야 합니다.</block>
-  <block id="be53c8157b32393bccd2e22d0b1536aa" category="list-text">* 예상 IOPS 할당 *: 이 매개 변수는 볼륨에서 사용 가능한 예상 IOPS가 볼륨의 할당된 크기 또는 사용된 크기를 기반으로 하는지 여부를 제어합니다. Keystone에서 이는 할당된 공간을 기반으로 합니다.</block>
-  <block id="14d0dc302a669d6a99952e49afc7861a" category="list-text">* Peak IOPS allocation *: 이 매개변수는 볼륨에서 사용 가능한 피크 IOPS가 볼륨의 할당 또는 사용된 크기를 기준으로 하는지 여부를 제어합니다. Keystone에서 이는 사용된 공간을 기반으로 합니다.</block>
-  <block id="55b9320c8c3c184ea9542aa4a82ecd70" category="cell">* 볼륨당 할당된 최대 IOPS/논리적 GB *</block>
-  <block id="2951c92ac7129eb5950ee23f07140f99" category="cell">* 32K B/S * 에서 볼륨당 저장된 최대 MBps/논리적 TiB</block>
-  <block id="d6b228a8ed209a51c109dc08e1f357ce" category="cell">* 블록 크기 *</block>
-  <block id="1ce7cadb42fda63031710acdb1e36d13" category="list-text">실제 IOPS/TiB/볼륨 및 MBps/TiB/볼륨은 실제 또는 가정된 블록 크기, 시스템 워크로드 동시성 또는 입력 출력 작업에 따라 달라질 수 있습니다.</block>
   <block id="58ec0dfd62f9630c9b479a35a8b38962" category="list-text">지연 시간은 다음 사항을 포함하지 않습니다.</block>
   <block id="e777748ce6788629275890358373ad33" category="list-text">애플리케이션 또는 호스트 지연 시간</block>
   <block id="303d588a44f75e97197277df23fe31a6" category="list-text">컨트롤러 포트 간 또는 컨트롤러 포트로 전송되는 고객의 네트워크 지연 시간</block>
   <block id="66da45e9c280e17b214fda19697e0c52" category="list-text">FabricPool의 경우 데이터 전송과 관련된 오버헤드를 오브젝트 저장소로 이동합니다</block>
   <block id="85bc0e8522deb39494936f2ff6c542e4" category="list-text">지연 시간 값은 MetroCluster 쓰기 작업에 적용할 수 없습니다. 이러한 쓰기 작업은 원격 시스템의 거리에 따라 달라집니다.</block>
   <block id="d292740ed171285325a91f3bddbbc59d" category="list-text">_expected IOPS_는 계층화 정책이 "없음"으로 설정되고 클라우드에 블록이 없는 경우에만 FabricPool를 대상으로 합니다. _expected IOPS_는 SnapMirror 동기식 관계가 아닌 볼륨을 대상으로 합니다.</block>
-  <block id="acad586f6e3c240e49bc22095d3d4c92" category="list-text">워크로드 IO 작업은 Keystone 순서에 따라 구축된 모든 컨트롤러 간에 균형을 이루어야 합니다.</block>
   <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">아이콘을 클릭합니다</block>
   <block id="afcefd303655b7f65e49ebd8be60e0e7" category="inline-image-macro">회색 점 아이콘</block>
   <block id="c0ffa381f5b727ea5de2afacc2018783" category="inline-image-macro">녹색 점 아이콘</block>
   <block id="f17cd43b9cda36a4b4fad09a0d2aab75" category="inline-image-macro">황색 점 아이콘</block>
   <block id="f9f0c63a81657ad2d480fa16a33c0531" category="inline-image-macro">빨간색 점 아이콘</block>
   <block id="7d7d26ff83eab48a85cd445cd29bab2e" category="inline-image-macro">자주색 점 아이콘</block>
-  <block id="7ed21143076d0cca420653d4345baa2f" category="inline-image-macro">경고</block>
   <block id="85701aafc47f53d769db3988637e595c" category="admonition">빈 차트는 해당 데이터 수집 지점에 사용자 환경에서 사용할 수 있는 데이터가 없음을 나타냅니다.</block>
   <block id="c2e2fce3a995f59900d7afbbe58683f5" category="inline-link">이 링크</block>
   <block id="7656f92cecd653f72ca596d6def21867" category="list-text">에서 OVA 파일을 다운로드합니다<block ref="6a1066e952a937beb3c2b32013fd7738" category="inline-link-rx"></block> VMware vSphere 시스템에 저장합니다.</block>
@@ -775,17 +633,6 @@
   <block id="ba20b958dd73f9247c3247dbef41c8d4" category="paragraph">Keystone Collector OVA의 무결성 및 신뢰성이 검증되면 텍스트를 볼 수 있습니다<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 퍼블리셔와 함께 합니다.
 <block ref="de3bc771b0100381aa743c5ecbd3a7df" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f5e8b836d490bee65ada2e551662a8f" category="sidebar">Keystone Collector를 설치합니다</block>
-  <block id="3f20b3134627198be1e0ff879a88cd8f" category="inline-link-macro">고급 데이터 보호</block>
-  <block id="31983c33f891876ff7bcaee65805fde0" category="paragraph">고급 데이터 보호 추가 서비스에 대한 자세한 내용은 을 참조하십시오 <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block>.</block>
-  <block id="65626369a820db5271fac7f41d059e93" category="paragraph-title">기본 구독에 대해 확인할 수 있는 사항</block>
-  <block id="7cbd40b0470c3f0ea1063db9202530ff" category="inline-image-macro">MCC 기본</block>
-  <block id="4bb0adac0644b7c8396196d410d47909" category="inline-image-macro">MCC 기본 베이스</block>
-  <block id="cd9124dc0715967bbbd4e31ad8a6f35d" category="paragraph-title">2차(미러 사이트) 구독에 대해 확인할 수 있는 사항</block>
-  <block id="ff58d4e2d2a69e5e91f9509907ba3bd1" category="inline-image-macro">MCC 미러</block>
-  <block id="ab682f0abbe8b97aaec76b435ca52575" category="inline-image-macro">MCC 미러 베이스</block>
-  <block id="48d59ef93e565c1c62d4604f7ddf6561" category="inline-link">MetroCluster 데이터 보호 및 재해 복구 이해</block>
-  <block id="11faa60292999fe44e704021ce9a5657" category="paragraph">MetroCluster에서 데이터를 보호하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="f22c59fda71318ed939c4a5a7c90b447" category="inline-link-rx"></block>.</block>
-  <block id="af16b731bd6e35896b00c75d9acfb1d5" category="admonition">고급 데이터 보호 애드온 서비스의 경우 MetroCluster 구성에서 볼륨이 운영 볼륨인지 미러 볼륨인지를 나타내는 추가 열이 나타납니다. 노드 계열 복사 * 버튼을 클릭하여 개별 노드 일련 번호를 복사할 수 있습니다.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
   <block id="c2c11a830d011ece03d73534208897a1" category="list-text">요금은 파일 및 블록 스토리지에만 적용됩니다.</block>
   <block id="3505917ad3d0afd6896fab28f67d309e" category="paragraph">지원되는 MetroCluster 시나리오는 다음과 같습니다.</block>
@@ -809,15 +656,6 @@
   <block id="20c41bcd9366cdbd961d6554489ea863" category="inline-link">시스템 노드 AutoSupport 트리거 수정</block>
   <block id="5f6d98c1ed4256fab45f6c20e637744e" category="paragraph">이 명령에 대한 자세한 내용은 을 참조하십시오<block ref="700e80291e0b2dbcd3452a610925a1ef" category="inline-link-rx"></block>.</block>
   <block id="2ecbbb6413b4f26bda9319a043adc2e2" category="cell">* 목표 90 백분위수 대기 시간 *</block>
-  <block id="99f8d77b50f8491531357b2d907d59d1" category="cell">1ms 미만</block>
-  <block id="6fad0b609a57af2ae4dbbf92ff728673" category="cell">2ms 미만</block>
-  <block id="71d46f269394e963a516a1cc98340c17" category="cell">4ms 미만</block>
-  <block id="342e06f2c04b016459176bdbbd984dfe" category="cell">17ms 미만</block>
-  <block id="1b5106e844354f799e5aa0cfdd0ead2d" category="list-text">자율적 랜섬웨어 방어 1</block>
-  <block id="ec45d0e150ff641adb7da6f8f3be1d72" category="paragraph">여러 사이트에 걸쳐 여러 ILM(정보 수명 주기 관리) 정책을 지원합니다</block>
-  <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link">자율 랜섬웨어 보호</block>
-  <block id="6b51f04b870573bccac2a4d06532aa13" category="admonition">ONTAP의 랜섬웨어 방어에 대한 자세한 내용은 을 참조하십시오<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block>.
-각 사이트에는 별도의 가입이 필요합니다.</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -832,7 +670,6 @@
   <block id="5ed038c610a4830d7271f424b6634183" category="inline-image-macro">이전 대시보드</block>
   <block id="13d14e18f44239917913d637c7256363" category="paragraph-title">대체(새로운) 대시보드</block>
   <block id="1a088874dce4d7e7d6594dc2f1a4f5dc" category="paragraph">구독에 따른 용량 사용량 분열과 즉각적인 주의나 조치가 필요한 경고 및 알림을 확인할 수 있습니다. 정보는 구독 및 사용 상태에 따라 선택적으로 표시됩니다. 다음 정보를 볼 수 있습니다.</block>
-  <block id="9194b7f85d509cccf4786fa0a36abb7e" category="list-text">* 만료 예정 *: 가입이 90일 이내에 만료되는 경우.</block>
   <block id="212358b46f9bebbd9fb05f0b1ec74010" category="admonition">구독 * 탭에서 필터링된 구독 목록을 보려면 * 구독 * 링크를 클릭하십시오.</block>
   <block id="07dd553ab0687b884de52961e62afa71" category="inline-image-macro">새로운 대시보드</block>
   <block id="48946b5a768605c40f4daddd2a8cd029" category="inline-image-macro">구독 탭 이미지</block>
@@ -861,7 +698,6 @@
   <block id="e35bc286817799a8ecac7de0060837be" category="list-text">서비스 기간 종료 시, 또는 서비스 기간 동안 드라이브 및 비휘발성 메모리의 반환이 실패하거나 결함이 발견된 경우에는 반환할 필요가 없습니다.</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">컴퓨팅, 스토리지, 네트워킹과 같은 클라우드 네이티브 서비스는 클라우드 공급자가 송장을 발행합니다.</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">이러한 서비스는 클라우드 스토리지 및 컴퓨팅 특성에 따라 다릅니다.</block>
-  <block id="0c0de0453c5b0de437eb1976c3926361" category="paragraph">사이트 A와 사이트 B는 MetroCluster 구성으로 설정됩니다. 사용자가 사이트 A에서 10TB의 볼륨을 생성하면 사이트 B에서 동일한 10TB의 볼륨이 생성됩니다 Keystone은 각 사이트에서 10TB의 소비를 식별하여 20TB를 총 늘립니다. System Manager와 Unified Manager에서 사이트 A에 10TB 볼륨이 생성되었다고 보고하지만 사이트 B에 10TB 볼륨을 보고하지 않습니다</block>
   <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">구독이 12개월 추가 기간 동안 갱신되지 않는 한, 약정 용량은 구독이 만료되기 90일 전에 늘릴 수 없습니다.</block>
   <block id="783e590ecfbaebc7caa0409a8cae6926" category="paragraph">파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스에는 자주 사용되지 않는 데이터를 식별하고 Keystone STaaS 지원 NetApp 콜드 스토리지에 계층화하는 계층화 기능이 포함됩니다. 콜드 데이터를 Keystone STaaS가 지원하는 비 NetApp 스토리지에 계층화하려는 경우 데이터 계층화를 애드온 서비스로 사용할 수 있습니다.</block>
   <block id="29a37414986b666b1caba06ea110bc8c" category="paragraph">계층화 애드온 서비스는 데이터가 AWS(Amazon Web Services) S3, Azure Blob, Google Cloud Platform(GCP) 및 기타 Keystone STaaS 지원, S3 호환, 타사 오브젝트 스토리지와 같은 타사 스토리지에 계층화된 경우에만 필요합니다.</block>
@@ -869,7 +705,6 @@
   <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">* 가용성 *: 서비스에 의해 성공적으로 응답한 I/O 요청 수의 백분율로 측정되며, 서비스에 대한 총 I/O 요청 수로 나눈 값입니다. 이 값은 한 달 동안의 서비스 경계에서 측정되며, 고객이 제공한 시설, 네트워크 또는 기타 서비스의 예정된 서비스 중단 시간 또는 가용성 불량은 포함되지 않습니다.</block>
   <block id="8a559914d26628167b5f08a9373076e9" category="paragraph">NetApp은 NetApp Keystone 고객에게 운영 서비스를 원격으로 제공합니다. 이러한 서비스는 스토리지 관리 활동 전반에 걸쳐 다양한 운영 분야를 아우릅니다. 이러한 서비스에는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트, 인시던트 및 문제 관리, 서비스 요청 이행, 보고 등이 포함됩니다. NetApp는 필요에 따라 관리 상태와 증거 자료를 보여 줍니다.</block>
   <block id="380091ff4f618bba4a7e7e4aa88a1ec1" category="paragraph">Keystone Success Manager(KSM)는 귀사와 Keystone 서비스를 위해 긴밀하게 협력하며 주간 또는 월별 청구 및 운영 보고서에 기반하여 업데이트를 제공합니다. 책임은 NetApp Keystone 계약에 명시되어 있습니다.</block>
-  <block id="e6493c4efe3fa5e48bce86284ff1aa5f" category="paragraph">예를 들어, 서비스 수준의 처리량을 계산합니다<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block> 서비스 수준:</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">가능한 경우, 미국 에서는 현장 및 원격 배포 및 설치 활동을 수행합니다 미국 시민권입니다 제공됩니다. 각주: 책임 부인 [현장 활동에 필요한 적절한 인력의 수는 Keystone 시스템이 구축된 지리적 위치에 따라 달라집니다.]</block>
   <block id="9415cbbaeaf88bca0512bbfe3c3cb334" category="paragraph">기본적으로 Keystone 상태 서비스는 localhost 이외의 IP로부터의 연결을 허용하지 않습니다. Keystone 상태 엔드포인트는 입니다<block ref="b2445934e628b68d6950a1056d38299a" prefix=" " category="inline-code"></block>또한 포트에서 Keystone Collector 서버의 모든 인터페이스를 수신합니다<block ref="d79c8788088c2193f0244d8f1f36d2db" prefix=" " category="inline-code"></block>. 쿼리 시 JSON 출력이 있는 HTTP 요청 상태 코드가 끝점에서 응답으로 반환되어 Keystone Collector 시스템의 상태를 설명합니다.
 JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3fbc3fb647215fe5fedcae04ab7c5" prefix=" " category="inline-code"></block> 속성, 부울, 에 대한 구성 요소별 상태의 세부 목록<block ref="39b49dc5cd8428b510bca14512a16a96" prefix=" " category="inline-code"></block> 속성.
@@ -976,7 +811,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="sidebar">알려진 문제</block>
   <block id="15b8bdededfed453d4aa35a4585d9e2c" category="sidebar">온프레미스의 지출을 클라우드로 재할당할 수 있습니까?</block>
   <block id="e95f37597101815c1d465e37eb31cab2" category="sidebar">Keystone 가격 및 비용청구</block>
-  <block id="60c2efc3e4aa54d923286d4b7554d471" category="sidebar">Keystone 가격 정보를 알고 있습니다</block>
   <block id="c977c72cd7678128aadf339e54fc0498" category="sidebar">콜드 데이터 또는 덜 사용되는 데이터로 무엇을 할 수 있는가?</block>
   <block id="3c433d996e071fc968830570a2649830" category="sidebar">Keystone 데이터를 어떻게 보호할 수 있습니까?</block>
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">송장 발행된 누적 버스트 보기</block>
@@ -990,7 +824,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
   <block id="a2e2f97253342349ff9ef2b936b778d0" category="list-text"><block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
-  <block id="01d1ce60b1a3aef68f02db880ec50307" category="list-text"><block ref="01d1ce60b1a3aef68f02db880ec50307" category="inline-link-macro-rx"></block></block>
   <block id="fe53175072711abfe4bc0ec0a1c8feda" category="list-text"><block ref="fe53175072711abfe4bc0ec0a1c8feda" category="inline-link-macro-rx"></block></block>
   <block id="666607765db8e2a230407163fc7ea704" category="list-text"><block ref="666607765db8e2a230407163fc7ea704" category="inline-link-macro-rx"></block></block>
   <block id="da7adc48e3ef5d5cba8270d6542a88e9" category="list-text"><block ref="da7adc48e3ef5d5cba8270d6542a88e9" category="inline-link-macro-rx"></block></block>
@@ -1091,7 +924,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="e95c375579d57291c75e74e27ea2e55b" category="paragraph">구독 * 탭 내의 * 사용 유형 * 열은 파일과 개체 모두에 대한 서비스 수준을 포함하는 구독에 대한 논리적 및 물리적 용도를 쉼표로 구분된 값으로 표시하도록 개선되었습니다.</block>
   <block id="555fdd5c5952939fd3a2e87f3c0202cc" category="section-title">볼륨 세부 정보 탭에서 오브젝트 스토리지 세부 정보에 액세스합니다</block>
   <block id="29117909372d41a783c58a54504dc882" category="paragraph">볼륨 및 개체 * 탭의 * 볼륨 세부 정보 * 탭에는 이제 파일 및 개체 모두에 대한 서비스 수준을 포함하는 구독에 대한 볼륨 정보와 함께 개체 스토리지 세부 정보가 제공됩니다. Volume Details * 탭에서 * Object Storage Details * 버튼을 클릭하여 세부 정보를 볼 수 있습니다.</block>
-  <block id="d1460394a13760c5650d62f6d4fd88e4" category="list-text">* QoS 경고 *: AQoS 정책이 할당되지 않은 볼륨이 있습니다.</block>
   <block id="af17398e2b948fd6715e1bdf5857d48e" category="paragraph">TCP 7777</block>
   <block id="6178fec7016b28af42fcd47c64d4da81" category="list-text">일별 및 주별 AutoSupport 번들에 서브시스템을 포함하여 Keystone의 데이터를 정확하게 수집할 수 있습니다. AutoSupport 하위 시스템에 대한 자세한 내용은 을 참조하십시오<block ref="5cc209367930dbf9b2a8c95126c2b0b9" category="inline-link-rx"></block>.</block>
   <block id="001d654c5d010b25a953ace0dce0f14d" category="list-text">로그 내용을 수정합니다.</block>
@@ -1166,20 +998,11 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="1388fb0841924e24456f6e804391dd9d" category="paragraph">2분마다 같은 짧은 기간 동안 누적된 버스트 값을 계산할 수 있습니다.</block>
   <block id="c5463aa7dfcc807ab1935c21fb07d1c5" category="paragraph">[BURST / ((일 단위) x 24 x 60)] x 간격 지속 시간</block>
   <block id="d7b378f896f44381b7e64ff2e954c2d4" category="paragraph">버스트는 사용된 용량과 커밋된 용량 간의 차이입니다. 예를 들어, 매달 30일이 지난 후 소비 용량이 120TiB에 도달하고 2분 간격으로 커밋된 용량이 100TiB인 경우, 20TiB의 버스트 용량이 해당 간격으로 누적된 0.000925926TiB의 버스트 사용량과 같습니다.</block>
-  <block id="382fd8723ebdcd2f39cbf2ac2a288ee4" category="paragraph"><block ref="382fd8723ebdcd2f39cbf2ac2a288ee4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="75e0534d6922c86860faff1d9500a18b" category="admonition">* Current Consumption * 탭에서 구독 추적 ID 옆에 있는 도구 설명을 사용하면 MetroCluster 설정에서 파트너 구독을 식별할 수 있습니다.</block>
-  <block id="411b4b5589103e858fe02027bfde997a" category="paragraph"><block ref="411b4b5589103e858fe02027bfde997a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="769532fe8a4c67a337e04a1f1be3251f" category="paragraph"><block ref="769532fe8a4c67a337e04a1f1be3251f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="190a77bbd4a70cc413c9d5e6b34bf1cc" category="paragraph"><block ref="190a77bbd4a70cc413c9d5e6b34bf1cc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="583eae6921fe4460222bc113f31b5308" category="paragraph"><block ref="583eae6921fe4460222bc113f31b5308" category="inline-image-macro-rx" type="image"></block></block>
   <block id="113a7f7a3800ecc0ca2650ec55f2fc4d" category="doc">현재 소비 탭</block>
   <block id="2f92de04a3d2869fe0cf56db40e54a0a" category="paragraph">현재 소비량과 함께 사용 내역 데이터를 확인하여 비교할 수도 있습니다. View Historical Data * 버튼을 클릭하여 * Consumption Trend * 탭으로 이동하여 동일한 구독에 대한 기록 데이터를 봅니다.</block>
-  <block id="0f9ac035eb1ca017e76913bac1e0a516" category="paragraph"><block ref="0f9ac035eb1ca017e76913bac1e0a516" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b4ea9046556cbc5b97453e9670a498f7" category="list-text"><block ref="f5416884a5e4dfec0dfa2f3734568648" category="inline-image-macro-rx" type="image"></block>: 구독에 대해 이 아이콘을 클릭하면 해당 구독의 사용 세부 정보가 있는 * Current Consumption * 탭이 열립니다.</block>
   <block id="10aeed360fbcc9bd5a33ce04370b8b61" category="section-title">ONTAP 볼륨 및 오브젝트 스토리지의 세부 정보를 봅니다</block>
   <block id="3aa28a24613316ab1ba9910b8ae72a64" category="list-text">가입 번호를 선택합니다.</block>
-  <block id="07ade29ef359cb8a074eb4341737c291" category="paragraph"><block ref="07ade29ef359cb8a074eb4341737c291" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="56e2246e0f7e12674e62ac0311a5600a" category="paragraph"><block ref="56e2246e0f7e12674e62ac0311a5600a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c8308b1eba7ba926a61b8fd802194386" category="open-title">오브젝트</block>
   <block id="8f0fe81a9b7f4cb142f2a7084f33fd88" category="inline-image-macro">개체 탭</block>
   <block id="ff86b04f28e9deb882d5f8b709958474" category="paragraph"><block ref="ff86b04f28e9deb882d5f8b709958474" category="inline-image-macro-rx" type="image"></block></block>
@@ -1194,7 +1017,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">MySQL의 기본 포트인 3306은 Unified Manager를 새로 설치할 때 로컬 호스트로만 제한되므로 Keystone ONTAP에 대한 성능 데이터가 수집되지 않습니다. 이 구성을 수정할 수 있으며 Unified Manager 유지보수 콘솔의 옵션을 사용하여 다른 호스트에서 연결을 사용할 수 있습니다<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> . 자세한 내용은 을 <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">고급 데이터 보호 애드온 서비스를 사용하여 미션 크리티컬 워크로드의 데이터를 효율적으로 보호합니다.</block>
   <block id="a6b5c7400b59e86e1201f869cdba2c1a" category="doc">고급 데이터 보호에 대해 알아보십시오</block>
-  <block id="7322651c5a3929e757c7e2a38e363825" category="paragraph">Keystone STaaS 구독의 일부로 고급 데이터 보호 애드온 서비스를 구독할 수 있습니다. 이 애드온 서비스는 NetApp MetroCluster 기술을 활용하여 복구 시점 목표(RPO)가 0인 상태에서 미션 크리티컬 워크로드의 데이터를 효율적으로 보호합니다.</block>
   <block id="c9830eb427c91a86a2ded324ba8b803d" category="summary">Keystone STaaS 청구는 구독의 약정 용량 외에 귀하가 소비하는 용량인 버스트 용량을 기반으로 합니다.</block>
   <block id="b1c4c6aab8cd7c824717fc1621d76273" category="paragraph">Keystone STaaS 청구는 구독의 약정 용량 외에 귀하가 소비하는 용량인 _burst capacity_ 를 기반으로 합니다.</block>
   <block id="44356560df15caffd928422c99dc9948" category="summary">서비스 수준에 대한 용량 요구사항은 Keystone STaaS 구독에서 지원하는 파일, 블록, 오브젝트 또는 클라우드 스토리지에 따라 다릅니다.</block>
@@ -1217,9 +1039,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="e38b5058398d45181914283e348c4f38" category="doc">Keystone에 사용되는 메트릭 및 정의</block>
   <block id="3a79a2a5d18c98a3e6880bfa3a826f9f" category="paragraph">Keystone STaaS 서비스 내에서 메트릭을 측정하기 위해 다음 용어와 정의가 사용됩니다.</block>
   <block id="23b37b253ca769ce608c60059a855b79" category="summary">클론 복제된 볼륨, 고급 데이터 보호 등을 포함한 특정 구성을 위한 Keystone 빌링에 대해 알아보십시오.</block>
-  <block id="6a249c25be1113adfd4b390d43270d08" category="section-title">고급 데이터 보호를 위한 청구</block>
-  <block id="5db4fbedef3c3fe2cd69fb00f0149f1a" category="paragraph">고급 데이터 보호는 NetApp MetroCluster을 사용하여 물리적으로 분리된 두 클러스터 간에 데이터를 미러링합니다. MetroCluster 미러링된 애그리게이트의 경우 각 클러스터에 데이터가 두 번 기록됩니다. Keystone 서비스는 각 측면에서 독립적으로 소비에 청구되므로 두 개의 동일한 소비 레코드가 생성됩니다. 추가 비용은 데이터가 소스에 있는지, 미러링 또는 미러링되지 않은 데이터인지에 관계없이 구독의 모든 용량에 적용됩니다.</block>
-  <block id="a8bfd47f5b9fe7efcabf364ce6b11add" category="paragraph">또한 고급 데이터 보호 기능을 갖춘 Keystone 시스템에서 생성된 모든 볼륨은 미러링되는지 여부와 관계없이 고급 데이터 보호의 사용 시 계산됩니다.</block>
   <block id="554b9774fcd47c93aacebd604a76b86c" category="summary">NetApp은 NetApp Keystone 구독의 일환으로 파일, 블록 및 오브젝트 서비스에 대한 NRNVC 오퍼링을 확장합니다.</block>
   <block id="6a69842e6e38f4acc01bbde008bf7a4f" category="doc">반품 불가, 비휘발성 구성 요소 및 SnapLock 규정 준수</block>
   <block id="8db09ad8b057ebdb5478401fb9e32f1c" category="paragraph">NetApp Keystone 구독의 일환으로 NetApp은 파일, 블록 및 오브젝트 서비스에 대한 반품 불가 비휘발성 구성 요소(NRNVC) 오퍼링을 확장합니다.</block>
@@ -1229,11 +1048,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="4017209949d03f232ecddb6bf8aea269" category="paragraph">NetApp Keystone STaaS는 파트너 운영 모델과 고객 운영 모델의 두 가지 운영 모델을 제공합니다. Keystone을 시작하기 전에 이러한 옵션을 이해해야 합니다.</block>
   <block id="31486f17bb0da292e6faff47c42e27a2" category="summary">Keystone은 선행 CapEx 또는 리스보다 OpEx 소비 모델을 선호하는 기업을 위한 용량제 구독 기반 서비스 모델입니다.</block>
   <block id="f29d51ebfc7a851025b60dc1bcc5560e" category="summary">Keystone은 유연하고 확장 가능한 소비 요구사항에 부합하는 용량제 모델을 제공합니다.</block>
-  <block id="86744497c7d6e3b8d3acc8300243fcaf" category="summary">Keystone은 스토리지 QoS를 사용하여 애플리케이션이 일관되고 예측 가능한 성능을 제공하도록 보장합니다.</block>
-  <block id="bdd1291ab47fc22cd98d4fda125abb50" category="doc">Keystone에서의 스토리지 QoS</block>
-  <block id="4317435dc55e6c41a5febef83510271a" category="paragraph">Keystone은 스토리지 QoS(Quality of Service)를 사용하여 애플리케이션에 일관되고 예측 가능한 성능을 제공합니다. QoS가 없으면 여러 시스템의 부팅과 같은 특정 워크로드가 일정 기간 동안 리소스의 대부분 또는 전부를 소비하고 다른 워크로드에 영향을 미칠 수 있습니다.</block>
-  <block id="313f448514f6d6f8e885dac14ef8a5c6" category="paragraph">QoS에 대한 자세한 내용은 를<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="71b75e7482eec980a2ea5869f64cbf9c" category="summary">Keystone STaaS는 사전 정의된 서비스 수준에서 스토리지 용량을 제공합니다. Keystone에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다.</block>
   <block id="db7ef8b55156f5b6fc1f3807d49d1119" category="summary">Keystone STaaS 서비스는 ONTAP 및 StorageGRID를 지원합니다.</block>
   <block id="4e4be6640d3e6688fbc771ec3b218a39" category="doc">Keystone에서 지원되는 스토리지</block>
   <block id="9bb097552337391bef04a8384c5c2779" category="summary">Keystone을 시작하기 전에 ONTAP 클러스터 및 StorageGRID 시스템이 몇 가지 요구사항을 충족하는지 확인해야 합니다.</block>
@@ -1267,13 +1081,11 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="a7a03de7b430dd390a52a4acaf198ea0" category="summary">Keystone 구독에 대해 자세히 알아보려면 구독 탭에서 모든 구독 목록을 볼 수 있습니다.</block>
   <block id="91ccf36d6487c0c6be127a65f4ee107b" category="summary">볼륨 또는 오브젝트 스토리지 레벨에서 용량 세부 정보를 봅니다.</block>
   <block id="3641aacbdeb7ae21200b69f8628f5b4e" category="doc">ONTAP 볼륨 및 오브젝트 스토리지에 대한 세부 정보를 봅니다</block>
-  <block id="95deeaeeffa8b4897a76ec75e6c301c9" category="paragraph">선택한 Keystone STaaS 구독에 대해 총 볼륨 수, QoS 규정 준수 상태, 보호된 볼륨 수, 모든 볼륨에서 커밋됨, 소비됨 및 사용 가능한 총 용량을 확인할 수 있습니다. 비준수 볼륨 또는 보호된 볼륨 수를 클릭하면 * 볼륨 세부 정보 * 탭으로 이동합니다. 여기에서 선택한 내용에 따라 비준수 볼륨 또는 보호된 볼륨을 표시하는 필터링된 목록을 볼 수 있습니다.</block>
   <block id="a7a411a95daabfbcf6e39078b5f44902" category="summary">이전 릴리스의 NetApp Keystone STaaS 서비스에서 발견된 문제는 이후 릴리스에서 해결되었습니다.</block>
   <block id="6ee3962f219413522af2700bec386d97" category="sidebar">Keystone 설명서</block>
   <block id="dcb83accddabcabf987373583a058d0d" category="sidebar">가상 인프라</block>
   <block id="d339106c5234c4fffed6b25356ff263d" category="sidebar">모니터링 및 업그레이드</block>
   <block id="7b373ff6530e34788cfaf1ee2a5d46b5" category="sidebar">Keystone Collector 상태 모니터링</block>
-  <block id="be373fb58d77d15be6b1ad3433c36936" category="sidebar">스토리지 서비스 품질</block>
   <block id="f32c3edaacea72c0ddb30ecf0135c4de" category="section-title">메트릭</block>
   <block id="e67906640477f8681e506869bc6e612e" category="list-text">* 월별 가동 시간 백분율 * = [(한 달의 적격 초 수 - 해당 달에 Keystone 주문을 제공하기 위해 구축된 모든 AFF 스토리지 어레이에 대한 다운타임 평균 초 수)/한 달에 적격 초 수] x 100%</block>
   <block id="53ca36728241336dcf15ee413e4d7946" category="list-text">* 다운타임 *: NetApp에서 결정한 대로 스토리지 어레이 내의 한 쌍 내에 있는 두 컨트롤러를 모두 사용할 수 없는 기간.</block>
@@ -1331,7 +1143,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="565d8433df6c6c23be6de8fd7871abae" category="list-text">볼륨당 최소 IOPS를 유지하기 위해 AQoS에 의해 추가된 지연 시간은 샘플에서 제외됩니다.</block>
   <block id="f901dbc53f8dea2d74e68635ec84a298" category="list-text">FabricPool가 활성화된 볼륨의 경우 타겟(콜드) 스토리지와의 데이터 전송으로 인해 발생한 대기 시간은 계산되지 않습니다.</block>
   <block id="23ca5c8d56457bbd625ff236b3c706ef" category="list-text">ONTAP 클러스터 외부의 애플리케이션, 호스트 또는 고객 네트워크로 인한 지연 시간은 계산되지 않습니다.</block>
-  <block id="57d56dc842f4da79392d5bc2178582dc" category="list-text">고급 데이터 보호 애드온 서비스를 사용할 경우 타겟 지연 시간에는 로컬 스토리지 시스템 간에 입출력 작업만 포함됩니다.</block>
   <block id="efbd8d78a7008161e0e4f42c63d84ad6" category="list-text">24시간 동안 10개 이상의 유효한 메트릭을 사용할 수 있어야 합니다. 그렇지 않으면 메트릭이 삭제됩니다.</block>
   <block id="5b8e1d393a8c6bf1b5c0be8eb268aba3" category="list-text">스토리지 어레이에 있는 하나 이상의 볼륨에 유효한 AQoS 정책이 적용되지 않으면 다른 볼륨에 사용할 수 있는 IOPS 수가 영향을 받을 수 있으며 NetApp는 해당 스토리지 어레이의 성능 수준을 대상으로 지정하거나 충족하지 않습니다.</block>
   <block id="d8ace9c4f3c105767c7ec01ce669eca3" category="list-text">FabricPool 구성에서는 요청된 모든 데이터 블록이 FabricPool 소스(핫) 스토리지에 있고 소스 스토리지가 SnapMirror Synchronous 관계에 있지 않은 경우에 성능 수준을 적용할 수 있습니다.</block>
@@ -1442,16 +1253,13 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="216db5e98775635c45af8fd76d3f120f" category="paragraph"><block ref="216db5e98775635c45af8fd76d3f120f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="63eb3f8b8783ba2307d650252c320fc0" category="list-text">TUI의 기본 화면으로 돌아가 * 서비스 상태 * 정보를 확인하여 Keystone Collector가 정상 상태인지 확인합니다. 시스템에서 서비스가 * 전체: 정상 * 상태임을 표시해야 합니다. 최대 10분 동안 기다립니다. 이 기간 후에도 전체 상태가 정상 상태가 지속되면 이전 구성 단계를 검토하고 NetApp 지원 팀에 문의하십시오.</block>
   <block id="095b2736fda36d0222656cf6f4c5be55" category="inline-image-macro">서비스 상태입니다</block>
-  <block id="fdc583538b94d7a1b00a631fea6a48d1" category="paragraph"><block ref="fdc583538b94d7a1b00a631fea6a48d1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="355f50922b8f701f647de7da778ad2c7" category="list-text">기본 화면에서 * Exit to Shell * 옵션을 선택하여 Keystone Collector 관리 TUI를 종료합니다.</block>
   <block id="73851b479605eb5d7961a4f17abc4861" category="list-text">생성된 공개 키 검색:</block>
   <block id="1fb69ffa43c5d2393747fb8591908923" category="paragraph"><block ref="0aa1845efe7a628c5cf5087616257084" prefix="" category="inline-code"></block></block>
-  <block id="e3f489c24017dacebdfc4336a7c526f6" category="list-text">이 파일이 포함된 이메일을 keystone.services@ NetApp.com으로 보냅니다.</block>
   <block id="b9a6d96820187805409aa2a1c60142ae" category="section-title">사용 보고서를 내보냅니다</block>
   <block id="7213bdfaef9f90b96334939108353cdc" category="paragraph">매월 말에 NetApp에 월별 사용량 요약 보고서를 보내야 합니다. 이 보고서를 수동으로 생성할 수 있습니다.</block>
   <block id="9229403d63b77e4aef85fd68e230e0ad" category="paragraph">사용 현황 보고서를 생성하려면 다음 단계를 수행하십시오.</block>
   <block id="d28319812905a38f64e9f59d61f93d22" category="list-text">Keystone Collector TUI 홈 화면의 * Export Usage * 로 이동합니다.</block>
-  <block id="712c8cee897bc7d934e369862f1de46f" category="list-text">파일을 수집하여 keystone.services@ NetApp.com에 보냅니다.</block>
   <block id="06c85910e7b6c5d744082a8b771fd05e" category="paragraph">Keystone Collector는 일반 파일과 암호화된 파일을 모두 생성하며, 이 파일은 수동으로 NetApp로 전송되어야 합니다. 지우기 파일 보고서에는 고객이 확인할 수 있는 다음과 같은 세부 정보가 포함됩니다.</block>
   <block id="75d8461b47629d5f6688144d087a37f1" category="inline-image-macro">파일 보고서를 지웁니다</block>
   <block id="37cc95117623c08b2d6c6fec6aa2e8a1" category="paragraph"><block ref="37cc95117623c08b2d6c6fec6aa2e8a1" category="inline-image-macro-rx" type="image"></block></block>
@@ -1543,7 +1351,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d94b27c65b00f48ddf2590d54d34311d" category="list-text">Keystone Collector는 인터넷에 액세스할 수 없는 조직(_Dark site_또는_private mode_라고도 함)에 대해 구성할 수 있습니다. 에 대한 자세한 내용은 을 <block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="70746148197a1842a9455cddc0c18adc" category="paragraph">Keystone Collector는 연결 제한 없이 작동하는 _STANDARD_MODE 또는 연결 제한이 있는 조직을 위해 설계된 _PRIVATE_MODE 중 하나로 구성할 수 있습니다. Keystone Collector를 표준 모드로 설치하려면 을 <block ref="a9306132ed6aac4cbc6f1e3f3feb8703" category="inline-link-macro-rx"></block>참조하십시오. 개인 모드에 대해서는 을 <block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="67f289221dc2b8315be57c85a28e0619" category="sidebar">설치 준비</block>
-  <block id="5e2de39ee27d191717827ce53298c90c" category="paragraph">Keystone은 서비스 수준을 기준으로 소비를 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 구축 중에 구독한 Keystone 서비스의 각 적응형 QoS 정책에 대한 세부 정보를 통보받게 됩니다. 스토리지 관리 작업 중에 볼륨에 가입된 서비스 수준에 따라 적합한 적응형 QoS 정책이 할당되어 있는지 확인하여 예기치 않은 청구가 발생하지 않도록 하십시오. ONTAP의 적응형 QoS 정책에 대한 자세한 내용은 를 참조하십시오<block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>.</block>
   <block id="b3f67b6d739086a60e5e83a06fc9385a" category="paragraph">SnapMirror 타겟 볼륨의 가격은 소스에 할당된 서비스 수준에 대한 적응형 QoS 정책이 적용됩니다. 그러나 소스에 연결된 적응형 QoS 정책이 없는 경우 사용 가능한 최저 서비스 수준을 기준으로 대상이 청구됩니다.</block>
   <block id="48a2e47bd08859aaadb33439caee37ab" category="paragraph">LUN의 경우 적응형 QoS 정책에 따라 관리되는 볼륨의 청구 패턴이 동일합니다. LUN에 별도의 적응형 QoS 정책을 설정한 경우:</block>
   <block id="6490b5d86d9c2c555b3e5beda0a2a9d5" category="list-text">볼륨의 나머지 공간이 있는 경우, 볼륨에 설정된 서비스 수준의 적응형 QoS 정책에 따라 비용이 청구됩니다.</block>
@@ -1607,10 +1414,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="f8f8242a29d5eb9256ae05747db07412" category="list-text">API 호출을 실행하여 원하는 데이터를 검색합니다. 프로그래밍 방식으로 고객 목록, 고객 구독 데이터 및 고객 사용 세부 정보를 검색할 수 있습니다.</block>
   <block id="fad1e832526fa7449bfff5b810826110" category="sidebar">Digital Advisor REST API에서 Keystone에 액세스합니다</block>
   <block id="4bfa7642bccc7e1047a0f5b699a01631" category="paragraph">Keystone Collector 및 AIOps 솔루션 게이트웨이의 작동 및 유지 관리에 필수적인 소프트웨어 업데이트 및 사용 데이터 업로드에는 _키스톤.NetApp.com_에 대한 아웃바운드 액세스가 필요합니다.</block>
-  <block id="04e5e9b2304d0098895d9985c9a8ea89" category="cell">* 예상 IOPS/TiB *</block>
-  <block id="66add2975320c187fa0c68a862f9277b" category="cell">* 최대 IOPS/TiB *</block>
-  <block id="44c1604c68364a078a1faa312c3f1fca" category="list-text">* 예상 IOPS/TiB *: 할당된 볼륨당 최소 IOPS 수로, 시스템에서 충분한 시스템 IOPS를 사용할 수 있을 때 제공하려고 시도합니다.</block>
-  <block id="a7eb9e3e2db26f418ff1bd33758058b5" category="list-text">* 최대 IOPS/TiB *: 시스템에서는 볼륨당 사용된 TiB당 최대 IOPS 수로, 지연 시간이 주입되어 IOPS가 조절되기 전에 볼륨에 연결할 수 있습니다.</block>
   <block id="f661dc3165fc7dcc25ae3a0d950ce6ac" category="list-text"><block ref="3db77c7f8084c19af25e224539c526e1" prefix=" " category="inline-code"></block>업그레이드 지원을 받으려면 웹 브라우저 사용 으로 이동하십시오.</block>
   <block id="3e0da19ae0755de400b746f325485a60" category="section-title">StorageGRID SSO가 활성화된 상태에서 Keystone Collector 인증에 실패했습니다</block>
   <block id="19717f3367e97979df17a62a0de1d760" category="paragraph">StorageGRID 시스템에 SSO(Single Sign-On)가 활성화된 경우 Keystone Collector는 측정을 지원하지 않습니다. 로그에 다음 오류 메시지가 표시됩니다.</block>
@@ -1635,13 +1438,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3156e09a94461db7bf19fe1f351546ed" category="paragraph">기본 및 연결된 구독에 대한 볼륨 세부 정보를 사용할 수 없습니다</block>
   <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">볼륨 요약 * 탭에는 볼륨 총 수, QoS 준수 상태, 보호된 볼륨 수, 기본 및 연결된 보조 구독의 총 사용 용량에 대해 0이 표시됩니다.</block>
   <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">StorageGRID 구독에 대해 * 볼륨 및 개체 * 탭의 * 볼륨 요약 * 하위 탭이 로드되지 않습니다.</block>
-  <block id="51f4eff2679d00a84e768ca09b950896" category="list-text">권장되는 최소 볼륨 크기는 100GiB, 0.1TiB</block>
-  <block id="0a972e42bf2862708f1b761f38f43097" category="list-text">권장되는 최대 볼륨 크기: 10TiB</block>
-  <block id="15338332b8fcdeeb5cf2e61fbed1f587" category="list-text">권장되는 최소 볼륨 크기는 500GiB, 0.5TiB입니다</block>
-  <block id="b153328fc34aa79250fe1cd04b633016" category="list-text">권장되는 최대 볼륨 크기: 50TiB</block>
-  <block id="1fd6dacdb284abe9cc20a2bbb9c6a535" category="list-text">권장되는 최대 볼륨 크기: 80TiB</block>
-  <block id="cf94268a733259e784ff458e2880c445" category="list-text">권장되는 최소 볼륨 크기: 1TiB</block>
-  <block id="b28606b9957df145a655531d978d4f7a" category="list-text">권장되는 최대 볼륨 크기: 100TiB</block>
   <block id="13c09ed2290110fb23f7ef738098a6ce" category="section-title">통합 보고서 생성</block>
   <block id="d9c75c79440b3db3ac3e86ae04bc9f19" category="inline-image-macro">보고서를 만듭니다</block>
   <block id="ad127b553d070e603bcca75c99aa0aa4" category="paragraph"><block ref="ad127b553d070e603bcca75c99aa0aa4" category="inline-image-macro-rx" type="image"></block></block>
@@ -1656,7 +1452,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="a15b1d5c20a80360a519fdba86f9d359" category="paragraph">분기별 청구에서 월별 청구로 전환하더라도 분기별 청구서에는 여전히 90일 기간이 적용되며, 분기별 청구 기간에 대해 각각 하나씩, 나머지 날짜에 대해 두 개의 송장이 생성됩니다. 이 전환을 통해 매월 청구 기간이 다음 달 1일에 시작됩니다. 예를 들어 구독이 10월 15일에 시작되는 경우 월 청구 기간이 2월 1일에 시작되기 전에 1월에 각각 10월 15일부터 1월 14일까지, 1월 15일부터 31일까지 송장 두 장을 받게 됩니다.</block>
   <block id="19c39546a17d632b3f81a88517195dcb" category="inline-image-macro">분기별로 누적된 버스트 사용량입니다</block>
   <block id="8215e5a0d8116559b577a00ac7f9d7a4" category="paragraph"><block ref="8215e5a0d8116559b577a00ac7f9d7a4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bd743c791b4d6ca2e7a1d3c5f2d40a95" category="section-title">MetroCluster의 고급 데이터 보호 기능에 대한 참조 차트를 참조하십시오</block>
   <block id="abdc803a1b380f3cb4c996e2b30a1820" category="paragraph"><block ref="abdc803a1b380f3cb4c996e2b30a1820" category="inline-image-macro-rx" type="image"></block></block>
   <block id="24685db79ee3df152404bc24333590fd" category="paragraph">2024년 11월 21일</block>
   <block id="01e50fa0cb5ca9093067bd7f7b5ce77d" category="section-title">송장 발행된 증액 버스트</block>
@@ -1830,7 +1625,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">Enhanced Assets(향상된 자산) 탭</block>
   <block id="d7dc6f5447fca23324df2672bac7c802" category="section-title">새 열 숨기기/표시 옵션</block>
   <block id="196d7c712c7c6a9911f2d9bbb5f61bf7" category="sidebar">Keystone 서비스로 더 많은 작업 수행</block>
-  <block id="ff7a737bcab804124f1d48754e14170d" category="sidebar">지원 팀을 파악합니다</block>
   <block id="84b3e771654397ccc8ec23cf38bfc805" category="sidebar">스토리지를 모니터링, 문제 해결 및 개선합니다</block>
   <block id="7fe1234c016df317c9bb2796b94c80c3" category="list-text">고객은 Debian 12, Red Hat Enterprise Linux 8.6 이상 8.x 버전 또는 CentOS 7(기존 환경에만 해당) 운영 체제 중 하나에서 실행되는 Linux 서버를 제공합니다. Keystone 소프트웨어는 Linux 배포에 따라 또는<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> 패키지를 사용하여<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block> 설치됩니다.</block>
   <block id="af1726e663445fca1780939dd8437580" category="list-text">운영 체제: RHEL 8.x 시리즈 내의 Debian 12 또는 Red Hat Enterprise Linux(RHEL) 8.6 이상 버전</block>
@@ -1896,11 +1690,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">AutoSupport 구독에 대한 소비 데이터가 일치하지 않으면 잘못된 송장이 생성되어 청구 부정확성이 발생합니다.</block>
   <block id="433d1a34b63c347d592c720846bb3834" category="paragraph">Keystone Collector가 9.11 미만의 버전을 실행하는 ONTAP 클러스터에 대한 사용 데이터를 수집하지 못합니다.</block>
   <block id="ddb5adb9194c71f7e22975533efa8326" category="paragraph">2025년 04월 30일</block>
-  <block id="95ff7c62926d2ecbfa68d2cb55e84679" category="paragraph">사용된 용량은 서비스에서 현재 사용되고 있는 용량(TiB 스토리지)을 나타냅니다. 다음 값의 합계입니다.</block>
-  <block id="bc1fb831529945409538850faa16026e" category="list-text">모든 인스턴스와 사용자 데이터 유형(복사본, 미러링된 복사본, 버전 등)을 저장하는 데 사용되는 논리적 용량입니다.</block>
-  <block id="b2a0ad297e26236d750246160723aa4e" category="list-text">원본 볼륨 크기의 10%를 초과하는 클론 볼륨을 저장하는 데 사용되는 논리적 용량입니다.</block>
-  <block id="93fcc6bc4dfbcffb60fef19d3e82a054" category="list-text">스냅샷 복사본의 차등 데이터를 저장하는 데 사용되는 물리적 용량</block>
-  <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">할당된 물리적 용량입니다.</block>
   <block id="b972ea8fcf6c823010b9b37178b9d608" category="paragraph">공통 설정이 누락되어 StorageGRID용 Keystone Collector가 올바르게 구성되지 않습니다.</block>
   <block id="3af3083ee373e5ebbb20d7719411dd4c" category="paragraph">2025년 05월 12일</block>
   <block id="e52daa0a0f5a4268d3b3cd4835eb59fa" category="paragraph">데비안 패키지를 사용하여 설치된 기존 Keystone Collector가 Keystone Collector 관리 TUI를 통해 HTTP 프록시를 구성하거나 Unified Manager를 활성화하려고 하면 TUI가 응답하지 않습니다.</block>
@@ -1913,12 +1702,9 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c946fc133c6959483805e8ee848d8d3c" category="list-text">귀하의 스토리지 환경에 대한 최신 정보를 받아보세요.</block>
   <block id="fae22dda3b161bc9a9e770f8b7e7a634" category="paragraph">MetroCluster 구성에서 사용량을 보는 방법에 대한 자세한 내용은 을 참조하십시오<block ref="0e74b0f4cd2655beb5f463b480ef4016" category="inline-link-macro-rx"></block>.</block>
   <block id="9b83bd6bb9b0235168f39a4c45d8529f" category="paragraph">약정 용량은 가입을 구매할 때 약정 용량입니다. 약정 용량과 버스트 용량은 성능 서비스 수준별로 측정됩니다. 사용된 용량은 워크로드에서 실제로 사용하는 용량입니다.</block>
-  <block id="f82d400f954e1fba0aed8949df21cf29" category="paragraph">소비된 용량이 성능 서비스 수준에 대해 약속된 용량보다 큰 경우, 버스트 소비량이 기록되고 그에 따라 요금이 부과됩니다. 일반적으로 약정 용량보다 20% 더 높습니다. 버스트 용량을 초과하는 사용은 "버스트 제한 초과"로 표시됩니다.</block>
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Keystone 구독의 소비 추세를 확인하세요</block>
   <block id="60b79d3b7a1433cb62d9ea5b5a5dac01" category="paragraph">이 프로세스는 생성된 각 소비 레코드에 대해 발생합니다. 따라서, 소비량의 급증은 당신의 헌신적인 능력 위에 소비된 용량의 잔기와 잔기를 모두 반영한다. 자세한 내용은 을 <block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="6095900a0be4c21e582c9ce633f3eb3f" category="doc">성능 서비스 수준에 대한 용량 요구 사항</block>
-  <block id="2cc6c921ae4994e76d0319db0d3cd7a0" category="paragraph">다음 표에는 서브스크립션당 허용되는 최소 용량 및 증분 용량이 나와 있습니다. Keystone 판매 모션 전반에 걸쳐 성과 서비스 수준당 최소 용량은 동일하게 정의됩니다. 서브스크립션 시작 시 또는 서브스크립션에 대한 추가 서비스 또는 서브스크립션 중 재할당 후 최소 용량을 초과하는 용량도 표에 정리되어 있습니다.</block>
-  <block id="53db5d34b018b33bf2946b9361474113" category="list-text">Keystone 계약을 기준으로 각 사이트에서 버스트 용량을 사용할 수 있습니다. 일반적으로 이는 성능 서비스 수준에 대한 약속 용량보다 20% 높습니다. 모든 버스트 사용량은 해당 청구 기간에 대해서만 청구됩니다. 추가 버스트 요구 사항이 합의된 용량보다 큰 경우 지원 팀에 문의하십시오.</block>
   <block id="4a786f23e386c92e1c49cf8b214e240b" category="list-text">구독 기간 중 용량을 늘리거나 더 높은 성능의 서비스 수준으로 변경하는 것은 허용됩니다. 단, 더 높은 성능의 서비스 수준에서 더 낮은 성능의 서비스 수준으로 변경하는 것은 허용되지 않습니다.</block>
   <block id="13af83dfc053ffff9447cbafc3b9ac06" category="paragraph">구독한 파일, 블록 또는 개체 스토리지 성능 서비스 수준에 대한 비용의 일부를 하이브리드 클라우드 스토리지 서비스에 할당할 수 있습니다. 연간 계약 금액(ACV)의 최대 25%를 Cloud Volumes ONTAP 기본 및 Cloud Volumes ONTAP 보조 서비스에 분기별로 재할당할 수 있습니다.</block>
   <block id="42c6fcaab380d23adc4355ae6bb2df0b" category="paragraph">감소량은 Extreme 성능 서비스 수준에 할당된 용량의 (125-108) = 17TiB입니다. 지출 재할당 시 할당된 하이브리드 클라우드 스토리지는 17TiB가 아니라 5000달러와 같은 용량입니다. 이 예시에서는 5,000달러로 Extreme 성능 서비스 수준에 대해 17TiB의 온프레미스 스토리지 용량과 Cloud Volumes ONTAP 성능 서비스 수준에 대해 47TiB의 하이브리드 클라우드 용량을 얻을 수 있습니다. 따라서 재할당은 용량이 아닌 지출과 관련해서 이루어집니다.</block>
@@ -1936,18 +1722,8 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3baadf2264f6a3ed3c5dfbc1e7a94348" category="paragraph">성과 서비스 수준에 대한 정보는 다음을 참조하세요. <block ref="d2021ebe74ad4577de5c973838fa2a38" category="inline-link-macro-rx"></block> .</block>
   <block id="d534e2cd061f06b6e0ad742d6dda7fee" category="list-text"><block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block></block>
   <block id="391d525ac5052ae01c2eb2bf929d6706" category="paragraph">구독에는 여러 요금제가 있을 수 있으며, 각 요금제는 성능 서비스 수준에 해당합니다. 각 요금제는 성능 서비스 수준별로 약정된 용량을 갖습니다.</block>
-  <block id="4182ab15a404865f9525355f8e07083c" category="paragraph">각 성능 서비스 수준은 I/O 밀도, 즉 IOPS/TiB/볼륨으로 정의됩니다. 볼륨당 평균 지연 시간에서 IOPS/TiB인 성능(IOPS/출력 작업/IOPS) 및 사용된 스토리지 용량(TiB)의 비율입니다.</block>
-  <block id="e454c9ca30d2e42e70a55ea28dbc890e" category="paragraph">스토리지 환경, 스토리지 및 사용량 요구 사항에 따라 성능 서비스 수준을 선택하세요. 기본 성능 서비스 수준은 기본적으로 제공됩니다. 추가 서비스를 선택하신 경우 특정 성능 서비스 수준을 추가로 이용하실 수 있습니다. 예를 들어, 고급 데이터 보호 추가 서비스의 경우, _고급 데이터 보호_ 성능 서비스 수준이 구독에 할당됩니다.</block>
   <block id="b1951e8ebdcabd07a41b38adc74988e3" category="admonition">NetApp Keystone STaaS 성능 서비스 수준에 대한 자세한 서비스 설명을 사용할 수 있습니다. <block ref="d71be405d81c1e2747195607ed9eca90" category="inline-link-rx"></block> .</block>
-  <block id="690df7be8fb02c6ecaadec8d6a3577e5" category="paragraph">지원되는 스토리지 유형, 파일, 블록, 개체 및 클라우드 서비스에 대한 기본 성능 서비스 수준은 다음 섹션에 설명되어 있습니다.</block>
-  <block id="6125820a82257d1b0a8a45a5f4ccd8a4" category="section-title">파일 및 블록 스토리지에 대한 성능 서비스 수준</block>
-  <block id="eece4e000677bd546d15d7aa91d85788" category="cell">*성능 서비스 수준*</block>
-  <block id="92af66f1bc0b3babca35921e4e8649c3" category="section-title">파일 및 블록 스토리지의 성능 서비스 수준에 대한 추가 정보</block>
   <block id="7c917a242507a352850575e21d7b1850" category="paragraph">기본 성능 서비스 수준 측정항목은 다음 조건에 따라 달라집니다.</block>
-  <block id="ed00a249a43b4ac9ed9aa1c61c9f1817" category="list-text">파일 및 블록 스토리지에 대한 성능 서비스 수준은 ONTAP 9.7 이상을 지원합니다.</block>
-  <block id="758490773ba9003ffc6eb07a4371b1bc" category="list-text">성능 서비스 수준에 대한 IOPS/TiB/볼륨, MBps/TiB/볼륨 및 대기 시간 값은 볼륨에 저장된 데이터 양, 32KB 블록 크기 및 70% 읽기 및 30% 쓰기 IO 작업의 무작위 조합을 기반으로 합니다.</block>
-  <block id="5a48f4cc79173b3df0aa36e888c80afe" category="list-text">QoS에서 IO를 성능 서비스 수준 최대치 내로 유지하기 위해 자동으로 적용되는 대기 시간</block>
-  <block id="f6aa89c07bdac473bce6627326627550" category="list-text">스토리지 시스템의 하나 이상의 볼륨에 AQoS 정책이 할당되지 않은 경우, 이러한 볼륨은 비준수 볼륨으로 간주되며, 해당 시스템에는 목표 성능 서비스 수준이 적용되지 않습니다.</block>
   <block id="acfc67d5d434abd61811abf81c0d1571" category="cell">*성능 서비스 수준*</block>
   <block id="5f351af05581a0eadaf1177970b72a10" category="section-title">성능 서비스 수준</block>
   <block id="e1a2df339e5e1d4b2b6d447c58823500" category="list-text">*총 약정 용량*: Keystone 주문에 대한 성능 서비스 수준에 대한 약정 용량입니다.</block>
@@ -1983,8 +1759,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3610c4351229db10744b51bac557a915" category="list-text">*자산* 탭을 선택하세요.</block>
   <block id="0c854999a653f9d56014836883e5217d" category="list-text">*보기* 드롭다운에서 *클러스터의 볼륨*을 선택합니다.</block>
   <block id="b93b903719b1580864ac4e8956c555c8" category="inline-image-macro">구독에 대한 클러스터의 볼륨 스크린샷</block>
-  <block id="0654b3dd588d55e33d9029198f8f2f63" category="paragraph"><block ref="0654b3dd588d55e33d9029198f8f2f63" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="40306668f7baae095ccfe6f816e8159e" category="paragraph">볼륨 이름, 노드 일련 번호, QoS 정책 준수 여부, 클러스터 이름, 호스트 이름, 성능 서비스 수준 등 클러스터 내 볼륨에 대한 자세한 정보를 확인할 수 있습니다. 또한 프로비저닝된 용량, 논리적 및 물리적 사용률, 그리고 콜드 데이터도 모니터링할 수 있습니다.</block>
   <block id="081ceda2f79c0faf6fe05d511f52c3be" category="inline-image-macro">열 선택기 아이콘</block>
   <block id="363a64ab1176a4ec2912bb476eaca7c4" category="admonition">열 선택기를 사용하여 테이블을 사용자 정의할 수 있습니다. <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하고 상단의 검색 창을 사용하여 열 매개변수를 기준으로 테이블 데이터를 검색하고 필터링합니다.</block>
   <block id="c8dad022332943c24f5c1ee6ac971a4d" category="open-title">클러스터의 노드</block>
@@ -2025,7 +1799,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="a6d14f938372e9370efce69c777dcc25" category="admonition">열 선택기를 사용하여 테이블을 사용자 정의할 수 있습니다. <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하고 상단의 검색 창을 사용하여 열 매개변수를 기준으로 Keystone 데이터를 검색하고 필터링합니다.</block>
   <block id="724db714685a078e3188da156c5e09ff" category="list-text">*클러스터의 볼륨* 탭을 선택합니다.</block>
   <block id="7eaaba921c5d6990f4eb7b440707d8bf" category="inline-image-macro">여러 구독에 대한 클러스터의 볼륨 스크린샷</block>
-  <block id="07782809ace50c9e4a830207b1bbea1f" category="paragraph"><block ref="07782809ace50c9e4a830207b1bbea1f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2c7173774c9df82165dfee33d6fceb13" category="paragraph">Keystone 구독에 포함된 모든 클러스터의 볼륨에 대한 자세한 정보(볼륨 이름, 구독 번호, 노드 일련 번호, QoS 정책 준수 여부, 클러스터 이름, 호스트 이름, 성능 서비스 수준 등)를 확인할 수 있습니다. 프로비저닝된 용량, 논리적 및 물리적 사용률, 그리고 콜드 데이터를 모니터링할 수 있습니다. 또한 다음 항목에 대한 개요도 확인할 수 있습니다.</block>
   <block id="c35efb62586ff05c5d6f57e4b0350323" category="list-text">구독, 클러스터, 볼륨의 총 수입니다.</block>
   <block id="14ef4df445c232cff9b58a77d20a81f1" category="list-text">볼륨 규정 준수 및 보호 상태를 확인하고, *보기* 버튼을 눌러 규정 준수, 규정 미준수, 보호 미실시 등의 기준에 따라 자산을 필터링하여 표시합니다.</block>
@@ -2045,8 +1818,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">누적 버스트 보기</block>
   <block id="36622f05ec893025953fee00b23a1397" category="admonition">송장이 생성된 과거 버스트 사용량 데이터를 보려면 '보기' 드롭다운 메뉴에서 '누적 버스트'를 선택하세요. 이 데이터를 사용하여 송장에 반영된 청구 사용량을 분석할 수 있습니다. 자세한 내용은 을 <block ref="7f44df2b1aebfeb61dadb6bb658158eb" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="bc5861ecce15db0ff44c510f9fedbeaf" category="inline-image-macro">과거 소비량을 표시하는 스크린샷</block>
-  <block id="63e510765fb95a4a6443ac88cd9ad8ac" category="paragraph"><block ref="63e510765fb95a4a6443ac88cd9ad8ac" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="394e769a900171f8d4d656d38b1718c8" category="paragraph">선 그래프는 과거 사용량 데이터를 표시하고 사용자가 선택한 기간 동안의 추세를 분석할 수 있도록 합니다. 그래프에는 데이터(사용자 데이터에서 사용된 스토리지 용량), 스냅샷(스냅샷 데이터에서 사용된 스토리지 용량), 사용 용량(데이터와 스냅샷 데이터를 모두 포함한 총 스토리지 용량)과 같은 지표가 표시되며, 커밋 및 버스트 용량도 함께 표시됩니다. 각 데이터 지점의 날짜와 시간은 그래프 하단에 표시됩니다. 쿼리 기간 기준으로 사용량 차트에는 최대 30개의 데이터 수집 지점이 표시됩니다. 그래프 위에 마우스 커서를 올리면 각 데이터 수집 지점의 사용량 분석을 볼 수 있습니다.</block>
   <block id="f055d8eea192534e47e7050f174dbca0" category="paragraph">과거 소비량과 함께 현재 소비량 요약도 확인하여 사용량을 명확하게 파악할 수 있습니다.</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="open-title">디지털 자문업체</block>
   <block id="54ff77c73123d1c57aa12ca33c4e0d68" category="list-text">*일반 &gt; 키스톤 구독 &gt; 소비 추세*를 클릭하세요.</block>
@@ -2066,27 +1837,14 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="5ebd05a1b0a3fae552005acfec4e3c45" category="paragraph"><block ref="5ebd05a1b0a3fae552005acfec4e3c45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d0baf3847f6e93ee353d71b13ee7d980" category="paragraph">Digital Advisor에서 *청구 발생 버스트* 옵션에서 청구된 데이터를 표시하는 막대를 클릭하면 막대 차트 아래에 청구 가능한 프로비저닝 용량 섹션이 표시되어 그래프와 표 보기 옵션이 모두 제공됩니다. 기본 그래프 보기에서는 일별 누적된 버스트 데이터 사용량을 선 그래프 형식으로 표시하여 시간에 따른 사용량 변화를 보여 줍니다.</block>
   <block id="c349aee97f052361891132091b4ab93a" category="paragraph">그래프의 오른쪽 위에 있는 * Table * 옵션을 클릭하여 표 보기로 전환할 수 있습니다. 표 보기에서는 성능 서비스 수준, 타임스탬프, 약정 용량, 사용 용량, 청구 가능한 프로비저닝 용량을 포함한 자세한 일일 사용 측정 항목을 제공합니다. 나중에 사용하고 비교할 수 있도록 이러한 세부 정보에 대한 보고서를 CSV 형식으로 생성할 수도 있습니다.</block>
-  <block id="6f7b7898d7600a4f58a896cb2693e0dc" category="paragraph">고급 데이터 보호 추가 서비스에 가입한 경우 Digital Advisor의 *소비 추세* 탭에서 MetroCluster 파트너 사이트의 소비 데이터 세부 정보를 볼 수 있습니다.</block>
-  <block id="6d2267f5875d98e045ec56c36925fe8c" category="paragraph">ONTAP 스토리지 환경의 클러스터가 MetroCluster 설정으로 구성된 경우 Keystone 구독의 소비 데이터는 기본 성능 서비스 수준에 대한 기본 및 미러 사이트의 소비를 표시하기 위해 동일한 기록 데이터 차트로 분할됩니다.</block>
-  <block id="9fb2ff331e9a4f6de17ec429db9059a4" category="admonition">소비량 막대 차트는 기본 성능 서비스 수준에 대해서만 분할되어 있습니다. 고급 데이터 보호 추가 서비스, 즉 _Advanced Data-Protect_ 성능 서비스 수준에는 이 구분이 나타나지 않습니다.</block>
-  <block id="2fae3d33272e10a8e0d8a4f54d7ccf59" category="paragraph-title">고급 데이터 보호 성능 서비스 수준</block>
-  <block id="c95ef05952568a698dfcd18bf24d8d1c" category="paragraph">_고급 데이터 보호_ 성능 서비스 수준의 경우 총 소비량은 파트너 사이트 간에 분할되며, 각 파트너 사이트의 사용량은 별도의 구독으로 반영되어 청구됩니다. 기본 사이트에 대한 구독 하나와 미러 사이트에 대한 구독 하나가 있습니다. 이것이 바로 * 소비 경향 * 탭에서 기본 사이트의 구독 번호를 선택하면 고급 데이터 보호 애드온 서비스의 소비 차트에 기본 사이트의 개별 소비 상세 정보만 표시되는 이유입니다. MetroCluster 구성의 각 파트너 사이트는 소스와 미러 역할을 모두 수행하므로 각 사이트의 총 소비량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.</block>
-  <block id="af2f02359b7fb9ee4bbd8da82f9a739e" category="paragraph-title">기본 성능 서비스 수준</block>
-  <block id="8d3774c17da465a501ec67ba1b699194" category="paragraph">기본 성능 서비스 수준의 경우 각 볼륨은 기본 사이트와 미러 사이트에서 프로비저닝된 대로 요금이 청구되므로 동일한 막대형 차트가 기본 사이트와 미러 사이트의 소비량에 따라 분할됩니다.</block>
-  <block id="baf0c1c466328c8c3a82b4aacf9b25fa" category="paragraph">다음 이미지는 _극단적_ 성능 서비스 수준(기본 성능 서비스 수준)과 기본 구독 번호에 대한 차트를 보여줍니다. 또한 동일한 내역 데이터 차트는 기본 사이트에 사용된 동일한 색상 코드의 밝은 음영으로 미러 사이트 소비를 나타냅니다. 마우스로 가리키면 도구 설명이 운영 사이트와 미러 사이트의 소비 분해능(TiB)을 각각 22.24TiB와 14.86TiB로 표시합니다.</block>
-  <block id="ca144cd9fcb70d648de199582c73313f" category="paragraph">_고급 데이터 보호_ 성능 서비스 수준의 경우 차트는 다음과 같습니다.</block>
-  <block id="6a226b04b05616bac9de389e952a5c37" category="paragraph">2차 구독을 확인하면 파트너 사이트와 동일한 데이터 수집 지점에서 _극한_ 성능 서비스 수준(기본 성능 서비스 수준)에 대한 막대형 차트가 반전되어 있으며, 1차 및 미러 사이트의 소비량 분포가 각각 14.86TiB와 22.24TiB인 것을 확인할 수 있습니다.</block>
-  <block id="eb558bf0915ebb2e189ec8a1ab2f0494" category="paragraph">_고급 데이터 보호_ 성능 서비스 수준의 경우, 파트너 사이트와 동일한 수집 지점에 대한 차트는 다음과 같습니다.</block>
   <block id="eccd215d2aef918d99c7ac04567a0cdc" category="doc">Keystone 구독의 현재 소비량을 확인하세요</block>
   <block id="ef06226e0a70f0b27bda10913e0d2622" category="paragraph">약정 용량, 사용된 용량, 사용 가능한 용량 등의 자세한 정보를 보고 구독 사용량에 대한 통찰력을 얻을 수 있으며, 현재 소비 상태가 성능 서비스 수준별로 표시되고 구분됩니다.</block>
   <block id="a1b69ea5f6e5ee30c195bf008e9fa903" category="paragraph">BlueXP 또는 Digital Advisor를 통해 구독의 현재 소비 상태를 보려면 다음 단계를 따르세요.</block>
   <block id="d74dcd27166505385c38faabf0aa85e8" category="list-text">표의 *구독번호* 열에서 구독번호를 선택하면 현재 소비량을 확인할 수 있습니다.</block>
   <block id="53a763ce4287b06d38f889380a89f60e" category="inline-image-macro">그래픽 형식의 현재 소비 세부 정보</block>
-  <block id="2a2c95b649190c3cc1f06120d092d6d4" category="paragraph"><block ref="2a2c95b649190c3cc1f06120d092d6d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f2f90873373e8bda06d2b4b7f736c646" category="paragraph">선택한 구독의 경우, '보기 형식' 드롭다운 메뉴에서 '표' 또는 '그래프' 옵션을 사용하여 소비 세부 정보를 표 또는 그래픽 형식으로 볼 수 있습니다. 그래픽 보기에서는 사용 용량, 프로비저닝된 용량, 커밋된 용량 한도, 버스트 용량 한도를 포함한 성능 서비스 수준별 현재 소비량을 확인할 수 있습니다.</block>
   <block id="c4fcbd586e1246d8dc64a993418dc4e6" category="paragraph">테이블 뷰에서는 최대 사용량, 만료까지 남은 일수 등의 세부 정보를 확인할 수 있습니다. 구독 사용량 모니터링의 일환으로 성능 서비스 수준 이름, 사용량 상태, 약정 및 사용 용량, 프로비저닝 및 버스트 용량, 가용 용량 및 볼륨을 확인할 수 있습니다. 열 선택기를 사용하여 테이블을 사용자 지정할 수 있습니다. <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 상.</block>
   <block id="34a7549847d69b5f6a7bc80883249b7c" category="inline-image-macro">표 형식의 현재 소비 세부 정보</block>
-  <block id="e23891f2b176efe9895c82b9379985c7" category="paragraph"><block ref="e23891f2b176efe9895c82b9379985c7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="358fad495e1a2eb2366e40c04887ab64" category="list-text">Digital Advisor 왼쪽 탐색 창에서 *일반 &gt; Keystone 구독 &gt; 현재 소비*로 이동합니다.</block>
   <block id="f4dd6979877f030ad7dafa413c0d90c7" category="list-text">*구독* 드롭다운 목록에서 필요한 구독 번호를 선택하거나 검색하세요.</block>
   <block id="331c11b73c128b4850cdd7086b4a560e" category="paragraph">선택한 구독에 대해 구독의 시작 및 종료 날짜와 같은 세부 정보와 월별 또는 연간과 같은 청구 기간을 볼 수 있습니다. 구독 사용량의 일부로 성능 서비스 수준 이름, 약정 용량, 사용 용량, 가용 용량, 현재 및 누적 버스트 사용량(TiB)을 확인할 수 있습니다. 사용량이 높은 특정 성능 서비스 수준은 강조 표시됩니다. 볼륨에 대해 생성된 경고와 알림을 볼 수도 있습니다.</block>
@@ -2156,16 +1914,10 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="b765b9fa2b328a037f9230a9731313e1" category="paragraph">*개요* 탭을 사용하면 위험에 처한 워크로드를 빠르게 파악하고, 구독의 용량 및 만료 상태를 확인하고, 해결되지 않은 알림을 파악하고, 용량 사용률이 가장 높은 구독을 확인할 수 있습니다. 또한, Keystone의 여러 버전에서 구독 상태를 확인하고, 주의가 필요한 문제를 강조 표시할 수 있습니다.</block>
   <block id="69c256f24be6d7d65006f9cabf1af28b" category="paragraph">*개요* 탭을 보려면 BlueXP 왼쪽 탐색 메뉴에서 *저장소 &gt; Keystone &gt; 개요*로 이동하세요.</block>
   <block id="191a397fd7f3af011ab96788c6a64400" category="inline-image-macro">개요 탭의 스크린샷</block>
-  <block id="3b7f81175fbc6ab193bc0f87dda1738f" category="paragraph"><block ref="3b7f81175fbc6ab193bc0f87dda1738f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7160cc45d78b33c1028e96d51d6d07b7" category="paragraph">*개요* 탭은 다음과 같은 통찰력을 제공합니다.</block>
   <block id="eb8b05f2c3cb48609e4fe07ccdcb9e3e" category="list-text">*요약*: 구독, ONTAP 클러스터, StorageGRID 노드 및 ONTAP 노드의 총 개수를 표시합니다. 각 범주에는 *보기* 버튼이 있어 *구독* 또는 *자산* 탭의 세부 섹션으로 쉽게 이동할 수 있습니다.</block>
   <block id="92b787d913c7ad5afc095b2bdf953c66" category="list-text">*진행 중인 요청*: 진행 중인 서비스 요청의 총 수입니다.</block>
-  <block id="bcc8c270eef7e54a86830c2ee156fca3" category="list-text">*구독 용량 상태*: 버스트 초과, 버스트 사용 중, 미활용 구독의 용량 소비 상태입니다. 각 범주에는 관련 필터가 적용된 *구독* 탭으로 이동하는 *보기* 버튼이 있습니다.</block>
-  <block id="3eabadcab5f6903132182237a418411f" category="list-text">*구독 만료 상태*: 만료된 구독과 90일 이내에 만료될 구독의 수입니다. 각 카테고리에는 관련 필터가 적용된 *구독* 탭으로 이동하는 *보기* 버튼이 있습니다.</block>
   <block id="010423df1000a45a1a63fdd5f480f566" category="inline-link">Keystone 구독 서비스 | 버전 1 문서</block>
-  <block id="420eaad038193becd7c858328e26f08e" category="list-text">*구독별 Keystone 버전*: 버전별 Keystone 구독 내역입니다. 성능 서비스 수준에 대한 요금제 규칙은 구독 버전마다 다를 수 있습니다. *보기* 버튼을 사용하여 버전별로 구독을 필터링할 수 있습니다. 이 버튼을 클릭하면 관련 필터가 적용된 *구독* 탭으로 이동합니다. 버전 v1에 대한 자세한 내용은 다음을 참조하세요. <block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block> .</block>
-  <block id="33332190daf696e98fc7a1c86abcdbe4" category="inline-image-macro">v1, v2, v3 버전의 Keystone 구독에 대한 원형 차트입니다.</block>
-  <block id="e3600a519e3243f8588365f4142bc1d4" category="paragraph"><block ref="e3600a519e3243f8588365f4142bc1d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a8ce21fd73a6b04f851be6e1d6d0da63" category="list-text">*용량 사용률이 가장 높은 상위 5개 구독*: 용량 사용률이 가장 높은 상위 5개 Keystone 구독 표를 표시합니다. *구독* 열에서 구독 번호를 클릭하면 자세한 정보를 확인할 수 있습니다.</block>
   <block id="18524115bd307002c1e1529c109b8ffa" category="summary">BlueXP를 통해 연관된 성능 서비스 수준에 대한 약정 용량을 변경하려면 Keystone 구독을 수정하세요.</block>
   <block id="bc7859d006be0123d59cb9e40c9f05c2" category="doc">BlueXP에서 Keystone 구독을 수정하세요</block>
@@ -2178,7 +1930,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7368a9d71827e42ec6d0e30872f2ade8" category="paragraph">*구독 수정* 페이지에는 선택한 구독 번호와 관련된 구독 성과 서비스 수준에 대한 세부 정보가 표시됩니다.</block>
   <block id="91122b642327c299496bd2cc715f61db" category="admonition">선택적으로 구독 세부 정보 섹션에서 *구독 관리*를 클릭한 다음 *수정*을 선택하여 *구독 수정* 페이지에 액세스할 수 있습니다.</block>
   <block id="2bab978071b4f2c42a0cbd4063050bd6" category="inline-image-macro">구독 목록에서 수정 옵션을 표시하는 스크린샷</block>
-  <block id="90754b6ff645e8d6097a5e645f8cf686" category="paragraph"><block ref="90754b6ff645e8d6097a5e645f8cf686" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2f945ecac337fb632279a3a5c8be5147" category="list-text">*용량 편집*을 클릭하여 성능 서비스 수준에 대한 약정 용량을 수정하고, 필요한 세부 정보를 제공하고, *제출*을 클릭합니다.</block>
   <block id="77d85bf27ff4e86e9c2c0d124a29092e" category="paragraph">같은 페이지의 *수정* 섹션에서 요청을 확인하세요.</block>
   <block id="6174a39a3e1c2618d458d58ece61fe5f" category="list-text">요청 세부 사항을 검토하고, *검토* 버튼을 클릭하고 필요한 확인을 제공한 다음 요청을 제출합니다.</block>
@@ -2189,14 +1940,10 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="420037edfc562a3cab0d69942792c02f" category="section-title">BlueXP에서 데이터 검색 및 필터링</block>
   <block id="e012018c98b92f9352da0f4425ac486d" category="paragraph">BlueXP에서는 탭 내 표에서 사용 가능한 열 매개변수를 기반으로 Keystone 데이터를 검색하고 필터링할 수 있습니다. 예를 들어, *구독* 탭 아래의 *구독* 하위 탭에서 검색창에 Keystone 버전을 입력하여 데이터를 필터링할 수 있습니다. 마찬가지로, *자산* 탭 아래의 *클러스터 볼륨* 탭에서 검색창에 볼륨 이름을 입력하여 볼륨을 필터링할 수 있습니다.</block>
   <block id="3cee6bca91f027ee394211756dc833f4" category="inline-image-macro">고급 필터 옵션</block>
-  <block id="ad8fa1641ca66860ac0fef44a7b5d23f" category="paragraph">고급 필터 옵션을 사용하여 검색 범위를 좁힐 수 있습니다. 예를 들어, *구독* 하위 탭에서는 Keystone 버전, 청구 기간, 최대 용량, 구독 만료일(일)별로 데이터를 필터링할 수 있으며, *클러스터 볼륨* 탭에서는 볼륨 이름, 클러스터 이름, QoS 준수 여부, 볼륨 유형 등으로 필터링할 수 있습니다. 여러 필터를 동시에 적용하여 검색 결과를 더욱 정밀하게 좁힐 수 있습니다. <block ref="f163c2c9209b92ad140bb233f78e91e3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e1e69bf873dd9761998d1a096d39951a" category="section-title">BlueXP 또는 Digital Advisor에서 보고서 생성</block>
   <block id="d0c322fc884a1966308c94c8f8ea7989" category="inline-image-macro">BlueXP에서 보고서 다운로드 아이콘 2개</block>
   <block id="c0966097b6e3bcb3af49a46a84c76250" category="section-title">Digital Advisor에서 통합 보고서 생성</block>
   <block id="c9b179ad408758a592f1e7e3637faa7f" category="paragraph">Digital Advisor에서는 구독, 과거 사용량, 버스트 사용량, 성과, 자산, 볼륨 및 객체에 대한 통합 보고서를 생성하고 볼 수 있습니다. 이렇게 하려면 Digital Advisor의 보고서 기능에서 보고서 유형으로 * Keystone 구독 * 을 선택합니다. 이러한 보고서는 고객, 클러스터, 감시 목록 또는 구독 수준에서 생성할 수 있습니다.</block>
-  <block id="9571c59df04a5f47520e5cdaf57bfb57" category="section-title">Digital Advisor의 알림 보기</block>
-  <block id="4bf52ff68178cad10e2f67cee55f6105" category="admonition">단일 성능 서비스 수준이나 요금제에 가입한 경우, 규정을 준수하지 않는 볼륨에 대한 알림을 볼 수 없습니다.</block>
-  <block id="7b6da7b249c3996384e4b6096fb42564" category="paragraph">이러한 메시지에 대한 자세한 내용은 NetApp Keystone 지원팀에 문의하십시오. 서비스 요청 제기에 대한 자세한 내용은 다음을 참조하십시오. <block ref="1bf858345505311d2a0e9fcf6e1f42da" category="inline-link-macro-rx"></block> .</block>
   <block id="20198235825fb8adf4086bd1ca3ba286" category="admonition">이 탭은 Digital Advisor에서 선택적으로 사용할 수 있습니다. 이 탭을 보려면 지원 부서에 문의하십시오. BlueXP에서는 사용할 수 없습니다.</block>
   <block id="71470a3714862a9c1c398e48dfec41a7" category="paragraph">Digital Advisor에서 이 탭을 보려면 다음 단계를 따르세요.</block>
   <block id="d83ac6ac0c6b80d1d5c748c0365ce923" category="list-text">*일반 &gt; Keystone 구독 &gt; 성능*을 클릭합니다.</block>
@@ -2221,13 +1968,10 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3ecb4d80c0a9bc2b7d4df8e0ab67a958" category="paragraph">BlueXP의 *구독* 탭은 *구독*과 *성능 서비스 수준*의 두 섹션으로 나뉩니다. 각 섹션은 Keystone 구독을 관리하고 모니터링하는 데 도움이 되는 구체적인 정보를 제공합니다. 구독에 대한 자세한 정보를 보려면 다음 단계를 따르세요.</block>
   <block id="1c497c059f638e9ed17590e5317d525b" category="list-text">BlueXP 왼쪽 탐색 메뉴에서 *저장소 &gt; Keystone &gt; 구독*으로 이동합니다.</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">구독 탭 세부 정보 보기</block>
-  <block id="334fef5d11de1f6c02e8160f766e960d" category="paragraph"><block ref="334fef5d11de1f6c02e8160f766e960d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="65ce0939d8b46ca45d989ba0547de91e" category="paragraph">구독 전반의 용량 상태, 구독 만료 상태, Keystone 버전 등의 주요 지표를 확인할 수 있습니다. 자세한 내용은 을 <block ref="993666c3d95ac6fd97ba90eab93b4de7" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="09253a17dd3290d17d3baeba1a85ec41" category="paragraph">다음 세부 정보는 표에서 확인할 수 있습니다.</block>
   <block id="777a92dd9a9405f5a8f4c89917427c35" category="list-text">*구독 번호*: NetApp에서 할당한 Keystone 구독의 구독 번호입니다.</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*고객 이름*: Keystone 구독과 관련된 고객의 이름입니다.</block>
   <block id="1785b788275c7de318abca94e5882fe1" category="list-text">*연결된 구독*: 기본 구독에 연결된 보조 구독이 있는 경우, 이 열에는 기본 구독의 연결 구독 번호가 표시됩니다. 이 구독 번호는 기본 구독 또는 보조(연결된) 구독의 번호일 수 있습니다.</block>
-  <block id="42e817f3f8de7e2d0b00dce143f76387" category="list-text">*키스톤 버전*: 구독에 사용되는 키스톤 서비스의 버전입니다.</block>
   <block id="7e147d47de92c4a609c07c4bb5e40f29" category="list-text">*청구 기간*: 구독의 청구 기간입니다.</block>
   <block id="15d3201050b72761174ef874891c70c2" category="list-text">*성능 서비스 수준*: 구독과 연관된 요금제의 수로, 각 요금제는 특정 성능 서비스 수준과 약정 용량에 해당합니다.</block>
   <block id="7977aee626f33c6d577f1efc799f2747" category="list-text">*최대 용량*: 구독 내에서 소비되는 최대 용량입니다.</block>
@@ -2238,13 +1982,11 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7e928a58999c6ac9fe618e59ef69b760" category="paragraph"><block ref="7e928a58999c6ac9fe618e59ef69b760" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dadddb052717c3425b64a63b6753347b" category="list-text">*구독에 대한 성과 서비스 수준*: 구독에 대한 성과 서비스 수준 수를 표시합니다.</block>
   <block id="5b6c7c5dcaf056e81b8e2d308696999f" category="list-text">*구독 전반에 걸친 프로비저닝 일관성*: 과도하게 프로비저닝된 성능 서비스 수준과 프로비저닝이 부족한 성능 서비스 수준에 대한 수를 보여줍니다.</block>
-  <block id="d4428358a601815463d727507e16d164" category="paragraph">고객 이름, 구독 번호, 성능 서비스 수준 유형, 총 볼륨 수, QoS 준수 상태 등 주요 정보를 포함한 성능 서비스 수준 목록을 확인할 수 있습니다. 또한, 보호된 볼륨 수, 총 약정 용량, 사용 용량, 프로비저닝 용량, 사용 가능한 용량(버스트 포함/미포함), 누적 버스트 용량도 표시됩니다.</block>
   <block id="ed4d0852f1703e0820b9637850aeae85" category="paragraph">Digital Advisor에서 구독을 보려면 다음 단계를 따르세요.</block>
   <block id="01bbb3898ca00363b1b5c84f5c112a6e" category="list-text">Digital Advisor 왼쪽 탐색 창에서 *일반 &gt; Keystone 구독 &gt; 구독*으로 이동합니다.</block>
   <block id="8623285496d906d1d5c230fd4132ac11" category="paragraph">여기에서 모든 구독을 볼 수 있으며, 각 구독에 대한 자세한 정보도 확인할 수 있습니다.</block>
   <block id="3fee1753dbbd332a559927be35ca6060" category="paragraph">특정 필드 및 열의 경우 데이터에 대한 추가 정보를 제공하는 정보 또는 경고 아이콘 및 도구 설명이 표시될 수 있습니다.</block>
   <block id="96293ec1c9ddbb930d39d0f569a22682" category="list-text">* 추적 ID *: 가입 활성화 시 할당된 추적 ID입니다. 이는 각 구독 및 사이트에 대한 고유한 ID입니다.</block>
-  <block id="2a21d74f8e43863e1499bedc0b85ce35" category="admonition">고급 데이터 보호 애드온 서비스에 가입한 경우 가입 번호에 대한 도구 설명을 클릭하여 MetroCluster 설정에서 파트너 가입의 추적 ID를 확인할 수 있습니다. MetroCluster 구성에서 파트너 구독에 따른 자세한 소비량을 보려면 다음을 참조하세요. <block ref="0e74b0f4cd2655beb5f463b480ef4016" category="inline-link-macro-rx"></block> .</block>
   <block id="0ad0ea24438b91d60d9457bb9a6ad491" category="list-text">*사용 유형*: 여러 Keystone 버전을 구독하셨을 수 있습니다. 성능 서비스 수준에 대한 요금제 규칙은 구독 버전마다 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량, 물리적 사용량 또는 논리적 사용량에 따라 청구되는지 알 수 있습니다. 버전 1에 대한 자세한 내용은 다음을 참조하세요. <block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block> .</block>
   <block id="8a3b6107c8628879030ac592d36c112f" category="list-text">*청구 기간*: 구독의 청구 기간입니다.</block>
   <block id="55edd89d2feaee597a2b149b857d78ec" category="list-text"><block ref="435e416487181a998706b8fd7ece7b01" category="inline-image-macro-rx" type="image"></block> : 이 아이콘을 클릭하면 *소비 추세* 탭이 열리고, 여기서 이 구독에 포함된 각 성능 서비스 수준에 대한 과거 사용 데이터를 볼 수 있습니다.</block>
@@ -2282,7 +2024,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="904d19fedb40bf9820beb309aafcf17b" category="inline-link-macro">Active IQ Digital Advisor에서 Keystone 대시보드 보기</block>
   <block id="1749d12df3df2319d3eee218a277ff83" category="inline-link-macro">MetroCluster</block>
   <block id="b0e7be39762b5cd093fd721cb637ce50" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기식으로 미러링할 수 있습니다. 1차 사이트에서 재해가 발생할 경우 데이터 손실 없이 2차 사이트에서 작업을 수행할 수 있습니다. 이 기능은 다음을 활용합니다. <block ref="e34027f10b07a4258180f071293183bf" category="inline-link-macro-rx"></block> 두 사이트 간의 구성을 통해 데이터 보호를 활성화합니다. 파일 및 블록 스토리지 서비스에만 고급 데이터 보호 애드온 서비스를 사용할 수 있습니다. 이 추가 서비스의 일부로, <block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 성능 서비스 수준이 구독에 할당됩니다.</block>
-  <block id="0bca6dc9cc192191d0c17b2098857764" category="paragraph">버전 2(v2)의 Keystone STaaS 구독은 월별 또는 연간으로 청구됩니다.</block>
   <block id="9c8f3bc01ebc0e505ffd72688670b036" category="paragraph">버전 3(v3)의 Keystone STaaS 구독은 월별, 분기별, 반기별 또는 연간 기준으로 청구됩니다.</block>
   <block id="3635526a73c594ba1955c17ce445b905" category="section-title">분기별, 반기별, 연간 청구</block>
   <block id="d71328738154b6b1b18068c31b885b0a" category="paragraph">분기별, 반기별, 연간 청구의 경우 프로세스는 유사하지만 시기에 약간의 차이가 있습니다.</block>
@@ -2296,12 +2037,9 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7f47b8ee067aaac2bc090f2155ebbfb0" category="paragraph">버스트 용량은 구독 시 약정된 용량을 초과하여 사용할 수 있는 추가 저장 용량을 의미합니다. 은 성능 서비스 수준에 따라 측정 및 청구됩니다. 기본적으로 버스트 한도는 약정된 용량의 20% 초과로 설정됩니다. 하지만 이 추가 서비스를 이용하면 한도를 40% 또는 60%까지 늘릴 수 있습니다.</block>
   <block id="aefad734c06988971c818d41e4af2b8c" category="paragraph">버스트 한도를 40% 또는 60%로 변경하려면 NetApp Keystone 지원팀에 문의하세요.</block>
   <block id="1db1ab512ec07d15bf8d3f03a076139a" category="paragraph">버스트 용량 청구 방법에 대해 자세히 알아보려면 다음을 참조하세요. <block ref="da7adc48e3ef5d5cba8270d6542a88e9" category="inline-link-macro-rx"></block> .</block>
-  <block id="358aee06f2e0039d175ba9710fbe95a8" category="paragraph">최대 한도는 Keystone 계약에 따라 결정되고 지정됩니다. 이는 약속된 용량보다 20% 높습니다.</block>
-  <block id="66e1d0b849b16a3f5cfb822e35689ee4" category="paragraph">Keystone에서 지원되는 다양한 용량에 대한 정보는 다음을 참조하세요. <block ref="df1cc61cb77b9306852c524638f099be" category="inline-link-macro-rx"></block> .</block>
   <block id="17a67557c6c448eedbaeeb25e2409ca8" category="inline-link-macro">버스트 용량 증가 옵션</block>
   <block id="b8ce331afde85a2f9ccc21b17b658035" category="paragraph">최대 한도는 Keystone 계약에 따라 결정되고 지정됩니다. 기본적으로 할당된 용량의 20% 이상으로 설정됩니다. 또한, 할당된 용량의 40% 또는 60%까지 버스트 용량 한도를 선택할 수 있습니다. 자세한 내용은 을 <block ref="c3f852e472538152b8572347bb4a142d" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="7d38503d78c628f634f345f9649cfdd1" category="paragraph">소비된 용량이 성능 서비스 수준에 대해 약속된 용량보다 큰 경우, 버스트 소비량이 기록되고 그에 따라 요금이 부과됩니다. 버스트 용량을 초과하는 사용은 "버스트 제한 초과"로 표시됩니다.</block>
-  <block id="44b98adec970ac913f01eb0e1fd40b24" category="paragraph">버전 2(v2)의 Keystone STaaS 성능 서비스 수준에 대한 용량 요구 사항은 Keystone STaaS 구독이 지원하는 파일, 블록, 개체 또는 클라우드 스토리지 제품마다 다릅니다.</block>
   <block id="b08904144697ce5104bed18cd93f91f8" category="paragraph">용량 조정에 대해 자세히 알아보세요.</block>
   <block id="dc6244a840ba98e3e2b7311362cd8e71" category="list-text">계약 기간의 마지막 90일을 제외하고 계약 기간 중 언제든지 용량을 추가할 수 있으며, 이전 섹션의 표에 설명된 대로 성과 서비스 수준에 따라 증분이 적용됩니다. 서비스 갱신에 대한 동의가 있는 경우, 계약 기간의 마지막 90일 동안 용량이나 서비스를 추가하는 것이 허용됩니다. 용량 외에 사내와 클라우드의 새로운 서비스를 기존 기간과 함께 사용할 수 있습니다. 새 서비스를 활성화한 후 전송된 송장에 수정된 청구서가 반영됩니다. 가입 기간 중에는 어느 시점에서든 클라우드 서비스의 약정 용량을 줄일 수 없습니다. 한편, 계약 기간 동안 온프레미스 서비스에 대한 약정 용량 및 약정 비용은 다음 _ 용량 감소 _ 절에 정의된 특정 기준에 따라 줄일 수 있습니다.</block>
   <block id="cf5d3b118116cd326c3440fa520fa16e" category="paragraph">버전 3(v3)의 Keystone STaaS 성능 서비스 수준에 대한 용량 요구 사항은 Keystone STaaS 구독이 지원하는 통합, 블록 최적화, 개체 또는 클라우드 스토리지 제품 간에 다릅니다.</block>
@@ -2328,8 +2066,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c072efe8294d1003e257c7dd4fe0687d" category="inline-image-macro">수집기 데이터 흐름</block>
   <block id="92c812556434526899af3c97a106a849" category="paragraph"><block ref="92c812556434526899af3c97a106a849" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a4daf62661f9278775d1e8692f4fb7df" category="paragraph">BlueXP 또는 Digital Advisor를 통해 Keystone 구독의 구독 및 사용 내역을 확인할 수 있습니다. Keystone 보고서에 대한 자세한 내용은 다음을 참조하세요. <block ref="5a609c392d8730053e3d7fc9f1d0ffab" category="inline-link-macro-rx"></block> .</block>
-  <block id="661dc0732c9608cbd4ce15e65f4cc30c" category="summary">NetApp Keystone STaaS 서비스는 여러 가지 용어를 사용하여 메트릭을 측정합니다. Keystone 서비스 버전 2를 사용할 때 이러한 약관에 대해 자세히 알아보는 것이 좋습니다.</block>
-  <block id="9164310e4ad49ce6677aa8c248a5f778" category="paragraph">NetApp Keystone STaaS 서비스는 여러 가지 용어를 사용하여 메트릭을 측정합니다. Keystone 버전 2(v2)를 사용하면서 이러한 용어에 대해 자세히 알아보는 것이 좋습니다.</block>
   <block id="6f93f55b981dd0322ebbd8e3f04d4db1" category="summary">NetApp Keystone STaaS 서비스는 여러 가지 용어를 사용하여 메트릭을 측정합니다. Keystone 서비스 버전 3을 사용할 경우 이러한 약관에 대해 자세히 알아보는 것이 좋습니다.</block>
   <block id="e87d3081221b4d38577a4dbe05435e86" category="paragraph">NetApp Keystone STaaS 서비스는 여러 가지 용어를 사용하여 메트릭을 측정합니다. Keystone 버전 3(v3)을 사용하면서 이러한 용어에 대해 자세히 알아보는 것이 좋습니다.</block>
   <block id="947a74aac556a4978330239679ebabf1" category="list-text">IOPS: 초당 처리되는 입출력 작업 수.</block>
@@ -2342,9 +2078,7 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3bb74cf9f4497420cd995b7ac6103817" category="paragraph">*블록 최적화 서비스:*</block>
   <block id="3d7debc9f9eb6961623316d3dcefaeb8" category="list-text">*IOPS*: FCP가 포함된 ONTAP 9.16.1의 경우, 각 성능 수준 인스턴스는 70% 읽기, 30% 쓰기 비율, 8KB 블록 크기, 1ms 지연 시간의 랜덤 액세스를 지원합니다.</block>
   <block id="743bda28c7e3ff71e63d96fad8b96946" category="list-text">*처리량*: FCP가 포함된 ONTAP 9.16.1의 경우 각 성능 수준 인스턴스는 100% 읽기와 64KB 블록 크기의 순차적 액세스를 지원합니다.</block>
-  <block id="f5a26eb62b8f73c2532513082c468410" category="paragraph">버전 2(v2)의 특정 구성에 대한 Keystone 요금 청구 방식을 이해하면 서비스 사용량을 최적화하고 비용을 관리하는 데 도움이 될 수 있습니다. 해당 구성에는 복제된 볼륨, 고급 데이터 보호, 임시 볼륨, QoS 정책, SnapMirror 대상, LUN, 시스템/루트 볼륨이 포함됩니다.</block>
   <block id="4a71061ce212df640aef8be8d2595397" category="list-text">복제된 볼륨에는 24시간 유예 기간이 없습니다. 복제본의 크기만 고려됩니다.</block>
-  <block id="a084ea8dab52ad14d107b53a85840d44" category="paragraph">버전 3(v3)의 특정 구성에 대한 Keystone 청구 방식을 이해하면 서비스 사용량을 최적화하고 비용을 관리하는 데 도움이 될 수 있습니다. 해당 구성에는 복제된 볼륨, 고급 데이터 보호, 임시 볼륨, SnapMirror 대상, LUN 및 시스템/루트 볼륨이 포함됩니다.</block>
   <block id="311fa0b14c132cc09ffa0940763ed317" category="paragraph">SnapMirror 대상 볼륨의 가격은 재해 복구 또는 장기 보존에 사용 여부와 관계없이 대상 볼륨에 할당된 성능 서비스 수준에 따라 결정됩니다. 데이터 보호에는 추가 요금이 없습니다.</block>
   <block id="043a801e169414534666972af92048c7" category="paragraph">LUN의 경우 요금은 볼륨의 성능 서비스 수준을 기준으로 청구됩니다.</block>
   <block id="6318e8b902dd302d5ad2e2ac912ca98c" category="list-text">*파트너 운영 모델*: 이 모델은 두 가지 옵션을 제공합니다.</block>
@@ -2366,21 +2100,10 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="e6e41564c0eb58e7df450956b2e9d7ef" category="section-title">키스톤 스토리지 서비스(STaaS)</block>
   <block id="db1293ec8548c413e40861e5a81d1401" category="paragraph">STaaS(Storage-as-a-Service) 오퍼링은 스토리지 인프라의 조달, 구축 및 관리에 필요한 퍼블릭 클라우드와 같은 모델을 제공하는 것을 목표로 합니다. 많은 기업이 여전히 하이브리드 클라우드 전략을 수립하는 동안, Keystone STaaS는 온프레미스 서비스로 시작하여 적절한 시기에 클라우드로 전환할 수 있는 유연성을 제공합니다. 이를 통해 다양한 배포 모델에 걸쳐 약정을 보호하고, 월별 요금을 인상하지 않고도 필요에 따라 지출을 재분배할 수 있습니다.</block>
   <block id="b7d43ae1979d8e64c664de0e3d94f3c9" category="paragraph">NetApp Keystone STaaS 종량제 구독 서비스는 스토리지 요구 사항에 맞춰 예측 가능하고 사전 가격이 책정되어 유연하고 확장 가능한 소비를 제공합니다.</block>
-  <block id="6ced49367d6dfdc16b1d1689fc65a840" category="paragraph">Keystone 버전 2(v2)에서는 다음과 같은 청구 기능을 제공합니다.</block>
-  <block id="ab44647f83eec4ac9adbf2b290b27f7c" category="list-text">월별, 분기별, 연간 등 유연한 결제 기간과 서비스 및 결제 옵션을 선택할 수 있습니다.</block>
-  <block id="663765cf7ed64b49b04b9a7cfafdebc6" category="list-text"><block ref="663765cf7ed64b49b04b9a7cfafdebc6" category="inline-link-macro-rx"></block></block>
-  <block id="54c598f14c6c0403f8028707399a4c5b" category="list-text"><block ref="54c598f14c6c0403f8028707399a4c5b" category="inline-link-macro-rx"></block></block>
-  <block id="bd1895f2e3e5d6a16b163cda35e1aafd" category="list-text"><block ref="bd1895f2e3e5d6a16b163cda35e1aafd" category="inline-link-macro-rx"></block></block>
-  <block id="3471b3eda86fbafe4e153583bbecb7d4" category="list-text"><block ref="3471b3eda86fbafe4e153583bbecb7d4" category="inline-link-macro-rx"></block></block>
-  <block id="6bf37464b877a50aec1db56fbd46455e" category="list-text"><block ref="6bf37464b877a50aec1db56fbd46455e" category="inline-link-macro-rx"></block></block>
   <block id="c2a67d8aa2af51e64f020d7e0c6e8feb" category="paragraph">Keystone 버전 3(v3)에서는 다음과 같은 청구 기능을 제공합니다.</block>
   <block id="52773f9acaafea047b32251f660d25e2" category="list-text">다양한 워크로드 요구사항을 충족하기 위해 IOPS 및 지연 시간 성능을 기준으로 결제 가능 Extreme, Premium, Standard, Value, Object, Cloud Volumes ONTAP 등 다양한 성능 서비스 계층을 통해 구매한 서비스 수준에 따라 스토리지를 관리할 수 있습니다.</block>
   <block id="50e0459d44500ff84b442895fa1a64f1" category="list-text">하드웨어, 코어 OS의 번들 가격을 선택하고 $/TiB 단일 가격을 지원할 수 있습니다. 통합, 블록, 최적화, 객체 또는 클라우드 스토리지 서비스 등 각 스토리지 유형별로 단일 송장이 있습니다.</block>
   <block id="6770f961b4c4aaa762fb284da8cafd6f" category="list-text">월별, 분기별, 반기별 또는 연간 등 서비스와 지불 옵션에 대한 유연한 기간을 선택할 수 있습니다.</block>
-  <block id="ed570a10e17470484fdd87252635bb14" category="paragraph">버전 2(v2)용 Keystone STaaS는 사전 정의된 성능 서비스 수준에서 데이터 저장 용량을 제공합니다. Keystone 서비스에서 관리하는 각 볼륨은 성능 서비스 수준과 연관됩니다.</block>
-  <block id="b8dc0acbd0aa5bf36048a32457a20abf" category="list-text"><block ref="b8dc0acbd0aa5bf36048a32457a20abf" category="inline-link-macro-rx"></block></block>
-  <block id="5149d36dca38417f7f668187d473bc44" category="list-text"><block ref="5149d36dca38417f7f668187d473bc44" category="inline-link-macro-rx"></block></block>
-  <block id="a6ba1e3de6b8458df17848e0ec3e2a38" category="list-text"><block ref="a6ba1e3de6b8458df17848e0ec3e2a38" category="inline-link-macro-rx"></block></block>
   <block id="65f13786054dfad371efd46410aaee0a" category="summary">Keystone STaaS 버전 3은 사전 정의된 서비스 수준에서 스토리지 용량을 제공합니다. Keystone에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다.</block>
   <block id="27a608ddf344e641c1f1c588dba9fbe6" category="paragraph">버전 3(v3)용 Keystone STaaS는 사전 정의된 성능 서비스 수준에서 데이터 저장 용량을 제공합니다. Keystone 서비스에서 관리하는 각 볼륨은 성능 서비스 수준과 연관됩니다.</block>
   <block id="04d889d69e926414f8e3667e8632108a" category="paragraph">성능 서비스 수준은 여러 인스턴스를 가질 수 있으며, 각 인스턴스는 고객 환경에서 해당 성능 서비스 수준에 할당된 별도의 스토리지 어레이를 나타냅니다. 각 성능 서비스 수준은 초당 입출력 작업 수(IOPS), 처리량(GBps), 지연 시간(ms)으로 정의되며, 이러한 지표는 성능 서비스 수준 인스턴스별로 측정 및 적용됩니다.</block>
@@ -2440,10 +2163,7 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7649a9c2aa81e74af3af6ce5c9dcb1f7" category="cell">* SLO 기준 *</block>
   <block id="05a7c939901eab929ebc44c3b2bea033" category="cell">&amp;lt;= 8 W/TiB</block>
   <block id="a219a5819e6733ccfc6f4bfd2c2de9c4" category="cell">&amp;lt;= 4 W/TiB</block>
-  <block id="1c8da55ed1bb51aa2c1e766474b9b2bc" category="summary">NetApp Keystone STaaS 서비스 버전 2에서 지원하는 스토리지 용량 유형에 대해 알아보세요.</block>
-  <block id="20a28a9162ad36d78952cc14119207f5" category="paragraph">NetApp Keystone STaaS 서비스 버전 2(v2)는 여러 유형의 스토리지 용량을 지원합니다. 서로 다른 용량 용어를 이해하면 Keystone을 사용하는 데 도움이 될 수 있습니다.</block>
   <block id="7317b3beebf79ce6d9067b02a860be6b" category="list-text">BlueXP 인터페이스나 Keystone Success Manager(KSM)를 통해 약정된 용량에 대한 변경을 요청할 수 있습니다. 변경 요청에 대한 자세한 내용은 을 <block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="3be3c0e5a4c3f89e825b202394d2aaab" category="paragraph">NetApp Keystone 서비스를 사용하면 특정 서비스 수준에서 약정된 용량 외에 추가 용량을 사용할 수 있습니다. 이를 버스트 용량 사용량이라고 합니다.</block>
   <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">다음 사항에 유의하십시오.</block>
   <block id="aa26b728d618a456dca6365c13707f90" category="summary">NetApp Keystone STaaS 서비스 버전 3에서 지원하는 스토리지 용량 유형에 대해 알아보세요.</block>
   <block id="0dd726f7147b5bc5b69c71264bd43f5b" category="paragraph">NetApp Keystone STaaS 서비스 버전 3(v3)은 여러 유형의 스토리지 용량을 지원합니다. 서로 다른 용량 용어를 이해하면 Keystone을 사용하는 데 도움이 될 수 있습니다.</block>
@@ -2464,12 +2184,7 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="39e8174efdec154af4f9c69757cc5fee" category="list-text">최대 용량은 Keystone 계약에 합의됩니다. 일반적으로 성능 서비스 수준 인스턴스당 약정 용량보다 최대 20% 높게 설정되며, 약정 용량의 40% 또는 60%의 버스트 용량 한도를 선택하는 추가 옵션도 제공됩니다.</block>
   <block id="ee07c6373035e91351baca56c1404db1" category="list-text">버스트 용량 소비는 선택한 성능 서비스 수준에 해당하는 약정 용량과 동일한 요금으로 청구됩니다.</block>
   <block id="7cca77e7db25de35fd08005008af1f32" category="list-text">Keystone STaaS 서비스는 시작일로부터 60일 동안 일괄 면제 기간을 제공합니다.</block>
-  <block id="efe6536c314cb8ce293eb59340104e3f" category="paragraph">버전 2(v2)용 Keystone STaaS 서비스는 ONTAP을 통한 파일 및 블록 스토리지, StorageGRID를 통한 객체 스토리지, Cloud Volumes ONTAP을 지원합니다.</block>
-  <block id="bf8fba0cbc7cd551824bd5ac4a8b50af" category="paragraph">Keystone STaaS 서비스는 동시에 사용할 수 있습니다. 예를 들어, 클라우드 스토리지 구독은 파일, 블록, 객체 스토리지 구독과 동일한 기간을 가질 수 있습니다. 클라우드 서비스는 기존 스토리지 구독의 서비스 기간 중 언제든지 포함될 수 있습니다. 그러나 기존 파일, 블록 및 오브젝트 서브스크립션을 갱신하지 않을 계획이라면, 지난 90일 동안 클라우드 스토리지 구독을 추가할 수 없습니다.</block>
-  <block id="7f483afe9a1e0bf2ea2167e6f8ffbff7" category="paragraph">버전 3(v3)용 Keystone STaaS 서비스는 NetApp 및 Cloud Volumes ONTAP의 통합, 블록 최적화 및 개체 스토리지를 지원합니다.</block>
-  <block id="1f9dee12be8ccfcf96c7b7821dd9f39e" category="paragraph">각 저장 유형에는 다음이 포함됩니다.</block>
   <block id="2f5118ac9c7b726f2e3fb3f02a8d2bc3" category="list-text">*통합 스토리지*: NetApp ONTAP AFF와 FAS 시스템에서 사용할 수 있는 파일, 블록 및 S3 개체 스토리지를 모두 포함합니다.</block>
-  <block id="f65788ab27c29f4072a10c73914145e6" category="list-text">*블록 최적화 스토리지*: NetApp ONTAP ASA 시스템에서 사용 가능한 블록 스토리지가 포함됩니다.</block>
   <block id="86164c66223c4b45cdcc32b7ef27af38" category="list-text">*객체 스토리지*: NetApp StorageGRID 시스템에서 사용할 수 있는 객체 스토리지를 포함합니다.</block>
   <block id="c828c0f1013974e213c30783b2330308" category="paragraph">Keystone STaaS 서비스는 동시에 사용할 수 있습니다. 예를 들어, 클라우드 스토리지 구독은 통합, 블록 최적화, 객체 스토리지 구독과 동일한 기간을 가질 수 있습니다. 클라우드 서비스는 기존 스토리지 구독의 서비스 기간 중 언제든지 포함될 수 있습니다. 단, 기존 통합, 블록 최적화 또는 객체 스토리지 구독을 갱신할 계획이 없는 경우, 구독 기간의 마지막 90일 동안은 클라우드 스토리지 구독을 추가할 수 없습니다.</block>
   <block id="e2481d555d88554b2cab041888938da0" category="section-title">통합, 블록 최적화 및 객체 스토리지를 위한 서비스</block>
@@ -2489,28 +2204,21 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="a2e3b87e900cd80529151deefb209af2" category="paragraph">Red Hat Enterprise Linux 9의 경우 다음 명령을 실행하여 keystone-collector 패키지를 설치합니다. <block ref="469a6c4348fc55be6113496e79df8512" prefix=" " category="inline-code"></block></block>
   <block id="ea8fd641a36217b35135e329311b7083" category="paragraph">차트의 월별 데이터는 세로 선으로 구분됩니다.</block>
   <block id="5671610338efe655434c6977fe6ed80b" category="paragraph"><block ref="5671610338efe655434c6977fe6ed80b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="672a0c4e233a4c8328e89c04f4262ff4" category="admonition">Keystone 버전 3(v3)을 사용하면 각 성능 서비스 수준 인스턴스의 현재 사용량 세부 정보를 볼 수 있습니다. 예를 들어, 구독 내에 Extreme 성능 서비스 수준 인스턴스가 두 개 있는 경우, 각 인스턴스는 자체 약정 용량, 사용 용량 및 사용 가능 용량을 개별적으로 표시합니다. 성능 서비스 수준에 대한 자세한 내용은 다음을 참조하세요. <block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> .</block>
   <block id="a5295d30cda2860412d8b6bef5ab5b8a" category="paragraph"><block ref="a5295d30cda2860412d8b6bef5ab5b8a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8215bcb478e68aed5d5b6ae1aaf7d85c" category="inline-link-macro">Keystone 대시보드 시작하기</block>
   <block id="a30438022816f4866ad2630868499b34" category="list-text"><block ref="a30438022816f4866ad2630868499b34" category="inline-link-macro-rx"></block></block>
   <block id="ffb1a3b812d409c688b237660355d989" category="paragraph">다운로드 버튼을 사용하여 Keystone 데이터에 대한 보고서를 생성하고 볼 수 있습니다. <block ref="5875c8338d2998bbff533ca0f83e1168" category="inline-image-macro-rx" type="image"></block> BlueXP 또는 Digital Advisor의 탭에서 사용할 수 있습니다. 이 탭을 통해 구독, 과거 사용량, 버스트 사용량, 성능, 자산, 볼륨 및 객체에 대한 보고서를 생성할 수 있습니다.</block>
-  <block id="3c7872a423e6c6da131a7f6a79de38a8" category="paragraph">Digital Advisor의 Keystone 대시보드는 스토리지 환경에서 발생하는 문제를 파악할 수 있도록 경고 알림을 제공합니다. 이러한 알림은 정보 알림이나 경고로 나타날 수 있습니다. 예를 들어, Keystone 버전 2(v2)를 사용하는 경우 관리되는 클러스터 내에 적응형 QoS(AQoS) 정책이 연결되지 않은 볼륨이 있는 경우 경고 메시지가 표시됩니다. 경고 메시지를 선택하면 *볼륨 및 개체* 탭에서 규정을 준수하지 않는 볼륨 목록을 확인할 수 있습니다.</block>
   <block id="ba14ade4eddc6f656eb0b7e0f297c28b" category="paragraph">이 섹션에는 쿼리의 날짜 범위를 기반으로 볼륨 내 워크로드에 대한 입력 출력 그래프가 표시됩니다. 성능 서비스 수준에 대한 최대 IOPS와 현재 IOPS(쿼리의 날짜 범위를 기준으로 하지 않고 지난 5분 동안의)가 표시되며, 해당 시간 범위에 대한 최소, 최대 및 평균 IOPS가 IOPS/Tib 단위로 표시됩니다.</block>
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="section-title">처리량</block>
   <block id="e71af0b604b9c4925cf64f4a5d32c687" category="paragraph">각 구독의 사용 상태를 확인하려면 사용 지표를 참조하세요.</block>
   <block id="4b74c9be479e8905d4e8f29ad9f1af7c" category="paragraph"><block ref="52273d64c65862ef424a47885fe81b01" category="inline-image-macro-rx" type="image"></block> *소비 없음*: 성능 서비스 수준의 약정 용량에 대해 기록된 용량 사용량이 없습니다. <block ref="d72ea1f055275eb6c806c044808270ee" category="inline-image-macro-rx" type="image"></block> *정상*: 소비량이 정상입니다. <block ref="26b60b3bc680636be1bff71d9158314a" category="inline-image-macro-rx" type="image"></block> *높음*: 최대 소비, 즉 사용량이 약정 용량의 100% 이상에 도달하려고 하는 상태입니다. <block ref="25206057152159ddc0d0e53262070870" category="inline-image-macro-rx" type="image"></block> *버스트*: 사용량이 버스트 한도 내에 있습니다. 버스트 사용량은 성능 서비스 수준의 100% 할당 용량을 초과하고, 합의된 버스트 사용량 한도 내에 있는 사용량입니다. <block ref="49884f5051327fb7a920e2ee64178452" category="inline-image-macro-rx" type="image"></block> *버스트 한도 초과*: 합의된 버스트 한도를 초과하는 소비를 나타냅니다.</block>
-  <block id="b4bfc97b4a6664c07d3cb265b1f77f66" category="admonition">QoS 정책은 Keystone 버전 3(v3)에 적용되지 않습니다.</block>
-  <block id="288b4e42b32faccce4a2d55e94593bd9" category="admonition">Keystone 버전 3에서는 QoS 정책이 적용되지 않습니다.</block>
   <block id="b0ff511b21770d18a844437708e370f3" category="inline-link-macro">v3용 Keystone STaaS 서비스</block>
   <block id="ee326973c25ecfa958c9bcb665f7c905" category="list-text">*용량 추세* 탭에서 소비량 및 누적 버스트 사용 데이터를 확인할 수 있습니다.</block>
   <block id="e00666b1159de8493cf756574e49f1ec" category="list-text">*성능* 탭에서 ONTAP 볼륨의 성능 측정 항목을 볼 수 있습니다.</block>
   <block id="ac75d9678d2b707154377e207cada198" category="paragraph">데이터는 선택한 구독 시작 날짜를 기준으로 표시됩니다.</block>
-  <block id="827576c6aae044f788e1af326fe64f33" category="sidebar">NetApp Keystone은 자본 지출이나 임대보다 운영 비용을 선호하는 고객에게 원활한 하이브리드 클라우드 환경을 제공하는 유연한 종량제 구독 기반 서비스입니다. 리소스를 관리하고 긴 조달 주기를 거쳐야 하는 IT 부담을 없애 비즈니스 가치를 신속하게 창출할 수 있도록 지원할 뿐만 아니라, 이 라이브러리의 문서를 탐색하여 ONTAP 또는 StorageGRID 환경에서 NetApp Keystone Storage-as-a-Service(STaaS)에 대한 자세한 내용을 확인하세요.</block>
   <block id="914dcbba0b077ce4f352aa32f6a6d389" category="sidebar">NetApp Keystone은 온프레미스와 클라우드 데이터 스토리지 서비스 모두를 위한 종량제 방식의 스토리지 서비스로, 하나의 구독으로 제공되며, 스토리지 비용을 클라우드 전반에 걸쳐 재할당할 수 있는 기능을 제공합니다.</block>
   <block id="d390d1bb241eb25a8ca394226a403023" category="sidebar">버스트 용량 증가</block>
-  <block id="3bae5d9e115e99cbd9c3f56c7214ff02" category="sidebar">v3를 위한 Keystone STaaS 개념</block>
   <block id="66fb046e2c5f18ee0925adc05ac14d1f" category="sidebar">Keystone STaaS SLO</block>
-  <block id="af7cd0085fe6b7c0200fe4c5a018cbdc" category="sidebar">v2를 위한 Keystone STaaS 개념</block>
   <block id="cfa9db7c89ff68cb147c3dad7e8b0b59" category="section-title">Keystone 버전 3(v3) 릴리스</block>
   <block id="e4662d7ea2c66dc53eb2e68d2bceffac" category="paragraph">시작하려면 BlueXP 왼쪽 탐색 메뉴에서 *저장소 &gt; 키스톤*으로 이동하세요. 자세한 내용은 을 <block ref="d1eddf69542d0beadf02459455377203" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025년 6월 30일</block>
@@ -2528,7 +2236,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="96e33a5d1e2356ba12a5de62a859d567" category="section-title">2024년 2월 13일</block>
   <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024년 1월 11일</block>
   <block id="8017dc46d55f13a6a86439ecb091248d" category="section-title">2023년 12월 15일</block>
-  <block id="238d9c83743312925f27989be3169a57" category="paragraph">이제 NetApp Keystone STaaS의 최신 릴리스인 Keystone 버전 3(v3)을 구독하실 수 있습니다. 이 버전은 간소화된 성능 서비스 수준, 추가 버스트 용량 옵션, 유연한 과금 주기 등 여러 가지 향상된 기능을 제공합니다. 이러한 개선 사항을 통해 스토리지 솔루션의 관리, 최적화 및 확장이 간소화됩니다. 자세한 내용은 을 <block ref="8447fd48964084b96eba4846dff79543" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="da1502e4b231c66071c9672b3628d5d7" category="paragraph">이제 송장 발행된 데이터를 표시하는 막대를 클릭하여 월별 또는 분기별 청구 기간에 대한 그래프 또는 표 형식으로 일별 누적 버스트 데이터 사용량을 볼 수 있습니다. 자세한 내용은 을 <block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="3578be224f6790339a9675dcb099b1fc" category="paragraph">Keystone 구독 * 화면의 * 자산 * 탭에는 * ONTAP * 및 * StorageGRID * 라는 두 개의 새로운 하위 탭이 있습니다. 이 하위 탭은 ONTAP에 대한 상세한 클러스터 레벨 통찰력과 구독 기반의 StorageGRID에 대한 그리드 레벨 정보를 제공합니다. 자세한 내용은 을 <block ref="c61c6efa97fc0d2a151bd41776a02253" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="b8f51f2e64174b6976db9b503b1e517b" category="paragraph">볼륨 및 개체 * 의 * 볼륨 세부 정보 * 탭에는 * 열 숨기기/표시 * 옵션이 포함되어 있습니다. 이 옵션을 사용하면 열을 선택하거나 선택 취소하여 원하는 대로 체적의 표 형식 목록을 사용자 지정할 수 있습니다. 자세한 내용은 을 <block ref="e7a3c48d13050d0d62097e8438e13870" category="inline-link-macro-rx"></block>참조하십시오.</block>
@@ -2576,4 +2283,49 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c5015af0f3f8bd7ccedb75312dd4eed3" category="list-text">수집기 구성</block>
   <block id="4f41955c42edb315e08aec95ec34acd3" category="list-text">서비스 로그</block>
   <block id="494dd216fe759558e1a91f40c35ee621" category="list-text">Keystone 서비스의 서비스 로그</block>
+  <block id="c1682b4af830f8e1dcda8da16400f7e1" category="doc">인스턴스 수준 소비 데이터 보기</block>
+  <block id="10d5879ffcf41a017554a80a63e4b46e" category="inline-link-macro">Keystone 구독 사용량 보기</block>
+  <block id="d2c70766af411fb0e8a745645e1d2b86" category="paragraph">BlueXP 의 Keystone 대시보드를 통해 각 성능 서비스 수준 인스턴스의 현재 소비량과 과거 데이터를 볼 수 있습니다. 이 기능은 Keystone 버전 3(v3) 구독이 있는 경우 여러 인스턴스가 있는 성능 서비스 수준에서 사용할 수 있습니다. 자세한 내용은 다음을 참조하세요.<block ref="500828148463e083954a63124cb9a7bb" category="inline-link-macro-rx"></block> .</block>
+  <block id="279160650841dbd8f0f6b25bf0ff9e80" category="paragraph">Keystone STaaS 구독을 통해 고급 데이터 보호 추가 서비스를 구독할 수 있습니다. 이 추가 서비스는 NetApp MetroCluster 기술을 사용하여 0.01%의 복구 지점 목표(RPO)로 미션 크리티컬 워크로드의 효율적인 데이터 보호를 보장합니다.</block>
+  <block id="cfcbbd8a31fba3f531d652505099a6e6" category="admonition">파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스는 SnapMirror, SnapVault , Snapshot과 같은 NetApp 기술을 사용하여 기본 데이터 보호 서비스를 제공합니다.</block>
+  <block id="7cd7afd8c693d81152dc35d68b442ba2" category="paragraph">버전 3(v3)의 특정 구성에 대한 Keystone 청구를 이해하면 서비스 사용을 최적화하고 비용을 관리하는 데 도움이 될 수 있습니다.  구성에는 복제된 볼륨, 임시 볼륨, SnapMirror 대상, LUN 및 시스템/루트 볼륨이 포함됩니다.</block>
+  <block id="9a074d3c3d3b3789030128089b065c8d" category="paragraph">스토리지 환경, 스토리지 및 소비 요구 사항에 따라 성능 서비스 수준을 선택합니다. 기본 성능 서비스 수준은 기본적으로 제공됩니다. 추가 서비스를 선택한 경우 구체적인 성과 서비스 수준도 추가로 이용할 수 있습니다.</block>
+  <block id="cc625dd61c8f93252f42b4f3adf096b7" category="paragraph">Keystone STaaS 서비스는 NetApp 및 Cloud Volumes ONTAP 의 통합, 블록 최적화 및 개체 스토리지를 지원합니다.</block>
+  <block id="a38c4c1572c8ef4e4dba4054df60c293" category="paragraph">지원되는 저장 옵션은 다음과 같습니다.</block>
+  <block id="6cbacdcb488aa4e37079dcf1d4dc7e92" category="list-text">*블록 최적화 스토리지*: NetApp ONTAP ASA 시스템에서 사용 가능한 블록 스토리지가 포함됩니다.</block>
+  <block id="4e78bdae86afc20e1dc87f90302287c9" category="paragraph"><block ref="4e78bdae86afc20e1dc87f90302287c9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c1602534a88a762a1ce3972cdede18e6" category="list-text">보안된 비 USPS 사이트의 경우 이 파일이 포함된 이메일을 ng-keystone-secure-site-upload@netapp.com으로 보내고, 보안된 USPS 사이트의 경우 ng-keystone-secure-site-usps-upload@netapp.com으로 보내세요.</block>
+  <block id="f554b3f79210a232f43aa1148b762978" category="list-text">파일을 모아서 보안이 강화된 비 USPS 사이트의 경우 ng-keystone-secure-site-upload@netapp.com으로, 보안이 강화된 USPS 사이트의 경우 ng-keystone-secure-site-usps-upload@netapp.com으로 보내주세요.</block>
+  <block id="2dfe1e4bd705394ed47b37168da7e39d" category="paragraph"><block ref="2dfe1e4bd705394ed47b37168da7e39d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d1b3427c4c890671eb0520ac0d4affa3" category="paragraph">볼륨 이름, 노드 일련 번호, 클러스터 이름, 호스트 이름, 성능 서비스 수준을 포함하여 클러스터의 볼륨에 대한 자세한 정보를 볼 수 있습니다. 또한 프로비저닝된 용량, 논리적 및 물리적 활용도, 콜드 데이터를 모니터링할 수 있습니다.</block>
+  <block id="d989db649afc27b39b5e6bcc878623cb" category="paragraph"><block ref="d989db649afc27b39b5e6bcc878623cb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5c5e806c3574f28d7ccf6a897c034d18" category="paragraph"><block ref="5c5e806c3574f28d7ccf6a897c034d18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="21c9d68b030c5bf0ddbda9a170d32552" category="paragraph">선형 그래프는 과거 소비 데이터를 표시하고 사용자가 선택한 날짜 범위에 대한 추세를 분석할 수 있도록 해줍니다. 그래프는 사용 용량(데이터와 스냅샷 데이터를 모두 포함한 총 저장 용량), 데이터(사용자 데이터에서 사용하는 저장 용량), 스냅샷(스냅샷 데이터에서 사용하는 저장 용량)과 같은 측정 항목을 커밋 및 버스트 용량과 함께 보여줍니다. 각 데이터 포인트의 날짜와 시간은 그래프 하단에 표시됩니다. 쿼리의 날짜 범위를 기준으로 사용 차트에는 최대 30개의 데이터 수집 지점이 표시됩니다. 그래프 위에 마우스 커서를 올려놓으면 각 데이터 수집 지점에서의 사용량 세부 정보를 볼 수 있습니다.</block>
+  <block id="1b137f241f929a351e941ba96f7347a8" category="admonition">성능 서비스 수준에 여러 인스턴스가 있는 경우 인스턴스별로 필터링하여 각 인스턴스에 대한 과거 데이터를 별도로 볼 수 있습니다.</block>
+  <block id="dfa99eff3410a5ab865d863e81dce8fa" category="paragraph"><block ref="dfa99eff3410a5ab865d863e81dce8fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c790cd64cc9ce087b29b63d208671f07" category="admonition">성능 서비스 수준에 여러 인스턴스가 있는 경우 두 보기 중 하나에서 *인스턴스별 보기*를 확장하여 각 인스턴스의 현재 소비 세부 정보를 별도로 볼 수 있습니다.  예를 들어, 구독 내에 Extreme 성능 서비스 수준의 인스턴스가 두 개 있는 경우 각 인스턴스는 자체적으로 약정된 용량, 사용된 용량, 사용 가능한 용량을 별도로 표시합니다.</block>
+  <block id="1d33ed42565e60483002000b7dcb22c3" category="paragraph"><block ref="1d33ed42565e60483002000b7dcb22c3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d302dcc8fc5540b6e87e54f3d0753c8" category="admonition">성능 서비스 수준에 여러 인스턴스가 있는 경우 *인스턴스* 탭을 선택하면 각 인스턴스의 현재 소비 세부 정보를 볼 수 있습니다.  예를 들어, 구독 내에 Extreme 성능 서비스 수준의 인스턴스가 두 개 있는 경우 각 인스턴스는 자체적으로 약정된 용량, 사용된 용량, 사용 가능한 용량을 별도로 표시합니다.  성과 서비스 수준에 대해 자세히 알아보려면 다음을 참조하세요.<block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> .</block>
+  <block id="59830f78e0d47985667f7cf21bc3414e" category="paragraph"><block ref="59830f78e0d47985667f7cf21bc3414e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f888b3b7cb5daf8fc505a9054b74b03d" category="list-text">*곧 만료*: 6개월 이내에 만료되는 구독 수입니다. *보기*를 클릭하면 *구독* 탭에서 해당 구독을 볼 수 있습니다.</block>
+  <block id="e7a862d1277ff52d64b2b8419fe26d69" category="list-text">*용량 사용량*: 버스트 초과, 버스트 사용 중, 활용도 낮음 등의 구독에 대한 용량 소비 상태입니다. 각 카테고리에는 관련 필터가 적용된 *구독* 탭으로 이동할 수 있는 *보기* 버튼이 있습니다.</block>
+  <block id="2241cb4debecdc9d4b9f4ec012449ef9" category="paragraph"><block ref="2241cb4debecdc9d4b9f4ec012449ef9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8f6704f67b358f07487daa3b4147d780" category="paragraph">사용 가능한 경우 고급 필터 옵션을 사용하여 검색을 구체화할 수 있습니다. 예를 들어, *구독* 하위 탭에서는 Keystone 버전, 청구 기간, 최대 용량, 구독 만료일까지의 일수별로 데이터를 필터링할 수 있으며, *클러스터의 볼륨* 탭에서는 볼륨 이름, 클러스터 이름, 볼륨 유형 등으로 필터링할 수 있습니다. 여러 필터를 동시에 적용하여 결과를 정확하게 좁힐 수 있습니다.<block ref="f163c2c9209b92ad140bb233f78e91e3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e840924dab6114ff274443702cd49f8" category="paragraph"><block ref="4e840924dab6114ff274443702cd49f8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="406924b12fb99a749735918b73f398aa" category="paragraph">구독 전반의 용량 사용량, 구독 만료 상태, Keystone 버전 등의 주요 지표를 확인할 수 있습니다. 자세한 내용은 다음을 참조하세요.<block ref="993666c3d95ac6fd97ba90eab93b4de7" category="inline-link-macro-rx"></block> .</block>
+  <block id="12e1b3132ab24ad467a7db5c6d50da11" category="list-text">* Keystone 버전*: 구독에 사용되는 Keystone 서비스의 버전입니다. 성과 서비스 수준에 대한 요금제 규칙은 구독 버전마다 다를 수 있습니다. 버전 v1에 대해 자세히 알아보려면 다음을 참조하세요.<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block> .</block>
+  <block id="3ba6a6d11b1758706dea931e7a369c1d" category="paragraph">고객 이름, 구독 번호, 성과 서비스 수준 유형, 총 볼륨 수와 같은 주요 세부 정보를 포함하여 성과 서비스 수준 목록을 볼 수 있습니다. 이 표에는 보호된 볼륨 수, 총 약정, 소비, 프로비저닝, 사용 가능한 용량(버스트 포함 및 미포함), 누적 버스트 용량도 표시됩니다.</block>
+  <block id="2011f3283ff705ca06648130cb758700" category="paragraph"><block ref="2011f3283ff705ca06648130cb758700" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e3db4ac6b95d51ce2a9fc54f2ebc8f17" category="list-text">*연계 구독*: 이 컬럼은 선택적으로 사용할 수 있습니다. 기본 구독에 연결된 보조 구독이 있는 경우, 이 열에는 기본 구독에 연결된 구독 번호가 나열됩니다. 이 구독 번호는 기본 또는 보조(연결) 구독의 번호일 수 있습니다.</block>
+  <block id="afb3d054878af254ad9d657e9c39d6be" category="paragraph">선택한 Keystone STaaS 구독에 대해 총 볼륨 수, 보호된 볼륨 수, 랜섬웨어 보호 상태, 모든 볼륨에서 약정된 총 용량, 사용된 용량, 사용 가능한 용량을 확인할 수 있습니다.  보호된 볼륨의 수를 클릭하면 *볼륨 세부 정보* 탭으로 이동하며, 여기서 선택 사항에 따라 보호된 볼륨을 보여주는 필터링된 목록을 볼 수 있습니다.</block>
+  <block id="c7409eaa8633fe96cf75ec03a907af58" category="paragraph"><block ref="c7409eaa8633fe96cf75ec03a907af58" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="964c0373b6e90b739308a155629631d1" category="paragraph"><block ref="964c0373b6e90b739308a155629631d1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d3416f2b111546052098b9c77ea87f5" category="paragraph">Keystone STaaS 서비스의 최신 기능과 향상된 기능에 대해 알아보세요.</block>
+  <block id="5e7c6c3c4a3f1109745fdf45ec1f1b45" category="section-title">2025년 8월 5일</block>
+  <block id="860a9b00f775e55f5f4abd684d89a362" category="paragraph">이제 NetApp Keystone STaaS 제품의 최신 릴리스인 Keystone 버전 3(v3)을 구독할 수 있습니다. 이 버전에서는 간소화된 성능 서비스 수준, 추가 버스트 용량 옵션, 유연한 청구 빈도 등 여러 가지 향상된 기능이 도입되었습니다. 이러한 개선 사항을 통해 스토리지 솔루션의 관리, 최적화 및 확장이 간소화됩니다. 자세한 내용은 다음을 참조하세요.<block ref="d7deefef65ef51793b8b97cb33a8c208" category="inline-link-macro-rx"></block> .</block>
+  <block id="5c201143f722abb135fb91ea77a2a32b" category="sidebar">NetApp Keystone 자본 지출이나 리스보다 운영 비용을 선호하는 고객에게 원활한 하이브리드 클라우드 환경을 제공하는 유연한 종량제 구독 기반 서비스입니다. IT 부서의 리소스 관리 부담을 없애고 긴 조달 주기를 피함으로써 가치 실현 시간을 단축할 수 있습니다. 이 라이브러리의 문서를 탐색하여 NetApp Keystone Storage-as-a-Service(STaaS) 제품에 대해 자세히 알아보세요.</block>
+  <block id="d86cc1250d7492d626c32cc9fb65dfab" category="sidebar">Keystone 가격에 대해 알아보세요</block>
+  <block id="f4933584c28adc3bd3ea423ed96920ec" category="sidebar">지원팀에 대해 알아보세요</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="sidebar">자세히 알아보기</block>
+  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">개념</block>
 </blocks>

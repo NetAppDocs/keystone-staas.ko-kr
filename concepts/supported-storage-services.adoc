@@ -14,9 +14,9 @@ summary: Keystone STaaS 서비스는 ONTAP 및 StorageGRID를 지원합니다.
 
 
 [role="lead"]
-버전 3(v3)용 Keystone STaaS 서비스는 NetApp 및 Cloud Volumes ONTAP의 통합, 블록 최적화 및 개체 스토리지를 지원합니다.
+Keystone STaaS 서비스는 NetApp 및 Cloud Volumes ONTAP 의 통합, 블록 최적화 및 개체 스토리지를 지원합니다.
 
-각 저장 유형에는 다음이 포함됩니다.
+지원되는 저장 옵션은 다음과 같습니다.
 
 * *통합 스토리지*: NetApp ONTAP AFF와 FAS 시스템에서 사용할 수 있는 파일, 블록 및 S3 개체 스토리지를 모두 포함합니다.
 * *블록 최적화 스토리지*: NetApp ONTAP ASA 시스템에서 사용 가능한 블록 스토리지가 포함됩니다.
