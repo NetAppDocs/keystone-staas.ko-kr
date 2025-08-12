@@ -14,7 +14,7 @@ summary: 서비스 수준에 대한 용량 요구사항은 Keystone STaaS 구독
 
 
 [role="lead"]
-버전 3(v3)의 Keystone STaaS 성능 서비스 수준에 대한 용량 요구 사항은 Keystone STaaS 구독이 지원하는 통합, 블록 최적화, 개체 또는 클라우드 스토리지 제품 간에 다릅니다.
+Keystone STaaS 성능 서비스 수준에 대한 용량 요구 사항은 Keystone STaaS 구독이 지원하는 통합, 블록 최적화, 객체 또는 클라우드 스토리지 제품마다 다릅니다.
 
 
 

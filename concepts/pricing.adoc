@@ -16,7 +16,7 @@ summary: Keystone은 유연하고 확장 가능한 소비 요구사항에 부합
 [role="lead"]
 NetApp Keystone STaaS 종량제 구독 서비스는 스토리지 요구 사항에 맞춰 예측 가능하고 사전 가격이 책정되어 유연하고 확장 가능한 소비를 제공합니다.
 
-Keystone 버전 3(v3)에서는 다음과 같은 청구 기능을 제공합니다.
+Keystone 에서는 다음과 같은 청구 서비스를 제공합니다.
 
 * 다양한 워크로드 요구사항을 충족하기 위해 IOPS 및 지연 시간 성능을 기준으로 결제 가능 Extreme, Premium, Standard, Value, Object, Cloud Volumes ONTAP 등 다양한 성능 서비스 계층을 통해 구매한 서비스 수준에 따라 스토리지를 관리할 수 있습니다.
 * 약정 용량에 대한 예측 가능한 청구와 가변(버스트) 용량 사용량에 대한 종량제 비용을 표시합니다.

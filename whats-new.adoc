@@ -36,6 +36,8 @@ BlueXP 의 Keystone 대시보드를 통해 각 성능 서비스 수준 인스턴
 
 이제 NetApp Keystone STaaS 제품의 최신 릴리스인 Keystone 버전 3(v3)을 구독할 수 있습니다. 이 버전에서는 간소화된 성능 서비스 수준, 추가 버스트 용량 옵션, 유연한 청구 빈도 등 여러 가지 향상된 기능이 도입되었습니다. 이러한 개선 사항을 통해 스토리지 솔루션의 관리, 최적화 및 확장이 간소화됩니다. 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html["v3용 Keystone STaaS 서비스"] .
 
+Keystone 버전 3(v3)을 구독하려면 Keystone 지원팀에 문의하세요.  자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/keystone-staas/concepts/gssc.html["Keystone에 대한 도움을 받으십시오"] .
+
 
 
 == 2025년 6월 19일
