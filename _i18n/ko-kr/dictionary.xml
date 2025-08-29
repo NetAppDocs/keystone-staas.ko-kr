@@ -919,7 +919,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="af17398e2b948fd6715e1bdf5857d48e" category="paragraph">TCP 7777</block>
   <block id="6178fec7016b28af42fcd47c64d4da81" category="list-text">일별 및 주별 AutoSupport 번들에 서브시스템을 포함하여 Keystone의 데이터를 정확하게 수집할 수 있습니다. AutoSupport 하위 시스템에 대한 자세한 내용은 을 참조하십시오<block ref="5cc209367930dbf9b2a8c95126c2b0b9" category="inline-link-rx"></block>.</block>
   <block id="001d654c5d010b25a953ace0dce0f14d" category="list-text">로그 내용을 수정합니다.</block>
-  <block id="a35e5b3497716ca18010e0be265afb3b" category="list-text">다음 명령을 실행하여 일별 로그 콘텐츠를 수정합니다.</block>
   <block id="9060a638913c522309cdbab6919eef2b" category="list-text">다음 명령을 실행하여 주간 로그 내용을 수정합니다.</block>
   <block id="7186d4f0f71f9b706a05940b8abcacd0" category="cell">문제 설명</block>
   <block id="c8cfdcd3f2e7ef01cbd8180e33c9bf8d" category="summary">Keystone Collector에는 Keystone 시스템의 성능 및 사용 메트릭을 모니터링하는 보안 기능이 포함되어 있으며, 보안이 강화된 구성을 사용하도록 구성됩니다.</block>
@@ -1608,7 +1607,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3b70df30112e474cb2dcc361a3e3f76f" category="paragraph">그리드 세부 정보는 그리드 및 노드 식별자, 사이트 정보, 하드웨어 사양 및 용량 세부 정보별로 분류되어 StorageGRID 인프라에서 노드를 모니터링하고 관리하는 데 도움이 됩니다.</block>
   <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">StorageGRID에 대한 그리드 수준 정보를 표시하는 스크린샷</block>
   <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">열 숨기기/표시 * 를 사용하여 테이블에 표시된 열을 추가하거나 제거할 수 있습니다. 기본적으로 * 부서 * 열을 제외한 모든 열이 선택됩니다. 부서 * 열을 포함한 모든 열을 선택하거나 선택 취소할 수 있으며, 나중에 사용할 수 있도록 기본 설정이 저장됩니다. CSV 보고서를 다운로드할 때 선택한 경우 * Department * 열 세부 정보가 포함되고 다른 열은 테이블의 선택 상태에 관계없이 표시됩니다.</block>
   <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">이름이 변경된 논리적 사용됨 열</block>
   <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">볼륨 및 개체 * 의 * 볼륨 세부 정보 * 탭에 있는 * 논리적 사용된 * 열이 이제 * Keystone 논리적 사용됨 * 으로 이름이 바뀌었습니다.</block>
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">Enhanced Assets(향상된 자산) 탭</block>
@@ -2325,4 +2323,15 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*논리적 용량*: 다음의 합계입니다.</block>
   <block id="0649df2b2e490a85273ef7528dbeb91a" category="list-text">*신체적 능력*: 다음의 합계입니다.</block>
   <block id="eb80e5c63a486d3698858f87d747e461" category="paragraph">Keystone 버전 3(v3)을 구독하려면 Keystone 지원팀에 문의하세요.  자세한 내용은 다음을 참조하세요.<block ref="ba5860e7066469b734064f44e703aa5c" category="inline-link-macro-rx"></block> .</block>
+  <block id="7e8fe67b005603b496012796735f2d36" category="doc">새로운 열을 통해 향상된 논리적 사용 추적</block>
+  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">FabricPool 볼륨에 대한 Keystone 소비량 추적을 강화하기 위해 새로운 열인 '전체 발자국'이 추가되었습니다.</block>
+  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* BlueXP 의 Keystone 대시보드 *: *자산* 탭의 *클러스터 볼륨* 탭에서 *총 설치 공간* 열을 볼 수 있습니다.</block>
+  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">* Digital Advisor*: *볼륨 및 개체* 탭의 *볼륨 세부 정보* 탭에서 *총 공간* 열을 볼 수 있습니다.</block>
+  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">이 열은 성능 및 콜드 계층의 데이터를 포함하여 FabricPool 계층화를 사용하는 볼륨의 총 논리적 설치 공간을 표시하므로 Keystone 소비량을 정확하게 계산할 수 있습니다.</block>
+  <block id="bff820430728f0b409c26641dc8ddd41" category="list-text">ONTAP 9.16.1 이상의 경우 다음 명령을 실행하여 일일 로그 내용을 수정하세요.</block>
+  <block id="63af57ffe551ed93c0576ba741b36e47" category="list-text">이전 ONTAP 버전의 경우 다음 명령을 실행하여 일일 로그 내용을 수정하세요.</block>
+  <block id="8e65b1fa60d467c8850acfb3f1d1b8b9" category="paragraph">*열 숨기기/표시*를 사용하여 표에 표시되는 열을 추가하거나 제거할 수 있습니다. 기본적으로 표에는 이전에 저장된 열 기본 설정이 표시됩니다.  *부서* 또는 *총 면적* 열과 같이 새로 추가된 열은 기본적으로 숨겨져 있으며 표에 나타나려면 수동으로 선택해야 합니다.  원하는 열을 선택하거나 선택 해제할 수 있으며, 기본 설정은 나중에 사용할 수 있도록 저장됩니다.  CSV 보고서를 다운로드하면 표시 기본 설정에 관계없이 사용 가능한 모든 열이 내보내기에 포함됩니다.</block>
+  <block id="56a9fe5a3d171069cb125956f6186c86" category="paragraph">Digital Advisor 대시보드에서 MetroCluster 구성으로 구성된 구독의 소비 추세 차트에서 버스트 임계값 선이 누락되어 잘못된 *버스트 한도 초과* 상태가 표시됩니다.</block>
+  <block id="8d317448388884cae15b07e53f9c9fbc" category="paragraph">2025년 8월 28일</block>
+  <block id="b8d454c9414aa4b52ad019b0311711b5" category="section-title">2025년 8월 28일</block>
 </blocks>
