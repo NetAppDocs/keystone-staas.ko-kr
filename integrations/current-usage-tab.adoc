@@ -79,5 +79,6 @@ Keystone 스토리지 서비스 및 관련 성능 서비스 수준에 대한 정
 * link:../integrations/subscription-timeline.html["구독 일정 보기"]
 * link:../integrations/assets-tab.html["Keystone 구독 자산 보기"]
 * link:../integrations/assets.html["Keystone 구독 전반에 걸쳐 자산 보기"]
+* link:../integrations/monitoring-alerts.html["알림 및 모니터 보기 및 관리"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 객체 세부 정보 보기"]
 

@@ -36,5 +36,6 @@ image:bxp-dashboard-overview-1.png["개요 탭의 스크린샷"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor의 Keystone 대시보드"]
 * link:../integrations/subscriptions-tab.html["구독 세부 정보 보기"]
 * link:../integrations/current-usage-tab.html["현재 소비량 세부 정보를 확인하세요"]
+* link:../integrations/monitoring-alerts.html["알림 및 모니터 보기 및 관리"]
 * link:../integrations/consumption-tab.html["소비 경향 보기"]
 

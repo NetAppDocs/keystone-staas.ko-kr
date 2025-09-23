@@ -1,0 +1,138 @@
+---
+sidebar: sidebar 
+permalink: integrations/monitoring-alert-monitors.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+summary: 모니터링 탭을 사용하여 Keystone 구독에 대한 알림 모니터를 보고 생성합니다. 
+---
+= Keystone 구독에 대한 알림 모니터 보기 및 생성
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+BlueXP 의 Keystone 대시보드에서 Keystone 구독에 대한 알림 모니터를 보고 만들 수 있습니다.  대시보드에는 용량 사용 및 구독 만료에 대한 시스템 생성 모니터와 사용자 정의 모니터가 모두 표시됩니다.  임계값을 설정하고, 알림 심각도를 선택하고, 알림을 받을 이메일 수신자를 추가하는 모니터를 만들 수 있습니다.  이 기능은 Digital Advisor 에서는 사용할 수 없습니다.
+
+
+
+== 알림 모니터 보기
+
+알림 모니터를 보려면 다음 단계를 따르세요.
+
+.단계
+. BlueXP 왼쪽 탐색 메뉴에서 *저장소 > Keystone > 모니터링 > 알림 모니터*를 선택합니다.
++
+image:monitoring-alert-monitors-default-view.png["Keystone 구독에 대한 알림 모니터 스크린샷"]
+
++
+모니터 이름, 알림을 트리거하는 경고 조건, 심각도 수준, 구독 번호, 성능 서비스 수준 및 상태를 포함하여 Keystone 구독 전반에 걸쳐 경고 모니터 목록을 볼 수 있습니다.  *생성자* 열을 확인하여 알림 모니터가 시스템에서 생성되었는지 아니면 사용자가 정의했는지 확인할 수 있습니다.
+
+
+
+
+
+== 알림 모니터 생성 및 관리
+
+*알림 모니터* 탭에서 용량 사용 및 구독 만료를 추적하는 모니터를 만들 수 있습니다.  필요에 따라 기존 모니터를 편집, 복제 또는 삭제할 수도 있습니다.
+
+[role="tabbed-block"]
+====
+.모니터 만들기
+--
+알림 모니터를 만들려면 다음 단계를 따르세요.
+
+.단계
+. *모니터 생성* 버튼을 클릭합니다.
++
+*알림 모니터 만들기* 페이지가 나타납니다.
+
++
+image:create-alert-monitor.png["Keystone 구독에 대한 알림 모니터 생성 스크린샷"]
+
+. 모니터 유형을 정의하려면 *용량 사용량* 또는 *구독 만료*를 선택하세요.  귀하의 선택에 따라 다음 세부 정보를 제공해 주세요.
++
+** *일반 세부 정보*: 알림 이름을 제공하고 심각도 수준을 선택합니다.
+** *리소스 선택*: 특정 구독에 대한 모니터를 생성하도록 선택합니다.  모니터 유형 선택에 따라, 용량 사용 모니터의 경우 구독 번호 및 성능 서비스 수준, 구독 만료 모니터의 경우 구독 번호만 등 필요한 필드가 표시되면 해당 필드를 채웁니다.
++
+image:resource-selection.png["용량 사용 모니터를 위한 리소스 선택 스크린샷"]
+
+** *조건*: 경고를 발생시키는 임계 조건을 설정합니다.  예를 들어, 용량 사용량이 지정된 비율을 초과하면 알림을 트리거합니다.
+** *알림*: 알림 메시지를 받을 사용자를 선택하세요.
+
+
+. *만들기*를 클릭하세요.
++
+모니터를 생성한 후 시스템은 *경고 모니터* 페이지로 돌아가고 새 경고 모니터를 활성 상태로 목록에 표시합니다.
+
+
+
+--
+.모니터 편집
+--
+.단계
+. 변경하려는 알림 모니터에 대한 줄임표 아이콘을 선택하세요.
++
+image:edit-alert-monitor.png["Keystone 구독에 대한 알림 모니터 편집 스크린샷"]
+
+. *편집*을 선택하세요.
++
+현재 모니터 구성과 함께 *알림 모니터 편집* 페이지가 나타납니다.
+
+. 필요한 필드를 변경하세요.  필드 설명은 다음을 참조하세요.link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["모니터 만들기"] .
++
+
+NOTE: 시스템 생성 알림 모니터의 경우 용량 사용 모니터에 대한 구독 번호와 성능 서비스 수준만 수정할 수 있으며, 구독 만료 모니터에 대한 구독 번호만 수정할 수 있습니다.
+
+. *변경 사항 저장*을 선택하세요.
++
+시스템은 *알림 모니터* 페이지로 돌아가고, 업데이트된 모니터가 목록에 나타납니다.
+
+
+
+--
+.복제 모니터
+--
+.단계
+. 복사하려는 모니터의 줄임표 아이콘을 선택하세요.
+. *복제*를 선택하세요.
++
+*알림 모니터 만들기* 페이지가 기존 필드 값이 이미 입력된 상태로 나타납니다.
+
+. 필요에 따라 필드를 수정하고 *만들기*를 클릭하세요.
++
+업데이트된 구성으로 새로운 알림 모니터가 생성되어 *알림 모니터* 목록에 나타납니다.
+
+
+
+--
+.모니터 삭제
+--
+.단계
+. 제거하려는 모니터의 줄임표 아이콘을 선택하세요.
+. *삭제*를 선택하고 삭제를 확인하세요.
++
+삭제 후에는 모니터에 연결된 구독에 대한 알림이 더 이상 제공되지 않습니다.
+
++
+
+NOTE: 시스템에서 생성된 모니터는 사용자가 삭제할 수 없습니다.
+
+
+
+--
+====
+* 관련 정보 *
+
+* link:../integrations/dashboard-overview.html["Keystone 대시보드 이해하기"]
+* link:../integrations/subscriptions-tab.html["구독 세부 정보 보기"]
+* link:../integrations/current-usage-tab.html["현재 소비량 세부 정보를 확인하세요"]
+* link:../integrations/consumption-tab.html["소비 경향 보기"]
+* link:../integrations/subscription-timeline.html["구독 일정 보기"]
+* link:../integrations/assets-tab.html["Keystone 구독 자산 보기"]
+* link:../integrations/monitoring-alerts.html["알림 보기 및 관리"]
+* link:../integrations/volumes-objects-tab.html["볼륨 및 객체 세부 정보 보기"]
+* link:../integrations/monitoring-alerts.html["Keystone 구독에 대한 알림을 보고 관리합니다."]
+

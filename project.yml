@@ -122,6 +122,12 @@ sidebar:
         url: "/integrations/assets-tab.html"
       - title: 여러 구독의 자산 보기
         url: "/integrations/assets.html"
+    - title: 알림 및 모니터 보기 및 관리
+      entries:
+      - title: 알림 보기 및 관리
+        url: "/integrations/monitoring-alerts.html"
+      - title: 알림 모니터 보기 및 생성
+        url: "/integrations/monitoring-alert-monitors.html"
     - title: 구독 수정
       url: "/integrations/modify-subscription.html"
     - title: 서비스 요청 보기

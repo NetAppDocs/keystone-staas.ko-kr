@@ -100,5 +100,6 @@ TIP: 열 선택기를 사용하여 테이블을 사용자 정의할 수 있습�
 * link:../integrations/consumption-tab.html["소비 경향 보기"]
 * link:../integrations/subscription-timeline.html["구독 일정 보기"]
 * link:../integrations/assets-tab.html["Keystone 구독 자산 보기"]
+* link:../integrations/monitoring-alerts.html["알림 및 모니터 보기 및 관리"]
 * link:../integrations/volumes-objects-tab.html["볼륨 및 객체 세부 정보 보기"]
 

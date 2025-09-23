@@ -76,6 +76,11 @@ link:../integrations/assets-tab.html["Keystone 구독과 관련된 자산 보기
 
 
  a| 
+link:../integrations/monitoring-alerts.html["알림 및 모니터 보기 및 관리"]
+| 예 | 아니요 
+
+
+ a| 
 link:../integrations/modify-subscription.html["구독 수정"] (Keystone 관리자에게만 해당)
 | 예 | 아니요 
 
