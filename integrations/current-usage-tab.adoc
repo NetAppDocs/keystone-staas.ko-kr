@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/current-usage-tab.html 
-keywords: keystone-aiq, digital advisor keystone, current consumption tab, performance service levels, subscriptions 
+keywords: keystone-aiq, digital advisor keystone, current consumption tab, performance service levels, subscriptions, NetApp Console, Console 
 summary: 구독 사용량을 이해하려면 약정 용량, 사용된 용량, 사용 가능한 용량 등을 확인할 수 있습니다. 
 ---
 = Keystone 구독의 현재 소비량을 확인하세요
@@ -16,14 +16,14 @@ summary: 구독 사용량을 이해하려면 약정 용량, 사용된 용량, �
 [role="lead"]
 약정 용량, 사용된 용량, 사용 가능한 용량 등의 자세한 정보를 보고 구독 사용량에 대한 통찰력을 얻을 수 있으며, 현재 소비 상태가 성능 서비스 수준별로 표시되고 구분됩니다.
 
-BlueXP 또는 Digital Advisor를 통해 구독의 현재 소비 상태를 보려면 다음 단계를 따르세요.
+NetApp 콘솔이나 Digital Advisor 통해 구독의 현재 소비 상태를 보려면 다음 단계를 따르세요.
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.NetApp 콘솔
 --
 .단계
-. BlueXP 왼쪽 탐색 메뉴에서 *저장소 > Keystone > 구독*을 선택하세요.
+. 콘솔 왼쪽 탐색 메뉴에서 *저장소 > Keystone > 구독*을 선택합니다.
 . 표의 *구독번호* 열에서 구독번호를 선택하면 현재 소비량을 확인할 수 있습니다.
 +
 *현재 소비량* 탭으로 이동합니다.

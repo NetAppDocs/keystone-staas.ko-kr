@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/subscription-timeline.html 
-keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal 
-summary: BlueXP의 구독 타임라인을 확인하세요. 여기에는 활성화, 수정, 갱신 날짜 등의 이벤트가 포함되어 있습니다. 
+keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal, NetApp Console, Console 
+summary: NetApp 콘솔에서 구독 타임라인을 확인하세요. 여기에는 활성화, 수정, 갱신 날짜 등의 이벤트가 포함됩니다. 
 ---
 = Keystone 구독의 타임라인을 확인하세요
 :hardbreaks:
@@ -14,12 +14,12 @@ summary: BlueXP의 구독 타임라인을 확인하세요. 여기에는 활성�
 
 
 [role="lead"]
-BlueXP의 Keystone 대시보드는 Keystone 구독의 타임라인 보기를 제공하며, 활성화, 변경, 갱신 날짜 등의 이벤트를 표시합니다. 이 타임라인 보기는 Digital Advisor에서는 제공되지 않습니다.
+NetApp 콘솔의 Keystone 대시보드는 Keystone 구독에 대한 타임라인 보기를 제공하며 활성화, 수정, 갱신 날짜와 같은 이벤트를 표시합니다. 이 타임라인 보기는 Digital Advisor 에서 사용할 수 없습니다.
 
 구독 일정을 보려면 다음 단계를 따르세요.
 
 .단계
-. BlueXP 왼쪽 탐색 메뉴에서 *저장소 > Keystone > 구독*을 선택하세요.
+. 콘솔 왼쪽 탐색 메뉴에서 *저장소 > Keystone > 구독*을 선택합니다.
 . 구독 기간을 보려면 *구독 번호* 열에서 구독 번호를 선택하세요.
 +
 *현재 소비량* 탭으로 이동합니다.
@@ -29,7 +29,7 @@ BlueXP의 Keystone 대시보드는 Keystone 구독의 타임라인 보기를 제
 image:bxp-subscription-timeline-graph.png["중요 이벤트와 함께 선 그래프 형식으로 구독 타임라인을 보여주는 스크린샷"]
 
 +
-구독 타임라인은 기본적으로 선 그래프로 표시되며, 중요 이벤트는 아이콘으로 표시됩니다. 이벤트 위에 마우스를 올리면 날짜 및 수정 중 약정된 용량에 적용된 변경 사항과 같은 자세한 정보를 볼 수 있습니다. 이러한 이벤트를 표로 보려면 '보기 형식' 드롭다운 메뉴에서 '표' 옵션을 선택하세요. '추적 ID' 드롭다운 목록에서 선택하거나 검색하여 다른 구독의 타임라인을 볼 수도 있습니다.
+구독 타임라인은 기본적으로 선 그래프로 표시되며, 중요 이벤트는 아이콘으로 표시됩니다. 이벤트 위에 마우스를 올려 놓으면 날짜와 약정된 용량 변경 사항을 포함한 세부 정보를 볼 수 있습니다. 이러한 이벤트를 표로 보려면 *보기 형식* 드롭다운에서 *표* 옵션을 선택하세요. 다른 구독 일정을 보려면 *추적 ID* 드롭다운에서 선택하거나 검색하세요.
 
 +
 image:bxp-subscription-timeline.png["중요 이벤트와 함께 표 그래프 형식으로 구독 타임라인을 보여주는 스크린샷"]

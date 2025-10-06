@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes/known-issues.html 
 keywords: netapp, keystone, release notes, known issues 
-summary: 알려진 문제에서는 Keystone 구독 서비스를 효과적으로 사용하지 못할 수 있는 문제를 식별합니다. 
+summary: 알려진 문제는 Keystone 효과적으로 사용하는 데 방해가 될 수 있는 문제를 나타냅니다. 
 ---
 = Keystone STaaS의 알려진 문제
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 알려진 문제에서는 Keystone 구독 서비스를 효과적으로 
 
 
 [role="lead"]
-알려진 문제에서는 Keystone 구독 서비스를 효과적으로 사용하지 못할 수 있는 문제를 식별합니다.
+알려진 문제는 Keystone STaaS를 효과적으로 사용하는 데 방해가 될 수 있는 문제를 식별합니다.
 
 NetApp Keystone STaaS에는 다음과 같은 알려진 문제가 보고됩니다.
 

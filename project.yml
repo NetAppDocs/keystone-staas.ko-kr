@@ -100,8 +100,8 @@ sidebar:
         url: "/integrations/dashboard-overview.html"
       - title: Keystone 대시보드 시작하기
         url: "/integrations/dashboard-access.html"
-      - title: BlueXP의 Keystone 대시보드
-        url: "/integrations/keystone-bluexp.html"
+      - title: NetApp 콘솔의 Keystone 대시보드
+        url: "/integrations/keystone-console.html"
       - title: Digital Advisor의 Keystone 대시보드
         url: "/integrations/keystone-aiq.html"
       - title: 데이터 검색, 보고서 생성 및 알림 보기

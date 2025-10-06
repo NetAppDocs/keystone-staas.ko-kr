@@ -16,7 +16,7 @@ summary: 볼륨 또는 오브젝트 스토리지 레벨에서 용량 세부 정�
 [role="lead"]
 볼륨 또는 개체 스토리지 수준에서 용량 세부 정보를 보려면 Digital Advisor의 *볼륨 및 개체* 탭으로 이동하세요. StorageGRID의 경우 이 탭을 사용하여 오브젝트 스토리지 환경의 개별 노드의 사용량을 읽을 수 있습니다.
 
-BlueXP의 *자산* 탭을 참조하면 이러한 세부 정보를 볼 수 있습니다. . link:../integrations/assets.html["Keystone 구독 전반에 걸쳐 자산 보기"] .
+이러한 세부 정보를 보려면 NetApp 콘솔의 *자산* 페이지를 참조하세요. 특정 Keystone STaaS 구독에 대한 세부 정보를 보려면 다음을 참조하세요.link:../integrations/assets-tab.html["Keystone 구독과 관련된 자산 보기"] . 여러 Keystone 구독에 대한 세부 정보를 보려면 다음을 참조하세요.link:../integrations/assets.html["Keystone 구독 전반에 걸쳐 자산 보기"] .
 
 
 NOTE: 이 탭의 제목은 사이트의 배포 특성에 따라 다릅니다. ONTAP와 객체 스토리지가 모두 있는 경우 탭 제목이 * Volumes & Objects * 로 표시됩니다. ONTAP에만 해당 이름이 * Volumes * 로 표시됩니다. StorageGRID 오브젝트 스토리지의 경우 * 오브젝트 * 탭이 표시됩니다.

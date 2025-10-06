@@ -18,7 +18,7 @@ indexpage:
       url: "/installation/itom-prereqs.html"
     - title: Keystone Collector를 비공개 모드로 설치합니다
       url: "/dark-sites/overview.html"
-  - title: BlueXP 및 Digital Advisor의 Keystone 대시보드
+  - title: NetApp Console 및 Digital Advisor 의 Keystone 대시보드
     links:
     - title: Keystone 대시보드 이해하기
       url: "/integrations/dashboard-overview.html"
@@ -70,7 +70,7 @@ indexpage:
     links:
     - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: BlueXP
+    - title: NetApp 콘솔
       url: https://docs.netapp.com/us-en/cloud-manager-family/
     - title: Active IQ Unified Manager
       url: https://docs.netapp.com/us-en/active-iq-unified-manager/

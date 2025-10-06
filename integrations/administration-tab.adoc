@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/administration-tab.html 
-keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription, NetApp Console, Console 
 summary: Keystone 구독 서비스 요청을 확인하거나 취소하세요. 
 ---
 = Keystone 구독에 대한 서비스 요청 보기
@@ -14,18 +14,18 @@ summary: Keystone 구독 서비스 요청을 확인하거나 취소하세요.
 
 
 [role="lead"]
-BlueXP를 통해 Keystone 구독 수정에 대한 서비스 요청을 보고 추적하여 빠른 요약을 제공하고 진행 상황을 모니터링할 수 있습니다.
+NetApp 콘솔을 통해 Keystone 구독 수정에 대한 서비스 요청을 보고 추적하여 빠른 요약을 제공하고 진행 상황을 모니터링할 수 있습니다.
 
 진행 상황을 보거나 요청을 취소하려면 다음 단계를 따르세요.
 
 .단계
-. BlueXP 왼쪽 탐색 메뉴에서 *저장소 > Keystone > 관리*를 선택합니다.
+. 콘솔 왼쪽 탐색 메뉴에서 *저장소 > Keystone > 관리*를 선택합니다.
 +
 요청 번호, 요청 유형, 현재 상태를 포함한 모든 서비스 요청 목록이 표시됩니다.
 
 . 클릭할 수 있습니다 image:down-arrow.png["아래쪽 화살표 아이콘"] *제출일* 열 옆에 있는 아이콘을 클릭하면 요청 번호를 확장하고 세부 정보를 볼 수 있습니다. 요청이 제기된 성과 서비스 수준을 확인할 수 있습니다.
 +
-image:bxp-service-request-list.png["스크린샷은 수정 요청이 제기된 성능 서비스 수준을 보여줍니다."]
+image:console-service-request-list.png["스크린샷은 수정 요청이 제기된 성능 서비스 수준을 보여줍니다."]
 
 . 요청 번호를 선택하면 요청된 구독에 대한 수정 세부 정보와 현재 진행 상태를 포함한 자세한 정보를 볼 수 있습니다.
 +

@@ -61,7 +61,7 @@ image:watchlist.png["감시 목록 화면"]
 * 관련 정보 *
 
 * link:../integrations/dashboard-access.html["Keystone 대시보드 시작하기"]
-* link:../integrations/keystone-bluexp.html["BlueXP의 Keystone 대시보드"]
+* link:../integrations/keystone-console.html["NetApp 콘솔의 Keystone 대시보드"]
 * link:../integrations/subscriptions-tab.html["구독 세부 정보 보기"]
 * link:../integrations/current-usage-tab.html["현재 소비량 세부 정보를 확인하세요"]
 * link:../integrations/consumption-tab.html["소비 경향 보기"]

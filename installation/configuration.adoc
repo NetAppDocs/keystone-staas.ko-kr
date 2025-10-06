@@ -110,7 +110,7 @@ image:kc-custom-ca.png["CA 사용자 지정을 위한 TUI 화면"]
 
 == 성능 서비스 수준 생성
 
-Keystone Collector 관리 TUI 유틸리티를 사용하여 PSL(성능 서비스 수준)을 생성할 수 있습니다. TUI를 통해 PSL을 생성하면 각 서비스 수준에 대해 설정된 기본값이 자동으로 선택되므로 Active IQ Unified Manager를 통해 PSL을 생성하는 동안 이러한 값을 수동으로 설정할 때 발생할 수 있는 오류가 줄어듭니다.
+Keystone Collector 관리 TUI 유틸리티를 사용하여 성능 서비스 수준(PSL)을 생성할 수 있습니다. TUI를 통해 PSL을 생성하면 각 성능 서비스 수준에 설정된 기본값이 자동으로 선택되므로 Active IQ Unified Manager 통해 PSL을 생성하는 동안 이러한 값을 수동으로 설정할 때 발생할 수 있는 오류 가능성이 줄어듭니다.
 
 PSL에 대한 자세한 내용은 을 link:https://docs.netapp.com/us-en/active-iq-unified-manager/storage-mgmt/concept_manage_performance_service_levels.html["성능 서비스 레벨"^]참조하십시오.
 
@@ -133,15 +133,15 @@ image:qos-STaaS-selection-2.png["Keystone 버전을 지정하는 TUI 화면"]
 
 +
 
-NOTE: Keystone 구독 서비스 버전 1의 * KFS * 옵션을 강조 표시할 수 있습니다. Keystone 구독 서비스는 구성 서비스 수준, 서비스 오퍼링 및 청구 원칙에서 Keystone STaaS와 다릅니다. 자세한 내용은 을 link:https://docs.netapp.com/us-en/keystone-staas/subscription-services-v1.html["Keystone 구독 서비스 | 버전 1"^]참조하십시오.
+NOTE: Keystone 구독 서비스 버전 1의 *KFS* 옵션을 강조 표시할 수 있습니다. Keystone 구독 서비스는 구성 성능 서비스 수준, 서비스 제공, 청구 원칙 측면에서 Keystone STaaS와 다릅니다. 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/keystone-staas/subscription-services-v1.html["Keystone 구독 서비스 | 버전 1"^] .
 
-. 지원되는 모든 Keystone 서비스 수준은 지정된 Keystone 버전에 대해 * Keystone 서비스 수준 선택 * 옵션 내에 표시됩니다. 목록에서 원하는 서비스 수준을 활성화합니다.
+. 지원되는 모든 Keystone 성능 서비스 수준은 지정된 Keystone 버전의 * Keystone 서비스 수준 선택* 옵션에 표시됩니다. 목록에서 원하는 성능 서비스 수준을 활성화합니다.
 +
 image:qos-STaaS-selection-3.png["지원되는 모든 Keystone 서비스 수준을 표시하는 TUI 화면"]
 
 +
 
-NOTE: 여러 서비스 수준을 동시에 선택하여 PSL을 생성할 수 있습니다.
+NOTE: 여러 성과 서비스 수준을 동시에 선택하여 PSL을 생성할 수 있습니다.
 
 . Save * 를 선택하고 Enter 키를 누릅니다. 성능 서비스 수준이 생성됩니다.
 +
@@ -153,4 +153,4 @@ image:qos-performance-sl.png["생성된 AQoS 정책을 표시하는 UI 스크린
 
 
 
-TIP: 선택한 서비스 수준에 대한 PSL이 지정된 Active IQ 통합 관리자 서버에 이미 있으면 다시 만들 수 없습니다. 이렇게 하면 오류 메시지가 나타납니다. image:qos-failed-policy-1.png["TUI 화면에서 정책 생성에 대한 오류 메시지를 표시합니다"]
+TIP: 선택한 성능 서비스 수준에 대한 PSL이 지정된 Active IQ Unified Manger 서버에 이미 있는 경우 다시 생성할 수 없습니다. 이를 시도하면 오류 메시지가 표시됩니다.image:qos-failed-policy-1.png["TUI 화면에서 정책 생성에 대한 오류 메시지를 표시합니다"]

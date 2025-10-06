@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/options.html 
-keywords: Keystone, BlueXP, Keystone dashboard, search and filter, Keystone data, generate reports, view alerts, digital advisor 
+keywords: Keystone, BlueXP, Keystone dashboard, search and filter, Keystone data, generate reports, view alerts, digital advisor, NetApp Console, Console 
 summary: NetApp Keystone STaaS 구독자는 데이터를 검색하고 필터링하고, 구독 및 사용에 대한 보고서를 생성하고, 타임스탬프를 확인하고, 알림을 볼 수 있습니다. 
 ---
 = Keystone 데이터 검색, 보고서 생성 및 알림 보기
@@ -18,17 +18,17 @@ summary: NetApp Keystone STaaS 구독자는 데이터를 검색하고 필터링�
 
 
 
-== BlueXP에서 데이터 검색 및 필터링
+== NetApp 콘솔에서 데이터 검색 및 필터링
 
-BlueXP에서는 탭 내 표에서 사용 가능한 열 매개변수를 기반으로 Keystone 데이터를 검색하고 필터링할 수 있습니다. 예를 들어, *구독* 탭 아래의 *구독* 하위 탭에서 검색창에 Keystone 버전을 입력하여 데이터를 필터링할 수 있습니다. 마찬가지로, *자산* 탭 아래의 *클러스터 볼륨* 탭에서 검색창에 볼륨 이름을 입력하여 볼륨을 필터링할 수 있습니다.
+콘솔에서 탭 내의 표에서 사용 가능한 열 매개변수를 기준으로 Keystone 데이터를 검색하고 필터링할 수 있습니다. 예를 들어, *구독* 페이지 아래의 *구독* 탭에서 검색창에 Keystone 버전을 입력하여 데이터를 필터링할 수 있습니다. 마찬가지로, *자산* 페이지 아래의 *클러스터의 볼륨* 탭에서 검색 상자에 볼륨 이름을 입력하여 볼륨을 필터링할 수 있습니다.
 
-사용 가능한 경우 고급 필터 옵션을 사용하여 검색을 구체화할 수 있습니다. 예를 들어, *구독* 하위 탭에서는 Keystone 버전, 청구 기간, 최대 용량, 구독 만료일까지의 일수별로 데이터를 필터링할 수 있으며, *클러스터의 볼륨* 탭에서는 볼륨 이름, 클러스터 이름, 볼륨 유형 등으로 필터링할 수 있습니다. 여러 필터를 동시에 적용하여 결과를 정확하게 좁힐 수 있습니다.image:bxp-filter-search.png["고급 필터 옵션"]
+사용 가능한 경우 고급 필터 옵션을 사용하여 검색을 구체화할 수 있습니다. 예를 들어, *구독* 탭에서는 Keystone 버전, 청구 기간, 최대 용량, 구독 만료일까지의 일수별로 데이터를 필터링할 수 있으며, *클러스터의 볼륨* 탭에서는 볼륨 이름, 클러스터 이름, 볼륨 유형 등으로 필터링할 수 있습니다. 여러 필터를 동시에 적용하여 결과를 정확하게 좁힐 수 있습니다.image:bxp-filter-search.png["고급 필터 옵션"]
 
 
 
-== BlueXP 또는 Digital Advisor에서 보고서 생성
+== NetApp Console 또는 Digital Advisor 에서 보고서 생성
 
-다운로드 버튼을 사용하여 Keystone 데이터에 대한 보고서를 생성하고 볼 수 있습니다. image:bluexp-download-report-2.png["BlueXP에서 보고서 다운로드 아이콘 2개"] BlueXP 또는 Digital Advisor의 탭에서 사용할 수 있습니다. 이 탭을 통해 구독, 과거 사용량, 버스트 사용량, 성능, 자산, 볼륨 및 객체에 대한 보고서를 생성할 수 있습니다.
+다운로드 버튼을 사용하여 Keystone 데이터에 대한 보고서를 생성하고 볼 수 있습니다.image:bluexp-download-report-2.png["콘솔에서 보고서 다운로드 아이콘 2"] 콘솔이나 Digital Advisor 내의 탭에서 사용 가능합니다. 이 탭을 사용하면 구독, 과거 사용량, 버스트 사용량, 성능, 자산, 볼륨 및 개체에 대한 보고서를 생성할 수 있습니다.
 
 세부 정보는 CSV 형식으로 생성되며 나중에 사용하고 비교할 수 있도록 저장할 수 있습니다.
 

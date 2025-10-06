@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/dashboard-overview.html 
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard 
-summary: NetApp Keystone STaaS 구독자인 경우 NetApp BlueXP 또는 Digital Advisor에서 구독 개요를 확인할 수 있습니다. 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, NetApp Console, Console 
+summary: NetApp Keystone STaaS 구독자인 경우 NetApp Console이나 Digital Advisor 에서 구독 개요를 확인할 수 있습니다. 
 ---
 = Keystone 대시보드에 대해 알아보세요
 :hardbreaks:
@@ -29,27 +29,39 @@ Keystone 대시보드는 Keystone 구독을 효율적으로 모니터링, 분석
 
 Keystone 대시보드에 접속하려면 다음을 수행하세요.
 
-* *BlueXP*: BlueXP의 *저장소 > Keystone > 개요*에서 대시보드에 액세스합니다. 자세한 내용은 을 link:../integrations/keystone-bluexp.html["BlueXP의 Keystone 대시보드"^]참조하십시오.
+* * NetApp 콘솔*: 콘솔의 *스토리지 > Keystone > 개요*에서 대시보드에 액세스합니다. 자세한 내용은 다음을 참조하세요.link:../integrations/keystone-console.html["NetApp 콘솔의 Keystone 대시보드"^] .
 * *Active IQ Digital Advisor* (디지털 어드바이저라고도 함): Digital Advisor의 *일반 > Keystone 구독*에서 대시보드에 액세스하세요. 자세한 내용은 을 link:../integrations/keystone-aiq.html["Digital Advisor의 Keystone 대시보드"^]참조하십시오.
 
 
+
+
+== NetApp 콘솔 정보
+
+Keystone NetApp 콘솔을 통해 접근할 수 있습니다.
+
+NetApp 콘솔은 기업 규모로 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지 및 데이터 서비스를 중앙에서 관리할 수 있는 기능을 제공합니다. NetApp 데이터 서비스에 액세스하고 사용하려면 콘솔이 필요합니다. 관리 인터페이스로서, 하나의 인터페이스에서 여러 스토리지 리소스를 관리할 수 있습니다. 콘솔 관리자는 기업 내 모든 시스템의 저장소와 서비스에 대한 액세스를 제어할 수 있습니다.
+
+콘솔을 사용하려면 라이선스나 구독이 필요하지 않으며, 스토리지 시스템이나 NetApp 데이터 서비스에 대한 연결을 보장하기 위해 클라우드에 콘솔 에이전트를 배포해야 할 때만 요금이 부과됩니다. 그러나 콘솔에서 액세스할 수 있는 일부 NetApp 데이터 서비스는 라이선스 기반이거나 구독 기반입니다.
+
+자세히 알아보세요link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp 콘솔"^] .
+
 다음 사항에 유의하십시오.
 
-* BlueXP와 Digital Advisor는 일부 독점적인 기능을 제공하는 반면, BlueXP는 Keystone에 대한 관리 기능을 제공하여 구독을 관리하고 필요한 조정을 할 수 있습니다.
-* 구독을 수정하려면 *Keystone 관리자* 역할이 지정되어야 합니다. 자세한 내용은 을 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  액세스 역할에 대해 알아보십시오"^]참조하십시오.
-* Digital Advisor는 BlueXP와 통합되어 있어 Keystone 대시보드를 포함한 모든 Digital Advisor 기능에 BlueXP에서 바로 액세스할 수 있습니다. 자세한 내용은 을 link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview["BlueXP와 디지털 어드바이저 통합"^]참조하십시오.
+* 콘솔과 Digital Advisor 일부 독점적인 기능을 제공하는 반면, 콘솔은 Keystone 에 대한 관리 기능을 제공하여 구독을 관리하고 필요한 조정을 할 수 있습니다.
+* 구독을 수정하려면 * Keystone 관리자* 역할이 지정되어야 합니다. 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["NetApp 콘솔 액세스 역할에 대해 알아보세요"^] .
+* Digital Advisor 콘솔과 통합되어 있어 Keystone 대시보드를 포함한 모든 Digital Advisor 기능에 콘솔에서 바로 액세스할 수 있습니다. 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console["NetApp 콘솔과 Digital Advisor 통합"^] .
 
 
 
 
-== BlueXP 및 Digital Advisor의 Keystone 기능
+== NetApp Console 및 Digital Advisor 의 Keystone 기능
 
-다음 표는 BlueXP와 Digital Advisor의 기능 가용성을 보여주며, 이를 통해 귀하의 요구 사항에 맞는 올바른 플랫폼을 빠르게 찾는 데 도움이 됩니다.
+다음 표는 NetApp Console과 Digital Advisor 에서 사용 가능한 기능을 보여주며, 이를 통해 사용자의 요구 사항에 맞는 올바른 플랫폼을 빠르게 찾는 데 도움이 됩니다.
 
 |===
 
 
-| * 피처 * | *블루XP* | *디지털 어드바이저* 
+| * 피처 * | * NetApp 콘솔* | *디지털 어드바이저* 
 
 
  a| 
@@ -86,7 +98,7 @@ link:../integrations/modify-subscription.html["구독 수정"] (Keystone 관리�
 
 
  a| 
-link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor["보고서를 생성합니다"]
+link:../integrations/options.html#generate-reports-from-console-or-digital-advisor["보고서를 생성합니다"]
 | 예 | 예 
 
 
@@ -102,6 +114,6 @@ link:../integrations/performance-tab.html["성능 메트릭을 봅니다"]
 * 관련 정보 *
 
 * link:../integrations/dashboard-access.html["Keystone 대시보드 시작하기"]
-* link:../integrations/keystone-bluexp.html["BlueXP의 Keystone 대시보드"]
+* link:../integrations/keystone-console.html["NetApp 콘솔의 Keystone 대시보드"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor의 Keystone 대시보드"]
 

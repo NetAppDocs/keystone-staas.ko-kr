@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/modify-subscription.html 
-keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
-summary: BlueXP를 통해 연관된 성능 서비스 수준에 대한 약정 용량을 변경하려면 Keystone 구독을 수정하세요. 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription, NetApp Console, Console 
+summary: NetApp 콘솔을 통해 연관된 성능 서비스 수준에 대한 약정 용량을 변경하려면 Keystone 구독을 수정하세요. 
 ---
-= BlueXP에서 Keystone 구독을 수정하세요
+= NetApp 콘솔에서 Keystone 구독 수정
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,19 +14,19 @@ summary: BlueXP를 통해 연관된 성능 서비스 수준에 대한 약정 용
 
 
 [role="lead"]
-BlueXP를 통해 연관된 성능 서비스 수준에 맞게 Keystone 구독의 약정 용량을 수정할 수 있습니다.
+NetApp 콘솔을 통해 연관된 성능 서비스 수준에 대한 Keystone 구독의 커밋된 용량을 수정할 수 있습니다.
 
 [NOTE]
 ====
 * 구독 만료일까지 90일 이상 남은 경우 약정 용량을 수정할 수 있습니다.
-* 커밋된 용량을 수정하려면 *Keystone 관리자* 역할이 지정되어야 합니다. 자세한 내용은 을 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  액세스 역할에 대해 알아보십시오"^]참조하십시오.
+* 커밋된 용량을 수정하려면 * Keystone 관리자* 역할이 지정되어야 합니다. 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["NetApp 콘솔 액세스 역할에 대해 알아보세요"^] .
 
 
 ====
 커밋된 용량을 변경하려면 다음 단계를 따르세요.
 
 .단계
-. BlueXP 메뉴에서 *저장소 > Keystone > 구독*을 선택합니다.
+. 콘솔 왼쪽 탐색 메뉴에서 *저장소 > Keystone > 구독*을 선택합니다.
 . 수정하려는 구독에 대한 표에서 줄임표 아이콘을 클릭한 다음 *수정*을 선택하세요.
 +
 *구독 수정* 페이지에는 선택한 구독 번호와 관련된 구독 성과 서비스 수준에 대한 세부 정보가 표시됩니다.
@@ -36,7 +36,7 @@ BlueXP를 통해 연관된 성능 서비스 수준에 맞게 Keystone 구독의 
 NOTE: 선택적으로 구독 세부 정보 섹션에서 *구독 관리*를 클릭한 다음 *수정*을 선택하여 *구독 수정* 페이지에 액세스할 수 있습니다.
 
 +
-image:bxp-modify-subscription-1.png["구독 목록에서 수정 옵션을 표시하는 스크린샷"]
+image:console-modify-subscription.png["구독 목록에서 수정 옵션을 표시하는 스크린샷"]
 
 . *용량 편집*을 클릭하여 성능 서비스 수준에 대한 약정 용량을 수정하고, 필요한 세부 정보를 제공하고, *제출*을 클릭합니다.
 +
