@@ -48,7 +48,7 @@ NetApp 콘솔은 기업 규모로 온프레미스 및 클라우드 환경 전반
 다음 사항에 유의하십시오.
 
 * 콘솔과 Digital Advisor 일부 독점적인 기능을 제공하는 반면, 콘솔은 Keystone 에 대한 관리 기능을 제공하여 구독을 관리하고 필요한 조정을 할 수 있습니다.
-* 구독을 수정하려면 * Keystone 관리자* 역할이 지정되어야 합니다. 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["NetApp 콘솔 액세스 역할에 대해 알아보세요"^] .
+* 구독을 수정하려면 * Keystone 관리자* 역할이 지정되어야 합니다. 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp 콘솔 액세스 역할에 대해 알아보세요"^] .
 * Digital Advisor 콘솔과 통합되어 있어 Keystone 대시보드를 포함한 모든 Digital Advisor 기능에 콘솔에서 바로 액세스할 수 있습니다. 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console["NetApp 콘솔과 Digital Advisor 통합"^] .
 
 
@@ -98,7 +98,7 @@ link:../integrations/modify-subscription.html["구독 수정"] (Keystone 관리�
 
 
  a| 
-link:../integrations/options.html#generate-reports-from-console-or-digital-advisor["보고서를 생성합니다"]
+link:../integrations/options.html#generate-reports-from-netapp-console-or-digital-advisor["보고서를 생성합니다"]
 | 예 | 예 
 
 

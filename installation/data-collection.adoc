@@ -78,6 +78,10 @@ Keystone Keystone ONTAP 및 Keystone StorageGRID 구독의 구성, 상태 및 �
 ** 스토리지 유형
 ** 애그리게이트 이름
 ** 총 UUID
+** 물리적 사용
+** 사용 가능한 크기
+** 크기
+** 사용된 사이즈
 
 
 * 오브젝트 저장소를 통합합니다
@@ -174,6 +178,17 @@ Keystone Keystone ONTAP 및 Keystone StorageGRID 구독의 구성, 상태 및 �
 ** VolumeBlocksFootprintBin1
 
 
+* MetroCluster
++
+** 마디
+** 집계
+** LIFs
+** 구성 복제
+** 사이
+** 클러스터
+** 볼륨
+
+
 * MetroCluster 클러스터
 +
 ** 클러스터 UUID입니다
@@ -182,6 +197,36 @@ Keystone Keystone ONTAP 및 Keystone StorageGRID 구독의 구성, 상태 및 �
 ** RemoteCluserName입니다
 ** LocalConfigurationState 를 선택합니다
 ** RemoteConfigurationState 를 선택합니다
+
+
+* MetroCluster 노드
++
+** DR 미러링 상태
+** 클러스터 간 LIF
+** 노드 도달성
+** DR 파트너 노드
+** DR Aux 파트너 노드
+** DR, DR Aux 및 HA 노드 대칭 관계
+** 자동 계획되지 않은 전환
+
+
+* MetroCluster 구성 복제
++
+** 원격 하트비트
+** 마지막 하트비트 전송됨
+** 마지막 하트비트 수신
+** Vserver 스트림
+** 클러스터 스트림
+** 스토리지
+** 사용 중인 저장 용량
+
+
+* MetroCluster 중재자
++
+** 중재자 주소
+** 중재자 포트
+** 중재자 구성됨
+** 중재자 접근 가능
 ** 모드를 선택합니다
 
 
@@ -243,6 +288,13 @@ Keystone Keystone ONTAP 및 Keystone StorageGRID 구독의 구성, 상태 및 �
 * QoSPolicyGroupLatency를 참조하십시오
 * ReadMBps
 * QoSSyncSnap미러지연 시간
+* 시스템 수준 데이터
++
+** 쓰기/읽기/기타/총 IOPS
+** 쓰기/읽기/기타/총 처리량
+** 쓰기/읽기/기타/전체 대기 시간
+
+
 * 쓰기 IOPS입니다
 
 
@@ -298,6 +350,11 @@ Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 O
 * 인스턴스
 * StorageGRID 스토리지 사용률 바이트
 * StorageGRID 스토리지 활용률 메타데이터 바이트
+
+
+다음 목록은 대표적인 샘플입니다. `Availability/Uptime Data` StorageGRID 에 대해 수집됨:
+
+* SLA 가동 시간 비율
 
 
 ====
