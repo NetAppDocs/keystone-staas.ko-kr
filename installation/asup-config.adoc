@@ -33,11 +33,27 @@ Keystone 데이터를 포함하도록 AutoSupport을 구성하기 전에 다음 
 ----
 autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
 ----
++
+클러스터가 MetroCluster 구성에 있는 경우 다음 명령을 실행합니다.
+
++
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror,metrocluster -troubleshooting-additional wafl
+----
 ** 이전 ONTAP 버전의 경우 다음 명령을 실행하여 일일 로그 내용을 수정하세요.
 +
 [source]
 ----
 autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+----
++
+클러스터가 MetroCluster 구성에 있는 경우 다음 명령을 실행합니다.
+
++
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror,metrocluster -troubleshooting-additional wafl
 ----
 ** 다음 명령을 실행하여 주간 로그 내용을 수정합니다.
 +

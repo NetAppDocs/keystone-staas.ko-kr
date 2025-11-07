@@ -2445,4 +2445,5 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="8dd9e9a8650be62b5350b1743ec0c25a" category="list-text">OpenSSL을 사용하여 공개 인증서와 OVA 서명 인증서의 진위성을 확인합니다.<block ref="f41dec976ad8e65c3e38fceba0104101" prefix=" " category="inline-code"></block></block>
   <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">Sectigo에서 코드 서명 CA 인증서를 다운로드하세요<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>.</block>
   <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">Keystone Collector OVA의 무결성과 진위성이 검증되면 텍스트를 볼 수 있습니다.<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 출판사와 함께. <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f4d3f733b36c05e3bcdf4287f293b20f" category="paragraph">클러스터가 MetroCluster 구성에 있는 경우 다음 명령을 실행합니다.</block>
 </blocks>
