@@ -2228,12 +2228,10 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="0189c782e04bc566597908eddaee3dd5" category="section-title">알림 모니터 보기</block>
   <block id="d8d1f09f12d3047d0b1d5264e0fbb3d4" category="paragraph">알림 모니터를 보려면 다음 단계를 따르세요.</block>
   <block id="8891b6740bffe77b967f8fe0f2bb0320" category="inline-image-macro">Keystone 구독에 대한 알림 모니터 스크린샷</block>
-  <block id="ae75ac6ecba83cd82e353c5c2dddf9ca" category="paragraph">모니터 이름, 알림을 트리거하는 경고 조건, 심각도 수준, 구독 번호, 성능 서비스 수준 및 상태를 포함하여 Keystone 구독 전반에 걸쳐 경고 모니터 목록을 볼 수 있습니다.  *생성자* 열을 확인하여 알림 모니터가 시스템에서 생성되었는지 아니면 사용자가 정의했는지 확인할 수 있습니다.</block>
   <block id="6b29e04f1a3d7126b32fea3e35336be6" category="section-title">알림 모니터 생성 및 관리</block>
   <block id="c52ec421c31615867815fd4658197c12" category="paragraph">*알림 모니터* 탭에서 용량 사용 및 구독 만료를 추적하는 모니터를 만들 수 있습니다.  필요에 따라 기존 모니터를 편집, 복제 또는 삭제할 수도 있습니다.</block>
   <block id="57ff1be6332a578fa82ccb64d9259d54" category="open-title">모니터 만들기</block>
   <block id="64c64a9516f4ac5c0006a03c872e7317" category="paragraph">알림 모니터를 만들려면 다음 단계를 따르세요.</block>
-  <block id="a3513012c18df0c1a7b8764f4e9f1ff9" category="list-text">*모니터 생성* 버튼을 클릭합니다.</block>
   <block id="f4743dcb07fb533885399ef1728ce857" category="paragraph">*알림 모니터 만들기* 페이지가 나타납니다.</block>
   <block id="704b16afc2be166a3265886d6a494bb5" category="inline-image-macro">Keystone 구독에 대한 알림 모니터 생성 스크린샷</block>
   <block id="b2aa832e4d8d1fd7361158475afea146" category="paragraph"><block ref="b2aa832e4d8d1fd7361158475afea146" category="inline-image-macro-rx" type="image"></block></block>
@@ -2258,7 +2256,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="37436487b6f97021df7ee2c4adbdfa45" category="list-text">복사하려는 모니터의 줄임표 아이콘을 선택하세요.</block>
   <block id="3cf3a984f792c68d00d0ddbaa1549d75" category="list-text">*복제*를 선택하세요.</block>
   <block id="1c9486cebc61c5048cf6288719fae578" category="paragraph">*알림 모니터 만들기* 페이지가 기존 필드 값이 이미 입력된 상태로 나타납니다.</block>
-  <block id="7a170bf7d609f40a91657be5b2c92dc3" category="list-text">필요에 따라 필드를 수정하고 *만들기*를 클릭하세요.</block>
   <block id="59c8147f6a6c89c779cc9c0e0d31057d" category="paragraph">업데이트된 구성으로 새로운 알림 모니터가 생성되어 *알림 모니터* 목록에 나타납니다.</block>
   <block id="f9fcefd0027bc07ce00160c69b1e0c90" category="open-title">모니터 삭제</block>
   <block id="85fc8a3c54b846eae784ce216c74002f" category="list-text">제거하려는 모니터의 줄임표 아이콘을 선택하세요.</block>
@@ -2355,7 +2352,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="2227728e15b4a8b218a3533e278cf342" category="doc">NetApp 콘솔에서 Keystone 구독 수정</block>
   <block id="84b1a13bc7964ae4f7768e4f9c3c8756" category="paragraph">NetApp 콘솔을 통해 연관된 성능 서비스 수준에 대한 Keystone 구독의 커밋된 용량을 수정할 수 있습니다.</block>
   <block id="7a91109a620e891743c65eea451a0cf2" category="paragraph"><block ref="7a91109a620e891743c65eea451a0cf2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cb873e65402011d905122364da690822" category="paragraph">NetApp 콘솔의 Keystone 대시보드에서 Keystone 구독에 대한 알림 모니터를 보고 만들 수 있습니다. 대시보드에는 용량 사용 및 구독 만료에 대한 시스템 생성 모니터와 사용자 정의 모니터가 모두 표시됩니다. 임계값을 설정하고, 알림 심각도를 선택하고, 알림을 받을 이메일 수신자를 추가하는 모니터를 만들 수 있습니다. 이 기능은 Digital Advisor 에서는 사용할 수 없습니다.</block>
   <block id="b5c32e6c2b4476154d229af70df8cf7a" category="list-text">콘솔 왼쪽 탐색 메뉴에서 *저장소 &gt; Keystone &gt; 모니터링 &gt; 알림 모니터*를 선택합니다.</block>
   <block id="187aba3af65d3bb1230dc8604f0acb91" category="paragraph"><block ref="187aba3af65d3bb1230dc8604f0acb91" category="inline-image-macro-rx" type="image"></block></block>
   <block id="293028e42f8edb8a2749fa8fca8130fa" category="paragraph">NetApp 콘솔의 Keystone 대시보드를 사용하면 Keystone 스토리지 환경에서 활성 알림을 보고 관리할 수 있습니다. 용량 사용 및 구독 만료에 대한 시스템 생성 알림과 사용자 정의 알림을 모두 볼 수 있습니다. 이 보기를 통해 경고 심각도를 빠르게 평가하고, 스토리지 문제를 파악하고, 시정 조치를 취할 수 있습니다. 이 뷰는 Digital Advisor 에서 사용할 수 없습니다.</block>
@@ -2446,4 +2442,32 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">Sectigo에서 코드 서명 CA 인증서를 다운로드하세요<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>.</block>
   <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">Keystone Collector OVA의 무결성과 진위성이 검증되면 텍스트를 볼 수 있습니다.<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 출판사와 함께. <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4d3f733b36c05e3bcdf4287f293b20f" category="paragraph">클러스터가 MetroCluster 구성에 있는 경우 다음 명령을 실행합니다.</block>
+  <block id="6df7635d9934b92e0bdbe5e5a544fccb" category="doc">보장 알림 상자를 완성하세요</block>
+  <block id="8583cba6ee38a66f6e19ca7c15a5c1ed" category="inline-link-macro">경보 모니터의 적용 범위 격차 관리</block>
+  <block id="a60761706ec1d12934bfc1dd049da2df" category="paragraph">*모니터링* 페이지의 *알림 모니터* 탭에는 적용 범위에 차이가 있을 때 나타나는 *적용 범위 완료* 알림 상자가 포함되어 있습니다.  이 상자에는 용량 또는 만료 모니터가 없는 구독과 구독이 없는 모니터가 나열됩니다.  기존 모니터에 구독을 추가하거나, 새로운 모니터를 만들거나, 사용하지 않는 모니터를 삭제하여 격차를 해소할 수 있습니다. 자세한 내용은 다음을 참조하세요. <block ref="1ef75ae1f09bcc7a95c6bbe07a54229c" category="inline-link-macro-rx"></block>.</block>
+  <block id="39fb73624dac610b8274b1bd6e2c1193" category="paragraph">NetApp Console 의 Keystone 대시보드에서 Keystone 구독에 대한 알림 모니터를 보고 만들 수 있습니다.  대시보드는 용량 사용 및 구독 만료에 대한 시스템 생성 모니터와 사용자 정의 모니터를 모두 보여줍니다. 임계값을 설정하고, 알림 심각도를 선택하고, 알림을 받을 이메일 수신자를 추가하는 모니터를 만들 수 있습니다.  적용되지 않는 구독에 모니터를 추가하거나, 사용되지 않는 모니터를 해결하여 적용 범위 차이를 해소할 수 있습니다. 이 기능은 Digital Advisor 에서는 사용할 수 없습니다.</block>
+  <block id="60adeaffad8e127352095573a6e3157f" category="paragraph">모니터 이름, 알림을 트리거하는 경고 조건, 심각도 수준, 구독 번호, 성능 서비스 수준 및 상태를 포함하여 Keystone 구독 전반에 걸쳐 경고 모니터 목록을 볼 수 있습니다. *생성자* 열을 확인하여 알림 모니터가 시스템에서 생성되었는지 아니면 사용자가 정의했는지 확인할 수 있습니다.</block>
+  <block id="ac092a2bcbdb5857ae37a4756db46a49" category="list-text">*모니터 생성* 버튼을 선택하세요.</block>
+  <block id="cb5198d92b18cf007a9117aa50f90c3e" category="list-text">필요한 필드를 변경하고 *만들기*를 클릭하세요.</block>
+  <block id="2fd74b6a7fe875798408a25e1558c434" category="section-title">보장 범위 격차 관리</block>
+  <block id="27693e14a82cbe43a67100eb4538ddd9" category="paragraph">조치가 필요한 경우 경고 모니터 목록 위에 접을 수 있는 *보장 범위 완료* 알림 상자가 나타납니다.  다음과 같은 데 도움이 됩니다.</block>
+  <block id="15412d2b0949c1eabadcefaed9f6f8d0" category="list-text">용량 사용 또는 구독 만료 모니터가 없는 구독을 식별하고 해결합니다.</block>
+  <block id="72cf9e6c56443b9eb5c5d28a0a693ac1" category="list-text">현재 어떤 구독과도 연결되어 있지 않은 모니터를 검토하고 관리합니다.</block>
+  <block id="4606189d5b77f103c0e503d8048ad8f7" category="inline-image-macro">Keystone 구독에 대한 알림 모니터의 적용 범위 격차 스크린샷</block>
+  <block id="db3c34c51d992294e98f857c62b4cf47" category="paragraph"><block ref="db3c34c51d992294e98f857c62b4cf47" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6c84c1a10e1c87172a9fadb894dd8445" category="paragraph">모니터가 없거나 사용하지 않는 모니터가 있는 구독을 수정하려면 다음 단계를 따르세요.</block>
+  <block id="ac81eda7e7da15651a4c3d6a60e8f290" category="open-title">모니터 없는 구독</block>
+  <block id="f9fc4f7dade8ed75242e3918921812c2" category="list-text">*구독 만료* 또는 *용량 사용량* 탭을 선택하세요.</block>
+  <block id="226f73c9504a7560a9a6543e7686879d" category="list-text">*해결* 열에서 해결하려는 구독에 대한 줄임표 아이콘을 선택합니다.</block>
+  <block id="4c0349a30e44fe2e3989a278d0a1f1e1" category="list-text">하나를 선택하세요:</block>
+  <block id="55075c37621639cb4058160f8872944a" category="list-text">*기존 모니터에 추가*: 팝업이 나타납니다.  모니터를 선택하고 확인하세요.</block>
+  <block id="8f9840a1a3c6e0d946a2c7230f2cc4a8" category="list-text">*새로운 모니터 만들기*: 시스템에 *알림 모니터 만들기* 페이지가 표시됩니다.  다음 단계를 따르세요<block ref="f5b0d13ec8e410cddd0c73aae96856f8" category="inline-link-macro-rx"></block> 새로운 모니터를 생성하려면.</block>
+  <block id="c63b72e256a63e39fd4833b7a7c43f16" category="paragraph">보장 범위가 추가되면 해당 구독이 탭에서 사라집니다.</block>
+  <block id="7652a06e5287973e36402a720937090f" category="open-title">사용하지 않는 모니터</block>
+  <block id="599e408ddca0ab40965afad26b9dd5ed" category="list-text">*사용하지 않음* 탭을 선택하세요.</block>
+  <block id="11ea68b14110fa7cbc61ea38b5a4fcec" category="list-text">*해결* 열에서 문제를 해결하려는 모니터의 줄임표 아이콘을 선택합니다.</block>
+  <block id="41825a04a8338881f026e0e8b933fd54" category="list-text">*편집*: 시스템에 *알림 모니터 편집* 페이지가 표시됩니다.  필요한 필드를 변경하고 저장합니다.  자세한 내용은 다음을 참조하세요.<block ref="b047d326fc106faf3f12ef4efac0005e" category="inline-link-macro-rx"></block> .</block>
+  <block id="0cfa773235daafece9ec96fac7a4ae83" category="list-text">*삭제*: 모니터를 제거하려면 삭제를 확인하세요.</block>
+  <block id="9516b8db60240fe5a0c189f3a9d20181" category="paragraph">구독을 추가하거나 삭제하면 모니터가 탭에서 제거됩니다.</block>
+  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
 </blocks>
