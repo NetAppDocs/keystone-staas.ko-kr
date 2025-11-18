@@ -54,5 +54,5 @@ image:dark-site-generate-support-bundle-1.png["지원 번들을 생성합니다"
 +
 이 프로세스는 `tar` 문제 해결을 위해 NetApp와 공유할 수 있는 패키지를 언급된 위치에 생성합니다.
 
-. 파일이 다운로드되면 Keystone ServiceNow 지원 티켓에 첨부할 수 있습니다. 티켓 발생에 대한 자세한 내용은 을 참조하십시오 link:../concepts/gssc.html["서비스 요청을 생성하는 중입니다"].
+. 파일을 다운로드한 후 Keystone ServiceNow 지원 티켓에 첨부할 수 있습니다. 티켓 발행에 대한 정보는 다음을 참조하세요. link:../concepts/support-services.html["서비스 요청을 생성하는 중입니다"].
 

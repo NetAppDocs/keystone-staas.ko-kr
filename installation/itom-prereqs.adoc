@@ -17,10 +17,19 @@ summary: ITOM Collector를 설치하려면 시스템이 여러 요구 사항을 
 ITOM Collector를 설치하기 전에 시스템에 필요한 소프트웨어가 준비되어 있고 필요한 모든 필수 구성 요소를 충족하는지 확인하십시오.
 
 .ITOM Collector 서버 VM의 사전 요구 사항:
-* 지원되는 운영 체제: Debian 12, Windows Server 2016, Ubuntu 20.04 LTS, Red Hat Enterprise Linux(RHEL) 8.x, Amazon Linux 2023 또는 이러한 운영 체제의 최신 버전.
+* 지원되는 운영 체제:
++
+** 데비안 12 이상
+** Windows Server 2016 이상
+** Ubuntu 20.04 LTS 이상
+** 레드햇 엔터프라이즈 리눅스(RHEL) 8.x
+** Red Hat Enterprise Linux 9.0 이상
+** Amazon Linux 2023 이상
 +
 
 NOTE: 권장되는 운영 체제는 Debian 12, Windows Server 2016 또는 이후 버전입니다.
+
+
 
 * 리소스 요구 사항: 모니터링되는 NetApp 노드 수에 따른 VM 리소스 요구 사항은 다음과 같습니다.
 +

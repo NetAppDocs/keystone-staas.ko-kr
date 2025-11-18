@@ -23,6 +23,7 @@ Linux 및 Keystone Collector 서버 VM에 이러한 구성이 있는지 확인�
 +
 ** 데비안 12
 ** Red Hat Enterprise Linux 8.6 이상 8.x 버전
+** Red Hat Enterprise Linux 9.0 이상 버전
 ** CentOS 7(기존 환경 전용)
 
 

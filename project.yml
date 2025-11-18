@@ -8,8 +8,6 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-    release_notes_autogen:
-      release_notes_repo: console-relnotes
   versions:
   - version-number: '3.0'
     url: "/keystone-staas"
@@ -205,6 +203,6 @@ sidebar:
   - title: Keystone 구독 서비스 버전 1
     url: "/subscription-services-v1.html"
   - title: Keystone에 대한 도움을 받으십시오
-    url: "/concepts/gssc.html"
+    url: "/concepts/support-services.html"
   - title: 법적 고지
     url: "/legal-notices.html"
