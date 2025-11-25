@@ -1684,7 +1684,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="98d28e0357b1d103f21ba89dd0d19e08" category="paragraph">요청 번호, 요청 유형, 현재 상태를 포함한 모든 서비스 요청 목록이 표시됩니다.</block>
   <block id="d47cec4b54da960eb97da1285dba00bf" category="inline-image-macro">아래쪽 화살표 아이콘</block>
   <block id="b8915f85e20c41695f7695ce198af59a" category="list-text">클릭할 수 있습니다 <block ref="97aa861acb085111dcd2b43caf6c79a2" category="inline-image-macro-rx" type="image"></block> *제출일* 열 옆에 있는 아이콘을 클릭하면 요청 번호를 확장하고 세부 정보를 볼 수 있습니다. 요청이 제기된 성과 서비스 수준을 확인할 수 있습니다.</block>
-  <block id="de30be97e27dee0a131478825b7f19bd" category="inline-image-macro">스크린샷은 수정 요청이 제기된 성능 서비스 수준을 보여줍니다.</block>
   <block id="6f611e4ccc824406e0de3f7a09110159" category="list-text">요청 번호를 선택하면 요청된 구독에 대한 수정 세부 정보와 현재 진행 상태를 포함한 자세한 정보를 볼 수 있습니다.</block>
   <block id="a92c0535191745976db8964221708fe4" category="inline-image-macro">현재 진행 상태를 보여주는 스크린샷</block>
   <block id="fc1597aa65903b595ab66b315f8b1878" category="paragraph"><block ref="fc1597aa65903b595ab66b315f8b1878" category="inline-image-macro-rx" type="image"></block></block>
@@ -2288,8 +2287,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="ca0d168dfc9d3eec3e502042fa77ec2f" category="admonition">여러 성과 서비스 수준을 동시에 선택하여 PSL을 생성할 수 있습니다.</block>
   <block id="b3eed4304ada05a16ec5ec8b501efe72" category="admonition">선택한 성능 서비스 수준에 대한 PSL이 지정된 Active IQ Unified Manger 서버에 이미 있는 경우 다시 생성할 수 없습니다. 이를 시도하면 오류 메시지가 표시됩니다.<block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea25018c2d045851b6c9e6567fb76051" category="paragraph">NetApp 콘솔을 통해 Keystone 구독 수정에 대한 서비스 요청을 보고 추적하여 빠른 요약을 제공하고 진행 상황을 모니터링할 수 있습니다.</block>
-  <block id="2fbcdf41574fdac1e466d4dad9bb3a55" category="list-text">콘솔 왼쪽 탐색 메뉴에서 *저장소 &gt; Keystone &gt; 관리*를 선택합니다.</block>
-  <block id="26a02c6592f7d54ca37b8c1a48780136" category="paragraph"><block ref="26a02c6592f7d54ca37b8c1a48780136" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aaaea723208b33ae079e357878d9a9cb" category="paragraph">단일 Keystone 구독으로 관리되는 ONTAP 클러스터와 노드, StorageGRID 그리드, 사이트, 노드에 대한 자세한 정보를 볼 수 있습니다. NetApp 콘솔이나 Digital Advisor 의 Keystone 대시보드에서 이러한 구독 자산에 액세스할 수 있습니다.</block>
   <block id="d1c3a83a967f6dcdc9a6ad9e94a8bbed" category="section-title">NetApp 콘솔에서 Keystone 구독 자산 보기</block>
   <block id="d79f885d7740bdd0320f954c06a36686" category="paragraph">*구독* 페이지의 *자산* 탭에는 구독과 관련된 클러스터의 볼륨, StorageGRID 노드 및 ONTAP 노드에 대한 자세한 정보가 표시됩니다. 여기에는 다양한 세부 정보와 용량 상태가 포함됩니다.</block>
@@ -2443,7 +2440,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="15412d2b0949c1eabadcefaed9f6f8d0" category="list-text">용량 사용 또는 구독 만료 모니터가 없는 구독을 식별하고 해결합니다.</block>
   <block id="72cf9e6c56443b9eb5c5d28a0a693ac1" category="list-text">현재 어떤 구독과도 연결되어 있지 않은 모니터를 검토하고 관리합니다.</block>
   <block id="4606189d5b77f103c0e503d8048ad8f7" category="inline-image-macro">Keystone 구독에 대한 알림 모니터의 적용 범위 격차 스크린샷</block>
-  <block id="db3c34c51d992294e98f857c62b4cf47" category="paragraph"><block ref="db3c34c51d992294e98f857c62b4cf47" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c84c1a10e1c87172a9fadb894dd8445" category="paragraph">모니터가 없거나 사용하지 않는 모니터가 있는 구독을 수정하려면 다음 단계를 따르세요.</block>
   <block id="ac81eda7e7da15651a4c3d6a60e8f290" category="open-title">모니터 없는 구독</block>
   <block id="f9fc4f7dade8ed75242e3918921812c2" category="list-text">*구독 만료* 또는 *용량 사용량* 탭을 선택하세요.</block>
@@ -2480,4 +2476,13 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="45d6736fdd879f91b2a538e05e0a3b12" category="list-text">Red Hat Enterprise Linux 9.0 이상</block>
   <block id="cc20f1cec12842b9bed0a2fb4b579509" category="list-text">Amazon Linux 2023 이상</block>
   <block id="f0fc80440f66cd06e8621cfb9578824b" category="paragraph">Keystone 버전 3(v3)을 구독하려면 Keystone 지원팀에 문의하세요. 자세한 내용은 다음을 참조하세요. <block ref="90d872d2a90e66f6330f06f20805c0ef" category="inline-link-macro-rx"></block>.</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">커버리지 갭 구독에 대한 추적 ID</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">*모니터링 &gt; 알림 모니터*의 *보장 범위 완료* 알림 상자에서 각 구독의 구독 번호 옆에 추적 ID가 표시됩니다.</block>
+  <block id="06d55ded719647ad67f379d0f9afc0e2" category="list-text">콘솔 왼쪽 탐색 메뉴에서 *저장소 &gt; Keystone &gt; 관리 &gt; 요청*을 선택합니다.</block>
+  <block id="21ffef0c637fd0891ae9b41f52742b09" category="admonition">*에이전트 관리* 및 *보고서* 탭은 현재 Keystone 구독에서 사용할 수 없습니다.</block>
+  <block id="5d2cdc919ce893613b66b876a7c2782d" category="inline-image-macro">스크린샷은 수정 요청에 대한 성능 서비스 수준을 보여줍니다.</block>
+  <block id="a91bb8801531bd0f94f5726293b87485" category="paragraph"><block ref="a91bb8801531bd0f94f5726293b87485" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa37f1bdab27c9577ff178edf4ff4fef" category="admonition">*보고서* 탭은 현재 Keystone 구독에서 사용할 수 없습니다.</block>
+  <block id="2193640916b96caede95ed8f42c339e8" category="paragraph"><block ref="2193640916b96caede95ed8f42c339e8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025년 11월 24일</block>
 </blocks>
