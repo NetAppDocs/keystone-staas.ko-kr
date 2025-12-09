@@ -16,6 +16,9 @@ summary: 자산 탭을 사용하면 ONTAP 클러스터와 노드, Keystone 구�
 [role="lead"]
 NetApp 콘솔의 Keystone 대시보드를 사용하면 액세스 권한에 따라 여러 Keystone 구독에 걸쳐 클러스터의 노드, 프로비저닝된 볼륨 및 StorageGRID 노드에 대한 자세한 정보를 볼 수 있습니다. 이 뷰는 Digital Advisor 에서 사용할 수 없습니다.
 
+
+NOTE: *자산* 페이지에는 Keystone 구독과 관련된 플랫폼을 기반으로 탭이 표시됩니다. ONTAP 의 경우 *클러스터의 노드* 및 *클러스터의 볼륨* 탭을 모두 사용할 수 있습니다. StorageGRID 의 경우, *그리드의 노드* 표는 탭을 선택하지 않아도 바로 표시됩니다. 구독에 두 플랫폼이 모두 포함된 경우 세 개의 탭을 모두 사용할 수 있습니다.
+
 [role="tabbed-block"]
 ====
 .클러스터의 노드
