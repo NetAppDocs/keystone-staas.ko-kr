@@ -36,7 +36,7 @@ Linux 및 Keystone Collector 서버 VM에 이러한 구성이 있는지 확인�
 * 포드만(POD 매니저)
 * SOS(SOS
 * 연대기
-* Python 3 (3.6.8 ~ 3.3.13)
+* 파이썬 3(3.9.14~3.11.8)
 
 
 .Keystone Collector 서버 VM:

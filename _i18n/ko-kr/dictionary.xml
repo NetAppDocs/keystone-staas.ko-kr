@@ -286,7 +286,6 @@
   <block id="8a43eb05c3b74f093be84dcedec105e4" category="list-text">포드만(POD 매니저)</block>
   <block id="431e077067178a6dd061f1e2ab20209d" category="list-text">SOS(SOS</block>
   <block id="e284374909d82a81c5150b7908e00147" category="list-text">연대기</block>
-  <block id="3c048c264642c17c1d0bbd50b9e23bfe" category="list-text">Python 3 (3.6.8 ~ 3.3.13)</block>
   <block id="8293f6bcd4201a597ff59371ddd65240" category="section-title">기타 요구 사항</block>
   <block id="ddd31bebd407467c40be40bf75366dbd" category="section-title">네트워킹 요구 사항</block>
   <block id="7ff386c96ae027b0684c69f8088eaa2b" category="admonition">Keystone 수집기는 인터넷 연결이 필요합니다. 기본 게이트웨이(NAT를 통해) 또는 HTTP 프록시를 통해 직접 라우팅하여 인터넷 연결을 제공할 수 있습니다. 두 가지 변형 모델이 모두 여기에 설명되어 있습니다.</block>
@@ -2486,4 +2485,5 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">소비량이 허용된 버스트 한도 내에 있음에도 불구하고 구독이 Digital Advisor 대시보드에서 *버스트 한도 초과* 상태로 잘못 표시됩니다.</block>
   <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">2025년 12월 08일</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025년 12월 8일</block>
+  <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">파이썬 3(3.9.14~3.11.8)</block>
 </blocks>
