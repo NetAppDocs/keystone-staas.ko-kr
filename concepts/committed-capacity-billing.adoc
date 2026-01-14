@@ -4,7 +4,7 @@ permalink: concepts/committed-capacity-billing.html
 keywords: Billing based on committed capacity, committed capacity billing 
 summary: 약정 용량은 가입을 구매하는 동안 특정 서비스 수준에 대해 확정된 용량입니다. 
 ---
-= 약정 용량에 따른 청구
+= Keystone 약정 용량 청구 방식을 이해하세요.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

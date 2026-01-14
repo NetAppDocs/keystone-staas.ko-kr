@@ -4,7 +4,7 @@ permalink: concepts/burst-capacity.html
 keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp Keystone 
 summary: 고객이 약속한 용량 외에 추가 저장 용량을 사용할 수 있습니다. 
 ---
-= 버스트 용량 옵션
+= Keystone 구독용 버스트 용량 추가 기능
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

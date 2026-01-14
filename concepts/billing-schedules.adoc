@@ -4,7 +4,7 @@ permalink: concepts/billing-schedules.html
 keywords: billing schedules, schedule for payment 
 summary: Keystone STaaS 구독은 월별, 분기별, 반기별 또는 연별로 청구됩니다. 
 ---
-= 청구 일정
+= Keystone 청구 일정에 대해 알아보세요.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: concepts/components.html
 keywords: infrastructure component, deployment requirement, installation requirement 
 summary: 사용자 환경에서 NetApp Keystone STaaS 서비스를 지원하는 데 필요한 구성 요소에 관해 알아보십시오. 
 ---
-= 배포에 필요한 구성 요소입니다
+= Keystone 서비스에 필요한 구성 요소
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 사용자 환경에서 NetApp Keystone STaaS 서비스를 지원하는 
 
 
 [role="lead"]
-현재 환경에서 NetApp Keystone STaaS 서비스를 지원하려면 몇 가지 구성 요소가 필요합니다. 시작하기 전에 이러한 구성 요소에 대한 세부 정보를 검토해야 합니다.
+NetApp Keystone STaaS 서비스를 활성화하려면 몇 가지 구성 요소가 필요합니다. 시작하기 전에 다음 구성 요소를 검토하십시오.
 
 
 

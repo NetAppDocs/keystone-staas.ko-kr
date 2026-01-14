@@ -4,7 +4,7 @@ permalink: concepts/infra.html
 keywords: keystone infrastructure, infra 
 summary: Keystone 인프라, 설계, 기술 선택, 구성요소 제품은 NetApp의 전적인 재량에 따라 집니다. 
 ---
-= Keystone 인프라
+= Keystone 인프라를 이해하세요
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

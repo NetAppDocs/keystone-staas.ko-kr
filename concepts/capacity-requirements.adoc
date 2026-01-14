@@ -4,7 +4,7 @@ permalink: concepts/capacity-requirements.html
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: 서비스 수준에 대한 용량 요구사항은 Keystone STaaS 구독에서 지원하는 파일, 블록, 오브젝트 또는 클라우드 스토리지에 따라 다릅니다. 
 ---
-= 성능 서비스 수준에 대한 용량 요구 사항
+= Keystone 성능 서비스 수준에 필요한 용량
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -152,7 +152,7 @@ sidebar:
         url: "/concepts/service-levels.html"
       - title: 성능 서비스 수준에 대한 용량 요구 사항
         url: "/concepts/capacity-requirements.html"
-    - title: 애드온 서비스
+    - title: 추가 서비스에 대해 알아보세요
       entries:
       - title: 버스트 용량 옵션
         url: "/concepts/burst-capacity.html"
@@ -164,7 +164,7 @@ sidebar:
         url: "/concepts/nrnvc.html"
       - title: USPS(미국 보호 지원)
         url: "/concepts/usps.html"
-    - title: Keystone STaaS SLO
+    - title: Keystone STaaS SLO에 대해 알아보세요.
       entries:
       - title: 가용성
         url: "/concepts/sla-availability.html"
@@ -174,7 +174,7 @@ sidebar:
         url: "/concepts/sla-sustainability.html"
       - title: 랜섬웨어 복구 보장
         url: "/concepts/sla-ransomware.html"
-    - title: 청구
+    - title: 청구 방식을 이해하세요
       entries:
       - title: Keystone 가격
         url: "/concepts/pricing.html"
@@ -184,7 +184,7 @@ sidebar:
         url: "/concepts/consumed-capacity-billing.html"
       - title: 버스트 소비에 기초한 청구
         url: "/concepts/burst-consumption-billing.html"
-      - title: Keystone 청구를 위한 기타 시나리오
+      - title: 특정 볼륨 구성에 대한 청구
         url: "/concepts/misc-volume-billing.html"
       - title: 청구 일정
         url: "/concepts/billing-schedules.html"

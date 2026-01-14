@@ -4,7 +4,7 @@ permalink: concepts/data-infra-insights.html
 keywords: add-on services, add-on, data infrastructure insights, DII, deployment of DII 
 summary: Data Infrastructure Insights는 퍼블릭 클라우드와 프라이빗 데이터 센터에서 스토리지를 모니터링, 문제 해결 및 최적화하여 Keystone STaaS의 효율성을 높여줍니다. 
 ---
-= 데이터 인프라 Insights에 대해 알아보십시오
+= Keystone 용 Data Infrastructure Insights 추가 기능
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

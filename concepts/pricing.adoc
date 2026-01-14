@@ -4,7 +4,7 @@ permalink: concepts/pricing.html
 keywords: pricing, billing introduction, Keystone billing 
 summary: Keystone은 유연하고 확장 가능한 소비 요구사항에 부합하는 용량제 모델을 제공합니다. 
 ---
-= Keystone 가격
+= Keystone 가격에 대해 알아보세요
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
