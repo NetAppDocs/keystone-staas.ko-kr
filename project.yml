@@ -130,8 +130,6 @@ sidebar:
         url: "/integrations/monitoring-alerts.html"
       - title: 알림 모니터 보기 및 생성
         url: "/integrations/monitoring-alert-monitors.html"
-    - title: 구독 수정
-      url: "/integrations/modify-subscription.html"
     - title: 서비스 요청 보기
       url: "/integrations/administration-tab.html"
     - title: 볼륨 및 개체 스토리지 세부 정보 보기
