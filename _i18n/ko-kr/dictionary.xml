@@ -697,7 +697,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="308838aa7669887098042a1899ce59bc" category="list-text">클론 볼륨의 크기가 상위 볼륨의 10% 미만이면(상위 볼륨에 사용된 물리적 용량과 비교하여 클론 볼륨에 사용된 물리적 용량) 충전이 무료입니다.</block>
   <block id="5e46e614581cd458f9521294062d3783" category="list-text">클론 볼륨이 상위 물리적 크기의 10%를 초과하면 클론이 표준 볼륨(논리적 사용된 용량)으로 청구됩니다.</block>
   <block id="f4c8dae91522d3ec93e26aff56248527" category="list-text">From Date * 및 * To Date * 필드의 달력 아이콘에서 시간 범위를 선택합니다. 쿼리의 날짜 범위를 선택합니다. 날짜 범위는 월 시작 날짜 또는 구독 시작 날짜부터 현재 날짜까지 또는 구독 종료 날짜일 수 있습니다. 미래 날짜는 선택할 수 없습니다.</block>
-  <block id="36234decc68306d26e71012f98474aa1" category="paragraph">이 기능은 미리 보기 전용 모드에서 사용할 수 있습니다. 이 기능에 대한 자세한 내용은 KSM에 문의하십시오.</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">쿼리의 날짜 범위를 선택합니다. 날짜 범위는 월 시작 날짜 또는 구독 시작 날짜부터 현재 날짜까지 또는 구독 종료 날짜일 수 있습니다. 미래 날짜는 선택할 수 없습니다.</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">* 현재 버스트 *: 정의된 버스트 제한 내 또는 그 이상의 사용된 용량에 대한 표시기입니다. 구독의 버스트 제한 내에서 사용량(예: 약정 용량보다 20% 더 높은 사용량)은 버스트 제한 내에 있습니다. 추가 사용은 버스트 제한을 초과하는 사용량으로 간주됩니다. 이 필드에는 특정 색상이 표시됩니다.</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">ONTAP 9.8 이상</block>
@@ -1405,10 +1404,8 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="af7685e284aa0e1b6d46a67961bbd7ea" category="inline-link-macro">NetApp 프로페셔널 서비스</block>
   <block id="f7cbbc681ca27bebc7825144375b3923" category="paragraph">고객은 Keystone용 DII를 다른 비 Keystone 환경을 모니터링하는 기존 인스턴스의 일부로 또는 새 인스턴스의 일부로 통합하는 두 가지 방법으로 통합할 수 있습니다. DII를 설정하는 것은 고객의 책임입니다. 복잡한 환경에서 DII를 설정하는 데 도움이 필요한 경우 영업 팀이 개입할 수 <block ref="d0b2c9035727476f87ec5eb3369e77e6" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="098aa3cf35fbf6dcd0f8bf264d8fbb02" category="inline-link-macro">Data Infrastructure Insights 온보딩</block>
-  <block id="5521be72a56c20199f2583f6122fb79e" category="paragraph">DII를 설정하려면 을 <block ref="b97f1974c4920cfa5b0a8266cf2ad03c" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="71ef8949a55d6b1791e3d610418ebf29" category="inline-link-macro">DII 무료 평가판</block>
   <block id="5b425cd08035f29c3dad5d45f1d2ea6e" category="inline-link-macro">피처 튜터리얼</block>
-  <block id="3b179eeaf9ac878bf9783e7b6444e172" category="list-text">고객이 새 DII 인스턴스를 시작하는 경우 로 시작하는 것이 좋습니다<block ref="9bb21587dbf1a819ba039401f4e5726c" category="inline-link-macro-rx"></block>. 이 기능과 필요한 시작 체크리스트에 대한 자세한 내용은 을 <block ref="fa9eb45797f94a182876dd4cce75625a" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="5774c882dad1ebd6e046b3a9fdfae618" category="inline-link-macro">획득 장치를 설치합니다</block>
   <block id="b0a1bf81aa560384c37a6699221d9a92" category="list-text">각 시험기관에 대해 획득 장치가 필요합니다. 획득 장치를 설치하려면 을 <block ref="42d868d67c77926a662ccf38524dc1ee" category="inline-link-macro-rx"></block>참조하십시오. 고객이 이미 DII 인스턴스 및 획득 장치를 설정한 경우 데이터 수집기 구성을 진행할 수 있습니다.</block>
   <block id="995baaed007a33dba572505ffd6d726b" category="inline-link-macro">데이터 수집기 구성</block>
@@ -1737,7 +1734,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="2b67a16f12da342bb3cbca5216d7c796" category="paragraph">전체 달에 대해 누적된 버스트 사용량은 다음과 같이 계산됩니다.</block>
   <block id="546fa809ba406006a24d7ed5fae64eb8" category="admonition">청구된 누적 버스트 사용량은 성능 서비스 수준에 대한 약정 및 사용 용량을 기준으로 청구 기간별로 계산됩니다.</block>
   <block id="dfdee986152ec4047af664495ba755cd" category="inline-image-macro">일별 누적 버스트를 보여주는 스크린샷 표</block>
-  <block id="5ebd05a1b0a3fae552005acfec4e3c45" category="paragraph"><block ref="5ebd05a1b0a3fae552005acfec4e3c45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d0baf3847f6e93ee353d71b13ee7d980" category="paragraph">Digital Advisor에서 *청구 발생 버스트* 옵션에서 청구된 데이터를 표시하는 막대를 클릭하면 막대 차트 아래에 청구 가능한 프로비저닝 용량 섹션이 표시되어 그래프와 표 보기 옵션이 모두 제공됩니다. 기본 그래프 보기에서는 일별 누적된 버스트 데이터 사용량을 선 그래프 형식으로 표시하여 시간에 따른 사용량 변화를 보여 줍니다.</block>
   <block id="c349aee97f052361891132091b4ab93a" category="paragraph">그래프의 오른쪽 위에 있는 * Table * 옵션을 클릭하여 표 보기로 전환할 수 있습니다. 표 보기에서는 성능 서비스 수준, 타임스탬프, 약정 용량, 사용 용량, 청구 가능한 프로비저닝 용량을 포함한 자세한 일일 사용 측정 항목을 제공합니다. 나중에 사용하고 비교할 수 있도록 이러한 세부 정보에 대한 보고서를 CSV 형식으로 생성할 수도 있습니다.</block>
   <block id="eccd215d2aef918d99c7ac04567a0cdc" category="doc">Keystone 구독의 현재 소비량을 확인하세요</block>
@@ -2233,7 +2229,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="f4a4fc70d768b745e8b5b57c259ad569" category="inline-link-macro">알림 모니터 보기 및 생성</block>
   <block id="a2adacdfb688f8f57f2b03920c9e2a80" category="list-text"><block ref="a2adacdfb688f8f57f2b03920c9e2a80" category="inline-link-macro-rx"></block></block>
   <block id="5e8ec25578a50b65b6a5cd50c3407574" category="paragraph">구독에 대한 자세한 정보를 보려면 다음 단계를 따르세요.</block>
-  <block id="49ee8cd124ac86a74b0e8df79ea84356" category="admonition">*만료일* 열 옆에 있는 아래쪽 화살표를 클릭하면 각 구독에 대한 성능 서비스 수준 정보를 볼 수 있습니다.  여기에는 현재 사용량, 약정 용량, 프로비저닝된 용량, 버스트 용량, 사용 가능한 용량을 포함한 자세한 용량 정보가 표시됩니다.</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025년 9월 22일</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP 는 이제 NetApp 콘솔입니다.</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지와 NetApp 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.</block>
@@ -2265,7 +2260,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="4fef845c9e01e08990307334e4eea678" category="paragraph"><block ref="4fef845c9e01e08990307334e4eea678" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86065a45dab20475bb9368ffbd10fe62" category="paragraph">NetApp 콘솔이나 Digital Advisor 통해 Keystone 구독의 과거 데이터를 볼 수 있습니다.</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="open-title">NetApp 콘솔</block>
-  <block id="bbd84f060e2b584367bb75302c5f5b07" category="paragraph">누적된 버스트 데이터 사용량은 콘솔이나 Digital Advisor 통해 확인할 수 있습니다. 콘솔의 *소비 추세* 탭에 있는 *보기* 드롭다운에서 *누적 버스트*를 선택하거나 Digital Advisor 의 *소비 추세* 탭에서 *청구된 누적 버스트* 옵션을 선택한 경우, 선택한 청구 기간에 따라 월별 또는 분기별로 누적 버스트 데이터 사용량을 확인할 수 있습니다. 이 데이터는 청구된 최근 12개월 동안의 데이터를 제공하며, 최대 지난 30개월까지 날짜 범위로 쿼리할 수 있습니다. 막대형 차트는 청구된 데이터를 표시하고, 사용량이 아직 청구되지 않은 경우 해당 기간에 대해 _보류_로 표시됩니다.</block>
   <block id="e833a568221431c19dcca95c850ae159" category="paragraph">콘솔이나 Digital Advisor 통해 월별 또는 분기별 청구 기간 동안 발생한 일일 버스트 데이터 사용량을 볼 수 있습니다. 콘솔에서 *일별 누적 버스트* 표는 *소비 추세* 탭의 *보기* 드롭다운에서 *누적 버스트*를 선택하면 타임스탬프, 커밋, 사용 및 누적 버스트 용량을 포함한 자세한 데이터를 제공합니다.</block>
   <block id="dfa8d7fe27ec169b0ef41ef00fee0ae8" category="paragraph">NetApp 콘솔이나 Digital Advisor 통해 구독의 현재 소비 상태를 보려면 다음 단계를 따르세요.</block>
   <block id="10cb2c81585ad95f970824cfe6301506" category="summary">NetApp Keystone STaaS 구독자는 NetApp Console 또는 Digital Advisor 통해 Keystone 대시보드에 액세스할 수 있습니다.</block>
@@ -2311,7 +2305,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="ea0ce0391196099aab618a4b710b5332" category="paragraph">NetApp 콘솔의 Keystone 대시보드는 Keystone 구독에 대한 타임라인 보기를 제공하며 활성화, 수정, 갱신 날짜와 같은 이벤트를 표시합니다. 이 타임라인 보기는 Digital Advisor 에서 사용할 수 없습니다.</block>
   <block id="51a66b760aa1870a147d6acc0e6c8efd" category="paragraph">구독 타임라인은 기본적으로 선 그래프로 표시되며, 중요 이벤트는 아이콘으로 표시됩니다. 이벤트 위에 마우스를 올려 놓으면 날짜와 약정된 용량 변경 사항을 포함한 세부 정보를 볼 수 있습니다. 이러한 이벤트를 표로 보려면 *보기 형식* 드롭다운에서 *표* 옵션을 선택하세요. 다른 구독 일정을 보려면 *추적 ID* 드롭다운에서 선택하거나 검색하세요.</block>
   <block id="fd4257d1ebe74f01a9d3b5236f722a08" category="paragraph">NetApp 콘솔과 Digital Advisor 의 *구독*에서 모든 구독 목록을 볼 수 있습니다. 이 보기는 귀하의 구독 상태와 사용량을 기반으로 이해하기 쉬운 통찰력을 제공하여 귀하가 최신 정보를 얻고 필요한 경우 조치를 취하는 데 도움이 됩니다.</block>
-  <block id="5e6ce2a236a2d35561ce83721f8bb7e4" category="paragraph"><block ref="5e6ce2a236a2d35561ce83721f8bb7e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="579139f19217a677980dce581b098367" category="paragraph">용량 사용량, 구독 만료 상태, 해결되지 않은 알림 등의 주요 지표를 볼 수 있습니다.</block>
   <block id="09253a17dd3290d17d3baeba1a85ec41" category="paragraph">다음 세부 정보는 표에서 확인할 수 있습니다.</block>
   <block id="a79d6591df4c712ce010c266887785cb" category="paragraph">이러한 세부 정보를 보려면 NetApp 콘솔의 *자산* 페이지를 참조하세요. 특정 Keystone STaaS 구독에 대한 세부 정보를 보려면 다음을 참조하세요.<block ref="33df2a894b84cf92bf7b059b0628f59d" category="inline-link-macro-rx"></block> . 여러 Keystone 구독에 대한 세부 정보를 보려면 다음을 참조하세요.<block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block> .</block>
@@ -2486,11 +2479,28 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">청구 방식을 이해하세요</block>
   <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">특정 볼륨 구성에 대한 청구</block>
   <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">구독 수정이 불가능합니다</block>
-  <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">NetApp Console 의 Keystone 대시보드 업데이트:</block>
-  <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">현재 Keystone 구독에 대한 약정 용량을 수정하는 옵션은 제공되지 않습니다. 이 기능은 향후 릴리스에서 다시 제공될 예정입니다.</block>
   <block id="252561ea020b2dfb8598526a78a88036" category="inline-link-macro">NetApp Console 의 Keystone 액세스 역할</block>
   <block id="cecfedde5e4474302df84ae302547216" category="list-text">콘솔과 Digital Advisor 각각 고유한 기능을 제공하지만, 콘솔은 Keystone) 에 대한 관리 기능을 제공하여 구독을 관리하고 필요한 조정을 할 수 있도록 해줍니다. 더 자세한 내용을 알아보려면 다음을 참조하세요. <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>.</block>
   <block id="99a171058669ac189901e0c53c44ed13" category="admonition">알림 모니터를 생성하고 관리하려면 * Keystone 관리자* 역할이 부여되어 있어야 합니다. 더 자세한 내용을 알아보려면 다음을 참조하세요. <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>.</block>
   <block id="53a22728b83fc16fec4e96baf9b85af7" category="admonition">알림을 편집하려면 * Keystone 관리자* 역할이 필요합니다. * Keystone 뷰어* 역할은 알림 세부 정보만 볼 수 있습니다. 더 자세한 내용을 알아보려면 다음을 참조하세요. <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>.</block>
-  <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026년 1월 19일</block>
+  <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">일일 누적 버스트 데이터에 대한 대화형 필터링</block>
+  <block id="4b808a5ae06687042695057904b0b6bb" category="paragraph">*소비 추세* 탭의 *일별 누적 버스트* 표에서 이제 대화형 필터링 기능을 지원합니다. 누적 버스트 청구 그래프에서 막대를 선택하면 해당 청구 기간 내의 일수만 볼 수 있습니다. 자세한 내용은 <block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="a3b5a92602c2684cdca8198a8cfe1818" category="section-title">누적 버스트 그래프의 향상된 날짜 범위 표시</block>
+  <block id="1c9a58169acbfe805f644273387c3b52" category="paragraph">*소비 추세* 탭의 누적 버스트 청구 그래프에 이제 월과 연도만 표시되는 대신 2025년 10월 1일부터 2025년 10월 31일까지와 같이 각 청구 기간에 대한 전체 날짜 범위가 표시됩니다.</block>
+  <block id="46b1adc980362ab6f320e3cdb4a469c1" category="section-title">확장 가능한 구독 세부 정보 보기</block>
+  <block id="f40d8051a9fd8153ddf9a5541a863887" category="paragraph">*Subscriptions* 탭에서는 모든 구독을 펼쳐 각 구독에 대한 성능 서비스 수준 정보를 동시에 확인할 수 있습니다. 자세한 내용은 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">새로운 사용 유형 열</block>
+  <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*구독* 탭에는 구독 요금이 프로비저닝된 사용량, 물리적 사용량 또는 논리적 사용량을 기준으로 청구되는지 여부를 표시하는 *사용 유형* 열이 있습니다. 자세한 내용은 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="77f26dcf71ccd46a1988ad176507362f" category="paragraph">DII를 설정하려면 <block ref="9c96a8ce2c2de39e18e71cf6b16e737c" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="46258461c8dd073deb37f9c53353b64e" category="list-text">고객이 새 DII 인스턴스를 시작하는 경우 <block ref="6d36cc4d8aae109cb667709b36f129f9" category="inline-link-macro-rx"></block>를 사용하는 것이 좋습니다. 이 기능과 필요한 시작 체크리스트에 대한 자세한 내용은 <block ref="fa9eb45797f94a182876dd4cce75625a" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="511d6a0f4f5ad7c5f79e56d010b571b0" category="paragraph">콘솔 또는 Digital Advisor를 통해 누적 버스트 데이터 사용량을 확인할 수 있습니다. 콘솔의 *소비 추세* 탭에 있는 *보기* 드롭다운 메뉴에서 *누적 버스트*를 선택했거나, Digital Advisor의 *소비 추세* 탭에서 *청구된 누적 버스트* 옵션을 선택한 경우, 선택한 청구 기간에 따라 월별 또는 분기별 누적 버스트 데이터 사용량을 확인할 수 있습니다. 이 데이터는 청구된 최근 12개월 동안 사용 가능하며, 최대 과거 30개월까지의 날짜 범위로 조회할 수 있습니다.</block>
+  <block id="1e007e954fdd7587bcd939b10c21e650" category="list-text">Console에서 누적 버스트 청구 그래프를 통해 일일 데이터 사용량을 필터링할 수 있습니다. 자세한 내용은 <block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="1b342e2d578a51d6b3d947da95fe0f10" category="paragraph">Console에서 누적 버스트 청구 그래프에서 청구 기간을 나타내는 막대를 선택하여 테이블을 필터링할 수 있습니다. 필터링하면 선택한 청구 기간 내의 일수만 표시됩니다. 전체 데이터 세트를 다시 보려면 *Clear filters* 옵션을 사용하십시오. 선택한 기간에 데이터가 없는 경우 데이터가 없음을 나타내는 메시지가 표시됩니다.</block>
+  <block id="e6f9cff2e05b0c21bfa8eacbea1108b9" category="paragraph"><block ref="e6f9cff2e05b0c21bfa8eacbea1108b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c4eab7429b9b42ab319272d31567f10b" category="paragraph"><block ref="c4eab7429b9b42ab319272d31567f10b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6331e16cef510e2a7170f77ace7d4d3c" category="list-text">*사용 유형*: 여러 Keystone 버전을 구독했을 수 있습니다. 성능 서비스 수준에 대한 요금제 규칙은 구독 버전에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량, 물리적 사용량 또는 논리적 사용량 중 어떤 기준으로 청구되는지 알 수 있습니다. 버전 1에 대한 자세한 내용은<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="8c4ee08746e9d4d8b64596c87ac3fab1" category="inline-image-macro">확장 아이콘</block>
+  <block id="b3aabf2706f0dd29444a14f90b5b670f" category="admonition">테이블 헤더의 아래쪽 화살표 <block ref="f41a012a2c49083e45aae37ff23f77bc" category="inline-image-macro-rx" type="image"></block>를 클릭하면 모든 구독을 확장하여 각 구독의 성능 서비스 수준 정보를 동시에 볼 수 있습니다. 여기에는 모든 구독에 대한 현재 사용량, 약정 용량, 프로비저닝된 용량, 버스트 용량 및 사용 가능한 용량을 포함한 자세한 용량 정보가 표시됩니다. 또는 개별 구독 행의 *만료일* 열 옆에 있는 아래쪽 화살표를 클릭하여 하나씩 확장할 수도 있습니다.</block>
+  <block id="ce767e3edd2ea431ac6813a73951729f" category="paragraph">Keystone 구독의 약정 용량을 수정하는 옵션은 현재 NetApp Console에서 사용할 수 없습니다. 이 기능은 향후 릴리스에서 다시 제공될 예정입니다.</block>
+  <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026년 2월 2일</block>
 </blocks>

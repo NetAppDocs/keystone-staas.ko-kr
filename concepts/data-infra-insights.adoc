@@ -30,11 +30,11 @@ image:keystone-widget-dii.png["DII 서비스 수준을 보여 주는 Keystone �
 
 고객은 Keystone용 DII를 다른 비 Keystone 환경을 모니터링하는 기존 인스턴스의 일부로 또는 새 인스턴스의 일부로 통합하는 두 가지 방법으로 통합할 수 있습니다. DII를 설정하는 것은 고객의 책임입니다. 복잡한 환경에서 DII를 설정하는 데 도움이 필요한 경우 영업 팀이 개입할 수 link:https://www.netapp.com/services/["NetApp 프로페셔널 서비스"^]있습니다.
 
-DII를 설정하려면 을 link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html["Data Infrastructure Insights 온보딩"^]참조하십시오.
+DII를 설정하려면 link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["Data Infrastructure Insights 온보딩"^]을(를) 참조하십시오.
 
 다음 사항에 유의하십시오.
 
-* 고객이 새 DII 인스턴스를 시작하는 경우 로 시작하는 것이 좋습니다link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html#starting-your-data-infrastructure-insights-free-trial["DII 무료 평가판"^]. 이 기능과 필요한 시작 체크리스트에 대한 자세한 내용은 을 link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_feature_tutorials.html["피처 튜터리얼"^]참조하십시오.
+* 고객이 새 DII 인스턴스를 시작하는 경우 link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_subscribing_to_cloud_insights.html#trial-edition["DII 무료 평가판"^]를 사용하는 것이 좋습니다. 이 기능과 필요한 시작 체크리스트에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_feature_tutorials.html["피처 튜터리얼"^]을 참조하십시오.
 * 각 시험기관에 대해 획득 장치가 필요합니다. 획득 장치를 설치하려면 을 link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html#install-an-acquisition-unit["획득 장치를 설치합니다"^]참조하십시오. 고객이 이미 DII 인스턴스 및 획득 장치를 설정한 경우 데이터 수집기 구성을 진행할 수 있습니다.
 * 배포된 각 스토리지 하드웨어에 대해 고객은 수집 장치에서 데이터 수집기를 구성해야 합니다. 데이터 수집기를 구성하려면 을 link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_configure_data_collectors.html["데이터 수집기 구성"^]참조하십시오. 기본 하드웨어를 기반으로 Keystone 스토리지에 필요한 데이터 수집기는 다음과 같습니다.
 +
