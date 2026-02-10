@@ -1812,7 +1812,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="e656406ec3f71a6faf961120d8791fe6" category="paragraph"><block ref="e656406ec3f71a6faf961120d8791fe6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e665113a95f128bda94a45125d034c0" category="doc">Keystone 구독에 대한 세부 정보 보기</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">구독 탭 세부 정보 보기</block>
-  <block id="777a92dd9a9405f5a8f4c89917427c35" category="list-text">*구독 번호*: NetApp에서 할당한 Keystone 구독의 구독 번호입니다.</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*고객 이름*: Keystone 구독과 관련된 고객의 이름입니다.</block>
   <block id="1785b788275c7de318abca94e5882fe1" category="list-text">*연결된 구독*: 기본 구독에 연결된 보조 구독이 있는 경우, 이 열에는 기본 구독의 연결 구독 번호가 표시됩니다. 이 구독 번호는 기본 구독 또는 보조(연결된) 구독의 번호일 수 있습니다.</block>
   <block id="7e147d47de92c4a609c07c4bb5e40f29" category="list-text">*청구 기간*: 구독의 청구 기간입니다.</block>
@@ -2474,7 +2473,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="bac9b6c348c931a976006431b4b392d7" category="doc">Digital Advisor REST API를 사용하여 Keystone 고객 사용량 세부 정보를 가져오세요.</block>
   <block id="70233a54c59d50201e00e568353b8e42" category="doc">Digital Advisor REST API를 사용하여 모든 Keystone 고객 목록을 가져오세요.</block>
   <block id="bb9f69edc6b159c2172c134f7b8ec8d9" category="doc">Digital Advisor REST API를 사용하여 Keystone 고객 구독 정보를 가져옵니다.</block>
-  <block id="ec3c5dc2acc96dd435267e93ff378ceb" category="sidebar">추가 서비스에 대해 알아보세요</block>
   <block id="1c0706b323b25df07171d935dadca63d" category="sidebar">Keystone STaaS SLO에 대해 알아보세요.</block>
   <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">청구 방식을 이해하세요</block>
   <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">특정 볼륨 구성에 대한 청구</block>
@@ -2503,4 +2501,98 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="b3aabf2706f0dd29444a14f90b5b670f" category="admonition">테이블 헤더의 아래쪽 화살표 <block ref="f41a012a2c49083e45aae37ff23f77bc" category="inline-image-macro-rx" type="image"></block>를 클릭하면 모든 구독을 확장하여 각 구독의 성능 서비스 수준 정보를 동시에 볼 수 있습니다. 여기에는 모든 구독에 대한 현재 사용량, 약정 용량, 프로비저닝된 용량, 버스트 용량 및 사용 가능한 용량을 포함한 자세한 용량 정보가 표시됩니다. 또는 개별 구독 행의 *만료일* 열 옆에 있는 아래쪽 화살표를 클릭하여 하나씩 확장할 수도 있습니다.</block>
   <block id="ce767e3edd2ea431ac6813a73951729f" category="paragraph">Keystone 구독의 약정 용량을 수정하는 옵션은 현재 NetApp Console에서 사용할 수 없습니다. 이 기능은 향후 릴리스에서 다시 제공될 예정입니다.</block>
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026년 2월 2일</block>
+  <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">고급 데이터 보호 추가 서비스를 사용하여 미션 크리티컬 워크로드의 효율적인 데이터 보호를 보장하십시오.</block>
+  <block id="642f94d714f235631bdda58a0641ee29" category="doc">Keystone용 고급 데이터 보호 추가 기능</block>
+  <block id="13c48d4700ad4af5c8fd956e1cfe906e" category="paragraph">Keystone STaaS 구독 시 고급 데이터 보호(ADP) 추가 기능을 구독할 수 있습니다. 표준 Keystone 서비스에는 SnapMirror, SnapVault 및 Snapshot을 사용한 기본 데이터 보호 기능이 포함되어 있지만, 이 추가 기능은 NetApp MetroCluster 기술을 활용하여 복구 시점 목표(RPO) 0으로 미션 크리티컬 워크로드를 효율적으로 보호합니다.</block>
+  <block id="71d3312e0355ab7d413073f4793122fc" category="paragraph">Keystone 고급 데이터 보호 서비스는 데이터를 보조 사이트에 동기적으로 미러링할 수 있습니다. 기본 사이트에 재해가 발생할 경우, 보조 사이트에서 데이터 손실 없이 시스템을 인계받을 수 있습니다. 이 기능은 두 사이트 간의 <block ref="64ff7fce7f50f4f1d4bf30022fac8148" category="inline-link-macro-rx"></block> 구성을 활용하여 데이터 보호를 활성화합니다. 고급 데이터 보호 추가 서비스는 파일 및 블록 스토리지 서비스에만 사용할 수 있습니다. 이 추가 서비스의 일부로 <block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> 성능 서비스 수준이 구독에 할당됩니다.</block>
+  <block id="88447a30bf60d09ff5ebf0642e6380e8" category="inline-link-macro">MetroCluster 구독의 사용량 및 상태를 확인하세요</block>
+  <block id="e799b5eff99a155a4912e68e26db204f" category="paragraph">MetroCluster 구성에 대한 소비 및 상태 메트릭을 모니터링할 수 있습니다. 자세한 내용은 <block ref="0b2e2940da985e8c5260b9ec964b2073" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="738272188927126099f39cbe7024dbf9" category="section-title">가격 책정 이해</block>
+  <block id="a9defa509a6012981ff7f002dd53d0e6" category="paragraph">고급 데이터 보호 부가 서비스는 각 사이트의 약정 용량을 기준으로 가격이 책정됩니다. 이를 통해 고급 데이터 보호 서비스의 실제 비용을 TiB당 달러($/TiB)로 확인할 수 있습니다. 부가 서비스 요금은 원본 데이터, 미러링된 사본, 미러링되지 않은 데이터를 포함하여 구독에 포함된 모든 용량에 적용됩니다.</block>
+  <block id="880dc4bb6f99da8936686e254cb50669" category="paragraph">MetroCluster 구성의 경우 각 사이트마다 별도의 구독이 필요하며, 각 사이트에서 약정된 용량에 대해 개별적으로 요금이 부과됩니다.</block>
+  <block id="07a4905cb08550d85832c59c39e6d61c" category="list-text">이 서비스는 관련 스토리지의 약정 용량을 100% 약정 용량으로 사용합니다.</block>
+  <block id="35837aec92cf4ad38b86eaea542a0d30" category="list-text">요금은 기본 사이트와 보조 사이트 모두에 적용되며 소스 및 대상 클러스터를 모두 포함합니다.</block>
+  <block id="02ebdf7c9de6e8483fc7db75a00034e7" category="list-text">요금은 파일 및 블록 스토리지 서비스에만 적용됩니다.</block>
+  <block id="0b17361973d6dd62103a27ad522a1b4a" category="section-title">지원되는 MetroCluster 구성</block>
+  <block id="757a9b494786f22b7b66a8cb11d77505" category="paragraph">Keystone은 다음과 같은 MetroCluster 배포 시나리오를 지원합니다.</block>
+  <block id="a12f0bc36306f109786a32dcba12cb16" category="list-text">Active/Passive 구성</block>
+  <block id="6a1b5dfc7ed806f74f0a51d8e7fe82bf" category="list-text">이 구성에서는 한 사이트의 기본 데이터가 보조 사이트로 미러링됩니다. 예를 들어, 사이트 A에서 100TiB의 논리적 데이터가 사용되면 사이트 B로 복제됩니다. 두 사이트 모두 동일한 구독이 필요합니다.</block>
+  <block id="d7941f7e86a71e117ffab47d0f606396" category="list-text">*구독 1(사이트 A):* 100 TiB 스토리지 서비스 + 100 TiB ADP</block>
+  <block id="483262bd936bc7befb9af3dee5e82599" category="list-text">*구독 2(사이트 B):* 100 TiB 스토리지 서비스 + 100 TiB ADP</block>
+  <block id="6eb23ae1a2ca85e0ec0e596d79022274" category="list-text">전체 미러링을 지원하는 액티브/액티브 구성</block>
+  <block id="86b67c27aa3a547ae444c6fd52081d2a" category="list-text">이 구성에서는 두 사이트 모두 기본 데이터를 호스팅하고 양방향으로 미러링합니다. 예를 들어, 사이트 A의 100TiB 기본 데이터는 사이트 B로 미러링되고, 사이트 B의 100TiB 기본 데이터는 사이트 A로 미러링됩니다. 두 사이트 모두 결합된 용량에 대한 구독이 필요합니다.</block>
+  <block id="18134e5504718f75aade7e9e5e41220c" category="list-text">*구독 1(사이트 A):* 200 TiB 스토리지 서비스 + 200 TiB ADP</block>
+  <block id="06e569558b9aa9e52d6ea3b626499fa8" category="list-text">*구독 2(사이트 B):* 200 TiB 스토리지 서비스 + 200 TiB ADP</block>
+  <block id="49a70182977d0efde0901be0cf3f7101" category="list-text">부분 미러링을 사용하는 액티브/액티브 구성</block>
+  <block id="6cffd5c40a8669b47c08c961f08738d7" category="list-text">이 구성에서 한 사이트는 미러링된 데이터를 호스팅하고 다른 사이트는 미러링된 데이터와 미러링되지 않은 데이터를 모두 호스팅합니다. 예를 들어, 사이트 A의 기본 데이터 100TiB가 사이트 B로 미러링되고, 사이트 B는 추가로 100TiB의 미러링되지 않은 데이터를 호스팅합니다. 구독은 각 사이트의 용량에 따라 다릅니다.</block>
+  <block id="dfde62f4169c1a6e0ed4f38055fa2774" category="paragraph">다음 다이어그램은 지원되는 MetroCluster 구성을 보여줍니다.</block>
+  <block id="c0ba0a76f531a20bbda6af3c55a46aac" category="inline-image-macro">대칭 미러링을 사용하는 액티브/패시브, 완전 양방향 미러링을 사용하는 액티브/액티브, 부분 미러링을 사용하는 액티브/액티브의 세 가지 MetroCluster 구성을 보여주는 다이어그램</block>
+  <block id="9675e25ec9f821651df1c740fe778f97" category="paragraph"><block ref="9675e25ec9f821651df1c740fe778f97" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dcf5106043aa7bde76b50aee99982689" category="summary">Keystone에서 고급 데이터 보호 추가 서비스를 구독하면 MetroCluster 파트너 사이트의 소비 데이터를 보고 상태를 모니터링할 수 있습니다.</block>
+  <block id="511c40cd8a486a0e8aa1251baf8515ee" category="doc">Keystone MetroCluster 구독의 사용량 및 상태를 확인하세요</block>
+  <block id="54cce4aba23f46d3958d61fbb2b10e3a" category="paragraph">고급 데이터 보호 추가 서비스에 가입하면 NetApp Console 또는 Digital Advisor에서 MetroCluster 파트너 사이트의 사용 데이터를 확인할 수 있습니다. NetApp Console에서는 MetroCluster 구성의 복제 상태와 상태도 모니터링할 수 있습니다.</block>
+  <block id="f74fc96e874e659d41c34561f30f3fee" category="section-title">MetroCluster 구독 사용량 및 상태를 확인하세요</block>
+  <block id="b49647b9b1e8bc3c8d8768be0c33c9b2" category="paragraph">아래 단계를 따르십시오.</block>
+  <block id="1a94b13632bb1f29b09280731ca462ed" category="list-text">*구독 번호* 열에서 MetroCluster 구독을 선택합니다.</block>
+  <block id="58d25047c56c5383b6e5607bddacebca" category="inline-image-macro">MetroCluster 구독 기호</block>
+  <block id="26546fe0e238d82fb8663584226d1478" category="admonition">MetroCluster 구독은 <block ref="a865e8e7573241a1da9d2c81b0ca0ac4" category="inline-image-macro-rx" type="image"></block> 아이콘으로 식별됩니다.</block>
+  <block id="18c635825cb497bac7e5931ccc134aa0" category="paragraph">*현재 사용량* 탭이 열리고 구독 중인 기본 성능 서비스 수준과 해당 고급 데이터 보호 성능 서비스 수준에 대한 사용량 분석 정보가 표시됩니다. 이 정보는 표 또는 그래프 형식으로 볼 수 있습니다. 자세한 내용은 <block ref="fad18dbea5fe4d53670ce8b5f31e4228" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="86c03d482bf25fa66342ff23f81a8b8b" category="list-text">*고급 데이터 보호(ADP)* 탭을 선택합니다.</block>
+  <block id="45251127b3bb3ae466aebfd15071b035" category="paragraph">이 탭에서는 기본 사이트와 미러 사이트 모두에서 기본 성능 서비스 수준의 사용량 데이터를 확인하고, MetroCluster 설정의 상태를 모니터링하고, 동기화 상태를 추적할 수 있습니다.</block>
+  <block id="1c1a142854f6ec09d46068011af3620f" category="list-text">선택한 기간의 소비 분포 차트를 확인합니다.</block>
+  <block id="c5b9cac50bff77d9caef636546a52cc3" category="paragraph">이 차트는 기본 사이트와 미러 사이트 모두의 사용량을 보여줍니다. 차트에 마우스를 올리면 각 사이트별 사용량(테비바이트, TiB) 내역을 확인할 수 있습니다.</block>
+  <block id="5e3aabd541f9a8089c9a46b80f9c78e3" category="admonition">기본 성능 서비스 수준의 경우, 각 볼륨은 운영 사이트와 미러 사이트 모두에서 프로비저닝된 대로 요금이 부과됩니다. 따라서 차트는 각 사이트의 사용량을 반영하도록 분할되어 있습니다.</block>
+  <block id="886bb30f5882831107de008efbb56e4c" category="paragraph">*예:* 툴팁에는 운영 사이트의 경우 1.15 TiB, 미러 사이트의 경우 4.22 TiB와 같은 소비 값이 표시됩니다.</block>
+  <block id="7d46ce3951e18767710379cf79e92352" category="inline-image-macro">툴팁에 기본 사이트의 1.15 TiB와 미러 사이트의 4.22 TiB가 표시된 MetroCluster 사용량 분포를 보여주는 선 그래프</block>
+  <block id="1581159ff20524ddc181e539ca73cec9" category="paragraph"><block ref="1581159ff20524ddc181e539ca73cec9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="069a24e74f6fefe228c9ce5d28b7e67b" category="list-text">*ADP 토폴로지* 보기에서 MetroCluster 설정의 상태를 모니터링하세요.</block>
+  <block id="92d375ae13aef349145e8dc2877f3c76" category="inline-link-macro">ONTAP Mediator에 대해 알아보십시오</block>
+  <block id="22273e2e3da5fac4fab6a5af929487f6" category="paragraph">토폴로지에는 기본 사이트와 미러 사이트 간의 연결 상태(정상, 성능 저하, 연결 끊김 또는 초기화 중), 데이터 동기화 상태(동기화됨 또는 동기화되지 않음), 그리고 구성된 경우 ONTAP Mediator 상태가 표시됩니다. ONTAP Mediator에 대한 자세한 내용은 <block ref="fa6b7569dc18495dda4bcaf9e0e6d31d" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="c7ce58326ff0d43313f58438432618e4" category="inline-image-macro">기본 사이트(클러스터 A), 미러 사이트(클러스터 B), 연결 상태 표시기, 동기화 상태 및 ONTAP Mediator를 표시하는 ADP 토폴로지 이미지</block>
+  <block id="485a60e9684d6db386d471e94d4f8e6e" category="paragraph"><block ref="485a60e9684d6db386d471e94d4f8e6e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f7cf2a22df63f7c801c01cfb4ed82fab" category="admonition">ADP 토폴로지에서 클러스터 B 구독(미러)을 선택하여 운영 사이트로 볼 수 있습니다.</block>
+  <block id="ea463c160b93aefec442f24e23176210" category="admonition">동기화 상태가 동기화되지 않음으로 표시되거나 연결 상태가 저하됨으로 표시되는 경우 <block ref="da15ada5eca0cf6d8fba09a6cd49576b" category="inline-link-macro-rx"></block>을(를) 참조하여 문제를 해결하십시오.</block>
+  <block id="8f2ab845f0c2b21de9dce9bacddaabcb" category="list-text">기본 사이트 또는 미러 사이트의 기간별 데이터 소비 추세를 확인하십시오.</block>
+  <block id="3427110bee6003dd0893bac8f65d3026" category="paragraph">*용량 활용률*에서 클러스터 A(운영) 또는 클러스터 B(미러) 옆에 있는 *보기*를 선택합니다.</block>
+  <block id="d9e6be64cc5e0800433f8124d52098c6" category="inline-link-macro">Keystone 구독의 소비 추세를 확인하세요.</block>
+  <block id="9f7f2df13fda4f0939a1226559ef20a2" category="paragraph">*소비 추세* 탭이 열리고 지정된 기간 동안 선택한 클러스터의 기간별 소비 데이터가 표시됩니다. 기본 및 고급 데이터 보호 성능 서비스 수준 모두에 대한 용량 사용 추세를 분석할 수 있습니다. 자세한 내용은 <block ref="13e6bd514849d88572a566ee4b9ddd86" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="eb4d686858db5ecb37a6bcd33f15cecf" category="paragraph">*예:* 다음 차트는 운영 사이트(클러스터 A)의 _Premium_ 성능 서비스 수준(기본)에 대한 소비량을 보여줍니다.</block>
+  <block id="2828144b465892c01c607f91dadeed2e" category="inline-image-macro">기본 사이트에 대한 Premium 성능 서비스 수준 사용량 차트</block>
+  <block id="07c6bfc4b60aa098788912c943a00662" category="paragraph"><block ref="07c6bfc4b60aa098788912c943a00662" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9370e72ca2e46a103958448e1d9f3ee1" category="paragraph">_Advanced Data-Protect premium_ 성능 서비스 수준의 경우 기본 사이트(클러스터 A)에 대한 차트는 다음과 같습니다.</block>
+  <block id="7a68e24df64b887455f230838ea7fff3" category="inline-image-macro">기본 사이트용 Advanced Data Protection Premium 사용량 차트</block>
+  <block id="4fa7bd48201c6971cbee583844674499" category="paragraph"><block ref="4fa7bd48201c6971cbee583844674499" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae2e8d7d9bc83c06878ce05d51920b3e" category="paragraph">_Advanced Data-Protect_ 성능 서비스 수준의 경우, 총 사용량은 기본 사이트와 미러 사이트 간에 분할되며, 각 사이트의 사용량은 별도의 구독으로 반영되어 청구됩니다. 기본 사이트용 구독과 미러 사이트용 구독이 각각 하나씩 있습니다. 따라서 *Consumption trend* 탭에서 기본 사이트의 구독 번호를 선택하면 advanced data protection 추가 기능 서비스의 사용량 차트에 기본 사이트의 개별 사용량 세부 정보만 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 모두 수행하므로 각 사이트의 총 사용량에는 해당 사이트에 생성된 소스 및 미러 볼륨이 모두 포함됩니다. 자세한 내용은 <block ref="37286cb86a09a4920520b9288f4ef230" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="48d59ef93e565c1c62d4604f7ddf6561" category="inline-link">MetroCluster 데이터 보호 및 재해 복구 이해하기</block>
+  <block id="11faa60292999fe44e704021ce9a5657" category="paragraph">MetroCluster가 데이터를 보호하는 방법에 대한 자세한 내용은 다음을 참조하십시오<block ref="f22c59fda71318ed939c4a5a7c90b447" category="inline-link-rx"></block>.</block>
+  <block id="c1fd96e1a86ead5d1ebbf6b0c8bbf088" category="list-text">*일반 &gt; Keystone 구독 &gt; 소비 추세*를 선택합니다.</block>
+  <block id="9e2d1ddd4dcf430ef709f3cef91bdcb4" category="list-text">MetroCluster 구독을 선택합니다.</block>
+  <block id="6d2267f5875d98e045ec56c36925fe8c" category="paragraph">ONTAP 스토리지 환경의 클러스터가 MetroCluster 설정으로 구성된 경우 Keystone 구독의 사용량 데이터는 기본 성능 서비스 수준에 대한 운영 사이트와 미러 사이트의 사용량을 표시하기 위해 동일한 기간별 데이터 차트에 분할되어 표시됩니다.</block>
+  <block id="9fb2ff331e9a4f6de17ec429db9059a4" category="admonition">소비량 막대 그래프는 기본 성능 서비스 수준에 대해서만 구분됩니다. 고급 데이터 보호 부가 서비스, 즉 _Advanced Data-Protect_ 성능 서비스 수준의 경우에는 이러한 구분이 나타나지 않습니다.</block>
+  <block id="75e0534d6922c86860faff1d9500a18b" category="admonition">*현재 사용량* 탭에서 구독 추적 ID 옆에 있는 툴팁을 통해 MetroCluster 설정에서 파트너 구독을 식별할 수 있습니다.</block>
+  <block id="2f2646f9b1b507627f86513279abf2b8" category="paragraph">*고급 데이터 보호 성능 서비스 수준* 고급 데이터 보호 성능 서비스 수준의 경우, 총 사용량은 파트너 사이트 간에 분할되며, 각 파트너 사이트의 사용량은 별도의 구독으로 반영되어 청구됩니다. 기본 사이트용 구독과 미러 사이트용 구독이 각각 하나씩 있습니다. 따라서 사용량 추세 탭에서 기본 사이트의 구독 번호를 선택하면 고급 데이터 보호 추가 기능 서비스의 사용량 차트에 기본 사이트의 개별 사용량 세부 정보만 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 모두 수행하므로 각 사이트의 총 사용량에는 해당 사이트에 생성된 소스 및 미러 볼륨이 모두 포함됩니다.</block>
+  <block id="528ecb800a438dba65f32a6bb9c3e89d" category="paragraph">*기본 성능 서비스 수준* 기본 성능 서비스 수준의 경우 각 볼륨은 운영 사이트와 미러 사이트에서 프로비저닝된 만큼 요금이 부과되므로 동일한 막대 그래프가 운영 사이트와 미러 사이트의 사용량에 따라 분할됩니다.</block>
+  <block id="71315586cba8c8949f99a7a1df55dc0a" category="paragraph">*기본 구독 보기*</block>
+  <block id="2493a5abd7630f0ba79229ca96082697" category="paragraph">다음 이미지는 _Performance_ 서비스 레벨(기본 성능 서비스 레벨)에 대한 차트를 보여줍니다. 동일한 기간별 데이터 차트에는 기본 사이트에 사용된 색상 코드보다 밝은 색조로 미러 사이트의 사용량도 표시됩니다. 차트 위에 마우스를 올리면 각 사이트의 사용량 분석(TiB 단위)을 볼 수 있습니다. 이 예에서 기본 사이트의 값은 95.04 TiB이고 미러 사이트의 값은 93.38 TiB입니다.</block>
+  <block id="7cbd40b0470c3f0ea1063db9202530ff" category="inline-image-macro">mcc 기본</block>
+  <block id="b148b095b9eb2b66c9d82b9f31f5f48a" category="paragraph"><block ref="b148b095b9eb2b66c9d82b9f31f5f48a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8ddab06811a09aa84844d9013c618f1c" category="paragraph">_Advanced Data-Protect_ 성능 서비스 수준의 경우 차트는 다음과 같습니다.</block>
+  <block id="4bb0adac0644b7c8396196d410d47909" category="inline-image-macro">mcc 기본 베이스</block>
+  <block id="f4badb1f4371f9080a169022107c32a4" category="paragraph"><block ref="f4badb1f4371f9080a169022107c32a4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="079da252ccc5dbccc8de73980b3d636d" category="paragraph">표시된 94.21 TiB의 사용량은 기본 구독의 사용량을 나타냅니다. 고급 데이터 보호 기능은 별도의 구독을 사용하는 파트너 사이트 간에 사용량을 분할하므로 이 차트는 기본 사이트의 사용량만 보여줍니다. 고급 데이터 보호 추가 서비스의 가격에 대한 자세한 내용은 <block ref="e4b4611bcff3f9744cb4aede487c4fc5" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="ba0d35d2434b8356c9c24f1ebc67f3e3" category="paragraph">*미러 서브스크립션 보기*</block>
+  <block id="972278bcfbe3ce9d52d685be911a305c" category="paragraph">미러 구독을 확인하면 파트너 사이트와 동일한 데이터 수집 시점의 _Performance_ 서비스 수준(기본 성능 서비스 수준)에 대한 막대 그래프가 반전되어 표시되며, 기본 사이트와 미러 사이트의 사용량 분석 결과는 각각 93.38TiB와 95.04TiB임을 확인할 수 있습니다.</block>
+  <block id="ff58d4e2d2a69e5e91f9509907ba3bd1" category="inline-image-macro">mcc 미러</block>
+  <block id="e3da9701f96b1d8b1f5544caeddc8585" category="paragraph"><block ref="e3da9701f96b1d8b1f5544caeddc8585" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eb558bf0915ebb2e189ec8a1ab2f0494" category="paragraph">_Advanced Data-Protect_ 성능 서비스 수준의 경우, 파트너 사이트와 동일한 데이터 수집 지점에 대해 차트가 다음과 같이 표시됩니다.</block>
+  <block id="ab682f0abbe8b97aaec76b435ca52575" category="inline-image-macro">mcc 미러 기본</block>
+  <block id="b922b03e3dcfae7088adb392f0767e0b" category="paragraph"><block ref="b922b03e3dcfae7088adb392f0767e0b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="65a2a677ad699a266987a973a6da5af2" category="inline-link-macro">MetroCluster 소비 및 상태 확인</block>
+  <block id="132051ceb3854fb60e3d9c0fef6e399c" category="paragraph"><block ref="132051ceb3854fb60e3d9c0fef6e399c" category="inline-link-macro-rx"></block></block>
+  <block id="bf93ffdb682e2db2c7c1fde328e362e5" category="cell">예(상태, 토폴로지 보기 및 동기화 모니터링 포함)</block>
+  <block id="97e3a227dc9559ee612b1a162bda9b44" category="cell">예(소비 데이터만 해당)</block>
+  <block id="83a7d79d2446fe66f125a9ccf9a54e8d" category="list-text">*구독 번호*: NetApp에서 할당한 Keystone 구독의 구독 번호입니다. <block ref="a865e8e7573241a1da9d2c81b0ca0ac4" category="inline-image-macro-rx" type="image"></block> 아이콘이 있는 구독은 MetroCluster 구독입니다. MetroCluster 구독에 대한 자세한 내용은 <block ref="660e84029d4c47136198fc3e50dbcb48" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="ac2952bbdeeadb1f8bfdc6205fabd389" category="sidebar">MetroCluster 구독 사용량 및 상태 보기</block>
+  <block id="ab556116f6e3e88a66d6fb6d623318fa" category="sidebar">부가 서비스</block>
+  <block id="3f20b3134627198be1e0ff879a88cd8f" category="sidebar">고급 데이터 보호</block>
 </blocks>

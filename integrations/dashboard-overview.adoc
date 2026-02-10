@@ -102,6 +102,11 @@ link:../integrations/volumes-objects-tab.html["볼륨 및 객체 세부 정보 �
 
 
  a| 
+link:../integrations/adp-tab.html["MetroCluster 소비 및 상태 확인"]
+| 예(상태, 토폴로지 보기 및 동기화 모니터링 포함) | 예(소비 데이터만 해당) 
+
+
+ a| 
 link:../integrations/performance-tab.html["성능 메트릭을 봅니다"]
 | 아니요 | 예 
 |===

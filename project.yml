@@ -118,6 +118,8 @@ sidebar:
         url: "/integrations/consumption-tab.html"
       - title: 구독 일정 보기
         url: "/integrations/subscription-timeline.html"
+      - title: MetroCluster 구독 사용량 및 상태 보기
+        url: "/integrations/adp-tab.html"
     - title: 자산을 봅니다
       entries:
       - title: 구독과 관련된 자산 보기
@@ -150,8 +152,10 @@ sidebar:
         url: "/concepts/service-levels.html"
       - title: 성능 서비스 수준에 대한 용량 요구 사항
         url: "/concepts/capacity-requirements.html"
-    - title: 추가 서비스에 대해 알아보세요
+    - title: 부가 서비스
       entries:
+      - title: 고급 데이터 보호
+        url: "/concepts/adp.html"
       - title: 버스트 용량 옵션
         url: "/concepts/burst-capacity.html"
       - title: 데이터 인프라 인사이트
