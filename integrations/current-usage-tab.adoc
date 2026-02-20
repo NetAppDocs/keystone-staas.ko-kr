@@ -44,6 +44,10 @@ NOTE: 성능 서비스 수준에 여러 인스턴스가 있는 경우 두 보기
 +
 image:console-current-consumption-table.png["표 형식의 현재 소비 세부 정보"]
 
++
+
+NOTE: 고급 데이터 보호(ADP) 또는 Data Infrastructure Insights(DII)와 같은 추가 서비스를 구독한 경우, 이러한 서비스의 현재 사용량은 기본 성능 서비스 수준과 함께 그래프 및 표 보기 모두에서 표시됩니다. 추가 서비스에 대한 자세한 내용은 link:../concepts/adp.html["추가 서비스에 대해 알아보세요"]을(를) 참조하십시오.
+
 
 
 --

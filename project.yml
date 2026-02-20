@@ -152,7 +152,7 @@ sidebar:
         url: "/concepts/service-levels.html"
       - title: 성능 서비스 수준에 대한 용량 요구 사항
         url: "/concepts/capacity-requirements.html"
-    - title: 부가 서비스
+    - title: 추가 서비스에 대해 알아보세요
       entries:
       - title: 고급 데이터 보호
         url: "/concepts/adp.html"

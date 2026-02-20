@@ -1398,8 +1398,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3b95e9802e539ed39990d7c53e7f63cc" category="paragraph">NetApp Cloud Insights STaaS(Data Infrastructure Insights)를 위한 애드온 제품입니다. 이 서비스와 Keystone STaaS가 통합되어 퍼블릭 클라우드와 프라이빗 데이터 센터 전반에서 Keystone 제공 스토리지 리소스의 모니터링, 문제 해결 및 최적화 기능을 개선할 수 있습니다.</block>
   <block id="b4116a637c9ad7ac63e4694f7d72fe47" category="inline-link-macro">Data Infrastructure Insights 설명서</block>
   <block id="791f81543da974a0b785676eb2cfa67d" category="paragraph">Data Infrastructure Insights에 대한 자세한 내용은 을 <block ref="d3b10d06b902e7a0afb7dc49b48a5ee1" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="8821a03fd087171377d0af609b3c7f94" category="inline-image-macro">DII 서비스 수준을 보여 주는 Keystone 구독 위젯의 스크린샷</block>
-  <block id="62d433b3a1743ca27d23bb2bc966e462" category="paragraph"><block ref="62d433b3a1743ca27d23bb2bc966e462" category="inline-image-macro-rx" type="image"></block></block>
   <block id="35093b8f232384c1cc56aa0b089de156" category="section-title">Keystone용 DII 배포</block>
   <block id="af7685e284aa0e1b6d46a67961bbd7ea" category="inline-link-macro">NetApp 프로페셔널 서비스</block>
   <block id="f7cbbc681ca27bebc7825144375b3923" category="paragraph">고객은 Keystone용 DII를 다른 비 Keystone 환경을 모니터링하는 기존 인스턴스의 일부로 또는 새 인스턴스의 일부로 통합하는 두 가지 방법으로 통합할 수 있습니다. DII를 설정하는 것은 고객의 책임입니다. 복잡한 환경에서 DII를 설정하는 데 도움이 필요한 경우 영업 팀이 개입할 수 <block ref="d0b2c9035727476f87ec5eb3369e77e6" category="inline-link-macro-rx"></block>있습니다.</block>
@@ -1419,8 +1417,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="9a46d798eebbf17a0a8de6e011f77e61" category="section-title">비용 청구 및 사용량 측정</block>
   <block id="906219bd5cad7b32c457e4301bb3dddb" category="paragraph">다음은 DII 애드온 서비스의 청구 및 계측 세부 정보입니다.</block>
   <block id="4845aab96333666b12d6803a4dfa7e2f" category="list-text">이 서비스는 주 구독과 동일한 방식으로 평가됩니다. 예를 들어, 주 구독에 100TiB의 Extreme 서비스와 100TiB의 프리미엄 서비스가 포함된 경우, 두 가지 논리 사용량을 기준으로 측정한 애드온 서비스 DII Extreme 100TiB 및 DII Premium 100TiB도 논리적 사용량을 기준으로 측정됩니다. 주 구독을 프로비저닝된 기준으로 측정하는 경우 애드온 서비스는 동일한 용량에 대해 동일한 방식으로 측정됩니다. 추가 서비스는 주 구독과 동일한 측정 방법을 따릅니다.</block>
-  <block id="c99e19e7853ccd0683be6a6018ad7741" category="inline-image-macro">서비스 수준의 측정을 표시하는 Current Consumption(현재 소비) 탭의 스크린샷</block>
-  <block id="b0885a29b96393f9e5617fe484028b66" category="paragraph"><block ref="b0885a29b96393f9e5617fe484028b66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8db98a7e401d579f2dabed9e0f2ae0e5" category="list-text">이 서비스는 동일한 송장에 대해 Keystone 구독과 함께 요금을 부과하고 송장이 발행됩니다. Keystone 구독을 활성화하기 전에 Keystone용 DII를 구성하는 경우, 청구는 Keystone 구독 활성화 날짜 또는 기존 구독 수정 날짜부터 시작됩니다.</block>
   <block id="acc5c60ef02b38c0c3d244a1fce02d83" category="list-text">이 서비스는 연결된 Keystone 구독으로 종료됩니다. 갱신 시 추가 서비스의 갱신 여부를 선택할 수 있습니다. Keystone 구독을 갱신하지 않으면 모니터링되는 하드웨어가 폐기되고 추가 서비스가 자동으로 종료됩니다.</block>
   <block id="bfff02ceb19e1dc747612576a86266f9" category="section-title">지원 및 사용자 액세스</block>
@@ -1631,8 +1627,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="42c6fcaab380d23adc4355ae6bb2df0b" category="paragraph">감소량은 Extreme 성능 서비스 수준에 할당된 용량의 (125-108) = 17TiB입니다. 지출 재할당 시 할당된 하이브리드 클라우드 스토리지는 17TiB가 아니라 5000달러와 같은 용량입니다. 이 예시에서는 5,000달러로 Extreme 성능 서비스 수준에 대해 17TiB의 온프레미스 스토리지 용량과 Cloud Volumes ONTAP 성능 서비스 수준에 대해 47TiB의 하이브리드 클라우드 용량을 얻을 수 있습니다. 따라서 재할당은 용량이 아닌 지출과 관련해서 이루어집니다.</block>
   <block id="5f238d7b669564c4a06db9820b17a9c3" category="paragraph">약정 용량은 구독을 구매할 때 특정 성능 서비스 수준에 대해 약정된 용량입니다.</block>
   <block id="a5e80c8c714cefa82d0f175e2ea8eae1" category="paragraph">약정 용량은 귀하와 NetApp/파트너가 동의한 대로 단일 구독의 다양한 성능 서비스 수준에 대한 총 용량이 될 수 있습니다. 이 용량은 실제 용량 소비에 관계없이 각 Keystone 주문에 명시되어 있으며 청구됩니다.</block>
-  <block id="c3f0cd4e0817ed6ccaf89e89dc466a7b" category="paragraph">DII는 신규 및 기존 구독에 모두 사용할 수 있습니다. Keystone 구독에 약정된 용량에 대한 애드온으로 통합될 수 있습니다. DII가 Keystone 구독에 통합되면 구독의 각 기본 성능 서비스 수준에 해당하는 성능 서비스 수준이 적용됩니다. 예를 들어, Extreme은 DII Extreme에 매핑되고, Premium은 DII Premium에 매핑되며, Performance는 DII Performance에 매핑됩니다. 이러한 매핑을 통해 DII 성능 서비스 수준이 Keystone 구독의 기본 성능 서비스 수준과 일치하도록 할 수 있습니다.</block>
-  <block id="c2ad6efc2c70a7ddf3129813b4086d9d" category="paragraph">Digital Advisor 대시보드의 *Keystone Subscriptions* 위젯에서 DII 성과 서비스 수준을 보는 모습:</block>
   <block id="a7e6ac4ae7947619253439c265eec249" category="paragraph">DII 인스턴스가 구성되면 Keystone의 일부로 배포된 NetApp 스토리지 리소스를 모니터링하기 시작합니다.</block>
   <block id="abc501d7e199ea4ea077a268557f07c6" category="inline-link-macro">Keystone 대시보드 및 보고</block>
   <block id="5179c99cf35cfc837a65bf568160b173" category="admonition">DII는 배포된 하드웨어에 대한 광범위한 모니터링 기능을 제공하지만, 구독 사용량이나 성능 서비스 수준 등 Keystone 구독에 대한 정보는 제공하지 않습니다. 구독 관련 정보는 다음을 참조하세요. <block ref="0c9f3efee4ad3aaa79c65e2bbafc9a0a" category="inline-link-macro-rx"></block> .</block>
@@ -1756,7 +1750,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="060031875f3f915385690798ab0a3740" category="paragraph">Digital Advisor 대시보드의 *Keystone 구독* 위젯에서 구독 및 사용량 세부 정보와 구매하신 Keystone 서비스에 대한 용량 사용량 요약을 확인하실 수 있습니다. *Keystone 구독* 위젯에 대한 자세한 내용은 다음을 참조하세요. <block ref="00ed8f21a4cef28d7d8aa80cda364760" category="inline-link-macro-rx"></block> .</block>
   <block id="2d6e1b228a12f4c76c76939e28065d07" category="list-text"><block ref="2d6e1b228a12f4c76c76939e28065d07" category="inline-link-macro-rx"></block></block>
   <block id="85d148be40895e3d0f9c047d8b0e01b1" category="paragraph">Keystone 대시보드는 Keystone 구독을 효율적으로 모니터링, 분석 및 관리할 수 있는 최적의 솔루션입니다. Keystone 대시보드를 통해 다음과 같은 목표를 달성할 수 있습니다.</block>
-  <block id="2bf64d92e1a315894ffc10df4f760430" category="list-text">*구독 세부 정보 모니터링*: 성능 서비스 수준, 용량 사용, 자산 및 알림을 포함하여 Keystone 구독에 대한 자세한 정보를 확인하세요.</block>
   <block id="80e1eadef41b346546973348e209664d" category="list-text">*용량 사용량 추적 및 보고서 생성*: 현재 및 과거 용량 사용량을 추적하고, 구독 데이터를 분석하여 정보에 입각한 의사 결정을 내릴 수 있는 보고서를 생성합니다.</block>
   <block id="00a41eeac0923d207b9573b66eb56d6e" category="list-text">*구독 타임라인 보기*: 구독 타임라인을 모니터링하여 주요 날짜와 이벤트에 대한 정보를 얻으세요.</block>
   <block id="5da0271ff0556b615a698484060fe793" category="list-text">*구독 관리*: 요구 사항이 변경되면 성과 서비스 수준이나 기타 구독 매개변수를 수정하기 위한 요청을 제출합니다.</block>
@@ -1813,7 +1806,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="6e665113a95f128bda94a45125d034c0" category="doc">Keystone 구독에 대한 세부 정보 보기</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">구독 탭 세부 정보 보기</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*고객 이름*: Keystone 구독과 관련된 고객의 이름입니다.</block>
-  <block id="1785b788275c7de318abca94e5882fe1" category="list-text">*연결된 구독*: 기본 구독에 연결된 보조 구독이 있는 경우, 이 열에는 기본 구독의 연결 구독 번호가 표시됩니다. 이 구독 번호는 기본 구독 또는 보조(연결된) 구독의 번호일 수 있습니다.</block>
   <block id="7e147d47de92c4a609c07c4bb5e40f29" category="list-text">*청구 기간*: 구독의 청구 기간입니다.</block>
   <block id="15d3201050b72761174ef874891c70c2" category="list-text">*성능 서비스 수준*: 구독과 연관된 요금제의 수로, 각 요금제는 특정 성능 서비스 수준과 약정 용량에 해당합니다.</block>
   <block id="7977aee626f33c6d577f1efc799f2747" category="list-text">*최대 용량*: 구독 내에서 소비되는 최대 용량입니다.</block>
@@ -2112,7 +2104,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="e7a862d1277ff52d64b2b8419fe26d69" category="list-text">*용량 사용량*: 버스트 초과, 버스트 사용 중, 활용도 낮음 등의 구독에 대한 용량 소비 상태입니다. 각 카테고리에는 관련 필터가 적용된 *구독* 탭으로 이동할 수 있는 *보기* 버튼이 있습니다.</block>
   <block id="12e1b3132ab24ad467a7db5c6d50da11" category="list-text">* Keystone 버전*: 구독에 사용되는 Keystone 서비스의 버전입니다. 성과 서비스 수준에 대한 요금제 규칙은 구독 버전마다 다를 수 있습니다. 버전 v1에 대해 자세히 알아보려면 다음을 참조하세요.<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block> .</block>
   <block id="2011f3283ff705ca06648130cb758700" category="paragraph"><block ref="2011f3283ff705ca06648130cb758700" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e3db4ac6b95d51ce2a9fc54f2ebc8f17" category="list-text">*연계 구독*: 이 컬럼은 선택적으로 사용할 수 있습니다. 기본 구독에 연결된 보조 구독이 있는 경우, 이 열에는 기본 구독에 연결된 구독 번호가 나열됩니다. 이 구독 번호는 기본 또는 보조(연결) 구독의 번호일 수 있습니다.</block>
   <block id="afb3d054878af254ad9d657e9c39d6be" category="paragraph">선택한 Keystone STaaS 구독에 대해 총 볼륨 수, 보호된 볼륨 수, 랜섬웨어 보호 상태, 모든 볼륨에서 약정된 총 용량, 사용된 용량, 사용 가능한 용량을 확인할 수 있습니다.  보호된 볼륨의 수를 클릭하면 *볼륨 세부 정보* 탭으로 이동하며, 여기서 선택 사항에 따라 보호된 볼륨을 보여주는 필터링된 목록을 볼 수 있습니다.</block>
   <block id="c7409eaa8633fe96cf75ec03a907af58" category="paragraph"><block ref="c7409eaa8633fe96cf75ec03a907af58" category="inline-image-macro-rx" type="image"></block></block>
   <block id="964c0373b6e90b739308a155629631d1" category="paragraph"><block ref="964c0373b6e90b739308a155629631d1" category="inline-image-macro-rx" type="image"></block></block>
@@ -2593,6 +2584,30 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="97e3a227dc9559ee612b1a162bda9b44" category="cell">예(소비 데이터만 해당)</block>
   <block id="83a7d79d2446fe66f125a9ccf9a54e8d" category="list-text">*구독 번호*: NetApp에서 할당한 Keystone 구독의 구독 번호입니다. <block ref="a865e8e7573241a1da9d2c81b0ca0ac4" category="inline-image-macro-rx" type="image"></block> 아이콘이 있는 구독은 MetroCluster 구독입니다. MetroCluster 구독에 대한 자세한 내용은 <block ref="660e84029d4c47136198fc3e50dbcb48" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="ac2952bbdeeadb1f8bfdc6205fabd389" category="sidebar">MetroCluster 구독 사용량 및 상태 보기</block>
-  <block id="ab556116f6e3e88a66d6fb6d623318fa" category="sidebar">부가 서비스</block>
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="sidebar">고급 데이터 보호</block>
+  <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insights 추가 기능 소비량 표시</block>
+  <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">DII 소비량 보기</block>
+  <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights(DII) 추가 기능 사용량이 이제 *현재 사용량* 및 *사용량 추세* 탭에 표시됩니다. 자세한 내용은 <block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="ade2f26a9f9c3f533ed70befc7417b6b" category="section-title">Keystone 구독에 대한 DII 정보</block>
+  <block id="9843f64ed3799d5bdb14dda01a9b5a37" category="paragraph">DII는 신규 및 기존 구독 모두에서 이용 가능합니다. 커밋된 용량에 대한 추가 기능으로 Keystone 구독에 통합할 수 있습니다.</block>
+  <block id="28ee0e8daa391f128672facc133e687f" category="paragraph">DII가 Keystone 구독에 통합되면 해당 구독의 기본 성능 서비스 수준별로 상응하는 성능 서비스 수준이 생성됩니다. 예를 들어, Extreme은 DII Extreme에, Premium은 DII Premium에, Performance는 DII Performance에 대응됩니다. 이러한 매핑을 통해 DII 성능 서비스 수준이 Keystone 구독의 기본 성능 서비스 수준과 일치하게 됩니다.</block>
+  <block id="0ff7208ef5e37de33ec837dee18cbdc1" category="paragraph">NetApp Console 또는 Digital Advisor를 통해 DII 추가 기능 서비스의 사용량을 확인할 수 있습니다. DII 성능 서비스 수준(예: DII Extreme, DII Premium, DII Performance)의 사용량 데이터는 현재 사용량 및 사용량 추세 보기에서 기본 성능 서비스 수준과 함께 표시됩니다.</block>
+  <block id="be42f3858da5f1cd379afec5cbef2b6c" category="paragraph">다음 예시는 Console의 *Current consumption* 탭에서 Data Infrastructure Insights 성능 서비스 수준을 보여줍니다.</block>
+  <block id="ab206be215309dfd48d917f39a386bc6" category="inline-image-macro">DII 서비스 수준을 표시하는 현재 소비량 탭의 스크린샷</block>
+  <block id="6fb64940a1e6a241679a7f0c8fda8824" category="paragraph"><block ref="6fb64940a1e6a241679a7f0c8fda8824" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c3ef5e8e1cbfd217063168e43da5eee8" category="paragraph">다음 예에서는 Digital Advisor의 *Keystone Subscriptions* 위젯에 있는 DII 성능 서비스 수준을 보여 줍니다.</block>
+  <block id="53e2dacb590ff4008c16b7f5067d048b" category="inline-image-macro">DII 서비스 레벨을 표시하는 Keystone Subscriptions 위젯의 스크린샷</block>
+  <block id="1a319c77796208929656fe0e744e4694" category="paragraph"><block ref="1a319c77796208929656fe0e744e4694" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d2e0a33a4ecfd25ee5df1b85c1d29c5c" category="paragraph">소비 보기에 대한 자세한 내용은 다음을 참조하십시오.</block>
+  <block id="fad18dbea5fe4d53670ce8b5f31e4228" category="list-text"><block ref="fad18dbea5fe4d53670ce8b5f31e4228" category="inline-link-macro-rx"></block></block>
+  <block id="d40818e721dbdfb8ef017a3c524d1def" category="list-text"><block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block></block>
+  <block id="ec3c5dc2acc96dd435267e93ff378ceb" category="inline-link-macro">추가 서비스에 대해 알아보세요</block>
+  <block id="85a900a56892dba4e86c93a2ca9a49c9" category="admonition">고급 데이터 보호(ADP) 또는 Data Infrastructure Insights(DII)와 같은 추가 서비스를 구독한 경우, 이러한 서비스의 사용량 데이터는 과거 사용량 보기와 누적 버스트 보기 모두에서 기본 성능 서비스 수준과 함께 표시됩니다. 추가 서비스에 대한 자세한 내용은 <block ref="a9f54665bc3ae1390a16fe76b63295f2" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="f8ca7590fc27a84df2479575446a86d2" category="list-text"><block ref="f8ca7590fc27a84df2479575446a86d2" category="inline-link-macro-rx"></block></block>
+  <block id="2cf57deab11a97384e65ae3b18f8e059" category="list-text"><block ref="2cf57deab11a97384e65ae3b18f8e059" category="inline-link-macro-rx"></block></block>
+  <block id="102319efa425f0a1168cb455080902ee" category="admonition">고급 데이터 보호(ADP) 또는 Data Infrastructure Insights(DII)와 같은 추가 서비스를 구독한 경우, 이러한 서비스의 현재 사용량은 기본 성능 서비스 수준과 함께 그래프 및 표 보기 모두에서 표시됩니다. 추가 서비스에 대한 자세한 내용은 <block ref="a9f54665bc3ae1390a16fe76b63295f2" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="dd22742edaecc726c34a5b11cbaa62a9" category="list-text">*구독 세부 정보 모니터링*: Keystone 구독에 대한 자세한 정보를 확인하세요. 여기에는 성능 서비스 수준(기본 서비스 및 고급 데이터 보호, Data Infrastructure Insights 등의 추가 서비스), 용량 사용량, 자산 및 알림이 포함됩니다.</block>
+  <block id="3a0ac91f607c4908d1e3d47d382884f8" category="list-text">*연결된 구독*: 기본 구독에 연결된 보조 구독이 있는 경우 이 열에는 기본 구독에 대해 연결된 구독 번호가 나열됩니다.</block>
+  <block id="b3f613e3d8f464b4f2aaf03e58cd7343" category="list-text">*연동된 구독*: 기본 구독에 연결된 보조 구독이 있는 경우 이 열에는 기본 구독에 연결된 구독 번호가 표시됩니다.</block>
+  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026년 2월 16일</block>
 </blocks>

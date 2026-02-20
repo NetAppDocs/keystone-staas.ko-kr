@@ -18,11 +18,13 @@ NetApp Cloud Insights STaaS(Data Infrastructure Insights)를 위한 애드온 �
 
 Data Infrastructure Insights에 대한 자세한 내용은 을 link:https://docs.netapp.com/us-en/data-infrastructure-insights/["Data Infrastructure Insights 설명서"^]참조하십시오.
 
-DII는 신규 및 기존 구독에 모두 사용할 수 있습니다. Keystone 구독에 약정된 용량에 대한 애드온으로 통합될 수 있습니다. DII가 Keystone 구독에 통합되면 구독의 각 기본 성능 서비스 수준에 해당하는 성능 서비스 수준이 적용됩니다. 예를 들어, Extreme은 DII Extreme에 매핑되고, Premium은 DII Premium에 매핑되며, Performance는 DII Performance에 매핑됩니다. 이러한 매핑을 통해 DII 성능 서비스 수준이 Keystone 구독의 기본 성능 서비스 수준과 일치하도록 할 수 있습니다.
 
-Digital Advisor 대시보드의 *Keystone Subscriptions* 위젯에서 DII 성과 서비스 수준을 보는 모습:
 
-image:keystone-widget-dii.png["DII 서비스 수준을 보여 주는 Keystone 구독 위젯의 스크린샷"]
+== Keystone 구독에 대한 DII 정보
+
+DII는 신규 및 기존 구독 모두에서 이용 가능합니다. 커밋된 용량에 대한 추가 기능으로 Keystone 구독에 통합할 수 있습니다.
+
+DII가 Keystone 구독에 통합되면 해당 구독의 기본 성능 서비스 수준별로 상응하는 성능 서비스 수준이 생성됩니다. 예를 들어, Extreme은 DII Extreme에, Premium은 DII Premium에, Performance는 DII Performance에 대응됩니다. 이러한 매핑을 통해 DII 성능 서비스 수준이 Keystone 구독의 기본 성능 서비스 수준과 일치하게 됩니다.
 
 
 
@@ -60,14 +62,31 @@ NOTE: DII는 배포된 하드웨어에 대한 광범위한 모니터링 기능�
 
 
 
+== DII 소비량 보기
+
+NetApp Console 또는 Digital Advisor를 통해 DII 추가 기능 서비스의 사용량을 확인할 수 있습니다. DII 성능 서비스 수준(예: DII Extreme, DII Premium, DII Performance)의 사용량 데이터는 현재 사용량 및 사용량 추세 보기에서 기본 성능 서비스 수준과 함께 표시됩니다.
+
+다음 예시는 Console의 *Current consumption* 탭에서 Data Infrastructure Insights 성능 서비스 수준을 보여줍니다.
+
+image:console-current-consumption-dii.png["DII 서비스 수준을 표시하는 현재 소비량 탭의 스크린샷"]
+
+다음 예에서는 Digital Advisor의 *Keystone Subscriptions* 위젯에 있는 DII 성능 서비스 수준을 보여 줍니다.
+
+image:keystone-widget-dii.png["DII 서비스 레벨을 표시하는 Keystone Subscriptions 위젯의 스크린샷"]
+
+소비 보기에 대한 자세한 내용은 다음을 참조하십시오.
+
+* link:../integrations/current-usage-tab.html["Keystone 구독의 현재 소비량을 확인하세요"]
+* link:../integrations/consumption-tab.html["Keystone 구독의 소비 추세를 확인하세요"]
+
+
+
+
 == 비용 청구 및 사용량 측정
 
 다음은 DII 애드온 서비스의 청구 및 계측 세부 정보입니다.
 
 * 이 서비스는 주 구독과 동일한 방식으로 평가됩니다. 예를 들어, 주 구독에 100TiB의 Extreme 서비스와 100TiB의 프리미엄 서비스가 포함된 경우, 두 가지 논리 사용량을 기준으로 측정한 애드온 서비스 DII Extreme 100TiB 및 DII Premium 100TiB도 논리적 사용량을 기준으로 측정됩니다. 주 구독을 프로비저닝된 기준으로 측정하는 경우 애드온 서비스는 동일한 용량에 대해 동일한 방식으로 측정됩니다. 추가 서비스는 주 구독과 동일한 측정 방법을 따릅니다.
-+
-image:current-consumption-dii.png["서비스 수준의 측정을 표시하는 Current Consumption(현재 소비) 탭의 스크린샷"]
-
 * 이 서비스는 동일한 송장에 대해 Keystone 구독과 함께 요금을 부과하고 송장이 발행됩니다. Keystone 구독을 활성화하기 전에 Keystone용 DII를 구성하는 경우, 청구는 Keystone 구독 활성화 날짜 또는 기존 구독 수정 날짜부터 시작됩니다.
 * 이 서비스는 표준 Keystone 청구서 외에도 DII 성능 서비스 수준의 약정 용량 및 버스트 사용량을 기준으로 계량 및 청구됩니다. 이 추가 서비스의 계량은 기본 Keystone 구독 성능 서비스 수준과 동일한 방법론을 따르며, 이는 논리적, 프로비저닝 또는 물리적일 수 있습니다.
 * 이 서비스는 연결된 Keystone 구독으로 종료됩니다. 갱신 시 추가 서비스의 갱신 여부를 선택할 수 있습니다. Keystone 구독을 갱신하지 않으면 모니터링되는 하드웨어가 폐기되고 추가 서비스가 자동으로 종료됩니다.
