@@ -1685,7 +1685,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="a6d14f938372e9370efce69c777dcc25" category="admonition">열 선택기를 사용하여 테이블을 사용자 정의할 수 있습니다. <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하고 상단의 검색 창을 사용하여 열 매개변수를 기준으로 Keystone 데이터를 검색하고 필터링합니다.</block>
   <block id="724db714685a078e3188da156c5e09ff" category="list-text">*클러스터의 볼륨* 탭을 선택합니다.</block>
   <block id="7eaaba921c5d6990f4eb7b440707d8bf" category="inline-image-macro">여러 구독에 대한 클러스터의 볼륨 스크린샷</block>
-  <block id="2c7173774c9df82165dfee33d6fceb13" category="paragraph">Keystone 구독에 포함된 모든 클러스터의 볼륨에 대한 자세한 정보(볼륨 이름, 구독 번호, 노드 일련 번호, QoS 정책 준수 여부, 클러스터 이름, 호스트 이름, 성능 서비스 수준 등)를 확인할 수 있습니다. 프로비저닝된 용량, 논리적 및 물리적 사용률, 그리고 콜드 데이터를 모니터링할 수 있습니다. 또한 다음 항목에 대한 개요도 확인할 수 있습니다.</block>
   <block id="c35efb62586ff05c5d6f57e4b0350323" category="list-text">구독, 클러스터, 볼륨의 총 수입니다.</block>
   <block id="14ef4df445c232cff9b58a77d20a81f1" category="list-text">볼륨 규정 준수 및 보호 상태를 확인하고, *보기* 버튼을 눌러 규정 준수, 규정 미준수, 보호 미실시 등의 기준에 따라 자산을 필터링하여 표시합니다.</block>
   <block id="f6eb16e137bdab399dbb70e386762544" category="paragraph">*구독 번호* 열에서 구독 번호를 클릭하면 *구독* 탭으로 이동하여 구독 소비 세부 정보, 타임라인 및 관련 자산 정보를 볼 수 있습니다. 자세한 내용은 을 <block ref="fdad9ab5c825af5756df523fe50d05f9" category="inline-link-macro-rx"></block>참조하십시오.</block>
@@ -2081,9 +2080,7 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c1602534a88a762a1ce3972cdede18e6" category="list-text">보안된 비 USPS 사이트의 경우 이 파일이 포함된 이메일을 ng-keystone-secure-site-upload@netapp.com으로 보내고, 보안된 USPS 사이트의 경우 ng-keystone-secure-site-usps-upload@netapp.com으로 보내세요.</block>
   <block id="f554b3f79210a232f43aa1148b762978" category="list-text">파일을 모아서 보안이 강화된 비 USPS 사이트의 경우 ng-keystone-secure-site-upload@netapp.com으로, 보안이 강화된 USPS 사이트의 경우 ng-keystone-secure-site-usps-upload@netapp.com으로 보내주세요.</block>
   <block id="2dfe1e4bd705394ed47b37168da7e39d" category="paragraph"><block ref="2dfe1e4bd705394ed47b37168da7e39d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d1b3427c4c890671eb0520ac0d4affa3" category="paragraph">볼륨 이름, 노드 일련 번호, 클러스터 이름, 호스트 이름, 성능 서비스 수준을 포함하여 클러스터의 볼륨에 대한 자세한 정보를 볼 수 있습니다. 또한 프로비저닝된 용량, 논리적 및 물리적 활용도, 콜드 데이터를 모니터링할 수 있습니다.</block>
   <block id="5c5e806c3574f28d7ccf6a897c034d18" category="paragraph"><block ref="5c5e806c3574f28d7ccf6a897c034d18" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="21c9d68b030c5bf0ddbda9a170d32552" category="paragraph">선형 그래프는 과거 소비 데이터를 표시하고 사용자가 선택한 날짜 범위에 대한 추세를 분석할 수 있도록 해줍니다. 그래프는 사용 용량(데이터와 스냅샷 데이터를 모두 포함한 총 저장 용량), 데이터(사용자 데이터에서 사용하는 저장 용량), 스냅샷(스냅샷 데이터에서 사용하는 저장 용량)과 같은 측정 항목을 커밋 및 버스트 용량과 함께 보여줍니다. 각 데이터 포인트의 날짜와 시간은 그래프 하단에 표시됩니다. 쿼리의 날짜 범위를 기준으로 사용 차트에는 최대 30개의 데이터 수집 지점이 표시됩니다. 그래프 위에 마우스 커서를 올려놓으면 각 데이터 수집 지점에서의 사용량 세부 정보를 볼 수 있습니다.</block>
   <block id="1b137f241f929a351e941ba96f7347a8" category="admonition">성능 서비스 수준에 여러 인스턴스가 있는 경우 인스턴스별로 필터링하여 각 인스턴스에 대한 과거 데이터를 별도로 볼 수 있습니다.</block>
   <block id="c790cd64cc9ce087b29b63d208671f07" category="admonition">성능 서비스 수준에 여러 인스턴스가 있는 경우 두 보기 중 하나에서 *인스턴스별 보기*를 확장하여 각 인스턴스의 현재 소비 세부 정보를 별도로 볼 수 있습니다.  예를 들어, 구독 내에 Extreme 성능 서비스 수준의 인스턴스가 두 개 있는 경우 각 인스턴스는 자체적으로 약정된 용량, 사용된 용량, 사용 가능한 용량을 별도로 표시합니다.</block>
   <block id="1d302dcc8fc5540b6e87e54f3d0753c8" category="admonition">성능 서비스 수준에 여러 인스턴스가 있는 경우 *인스턴스* 탭을 선택하면 각 인스턴스의 현재 소비 세부 정보를 볼 수 있습니다.  예를 들어, 구독 내에 Extreme 성능 서비스 수준의 인스턴스가 두 개 있는 경우 각 인스턴스는 자체적으로 약정된 용량, 사용된 용량, 사용 가능한 용량을 별도로 표시합니다.  성과 서비스 수준에 대해 자세히 알아보려면 다음을 참조하세요.<block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> .</block>
@@ -2133,7 +2130,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">이 열은 성능 및 콜드 계층의 데이터를 포함하여 FabricPool 계층화를 사용하는 볼륨의 총 논리적 설치 공간을 표시하므로 Keystone 소비량을 정확하게 계산할 수 있습니다.</block>
   <block id="bff820430728f0b409c26641dc8ddd41" category="list-text">ONTAP 9.16.1 이상의 경우 다음 명령을 실행하여 일일 로그 내용을 수정하세요.</block>
   <block id="63af57ffe551ed93c0576ba741b36e47" category="list-text">이전 ONTAP 버전의 경우 다음 명령을 실행하여 일일 로그 내용을 수정하세요.</block>
-  <block id="8e65b1fa60d467c8850acfb3f1d1b8b9" category="paragraph">*열 숨기기/표시*를 사용하여 표에 표시되는 열을 추가하거나 제거할 수 있습니다. 기본적으로 표에는 이전에 저장된 열 기본 설정이 표시됩니다.  *부서* 또는 *총 면적* 열과 같이 새로 추가된 열은 기본적으로 숨겨져 있으며 표에 나타나려면 수동으로 선택해야 합니다.  원하는 열을 선택하거나 선택 해제할 수 있으며, 기본 설정은 나중에 사용할 수 있도록 저장됩니다.  CSV 보고서를 다운로드하면 표시 기본 설정에 관계없이 사용 가능한 모든 열이 내보내기에 포함됩니다.</block>
   <block id="56a9fe5a3d171069cb125956f6186c86" category="paragraph">Digital Advisor 대시보드에서 MetroCluster 구성으로 구성된 구독의 소비 추세 차트에서 버스트 임계값 선이 누락되어 잘못된 *버스트 한도 초과* 상태가 표시됩니다.</block>
   <block id="8d317448388884cae15b07e53f9c9fbc" category="paragraph">2025년 8월 28일</block>
   <block id="b8d454c9414aa4b52ad019b0311711b5" category="section-title">2025년 8월 28일</block>
@@ -2185,7 +2181,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="85fc8a3c54b846eae784ce216c74002f" category="list-text">제거하려는 모니터의 줄임표 아이콘을 선택하세요.</block>
   <block id="78d022431bdaa899926744aad15d4c0d" category="list-text">*삭제*를 선택하고 삭제를 확인하세요.</block>
   <block id="e33238cb2adeeccce9f9b9d4a8b9bb1c" category="paragraph">삭제 후에는 모니터에 연결된 구독에 대한 알림이 더 이상 제공되지 않습니다.</block>
-  <block id="0c3bfbd743380880bf374b2cdc5d53ec" category="admonition">시스템에서 생성된 모니터는 사용자가 삭제할 수 없습니다.</block>
   <block id="1d02064d5ee1a5a4a8455f06dacb6b1f" category="inline-link-macro">알림 보기 및 관리</block>
   <block id="b3f8c20435f04a33e07ab53c0c9f7689" category="list-text"><block ref="b3f8c20435f04a33e07ab53c0c9f7689" category="inline-link-macro-rx"></block></block>
   <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Keystone 구독에 대한 알림을 보고 관리합니다.</block>
@@ -2195,12 +2190,8 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">알림 보기</block>
   <block id="17ec1dd00ee2fa8e3a2bea341f3176eb" category="paragraph">활성 알림을 보려면 다음 단계를 따르세요.</block>
   <block id="c1c3f4de38096a880721ae1b1aac2343" category="inline-image-macro">Keystone 구독에 대한 활성 알림 스크린샷</block>
-  <block id="d3c879b0c34417e803eaa2f50299c117" category="paragraph">심각도, ID, 설명, 발생 시간, 구독 번호, 추적 ID, 성과 서비스 수준 및 상태와 같은 알림 세부 정보를 볼 수 있습니다.  이 페이지에는 심각도와 유형별로 해결되지 않은 총 경고도 표시됩니다.</block>
   <block id="685b0f2db45e4fc09a06ccb4695806de" category="section-title">알림 관리</block>
   <block id="e947bf3957a95267ebbec2757a9931af" category="paragraph">*알림* 탭에서 다음 작업을 수행할 수 있습니다.</block>
-  <block id="e6c2b8324e72d373fd318067fad63e39" category="list-text">*알림 검토 및 해결*: 알림 ID 번호를 선택하면 알림에 대한 자세한 보기가 열립니다.  이 보기에서는 알림 설명과 제안된 해결 단계가 표시됩니다.  이 자세한 보기를 통해 다음을 수행할 수 있습니다.</block>
-  <block id="99091d9847708ade0e5c12b824b530ec" category="list-text">문제를 해결한 후 *편집* 버튼을 선택하여 알림을 해결된 것으로 표시하세요.</block>
-  <block id="d97dee7ef47cec6420fa02b3c5776dde" category="list-text">필요한 경우 *메모 추가* 버튼을 선택하여 지원 메모를 추가하세요.</block>
   <block id="e814402d8806e7855f5c97156e88da0c" category="list-text">*알림 필터링*: *상태* 열의 필터 아이콘을 사용하여 활성 알림, 해결된 알림 또는 둘 다만 볼 수 있습니다.</block>
   <block id="66c71aff4423b3f2e50ac2dfa8ccf4c9" category="list-text">*구독 세부 정보 보기*: *구독* 열에서 구독 번호를 선택하면 구독 세부 정보, 소비 추세, 자산 정보에 액세스하여 알림을 이해하고 해결할 수 있습니다. 자세한 내용은 다음을 참조하세요. <block ref="fdad9ab5c825af5756df523fe50d05f9" category="inline-link-macro-rx"></block> .</block>
   <block id="f4a4fc70d768b745e8b5b57c259ad569" category="inline-link-macro">알림 모니터 보기 및 생성</block>
@@ -2269,7 +2260,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="187aba3af65d3bb1230dc8604f0acb91" category="paragraph"><block ref="187aba3af65d3bb1230dc8604f0acb91" category="inline-image-macro-rx" type="image"></block></block>
   <block id="293028e42f8edb8a2749fa8fca8130fa" category="paragraph">NetApp 콘솔의 Keystone 대시보드를 사용하면 Keystone 스토리지 환경에서 활성 알림을 보고 관리할 수 있습니다. 용량 사용 및 구독 만료에 대한 시스템 생성 알림과 사용자 정의 알림을 모두 볼 수 있습니다. 이 보기를 통해 경고 심각도를 빠르게 평가하고, 스토리지 문제를 파악하고, 시정 조치를 취할 수 있습니다. 이 뷰는 Digital Advisor 에서 사용할 수 없습니다.</block>
   <block id="743c58da8a9fadd274f3f9b5676e7a58" category="list-text">콘솔 왼쪽 탐색 메뉴에서 *저장소 &gt; Keystone &gt; 모니터링 &gt; 알림*을 선택합니다.</block>
-  <block id="63fb46a4add2145056e9aea0b921bc56" category="paragraph"><block ref="63fb46a4add2145056e9aea0b921bc56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ebc3d49271bd7e13ad66606299b721ea" category="section-title">NetApp 콘솔에서 데이터 검색 및 필터링</block>
   <block id="35716f4fafb244c80a13dc4d6f0b0da8" category="paragraph">콘솔에서 탭 내의 표에서 사용 가능한 열 매개변수를 기준으로 Keystone 데이터를 검색하고 필터링할 수 있습니다. 예를 들어, *구독* 페이지 아래의 *구독* 탭에서 검색창에 Keystone 버전을 입력하여 데이터를 필터링할 수 있습니다. 마찬가지로, *자산* 페이지 아래의 *클러스터의 볼륨* 탭에서 검색 상자에 볼륨 이름을 입력하여 볼륨을 필터링할 수 있습니다.</block>
   <block id="4d3b4ab28c7beb3d285ae63a4b48dc5b" category="paragraph">사용 가능한 경우 고급 필터 옵션을 사용하여 검색을 구체화할 수 있습니다. 예를 들어, *구독* 탭에서는 Keystone 버전, 청구 기간, 최대 용량, 구독 만료일까지의 일수별로 데이터를 필터링할 수 있으며, *클러스터의 볼륨* 탭에서는 볼륨 이름, 클러스터 이름, 볼륨 유형 등으로 필터링할 수 있습니다. 여러 필터를 동시에 적용하여 결과를 정확하게 좁힐 수 있습니다.<block ref="f163c2c9209b92ad140bb233f78e91e3" category="inline-image-macro-rx" type="image"></block></block>
@@ -2354,7 +2344,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="8583cba6ee38a66f6e19ca7c15a5c1ed" category="inline-link-macro">경보 모니터의 적용 범위 격차 관리</block>
   <block id="a60761706ec1d12934bfc1dd049da2df" category="paragraph">*모니터링* 페이지의 *알림 모니터* 탭에는 적용 범위에 차이가 있을 때 나타나는 *적용 범위 완료* 알림 상자가 포함되어 있습니다.  이 상자에는 용량 또는 만료 모니터가 없는 구독과 구독이 없는 모니터가 나열됩니다.  기존 모니터에 구독을 추가하거나, 새로운 모니터를 만들거나, 사용하지 않는 모니터를 삭제하여 격차를 해소할 수 있습니다. 자세한 내용은 다음을 참조하세요. <block ref="1ef75ae1f09bcc7a95c6bbe07a54229c" category="inline-link-macro-rx"></block>.</block>
   <block id="39fb73624dac610b8274b1bd6e2c1193" category="paragraph">NetApp Console 의 Keystone 대시보드에서 Keystone 구독에 대한 알림 모니터를 보고 만들 수 있습니다.  대시보드는 용량 사용 및 구독 만료에 대한 시스템 생성 모니터와 사용자 정의 모니터를 모두 보여줍니다. 임계값을 설정하고, 알림 심각도를 선택하고, 알림을 받을 이메일 수신자를 추가하는 모니터를 만들 수 있습니다.  적용되지 않는 구독에 모니터를 추가하거나, 사용되지 않는 모니터를 해결하여 적용 범위 차이를 해소할 수 있습니다. 이 기능은 Digital Advisor 에서는 사용할 수 없습니다.</block>
-  <block id="60adeaffad8e127352095573a6e3157f" category="paragraph">모니터 이름, 알림을 트리거하는 경고 조건, 심각도 수준, 구독 번호, 성능 서비스 수준 및 상태를 포함하여 Keystone 구독 전반에 걸쳐 경고 모니터 목록을 볼 수 있습니다. *생성자* 열을 확인하여 알림 모니터가 시스템에서 생성되었는지 아니면 사용자가 정의했는지 확인할 수 있습니다.</block>
   <block id="ac092a2bcbdb5857ae37a4756db46a49" category="list-text">*모니터 생성* 버튼을 선택하세요.</block>
   <block id="cb5198d92b18cf007a9117aa50f90c3e" category="list-text">필요한 필드를 변경하고 *만들기*를 클릭하세요.</block>
   <block id="2fd74b6a7fe875798408a25e1558c434" category="section-title">보장 범위 격차 관리</block>
@@ -2606,4 +2595,36 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="da4bea38cc1244c367fa4751943a1de3" category="paragraph">성능 서비스 수준의 지연 시간 요구 사항에 대한 자세한 내용은 <block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
   <block id="b4508efb1fe09000c916385cb19795aa" category="cell">*영향을 받는 달력 일수*</block>
   <block id="2f8ed0b357b613711aa9e5d215bc6566" category="paragraph">계산에 따르면 서비스 크레딧은 $12입니다.</block>
+  <block id="3006a02699b8df924e1d005be208a0d9" category="doc">클러스터의 볼륨 탭의 새 열</block>
+  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">*자산*의 *클러스터별 볼륨* 탭에 *핫 데이터*, *콜드 티어(%)*, *핫 티어(%)*라는 세 개의 새로운 열이 추가되었습니다. 자세한 내용은 <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> 및 <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">소비 추세에서 청구된, 청구되지 않은 및 임시 버스트 사용량</block>
+  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">*소비 추세* 탭의 누적 버스트 청구 그래프에 이제 청구된 버스트 사용량, 청구되지 않은 버스트 사용량 및 잠정 버스트 사용량이 표시됩니다. 자세한 내용은 <block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">모니터링 보기 개선 사항</block>
+  <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">*Monitoring* 보기에는 다음과 같은 업데이트가 포함되어 있습니다.</block>
+  <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*Alerts 탭*: *Alert* 열의 이름이 *Alert type &amp; condition*으로 변경되었습니다. 이제 *Status* 열 옆에 있는 점 세 개 아이콘을 사용하여 알림을 편집하거나 메모를 추가하거나 알림 세부 정보를 볼 수 있습니다.</block>
+  <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Alert monitors 탭*: *Condition* 열의 이름이 *Monitor type &amp; condition*으로 변경되었습니다.</block>
+  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">더 자세한 내용을 알아보려면 <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> 및 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="699549a6c51c3112d231898402b61156" category="admonition">Keystone Collector에서는 위에 나열된 타사 패키지만 지원됩니다. 추가 소프트웨어 설치는 지원되지 않으며 수집기 성능, 데이터 수집 및 청구 정확도에 영향을 미칠 수 있습니다.</block>
+  <block id="9fc675b55df5c666e277ff0ddb9918bc" category="paragraph">클러스터의 볼륨에 대한 자세한 정보(볼륨 이름, 노드 일련 번호, 클러스터 이름, 호스트 이름, 성능 서비스 수준 등)를 확인할 수 있습니다. 또한 프로비저닝된 용량, 논리적 및 물리적 사용률, 콜드 데이터 및 핫 데이터를 모니터링할 수 있습니다.</block>
+  <block id="951a19f47f142d3bea8b273df96be4b3" category="admonition">*Cold tier %* 및 *Hot tier %* 열은 각 티어의 데이터 비율을 나타내며, 각각 (Cold 데이터 / 전체 사용량) × 100 및 (Hot 데이터 / 전체 사용량) × 100으로 계산됩니다.</block>
+  <block id="a7a1db0a49d5a7e9bf844061304b61fc" category="paragraph">Keystone 구독 전체 클러스터의 모든 볼륨에 대한 자세한 정보를 확인할 수 있습니다. 여기에는 볼륨 이름, 구독 번호, 노드 일련 번호, QoS 정책 준수 여부, 클러스터 이름, 호스트 이름 및 성능 서비스 수준이 포함됩니다. 프로비저닝된 용량, 논리적 및 물리적 사용률, 콜드 데이터 및 핫 데이터를 모니터링할 수 있습니다. 또한 다음과 같은 개요도 제공됩니다:</block>
+  <block id="ac46686450b6c96a64532dec01703b45" category="paragraph">선 그래프는 과거 사용량 데이터를 표시하여 사용자가 선택한 기간 동안의 추세를 분석할 수 있도록 합니다. 그래프에는 사용 용량(데이터 및 스냅샷 데이터를 포함한 총 스토리지 용량), 데이터(사용자 데이터에 사용된 스토리지 용량), 스냅샷(스냅샷 데이터에 사용된 스토리지 용량)과 같은 지표와 함께 약정 용량 및 버스트 용량이 표시됩니다. 쿼리의 날짜 범위에 따라 사용량 차트는 최대 30개의 데이터 수집 지점을 표시합니다. 그래프 위에 마우스 커서를 올리면 각 데이터 수집 지점의 사용량 세부 정보를 확인할 수 있습니다.</block>
+  <block id="34968986368de263575ec0925e1060e6" category="admonition">선택한 날짜 범위에 따라 그래프 하단에 표시되는 세부 정보 수준이 결정됩니다. 30일 이하의 기간을 선택하면 각 데이터 포인트에 날짜와 시간이 모두 표시됩니다. 30일보다 긴 기간을 선택하면 날짜만 표시됩니다.</block>
+  <block id="570959fa3089c0814520564f59d8cd93" category="paragraph">Console에서는 청구된 버스트 사용량과 함께 청구되지 않은 버스트 사용량(발생했지만 아직 청구되지 않음) 및 임시 버스트 사용량(현재 청구 기간에 발생했지만 아직 청구되지 않음)도 확인할 수 있습니다.</block>
+  <block id="89558667b836c228a8a40c0b9646c294" category="inline-image-macro">콘솔에 누적된 버스트 사용량을 보여주는 스크린샷</block>
+  <block id="f263a9088dc54ae9648c1dae3fe993d3" category="paragraph"><block ref="f263a9088dc54ae9648c1dae3fe993d3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9e85accc113cf94c2f026e5ffe3421be" category="paragraph">버스트 상태(청구 완료, 미청구 또는 가청구) 및 청구 기간을 포함한 데이터를 Excel 형식으로 다운로드할 수도 있습니다.</block>
+  <block id="9781ed71d59e0117b4c9dc5a901b029a" category="paragraph">Keystone 구독 전체의 알림 모니터 목록을 볼 수 있습니다. 목록에는 모니터 이름, 알림을 트리거하는 모니터 조건, 심각도 수준, 구독 번호, 성능 서비스 수준 및 상태가 포함됩니다. *생성자* 열을 확인하여 알림 모니터가 시스템에서 생성된 것인지 사용자 정의된 것인지 확인할 수 있습니다.</block>
+  <block id="5389584b1bf548949de8edaecabfc485" category="admonition">시스템에서 생성된 모니터는 편집할 수 없습니다.</block>
+  <block id="acfccb7b9983c50ac70ead28a6be20cb" category="admonition">시스템에서 생성된 모니터는 삭제할 수 없습니다.</block>
+  <block id="ecc78b5c7a63bc05169745e40042420d" category="paragraph"><block ref="ecc78b5c7a63bc05169745e40042420d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="abb4f787da4156315d2c05514952debe" category="paragraph">심각도, ID, 유형 및 조건, 설명, 발생 시간, 구독 번호, 추적 ID, 성능 서비스 수준 및 상태와 같은 알림 세부 정보를 확인할 수 있습니다. 또한 이 페이지에는 심각도 및 유형별로 해결되지 않은 알림의 총 개수가 표시됩니다.</block>
+  <block id="08bb039c9e1d5f888e40163d67ac6f4a" category="admonition">열 선택기 <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 아이콘을 사용하여 표를 사용자 지정할 수 있습니다.</block>
+  <block id="a1cea21b853e465b55b0dcbdad0f5084" category="list-text">*알림 검토 및 해결*: 알림 ID를 선택하여 알림의 상세 보기를 엽니다. 이 보기에는 알림 설명과 권장 해결 단계가 표시됩니다. 이 상세 보기에서 *편집* 버튼을 사용하여 알림을 해결됨으로 표시하거나 *메모 추가* 버튼을 사용하여 지원 메모를 추가할 수 있습니다.</block>
+  <block id="3d3fbc307b81c272b054f7c2b7473ca7" category="paragraph">*상태* 열 옆에 있는 줄임표 아이콘을 사용하여 다음 작업을 수행할 수도 있습니다.</block>
+  <block id="d2f643d03cc707eb27302765d368c0bb" category="list-text">*편집*: 알림 상태를 변경하고 해결 세부 정보를 추가할 수 있는 팝업이 열립니다.</block>
+  <block id="f069bdb9199fd723b309497a4681eaa7" category="list-text">*메모 추가*: 알림에 메모를 추가할 수 있는 팝업 창이 열립니다.</block>
+  <block id="70d995c2419f7d9aa988641d4312954f" category="list-text">*View*: 알림 ID를 선택했을 때와 동일한 상세 보기 화면을 엽니다.</block>
+  <block id="e0ceac7aa49cf625120dd2a395d6b528" category="paragraph">*Hide/Show Columns*를 사용하여 표에 표시되는 열을 추가하거나 제거할 수 있습니다. 기본적으로 표에는 이전에 저장한 열 기본 설정이 표시됩니다. *Department* 또는 *Total Footprint* 열과 같이 새로 추가된 열은 기본적으로 숨겨져 있으며 표에 표시하려면 수동으로 선택해야 합니다. 모든 열을 선택하거나 선택 해제할 수 있으며, 기본 설정은 나중에 사용할 수 있도록 저장됩니다. CSV 보고서를 다운로드할 때는 표시 기본 설정과 관계없이 사용 가능한 모든 열이 내보내기에 포함됩니다.</block>
+  <block id="8b06cde2817c964f7431fdcb3ffcf3f2" category="section-title">2026년 3월 2일</block>
 </blocks>

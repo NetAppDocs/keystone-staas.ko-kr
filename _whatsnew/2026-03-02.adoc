@@ -1,0 +1,29 @@
+= 클러스터의 볼륨 탭의 새 열
+:allow-uri-read: 
+
+
+NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
+
+
+
+=== 클러스터의 볼륨 탭의 새 열
+
+*자산*의 *클러스터별 볼륨* 탭에 *핫 데이터*, *콜드 티어(%)*, *핫 티어(%)*라는 세 개의 새로운 열이 추가되었습니다. 자세한 내용은 link:./integrations/assets-tab.html["Keystone 구독과 관련된 자산 보기"] 및 link:./integrations/assets.html["Keystone 구독 전반에 걸쳐 자산 보기"]을 참조하십시오.
+
+
+
+=== 소비 추세에서 청구된, 청구되지 않은 및 임시 버스트 사용량
+
+*소비 추세* 탭의 누적 버스트 청구 그래프에 이제 청구된 버스트 사용량, 청구되지 않은 버스트 사용량 및 잠정 버스트 사용량이 표시됩니다. 자세한 내용은 link:./integrations/consumption-tab.html#view-accrued-burst["누적 버스트 보기"]를 참조하십시오.
+
+
+
+=== 모니터링 보기 개선 사항
+
+*Monitoring* 보기에는 다음과 같은 업데이트가 포함되어 있습니다.
+
+* *Alerts 탭*: *Alert* 열의 이름이 *Alert type & condition*으로 변경되었습니다. 이제 *Status* 열 옆에 있는 점 세 개 아이콘을 사용하여 알림을 편집하거나 메모를 추가하거나 알림 세부 정보를 볼 수 있습니다.
+* *Alert monitors 탭*: *Condition* 열의 이름이 *Monitor type & condition*으로 변경되었습니다.
+
+
+더 자세한 내용을 알아보려면 link:./integrations/monitoring-alerts.html["Keystone 구독에 대한 알림을 보고 관리합니다."] 및 link:./integrations/monitoring-alert-monitors.html["Keystone 구독에 대한 알림 모니터 보기 및 생성"]을 참조하십시오.
