@@ -144,10 +144,6 @@
   <block id="39fd5e3ddc496ef780ff5e3fe13bb2d1" category="section-title">SnapLock 규정 준수</block>
   <block id="f14c7b4687be07acacb0f5aeed1474f5" category="inline-link">SnapLock란</block>
   <block id="da0abce09003b51065ed5b06d06021f1" category="doc">약정 용량에 따른 청구</block>
-  <block id="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link"><block ref="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link-rx"></block></block>
-  <block id="1c6d9d150de7c9865ab3839ec9e99e4b" category="list-text">NetApp Keystone<block ref="4b675bc45aec5ce1523a19f69a2ff928" category="inline-link-rx"></block></block>
-  <block id="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link"><block ref="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link-rx"></block></block>
-  <block id="0f185ccd88416daec4eee0a846d110b8" category="list-text">NetApp 제품 설명서<block ref="2e85fc867cab94d246e0bf6043b361cd" category="inline-link-rx"></block></block>
   <block id="e5471403f1b2eefb0fe47b6193a72bbc" category="sidebar">Keystone 문서</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="05bbb43b3d923283e0b6ffafd088f41f" category="sidebar">구성 요소</block>
@@ -168,16 +164,12 @@
   <block id="ba66768dfbbcde790d00e0de40f92803" category="paragraph">용량 절감(연간)은 _ Annual in Advance_Payment 모델 및 사내 전용 구축에 적용할 수 있습니다. 클라우드 서비스 또는 하이브리드 클라우드 서비스에는 사용할 수 없습니다. 또한 사내 용량을 프로비저닝할 수 있으므로 가입 서비스 수준당 최대 25%까지 용량을 줄일 수 있습니다. 이러한 감소는 다음 연간 청구 기간 시작 시 매년 한 번씩 시행됩니다. 온프레미스 서비스 기반 연간 지불은 용량 감소를 활용하기 위해 계약 기간 동안 언제든지 &gt;200,000가 되어야 합니다. 이 청구 모델은 사내 구축에만 지원되므로 사내 간의 비용 재할당을 지원하지 않습니다. 연간 용량 감소의 예는 다음 이미지에 나와 있습니다.</block>
   <block id="63da2e64853bf4155b1b1a1e9ee74a97" category="list-text">1년, 2년 또는 3년 약정이 있는 가입에만 적용됩니다.</block>
   <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">재할당 요청은 고객 또는 파트너가 다음 청구 주기 최소 1주 전에 Keystone 성공 매니저(KSM)에 공식적으로 제출해야 합니다.</block>
-  <block id="11cc259f3fbff7a9b169739c7cd9d613" category="list-text">에스컬레이션해야 하는 미해결 케이스/티켓이 있는 경우 다음 주소 중 하나로 이메일을 보내십시오. keystone.services@netapp.com keystone.escalations@netapp.com</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">이 서비스는 파일, 블록 및 오브젝트 서비스에만 적용됩니다.</block>
   <block id="f3cab949200d7bfe230983c92bd7983f" category="list-text">고객이 운영하는 방화벽은 연결을 허용합니다.</block>
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">충분한 C13 콘센트가 있는 2개의 독립된 보호 회로에 연결된 PDU(Power Distribution Unit)를 제공해야 합니다. 고객 운영 서비스의 경우 경우에 따라 C19 아울렛이 필요합니다. NetApp에서 운영하는 오퍼링의 경우 요구사항에 따라 NetApp 또는 고객이 PDU를 제공할 수 있습니다.</block>
   <block id="9696806b0bc121063e619b6f0922f330" category="paragraph">고객 요구 사항 및 사용하는 스토리지 컨트롤러에 따라 NetApp은 고객 사이트에서 10GB, 40GB, 100GB 연결을 제공할 수 있습니다.</block>
   <block id="f208065131ee7ec38a881083b91c06e2" category="cell">FC 및 iSCSI</block>
   <block id="2d0539451bff9f553647efc300f001de" category="section-title">서비스 요청을 생성하는 중입니다</block>
-  <block id="ec48441169568deaa659297bc5ea9f6c" category="paragraph">온보딩 중에 NetApp Keystone ServiceNow를 액세스 및 사용하기 위한 자격 증명을 제공받은 경우 포털을 사용하여 Keystone 구독 관련 문제에 대한 서비스 요청을 생성할 수 있습니다.</block>
-  <block id="ce79b37185c18b2eba95931a0b15de7a" category="inline-link-macro">지원 번들을 생성하고 수집합니다</block>
-  <block id="d5bd195454f7264ad483f3ee67bec884" category="paragraph">지원 번들 추가에 대한 자세한 내용은 을 참조하십시오 <block ref="bc06f0ccbc4013c0e8a3b640622ac4cb" category="inline-link-macro-rx"></block>.</block>
   <block id="7db88eb4a659597eed51505f20f9ec51" category="paragraph">다음 표에서 오브젝트 스토리지의 최소 용량 요구사항을 확인할 수 있습니다.</block>
   <block id="702bdcf3d6f1e35319059ac6ab7ba5c9" category="inline-link-macro">Keystone STaaS 서비스</block>
   <block id="d96faa9e821e8ffac65b118996a9a5e9" category="paragraph">계층화 기능은 자주 액세스하지 않는 데이터를 사내 및 사외 오브젝트 스토리지 계층으로 자동으로 계층화하는 NetApp FabricPool 기술을 활용합니다.</block>
@@ -664,8 +656,6 @@
   <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">구독이 12개월 추가 기간 동안 갱신되지 않는 한, 약정 용량은 구독이 만료되기 90일 전에 늘릴 수 없습니다.</block>
   <block id="783e590ecfbaebc7caa0409a8cae6926" category="paragraph">파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스에는 자주 사용되지 않는 데이터를 식별하고 Keystone STaaS 지원 NetApp 콜드 스토리지에 계층화하는 계층화 기능이 포함됩니다. 콜드 데이터를 Keystone STaaS가 지원하는 비 NetApp 스토리지에 계층화하려는 경우 데이터 계층화를 애드온 서비스로 사용할 수 있습니다.</block>
   <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">* 가용성 *: 서비스에 의해 성공적으로 응답한 I/O 요청 수의 백분율로 측정되며, 서비스에 대한 총 I/O 요청 수로 나눈 값입니다. 이 값은 한 달 동안의 서비스 경계에서 측정되며, 고객이 제공한 시설, 네트워크 또는 기타 서비스의 예정된 서비스 중단 시간 또는 가용성 불량은 포함되지 않습니다.</block>
-  <block id="8a559914d26628167b5f08a9373076e9" category="paragraph">NetApp은 NetApp Keystone 고객에게 운영 서비스를 원격으로 제공합니다. 이러한 서비스는 스토리지 관리 활동 전반에 걸쳐 다양한 운영 분야를 아우릅니다. 이러한 서비스에는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트, 인시던트 및 문제 관리, 서비스 요청 이행, 보고 등이 포함됩니다. NetApp는 필요에 따라 관리 상태와 증거 자료를 보여 줍니다.</block>
-  <block id="380091ff4f618bba4a7e7e4aa88a1ec1" category="paragraph">Keystone Success Manager(KSM)는 귀사와 Keystone 서비스를 위해 긴밀하게 협력하며 주간 또는 월별 청구 및 운영 보고서에 기반하여 업데이트를 제공합니다. 책임은 NetApp Keystone 계약에 명시되어 있습니다.</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">가능한 경우, 미국 에서는 현장 및 원격 배포 및 설치 활동을 수행합니다 미국 시민권입니다 제공됩니다. 각주: 책임 부인 [현장 활동에 필요한 적절한 인력의 수는 Keystone 시스템이 구축된 지리적 위치에 따라 달라집니다.]</block>
   <block id="9415cbbaeaf88bca0512bbfe3c3cb334" category="paragraph">기본적으로 Keystone 상태 서비스는 localhost 이외의 IP로부터의 연결을 허용하지 않습니다. Keystone 상태 엔드포인트는 입니다<block ref="b2445934e628b68d6950a1056d38299a" prefix=" " category="inline-code"></block>또한 포트에서 Keystone Collector 서버의 모든 인터페이스를 수신합니다<block ref="d79c8788088c2193f0244d8f1f36d2db" prefix=" " category="inline-code"></block>. 쿼리 시 JSON 출력이 있는 HTTP 요청 상태 코드가 끝점에서 응답으로 반환되어 Keystone Collector 시스템의 상태를 설명합니다.
 JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3fbc3fb647215fe5fedcae04ab7c5" prefix=" " category="inline-code"></block> 속성, 부울, 에 대한 구성 요소별 상태의 세부 목록<block ref="39b49dc5cd8428b510bca14512a16a96" prefix=" " category="inline-code"></block> 속성.
@@ -1434,14 +1424,7 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c41ce7fe395738925814b2d06467e3ec" category="section-title">규정 준수 표준</block>
   <block id="03242372ae5b03ca7f547f3cb7dab64f" category="inline-link-macro">DPA(Data Protection Addendum)</block>
   <block id="a58e8ea096956351960d74a5b466e9e0" category="paragraph">Keystone ITOM 모니터링 솔루션은 유럽 연합 GDPR(General Data Protection Regulation) 및 CCPA(California Consumer Privacy Act)를 준수합니다. 이러한 약속을 문서화하기 위한 에도 를 <block ref="12861122e9a15898b646770ef3c2b260" category="inline-link-macro-rx"></block>제공합니다. ITOM 모니터링 솔루션은 개인 데이터를 수집하거나 저장하지 않습니다.</block>
-  <block id="9271c91f15a89ae66145641e94752632" category="paragraph">NetApp Keystone 지원 팀 및 Keystone 성공 관리자(KSM)는 Keystone 구독에 대한 서비스를 제공할 책임이 있습니다. 도움이 필요하면 Keystone 지원 팀에 문의할 수 있습니다.</block>
   <block id="1d15537f2746347dfa1ac4acd53c9adb" category="section-title">NetApp Keystone 지원</block>
-  <block id="0f68b904e33d9ac04605aecc958bcf52" category="section-title">추가 정보</block>
-  <block id="49b12603d90b8d1e26781b4c49aa661a" category="paragraph">NetApp는 ITOM 모니터링 솔루션을 사용하여 문제 해결을 위해 NetApp Keystone 환경을 사전에 모니터링하고 연결합니다.</block>
-  <block id="aee6a3bc19432c3c01a246f89d46a987" category="admonition">파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비스 요청이 파트너의 서비스 데스크에 할당됩니다. 파트너의 지원 도구는 ITOM 솔루션과 통합될 수 있습니다.</block>
-  <block id="01a2b3dbd173b41f042686cdc48ed6d5" category="section-title">Keystone 지원 모니터링</block>
-  <block id="9c63af51824784bfae9cd146a00bdd21" category="paragraph">NetApp Keystone 지원은 NetApp 제품 및 구독 서비스의 상태를 모니터링하고 원격 지원을 제공하며 Keystone 성공 관리자와 협업합니다.</block>
-  <block id="4bb1ec7470540bdb0d6aeee19ef42670" category="paragraph">서비스 요청을 제기하기 전에 시스템 세부 정보, 로그 및 관련 정보가 준비되었는지 확인하십시오. 서비스 요청을 제출할 때 Keystone 지원 팀은 지원 티켓을 수신하고 문제 해결을 위한 정보에 액세스합니다. ServiceNow 티켓에 따라 상태와 해결 방법을 알 수 있습니다.</block>
   <block id="8851c6fe19bf967cca1a7747c9a0b08e" category="list-text">Keystone IT 운영 관리(ITOM) 모니터링 솔루션: Keystone 환경을 모니터링하는 데 사용되는 클라우드 기반 SaaS 애플리케이션입니다. NetApp 스토리지 플랫폼과의 통합 기능이 내장되어 있어 환경 데이터를 수집하고 Keystone 인프라의 컴퓨팅, 네트워크 및 스토리지 구성 요소를 모니터링할 수 있습니다. 이 모니터링 기능은 온프레미스 설정, 데이터 센터, 클라우드 환경 또는 이러한 구성 요소까지 확장됩니다. 이 서비스는 클라우드 포털과 통신하는 사이트에 설치된 로컬 ITOM Collector를 사용하여 활성화됩니다.</block>
   <block id="b9582a9d01a3bb00c5c7df318f3cd4ed" category="summary">미국 보호 지원은 미국 토양에 있는 미국 시민으로부터 지속적인 Keystone 서비스를 제공하고 지원하는 애드온 서비스입니다.</block>
   <block id="21fe13388dd575bae131356d62eb3d04" category="paragraph">USPS(미국 보호 지원)는 NetApp Keystone 구독에 대한 추가 서비스입니다. 이를 통해 미국 영토에 거주하는 미국 시민으로부터 지속적인 Keystone 서비스를 제공하고 지원할 수 있습니다.</block>
@@ -1549,7 +1532,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="653181dc830ebbf1153310c93a009c52" category="list-text">데비안 12</block>
   <block id="015c84a3348885955ce882f1beed478e" category="list-text">Red Hat Enterprise Linux 8.6 이상 8.x 버전</block>
   <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7(기존 환경 전용)</block>
-  <block id="265561b81e51364d306e58144832b7a8" category="summary">도움이 필요하면 NetApp Keystone 지원 팀에 문의하십시오.</block>
   <block id="9dc4e2b4f34e5f118e35019c46b06a4a" category="paragraph">SLA 위반이 감지되면 NetApp Keystone 지원 팀과 함께 우선 순위 3(P3) 지원 티켓을 엽니다.</block>
   <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">서비스 크레딧 요청은 NetApp Keystone 지원 부서에서 위반이 확인된 후 6주 이내에 시작해야 합니다. 모든 서비스 크레딧은 NetApp에서 승인하고 승인해야 합니다.</block>
   <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">SLA 위반이 감지되면 NetApp Keystone 지원 팀과 함께 우선 순위 3(P3) 지원 티켓을 개설하고 아래 표시된 대로 Excel 시트에서 요청된 세부 정보를 제공합니다.</block>
@@ -2365,7 +2347,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
   <block id="0c359189f8e07afc4bf0a432b108a2f7" category="list-text">고객은 다음 운영 체제 중 하나에서 실행되는 Linux 서버를 제공합니다: Debian 12, Red Hat Enterprise Linux 8.6 이상 8.x 버전, Red Hat Enterprise Linux 9.0 이상 버전 또는 CentOS 7(기존 환경에만 해당). Keystone 소프트웨어는 다음을 사용하여 설치됩니다.<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block> 또는<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> 패키지는 Linux 배포판에 따라 다릅니다.</block>
   <block id="188a74af3438876c97ac7877f4af6cc9" category="list-text">고객은 Debian 12, Ubuntu 20.04 LTS, Red Hat Enterprise Linux(RHEL) 8.x, Red Hat Enterprise Linux 9.0, Amazon Linux 2023 또는 최신 버전을 실행하는 Linux 서버를 제공합니다.</block>
-  <block id="75269ad6e7abe01d12768761ab748b48" category="paragraph"><block ref="75269ad6e7abe01d12768761ab748b48" category="inline-link-rx"></block></block>
   <block id="8e3e0d66dd46c331ec4b3a698a38a9e7" category="list-text">콘솔이나 Keystone Success Manager(KSM)를 통해 약정된 용량에 대한 변경을 요청할 수 있습니다. 변경 요청에 대한 정보는 다음을 참조하세요. <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>.</block>
   <block id="17766f6125f71fd7cf26ceef70d4e504" category="list-text">파일을 다운로드한 후 Keystone ServiceNow 지원 티켓에 첨부할 수 있습니다. 티켓 발행에 대한 정보는 다음을 참조하세요. <block ref="fa4c1fe482109028db7ac27dab34833d" category="inline-link-macro-rx"></block>.</block>
   <block id="fd9138bbd3a6e55b24c6c044d67e4bc1" category="list-text">운영 체제(하나 선택):</block>
@@ -2651,4 +2632,33 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="ed7ea238eb12e525c819f7503ae42929" category="list-text">*Keystone 버전*: 구독에 사용되는 Keystone 서비스의 버전입니다. 성능 서비스 수준에 대한 요금제 규칙은 구독 버전에 따라 다를 수 있습니다. 버전 v1에 대한 자세한 내용은<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>를 참조하십시오. 이 열은 기본적으로 숨겨져 있으며 열 선택기 <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 아이콘을 사용하여 활성화할 수 있습니다.</block>
   <block id="a317125c258dec2606079ff63caaadb2" category="paragraph">2026-03-30</block>
   <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026년 3월 30일</block>
+  <block id="a98df09202cc6e4ad7e06d5c995a6d93" category="summary">NetApp 지원 사이트를 이용하여 지원 사례를 생성하거나 Keystone 구독 관련 연락처 정보를 찾아보세요.</block>
+  <block id="87c73f5bfb171c5c0b72cd1a7ea79280" category="paragraph">NetApp은 Keystone 고객에게 운영 서비스를 제공합니다. 고객은 전담 Keystone 성공 관리자(KSM), 직접 지원 연락 옵션, ITOM 솔루션을 통한 사전 예방적 모니터링 서비스를 이용할 수 있습니다.</block>
+  <block id="585c05c1d0460b954c3964cd9a3ffb3e" category="section-title">NetApp 지원 서비스</block>
+  <block id="d76bb60a63fdb624e2fc6b78e311c3e3" category="paragraph">NetApp은 Keystone 고객에게 원격으로 운영 서비스를 제공합니다. 이러한 서비스는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트 및 사고 관리, 서비스 요청 처리, 보고 등 다양한 스토리지 관리 활동을 포괄합니다.</block>
+  <block id="a2900fe72fef1254ae96a9980be42aa2" category="paragraph">담당 KSM(Keystone Service Manager)은 고객과 긴밀히 협력하여 Keystone 서비스를 관리하고 주간 또는 월간 청구 및 운영 보고서를 제공합니다. 구체적인 책임 사항은 NetApp Keystone 계약서에 명시되어 있습니다.</block>
+  <block id="ad119d5ea30f6c26b58e0af5bc43c9fe" category="section-title">지원 팀에 문의하십시오</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp 지원 사이트</block>
+  <block id="62b7ee2a253095d749908b17b34e24c5" category="paragraph">Keystone 구독에 문제가 발생하면 NSS 자격 증명을 사용하여 <block ref="074fa40ccf5449d2c887c8cca730e7ab" category="inline-link-macro-rx"></block>에 로그인하고 지원 사례를 생성하세요.</block>
+  <block id="0ba24cfc8633d8cf1d37c60ecb155d87" category="inline-link-macro">계정 등록</block>
+  <block id="dc7ced2019f4ef90d64f453eaa65ab21" category="paragraph">NSS 로그인 정보가 없는 경우 <block ref="be0ff70700e6d7bf8208580b4a29d4dc" category="inline-link-macro-rx"></block> 구독에 포함된 노드 중 하나의 일련 번호(SN)를 사용하십시오.</block>
+  <block id="62cbebda99dfd65eb48d1df30a89caaa" category="inline-link-macro">기술 지원 사례를 여는 방법</block>
+  <block id="c484ea3aaefbfd168a2e20e6590e44cc" category="paragraph">스크린샷이 포함된 단계별 지침은 <block ref="2daabf72974e38c8344b8e0ce3e0b27e" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="78ffc43e0dd33cb20c26db09198e2b7c" category="paragraph">지원 담당자와 직접 통화하려면 다음 번호 중 하나로 전화하십시오.</block>
+  <block id="577187e794f48d5fbbe4938623a620fb" category="list-text">미국/캐나다: 888 463 8277</block>
+  <block id="ae15434ff1dc1dc41e45362b9dd4d979" category="list-text">유럽: 00 800 44 638277</block>
+  <block id="954620ada207a9aeeae740abaf43fc51" category="list-text">인도: 000 800 100 8948</block>
+  <block id="6490c6329214b86200487468669b7f5e" category="inline-link-macro"><block ref="6490c6329214b86200487468669b7f5e" category="inline-link-rx"></block></block>
+  <block id="1750d05da304eca93c29ce6b3abf9420" category="list-text">더 많은 글로벌 수치: <block ref="b6fd89ee51af4f46cd0692037b18c807" category="inline-link-macro-rx"></block></block>
+  <block id="1faa32d72b1d234cd1844269c4ecc266" category="section-title">지원 모니터링</block>
+  <block id="513ac101f78fa63747befb7f73414070" category="paragraph">NetApp은 ITOM 모니터링 솔루션을 사용하여 제품 및 구독 서비스의 상태를 사전에 모니터링하고 문제 해결을 위해 NetApp Keystone 환경에 연결합니다.</block>
+  <block id="8cd58c89ff3d51a256ecfe3fe8bab20f" category="section-title">추가 리소스</block>
+  <block id="bc9d99b4b5c353814419ac4f3a7bcbb9" category="inline-link-macro">NetApp Keystone</block>
+  <block id="07d64f85c46041387234eb4f1b2c6dda" category="list-text"><block ref="07d64f85c46041387234eb4f1b2c6dda" category="inline-link-macro-rx"></block></block>
+  <block id="bc4fe2352063642d68529f2aa0ca7ca3" category="inline-link-macro">NetApp 제품 설명서</block>
+  <block id="c4c9ecac280f54a5500192a9efb21c2b" category="list-text"><block ref="c4c9ecac280f54a5500192a9efb21c2b" category="inline-link-macro-rx"></block></block>
+  <block id="417de6e21a96febf9dc5f6d95a18c845" category="inline-link-macro">ONTAP 플랫폼의 일련 번호를 확인하는 방법</block>
+  <block id="9678bc25baa5d4e1d8060e89e70f72fc" category="list-text"><block ref="9678bc25baa5d4e1d8060e89e70f72fc" category="inline-link-macro-rx"></block></block>
+  <block id="843e615119fedf23ac503dbdf746f02a" category="inline-link-macro">StorageGRID 기술 지원 케이스를 생성할 때 사용할 일련 번호</block>
+  <block id="ce9d93de629e2074412aaee90a3a8db2" category="list-text"><block ref="ce9d93de629e2074412aaee90a3a8db2" category="inline-link-macro-rx"></block></block>
 </blocks>
