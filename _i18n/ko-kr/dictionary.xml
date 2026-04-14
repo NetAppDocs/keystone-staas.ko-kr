@@ -48,9 +48,7 @@
   <block id="5233633b9faaa681d96ef5c43e30bea2" category="section-title">논리적 용량</block>
   <block id="4ac938291a74f21a35352afb886d2d88" category="section-title">약속된 용량</block>
   <block id="326cde132ee3d2c6dbda5e81887d37fd" category="section-title">약속된 용량의 변경</block>
-  <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">서브스크립션 기간 동안 약정 용량을 변경할 수 있습니다. 그러나 다음과 같은 몇 가지 전제 조건이 있습니다.</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="inline-link-macro">용량 절감</block>
-  <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">커밋된 용량은 특정 조건에 따라 감소될 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>.</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">사용된 용량</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">버스트 용량</block>
   <block id="b6e76ea727138e1a2c7199dd3f0874db" category="section-title">비용 청구 용량</block>
@@ -99,13 +97,7 @@
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="paragraph">500입니다</block>
   <block id="c4ca4238a0b923820dcc509a6f75849b" category="paragraph">1</block>
   <block id="00fbf03a10283116fbaa1df317c78879" category="section-title">용량 조정</block>
-  <block id="b0ba5edc3c109e946a18ba8c3e71362b" category="list-text">약정 용량은 계약 기간 동안 다음 섹션에 설명된 대로 특정 조건에서만 변경할 수 있습니다. _ 용량 감소 _.</block>
-  <block id="0b5abf5c3cccffbee4f48538a8f46c07" category="list-text">서비스 기간의 마지막 90일 동안의 변경 요청은 최소 1년 동안 서비스를 갱신해야 합니다.</block>
   <block id="6e563e9d321b309cdef7d3f5a45b0d65" category="section-title">분기별 지출 재할당</block>
-  <block id="075e59191efd36ae9c9c7094fbdab596" category="paragraph">구독 수준의 요구 사항 및 조건:</block>
-  <block id="525638a12e9c8aa67d400bc4cae26beb" category="list-text">arrear 모델의 월별 요금에만 적용됩니다.</block>
-  <block id="5e4b323295f9f67894cdf2fd31d63cd6" category="list-text">기존 사내 지불의 최대 25%를 클라우드 서비스로 재할당하는 데 서비스 기반의 월간 상환을 사용할 수 있습니다.</block>
-  <block id="6a25837b8815930341a1bb5594936448" category="list-text">재할당 요청은 재할당의 이전 활성화 날짜로부터 90일 이후에만 유효합니다.</block>
   <block id="c11d3902def90b2c39f1b05142fc762e" category="summary">Keystone의 운영 모델</block>
   <block id="63e70807fd57df527662a30262f5b0cc" category="section-title">서비스 라이프사이클 전반에서 역할 및 책임</block>
   <block id="463c3a95787ac56f36c227feeb7bd389" category="list-text">* 고객 운영 모델 *: 다음 표에는 전반적인 서비스 수명 주기 모델과 고객 운영 환경에서 이와 관련된 역할 및 책임이 요약되어 있습니다.</block>
@@ -161,9 +153,6 @@
   <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">* 내구성 *: 고객 발생으로 인한 삭제 또는 손상을 제외하고 신뢰도 저하 없이 액세스되는 데이터의 비율입니다.</block>
   <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">* 지연 시간 *: 클라이언트로부터 수신된 I/O 요청을 서비스하는 시간, 서비스 경계(스토리지 컨트롤러 I/O 포트)에서 측정</block>
   <block id="542e65f5a286fa6467f7b1c33bc0dab8" category="paragraph">배포에 대한 자세한 내용은 을 참조하십시오 <block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block> 및 <block ref="141d19b4a500cb7c8f293062f31c9e48" category="inline-link-macro-rx"></block>.</block>
-  <block id="ba66768dfbbcde790d00e0de40f92803" category="paragraph">용량 절감(연간)은 _ Annual in Advance_Payment 모델 및 사내 전용 구축에 적용할 수 있습니다. 클라우드 서비스 또는 하이브리드 클라우드 서비스에는 사용할 수 없습니다. 또한 사내 용량을 프로비저닝할 수 있으므로 가입 서비스 수준당 최대 25%까지 용량을 줄일 수 있습니다. 이러한 감소는 다음 연간 청구 기간 시작 시 매년 한 번씩 시행됩니다. 온프레미스 서비스 기반 연간 지불은 용량 감소를 활용하기 위해 계약 기간 동안 언제든지 &gt;200,000가 되어야 합니다. 이 청구 모델은 사내 구축에만 지원되므로 사내 간의 비용 재할당을 지원하지 않습니다. 연간 용량 감소의 예는 다음 이미지에 나와 있습니다.</block>
-  <block id="63da2e64853bf4155b1b1a1e9ee74a97" category="list-text">1년, 2년 또는 3년 약정이 있는 가입에만 적용됩니다.</block>
-  <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">재할당 요청은 고객 또는 파트너가 다음 청구 주기 최소 1주 전에 Keystone 성공 매니저(KSM)에 공식적으로 제출해야 합니다.</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">이 서비스는 파일, 블록 및 오브젝트 서비스에만 적용됩니다.</block>
   <block id="f3cab949200d7bfe230983c92bd7983f" category="list-text">고객이 운영하는 방화벽은 연결을 허용합니다.</block>
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">충분한 C13 콘센트가 있는 2개의 독립된 보호 회로에 연결된 PDU(Power Distribution Unit)를 제공해야 합니다. 고객 운영 서비스의 경우 경우에 따라 C19 아울렛이 필요합니다. NetApp에서 운영하는 오퍼링의 경우 요구사항에 따라 NetApp 또는 고객이 PDU를 제공할 수 있습니다.</block>
@@ -653,7 +642,6 @@
   <block id="e35bc286817799a8ecac7de0060837be" category="list-text">서비스 기간 종료 시, 또는 서비스 기간 동안 드라이브 및 비휘발성 메모리의 반환이 실패하거나 결함이 발견된 경우에는 반환할 필요가 없습니다.</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">컴퓨팅, 스토리지, 네트워킹과 같은 클라우드 네이티브 서비스는 클라우드 공급자가 송장을 발행합니다.</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">이러한 서비스는 클라우드 스토리지 및 컴퓨팅 특성에 따라 다릅니다.</block>
-  <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">구독이 12개월 추가 기간 동안 갱신되지 않는 한, 약정 용량은 구독이 만료되기 90일 전에 늘릴 수 없습니다.</block>
   <block id="783e590ecfbaebc7caa0409a8cae6926" category="paragraph">파일 및 블록 스토리지를 위한 Keystone STaaS 표준 서비스에는 자주 사용되지 않는 데이터를 식별하고 Keystone STaaS 지원 NetApp 콜드 스토리지에 계층화하는 계층화 기능이 포함됩니다. 콜드 데이터를 Keystone STaaS가 지원하는 비 NetApp 스토리지에 계층화하려는 경우 데이터 계층화를 애드온 서비스로 사용할 수 있습니다.</block>
   <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">* 가용성 *: 서비스에 의해 성공적으로 응답한 I/O 요청 수의 백분율로 측정되며, 서비스에 대한 총 I/O 요청 수로 나눈 값입니다. 이 값은 한 달 동안의 서비스 경계에서 측정되며, 고객이 제공한 시설, 네트워크 또는 기타 서비스의 예정된 서비스 중단 시간 또는 가용성 불량은 포함되지 않습니다.</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">가능한 경우, 미국 에서는 현장 및 원격 배포 및 설치 활동을 수행합니다 미국 시민권입니다 제공됩니다. 각주: 책임 부인 [현장 활동에 필요한 적절한 인력의 수는 Keystone 시스템이 구축된 지리적 위치에 따라 달라집니다.]</block>
@@ -703,11 +691,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="1ae3a07b6896d577a03f95172e8b37ab" category="paragraph">SnapLock 기술에 대한 자세한 내용은 을 참조하십시오<block ref="75641a5590d09822bddecb04bdc449c0" category="inline-link-rx"></block>.</block>
   <block id="de70c043bed2cffae85b828a6246d7e2" category="inline-image-macro">재할당 논리에 대해 설명합니다</block>
   <block id="2ac0f144048cf5fb3e17783ff993bfa0" category="paragraph"><block ref="2ac0f144048cf5fb3e17783ff993bfa0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7ad0cea6a0945e671f7a5229da06e38d" category="paragraph">Keystone STaaS는 온프레미스 서비스 지출을 Cloud Volumes ONTAP 지출에 대한 재할당할 수 있는 옵션을 제공합니다.</block>
-  <block id="5f3938a7c9ef0aead37a2a006da8f29d" category="list-text">Cloud Volumes ONTAP 및 Cloud Backup Service 용량은 Keystone을 통해 구입해야 합니다.</block>
-  <block id="7ba0be7a00463a47d5ea7303892e6b01" category="list-text">클라우드 서비스에서 다시 온프레미스 서비스로 재할당할 수 없습니다.</block>
-  <block id="83c156e8d858735c81db593f3e5a33fb" category="list-text">새 요청은 연속 청구 주기에서만 적용됩니다.</block>
-  <block id="5ced3418c634e1c2b7ff961f41b9cdfd" category="paragraph">이 표에는 비용 재할당의 작동 방식을 보여 주는 샘플 값 집합이 나와 있습니다. 이 예에서는<block ref="1f77ba391c5954a787b54401d14e6ee7" prefix=" " category="inline-code"></block> 월별 지출부터 하이브리드 클라우드 스토리지 서비스로 재할당됩니다.</block>
   <block id="dc555de27decf23adf718d54a63a9849" category="cell">* 할당 전 *</block>
   <block id="eea204b95d2aed13b165e6198002ac7d" category="cell">* 용량(TiB) *</block>
   <block id="b9051383c20643edc88f9f50b9491e18" category="cell">* 월별 지정 경비 *</block>
@@ -717,7 +700,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="a3c65c2974270fd093ee8a9bf8ae7d0b" category="cell">108</block>
   <block id="67c6a1e7ce56d3d6fa748ab6d9af3fd7" category="cell">47</block>
   <block id="162489d19966a7f95c7accf74f9c3c5c" category="cell">5,000개</block>
-  <block id="035c7a855d56e0de01432f63faef9422" category="paragraph">온프레미스 서비스의 비용을 클라우드 서비스로 재할당하려면 Keystone Success Manager(KSM)에 문의하십시오.</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오.</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">알려진 제한 사항</block>
   <block id="747c6db0ede286805c21b0b78f4ce14f" category="paragraph">알려진 제한 사항은 Keystone STaaS 서비스 또는 구성 요소에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오.</block>
@@ -1592,8 +1574,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Keystone 구독의 소비 추세를 확인하세요</block>
   <block id="60b79d3b7a1433cb62d9ea5b5a5dac01" category="paragraph">이 프로세스는 생성된 각 소비 레코드에 대해 발생합니다. 따라서, 소비량의 급증은 당신의 헌신적인 능력 위에 소비된 용량의 잔기와 잔기를 모두 반영한다. 자세한 내용은 을 <block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="6095900a0be4c21e582c9ce633f3eb3f" category="doc">성능 서비스 수준에 대한 용량 요구 사항</block>
-  <block id="4a786f23e386c92e1c49cf8b214e240b" category="list-text">구독 기간 중 용량을 늘리거나 더 높은 성능의 서비스 수준으로 변경하는 것은 허용됩니다. 단, 더 높은 성능의 서비스 수준에서 더 낮은 성능의 서비스 수준으로 변경하는 것은 허용되지 않습니다.</block>
-  <block id="13af83dfc053ffff9447cbafc3b9ac06" category="paragraph">구독한 파일, 블록 또는 개체 스토리지 성능 서비스 수준에 대한 비용의 일부를 하이브리드 클라우드 스토리지 서비스에 할당할 수 있습니다. 연간 계약 금액(ACV)의 최대 25%를 Cloud Volumes ONTAP 기본 및 Cloud Volumes ONTAP 보조 서비스에 분기별로 재할당할 수 있습니다.</block>
   <block id="42c6fcaab380d23adc4355ae6bb2df0b" category="paragraph">감소량은 Extreme 성능 서비스 수준에 할당된 용량의 (125-108) = 17TiB입니다. 지출 재할당 시 할당된 하이브리드 클라우드 스토리지는 17TiB가 아니라 5000달러와 같은 용량입니다. 이 예시에서는 5,000달러로 Extreme 성능 서비스 수준에 대해 17TiB의 온프레미스 스토리지 용량과 Cloud Volumes ONTAP 성능 서비스 수준에 대해 47TiB의 하이브리드 클라우드 용량을 얻을 수 있습니다. 따라서 재할당은 용량이 아닌 지출과 관련해서 이루어집니다.</block>
   <block id="5f238d7b669564c4a06db9820b17a9c3" category="paragraph">약정 용량은 구독을 구매할 때 특정 성능 서비스 수준에 대해 약정된 용량입니다.</block>
   <block id="a5e80c8c714cefa82d0f175e2ea8eae1" category="paragraph">약정 용량은 귀하와 NetApp/파트너가 동의한 대로 단일 구독의 다양한 성능 서비스 수준에 대한 총 용량이 될 수 있습니다. 이 용량은 실제 용량 소비에 관계없이 각 Keystone 주문에 명시되어 있으며 청구됩니다.</block>
@@ -1826,8 +1806,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="17a67557c6c448eedbaeeb25e2409ca8" category="inline-link-macro">버스트 용량 증가 옵션</block>
   <block id="b8ce331afde85a2f9ccc21b17b658035" category="paragraph">최대 한도는 Keystone 계약에 따라 결정되고 지정됩니다. 기본적으로 할당된 용량의 20% 이상으로 설정됩니다. 또한, 할당된 용량의 40% 또는 60%까지 버스트 용량 한도를 선택할 수 있습니다. 자세한 내용은 을 <block ref="c3f852e472538152b8572347bb4a142d" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="7d38503d78c628f634f345f9649cfdd1" category="paragraph">소비된 용량이 성능 서비스 수준에 대해 약속된 용량보다 큰 경우, 버스트 소비량이 기록되고 그에 따라 요금이 부과됩니다. 버스트 용량을 초과하는 사용은 "버스트 제한 초과"로 표시됩니다.</block>
-  <block id="b08904144697ce5104bed18cd93f91f8" category="paragraph">용량 조정에 대해 자세히 알아보세요.</block>
-  <block id="dc6244a840ba98e3e2b7311362cd8e71" category="list-text">계약 기간의 마지막 90일을 제외하고 계약 기간 중 언제든지 용량을 추가할 수 있으며, 이전 섹션의 표에 설명된 대로 성과 서비스 수준에 따라 증분이 적용됩니다. 서비스 갱신에 대한 동의가 있는 경우, 계약 기간의 마지막 90일 동안 용량이나 서비스를 추가하는 것이 허용됩니다. 용량 외에 사내와 클라우드의 새로운 서비스를 기존 기간과 함께 사용할 수 있습니다. 새 서비스를 활성화한 후 전송된 송장에 수정된 청구서가 반영됩니다. 가입 기간 중에는 어느 시점에서든 클라우드 서비스의 약정 용량을 줄일 수 없습니다. 한편, 계약 기간 동안 온프레미스 서비스에 대한 약정 용량 및 약정 비용은 다음 _ 용량 감소 _ 절에 정의된 특정 기준에 따라 줄일 수 있습니다.</block>
   <block id="f8738727fdc7ce9aa43eb40acba29e13" category="section-title">통합 및 블록 최적화 스토리지에 대한 최소 용량 요구 사항</block>
   <block id="3a4e4646e77e197efe8a5e44bfd42783" category="paragraph">다음 표에서는 통합 및 블록 최적화 스토리지에 대해 구독당 허용되는 최소 용량과 증분 용량을 확인할 수 있습니다.</block>
   <block id="d6f750861d7ae27706ca32ed1f4c1ac8" category="paragraph">* 유니파이드 스토리지 *</block>
@@ -1838,7 +1816,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3644a684f98ea8fe223c713b77189a77" category="cell">200</block>
   <block id="46b0c436fa4bc58d709e8c6c42bd1508" category="section-title">클라우드 서비스에 대한 최소 용량 요구 사항</block>
   <block id="bdc812c685045d622afc97886530ca22" category="paragraph">다음 표에서는 클라우드 서비스에 대한 최소 용량 요구 사항을 확인할 수 있습니다.</block>
-  <block id="877c392489723433fcb2a31382a0b1f4" category="list-text">Keystone 계약을 기준으로 각 사이트에서 버스트 용량을 사용할 수 있습니다. 일반적으로 성능 서비스 수준에 대해 약속된 용량보다 최대 20% 높게 설정됩니다. 모든 버스트 사용량은 해당 청구 기간에 대해서만 청구됩니다. 추가 버스트 요구 사항이 합의된 용량보다 큰 경우 지원 팀에 문의하십시오.</block>
   <block id="9b415518331e0b90bff9da067ceb4ad0" category="paragraph"><block ref="9b415518331e0b90bff9da067ceb4ad0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="22791b5a0b080a8c4c8a5a70f02dd14c" category="list-text">NetApp Keystone Collector가 Keystone 클라우드에 대한 연결을 시작합니다.</block>
   <block id="856cee671304bcac55562f75750e25ca" category="list-text">Keystone Collector는 Active IQ Unified Manager를 통해 스토리지 컨트롤러의 관리 연결에 직접 REST API 연결을 설정하거나 터널을 구축하여 사용 및 성능 데이터를 수집합니다.</block>
@@ -2347,7 +2324,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
   <block id="0c359189f8e07afc4bf0a432b108a2f7" category="list-text">고객은 다음 운영 체제 중 하나에서 실행되는 Linux 서버를 제공합니다: Debian 12, Red Hat Enterprise Linux 8.6 이상 8.x 버전, Red Hat Enterprise Linux 9.0 이상 버전 또는 CentOS 7(기존 환경에만 해당). Keystone 소프트웨어는 다음을 사용하여 설치됩니다.<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block> 또는<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> 패키지는 Linux 배포판에 따라 다릅니다.</block>
   <block id="188a74af3438876c97ac7877f4af6cc9" category="list-text">고객은 Debian 12, Ubuntu 20.04 LTS, Red Hat Enterprise Linux(RHEL) 8.x, Red Hat Enterprise Linux 9.0, Amazon Linux 2023 또는 최신 버전을 실행하는 Linux 서버를 제공합니다.</block>
-  <block id="8e3e0d66dd46c331ec4b3a698a38a9e7" category="list-text">콘솔이나 Keystone Success Manager(KSM)를 통해 약정된 용량에 대한 변경을 요청할 수 있습니다. 변경 요청에 대한 정보는 다음을 참조하세요. <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>.</block>
   <block id="17766f6125f71fd7cf26ceef70d4e504" category="list-text">파일을 다운로드한 후 Keystone ServiceNow 지원 티켓에 첨부할 수 있습니다. 티켓 발행에 대한 정보는 다음을 참조하세요. <block ref="fa4c1fe482109028db7ac27dab34833d" category="inline-link-macro-rx"></block>.</block>
   <block id="fd9138bbd3a6e55b24c6c044d67e4bc1" category="list-text">운영 체제(하나 선택):</block>
   <block id="39132259812eb62420e77e39bfa951b1" category="list-text">Red Hat Enterprise Linux(RHEL) 8.6 또는 이후 8.x 시리즈</block>
@@ -2661,4 +2637,39 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="9678bc25baa5d4e1d8060e89e70f72fc" category="list-text"><block ref="9678bc25baa5d4e1d8060e89e70f72fc" category="inline-link-macro-rx"></block></block>
   <block id="843e615119fedf23ac503dbdf746f02a" category="inline-link-macro">StorageGRID 기술 지원 케이스를 생성할 때 사용할 일련 번호</block>
   <block id="ce9d93de629e2074412aaee90a3a8db2" category="list-text"><block ref="ce9d93de629e2074412aaee90a3a8db2" category="inline-link-macro-rx"></block></block>
+  <block id="4b8841c22510f26ac13bfc6eae48b4a0" category="paragraph">계획된 용량 변경 사항이 있을 경우, 계획 및 배포를 위해 NetApp에 적시에 알려주시기 바랍니다. 모든 용량 조정에는 다음 조건이 적용됩니다.</block>
+  <block id="8017b00939f18fb6cff5b8b64cb10f74" category="list-text">*용량 증설*: 약정된 용량은 구독 기간 동안 지정된 증설량만큼 증설할 수 있습니다. 단, 구독 갱신 시를 제외하고 만료일 90일 전에는 증설이 불가능합니다. NetApp에서 확인하면 증설된 용량은 남은 구독 기간 동안 적용되며, 최소 결제 금액도 그에 따라 조정됩니다. 모든 용량 추가 및 신규 서비스(온프레미스 또는 클라우드 서비스 포함)는 기존 구독 기간과 동일하게 적용됩니다. 클라우드 서비스의 약정 용량은 구독 기간 동안 어떤 경우에도 줄일 수 없습니다.</block>
+  <block id="37248c35f63312e21a001c9749050f8b" category="list-text">*요금 인상 청구*: _연간 선불_ 결제 방식의 구독의 경우, NetApp은 현재 청구 기간의 잔여 기간에 대한 최소 결제 금액의 비례 배분된 인상분을 청구합니다. 새로운 서비스 활성화 후 발송되는 청구서에는 변경된 금액이 반영됩니다.</block>
+  <block id="4b9827f60195385d2acf4c1d324a5469" category="list-text">*버스트 용량*: 약정된 수준을 초과하는 추가 용량이 각 사이트에서 제공되며, 일반적으로 성능 서비스 수준당 최대 20%까지 가능합니다. 버스트 제한 및 요금에 대한 자세한 내용은 <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="c8e723c6a9858f9838c220934fb8ada8" category="list-text">*성능 서비스 수준 변경*: 구독 기간 중 더 높은 성능 서비스 수준으로 업그레이드하는 것은 가능합니다. 더 낮은 성능 서비스 수준으로 다운그레이드하는 것은 허용되지 않습니다.</block>
+  <block id="feab99d4a13efd2a13a932d9eb1b1b1d" category="list-text">*온프레미스 용량 축소*: 온프레미스 서비스에 할당된 용량은 특정 조건에 따라 줄어들 수 있습니다. 자세한 내용은 _용량 축소_를 참조하십시오.</block>
+  <block id="d393d4770a199bd09d8f09f003439305" category="paragraph">약정 용량 감축은 _연간 선불_ 결제 모델 및 온프레미스 Keystone 구축에만 적용됩니다. 자격을 얻으려면 최소 24개월의 구독 기간이 필요합니다. 클라우드 서비스 및 하이브리드 클라우드 구축은 용량 감축 대상이 아닙니다.</block>
+  <block id="1785031aba4381611fb7c452e73c7712" category="paragraph">다음 조건은 모든 확정된 용량 축소 요청에 적용됩니다.</block>
+  <block id="bd0f14fff0a2017c507441b78ae4f7d2" category="list-text">*서면 요청*: 요청서는 서면으로 작성하여 감축이 적용되는 차기 연간 구독 기간 시작일로부터 최소 60일 전에 NetApp에 제출해야 합니다.</block>
+  <block id="fbd93fc92e78d8de2e644cf2cdc79b21" category="list-text">*기간당 허용되는 감소*:</block>
+  <block id="b795c749a328b67aa4a17cbcf35bd2ec" category="list-text">2년 또는 3년 구독 기간의 경우, 구독 기간 중 1회 감소가 허용됩니다.</block>
+  <block id="44b32d132775de5dbfedf8e254b1179a" category="list-text">4년 또는 5년 구독 기간의 경우, 구독 기간 동안 두 번의 감소가 허용됩니다.</block>
+  <block id="97d2399431283be9396bdc038b0d3c73" category="list-text">*요청당 감축 한도*: 단일 감축은 요청 시점에 약정된 용량의 25%를 초과할 수 없습니다.</block>
+  <block id="fa3d4871053ec6d8d839695f2126e52b" category="list-text">*최소 용량 임계값*: 용량 감소로 인해 해당 성능 서비스 수준에 필요한 최소 약정 용량 요구사항 미만으로 약정 용량이 떨어져서는 안 됩니다.</block>
+  <block id="73939351e707407e78fc3b5ec5d96b63" category="list-text">*시행일*: 승인된 감축은 다음 연간 구독 기간 시작일부터 적용됩니다.</block>
+  <block id="a0da8a6eeef25732860c7a7fa773dd28" category="paragraph">감소 요청이 승인되려면 감소가 적용된 후에도 온프레미스 서비스 기반 연간 지불액이 USD 200K 이상을 유지해야 합니다.</block>
+  <block id="d8fa251f9bfc069980dc3b885cda8275" category="paragraph">다음 이미지는 3년 Keystone 구독에 용량 감축이 적용되는 방식의 예를 보여줍니다.</block>
+  <block id="1bc2a062d23469b824b852ca4bddb0d2" category="paragraph"><block ref="1bc2a062d23469b824b852ca4bddb0d2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="984cf94db150b8dcbdb8105bef8ea248" category="paragraph">이 예시에서 초기 약정 용량은 300TiB(연간 30만 달러)입니다. 1년 차에 용량을 225TiB로 줄여달라는 요청이 접수됩니다. NetApp은 감소량(75TiB)이 25% 제한 내에 있고 그에 따른 지급액이 20만 달러 이상으로 유지되는지 확인합니다. 요청은 승인되어 2년 차 시작과 동시에 적용됩니다. 2년 차에 용량을 100TiB로 줄여달라는 요청이 접수됩니다. NetApp은 감소량이 현재 약정 용량(225TiB)의 25%를 초과하고, 3년 계약 기간 동안 허용된 한 번의 감소 횟수를 이미 사용했기 때문에 요청을 거부합니다. 3년 차 용량은 225TiB(연간 22만 5천 달러)로 유지되며, 더 이상의 감소는 허용되지 않습니다.</block>
+  <block id="f5e3994736941b1a2f0aa3d2685771a2" category="paragraph">분기별 지출 재할당은 하이브리드 클라우드 서비스에만 사용할 수 있습니다. 이 기능을 통해 온프레미스 서비스 지출을 분기별로 클라우드 서비스 지출로 재할당할 수 있습니다. 클라우드 서비스에서 온프레미스로의 재할당은 허용되지 않습니다.</block>
+  <block id="7e7edad53e01324db49fe84613b4f243" category="paragraph">모든 재할당 요청에는 다음 조건이 적용됩니다.</block>
+  <block id="38652801280f2ce8d81d06b234e5c6da" category="list-text">*재배정 한도*: 요청 시점의 연간 계약 가치(ACV)의 최대 25%까지 재배정할 수 있습니다.</block>
+  <block id="8992bd0648c76e76cf15cd17723f3215" category="list-text">*재할당 후 최소 지불액*: 재할당 후, 온프레미스 월별 구독당 최소 지불액은 미화 16,667달러 이상으로 유지되어야 합니다.</block>
+  <block id="4082e3d66f5fc0276d9334d8b8e4809c" category="list-text">*90일 잠금*: 이전 재할당이 활성화된 후 최소 90일이 지나야 새로운 재할당 요청을 활성화할 수 있습니다.</block>
+  <block id="b97de2001f3ba7d57040a7ef76bfc9fa" category="list-text">*기간 종료 제한*: 구독이 갱신되지 않는 한 구독 기간의 마지막 90일 동안에는 재할당이 허용되지 않습니다.</block>
+  <block id="ec10404af8ad05ca95dfc01ea1625b74" category="list-text">*요청 마감일*: 요청은 다음 청구 주기 최소 5영업일 전에 제출해야 합니다.</block>
+  <block id="b9952228f054359d655be54267fc3073" category="list-text">*시행일*: 승인된 요청은 다음 청구 주기의 첫날부터 효력이 발생합니다.</block>
+  <block id="18f94080a305dd2e3f97cade5d0ca224" category="paragraph">다음 이미지는 분기별 지출 재분배가 어떻게 이루어지는지 보여줍니다.</block>
+  <block id="ec5cac371498d025c7a80f8462e7d9b0" category="paragraph">이 예시에서 온프레미스 지출은 월 3만 달러입니다. 2월에 5천 달러를 클라우드 서비스로 이전하는 요청 A가 승인되어 3월에 활성화되었고, 5월까지 90일간 잠금이 적용됩니다. 잠금 기간 중에 제출된 요청 B는 잠금 만료 후 활성화되어 7월부터 온프레미스 지출을 2만 달러로 줄이고 클라우드 서비스 지출을 1만 달러로 늘립니다. 계약 기간 마지막 90일 동안에는 재배정이 허용되지 않습니다.</block>
+  <block id="068c2643291801b07fc0b1d5411c5f44" category="paragraph">이 표는 비용 재분배가 어떻게 이루어지는지 보여주는 예시 값들을 제공합니다. 이 예시에서는 월 지출액 중 5,000달러가 하이브리드 클라우드 스토리지 서비스에 재분배됩니다.</block>
+  <block id="06edadfbc4ba35d2e9cfcdbd12cae4dc" category="paragraph">재할당 요청을 제출하려면 Keystone Success Manager(KSM)에게 문의하십시오.</block>
+  <block id="fada2eb6c577ac59ac127d87709bdeba" category="inline-link">Keystone STaaS v3 서비스 설명 및 보충 자료 참조 가이드</block>
+  <block id="379bdcbc355b1c85f12e4fe26ce9ce52" category="paragraph">자세한 내용은 <block ref="713f77483e33d0957b3e04d7bb3c25f3" category="inline-link-rx"></block>을(를) 참조하십시오.</block>
+  <block id="091e308f3acc3715bded09fcb636bf53" category="summary">가용성 SLO는 Keystone 주문을 이행하기 위해 배포된 모든 NetApp ONTAP 플래시 스토리지 어레이에 대해 청구 기간 동안 99.999%의 가동 시간을 목표로 합니다.</block>
+  <block id="fb3c717f6d7580452350dcd4dcbd5ce8" category="paragraph">구독 기간 동안 특정 조건에 따라 약정된 용량을 변경할 수 있습니다. 용량 증감 규칙에 대한 자세한 내용은 <block ref="7bcdec1ed35620533b43c63b4f4340ca" category="inline-link-macro-rx"></block>를 참조하십시오. 변경을 요청하려면 Keystone Success Manager(KSM)에게 문의하거나 <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
 </blocks>
