@@ -4,7 +4,7 @@ permalink: concepts/capacity-requirements.html
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: 서비스 수준에 대한 용량 요구사항은 Keystone STaaS 구독에서 지원하는 파일, 블록, 오브젝트 또는 클라우드 스토리지에 따라 다릅니다. 
 ---
-= Keystone 성능 서비스 수준에 필요한 용량
+= Keystone의 용량 요구 사항 및 조정
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 서비스 수준에 대한 용량 요구사항은 Keystone STaaS 구독
 
 
 [role="lead"]
-Keystone STaaS 성능 서비스 수준에 대한 용량 요구 사항은 Keystone STaaS 구독이 지원하는 통합, 블록 최적화, 객체 또는 클라우드 스토리지 제품마다 다릅니다.
+Keystone STaaS 성능 서비스 수준의 최소 용량 요구 사항 및 증분 용량은 스토리지 유형에 따라 다릅니다. 이 페이지에서는 구독 기간 동안 약정 용량을 늘리거나 줄이거나 재할당하는 방법도 설명합니다.
 
 
 
@@ -31,7 +31,7 @@ Keystone STaaS 성능 서비스 수준에 대한 용량 요구 사항은 Keyston
 
 
  a| 
-최소 용량[TiB]
+PSLI당 최소 용량[TiB]
 2+| 50 2+| 100 
 
 
@@ -49,24 +49,53 @@ Keystone STaaS 성능 서비스 수준에 대한 용량 요구 사항은 Keyston
 |===
 
 
-| 용량 | 익스트림 | 프리미엄 
+| 용량 | 익스트림 | 프리미엄 | 표준 
 
 
  a| 
-최소 용량[TiB]
-2+| 50 
+PSLI당 최소 용량[TiB]
+| 50 | 50 | 100 
 
 
  a| 
 서브스크립션 시작 시 증분 용량(및 다중 항목) 허용[TiB]
-2+| 25 
+3+| 25 
 
 
  a| 
 증분 용량(및 다중 항목)은 구독 중 애드온으로 허용 [TiB]
-2+| 25 
+3+| 25 
 |===
 모든 Keystone 판매에서 각 성과 서비스 수준의 최소 용량은 동일합니다.
+
+
+
+== AFF 스토리지의 최소 용량 요구 사항
+
+다음 표에서 AFF 스토리지의 최소 용량 요구 사항을 확인할 수 있습니다.
+
+|===
+
+
+| 용량 | 익스트림 
+
+
+ a| 
+AFF 클러스터당 최소 용량[TiB]
+| 200 
+
+
+ a| 
+서브스크립션 시작 시 증분 용량(및 다중 항목) 허용[TiB]
+| 100 
+
+
+ a| 
+증분 용량(및 다중 항목)은 구독 중 애드온으로 허용 [TiB]
+| 100 
+|===
+
+NOTE: AFX 스토리지의 경우, 용량은 클러스터 내의 모든 드라이브 쉘프에 걸쳐 AFX 클러스터 수준에서 확정되고 측정됩니다. 이는 클러스터에 있는 AFX 스토리지 컨트롤러의 수와는 무관합니다.
 
 
 
@@ -208,5 +237,3 @@ image:reallocation.png["재할당 논리에 대해 설명합니다"]
 감소량은 Extreme 성능 서비스 수준에 할당된 용량의 (125-108) = 17TiB입니다. 지출 재할당 시 할당된 하이브리드 클라우드 스토리지는 17TiB가 아니라 5000달러와 같은 용량입니다. 이 예시에서는 5,000달러로 Extreme 성능 서비스 수준에 대해 17TiB의 온프레미스 스토리지 용량과 Cloud Volumes ONTAP 성능 서비스 수준에 대해 47TiB의 하이브리드 클라우드 용량을 얻을 수 있습니다. 따라서 재할당은 용량이 아닌 지출과 관련해서 이루어집니다.
 
 재할당 요청을 제출하려면 Keystone Success Manager(KSM)에게 문의하십시오.
-
-자세한 내용은  https://fieldportal.netapp.com/s/article/Changes-to-Keystone-STaaS-Service-Description-and-Supplement-v3-Reference-Guide["Keystone STaaS v3 서비스 설명 및 보충 자료 참조 가이드"^]을(를) 참조하십시오.

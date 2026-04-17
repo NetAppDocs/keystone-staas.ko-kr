@@ -43,7 +43,7 @@ image:new-db-4.png["새로운 대시보드"]
 구독 세부 정보, 각 성과 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보는 *Keystone 구독* 화면의 다양한 탭에 표시됩니다.
 
 
-NOTE: Keystone 서브스크립션의 용량 소비는 대시보드 및 보고서의 TiB에 표시되며 소수점 이하 두 자리까지 반올림됩니다. 사용량이 0.01TiB 미만이면 값은 0 또는 사용량 없음으로 표시됩니다. 이러한 화면의 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리에 날짜를 입력하면 UTC 시간으로 자동 간주됩니다. 사용 메트릭에 대한 자세한 내용은 을 link:../concepts/metrics.html#metrics-measurement["측정 지표"]참조하십시오. Keystone에서 사용되는 다양한 용량에 대한 자세한 내용은 을 참조하십시오 link:../concepts/supported-storage-capacity.html["지원되는 스토리지 용량입니다"].
+NOTE: Keystone 구독의 용량 사용량은 대시보드와 보고서에서 TiBs 단위로 표시되며 소수점 둘째 자리까지 반올림됩니다. 사용량이 0.01 TiB 미만인 경우 값은 0 또는 사용량 없음으로 표시됩니다. 이러한 화면의 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리할 날짜를 입력하면 자동으로 UTC 시간으로 간주됩니다. 사용량 측정항목에 대한 자세한 내용은 link:../concepts/metrics.html#metrics-measurement["측정 지표"]을 참조하십시오. Keystone에서 사용되는 다양한 용량에 대한 자세한 내용은 link:../concepts/supported-storage-capacity.html["Keystone의 스토리지 용량 유형"]를 참조하십시오.
 
 
 

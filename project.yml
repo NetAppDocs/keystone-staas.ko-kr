@@ -146,7 +146,7 @@ sidebar:
         url: "/concepts/metrics.html"
       - title: 지원되는 스토리지
         url: "/concepts/supported-storage-services.html"
-      - title: 지원되는 용량
+      - title: 스토리지 용량 유형
         url: "/concepts/supported-storage-capacity.html"
       - title: 성능 서비스 수준
         url: "/concepts/service-levels.html"
