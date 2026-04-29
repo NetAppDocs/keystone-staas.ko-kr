@@ -24,6 +24,15 @@ NetApp Keystone STaaS에는 다음과 같은 알려진 문제가 보고됩니다
 
 
  a| 
+예측 소비 데이터의 하락 추세가 부정확함
+ a| 
+*Consumption trend* 탭에서 *Historical consumption* 보기의 *Forecast* 토글을 활성화하면 예상 용량 사용량이 크게 하락하는 부정확한 추세를 보입니다.
+ a| 
+없음
+
+
+
+ a| 
 구독 수정이 불가능합니다
  a| 
 Keystone 구독의 약정 용량을 수정하는 옵션은 현재 NetApp Console에서 사용할 수 없습니다. 이 기능은 향후 릴리스에서 다시 제공될 예정입니다.

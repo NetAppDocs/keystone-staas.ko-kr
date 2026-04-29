@@ -2331,7 +2331,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*구독* 탭에는 구독 요금이 프로비저닝된 사용량, 물리적 사용량 또는 논리적 사용량을 기준으로 청구되는지 여부를 표시하는 *사용 유형* 열이 있습니다. 자세한 내용은 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="77f26dcf71ccd46a1988ad176507362f" category="paragraph">DII를 설정하려면 <block ref="9c96a8ce2c2de39e18e71cf6b16e737c" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
   <block id="46258461c8dd073deb37f9c53353b64e" category="list-text">고객이 새 DII 인스턴스를 시작하는 경우 <block ref="6d36cc4d8aae109cb667709b36f129f9" category="inline-link-macro-rx"></block>를 사용하는 것이 좋습니다. 이 기능과 필요한 시작 체크리스트에 대한 자세한 내용은 <block ref="fa9eb45797f94a182876dd4cce75625a" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="511d6a0f4f5ad7c5f79e56d010b571b0" category="paragraph">콘솔 또는 Digital Advisor를 통해 누적 버스트 데이터 사용량을 확인할 수 있습니다. 콘솔의 *소비 추세* 탭에 있는 *보기* 드롭다운 메뉴에서 *누적 버스트*를 선택했거나, Digital Advisor의 *소비 추세* 탭에서 *청구된 누적 버스트* 옵션을 선택한 경우, 선택한 청구 기간에 따라 월별 또는 분기별 누적 버스트 데이터 사용량을 확인할 수 있습니다. 이 데이터는 청구된 최근 12개월 동안 사용 가능하며, 최대 과거 30개월까지의 날짜 범위로 조회할 수 있습니다.</block>
   <block id="1e007e954fdd7587bcd939b10c21e650" category="list-text">Console에서 누적 버스트 청구 그래프를 통해 일일 데이터 사용량을 필터링할 수 있습니다. 자세한 내용은 <block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="1b342e2d578a51d6b3d947da95fe0f10" category="paragraph">Console에서 누적 버스트 청구 그래프에서 청구 기간을 나타내는 막대를 선택하여 테이블을 필터링할 수 있습니다. 필터링하면 선택한 청구 기간 내의 일수만 표시됩니다. 전체 데이터 세트를 다시 보려면 *Clear filters* 옵션을 사용하십시오. 선택한 기간에 데이터가 없는 경우 데이터가 없음을 나타내는 메시지가 표시됩니다.</block>
   <block id="e6f9cff2e05b0c21bfa8eacbea1108b9" category="paragraph"><block ref="e6f9cff2e05b0c21bfa8eacbea1108b9" category="inline-image-macro-rx" type="image"></block></block>
@@ -2474,10 +2473,8 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="951a19f47f142d3bea8b273df96be4b3" category="admonition">*Cold tier %* 및 *Hot tier %* 열은 각 티어의 데이터 비율을 나타내며, 각각 (Cold 데이터 / 전체 사용량) × 100 및 (Hot 데이터 / 전체 사용량) × 100으로 계산됩니다.</block>
   <block id="a7a1db0a49d5a7e9bf844061304b61fc" category="paragraph">Keystone 구독 전체 클러스터의 모든 볼륨에 대한 자세한 정보를 확인할 수 있습니다. 여기에는 볼륨 이름, 구독 번호, 노드 일련 번호, QoS 정책 준수 여부, 클러스터 이름, 호스트 이름 및 성능 서비스 수준이 포함됩니다. 프로비저닝된 용량, 논리적 및 물리적 사용률, 콜드 데이터 및 핫 데이터를 모니터링할 수 있습니다. 또한 다음과 같은 개요도 제공됩니다:</block>
   <block id="34968986368de263575ec0925e1060e6" category="admonition">선택한 날짜 범위에 따라 그래프 하단에 표시되는 세부 정보 수준이 결정됩니다. 30일 이하의 기간을 선택하면 각 데이터 포인트에 날짜와 시간이 모두 표시됩니다. 30일보다 긴 기간을 선택하면 날짜만 표시됩니다.</block>
-  <block id="570959fa3089c0814520564f59d8cd93" category="paragraph">Console에서는 청구된 버스트 사용량과 함께 청구되지 않은 버스트 사용량(발생했지만 아직 청구되지 않음) 및 임시 버스트 사용량(현재 청구 기간에 발생했지만 아직 청구되지 않음)도 확인할 수 있습니다.</block>
   <block id="89558667b836c228a8a40c0b9646c294" category="inline-image-macro">콘솔에 누적된 버스트 사용량을 보여주는 스크린샷</block>
   <block id="f263a9088dc54ae9648c1dae3fe993d3" category="paragraph"><block ref="f263a9088dc54ae9648c1dae3fe993d3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9e85accc113cf94c2f026e5ffe3421be" category="paragraph">버스트 상태(청구 완료, 미청구 또는 가청구) 및 청구 기간을 포함한 데이터를 Excel 형식으로 다운로드할 수도 있습니다.</block>
   <block id="9781ed71d59e0117b4c9dc5a901b029a" category="paragraph">Keystone 구독 전체의 알림 모니터 목록을 볼 수 있습니다. 목록에는 모니터 이름, 알림을 트리거하는 모니터 조건, 심각도 수준, 구독 번호, 성능 서비스 수준 및 상태가 포함됩니다. *생성자* 열을 확인하여 알림 모니터가 시스템에서 생성된 것인지 사용자 정의된 것인지 확인할 수 있습니다.</block>
   <block id="5389584b1bf548949de8edaecabfc485" category="admonition">시스템에서 생성된 모니터는 편집할 수 없습니다.</block>
   <block id="acfccb7b9983c50ac70ead28a6be20cb" category="admonition">시스템에서 생성된 모니터는 삭제할 수 없습니다.</block>
@@ -2511,12 +2508,8 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d1d79a1d3945e37b66a6707cd87b9ed0" category="list-text">*버스트 용량*: 구독에 허용되는 최대 버스트 한도입니다.</block>
   <block id="39d85a9f5c080a0273cd8ef8892c32b8" category="list-text">*버스트 용량 초과*: 버스트 제한을 초과하는 스토리지 사용량입니다. 이 지표는 버스트 제한을 초과했을 때만 표시됩니다.</block>
   <block id="c09e069ede7bdb06ea3b9e7615be21b1" category="paragraph">쿼리의 날짜 범위에 따라 사용량 차트는 최대 30개의 데이터 수집 지점을 표시합니다. 그래프 위에 마우스 커서를 올리면 각 데이터 수집 지점의 사용량 세부 정보를 확인할 수 있습니다.</block>
-  <block id="dee9a22d9bea2517a6ba3ada8d2b1d61" category="paragraph">콘솔의 *소비 추세* 탭에 있는 *기간별 데이터* 보기에서 *예측* 토글을 통해 현재 날짜로부터 향후 120일간의 예상 용량 사용량을 확인할 수 있습니다. 이 토글은 기본적으로 활성화되어 있습니다.</block>
-  <block id="d895d782266d449ca70ee01f77ce836f" category="paragraph">기본적으로 그래프는 지난 30일간의 기간별 소비량과 현재 날짜로부터 120일간의 예측 소비량을 동일한 차트에 표시합니다. 총 최대 30개의 데이터 포인트(기간별 데이터 20개, 예측 데이터 10개)가 표시되며, 두 부분은 세로선으로 구분됩니다.</block>
   <block id="98e9fc7499f5ec07bce7ba0ae4c459ea" category="inline-image-macro">예측 데이터를 보여주는 스크린샷</block>
   <block id="aec1b050350c808c951dd08448b9c9ad" category="paragraph"><block ref="aec1b050350c808c951dd08448b9c9ad" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="41ba25ff2c151db2eb81aa97afa993b7" category="paragraph">현재 날짜로 끝나지 않는 날짜 범위를 선택하면 예측 기능이 자동으로 비활성화됩니다. 예측 기능을 다시 활성화하려면 선택한 기간이 현재 날짜로 끝나는 경우에만 예측 데이터를 사용할 수 있다는 확인 대화 상자가 표시됩니다. 확인을 누르면 보기가 기본 범위인 최근 30일간의 기간별 데이터와 향후 120일간의 예측 데이터로 재설정됩니다.</block>
-  <block id="449cacbccdea6e91ca0e477aed1e6767" category="paragraph">예상 소비량이 버스트 용량을 초과할 것으로 예상되면 그래프에 경고 표시기가 나타나 용량 업그레이드를 권장합니다.</block>
   <block id="096ba8f18f440795ebc161dce2259d12" category="list-text">*연동된 구독*: 기본 구독에 연결된 보조 구독이 있는 경우, 이 열에는 기본 구독에 연결된 구독 번호가 표시됩니다. 이 열은 기본적으로 숨겨져 있으며, 연결된 구독이 있는 경우에만 표시됩니다.</block>
   <block id="ed7ea238eb12e525c819f7503ae42929" category="list-text">*Keystone 버전*: 구독에 사용되는 Keystone 서비스의 버전입니다. 성능 서비스 수준에 대한 요금제 규칙은 구독 버전에 따라 다를 수 있습니다. 버전 v1에 대한 자세한 내용은<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>를 참조하십시오. 이 열은 기본적으로 숨겨져 있으며 열 선택기 <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 아이콘을 사용하여 활성화할 수 있습니다.</block>
   <block id="a317125c258dec2606079ff63caaadb2" category="paragraph">2026-03-30</block>
@@ -2706,4 +2699,23 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="6d1270d83b59c4d34695059058ba3873" category="admonition">Cloud Volumes ONTAP에 필요한 하이퍼스케일러 기반 컴퓨팅, 스토리지 및 네트워크 서비스는 Keystone STaaS 구독의 일부로 NetApp에서 제공하지 않습니다. 이러한 구독은 하이퍼스케일러 클라우드 서비스 공급자로부터 직접 구매해야 합니다.</block>
   <block id="c148f39d208183361daf2e5ab75c9a60" category="admonition">Keystone 구독의 용량 사용량은 대시보드와 보고서에서 TiBs 단위로 표시되며 소수점 둘째 자리까지 반올림됩니다. 사용량이 0.01 TiB 미만인 경우 값은 0 또는 사용량 없음으로 표시됩니다. 이러한 화면의 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리할 날짜를 입력하면 자동으로 UTC 시간으로 간주됩니다. 사용량 측정항목에 대한 자세한 내용은 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>을 참조하십시오. Keystone에서 사용되는 다양한 용량에 대한 자세한 내용은 <block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="e6664e13d8023d762b4d6f2f644a6287" category="sidebar">스토리지 용량 유형</block>
+  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">프로비저닝된 용량 레이블 이름 변경</block>
+  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">*Provisioned capacity* 레이블이 *Provisioned volume capacity*로 변경되었습니다. 업데이트된 레이블은 관련 CSV 및 Excel 보고서에도 반영됩니다.</block>
+  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">누적 버스트에 대한 예측 토글</block>
+  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">이제 *소비 추세* 탭의 *누적 버스트* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 누적 버스트 사용량을 예측할 수 있습니다. 자세한 내용은 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="b833fc063470eb72aa05a5570f243c7b" category="admonition">*예측* 토글을 사용하여 *기간별 데이터* 보기에서 예상 용량 사용량을 확인하고 *누적 버스트* 보기에서 예상 누적 버스트를 확인할 수 있습니다. 자세한 내용은 <block ref="c3e0115050031e1e905cbb5a43dfe637" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="f0966c8c81211afb8b1cacba8a9fa525" category="paragraph">콘솔 또는 Digital Advisor를 통해 누적 버스트 데이터 사용량을 확인할 수 있습니다. 콘솔의 *소비 추세* 탭에 있는 *보기* 드롭다운 메뉴에서 *누적 버스트*를 선택했거나, Digital Advisor의 *소비 추세* 탭에서 *청구된 누적 버스트* 옵션을 선택한 경우, 선택한 청구 기간에 따라 월별 또는 분기별 누적 버스트 데이터 사용량을 확인할 수 있습니다.</block>
+  <block id="30403a0435001d542a0a621f63da7853" category="paragraph">콘솔에서 *Forecast* 토글이 비활성화된 경우, 청구된 버스트 사용량과 청구되지 않은 버스트 사용량(발생했지만 아직 청구되지 않음) 및 잠정 버스트 사용량(현재 청구 기간에 발생했지만 아직 청구되지 않음)을 확인할 수 있습니다. *Forecast* 토글이 활성화된 경우, 그래프에는 현재 날짜로부터 향후 120일 동안의 예상 발생 버스트 사용량도 표시됩니다. *Forecast* 토글에 대한 자세한 내용은 <block ref="c3e0115050031e1e905cbb5a43dfe637" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="4951b01aa4815e91bf5e5e1d2f14728e" category="paragraph">콘솔에서 *소비 추세* 탭의 *예측* 토글을 사용하여 *기간별 소비량* 보기에서 예상 용량 사용량을, *누적 버스트* 보기에서 예상 누적 버스트 사용량을 확인할 수 있습니다. 이 토글은 두 보기 모두에서 기본적으로 활성화되어 있습니다.</block>
+  <block id="30581acd054ace99b93673d52e83f48b" category="paragraph">*기간별 소비량* 보기에서는 지난 30일간의 기간별 소비량과 현재 날짜로부터 120일간의 예측 소비량을 동일한 차트에 표시합니다. 총 최대 30개의 데이터 포인트(기간별 데이터 20개, 예측 데이터 10개)가 표시되며, 두 부분은 세로선으로 구분됩니다.</block>
+  <block id="c3150ed0c9263aebf6fad206d2bbfa0f" category="paragraph">*Accrued burst* 보기에서 그래프는 지난 6개월간의 누적 버스트 기록과 현재 날짜로부터 120일간의 예측을 표시하며, 세로선으로 기간별 데이터와 예측 데이터를 구분합니다. 현재 청구 기간 막대에는 잠정 버스트 사용량과 남은 일수에 대한 예측 데이터가 모두 표시됩니다. 막대를 클릭하면 *Accrued burst by days* 표에서 일별 세부 정보를 확인할 수 있습니다. *Accrued burst by days* 표에 대한 자세한 내용은 <block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="2c1588a23b3ae26913ca97110590c261" category="inline-image-macro">누적 버스트 예측을 보여주는 스크린샷</block>
+  <block id="fa251514521b15877d660478b5f146da" category="paragraph"><block ref="fa251514521b15877d660478b5f146da" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7fea2236eaf015429aa1139544fbef4b" category="paragraph">현재 날짜로 끝나지 않는 날짜 범위를 선택하면 예측 기능이 자동으로 비활성화됩니다. 예측 기능을 다시 활성화하려면 선택한 기간이 현재 날짜로 끝나는 경우에만 예측 데이터를 사용할 수 있다는 확인 대화 상자가 표시됩니다. 대화 상자를 확인하면 선택한 보기의 기본 범위로 재설정됩니다. *기간별 소비량* 보기에서는 최근 30일간의 기간별 데이터와 향후 120일간의 예측 데이터가 표시되고, *누적 급증* 보기에서는 최근 6개월간의 누적 급증 이력과 향후 120일간의 예측 데이터가 표시됩니다.</block>
+  <block id="4aadf88f31f4e4fb67909d4a1f8d6fa5" category="paragraph">예상 소비량이 약정 용량을 초과할 것으로 예상되면 그래프에 주황색 경고 표시기가 나타나 용량 업그레이드를 권장합니다. 최대 순간 용량을 초과할 것으로 예상되면 빨간색 경고 표시기도 나타나 용량 업그레이드를 권장합니다.</block>
+  <block id="20eac3e5793b6f7331d6d7f608939431" category="admonition">그래프에 표시되는 데이터는 *예측* 토글이 활성화되었는지 비활성화되었는지에 따라 달라집니다.</block>
+  <block id="42fda15e65e4afa2339de7eff6850159" category="paragraph">또한 버스트 상태(청구됨, 청구되지 않음, 잠정 또는 예측, 해당되는 경우) 및 청구 기간을 포함한 사용 가능한 데이터를 Excel 형식으로 다운로드할 수 있습니다.</block>
+  <block id="f649abbfb1fbdf6d16ef1e522e9f0b3f" category="paragraph">예측 소비 데이터의 하락 추세가 부정확함</block>
+  <block id="af9ef0b1942bfef1a3c549bcd43ad2d0" category="paragraph">*Consumption trend* 탭에서 *Historical consumption* 보기의 *Forecast* 토글을 활성화하면 예상 용량 사용량이 크게 하락하는 부정확한 추세를 보입니다.</block>
+  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026년 4월 27일</block>
 </blocks>
