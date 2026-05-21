@@ -176,20 +176,12 @@ sidebar:
         url: "/concepts/sla-sustainability.html"
       - title: 랜섬웨어 복구 보장
         url: "/concepts/sla-ransomware.html"
-    - title: 청구 방식을 이해하세요
+    - title: Keystone 청구 방식을 이해하세요
       entries:
-      - title: Keystone 가격
+      - title: Keystone 청구 방식에 대해 알아보세요.
         url: "/concepts/pricing.html"
-      - title: 약정 용량에 따른 청구
-        url: "/concepts/committed-capacity-billing.html"
-      - title: 사용량 기반 측정
-        url: "/concepts/consumed-capacity-billing.html"
-      - title: 버스트 소비에 기초한 청구
-        url: "/concepts/burst-consumption-billing.html"
-      - title: 특정 볼륨 구성에 대한 청구
+      - title: 특정 볼륨 유형에 대한 Keystone 청구
         url: "/concepts/misc-volume-billing.html"
-      - title: 청구 일정
-        url: "/concepts/billing-schedules.html"
   - title: Digital Advisor REST API에서 Keystone에 액세스합니다
     entries:
     - title: Digital Advisor REST API를 사용하여 Keystone 데이터를 검색하십시오

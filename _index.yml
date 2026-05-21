@@ -44,14 +44,14 @@ indexpage:
     links:
     - title: Keystone 가격에 대해 알아보세요
       url: "/concepts/pricing.html"
-    - title: 내 청구 일정
-      url: "/concepts/billing-schedules.html"
-    - title: 약정 용량에 따른 청구
-      url: "/concepts/committed-capacity-billing.html"
-    - title: 사용량 기반 측정
-      url: "/concepts/consumed-capacity-billing.html"
-    - title: 약속된 용량보다 많은 용량을 소비하면 어떻게 됩니까?
-      url: "/concepts/burst-consumption-billing.html"
+    - title: Keystone은 용량을 어떻게 측정하나요?
+      url: "/concepts/pricing.html#how-keystone-measures-capacity"
+    - title: 확정 용량이란 무엇인가요?
+      url: "/concepts/pricing.html#committed-capacity"
+    - title: 커밋된 용량을 초과하면 어떻게 되나요?
+      url: "/concepts/pricing.html#burst-consumption"
+    - title: 송장은 언제 생성되나요?
+      url: "/concepts/pricing.html#billing-schedules"
   - title: Keystone 서비스로 더 많은 작업 수행
     links:
     - title: 지원팀에 대해 알아보세요
