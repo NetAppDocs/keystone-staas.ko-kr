@@ -24,6 +24,15 @@ NetApp Keystone STaaS에는 다음과 같은 알려진 문제가 보고됩니다
 
 
  a| 
+만료된 구독의 만료 날짜가 잘못되었습니다
+ a| 
+*Subscriptions* 탭에서 만료된 구독의 만료일이 실제 구독 종료일이 아닌 어제 날짜로 표시됩니다.
+ a| 
+없음
+
+
+
+ a| 
 예측 소비 데이터의 하락 추세가 부정확함
  a| 
 *Consumption trend* 탭에서 *Historical consumption* 보기의 *Forecast* 토글을 활성화하면 예상 용량 사용량이 크게 하락하는 부정확한 추세를 보입니다.
