@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/adp-tab.html 
-keywords: keystone-aiq, digital advisor keystone, advanced data protection, ADP, MetroCluster, consumption data, health status, primary site, mirror site, sync status, ONTAP Mediator, capacity utilization, consumption trends, bluexp, NetApp Console, Console 
-summary: Keystone에서 고급 데이터 보호 추가 서비스를 구독하면 MetroCluster 파트너 사이트의 소비 데이터를 보고 상태를 모니터링할 수 있습니다. 
+keywords: keystone-aiq, digital advisor keystone, advanced data protection, ADP, MetroCluster, consumption data, health status, primary site, mirror site, sync status, ONTAP Mediator, capacity utilization, consumption trends, license distribution, usage insights, license types, v1, v2, v3, bluexp, NetApp Console, Console 
+summary: Keystone에서 고급 데이터 보호 추가 기능 서비스를 구독할 때 MetroCluster 파트너 사이트의 소비 데이터를 보고, 상태를 모니터링하고, ADP 라이센스 배포를 추적합니다. 
 ---
 = Keystone MetroCluster 구독의 사용량 및 상태를 확인하세요
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Keystone에서 고급 데이터 보호 추가 서비스를 구독하면
 
 
 [role="lead"]
-고급 데이터 보호 추가 서비스에 가입하면 NetApp Console 또는 Digital Advisor에서 MetroCluster 파트너 사이트의 사용 데이터를 확인할 수 있습니다. NetApp Console에서는 MetroCluster 구성의 복제 상태와 상태도 모니터링할 수 있습니다.
+고급 데이터 보호 애드온 서비스를 구독하면 NetApp Console 또는 Digital Advisor에서 MetroCluster 파트너 사이트의 사용량 데이터를 확인할 수 있습니다. NetApp Console에서 MetroCluster 구성의 상태를 모니터링하고 고급 데이터 보호 라이선스의 배포를 추적할 수도 있습니다.
 
 
 
@@ -38,7 +38,7 @@ TIP: MetroCluster 구독은 image:metrocluster-icon.png["MetroCluster 구독 기
 
 . *고급 데이터 보호(ADP)* 탭을 선택합니다.
 +
-이 탭에서는 기본 사이트와 미러 사이트 모두에서 기본 성능 서비스 수준의 사용량 데이터를 확인하고, MetroCluster 설정의 상태를 모니터링하고, 동기화 상태를 추적할 수 있습니다.
+이 탭에서는 기본 성능 서비스 수준에 대한 기본 사이트와 미러 사이트 모두의 사용량 데이터를 확인하고, MetroCluster 설정의 상태 및 동기화 상태를 모니터링하고, 두 클러스터 전체의 ADP 라이선스 사용률 및 분포를 확인할 수 있습니다.
 
 +
 ** 선택한 기간의 소비 분포 차트를 확인합니다.
@@ -50,10 +50,20 @@ TIP: MetroCluster 구독은 image:metrocluster-icon.png["MetroCluster 구독 기
 NOTE: 기본 성능 서비스 수준의 경우, 각 볼륨은 운영 사이트와 미러 사이트 모두에서 프로비저닝된 대로 요금이 부과됩니다. 따라서 차트는 각 사이트의 사용량을 반영하도록 분할되어 있습니다.
 
 +
-*예:* 툴팁에는 운영 사이트의 경우 1.15 TiB, 미러 사이트의 경우 4.22 TiB와 같은 소비 값이 표시됩니다.
+*예:* 툴팁에는 운영 사이트의 경우 109.29 TiB, 미러 사이트의 경우 111.97 TiB와 같은 소비 값이 표시됩니다.
 
 +
-image:adp-consumption-chart.png["툴팁에 기본 사이트의 1.15 TiB와 미러 사이트의 4.22 TiB가 표시된 MetroCluster 사용량 분포를 보여주는 선 그래프"]
+image:adp-consumption-chart-1.png["툴팁에 기본 사이트의 1.15 TiB와 미러 사이트의 4.22 TiB가 표시된 MetroCluster 사용량 분포를 보여주는 선 그래프"]
+
+** 선택한 기간의 라이선스 배포 현황을 확인합니다.
++
+이 차트는 클러스터 A(기본)와 클러스터 B(미러) 전체의 ADP 라이선스 사용량을 보여줍니다. 구독에 연결된 라이선스 버전에 따라, 차트에는 각 사이트에서 _Advanced data-protect premium tiering_ 및 Data-protect premium tiering과 같은 각 ADP 추가 기능 성능 서비스 수준별 사용량이 표시됩니다.
+
++
+image:adp-license-distribution.png["클러스터 A와 클러스터 B에 걸쳐 다양한 라이선스 버전에 대한 ADP 라이선스 분포를 보여주는 누적 막대 차트"]
+
++
+이 데이터를 사용하여 특정 날짜의 청구 내역이 정확한지 확인하고 구독 사용량에 따른 차감 금액을 대조해 볼 수 있습니다.
 
 ** *ADP 토폴로지* 보기에서 MetroCluster 설정의 상태를 모니터링하세요.
 +
