@@ -20,6 +20,7 @@ summary: '인터넷에 액세스할 수 없는 환경(_Dark site_또는_private 
 
 
 
+[[deploy-on-vmware-vsphere]]
 == VMware vSphere에 구축
 
 다음 단계를 수행하십시오.
@@ -30,6 +31,7 @@ summary: '인터넷에 액세스할 수 없는 환경(_Dark site_또는_private 
 
 
 
+[[install-on-linux]]
 == Linux에 설치합니다
 
 Keystone Collector 소프트웨어는 Linux 배포판을 기반으로 제공된 .deb 또는 .rpm 파일을 사용하여 Linux 서버에 설치됩니다.

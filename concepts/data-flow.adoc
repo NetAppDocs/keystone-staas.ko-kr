@@ -18,6 +18,7 @@ Keystone STaaS 시스템의 데이터는 관련 모니터링 시스템인 Keysto
 
 
 
+[[keystone-collector-data-flow]]
 == Keystone Collector 데이터 흐름
 
 Keystone Collector는 스토리지 컨트롤러에 대한 REST API 호출을 시작하고 다음 흐름 다이어그램에 표시된 대로 컨트롤러의 사용 세부 정보를 정기적으로 가져옵니다.
@@ -33,6 +34,7 @@ image:data-collector-flow.png["수집기 구성 요소 내의 데이터 흐름�
 
 
 
+[[monitoring-data-flows]]
 == 데이터 흐름 모니터링
 
 스토리지 인프라의 상태를 지속적으로 모니터링하는 것은 Keystone 서비스의 가장 중요한 기능 중 하나입니다. Keystone은 모니터링 및 보고를 위해 ITOM 모니터링 솔루션을 사용합니다. 다음 이미지는 ITOM 모니터링 솔루션을 통해 고객 위치에 대한 원격 액세스가 보호되는 방법을 설명합니다. 고객은 원격 세션 기능을 사용하도록 선택할 수 있습니다. 그러면 Keystone 지원 팀이 문제 해결을 위해 모니터링되는 장치에 연결할 수 있습니다.
@@ -50,6 +52,7 @@ image:monitoring-flow-2.png["데이터 흐름"]
 
 
 
+[[compliance-standards]]
 == 규정 준수 표준
 
 Keystone ITOM 모니터링 솔루션은 유럽 연합 GDPR(General Data Protection Regulation) 및 CCPA(California Consumer Privacy Act)를 준수합니다. 이러한 약속을 문서화하기 위한 에도 를 link:https://www.logicmonitor.com/legal/data-processing-addendum["DPA(Data Protection Addendum)"^]제공합니다. ITOM 모니터링 솔루션은 개인 데이터를 수집하거나 저장하지 않습니다.

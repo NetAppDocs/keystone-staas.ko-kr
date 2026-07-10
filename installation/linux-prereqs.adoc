@@ -50,12 +50,14 @@ NOTE: Keystone Collector에서는 위에 나열된 타사 패키지만 지원됩
 
 
 
+[[other-requirements]]
 == 기타 요구 사항
 
 다음과 같은 일반 요구 사항이 충족되는지 확인합니다.
 
 
 
+[[networking-requirements]]
 === 네트워킹 요구 사항
 
 Keystone 수집기의 네트워킹 요구사항은 다음 표에 나와 있습니다.
@@ -223,6 +225,7 @@ NOTE: MySQL의 기본 포트인 3306은 Unified Manager를 새로 설치할 때 
 
 
 
+[[url-access]]
 === URL 액세스
 
 Keystone 수집기는 다음 인터넷 호스트에 액세스해야 합니다.

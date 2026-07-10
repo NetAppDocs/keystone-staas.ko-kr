@@ -18,6 +18,7 @@ summary: '가용성 SLO는 Keystone 주문을 이행하기 위해 배포된 모�
 
 
 
+[[metrics]]
 == 메트릭
 
 * *월간 가동률* = [(해당 월의 유효 가동 시간(초) - 해당 월의 PSLI 서비스 이용 불가 시간(초)) / 해당 월의 유효 가동 시간(초)] x 100%
@@ -27,6 +28,7 @@ summary: '가용성 SLO는 Keystone 주문을 이행하기 위해 배포된 모�
 
 
 
+[[service-credits]]
 == 서비스 크레딧
 
 
@@ -67,6 +69,7 @@ NOTE: SLA 및 보장은 후보 지명을 통해 제공됩니다.
 |===
 
 
+[[service-credit-calculation]]
 === 서비스 크레딧 계산
 
 서비스 크레딧은 다음 공식에 따라 결정됩니다.
@@ -119,6 +122,7 @@ NOTE: SLA 및 보장은 후보 지명을 통해 제공됩니다.
 
 
 
+[[service-credit-request]]
 === 서비스 크레딧 요청
 
 SLA 위반이 감지되면 NetApp Keystone 지원 팀과 함께 우선 순위 3(P3) 지원 티켓을 엽니다.

@@ -18,6 +18,7 @@ NetApp은 Keystone 고객에게 운영 서비스를 제공합니다. 고객은 �
 
 
 
+[[netapp-support-services]]
 == NetApp 지원 서비스
 
 NetApp은 Keystone 고객에게 원격으로 운영 서비스를 제공합니다. 이러한 서비스는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트 및 사고 관리, 서비스 요청 처리, 보고 등 다양한 스토리지 관리 활동을 포괄합니다.
@@ -27,6 +28,7 @@ NetApp은 Keystone 고객에게 원격으로 운영 서비스를 제공합니다
 
 
 
+[[contact-support]]
 == 지원 팀에 문의하십시오
 
 Keystone 구독에 문제가 발생하면 NSS 자격 증명을 사용하여 link:https://support.netapp.com["NetApp 지원 사이트"^]에 로그인하고 지원 사례를 생성하세요.
@@ -45,12 +47,14 @@ NSS 로그인 정보가 없는 경우 link:https://mysupport.netapp.com/site/use
 
 
 
+[[support-monitoring]]
 == 지원 모니터링
 
 NetApp은 ITOM 모니터링 솔루션을 사용하여 제품 및 구독 서비스의 상태를 사전에 모니터링하고 문제 해결을 위해 NetApp Keystone 환경에 연결합니다.
 
 
 
+[[additional-resources]]
 == 추가 리소스
 
 Keystone 서비스에 대한 자세한 내용은 다음을 참조하십시오.

@@ -25,6 +25,7 @@ Keystone 대시보드는 Keystone 구독을 효율적으로 모니터링, 분석
 
 
 
+[[access-the-keystone-dashboard]]
 == Keystone 대시보드에 액세스하세요
 
 Keystone 대시보드에 접속하려면 다음을 수행하세요.
@@ -35,6 +36,7 @@ Keystone 대시보드에 접속하려면 다음을 수행하세요.
 
 
 
+[[about-netapp-console]]
 == NetApp 콘솔 정보
 
 Keystone NetApp 콘솔을 통해 접근할 수 있습니다.
@@ -53,6 +55,7 @@ NetApp 콘솔은 기업 규모로 온프레미스 및 클라우드 환경 전반
 
 
 
+[[keystone-features-in-netapp-console-and-digital-advisor]]
 == NetApp Console 및 Digital Advisor 의 Keystone 기능
 
 다음 표는 NetApp Console과 Digital Advisor 에서 사용 가능한 기능을 보여주며, 이를 통해 사용자의 요구 사항에 맞는 올바른 플랫폼을 빠르게 찾는 데 도움이 됩니다.

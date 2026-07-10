@@ -31,6 +31,7 @@ NOTE: Keystone Collector는 연결 제한 없이 구성할 수 있으며, _STAND
 
 
 
+[[keystone-collector-in-private-mode]]
 == 개인 모드의 Keystone Collector
 
 Keystone Collector는 스토리지 시스템에서 사용량 데이터를 주기적으로 수집하고 메트릭을 오프라인 사용량 리포터 및 로컬 파일 저장소로 내보내는 작업을 담당합니다. 생성된 파일은 암호화된 형식 및 일반 텍스트 형식으로 작성되며 유효성 검사 후 사용자가 수동으로 NetApp에 전달합니다. NetApp의 Keystone 결제 플랫폼은 이러한 파일을 인증 및 처리하여 청구 및 구독 관리 시스템에 통합하여 월별 요금을 계산합니다.

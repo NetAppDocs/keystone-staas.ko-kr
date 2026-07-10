@@ -27,6 +27,7 @@ NetApp Keystone STaaS는 파트너 운영 모델과 고객 운영 모델의 두 
 
 
 
+[[roles-and-responsibilities-across-the-service-lifecycle]]
 == 서비스 라이프사이클 전반에서 역할 및 책임
 
 * *파트너 운영 모델*: 역할과 책임의 공유는 귀하와 서비스 제공자 또는 파트너 간의 계약에 따라 달라집니다. 자세한 내용은 서비스 공급업체에 문의하십시오.

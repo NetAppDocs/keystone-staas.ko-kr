@@ -2375,7 +2375,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="sidebar">고급 데이터 보호</block>
   <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insights 추가 기능 소비량 표시</block>
   <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">DII 소비량 보기</block>
-  <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights(DII) 추가 기능 사용량이 이제 *현재 사용량* 및 *사용량 추세* 탭에 표시됩니다. 자세한 내용은 <block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="ade2f26a9f9c3f533ed70befc7417b6b" category="section-title">Keystone 구독에 대한 DII 정보</block>
   <block id="9843f64ed3799d5bdb14dda01a9b5a37" category="paragraph">DII는 신규 및 기존 구독 모두에서 이용 가능합니다. 커밋된 용량에 대한 추가 기능으로 Keystone 구독에 통합할 수 있습니다.</block>
   <block id="28ee0e8daa391f128672facc133e687f" category="paragraph">DII가 Keystone 구독에 통합되면 해당 구독의 기본 성능 서비스 수준별로 상응하는 성능 서비스 수준이 생성됩니다. 예를 들어, Extreme은 DII Extreme에, Premium은 DII Premium에, Performance는 DII Performance에 대응됩니다. 이러한 매핑을 통해 DII 성능 서비스 수준이 Keystone 구독의 기본 성능 서비스 수준과 일치하게 됩니다.</block>
@@ -2402,14 +2401,11 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="40f098b2e9bcd6666815272fd1d0b84e" category="list-text">24시간 동안 최소 10개의 유효한 메트릭을 사용할 수 있어야 합니다. 조건이 충족되지 않으면 메트릭이 삭제됩니다.</block>
   <block id="b4508efb1fe09000c916385cb19795aa" category="cell">*영향을 받는 달력 일수*</block>
   <block id="3006a02699b8df924e1d005be208a0d9" category="doc">클러스터의 볼륨 탭의 새 열</block>
-  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">*자산*의 *클러스터별 볼륨* 탭에 *핫 데이터*, *콜드 티어(%)*, *핫 티어(%)*라는 세 개의 새로운 열이 추가되었습니다. 자세한 내용은 <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> 및 <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">소비 추세에서 청구된, 청구되지 않은 및 임시 버스트 사용량</block>
-  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">*소비 추세* 탭의 누적 버스트 청구 그래프에 이제 청구된 버스트 사용량, 청구되지 않은 버스트 사용량 및 잠정 버스트 사용량이 표시됩니다. 자세한 내용은 <block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">모니터링 보기 개선 사항</block>
   <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">*Monitoring* 보기에는 다음과 같은 업데이트가 포함되어 있습니다.</block>
   <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*Alerts 탭*: *Alert* 열의 이름이 *Alert type &amp; condition*으로 변경되었습니다. 이제 *Status* 열 옆에 있는 점 세 개 아이콘을 사용하여 알림을 편집하거나 메모를 추가하거나 알림 세부 정보를 볼 수 있습니다.</block>
   <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Alert monitors 탭*: *Condition* 열의 이름이 *Monitor type &amp; condition*으로 변경되었습니다.</block>
-  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">더 자세한 내용을 알아보려면 <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> 및 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="699549a6c51c3112d231898402b61156" category="admonition">Keystone Collector에서는 위에 나열된 타사 패키지만 지원됩니다. 추가 소프트웨어 설치는 지원되지 않으며 수집기 성능, 데이터 수집 및 청구 정확도에 영향을 미칠 수 있습니다.</block>
   <block id="9fc675b55df5c666e277ff0ddb9918bc" category="paragraph">클러스터의 볼륨에 대한 자세한 정보(볼륨 이름, 노드 일련 번호, 클러스터 이름, 호스트 이름, 성능 서비스 수준 등)를 확인할 수 있습니다. 또한 프로비저닝된 용량, 논리적 및 물리적 사용률, 콜드 데이터 및 핫 데이터를 모니터링할 수 있습니다.</block>
   <block id="951a19f47f142d3bea8b273df96be4b3" category="admonition">*Cold tier %* 및 *Hot tier %* 열은 각 티어의 데이터 비율을 나타내며, 각각 (Cold 데이터 / 전체 사용량) × 100 및 (Hot 데이터 / 전체 사용량) × 100으로 계산됩니다.</block>
@@ -2433,10 +2429,8 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c4a7223f29b332fc54d3573ee04a51a1" category="list-text">*시작 날짜* 및 *종료 날짜* 필드의 달력 아이콘에서 시간 범위를 선택합니다. 기본적으로 날짜 범위는 오늘부터 지난 30일입니다. 이 범위를 변경할 수 있지만 미래 날짜는 선택할 수 없습니다.</block>
   <block id="9b6f9894a20aba8f70839ec910a9bee6" category="admonition">30일 미만의 날짜 범위를 선택하면 선택한 기간 동안 하루에 하나의 데이터 수집 지점만 차트에 표시됩니다. 예를 들어 4일 범위를 선택하면 30개가 아닌 4개의 데이터 수집 지점이 표시됩니다. 선택한 기간에 관계없이 차트 하단에는 날짜만 표시됩니다. 타임스탬프는 아래 설명된 확대 기능을 사용하여 차트를 확대할 때만 볼 수 있습니다.</block>
   <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">기간별 데이터 소비량 차트에서 버스트 용량 초과</block>
-  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">*소비 추세* 탭의 기간별 데이터 차트에서 이제 버스트 제한을 초과하는 사용량이 강조 표시됩니다. 자세한 내용은 <block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
   <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">용량 사용량 예측</block>
   <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">예측 데이터 보기</block>
-  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">*소비 추세* 탭의 *기간별 소비량* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 용량 사용량을 예측할 수 있습니다. 자세한 내용은 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">구독 내보내기의 추적 ID</block>
   <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">이제 *구독* 페이지에서 다운로드한 구독 보고서에는 Excel 및 CSV 형식 모두에 대한 성능 서비스 수준 데이터에 *추적 ID*가 포함됩니다.</block>
   <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">구독 페이지 열 표시 여부 업데이트</block>
@@ -2643,7 +2637,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">프로비저닝된 용량 레이블 이름 변경</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">*Provisioned capacity* 레이블이 *Provisioned volume capacity*로 변경되었습니다. 업데이트된 레이블은 관련 CSV 및 Excel 보고서에도 반영됩니다.</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">누적 버스트에 대한 예측 토글</block>
-  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">이제 *소비 추세* 탭의 *누적 버스트* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 누적 버스트 사용량을 예측할 수 있습니다. 자세한 내용은 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="b833fc063470eb72aa05a5570f243c7b" category="admonition">*예측* 토글을 사용하여 *기간별 데이터* 보기에서 예상 용량 사용량을 확인하고 *누적 버스트* 보기에서 예상 누적 버스트를 확인할 수 있습니다. 자세한 내용은 <block ref="c3e0115050031e1e905cbb5a43dfe637" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="f0966c8c81211afb8b1cacba8a9fa525" category="paragraph">콘솔 또는 Digital Advisor를 통해 누적 버스트 데이터 사용량을 확인할 수 있습니다. 콘솔의 *소비 추세* 탭에 있는 *보기* 드롭다운 메뉴에서 *누적 버스트*를 선택했거나, Digital Advisor의 *소비 추세* 탭에서 *청구된 누적 버스트* 옵션을 선택한 경우, 선택한 청구 기간에 따라 월별 또는 분기별 누적 버스트 데이터 사용량을 확인할 수 있습니다.</block>
   <block id="30403a0435001d542a0a621f63da7853" category="paragraph">콘솔에서 *Forecast* 토글이 비활성화된 경우, 청구된 버스트 사용량과 청구되지 않은 버스트 사용량(발생했지만 아직 청구되지 않음) 및 잠정 버스트 사용량(현재 청구 기간에 발생했지만 아직 청구되지 않음)을 확인할 수 있습니다. *Forecast* 토글이 활성화된 경우, 그래프에는 현재 날짜로부터 향후 120일 동안의 예상 발생 버스트 사용량도 표시됩니다. *Forecast* 토글에 대한 자세한 내용은 <block ref="c3e0115050031e1e905cbb5a43dfe637" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
@@ -2718,7 +2711,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="8c4d76fa92f09a8376865002414752f9" category="sidebar">송장은 언제 생성되나요?</block>
   <block id="58738d2f8ee7ea1370382ef241eb44f2" category="sidebar">Keystone 청구 방식을 이해하세요</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">구독 타임라인에서 같은 날짜에 여러 업데이트가 있을 때 표시 방식이 개선되었습니다.</block>
-  <block id="fad09c803865d7a730faa5e2a3f20dc6" category="paragraph">이제 구독 타임라인 차트에서 여러 유형의 구독 업데이트가 같은 날에 발생할 경우, 개별 아이콘 대신 숫자가 표시됩니다. 숫자 위에 마우스를 올리면 해당 날짜의 모든 업데이트 유형을 확인할 수 있습니다. 다운로드한 보고서에는 각 업데이트에 대한 별도의 행이 포함되어 모든 변경 사항을 완벽하게 기록합니다. 자세한 내용은 <block ref="6bdc06544a2a6817dc4209abc6ea98ff" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="0e3e57bffd0893b655bd0cbbfa13b3f1" category="paragraph"><block ref="0e3e57bffd0893b655bd0cbbfa13b3f1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb648f8805fc9b54e9ef8edf7809ab97" category="paragraph">구독 타임라인은 기본적으로 선 그래프로 표시되며, 중요한 이벤트는 아이콘으로 표시됩니다. 같은 날에 여러 유형의 구독 업데이트가 발생하는 경우, 차트에는 개별 아이콘 대신 숫자가 표시됩니다. 숫자 위에 마우스를 올리면 해당 날짜에 발생한 모든 업데이트 유형을 볼 수 있으며, 이벤트 아이콘 위에 마우스를 올리면 날짜 및 확정 용량 변경과 같은 세부 정보를 확인할 수 있습니다. 이러한 이벤트를 표 형식으로 보려면 *View as* 드롭다운 메뉴에서 *Table* 옵션을 선택하세요. 다른 구독 타임라인을 보려면 *Tracking ID* 드롭다운 메뉴에서 선택하거나 검색하세요.</block>
   <block id="08e7a28380a64fb6e2353778c694c0a9" category="paragraph"><block ref="08e7a28380a64fb6e2353778c694c0a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -2726,17 +2718,14 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="bab3c4cbe1382c763eff57041def5e4a" category="paragraph">*Subscriptions* 탭에서 만료된 구독의 만료일이 실제 구독 종료일이 아닌 어제 날짜로 표시됩니다.</block>
   <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026년 5월 25일</block>
   <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">MetroCluster 구독에 대한 ADP 라이선스 배포 내역 보기</block>
-  <block id="3ad62afeef69f8bc4e30a8bf1cd4ed24" category="paragraph">이제 *고급 데이터 보호(ADP)* 탭에 새로운 *라이선스 배포* 하위 탭이 추가되어 MetroCluster 파트너 클러스터 전체의 ADP 라이선스 사용 현황을 확인할 수 있습니다. 자세한 내용은 <block ref="1c707f11dcf40c95719514b3f1835196" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="82ee282c36e597ba42bea56f0d029b9e" category="section-title">볼륨의 랜섬웨어 보호 상태 보기</block>
   <block id="959a686de018aa5e6a4a2b33d83ab22b" category="inline-link-macro">ONTAP의 ARP(Autonomous Ransomware Protection)</block>
-  <block id="1c18f5a662955e3a23a23d54aca043b6" category="paragraph">자산의 *클러스터 내 볼륨* 탭에 이제 각 볼륨에 대해 자율 랜섬웨어 보호(ARP)가 활성화되었는지 비활성화되었는지 표시하는 *ARP 상태* 열이 추가되어 관리되는 자산 전체의 랜섬웨어 보호 상태를 파악할 수 있습니다. ARP에 대한 자세한 내용은 <block ref="b12af018ff0eb76de3921de73532693b" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="aa2298f4012d00689c6db262f51b627f" category="section-title">피드백 탭을 사용하여 의견 공유</block>
   <block id="6938bc958f8539e0bb0d56145bf54011" category="paragraph">이제 Keystone 대시보드의 모든 화면에서 화면 오른쪽 하단에 고정된 새 *Feedback* 탭을 사용하여 피드백을 제공할 수 있습니다. 이 탭을 클릭하면 사용 경험을 공유하고 의견을 NetApp에 직접 제출할 수 있는 패널이 열립니다.</block>
   <block id="03c47a6c52980a6f54e9df7f4c59cb77" category="section-title">용량 사용량 및 구독 만료에 대한 알림 개선</block>
   <block id="00d1cd9fd062313d8bbfe761883837c6" category="paragraph">시스템에서 생성되는 모니터링 기능을 통해 용량 사용량 및 구독 만료에 대한 더욱 세분화된 알림을 받을 수 있습니다.</block>
   <block id="ba9431d5ada7b4b6e05b421ef88f8c24" category="paragraph">구독 만료와 관련하여 이제 알림은 만료일 180일, 90일, 60일, 30일, 7일 전의 다섯 가지 임계값에서 발생하며, 만료일이 가까워질수록 알림의 심각도가 정보 제공 수준에서 심각 수준으로 높아집니다.</block>
   <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">용량 사용량에 대한 버스트 알림 임계값이 이제 고정된 20%가 아닌 구독의 약정 버스트 비율을 기준으로 합니다. 예를 들어 약정 버스트가 40%인 경우 약정 용량 사용률이 140%에 도달하면 심각한 알림이 발생합니다.</block>
-  <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">자세한 내용은 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="c1b9720fa055aceaf15e4ae2d736bee4" category="paragraph">Keystone STaaS는 각 스토리지 유형에 대해 사전 정의된 성능 서비스 수준(PSL), 즉 기본 성능 서비스 수준을 제공합니다. 각 PSL에는 성능 목표(IOPS, 처리량 및 지연 시간), 지원 프로토콜, 플랫폼 및 최소 용량 요구 사항이 명시되어 있습니다. 사용 가능한 PSL을 검토하여 워크로드에 적합한 서비스 수준을 선택하고 구독을 계획하십시오.</block>
   <block id="945427e2b06f5c5b28a97a55a2562518" category="summary">Keystone에서 고급 데이터 보호 추가 기능 서비스를 구독할 때 MetroCluster 파트너 사이트의 소비 데이터를 보고, 상태를 모니터링하고, ADP 라이센스 배포를 추적합니다.</block>
   <block id="1d06cc542caaddb07154ca467aff5db5" category="paragraph">고급 데이터 보호 애드온 서비스를 구독하면 NetApp Console 또는 Digital Advisor에서 MetroCluster 파트너 사이트의 사용량 데이터를 확인할 수 있습니다. NetApp Console에서 MetroCluster 구성의 상태를 모니터링하고 고급 데이터 보호 라이선스의 배포를 추적할 수도 있습니다.</block>
@@ -2749,4 +2738,15 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="b52a8fe5a68b65cd156fdbdd49db6e3f" category="paragraph"><block ref="b52a8fe5a68b65cd156fdbdd49db6e3f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="012c1fa51b2cce435780c63eb94ec4e8" category="paragraph">이 데이터를 사용하여 특정 날짜의 청구 내역이 정확한지 확인하고 구독 사용량에 따른 차감 금액을 대조해 볼 수 있습니다.</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026년 6월 29일</block>
+  <block id="db3bd850e74f5f766861f5bd86ef4fe1" category="paragraph">Data Infrastructure Insights(DII) 추가 기능 사용량이 이제 *현재 사용량* 및 *사용량 추세* 탭에 표시됩니다. 자세한 내용은<block ref="e85da089c52c9c7ee134719c608656f0" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="f232290b59d55feef549685803343ca2" category="paragraph">자산(Assets)의 클러스터별 볼륨(Volumes in clusters) 탭에 *핫 데이터(Hot data)*, *콜드 티어(Cold tier, %)*, *핫 티어(Hot tier, %)*라는 세 개의 새로운 열이 추가되었습니다. 자세한 내용은 <block ref="e5507f6e8dbcc07ae7ce3bb876484b8a" category="inline-link-rx"></block> 및 <block ref="7f77c8bd4b401343bdf134614dcbbc54" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="06b177e8e58693c82d283c78208b2127" category="paragraph">*소비 추세* 탭의 누적 버스트 청구 그래프에 이제 청구된 버스트 사용량, 청구되지 않은 버스트 사용량 및 잠정 버스트 사용량이 표시됩니다. 자세한 내용은<block ref="31e7618d7776b538d013c0ecba98f3c8" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="fca5caacfbcacffcbb1ae54a267af000" category="paragraph">더 자세한 내용을 알아보려면 <block ref="1b1ff4fe51e533ed4f70a60bc9d1b098" category="inline-link-rx"></block> 및 <block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="d83b5b5f3beaf482542f053de748fcaa" category="paragraph">*소비 추세* 탭의 기간별 데이터 차트에서 이제 버스트 제한을 초과하는 사용량이 강조 표시됩니다. 자세한 내용은<block ref="e264c10903bb9a5694a7b9af6dafa638" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="ee885a60d72aa21cfa1b979efe382e3a" category="paragraph">*소비 추세* 탭의 *기간별 소비량* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 용량 사용량을 예측할 수 있습니다. 자세한 내용은<block ref="66d7c7dbf3416596c75cfd488116093b" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="59cd389cee057923ba31ddf4336c8526" category="paragraph">이제 *소비 추세* 탭의 *누적 버스트* 보기에서 *예측* 토글을 사용하여 현재 날짜로부터 향후 120일 동안의 누적 버스트 사용량을 예측할 수 있습니다. 자세한 내용은<block ref="66d7c7dbf3416596c75cfd488116093b" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">이제 구독 타임라인 차트에서 여러 유형의 구독 업데이트가 같은 날에 발생할 경우, 개별 아이콘 대신 숫자가 표시됩니다. 숫자 위에 마우스를 올리면 해당 날짜의 모든 업데이트 유형을 확인할 수 있습니다. 다운로드한 보고서에는 각 업데이트에 대한 별도의 행이 포함되어 모든 변경 사항을 완벽하게 기록합니다. 자세한 내용은<block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">이제 *고급 데이터 보호(ADP)* 탭에 새로운 *라이선스 배포* 하위 탭이 추가되어 MetroCluster 파트너 클러스터 전체의 ADP 라이선스 사용 현황을 확인할 수 있습니다. 자세한 내용은<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">자산의 *클러스터 내 볼륨* 탭에 이제 각 볼륨에 대해 자율 랜섬웨어 보호(ARP)가 활성화되었는지 비활성화되었는지 표시하는 *ARP 상태* 열이 추가되어 관리되는 자산 전체의 랜섬웨어 보호 상태를 파악할 수 있습니다. ARP에 대한 자세한 내용은<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="86160081a3f709a69c529a9b26266813" category="paragraph">자세한 내용은<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>을 참조하십시오.</block>
 </blocks>

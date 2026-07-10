@@ -18,6 +18,7 @@ Keystone Keystone ONTAP 및 Keystone StorageGRID 구독의 구성, 상태 및 �
 
 
 
+[[ontap-data-collection]]
 == ONTAP 데이터 수집
 
 .ONTAP에 대해 수집된 <strong> 사용 데이터: 자세히 알아보기 </strong>
@@ -325,6 +326,7 @@ Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 O
 ====
 
 
+[[storagegrid-data-collection]]
 == StorageGRID 데이터 수집
 
 .StorageGRID에 대해 수집된 <strong> 사용 데이터: 자세히 알아보기 </strong>
@@ -372,6 +374,7 @@ Keystone 수집기에서 * 개인 데이터 제거 * 옵션을 활성화하면 S
 ====
 
 
+[[telemetry-data-collection]]
 == 원격 측정 데이터 수집
 
 .<strong> Keystone Collector VM에서 수집된 원격 측정 데이터: 자세히 알아보기</strong>

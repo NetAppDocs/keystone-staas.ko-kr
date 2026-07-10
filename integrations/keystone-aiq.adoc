@@ -47,6 +47,7 @@ NOTE: Keystone 구독의 용량 사용량은 대시보드와 보고서에서 TiB
 
 
 
+[[search-by-keystone-watchlists]]
 == Keystone 관심 목록으로 검색합니다
 
 관심 목록은 Digital Advisor에서 제공하는 기능입니다. 자세한 내용은 을 https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["시청목록 이해"^]참조하십시오. 관심 목록 생성에 대한 자세한 내용은 다음을 참조하세요.  https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["시청목록 생성"^] .

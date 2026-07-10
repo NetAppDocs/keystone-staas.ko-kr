@@ -18,6 +18,7 @@ summary: Keystone의 지속 가능성 SLO가 STaaS 구축에 대한 전력 소�
 
 
 
+[[metrics]]
 == 메트릭
 
 * *와트*: 스토리지 어레이 또는 AFX 클러스터에서 소비되는 전력으로, 모니터링 도구에서 보고되는 값입니다. 참조 최대 전력 소비 제한은 link:https://hwu.netapp.com["NetApp Hardware Universe"^]에 제공됩니다.
@@ -33,6 +34,7 @@ summary: Keystone의 지속 가능성 SLO가 STaaS 구축에 대한 전력 소�
 
 
 
+[[supported-configurations]]
 === 지원되는 구성
 
 지속가능성 SLO는 다음과 같은 지원 구성을 갖춘 표준 Keystone STaaS 주문에 적용됩니다.
@@ -47,6 +49,7 @@ summary: Keystone의 지속 가능성 SLO가 STaaS 구축에 대한 전력 소�
 
 
 
+[[service-credits]]
 == 서비스 크레딧
 
 
@@ -80,6 +83,7 @@ NOTE: SLA 및 보장은 후보 지명을 통해 제공됩니다.
 |===
 
 
+[[service-credit-request]]
 === 서비스 크레딧 요청
 
 서비스 크레딧을 요청하려면 서비스 월 종료일로부터 7일 이내에 NetApp Keystone 지원팀에 우선순위 3(P3) 지원 티켓을 접수하고 아래 엑셀 시트에 요청된 세부 정보를 제공하십시오.

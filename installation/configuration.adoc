@@ -55,6 +55,7 @@ summary: Keystone Collector가 스토리지 환경에서 사용량 데이터를 
 
 
 
+[[configure-http-proxy-on-keystone-collector]]
 == Keystone 수집기에서 HTTP 프록시를 구성합니다
 
 Collector 소프트웨어는 HTTP 프록시를 사용하여 인터넷과 통신할 수 있도록 지원합니다. TUI에서 구성할 수 있습니다.
@@ -68,6 +69,7 @@ Collector 소프트웨어는 HTTP 프록시를 사용하여 인터넷과 통신�
 
 
 
+[[limit-collection-of-private-data]]
 == 개인 데이터의 수집 제한
 
 Keystone Collector는 구독 측정을 수행하는 데 필요한 제한된 구성, 상태 및 성능 정보를 수집합니다. 업로드한 콘텐츠에서 중요한 정보를 마스킹하여 수집된 정보를 추가로 제한할 수 있는 옵션이 있습니다. 이는 청구 계산에 영향을 미치지 않습니다. 그러나 볼륨 이름과 같은 사용자가 쉽게 식별할 수 있는 일부 요소가 UUID로 교체되므로 정보를 제한하면 보고 정보의 유용성에 영향을 줄 수 있습니다.
@@ -80,6 +82,7 @@ ONTAP 및 StorageGRID에서 개인 데이터 액세스를 제한하는 데 제�
 
 
 
+[[trust-a-custom-root-ca]]
 == 사용자 지정 루트 CA를 신뢰합니다
 
 공용 루트 CA(인증 기관)에 대한 인증서 확인은 Keystone Collector 보안 기능의 일부입니다. 그러나 필요한 경우 사용자 지정 루트 CA를 신뢰하도록 Keystone Collector를 구성할 수 있습니다.
@@ -111,6 +114,7 @@ image:kc-custom-ca.png["CA 사용자 지정을 위한 TUI 화면"]
 
 
 
+[[create-performance-service-levels]]
 == 성능 서비스 수준 생성
 
 Keystone Collector 관리 TUI 유틸리티를 사용하여 성능 서비스 수준(PSL)을 생성할 수 있습니다. TUI를 통해 PSL을 생성하면 각 성능 서비스 수준에 설정된 기본값이 자동으로 선택되므로 Active IQ Unified Manager 통해 PSL을 생성하는 동안 이러한 값을 수동으로 설정할 때 발생할 수 있는 오류 가능성이 줄어듭니다.

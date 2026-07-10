@@ -38,6 +38,7 @@ NOTE: * 문제 설명 *: Keystone 수집기는 사용량 측정 시스템의 일
 
 
 
+[[view-system-logs]]
 == 시스템 로그를 봅니다
 
 Keystone Collector 시스템 로그를 보고 시스템 정보를 검토하고 해당 로그를 사용하여 문제 해결을 수행할 수 있습니다. Keystone Collector는 호스트의 _저널_로깅 시스템을 사용하며, STANDARD_저널_시스템 유틸리티를 통해 시스템 로그를 검토할 수 있습니다. 다음 주요 서비스를 사용하여 로그를 검토할 수 있습니다.
@@ -96,6 +97,7 @@ Keystone Collector 시스템 로그를 보고 시스템 정보를 검토하고 �
 ----
 
 
+[[generate-and-collect-support-bundles]]
 == 지원 번들을 생성하고 수집합니다
 
 Keystone Collector TUI를 사용하면 지원 번들을 생성한 다음 지원 문제 해결을 위한 서비스 요청에 추가할 수 있습니다. 다음 절차를 따르십시오.

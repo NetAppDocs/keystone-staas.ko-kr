@@ -25,6 +25,7 @@ MetroCluster 구성에 대한 소비 및 상태 메트릭을 모니터링할 수
 
 
 
+[[understand-pricing]]
 == 가격 책정 이해
 
 고급 데이터 보호 부가 서비스는 각 사이트의 약정 용량을 기준으로 가격이 책정됩니다. 부가 서비스 요금은 원본 데이터, 미러링된 사본, 미러링되지 않은 데이터를 포함하여 구독에 포함된 모든 용량에 적용됩니다.
@@ -40,6 +41,7 @@ MetroCluster 구성의 경우 각 사이트마다 별도의 구독이 필요하�
 
 
 
+[[supported-metrocluster-configurations]]
 == 지원되는 MetroCluster 구성
 
 Keystone은 다음과 같은 MetroCluster 배포 시나리오를 지원합니다.

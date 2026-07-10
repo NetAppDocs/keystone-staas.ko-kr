@@ -18,6 +18,7 @@ Keystone STaaS는 통합 스토리지(_Value_ 성능 서비스 레벨 제외), �
 
 
 
+[[metrics]]
 == 메트릭
 
 * * 성능 저하 *: 90번째 백분위수 지연 목표가 충족되지 않는 인시던트당 시간(분)입니다.
@@ -39,6 +40,7 @@ Keystone STaaS는 통합 스토리지(_Value_ 성능 서비스 레벨 제외), �
 
 
 
+[[service-credits]]
 == 서비스 크레딧
 
 
@@ -58,6 +60,7 @@ NetApp은 성능 저하된 성능에 대해 서비스 크레딧을 발행합니�
 |===
 
 
+[[service-credit-calculation]]
 === 서비스 크레딧 계산
 
 서비스 크레딧은 다음 공식에 따라 결정됩니다.
@@ -93,6 +96,7 @@ NetApp은 성능 저하된 성능에 대해 서비스 크레딧을 발행합니�
 
 
 
+[[service-credit-request]]
 === 서비스 크레딧 요청
 
 SLA 위반이 감지되면 NetApp Keystone 지원 팀과 함께 우선 순위 3(P3) 지원 티켓을 엽니다.

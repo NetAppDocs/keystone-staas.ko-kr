@@ -18,6 +18,7 @@ VMware vSphere 시스템에 Keystone Collector를 구축하려면 OVA 템플릿 
 
 
 
+[[deploying-the-ova-template]]
 == OVA 템플릿 배포
 
 다음 단계를 수행하십시오.
@@ -59,6 +60,7 @@ VM을 템플릿에서 구축하고 전원을 켠 후 VM에 대한 SSH 세션을 
 
 
 
+[[initial-system-configuration]]
 == 초기 시스템 구성
 
 OVA를 통해 구축된 Keystone Collector 서버의 초기 구성을 위해 VMware vSphere 시스템에서 다음 단계를 수행합니다.

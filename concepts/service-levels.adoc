@@ -23,6 +23,7 @@ NOTE: AFX 구독은 AFX 스토리지 유형으로 제한되며 현재 하나의 
 
 
 
+[[performance-service-levels-instances]]
 == 성능 서비스 수준 인스턴스
 
 성능 서비스 레벨(PSL)은 환경 내에서 성능 서비스 레벨 인스턴스(PSLI)라고 하는 여러 인스턴스를 가질 수 있습니다. 각 PSLI는 해당 성능 서비스 레벨에 할당된 별도의 스토리지 시스템이며, 약정 용량은 PSLI별로 측정됩니다.
@@ -40,6 +41,7 @@ TIP: NetApp Keystone STaaS 성능 서비스 수준에 대한 자세한 서비스
 
 
 
+[[performance-service-levels-for-unified-storage]]
 == 통합 스토리지의 성능 서비스 수준
 
 |===
@@ -76,6 +78,7 @@ TIP: NetApp Keystone STaaS 성능 서비스 수준에 대한 자세한 서비스
 |===
 
 
+[[performance-service-levels-for-block-optimized-storage]]
 == 블록 최적화 스토리지의 성능 서비스 수준
 
 |===
@@ -112,6 +115,7 @@ TIP: NetApp Keystone STaaS 성능 서비스 수준에 대한 자세한 서비스
 |===
 
 
+[[performance-service-levels-for-afx-storage]]
 == AFF 스토리지의 성능 서비스 수준
 
 |===
@@ -155,6 +159,7 @@ TIP: NetApp Keystone STaaS 성능 서비스 수준에 대한 자세한 서비스
 ====
 
 
+[[performance-measurement-conditions-for-unified-block-optimized-and-afx-storage]]
 == 통합형, 블록 최적화형 및 AFX 스토리지에 대한 성능 측정 조건
 
 기본 성능 서비스 수준 측정항목은 다음 조건에 따라 달라집니다.
@@ -191,6 +196,7 @@ TIP: NetApp Keystone STaaS 성능 서비스 수준에 대한 자세한 서비스
 
 
 
+[[performance-service-levels-for-object-storage]]
 == 객체 스토리지의 성능 서비스 수준
 
 |===
@@ -215,6 +221,7 @@ TIP: NetApp Keystone STaaS 성능 서비스 수준에 대한 자세한 서비스
 |===
 
 
+[[cloud-storage]]
 == 클라우드 스토리지
 
 |===
