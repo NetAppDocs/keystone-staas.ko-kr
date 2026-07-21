@@ -1,0 +1,14 @@
+= 구독 만료일 및 자동 갱신 상태 보기
+:allow-uri-read: 
+
+
+NetApp Console 의 Keystone 대시보드의 새로운 기능 향상:
+
+
+
+[[view-subscription-expiry-and-auto-renewal-status]]
+=== 구독 만료일 및 자동 갱신 상태 보기
+
+구독 테이블(*Storage > Keystone > Subscriptions*)의 *Days to subscription expiry* 열에 이제 만료일 옆에 아이콘이 표시됩니다. 자동 갱신이 해제된 경우 아이콘 색상은 만료 임박도를 나타냅니다. 녹색은 120일 초과(>120일), 주황색은 91~120일, 빨간색은 90일 미만(<90일), 회색은 만료됨을 의미합니다. 자동 갱신이 활성화된 구독의 경우 자동 갱신 아이콘이 표시되어 현재 기간이 종료되면 구독이 자동으로 갱신됨을 나타냅니다. 이 상태는 읽기 전용이며 계약 조건을 반영합니다. 구독을 열면 *Current consumption*, *Consumption trend*, *Subscription timeline*, *Assets* 탭의 구독 세부 정보 헤더에 이러한 아이콘이 표시되어 탐색하는 동안 만료 및 갱신 상태를 확인할 수 있습니다.
+
+자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Keystone 구독에 대한 세부 정보 보기"]을 참조하십시오.

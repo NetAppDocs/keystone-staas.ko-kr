@@ -59,7 +59,7 @@ NetApp은 ITOM 모니터링 솔루션을 사용하여 제품 및 구독 서비�
 
 Keystone 서비스에 대한 자세한 내용은 다음을 참조하십시오.
 
-* link:https://www.netapp.com/us/solutions/keystone/index.aspx["NetApp Keystone"^]
+* link:https://www.netapp.com/keystone/["NetApp Keystone"^]
 * link:https://docs.netapp.com["NetApp 제품 설명서"^]
 
 

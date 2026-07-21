@@ -655,7 +655,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">쿼리의 날짜 범위를 선택합니다. 날짜 범위는 월 시작 날짜 또는 구독 시작 날짜부터 현재 날짜까지 또는 구독 종료 날짜일 수 있습니다. 미래 날짜는 선택할 수 없습니다.</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">* 현재 버스트 *: 정의된 버스트 제한 내 또는 그 이상의 사용된 용량에 대한 표시기입니다. 구독의 버스트 제한 내에서 사용량(예: 약정 용량보다 20% 더 높은 사용량)은 버스트 제한 내에 있습니다. 추가 사용은 버스트 제한을 초과하는 사용량으로 간주됩니다. 이 필드에는 특정 색상이 표시됩니다.</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">ONTAP 9.8 이상</block>
-  <block id="ad98fcce772f03d25a2b4758c7fbf35c" category="list-text">Unified Manager 9.10 이상이 구성되어 있는지 확인합니다. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.</block>
   <block id="8414d36b2c6d9865a2f13b42f9ef6e91" category="list-text">StorageGRID<block ref="eb0ecbdf20891e5963990e2643405555" prefix=" " category="inline-code"></block> 이상 버전이 설치되어 있어야 합니다. StorageGRID 업그레이드에 대한 자세한 내용은 을 참조하십시오 <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>.</block>
   <block id="3b41a0b0d60e10655d8e46d1aa287167" category="paragraph">StorageGRID의 경우 이 탭에는 객체 스토리지에 대한 노드의 물리적 사용량이 표시됩니다.</block>
   <block id="88895084439cc3245895b1c40dc5b078" category="inline-link-macro">Keystone 관심 목록을 사용하여 검색합니다</block>
@@ -721,7 +720,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c977c72cd7678128aadf339e54fc0498" category="sidebar">콜드 데이터 또는 덜 사용되는 데이터로 무엇을 할 수 있는가?</block>
   <block id="3c433d996e071fc968830570a2649830" category="sidebar">Keystone 데이터를 어떻게 보호할 수 있습니까?</block>
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">송장 발행된 누적 버스트 보기</block>
-  <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager(Unified Manager) 9.10 이상</block>
   <block id="cbe21b6da30db10de9cd33de72b5dc48" category="paragraph">SnapLock 기술은 볼륨에 설정된 만료 날짜 이후에 드라이브를 사용할 수 없도록 하여 NRNVC 기능을 활성화합니다. 볼륨에 SnapLock 기술을 사용하려면 NRNVC를 구독해야 합니다. 이는 파일 및 블록 서비스에만 적용됩니다.</block>
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">* 관련 정보 *</block>
   <block id="e6158c69831c3faa8af6ba0dce7118fd" category="list-text"><block ref="e6158c69831c3faa8af6ba0dce7118fd" category="inline-link-macro-rx"></block></block>
@@ -1696,7 +1694,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7e147d47de92c4a609c07c4bb5e40f29" category="list-text">*청구 기간*: 구독의 청구 기간입니다.</block>
   <block id="15d3201050b72761174ef874891c70c2" category="list-text">*성능 서비스 수준*: 구독과 연관된 요금제의 수로, 각 요금제는 특정 성능 서비스 수준과 약정 용량에 해당합니다.</block>
   <block id="7977aee626f33c6d577f1efc799f2747" category="list-text">*최대 용량*: 구독 내에서 소비되는 최대 용량입니다.</block>
-  <block id="e0e64854d2f2c608544b01e8cc518243" category="list-text">*구독 만료까지 남은 일수*: 구독이 만료되기까지 남은 일수입니다.</block>
   <block id="e567b31e26c159f427dde0e64b05c3c2" category="admonition">열 선택기를 사용하여 표에 표시되는 열을 사용자 정의할 수 있습니다. <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 상. 특정 필드 및 열의 경우 데이터에 대한 추가 정보를 제공하는 정보 또는 경고 아이콘 및 도구 설명이 표시될 수 있습니다.</block>
   <block id="ed4d0852f1703e0820b9637850aeae85" category="paragraph">Digital Advisor에서 구독을 보려면 다음 단계를 따르세요.</block>
   <block id="01bbb3898ca00363b1b5c84f5c112a6e" category="list-text">Digital Advisor 왼쪽 탐색 창에서 *일반 &gt; Keystone 구독 &gt; 구독*으로 이동합니다.</block>
@@ -2281,7 +2278,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="1e007e954fdd7587bcd939b10c21e650" category="list-text">Console에서 누적 버스트 청구 그래프를 통해 일일 데이터 사용량을 필터링할 수 있습니다. 자세한 내용은 <block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="1b342e2d578a51d6b3d947da95fe0f10" category="paragraph">Console에서 누적 버스트 청구 그래프에서 청구 기간을 나타내는 막대를 선택하여 테이블을 필터링할 수 있습니다. 필터링하면 선택한 청구 기간 내의 일수만 표시됩니다. 전체 데이터 세트를 다시 보려면 *Clear filters* 옵션을 사용하십시오. 선택한 기간에 데이터가 없는 경우 데이터가 없음을 나타내는 메시지가 표시됩니다.</block>
   <block id="e6f9cff2e05b0c21bfa8eacbea1108b9" category="paragraph"><block ref="e6f9cff2e05b0c21bfa8eacbea1108b9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c4eab7429b9b42ab319272d31567f10b" category="paragraph"><block ref="c4eab7429b9b42ab319272d31567f10b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6331e16cef510e2a7170f77ace7d4d3c" category="list-text">*사용 유형*: 여러 Keystone 버전을 구독했을 수 있습니다. 성능 서비스 수준에 대한 요금제 규칙은 구독 버전에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량, 물리적 사용량 또는 논리적 사용량 중 어떤 기준으로 청구되는지 알 수 있습니다. 버전 1에 대한 자세한 내용은<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>를 참조하십시오.</block>
   <block id="8c4ee08746e9d4d8b64596c87ac3fab1" category="inline-image-macro">확장 아이콘</block>
   <block id="b3aabf2706f0dd29444a14f90b5b670f" category="admonition">테이블 헤더의 아래쪽 화살표 <block ref="f41a012a2c49083e45aae37ff23f77bc" category="inline-image-macro-rx" type="image"></block>를 클릭하면 모든 구독을 확장하여 각 구독의 성능 서비스 수준 정보를 동시에 볼 수 있습니다. 여기에는 모든 구독에 대한 현재 사용량, 약정 용량, 프로비저닝된 용량, 버스트 용량 및 사용 가능한 용량을 포함한 자세한 용량 정보가 표시됩니다. 또는 개별 구독 행의 *만료일* 열 옆에 있는 아래쪽 화살표를 클릭하여 하나씩 확장할 수도 있습니다.</block>
@@ -2472,7 +2468,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="513ac101f78fa63747befb7f73414070" category="paragraph">NetApp은 ITOM 모니터링 솔루션을 사용하여 제품 및 구독 서비스의 상태를 사전에 모니터링하고 문제 해결을 위해 NetApp Keystone 환경에 연결합니다.</block>
   <block id="8cd58c89ff3d51a256ecfe3fe8bab20f" category="section-title">추가 리소스</block>
   <block id="bc9d99b4b5c353814419ac4f3a7bcbb9" category="inline-link-macro">NetApp Keystone</block>
-  <block id="07d64f85c46041387234eb4f1b2c6dda" category="list-text"><block ref="07d64f85c46041387234eb4f1b2c6dda" category="inline-link-macro-rx"></block></block>
   <block id="bc4fe2352063642d68529f2aa0ca7ca3" category="inline-link-macro">NetApp 제품 설명서</block>
   <block id="c4c9ecac280f54a5500192a9efb21c2b" category="list-text"><block ref="c4c9ecac280f54a5500192a9efb21c2b" category="inline-link-macro-rx"></block></block>
   <block id="417de6e21a96febf9dc5f6d95a18c845" category="inline-link-macro">ONTAP 플랫폼의 일련 번호를 확인하는 방법</block>
@@ -2749,4 +2744,19 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">이제 *고급 데이터 보호(ADP)* 탭에 새로운 *라이선스 배포* 하위 탭이 추가되어 MetroCluster 파트너 클러스터 전체의 ADP 라이선스 사용 현황을 확인할 수 있습니다. 자세한 내용은<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">자산의 *클러스터 내 볼륨* 탭에 이제 각 볼륨에 대해 자율 랜섬웨어 보호(ARP)가 활성화되었는지 비활성화되었는지 표시하는 *ARP 상태* 열이 추가되어 관리되는 자산 전체의 랜섬웨어 보호 상태를 파악할 수 있습니다. ARP에 대한 자세한 내용은<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">자세한 내용은<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="74cf60fbdf1e9979b4bc96c9e0974a6b" category="doc">구독 만료일 및 자동 갱신 상태 보기</block>
+  <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">구독 테이블(*Storage &gt; Keystone &gt; Subscriptions*)의 *Days to subscription expiry* 열에 이제 만료일 옆에 아이콘이 표시됩니다. 자동 갱신이 해제된 경우 아이콘 색상은 만료 임박도를 나타냅니다. 녹색은 120일 초과(&gt;120일), 주황색은 91~120일, 빨간색은 90일 미만(&lt;90일), 회색은 만료됨을 의미합니다. 자동 갱신이 활성화된 구독의 경우 자동 갱신 아이콘이 표시되어 현재 기간이 종료되면 구독이 자동으로 갱신됨을 나타냅니다. 이 상태는 읽기 전용이며 계약 조건을 반영합니다. 구독을 열면 *Current consumption*, *Consumption trend*, *Subscription timeline*, *Assets* 탭의 구독 세부 정보 헤더에 이러한 아이콘이 표시되어 탐색하는 동안 만료 및 갱신 상태를 확인할 수 있습니다.</block>
+  <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">자세한 내용은<block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="e13f280ffa976818e3580eb46f21ed29" category="list-text"><block ref="e13f280ffa976818e3580eb46f21ed29" category="inline-link-macro-rx"></block></block>
+  <block id="23d4d9cd1c1ff2d6d2933321e5728e41" category="list-text">Active IQ Unified Manager(Unified Manager) 9.10 이후 버전 및 9.16P2 이전 버전</block>
+  <block id="2532e6915fa7b6217c6d00baa817a264" category="list-text">Unified Manager 버전이 9.10 이상 9.16P2 이전인지 확인하십시오. Unified Manager 설치에 대한 자세한 내용은 다음 링크를 참조하십시오.</block>
+  <block id="eb471dad784c59f27107be17f79c179b" category="paragraph"><block ref="eb471dad784c59f27107be17f79c179b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7ed9a56ae580bae02af0f4033c1fc03e" category="list-text">*구독 만료까지 남은 일수*: 만료일 옆에 아이콘이 표시되어 구독 만료까지 남은 기간과 자동 갱신 여부를 알려줍니다. 이 상태는 읽기 전용이며 계약 조건을 반영합니다. 계약 세부 정보를 확인하려면 <block ref="2cf57deab11a97384e65ae3b18f8e059" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="0f90b275e273c351e98af167ee4042b0" category="paragraph">자동 갱신이 꺼져 있을 경우, 아이콘 색상은 만료일이 가까워졌음을 나타냅니다.</block>
+  <block id="e0646e6cc1521e0d850cfe435090ef1a" category="list-text">*녹색*: 만료일까지 120일 이상 남았습니다.</block>
+  <block id="2eaf25d8a1f7859cabcfaf2c76ce332d" category="list-text">*주황색*: 만료까지 91일에서 120일이 남았습니다.</block>
+  <block id="0f256230b1488e77dbb19f67f96d22e7" category="list-text">*빨간색*: 만료일까지 90일 미만이 남았습니다. 서비스 중단을 방지하려면 NetApp Keystone 지원팀에 갱신 요청을 제출하십시오.</block>
+  <block id="ec9f6b08367a17a666713d93adc74fa6" category="list-text">*회색*: 구독이 만료되었습니다.</block>
+  <block id="9a43c87c7a255c40ac13d4fd963633ae" category="paragraph">자동 갱신 기능이 활성화된 구독의 경우, 자동 갱신 아이콘이 표시되어 현재 구독 기간이 종료되면 자동으로 갱신됨을 나타냅니다.</block>
+  <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026년 7월 20일</block>
 </blocks>
