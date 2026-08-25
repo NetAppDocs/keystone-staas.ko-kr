@@ -120,7 +120,7 @@ image:sla-breach.png["Excel 시트 템플릿"]
 [NOTE]
 ====
 * 서비스 크레딧 요청은 NetApp Keystone 지원 부서에서 위반이 확인된 후 6주 이내에 시작해야 합니다. 모든 서비스 크레딧은 NetApp에서 승인하고 승인해야 합니다.
-* 서비스 크레딧은 향후 청구서에 적용될 수 있습니다. 서비스 크레딧은 만료된 Keystone 구독에는 적용되지 않습니다. NetApp 지원팀에 문의하여 서비스 크레딧 요청에 필요한 지원 사례를 개설하려면 link:../concepts/support-services.html["Keystone에 대한 도움을 받으십시오"]을(를) 참조하십시오.
+* 서비스 크레딧은 향후 청구서에 적용될 수 있습니다. 서비스 크레딧은 만료된 Keystone 구독에는 적용되지 않습니다. NetApp 지원팀에 문의하여 서비스 크레딧 요청에 필요한 지원 사례를 개설하려면 link:../concepts/support-services.html["Keystone 지원 서비스"]을(를) 참조하십시오.
 
 
 ====

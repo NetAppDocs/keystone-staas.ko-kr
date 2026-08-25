@@ -4,7 +4,7 @@ permalink: installation/monitor-health.html
 keywords: monitoring system health 
 summary: 데이터를 사용할 수 있는지 확인하려면 HTTP 요청을 지원하는 모니터링 시스템을 사용하여 Keystone Collector의 상태를 모니터링할 수 있습니다. 
 ---
-= Keystone Collector의 상태를 모니터링합니다
+= Keystone Collector 상태 모니터링
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

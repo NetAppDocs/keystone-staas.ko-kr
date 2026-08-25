@@ -42,6 +42,6 @@ STaaS(Storage-as-a-Service) 오퍼링은 스토리지 인프라의 조달, 구�
 * link:../concepts/pricing.html["Keystone 가격"]
 * link:../concepts/add-on.html["Keystone STaaS의 애드온 서비스"]
 * link:../concepts/service-levels.html["키스톤의 성능 서비스 수준"]
-* link:../concepts/infra.html["Keystone 인프라"]
+* link:../concepts/infra.html["Keystone 인프라에 대해 알아보기"]
 * link:../concepts/operational-models.html["Keystone의 운영 모델"]
 

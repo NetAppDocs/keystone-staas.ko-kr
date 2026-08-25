@@ -80,4 +80,4 @@ NetApp Keystone STaaS는 파트너 운영 모델과 고객 운영 모델의 두 
 
 | image:check.png["체크 표시"] | 없음 
 |===
-배포에 대한 자세한 내용은 을 참조하십시오 link:../concepts/infra.html["Keystone 인프라"] 및 link:..//concepts/components.html["배포용 구성 요소"].
+배포에 대한 자세한 내용은 link:../concepts/infra.html["Keystone 인프라에 대해 알아보기"] 및 link:..//concepts/components.html["Keystone 서비스에 필요한 구성 요소"]을 참조하십시오.
