@@ -133,8 +133,6 @@
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">다음 섹션을 읽고 이 애드온 서비스에 구속되고 NetApp Keystone 계약 약관에 따라 제공되는 구독 요소를 이해합니다.각주:청구1 [여기에 설명된 서비스 및 오퍼링은 완전히 실행된 Keystone 계약의 적용을 받으며 이 계약에 의해 제한 및 관리됩니다.]</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">서브스크립션 기간 동안 매월 청구되는 최소 논리적 용량:</block>
-  <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">* 내구성 *: 고객 발생으로 인한 삭제 또는 손상을 제외하고 신뢰도 저하 없이 액세스되는 데이터의 비율입니다.</block>
-  <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">* 지연 시간 *: 클라이언트로부터 수신된 I/O 요청을 서비스하는 시간, 서비스 경계(스토리지 컨트롤러 I/O 포트)에서 측정</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">이 서비스는 파일, 블록 및 오브젝트 서비스에만 적용됩니다.</block>
   <block id="f3cab949200d7bfe230983c92bd7983f" category="list-text">고객이 운영하는 방화벽은 연결을 허용합니다.</block>
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">충분한 C13 콘센트가 있는 2개의 독립된 보호 회로에 연결된 PDU(Power Distribution Unit)를 제공해야 합니다. 고객 운영 서비스의 경우 경우에 따라 C19 아울렛이 필요합니다. NetApp에서 운영하는 오퍼링의 경우 요구사항에 따라 NetApp 또는 고객이 PDU를 제공할 수 있습니다.</block>
@@ -622,7 +620,6 @@
   <block id="e35bc286817799a8ecac7de0060837be" category="list-text">서비스 기간 종료 시, 또는 서비스 기간 동안 드라이브 및 비휘발성 메모리의 반환이 실패하거나 결함이 발견된 경우에는 반환할 필요가 없습니다.</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">컴퓨팅, 스토리지, 네트워킹과 같은 클라우드 네이티브 서비스는 클라우드 공급자가 송장을 발행합니다.</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">이러한 서비스는 클라우드 스토리지 및 컴퓨팅 특성에 따라 다릅니다.</block>
-  <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">* 가용성 *: 서비스에 의해 성공적으로 응답한 I/O 요청 수의 백분율로 측정되며, 서비스에 대한 총 I/O 요청 수로 나눈 값입니다. 이 값은 한 달 동안의 서비스 경계에서 측정되며, 고객이 제공한 시설, 네트워크 또는 기타 서비스의 예정된 서비스 중단 시간 또는 가용성 불량은 포함되지 않습니다.</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">가능한 경우, 미국 에서는 현장 및 원격 배포 및 설치 활동을 수행합니다 미국 시민권입니다 제공됩니다. 각주: 책임 부인 [현장 활동에 필요한 적절한 인력의 수는 Keystone 시스템이 구축된 지리적 위치에 따라 달라집니다.]</block>
   <block id="9415cbbaeaf88bca0512bbfe3c3cb334" category="paragraph">기본적으로 Keystone 상태 서비스는 localhost 이외의 IP로부터의 연결을 허용하지 않습니다. Keystone 상태 엔드포인트는 입니다<block ref="b2445934e628b68d6950a1056d38299a" prefix=" " category="inline-code"></block>또한 포트에서 Keystone Collector 서버의 모든 인터페이스를 수신합니다<block ref="d79c8788088c2193f0244d8f1f36d2db" prefix=" " category="inline-code"></block>. 쿼리 시 JSON 출력이 있는 HTTP 요청 상태 코드가 끝점에서 응답으로 반환되어 Keystone Collector 시스템의 상태를 설명합니다.
 JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3fbc3fb647215fe5fedcae04ab7c5" prefix=" " category="inline-code"></block> 속성, 부울, 에 대한 구성 요소별 상태의 세부 목록<block ref="39b49dc5cd8428b510bca14512a16a96" prefix=" " category="inline-code"></block> 속성.
@@ -722,7 +719,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">* 관련 정보 *</block>
   <block id="e6158c69831c3faa8af6ba0dce7118fd" category="list-text"><block ref="e6158c69831c3faa8af6ba0dce7118fd" category="inline-link-macro-rx"></block></block>
   <block id="9e38decf152b1fba3ebe0ddbb861a5a3" category="inline-link-macro">Keystone STaaS의 애드온 서비스</block>
-  <block id="91ad65d98336ef29959957165ed0c9ea" category="list-text"><block ref="91ad65d98336ef29959957165ed0c9ea" category="inline-link-macro-rx"></block></block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
   <block id="b08a55fcdae4be7efabe97ebd6da5f96" category="section-title">누적된 연기에 대해 반환된 송장 데이터</block>
@@ -1745,8 +1741,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="de0189fb2d8a23d211a49728ea826dc1" category="list-text">Keystone 데이터 수집기: Keystone 데이터 수집기는 데이터를 수집하여 추가 처리를 위해 Keystone 청구 플랫폼에 제공합니다. 이 애플리케이션은 Active IQ Unified Manager와 함께 번들로 제공됩니다. 이 툴은 5분 간격으로 ONTAP 및 StorageGRID 컨트롤러에서 데이터를 수집합니다. 데이터는 처리되고, 메타데이터는 청구 데이터 생성에 사용되는 AutoSupport 메커니즘을 통해 중앙 집중식 Active IQ 데이터 레이크에 전송됩니다. Active IQ 데이터 레이크는 청구 데이터를 처리하여 청구를 위해 Zuora로 전송합니다.</block>
   <block id="c072efe8294d1003e257c7dd4fe0687d" category="inline-image-macro">수집기 데이터 흐름</block>
   <block id="92c812556434526899af3c97a106a849" category="paragraph"><block ref="92c812556434526899af3c97a106a849" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6f93f55b981dd0322ebbd8e3f04d4db1" category="summary">NetApp Keystone STaaS 서비스는 여러 가지 용어를 사용하여 메트릭을 측정합니다. Keystone 서비스 버전 3을 사용할 경우 이러한 약관에 대해 자세히 알아보는 것이 좋습니다.</block>
-  <block id="06270a3cff387fa75ec0294b7ef6f62c" category="list-text">*IOPS 단위의 작업 카운터 차트*: 애플리케이션에서 요청한 초당 프로토콜 작업 수입니다.</block>
   <block id="b4c0f0b2da46ea7f6c48938cbb43241d" category="list-text">*IOPS*: NFS를 탑재한 ONTAP 9.16.1의 경우, 각 성능 수준 인스턴스는 70% 읽기, 30% 쓰기 비율, 8KB 블록 크기, 1ms 대기 시간(표준의 경우 4ms)의 랜덤 액세스를 지원합니다.</block>
   <block id="8223729bf5a771d590fde341043bac3d" category="list-text">*처리량*: NFS를 탑재한 ONTAP 9.16.1의 경우, 각 성능 수준 인스턴스는 100% 읽기와 32KB 블록 크기의 순차적 액세스를 지원합니다.</block>
   <block id="3d7debc9f9eb6961623316d3dcefaeb8" category="list-text">*IOPS*: FCP가 포함된 ONTAP 9.16.1의 경우, 각 성능 수준 인스턴스는 70% 읽기, 30% 쓰기 비율, 8KB 블록 크기, 1ms 지연 시간의 랜덤 액세스를 지원합니다.</block>
@@ -1937,7 +1931,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="f02c5e27d3f80e7755fdb672ca0a6235" category="list-text">Keystone STaaS Value 계층, Keystone STaaS StorageGRID Object 계층 또는 기존 StorageGRID Webscale(SGWS) 그리드(고객 소유) - 추가 비용은 없으며 표준 서비스의 일부입니다.</block>
   <block id="8e4d26d9b322f38152cd72b8fdf2ed25" category="admonition">Cloud Volumes ONTAP 에 필요한 하이퍼스케일러 기반 컴퓨팅, 스토리지 및 네트워크 서비스는 NetApp 에서 Keystone STaaS 구독의 일부로 제공되지 않습니다. 이러한 서비스는 하이퍼스케일러 클라우드 서비스 제공업체로부터 직접 조달해야 합니다.</block>
   <block id="7362a3703ab6814c98fdb90fe873b654" category="paragraph">기업용 애플리케이션에는 빠른 프로비저닝 워크플로우를 지원하고, 지속적인 가용성을 유지하고, 낮은 지연 시간으로 높은 작업 부하를 견뎌내고, 더 높은 성능을 제공하고, 주요 클라우드 공급업체와의 통합을 지원하는 스토리지 플랫폼이 필요합니다. NetApp 이러한 요구 사항을 지원하는 여러 가지 제품과 기술을 보유하고 있습니다. Keystone 서비스의 경우 NetApp ONTAP 시스템(AFF, ASA, FAS)과 StorageGRID 시스템을 사용합니다.</block>
-  <block id="aefe5d691bbfd5f85d52918fd2b8748f" category="list-text">*GiB, TiB, PiB 단위의 용량 측정*: 1024를 기준으로 데이터 저장 용량을 측정합니다(1GiB = 1024^3^바이트, 1TiB = 1024^4^바이트, 1PiB = 1024^5^바이트).</block>
   <block id="ef379c37057d9a196c5c79f68a141fe6" category="paragraph">Keystone 에서는 다음과 같은 청구 서비스를 제공합니다.</block>
   <block id="52bde02f3e1edb6d6e28dca0d312445a" category="list-text">*통합 또는 블록 최적화 스토리지*: 소비 용량은 주문 과정에서 선택한 용량 유형(논리적 또는 물리적)에 따라 계산됩니다.  계산은 성능 서비스 수준 인스턴스별로 수행됩니다.</block>
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*논리적 용량*: 다음의 합계입니다.</block>
@@ -2502,7 +2495,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="26e38ecf975660cbeeab3546610f30ab" category="admonition">AFX 스토리지의 경우, 용량은 클러스터 내의 모든 드라이브 쉘프에 걸쳐 AFX 클러스터 수준에서 확정되고 측정됩니다. 이는 클러스터에 있는 AFX 스토리지 컨트롤러의 수와는 무관합니다.</block>
   <block id="48b11c6f6db8a6a3328baeb0a51c976d" category="paragraph">Keystone STaaS의 파일 및 블록 스토리지 표준 서비스에는 사용 빈도가 낮은 데이터를 식별하고 Keystone STaaS에서 지원하는 NetApp 콜드 스토리지로 계층화하는 계층화 기능이 포함되어 있습니다. 콜드 데이터를 Keystone STaaS에서 지원하는 비NetApp 스토리지로 계층화하려면 데이터 계층화 기능을 추가 서비스로 사용할 수 있습니다. 이 추가 서비스는 통합 데이터 스토리지 유형에서만 지원됩니다.</block>
   <block id="75e68181255b1c90bd260488cd15b20b" category="admonition">계층화 추가 서비스는 Amazon Web Services(AWS) S3, Azure Blob, Google Cloud Platform(GCP) 및 Keystone STaaS에서 지원하는 S3 호환 타사 객체 스토리지와 같은 NetApp 이외의 스토리지로 데이터를 계층화할 때만 필요합니다. 이 서비스는 통합 데이터 스토리지 유형에서만 사용할 수 있습니다.</block>
-  <block id="ab111be95a3b1e0a20af6d3cc9835537" category="paragraph">Keystone STaaS에서 스토리지 구독을 측정하고 보고하는 데 사용하는 주요 용어(용량 단위, 성능 메트릭, 가용성 정의 등)를 알아보십시오.</block>
   <block id="b0dc64ee46414f1cba4fa86cb3cecb46" category="paragraph">Keystone 구독에는 하나 이상의 스토리지 유형에 걸쳐 여러 개의 PSL이 포함될 수 있습니다. 각 PSL에는 약정 용량이 있으며, 이는 구독 기간 동안 해당 서비스 수준에 대해 청구되는 최소 용량입니다.</block>
   <block id="61d50a4de5460f878250bbbb0807eaa0" category="admonition">AFX 구독은 AFX 스토리지 유형으로 제한되며 현재 하나의 PSL인 Extreme만 제공합니다.</block>
   <block id="4e4e6e5b08219061956b8d07df28d2e9" category="section-title">성능 서비스 수준 인스턴스</block>
@@ -2744,7 +2736,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="68590e28745629d3e9c45d233ec874f4" category="paragraph">Digital Advisor의 *소비 추세* 탭에서 소비 추세 차트는 당일의 소비 데이터를 표시하지 않고 전날까지의 데이터만 표시합니다.</block>
   <block id="c11ff4c4af6e617e0c27f005526215c1" category="paragraph">2026-08-10</block>
   <block id="92f0ca3d130ab33a16d28b57af2ef1fa" category="doc">Keystone 인프라에 대해 알아보기</block>
-  <block id="af8ce1366fa4c20969881474e68d69d4" category="doc">Keystone의 스토리지 메트릭 및 정의</block>
   <block id="efc51c397e61250c642c86d68b092174" category="doc">Keystone를 위한 NRNVC 및 SnapLock 규정 준수 애드온 서비스</block>
   <block id="7e09a61a4369064a74afa38f6e7a8c9a" category="paragraph">배포에 대한 자세한 내용은 <block ref="d03ef5b6e8b6191ac72b7ae5462d2546" category="inline-link-macro-rx"></block> 및 <block ref="79f76dbd81e71f36d15d1dac3766b8c8" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="d03ef5b6e8b6191ac72b7ae5462d2546" category="list-text"><block ref="d03ef5b6e8b6191ac72b7ae5462d2546" category="inline-link-macro-rx"></block></block>
@@ -2764,4 +2755,19 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d23d8e4208389cdbfa05c473cb8410ad" category="sidebar">Keystone 고객 목록 가져오기</block>
   <block id="7544c020cb246587d47ad73d1598a7e4" category="sidebar">Keystone 고객 구독 가져오기</block>
   <block id="0fb6871a30d0a0891c81661a4c790079" category="sidebar">Keystone 고객 소비 세부 정보 가져오기</block>
+  <block id="8a90a5578fe3c0a1bf0c36a2ff8e39c6" category="summary">Keystone STaaS가 스토리지 구독에 대한 용량, 성능 및 가용성을 측정하는 방법을 알아보십시오.</block>
+  <block id="ce554340b5d358edd16adc582cbd1e9f" category="doc">Keystone STaaS 스토리지 측정 기준 및 정의</block>
+  <block id="2637ea81c49feab6407426cc8e45cb57" category="paragraph">Keystone STaaS는 스토리지 구독을 측정하고 보고하기 위해 특정 용어를 사용합니다. 이러한 용어를 이해하면 대시보드 데이터와 구독 보고서를 해석하는 데 도움이 됩니다.</block>
+  <block id="cf5f3091e30dee6597885d8c0e0c357f" category="cell">용어</block>
+  <block id="0b890b1926b90387673882e6ccae7fdc" category="cell">정의</block>
+  <block id="c1b1d0f81a92a33cb13a455458cba18f" category="cell">용량(GiB, TiB, PiB)</block>
+  <block id="be4e5e7304cce0a3f092bf09f988e5c7" category="cell">데이터 스토리지 용량은 1024의 거듭제곱을 사용하여 측정합니다. 1 GiB = 1024^3^바이트, 1 TiB = 1024^4^바이트, 1 PiB = 1024^5^바이트입니다.</block>
+  <block id="58e7610d09b9f2e839011184d76819fe" category="cell">IOPS(초당 입출력 작업 수)는 애플리케이션이 초당 요청하는 프로토콜 작업 수를 나타냅니다. IOPS는 Keystone 대시보드의 작업 카운터 차트에 표시됩니다.</block>
+  <block id="419d9cc5de330a52a416271c0e55b303" category="cell">가용성은 한 달 동안 발생한 전체 I/O 요청 중 서비스가 성공적으로 응답한 I/O 요청의 비율입니다. 이는 한 달 동안 서비스 경계 지점을 기준으로 측정되며, 계획된 서비스 중단 시간 또는 고객이 제공하는 시설, 네트워크 또는 기타 서비스의 사용 불가 시간은 포함하지 않습니다.</block>
+  <block id="2166e76dc88d642260416a536b06a412" category="cell">내구성</block>
+  <block id="7207796055990c2fdf24c8139ff9cd48" category="cell">내구성은 고객에 의한 삭제 또는 손상을 제외하고, 데이터의 정확성 손실 없이 접근할 수 있는 데이터의 비율을 나타냅니다.</block>
+  <block id="67636cabf90c8bc5f88a58c653bd06ef" category="cell">지연 시간은 클라이언트로부터 수신한 I/O 요청을 처리하는 데 걸리는 시간으로, 서비스 경계 지점(스토리지 컨트롤러 I/O 포트)에서 측정됩니다.</block>
+  <block id="9e1f1d9a0941c4381482b8b0522725a2" category="list-text"><block ref="9e1f1d9a0941c4381482b8b0522725a2" category="inline-link-macro-rx"></block></block>
+  <block id="9af3a80255b1f2badb4f52464dc42a1a" category="paragraph">Digital Advisor의 *Consumption Trend* 탭에서 청구된 누적 버스트 차트는 선택한 날짜 범위에 따라 동일한 청구 기간에 대해 다른 값을 표시합니다.</block>
+  <block id="46c131fa48958e881a135770d82d1ed2" category="paragraph">2026-08-31</block>
 </blocks>
