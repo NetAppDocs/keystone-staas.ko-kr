@@ -2597,7 +2597,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="210e56fe3363d08baaade2dc0b9e44d3" category="paragraph">오브젝트 스토리지 포함</block>
   <block id="ae566ca3a7090c62a4e64db6763e5fc9" category="paragraph">모든 StorageGRID 기능을 지원합니다</block>
   <block id="6d1270d83b59c4d34695059058ba3873" category="admonition">Cloud Volumes ONTAP에 필요한 하이퍼스케일러 기반 컴퓨팅, 스토리지 및 네트워크 서비스는 Keystone STaaS 구독의 일부로 NetApp에서 제공하지 않습니다. 이러한 구독은 하이퍼스케일러 클라우드 서비스 공급자로부터 직접 구매해야 합니다.</block>
-  <block id="c148f39d208183361daf2e5ab75c9a60" category="admonition">Keystone 구독의 용량 사용량은 대시보드와 보고서에서 TiBs 단위로 표시되며 소수점 둘째 자리까지 반올림됩니다. 사용량이 0.01 TiB 미만인 경우 값은 0 또는 사용량 없음으로 표시됩니다. 이러한 화면의 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리할 날짜를 입력하면 자동으로 UTC 시간으로 간주됩니다. 사용량 측정항목에 대한 자세한 내용은 <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>을 참조하십시오. Keystone에서 사용되는 다양한 용량에 대한 자세한 내용은 <block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
   <block id="e6664e13d8023d762b4d6f2f644a6287" category="sidebar">스토리지 용량 유형</block>
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">프로비저닝된 용량 레이블 이름 변경</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">*Provisioned capacity* 레이블이 *Provisioned volume capacity*로 변경되었습니다. 업데이트된 레이블은 관련 CSV 및 Excel 보고서에도 반영됩니다.</block>
@@ -2770,4 +2769,5 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="9e1f1d9a0941c4381482b8b0522725a2" category="list-text"><block ref="9e1f1d9a0941c4381482b8b0522725a2" category="inline-link-macro-rx"></block></block>
   <block id="9af3a80255b1f2badb4f52464dc42a1a" category="paragraph">Digital Advisor의 *Consumption Trend* 탭에서 청구된 누적 버스트 차트는 선택한 날짜 범위에 따라 동일한 청구 기간에 대해 다른 값을 표시합니다.</block>
   <block id="46c131fa48958e881a135770d82d1ed2" category="paragraph">2026-08-31</block>
+  <block id="ad931b1068f269c0ef3c383147ccdc53" category="admonition">Keystone 구독의 용량 사용량은 대시보드와 보고서에서 TiBs 단위로 표시되며 소수점 둘째 자리까지 반올림됩니다. 사용량이 0.01 TiB 미만인 경우 값은 0 또는 사용량 없음으로 표시됩니다. 이러한 화면의 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리할 날짜를 입력하면 자동으로 UTC 시간으로 간주됩니다. 사용량 측정항목에 대한 자세한 내용은 <block ref="9b55f40c1987bcafac5b8c4a6068e0eb" category="inline-link-macro-rx"></block>을 참조하십시오. Keystone에서 사용되는 다양한 용량에 대한 자세한 내용은 <block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
 </blocks>
