@@ -228,6 +228,7 @@ image:invoiced-daily-accr-burst-date.png["연속 사용 데이터를 선 그래�
 * link:../integrations/dashboard-overview.html["Keystone 대시보드 이해하기"]
 * link:../integrations/subscriptions-tab.html["Keystone 구독에 대한 세부 정보 보기"]
 * link:../integrations/current-usage-tab.html["Keystone 구독의 현재 소비량을 확인하세요"]
+* link:../integrations/health-assessment-reports.html["상태 보고서 생성 및 예약"]
 * link:../integrations/subscription-timeline.html["Keystone 구독의 타임라인을 확인하세요"]
 * link:../integrations/assets-tab.html["Keystone 구독과 관련된 자산 보기"]
 * link:../integrations/monitoring-alerts.html["알림 및 모니터 보기 및 관리"]

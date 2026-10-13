@@ -36,6 +36,15 @@ summary: NetApp Keystone STaaS 구독자는 데이터를 검색하고 필터링�
 
 
 
+[[generate-health-reports-from-netapp-console]]
+== NetApp Console에서 상태 보고서 생성
+
+NetApp Console을 사용하여 하나 이상의 구독에 대한 상태 보고서를 생성하거나 예약할 수 있습니다. 이러한 PowerPoint 보고서는 구독 사용량, 운영 상태, 위험 및 취약점을 통합적으로 보여줍니다. Digital Advisor는 상태 평가 보고서 생성 또는 예약을 지원하지 않습니다.
+
+자세한 내용은 link:../integrations/health-assessment-reports.html["Keystone 구독에 대한 상태 보고서를 생성하고 예약합니다."]을 참조하십시오.
+
+
+
 [[generate-consolidated-report-from-digital-advisor]]
 == Digital Advisor에서 통합 보고서 생성
 

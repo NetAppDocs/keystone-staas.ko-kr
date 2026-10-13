@@ -80,6 +80,7 @@ Keystone 스토리지 서비스 및 관련 성능 서비스 수준에 대한 정
 * link:../integrations/dashboard-overview.html["Keystone 대시보드 이해하기"]
 * link:../integrations/subscriptions-tab.html["구독 세부 정보 보기"]
 * link:../integrations/consumption-tab.html["소비 경향 보기"]
+* link:../integrations/health-assessment-reports.html["상태 보고서 생성 및 예약"]
 * link:../integrations/subscription-timeline.html["구독 일정 보기"]
 * link:../integrations/assets-tab.html["Keystone 구독 자산 보기"]
 * link:../integrations/assets.html["Keystone 구독 전반에 걸쳐 자산 보기"]

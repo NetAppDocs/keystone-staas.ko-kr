@@ -28,6 +28,8 @@ indexpage:
       url: "/integrations/subscriptions-tab.html"
     - title: 자산을 봅니다
       url: "/integrations/assets-tab.html"
+    - title: 상태 보고서 생성 및 예약
+      url: "/integrations/health-assessment-reports.html"
     - title: 데이터 검색 및 보고서 생성
       url: "/integrations/options.html"
   - title: Keystone에서 지원되는 서비스

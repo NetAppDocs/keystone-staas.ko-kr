@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, bluexp, volumes in clusters, NetApp Console, Console 
-summary: 자산 탭을 사용하면 ONTAP 클러스터와 노드, Keystone 구독으로 관리되는 StorageGRID 그리드, 사이트 및 노드의 세부 정보를 볼 수 있습니다. 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, bluexp, volumes in clusters, clusters and aggregates, NetApp Console, Console 
+summary: 자산 탭을 사용하여 Keystone 구독에서 관리하는 ONTAP 볼륨, 클러스터, 애그리게이트 및 노드, 그리고 StorageGRID 그리드, 사이트 및 노드에 대한 세부 정보를 볼 수 있습니다. 
 ---
 = Keystone 구독과 관련된 자산 보기
 :hardbreaks:
@@ -14,19 +14,19 @@ summary: 자산 탭을 사용하면 ONTAP 클러스터와 노드, Keystone 구�
 
 
 [role="lead"]
-단일 Keystone 구독으로 관리되는 ONTAP 클러스터와 노드, StorageGRID 그리드, 사이트, 노드에 대한 자세한 정보를 볼 수 있습니다. NetApp 콘솔이나 Digital Advisor 의 Keystone 대시보드에서 이러한 구독 자산에 액세스할 수 있습니다.
+단일 Keystone 구독으로 관리되는 ONTAP 볼륨, 클러스터, 애그리게이트 및 노드와 StorageGRID 그리드, 사이트 및 노드에 대한 자세한 정보를 확인할 수 있습니다. NetApp Console 또는 Digital Advisor의 Keystone 대시보드에서 이러한 구독 자산에 액세스할 수 있습니다.
 
 
 
 [[view-keystone-subscription-assets-from-netapp-console]]
 == NetApp 콘솔에서 Keystone 구독 자산 보기
 
-*구독* 페이지의 *자산* 탭에는 구독과 관련된 클러스터의 볼륨, StorageGRID 노드 및 ONTAP 노드에 대한 자세한 정보가 표시됩니다. 여기에는 다양한 세부 정보와 용량 상태가 포함됩니다.
+*구독* 페이지의 *자산* 탭에는 용량 상태를 포함하여 구독과 연결된 ONTAP 볼륨, 클러스터, 애그리게이트 및 노드, 그리고 StorageGRID 노드에 대한 자세한 정보가 표시됩니다.
 
 [NOTE]
 ====
 * 이 보기는 한 번에 하나의 Keystone 구독으로 제한됩니다. *추적 ID* 드롭다운 목록에서 선택하면 다른 구독의 자산도 볼 수 있습니다. NetApp 콘솔의 Keystone 대시보드를 사용하면 여러 Keystone 구독의 자산을 볼 수 있습니다. 자세한 내용은 다음을 참조하세요.link:../integrations/assets.html["Keystone 구독 전반에 걸쳐 자산 보기"] .
-* *보기* 드롭다운 옵션은 Keystone 구독 플랫폼에 따라 달라집니다. ONTAP 에서는 *클러스터의 볼륨*과 *클러스터의 노드*를 사용할 수 있습니다. StorageGRID 의 경우 *보기* 드롭다운을 사용할 수 없고, *그리드의 노드* 표가 자동으로 표시됩니다. 구독에 두 플랫폼이 모두 포함된 경우 세 가지 옵션을 모두 이용할 수 있습니다.
+* *보기* 드롭다운 옵션은 Keystone 구독 플랫폼에 따라 다릅니다. ONTAP의 경우 *클러스터의 볼륨* 및 *클러스터의 노드*를 사용할 수 있습니다. *클러스터 및 애그리게이트*는 물리적 용량을 기준으로 요금이 청구되는 Keystone STaaS 구독이 있는 경우에만 ONTAP에서 사용할 수 있습니다. StorageGRID의 경우 *보기* 드롭다운을 사용할 수 없으며 *그리드의 노드* 테이블이 자동으로 표시됩니다. 구독에 두 플랫폼이 모두 포함된 경우 *보기* 드롭다운에서 모든 보기를 사용할 수 있습니다.
 
 
 ====
@@ -73,6 +73,35 @@ image:bxp-nodes-cluster-single-subscription.png["구독을 위한 클러스터�
 
 +
 스토리지 효율성 설정, 플랫폼 유형 및 용량 세부 정보별로 분류된 ONTAP 클러스터 세부 정보를 볼 수 있습니다.
+
++
+
+TIP: 열 선택기를 사용하여 테이블을 사용자 정의할 수 있습니다. image:column-selector.png["열 선택기 아이콘"] 아이콘을 클릭하고 상단의 검색 창을 사용하여 열 매개변수를 기준으로 테이블 데이터를 검색하고 필터링합니다.
+
+
+
+--
+.클러스터 및 애그리게이트
+--
+
+NOTE: *클러스터 및 애그리게이트* 보기는 물리적 용량을 기준으로 요금이 부과되는 Keystone STaaS 구독에서만 사용할 수 있습니다.
+
+.단계
+. 콘솔 왼쪽 탐색 메뉴에서 *저장소 > Keystone > 구독*을 선택합니다.
+. 표의 *구독번호* 열에서 구독번호를 선택하세요.
++
+시스템에서 *현재 소비량* 탭이 열립니다.
+
+. *자산* 탭을 선택하세요.
+. *보기* 드롭다운에서 *클러스터 및 애그리게이트*를 선택합니다.
++
+image:console-clusters-aggregates-single-subscription.png["Keystone 구독에 대한 클러스터 및 애그리게이트 용량 세부 정보"]
+
++
+물리적 사용 용량, 물리적 사용 가능 용량, 물리적 가용 용량, 스토리지 효율성 비율, 논리적 유효 용량, 논리적 사용 용량 및 ONTAP 버전을 볼 수 있습니다. 클러스터를 확장하면 해당 애그리게이트에 대한 세부 정보를 볼 수 있습니다.
+
++
+이 보기를 통해 사용량과 청구된 소비량을 유발하는 클러스터 및 애그리게이트를 파악하고, 사용 가능한 용량을 비교하고, 인프라 사용량과 구독 소비량을 연관시킬 수 있습니다.
 
 +
 

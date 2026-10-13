@@ -2023,15 +2023,12 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="ca0d168dfc9d3eec3e502042fa77ec2f" category="admonition">여러 성과 서비스 수준을 동시에 선택하여 PSL을 생성할 수 있습니다.</block>
   <block id="b3eed4304ada05a16ec5ec8b501efe72" category="admonition">선택한 성능 서비스 수준에 대한 PSL이 지정된 Active IQ Unified Manger 서버에 이미 있는 경우 다시 생성할 수 없습니다. 이를 시도하면 오류 메시지가 표시됩니다.<block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea25018c2d045851b6c9e6567fb76051" category="paragraph">NetApp 콘솔을 통해 Keystone 구독 수정에 대한 서비스 요청을 보고 추적하여 빠른 요약을 제공하고 진행 상황을 모니터링할 수 있습니다.</block>
-  <block id="aaaea723208b33ae079e357878d9a9cb" category="paragraph">단일 Keystone 구독으로 관리되는 ONTAP 클러스터와 노드, StorageGRID 그리드, 사이트, 노드에 대한 자세한 정보를 볼 수 있습니다. NetApp 콘솔이나 Digital Advisor 의 Keystone 대시보드에서 이러한 구독 자산에 액세스할 수 있습니다.</block>
   <block id="d1c3a83a967f6dcdc9a6ad9e94a8bbed" category="section-title">NetApp 콘솔에서 Keystone 구독 자산 보기</block>
-  <block id="d79f885d7740bdd0320f954c06a36686" category="paragraph">*구독* 페이지의 *자산* 탭에는 구독과 관련된 클러스터의 볼륨, StorageGRID 노드 및 ONTAP 노드에 대한 자세한 정보가 표시됩니다. 여기에는 다양한 세부 정보와 용량 상태가 포함됩니다.</block>
   <block id="0f05cad44de93b9ae51d0faab82ddf96" category="admonition">이 보기는 한 번에 하나의 Keystone 구독으로 제한됩니다. *추적 ID* 드롭다운 목록에서 선택하면 다른 구독의 자산도 볼 수 있습니다. NetApp 콘솔의 Keystone 대시보드를 사용하면 여러 Keystone 구독의 자산을 볼 수 있습니다. 자세한 내용은 다음을 참조하세요.<block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block> .</block>
   <block id="6ad1754a0bf091736b7eaeb7b3f62c28" category="list-text">콘솔 왼쪽 탐색 메뉴에서 *저장소 &gt; Keystone &gt; 구독*을 선택합니다.</block>
   <block id="faf81a172b05b574a00b455b36f81124" category="paragraph">시스템에서 *현재 소비량* 탭이 열립니다.</block>
   <block id="5521c544829f1dc100d359936dfe7589" category="list-text">*일반 &gt; Keystone 구독 &gt; 자산 &gt; ONTAP*을 선택합니다.</block>
   <block id="2e74dd182df85e5efdcab206a5bb39aa" category="list-text">*일반 &gt; Keystone 구독 &gt; 자산 &gt; StorageGRID*를 선택합니다.</block>
-  <block id="722a86c8a2d2a94e76387a8dfcb77c75" category="paragraph">NetApp 콘솔의 Keystone 대시보드를 사용하면 액세스 권한에 따라 여러 Keystone 구독에 걸쳐 클러스터의 노드, 프로비저닝된 볼륨 및 StorageGRID 노드에 대한 자세한 정보를 볼 수 있습니다. 이 뷰는 Digital Advisor 에서 사용할 수 없습니다.</block>
   <block id="5280fdba34096a28b0a045aa4d088574" category="list-text">콘솔 왼쪽 탐색 메뉴에서 *저장소 &gt; Keystone &gt; 자산*을 선택합니다.</block>
   <block id="168a7f531362f0071a0d1ecd8963c4fa" category="paragraph">*자산* 페이지에는 *클러스터의 노드* 탭이 표시됩니다.</block>
   <block id="8942b04e12a7cd6446730a97caf54479" category="paragraph"><block ref="8942b04e12a7cd6446730a97caf54479" category="inline-image-macro-rx" type="image"></block></block>
@@ -2207,8 +2204,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="89982b0af4c1ad3b86da7a82b021fed7" category="paragraph">vCenter 루트 신뢰 저장소에는 VMware 인증서만 포함되어 있습니다. NetApp 인증 기관으로 Entrust를 사용하며, 해당 인증서는 vCenter 신뢰 저장소에 추가되어야 합니다.</block>
   <block id="6421324a362bee91e5fee16704e6b0e5" category="admonition">vCenter 버전 7.x 및 이전 버전의 경우 vCenter 및 ESXi를 버전 8.0 이상으로 업데이트해야 합니다. 이전 버전은 더 이상 지원되지 않습니다.</block>
   <block id="21f65ffde9511843c6e3b86b7a0de865" category="list-text">운영 체제: VMware vCentre 서버 및 ESXi 8.0 이상</block>
-  <block id="effa0f06c02c1da56e0eada86a5982ec" category="list-text">*보기* 드롭다운 옵션은 Keystone 구독 플랫폼에 따라 달라집니다. ONTAP 에서는 *클러스터의 볼륨*과 *클러스터의 노드*를 사용할 수 있습니다. StorageGRID 의 경우 *보기* 드롭다운을 사용할 수 없고, *그리드의 노드* 표가 자동으로 표시됩니다. 구독에 두 플랫폼이 모두 포함된 경우 세 가지 옵션을 모두 이용할 수 있습니다.</block>
-  <block id="a71fbcfaa67815b8c0edea5059cb96fb" category="admonition">*자산* 페이지에는 Keystone 구독과 관련된 플랫폼을 기반으로 탭이 표시됩니다. ONTAP 의 경우 *클러스터의 노드* 및 *클러스터의 볼륨* 탭을 모두 사용할 수 있습니다. StorageGRID 의 경우, *그리드의 노드* 표는 탭을 선택하지 않아도 바로 표시됩니다. 구독에 두 플랫폼이 모두 포함된 경우 세 개의 탭을 모두 사용할 수 있습니다.</block>
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">소비량이 허용된 버스트 한도 내에 있음에도 불구하고 구독이 Digital Advisor 대시보드에서 *버스트 한도 초과* 상태로 잘못 표시됩니다.</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025년 12월 8일</block>
   <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">파이썬 3(3.9.14~3.11.8)</block>
@@ -2770,4 +2765,78 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="9af3a80255b1f2badb4f52464dc42a1a" category="paragraph">Digital Advisor의 *Consumption Trend* 탭에서 청구된 누적 버스트 차트는 선택한 날짜 범위에 따라 동일한 청구 기간에 대해 다른 값을 표시합니다.</block>
   <block id="46c131fa48958e881a135770d82d1ed2" category="paragraph">2026-08-31</block>
   <block id="ad931b1068f269c0ef3c383147ccdc53" category="admonition">Keystone 구독의 용량 사용량은 대시보드와 보고서에서 TiBs 단위로 표시되며 소수점 둘째 자리까지 반올림됩니다. 사용량이 0.01 TiB 미만인 경우 값은 0 또는 사용량 없음으로 표시됩니다. 이러한 화면의 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리할 날짜를 입력하면 자동으로 UTC 시간으로 간주됩니다. 사용량 측정항목에 대한 자세한 내용은 <block ref="9b55f40c1987bcafac5b8c4a6068e0eb" category="inline-link-macro-rx"></block>을 참조하십시오. Keystone에서 사용되는 다양한 용량에 대한 자세한 내용은 <block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
+  <block id="73c20ad627e7f815932cb8837d70e1e8" category="doc">Keystone 구독에 대한 상태 인사이트 생성</block>
+  <block id="ae638b3203053916360a0f228b8b54d7" category="paragraph">이번 Keystone STaaS 릴리스에는 NetApp Console의 Keystone 대시보드에 다음과 같은 업데이트가 포함되어 있습니다.</block>
+  <block id="a0c062a66e58943547f514904ae51daa" category="inline-link">Keystone 구독에 대한 상태 보고서를 생성하고 예약합니다.</block>
+  <block id="6da38bfefa907461e0fc0e4cbf32c236" category="paragraph">NetApp Console의 *Storage &gt; Keystone &gt; Monitoring &gt; Health reports*에서 온디맨드 PowerPoint 보고서를 다운로드하거나 일회성, 주별, 월별 또는 분기별 전송을 예약할 수 있습니다. 각 보고서는 선택한 구독에 대한 구독 사용량, 운영 상태, 위험 및 취약성을 결합하여 우려 사항을 파악하고 수신자와 실행 가능한 인사이트를 공유하는 데 도움이 됩니다. 자세한 내용은<block ref="d2f756b41ddff582298cd4e997cfe66a" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="bebf4a0b6cd7d09b5a94da709f1d8c60" category="section-title">ONTAP 클러스터 및 애그리게이트 용량 보기</block>
+  <block id="e411d22d2770471ccb53afad75a6607f" category="paragraph">ONTAP 클러스터 및 해당 애그리게이트에 대한 물리적 용량, 논리적 용량 및 스토리지 효율성은 *자산 &gt; 클러스터 및 애그리게이트*에서 확인할 수 있습니다. 이 기능은 물리적 용량을 기준으로 요금이 청구되는 Keystone STaaS 구독에만 제공됩니다. 자세한 내용은 <block ref="7f77c8bd4b401343bdf134614dcbbc54" category="inline-link-rx"></block> 및 <block ref="e5507f6e8dbcc07ae7ce3bb876484b8a" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="242675f82977e2b732509b6acf8667db" category="summary">자산 탭을 사용하여 Keystone 구독에서 관리하는 ONTAP 볼륨, 클러스터, 애그리게이트 및 노드, 그리고 StorageGRID 그리드, 사이트 및 노드에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="0efe9eaf14acac86472298cdd5f5109d" category="paragraph">단일 Keystone 구독으로 관리되는 ONTAP 볼륨, 클러스터, 애그리게이트 및 노드와 StorageGRID 그리드, 사이트 및 노드에 대한 자세한 정보를 확인할 수 있습니다. NetApp Console 또는 Digital Advisor의 Keystone 대시보드에서 이러한 구독 자산에 액세스할 수 있습니다.</block>
+  <block id="b4d0e97d122ef07cd548b9187fdc510c" category="paragraph">*구독* 페이지의 *자산* 탭에는 용량 상태를 포함하여 구독과 연결된 ONTAP 볼륨, 클러스터, 애그리게이트 및 노드, 그리고 StorageGRID 노드에 대한 자세한 정보가 표시됩니다.</block>
+  <block id="b6672104a5edc2ee268695649b7efc83" category="list-text">*보기* 드롭다운 옵션은 Keystone 구독 플랫폼에 따라 다릅니다. ONTAP의 경우 *클러스터의 볼륨* 및 *클러스터의 노드*를 사용할 수 있습니다. *클러스터 및 애그리게이트*는 물리적 용량을 기준으로 요금이 청구되는 Keystone STaaS 구독이 있는 경우에만 ONTAP에서 사용할 수 있습니다. StorageGRID의 경우 *보기* 드롭다운을 사용할 수 없으며 *그리드의 노드* 테이블이 자동으로 표시됩니다. 구독에 두 플랫폼이 모두 포함된 경우 *보기* 드롭다운에서 모든 보기를 사용할 수 있습니다.</block>
+  <block id="d239adbb3056939632516d1d08d120d8" category="open-title">클러스터 및 애그리게이트</block>
+  <block id="ae2bc834f9936477344838e8948bdb0d" category="admonition">*클러스터 및 애그리게이트* 보기는 물리적 용량을 기준으로 요금이 부과되는 Keystone STaaS 구독에서만 사용할 수 있습니다.</block>
+  <block id="09b83f5220bf0da2cb80807cd2bb8e96" category="list-text">*보기* 드롭다운에서 *클러스터 및 애그리게이트*를 선택합니다.</block>
+  <block id="66dd1782272dfc032045b2159f99214d" category="inline-image-macro">Keystone 구독에 대한 클러스터 및 애그리게이트 용량 세부 정보</block>
+  <block id="585c164f60d0e210ad340364d9015a24" category="paragraph"><block ref="585c164f60d0e210ad340364d9015a24" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="af72db9328b73a9e4a9d56c0171a5cc3" category="paragraph">물리적 사용 용량, 물리적 사용 가능 용량, 물리적 가용 용량, 스토리지 효율성 비율, 논리적 유효 용량, 논리적 사용 용량 및 ONTAP 버전을 볼 수 있습니다. 클러스터를 확장하면 해당 애그리게이트에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="fade075752cf0e88fd17391fb2667903" category="paragraph">이 보기를 통해 사용량과 청구된 소비량을 유발하는 클러스터 및 애그리게이트를 파악하고, 사용 가능한 용량을 비교하고, 인프라 사용량과 구독 소비량을 연관시킬 수 있습니다.</block>
+  <block id="bd5e17dce4ac42cb2bdb3cebdf28ba1c" category="paragraph">액세스 권한에 따라 NetApp Console의 Keystone 대시보드에서 여러 Keystone 구독에 걸친 ONTAP 노드, 볼륨, 클러스터, 애그리게이트 및 StorageGRID 노드에 대한 자세한 정보를 볼 수 있습니다. 이 보기는 Digital Advisor에서 사용할 수 없습니다.</block>
+  <block id="e353e5a4fc32bc945b4e295d4939757e" category="admonition">*자산* 페이지에는 Keystone 구독과 연결된 플랫폼을 기준으로 탭이 표시됩니다. ONTAP의 경우 *클러스터의 노드* 및 *클러스터의 볼륨* 탭을 사용할 수 있습니다. *클러스터 및 애그리게이트* 탭은 물리적 용량 기준으로 요금이 청구되는 Keystone STaaS 구독을 보유한 경우에만 ONTAP에서 사용할 수 있습니다. StorageGRID의 경우 탭을 선택하지 않고 *그리드의 노드* 표가 바로 표시됩니다. 구독에 두 플랫폼이 모두 포함된 경우 모든 탭을 사용할 수 있습니다.</block>
+  <block id="764f1b2acdb9954fdcf286f81598b392" category="admonition">*클러스터 및 애그리게이트* 탭은 물리적 용량을 기준으로 요금이 청구되는 Keystone STaaS 구독에만 표시됩니다.</block>
+  <block id="0b5c7c82501660ba2ce96581f1092498" category="list-text">*클러스터 및 애그리게이트* 탭을 선택하십시오.</block>
+  <block id="3fa43161310f791ddad5b7842b7a822f" category="inline-image-macro">여러 Keystone 구독에 걸친 클러스터 및 애그리게이트</block>
+  <block id="1eccb2779e3e22d7205f2688edb4fff3" category="paragraph"><block ref="1eccb2779e3e22d7205f2688edb4fff3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ba3ae12ee592f23e17ca4c40deca1397" category="paragraph">Keystone 구독 전체의 ONTAP 클러스터에 대한 용량 세부 정보를 확인할 수 있습니다. 각 클러스터에 대해 표에는 물리적 사용 용량, 물리적 사용 가능 용량, 물리적 가용 용량, 스토리지 효율성 비율, 논리적 유효 용량, 논리적 사용 용량 및 ONTAP 버전이 표시됩니다. 클러스터를 확장하여 해당 애그리게이트에 대한 세부 정보를 확인하십시오.</block>
+  <block id="26f2e17ff10ab700018054fc4030a1b3" category="paragraph">이 정보를 통해 어떤 클러스터와 애그리게이트가 용량 소비를 유발하는지 파악하고, 배포된 인프라 전체에서 사용 가능한 용량을 비교하고, 클러스터 및 애그리게이트 수준의 사용량이 전체 구독 소비에 어떻게 영향을 미치는지 이해할 수 있습니다.</block>
+  <block id="c6709f36c2ce949dfd5b2354653575bc" category="admonition">열 선택기 <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 아이콘을 사용하여 테이블을 사용자 지정할 수 있으며, 검색창을 사용하여 사용 가능한 열 값으로 테이블을 필터링할 수 있습니다.</block>
+  <block id="d9488e4902ac8163ee538f8e5bfe01c8" category="inline-link-macro">상태 보고서 생성 및 예약</block>
+  <block id="ea034e7c3ada4fd5285144ae8a2f1ec3" category="list-text"><block ref="ea034e7c3ada4fd5285144ae8a2f1ec3" category="inline-link-macro-rx"></block></block>
+  <block id="6cceac6cd41854fc33cca3191e462847" category="list-text">*상태 보고서 생성*: 구독 사용량, 운영 상태, 위험 및 취약점을 검토하기 위한 상태 평가 보고서를 필요에 따라 또는 예약하여 생성할 수 있습니다.</block>
+  <block id="bcd6194438a86161f86a66b169dcae08" category="summary">NetApp Console에서 Keystone 상태 평가 보고서를 사용하여 구독 세부 정보를 확인하고, 상태를 평가하고, 사용 추세를 분석하고, 하나 이상의 구독 전반에 걸쳐 위험 및 취약점을 식별할 수 있습니다. 필요에 따라 보고서를 생성하거나 예약하여 이해관계자와 정확한 운영 및 규정 준수 정보를 공유할 수 있습니다.</block>
+  <block id="43c438a5f171a0070565c9a3ce412632" category="paragraph">NetApp Console의 Keystone 대시보드에서 하나 이상의 Keystone 구독에 대한 상태 보고서를 생성하거나 예약할 수 있습니다. 이러한 보고서는 구독 사용량, 운영 상태, 위험 및 취약점에 대한 통합된 보기를 제공하며, 지정된 수신자와 공유할 수 있습니다. 이 기능은 Digital Advisor에서 사용할 수 없습니다.</block>
+  <block id="ed90fab979b1c2338f266823f485f606" category="paragraph">상태 보고서를 통해 선택한 구독의 사용량, 운영 상태 및 식별된 위험 요소를 한눈에 파악할 수 있습니다. *새 보고서* 페이지에서 *보고서 구성* 패널을 사용하여 보고서의 범위와 옵션을 정의하십시오. 보고서를 생성하거나 예약하기 전에 미리 보기 영역을 사용하여 슬라이드 순서와 레이아웃을 검토하십시오. 미리 보기에는 보고서 구조만 표시되며 실제 구독 데이터는 표시되지 않습니다.</block>
+  <block id="805e040836078c98207014459ce00fe4" category="paragraph">다음 단계를 따라 보고서를 생성하여 즉시 다운로드하거나, 일회성 또는 정기 보고서를 나중에 받을 수 있도록 예약하세요:</block>
+  <block id="8b033bd96006a357396469d2d12002ff" category="list-text">콘솔 왼쪽 탐색 메뉴에서 *스토리지 &gt; Keystone &gt; 모니터링 &gt; 보고서*를 선택합니다.</block>
+  <block id="bc32ee3dafd98cfab55839d1a1ad173d" category="list-text">*새 보고서*를 선택합니다.</block>
+  <block id="db73c44d8bba03212ad21e123d47d5dd" category="list-text">*보고서 구성 패널*에서 *보고서 이름* 필드에 이름을 입력합니다.</block>
+  <block id="d99d4ce092a8b9f4aff4e17d7603bfe2" category="list-text">*시간 범위* 드롭다운 메뉴에서 시간 범위를 선택하세요.</block>
+  <block id="6a03b07232e58a0d22244bd78e9ee309" category="paragraph">*지난 60일* 등 사전 설정된 기간을 선택하거나 *사용자 지정*을 선택하여 직접 날짜를 입력하십시오. 선택한 기간은 *소비 추세* 섹션 및 기타 시간 기반 섹션에 표시되는 기간별 데이터를 결정합니다. *사용자 지정*을 선택하면 보고서를 예약할 수 없습니다.</block>
+  <block id="b9b414179e1f9c10b9cf39dc76d45554" category="inline-image-macro">사용자 지정 날짜 범위를 선택할 때 예약이 비활성화됨을 보여주는 상태 보고서 구성</block>
+  <block id="e84931d18314142b08f9bd586d2d273d" category="paragraph"><block ref="e84931d18314142b08f9bd586d2d273d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="55c22e502f5cfc9d2f8d74e22b0c8e98" category="list-text">*구독* 드롭다운 메뉴에서 하나 이상의 구독을 선택하세요.</block>
+  <block id="de710d1f96079b8408fcc93a084d21ca" category="admonition">NetApp 파트너는 관리형 Keystone 고객 계정 중 하나 이상에서 구독을 선택할 수 있습니다.</block>
+  <block id="2494369c3bace34f8d03d3b0f6b35714" category="list-text">*보고서 섹션*에서 포함할 섹션을 선택합니다.</block>
+  <block id="c7c7753bafb710361f57e4327c1cd332" category="paragraph">선택한 각 섹션은 미리보기 영역에 표시되며 생성된 보고서에 포함됩니다. 예를 들어, 구독 요약, 현재 용량 사용량, 소비 추세, 물리적 용량, 시스템 상태, 위험 및 취약점 등을 포함할 수 있습니다. *소비 추세*의 경우 과거 소비량 차트를 포함할 수 있으며, 선택적으로 미래 소비량 예측도 추가할 수 있습니다.</block>
+  <block id="73edafd21beaaf25a3c4b463e7301486" category="list-text">프레젠테이션 테마를 선택하세요.</block>
+  <block id="e79541eac81a9b39cbfa8f8f8515ac14" category="list-text">미리보기 영역에 표시된 섹션을 검토하여 선택 사항과 일치하는지 확인하십시오.</block>
+  <block id="c33cd459680d55a97ffee84381838d90" category="list-text">보고서를 작성하는 방법을 선택하세요.</block>
+  <block id="7fb99d2c520fc85b9123d1d2daf9e796" category="list-text">*보고서 생성*</block>
+  <block id="d3cd467451f595793563586a695d9c1c" category="paragraph">보고서를 즉시 다운로드하려면 *보고서 생성*을 선택하십시오.</block>
+  <block id="8ab8d739fddb8825d819131cf0c36e7a" category="paragraph">보고서가 생성을 위해 제출되며, *보고서* 탭으로 돌아갑니다. 보고서가 *실행 중* 상태로 표시됩니다.</block>
+  <block id="9dabac9e7f2d642811e0cf62d3e18002" category="paragraph">상태가 *생성됨*으로 변경되면 보고서 행 끝에 있는 점 세 개 아이콘을 선택한 다음 *다운로드*를 선택합니다.</block>
+  <block id="00555bd07173f7d9c242e377dc1e4afe" category="list-text">*보고서 예약*</block>
+  <block id="6cebac50d1a7bff739e4a52a8cedaa57" category="paragraph">일회성 또는 정기 보고서를 생성하려면 *예약*을 선택하고 다음 단계를 완료하십시오:</block>
+  <block id="8b7ea71302f67c6f0966ac6f0f8efc8f" category="list-text">빈도를 선택하십시오: *1회*, *주간*, *월간* 또는 *분기별*.</block>
+  <block id="83fb650baf1f2bfaabf37d0b01f8b198" category="list-text">*시작 날짜*를 선택하십시오.</block>
+  <block id="86b7782bce140b306301378eb75d320f" category="inline-image-macro">주간 빈도가 선택되어 있고, 시작일 및 종료일 필드가 비어 있으며, 수신자 필드가 있고, PPT 형식이 선택된 일정 보고서 대화 상자</block>
+  <block id="65de2e1080fef3c60cec4997218e5994" category="paragraph"><block ref="65de2e1080fef3c60cec4997218e5994" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1a65d24447c848fed1b1282d04274bcc" category="paragraph">시작일은 보고서가 처음 실행되는 시점을 결정합니다. 반복 실행 빈도를 선택한 경우, 보고서는 선택한 주간, 월간 또는 분기별 일정에 따라 다시 실행됩니다.</block>
+  <block id="a4f1fd8e2247116044a0a9ef4e9401ae" category="list-text">선택적으로 *종료일*을 지정할 수 있습니다.</block>
+  <block id="a0e32eed5feb418713b52f7739a1f7de" category="paragraph">종료일을 선택하지 않으면, 변경할 때까지 일정이 계속 진행됩니다.</block>
+  <block id="45fdcaf864d7e16c4c277f710fe9214c" category="list-text">*보고서 예약*을 선택합니다.</block>
+  <block id="dda29f572e1f01fb24ef9fbb9567dcae" category="paragraph">일정이 생성되면 *보고서* 탭에 실행 유형이 *예약 실행*인 보고서가 표시됩니다. *마지막 실행*, *다음 실행*, *상태* 열을 사용하여 각 실행을 추적하십시오.</block>
+  <block id="04091b33f99194409a3e638fb720ccd7" category="paragraph">주간, 월간 또는 분기별 일정을 편집하려면 보고서 행 끝에 있는 줄임표 아이콘을 선택한 다음 *일정 편집*을 선택하십시오. 상태가 *예약됨*이든 *생성됨*이든 이 작업을 수행할 수 있습니다. 보고서가 생성된 후에는 *일회성* 일정을 편집할 수 없습니다.</block>
+  <block id="3d8502ba652cf0b8dda71ea1d23775d9" category="paragraph">상태가 *생성됨*으로 변경되면 보고서 옆에 있는 점 세 개 아이콘을 선택하고 *다운로드*를 선택하십시오.</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
+  <block id="cf3e1ddb292882536f57277035f7ccdf" category="paragraph">생성된 보고서는 PowerPoint 프레젠테이션으로 다운로드됩니다. 점 세 개 메뉴에서 *다시 생성*을 선택하여 동일한 구성으로 새 보고서를 생성할 수 있습니다.</block>
+  <block id="74a2518355991b0460124194339aa262" category="inline-link-macro">현재 사용량 보기</block>
+  <block id="05a9cc32ea53864df9d04304930c39b2" category="list-text"><block ref="05a9cc32ea53864df9d04304930c39b2" category="inline-link-macro-rx"></block></block>
+  <block id="ff0355703598e77f5d53ad567098e540" category="inline-link-macro">구독과 관련된 자산을 확인하십시오</block>
+  <block id="122bb916bdbca193871c1c238a8ad494" category="list-text"><block ref="122bb916bdbca193871c1c238a8ad494" category="inline-link-macro-rx"></block></block>
+  <block id="e9585bf2660bfde75b6f0a2b54b179ac" category="section-title">NetApp Console에서 상태 보고서 생성</block>
+  <block id="d2fc234fa58b5424fb66e69d6f37ea37" category="paragraph">NetApp Console을 사용하여 하나 이상의 구독에 대한 상태 보고서를 생성하거나 예약할 수 있습니다. 이러한 PowerPoint 보고서는 구독 사용량, 운영 상태, 위험 및 취약점을 통합적으로 보여줍니다. Digital Advisor는 상태 평가 보고서 생성 또는 예약을 지원하지 않습니다.</block>
+  <block id="0557e64d44b59ed5a4145771c544da91" category="paragraph">자세한 내용은 <block ref="1f95c525270767ec0581ce04383996f5" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026년 10월 12일</block>
 </blocks>
