@@ -50,7 +50,6 @@
   <block id="b6e76ea727138e1a2c7199dd3f0874db" category="section-title">비용 청구 용량</block>
   <block id="0b2c78b413a92fa3d683991180e6b149" category="paragraph">월별 청구서 = (약정 용량 [TiB] * 확정된 속도[$/TiB]) + (일별 평균 프로비저닝된 버스트 용량 [TiB] * 버스트 비율[$/TiB]) 월별 계산서에는 약정 용량에 따른 최소 요금이 포함됩니다.</block>
   <block id="2eb54516538e34e5753ac19de355cf86" category="paragraph">월별 청구 요금은 일일 평균 사용 용량에 따라 최소 청구비 이상으로 다릅니다.</block>
-  <block id="c556196a410876d85c1dc7aafc4fee9f" category="summary">Keystone 인프라</block>
   <block id="4de39da4981120681cbe9328c80e44c0" category="list-text">제품을 선택, 대체 또는 재활용합니다.</block>
   <block id="8ee500899221695e76d9d58e146df90f" category="list-text">적절하다고 판단되는 경우 새로운 기술로 제품을 업데이트합니다.</block>
   <block id="c9f8c46c19cc33ee0a4a750a7062ea9e" category="list-text">서비스 요구사항에 맞게 제품의 용량을 늘리거나 줄입니다.</block>
@@ -87,8 +86,6 @@
   <block id="00fbf03a10283116fbaa1df317c78879" category="section-title">용량 조정</block>
   <block id="6e563e9d321b309cdef7d3f5a45b0d65" category="section-title">분기별 지출 재할당</block>
   <block id="c11d3902def90b2c39f1b05142fc762e" category="summary">Keystone의 운영 모델</block>
-  <block id="63e70807fd57df527662a30262f5b0cc" category="section-title">서비스 라이프사이클 전반에서 역할 및 책임</block>
-  <block id="463c3a95787ac56f36c227feeb7bd389" category="list-text">* 고객 운영 모델 *: 다음 표에는 전반적인 서비스 수명 주기 모델과 고객 운영 환경에서 이와 관련된 역할 및 책임이 요약되어 있습니다.</block>
   <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">작업</block>
   <block id="cfaa375bf6c7f9fcc1bc04d4f30c9154" category="cell">넷엡</block>
   <block id="ce26601dac0dea138b7295f02b7620a7" category="cell">고객</block>
@@ -129,7 +126,6 @@
   <block id="895b14af35ea6854d4009fe0ca2d99a9" category="sidebar">NetApp Keystone란 무엇입니까?</block>
   <block id="272552b591277a155ab212d038a32279" category="sidebar">측정 단위는 무엇입니까?</block>
   <block id="202e5e87c64fed77827697acb780124e" category="sidebar">지원되는 기본 스토리지는 무엇입니까?</block>
-  <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">미국 시민 지원</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">다음 섹션을 읽고 이 애드온 서비스에 구속되고 NetApp Keystone 계약 약관에 따라 제공되는 구독 요소를 이해합니다.각주:청구1 [여기에 설명된 서비스 및 오퍼링은 완전히 실행된 Keystone 계약의 적용을 받으며 이 계약에 의해 제한 및 관리됩니다.]</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">서브스크립션 기간 동안 매월 청구되는 최소 논리적 용량:</block>
@@ -315,7 +311,6 @@
   <block id="eb1f328dadd504e03e367eafd0c1e18c" category="list-text">YUM 소프트웨어 저장소 파일을 설치합니다.<block ref="90fdbfbbba2139b53a74cc0098f4e51e" prefix=" " category="inline-code"></block></block>
   <block id="4b5fef6350f906c92ead8e5fcb93fb21" category="sidebar">Keystone 설정 및 구성</block>
   <block id="a84d47a9c10091a234dee7fdfbd4ae68" category="sidebar">메트릭 및 정의</block>
-  <block id="bf871fbeda66c457eaf1656d09ea34de" category="sidebar">Keystone에서 지원되는 서비스</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="doc">Keystone 구독 대시보드 및 리포팅</block>
   <block id="8e43124ddee77b223f1e720973e147e7" category="list-text">* 구독 번호 *: NetApp에서 할당한 Keystone 가입 번호입니다.</block>
   <block id="f06c1648cc175308e5d0425681e31f63" category="list-text">* 추적 ID *: 가입 활성화 시 할당된 추적 ID입니다. 구독 추적에 사용되는 각 구독 및 사이트의 고유 ID입니다.</block>
@@ -325,7 +320,6 @@
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">* 문제 설명 *: Keystone 수집기는 사용량 측정 시스템의 일부로 다수의 컨테이너를 실행합니다. Red Hat Enterprise Linux 8.x 서버가 ISA(USA Defense Information Systems Agency) STIG(Security Technical Implementation Guides) 정책으로 강화되면, flapolicyd(File Access Policy Daemon)와 관련된 알려진 문제가 간헐적으로 나타납니다. 이 문제는 로 식별됩니다 <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>. * 해결 방법 *: Red Hat Enterprise가 해결될 때까지 NetApp은 이 문제를 해결해 드립니다<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> 허용 모드로 전환합니다. 인치 <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>에서 값을 설정합니다<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>.</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
   <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
-  <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Keystone이 수집하는 사용자 데이터의 유형</block>
   <block id="e14f2b2670997486a2e4f3918cbe9cb6" category="section-title">ONTAP 데이터 수집</block>
   <block id="4752622b9e77aa409c0f10beb0726f74" category="paragraph">다음 목록은 ONTAP에 대해 수집된 용량 소비 데이터의 대표적인 예입니다.</block>
   <block id="9b99bf7d2bfd4b09363304c166832734" category="list-text">클러스터</block>
@@ -672,7 +666,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="a3c65c2974270fd093ee8a9bf8ae7d0b" category="cell">108</block>
   <block id="67c6a1e7ce56d3d6fa748ab6d9af3fd7" category="cell">47</block>
   <block id="162489d19966a7f95c7accf74f9c3c5c" category="cell">5,000개</block>
-  <block id="1eba71d64e6c5e410e558530711e835b" category="summary">알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오.</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">알려진 제한 사항</block>
   <block id="747c6db0ede286805c21b0b78f4ce14f" category="paragraph">알려진 제한 사항은 Keystone STaaS 서비스 또는 구성 요소에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오.</block>
   <block id="4610ba0c418ec86857336be9f8a618f3" category="section-title">Keystone Collector 제한 사항</block>
@@ -694,7 +687,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="ddf6996c36a5baaa0aceadaa5bff3348" category="inline-link-macro">Keystone Collector는 고객 루트 SSL CA 인증서를 확인할 수 없습니다</block>
   <block id="895dbf51a8c3728919b1bbc401f7ac34" category="paragraph">자세한 내용 및 해결 방법은 을 참조하십시오 <block ref="7849962cc27d0a1aaa20692fa384b8e4" category="inline-link-macro-rx"></block> 또는 Knowledge Base 문서를 참조하십시오 <block ref="d2ca058f13c4e9c0050943815ab2eea4" category="inline-link-macro-rx"></block>.</block>
   <block id="c39448c44492bce0f20d4135a111f379" category="doc">Keystone STaaS의 새로운 기능</block>
-  <block id="9489be5fe307489eb48f54e4d9e08b90" category="paragraph">NetApp은 모든 Keystone STaaS 서비스에서 새롭고 향상된 기능을 제공합니다.</block>
   <block id="6fec807bd8a0e3b00b3818404fe99ffa" category="section-title">시청자 목록을 기준으로 검색하는 기능</block>
   <block id="e21135b6ab126eefb31b234c688584d2" category="section-title">UTC 시간대로 변환된 날짜</block>
   <block id="69464e68a5cdd0b54694ac92276fa1a3" category="doc">해결된 문제</block>
@@ -711,14 +703,12 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="685a2d4e29e36911ce3e10342f33cd34" category="sidebar">Keystone STaaS의 새로운 기능</block>
   <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="sidebar">알려진 문제</block>
   <block id="15b8bdededfed453d4aa35a4585d9e2c" category="sidebar">온프레미스의 지출을 클라우드로 재할당할 수 있습니까?</block>
-  <block id="e95f37597101815c1d465e37eb31cab2" category="sidebar">Keystone 가격 및 비용청구</block>
   <block id="c977c72cd7678128aadf339e54fc0498" category="sidebar">콜드 데이터 또는 덜 사용되는 데이터로 무엇을 할 수 있는가?</block>
   <block id="3c433d996e071fc968830570a2649830" category="sidebar">Keystone 데이터를 어떻게 보호할 수 있습니까?</block>
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">송장 발행된 누적 버스트 보기</block>
   <block id="cbe21b6da30db10de9cd33de72b5dc48" category="paragraph">SnapLock 기술은 볼륨에 설정된 만료 날짜 이후에 드라이브를 사용할 수 없도록 하여 NRNVC 기능을 활성화합니다. 볼륨에 SnapLock 기술을 사용하려면 NRNVC를 구독해야 합니다. 이는 파일 및 블록 서비스에만 적용됩니다.</block>
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">* 관련 정보 *</block>
   <block id="e6158c69831c3faa8af6ba0dce7118fd" category="list-text"><block ref="e6158c69831c3faa8af6ba0dce7118fd" category="inline-link-macro-rx"></block></block>
-  <block id="9e38decf152b1fba3ebe0ddbb861a5a3" category="inline-link-macro">Keystone STaaS의 애드온 서비스</block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
   <block id="b08a55fcdae4be7efabe97ebd6da5f96" category="section-title">누적된 연기에 대해 반환된 송장 데이터</block>
@@ -857,7 +847,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="2ed86e262df79d2aceffc1458e6d49b9" category="list-text"><block ref="2ed86e262df79d2aceffc1458e6d49b9" category="inline-link-macro-rx"></block></block>
   <block id="bd79126b847656ed7fae36b5cf2b2a67" category="list-text"><block ref="bd79126b847656ed7fae36b5cf2b2a67" category="inline-link-macro-rx"></block></block>
   <block id="6b4c0e011e525c6bfef1c89d400050ea" category="list-text"><block ref="6b4c0e011e525c6bfef1c89d400050ea" category="inline-link-macro-rx"></block></block>
-  <block id="8e3557260fa2ecc062aeb9b921f99cce" category="summary">Keystone Flex Subscription 서비스를 지원하는 Keystone STaaS</block>
   <block id="160de0b8ef29975a3bcc6e2e2b61c540" category="paragraph">토글 버튼 * 현재 사용량 표시 * 를 클릭하여 현재 청구 기간의 사용량, 버스트 사용량 및 누적된 버스트 데이터를 볼 수 있습니다. 이러한 세부 정보는 쿼리의 날짜 범위를 기반으로 하지 않습니다.</block>
   <block id="47f8ab1b56fa7a9acaabc7ce6e4ffaab" category="paragraph">사용 차트는 * 용량 추세 * 탭의 * 용량 추세 * 옵션에서 현재 날짜에 해당하는 날짜를 이전 달의 시작 날짜와 종료 날짜로 선택한 경우 지정된 1일 기간 이후의 데이터를 표시합니다.</block>
   <block id="ed9e770da052ee53c6dac6319eb8b17c" category="paragraph">이제 사용 차트에 지정된 1일 기간의 데이터가 올바르게 표시됩니다.</block>
@@ -908,27 +897,18 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">Keystone Collector는 다음 방법을 통해 배포할 수 있습니다.</block>
   <block id="a0bf4fc3f702627df39c1daec928bb04" category="summary">Keystone STaaS 시스템의 데이터는 관련 모니터링 시스템인 Keystone Collector 및 AIOP 솔루션 툴을 통해 흐릅니다.</block>
   <block id="fd730f411ecf3d749480ce42fb6b5281" category="summary">데이터 계층화 애드온 서비스는 자주 사용되지 않는 데이터를 식별하고 지원되는 스토리지로 계층화합니다.</block>
-  <block id="24acde87a618c9dc2d11377311afc495" category="summary">Keystone 인프라, 설계, 기술 선택, 구성요소 제품은 NetApp의 전적인 재량에 따라 집니다.</block>
-  <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp은 NetApp 및 고객 운영 환경 모두에 적용되는 Keystone의 인프라, 설계, 기술 선택 및 구성요소에 대한 전적인 책임을 집니다.</block>
   <block id="adf9ce2fefed448c1faa955a05142679" category="paragraph">NetApp은 다음과 같은 조치를 취할 권리를 보유합니다.</block>
   <block id="1e5c40b1bf2557793e21f12b8450b6d8" category="section-title">지원합니다</block>
-  <block id="554b9774fcd47c93aacebd604a76b86c" category="summary">NetApp은 NetApp Keystone 구독의 일환으로 파일, 블록 및 오브젝트 서비스에 대한 NRNVC 오퍼링을 확장합니다.</block>
   <block id="6a69842e6e38f4acc01bbde008bf7a4f" category="doc">반품 불가, 비휘발성 구성 요소 및 SnapLock 규정 준수</block>
-  <block id="8db09ad8b057ebdb5478401fb9e32f1c" category="paragraph">NetApp Keystone 구독의 일환으로 NetApp은 파일, 블록 및 오브젝트 서비스에 대한 반품 불가 비휘발성 구성 요소(NRNVC) 오퍼링을 확장합니다.</block>
   <block id="328eac5144e07d22553d9fb87c2f2fb8" category="paragraph">Keystone 구독의 일부로 이 애드온 서비스를 구독할 수 있습니다. 이 서비스를 구입한 경우 다음 사항에 유의하십시오.</block>
   <block id="88012c51c21895eb5d04e3914eae1744" category="paragraph">표준 및 클라우드 서비스에 대한 자세한 내용은 을 <block ref="f4af85410fdce7688ba5a57c75086b91" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="5f06e3acb72a6b6d15e07dec8e02541b" category="summary">NetApp Keystone STaaS는 서비스를 제공하기 위해 두 가지 운영 모델을 제공합니다. Keystone을 시작하기 전에 이러한 옵션을 이해해야 합니다.</block>
-  <block id="4017209949d03f232ecddb6bf8aea269" category="paragraph">NetApp Keystone STaaS는 파트너 운영 모델과 고객 운영 모델의 두 가지 운영 모델을 제공합니다. Keystone을 시작하기 전에 이러한 옵션을 이해해야 합니다.</block>
-  <block id="31486f17bb0da292e6faff47c42e27a2" category="summary">Keystone은 선행 CapEx 또는 리스보다 OpEx 소비 모델을 선호하는 기업을 위한 용량제 구독 기반 서비스 모델입니다.</block>
   <block id="db7ef8b55156f5b6fc1f3807d49d1119" category="summary">Keystone STaaS 서비스는 ONTAP 및 StorageGRID를 지원합니다.</block>
-  <block id="4e4be6640d3e6688fbc771ec3b218a39" category="doc">Keystone에서 지원되는 스토리지</block>
   <block id="9bb097552337391bef04a8384c5c2779" category="summary">Keystone을 시작하기 전에 ONTAP 클러스터 및 StorageGRID 시스템이 몇 가지 요구사항을 충족하는지 확인해야 합니다.</block>
   <block id="5a289dbd2bdf9da48705d83b541e6b93" category="summary">ONTAP 클러스터에서 보내는 일일 지원 번들에 Keystone 데이터를 통합하도록 AutoSupport를 구성합니다.</block>
   <block id="eb592abffb734f57a7f3958cfe6176bd" category="summary">Keystone Collector가 스토리지 환경에서 사용량 데이터를 수집할 수 있도록 완벽한 구성</block>
   <block id="d364d11590133a770b446aaeea42110a" category="paragraph">스토리지 환경에서 Keystone 수집기가 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료해야 합니다. 필수 구성 요소를 활성화하고 스토리지 환경을 연결하는 일회성 활동입니다.</block>
   <block id="544918a98971531911cde1c8c60f796e" category="admonition">Keystone Collector는 구성 및 모니터링 작업을 수행할 수 있는 Keystone Collector Management Terminal User Interface(TUI) 유틸리티를 제공합니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.</block>
   <block id="7a3c910d56f9c3c52e1890f667afa19f" category="paragraph">Keystone Collector는 구독 측정을 수행하는 데 필요한 제한된 구성, 상태 및 성능 정보를 수집합니다. 업로드한 콘텐츠에서 중요한 정보를 마스킹하여 수집된 정보를 추가로 제한할 수 있는 옵션이 있습니다. 이는 청구 계산에 영향을 미치지 않습니다. 그러나 볼륨 이름과 같은 사용자가 쉽게 식별할 수 있는 일부 요소가 UUID로 교체되므로 정보를 제한하면 보고 정보의 유용성에 영향을 줄 수 있습니다.</block>
-  <block id="6c0db94d9ea0b326e31b7d4eba357a6e" category="summary">Keystone은 ONTAP 및 StorageGRID 구독에 대한 구성, 상태 및 사용 정보를 수집합니다. 또한 ONTAP 성능 데이터를 수집할 수 있습니다.</block>
   <block id="c57abebf579a7f279028b7943e0a852b" category="summary">Keystone Collector는 사이트의 VMware vSphere 또는 Linux 호스트에 설치하는 NetApp 소프트웨어입니다. Keystone 시스템의 사용 데이터를 수집합니다.</block>
   <block id="174a6506a636f3bea0b05c1dbacf7c24" category="doc">Keystone Collector에 대해 자세히 알아보십시오</block>
   <block id="e7b0f86afead67fa5262542c846d2165" category="paragraph">_Keystone Collector_는 Keystone 서비스에 액세스하기 위해 사이트의 VMware vSphere 또는 Linux 호스트에 설치하는 NetApp 소프트웨어입니다. Keystone 시스템의 사용 데이터를 수집합니다.</block>
@@ -951,7 +931,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="983166db9c209be0406993868f07319e" category="doc">성능 메트릭을 봅니다</block>
   <block id="a7a03de7b430dd390a52a4acaf198ea0" category="summary">Keystone 구독에 대해 자세히 알아보려면 구독 탭에서 모든 구독 목록을 볼 수 있습니다.</block>
   <block id="91ccf36d6487c0c6be127a65f4ee107b" category="summary">볼륨 또는 오브젝트 스토리지 레벨에서 용량 세부 정보를 봅니다.</block>
-  <block id="a7a411a95daabfbcf6e39078b5f44902" category="summary">이전 릴리스의 NetApp Keystone STaaS 서비스에서 발견된 문제는 이후 릴리스에서 해결되었습니다.</block>
   <block id="6ee3962f219413522af2700bec386d97" category="sidebar">Keystone 설명서</block>
   <block id="dcb83accddabcabf987373583a058d0d" category="sidebar">가상 인프라</block>
   <block id="d339106c5234c4fffed6b25356ff263d" category="sidebar">모니터링 및 업그레이드</block>
@@ -1017,7 +996,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="c81e728d9d4c2f636f067f89cc14862c" category="cell">2</block>
   <block id="dcfe0b3ef8eb8156a5e83949c2e2f7b6" category="cell">3%</block>
   <block id="b9ad6821bc2a0e4300b5b91ca5245476" category="paragraph">공식 사용: 서비스 크레딧 = (10/50) X 1000 x 2 x 0.03</block>
-  <block id="fed70707a2e768c22f4b0fc06a401786" category="summary">NetApp은 랜섬웨어 복구 보증 프로그램을 통해 랜섬웨어 공격이 발생할 경우 SnapLock Compliance 볼륨의 스냅샷 데이터 복구를 보장합니다</block>
   <block id="30a37a729e8d5bdf11c9e3c6965f6872" category="doc">랜섬웨어 복구 보장</block>
   <block id="c314df61fd93029a87d16eb15b842e7d" category="paragraph">NetApp은 랜섬웨어 복구 보증 프로그램을 통해 랜섬웨어 공격이 발생할 경우 SnapLock Compliance 볼륨의 스냅샷 데이터 복구를 보장합니다. NetApp 랜섬웨어 복구 보증 서비스는 랜섬웨어 복구 보증 프로그램을 지원하려면 필요하며, 관련 Keystone 주문과 별도로 구매해야 합니다.</block>
   <block id="99b0e05699c63fe883231037a5d59d8c" category="paragraph">해당 구독 기간 동안 Keystone 구독을 지원하는 모든 하드웨어에 랜섬웨어 복구 보증 서비스가 필요합니다.</block>
@@ -1070,9 +1048,7 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">TUI 화면에서 정책 생성에 대한 오류 메시지를 표시합니다</block>
   <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">날짜 범위를 선택하는 * 시작 날짜 * 필드에는 * 소비 경향 * 탭으로 이동할 때 기본적으로 미래 날짜가 표시됩니다.</block>
   <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">2024년 09월 04일</block>
-  <block id="3564049af4b6d8549eeccf2c18fc9bb7" category="summary">Keystone Collector가 인터넷에 액세스할 수 없는 환경(예: A_Dark site_ 또는 _private mode_라고도 함)에서 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료합니다.</block>
   <block id="ac1824aafbc93ef9f076e8c86d829ea7" category="doc">Keystone Collector를 비공개 모드로 구성합니다</block>
-  <block id="4725d6ccb258fcebc2d1c40c828efdad" category="paragraph">Keystone Collector가 인터넷에 액세스할 수 없는 환경(예: A_Dark site_ 또는 _private mode_라고도 함)에서 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료합니다. 필수 구성 요소를 활성화하고 스토리지 환경을 연결하는 일회성 활동입니다. 구성되면 Keystone Collector는 Active IQ Unified Manager에서 관리하는 모든 ONTAP 클러스터를 모니터링합니다.</block>
   <block id="091f26e937a9d40df8650aa04378561d" category="list-text">Keystone Collector 관리 TUI 유틸리티 시작:</block>
   <block id="94cefb0a79f9c3f84bd04977a81563ca" category="paragraph"><block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix="" category="inline-code"></block></block>
   <block id="5e59f93ec115cbf6c1706dafd6e0a394" category="list-text">구성 &gt; 고급 * 으로 이동합니다.</block>
@@ -1290,7 +1266,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="4a1c882b0ab41fd998beccee85292567" category="list-text">* 물리적 스냅샷 *: 스냅샷이 사용하는 물리적 공간을 표시합니다.</block>
   <block id="ff17f3533de401f605df9cf9c2553b80" category="paragraph">이 열은 볼륨의 활성 파일 시스템에서 사용하는 논리적 용량과 스냅숏에서 사용하는 물리적 공간을 모두 보여 주는 * Logical Used * 열을 보다 명확하게 보여 줍니다.</block>
   <block id="28734ee482d13456cc49c54e4f4ae12f" category="summary">Data Infrastructure Insights는 퍼블릭 클라우드와 프라이빗 데이터 센터에서 스토리지를 모니터링, 문제 해결 및 최적화하여 Keystone STaaS의 효율성을 높여줍니다.</block>
-  <block id="3b95e9802e539ed39990d7c53e7f63cc" category="paragraph">NetApp Cloud Insights STaaS(Data Infrastructure Insights)를 위한 애드온 제품입니다. 이 서비스와 Keystone STaaS가 통합되어 퍼블릭 클라우드와 프라이빗 데이터 센터 전반에서 Keystone 제공 스토리지 리소스의 모니터링, 문제 해결 및 최적화 기능을 개선할 수 있습니다.</block>
   <block id="b4116a637c9ad7ac63e4694f7d72fe47" category="inline-link-macro">Data Infrastructure Insights 설명서</block>
   <block id="791f81543da974a0b785676eb2cfa67d" category="paragraph">Data Infrastructure Insights에 대한 자세한 내용은 을 <block ref="d3b10d06b902e7a0afb7dc49b48a5ee1" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="35093b8f232384c1cc56aa0b089de156" category="section-title">Keystone용 DII 배포</block>
@@ -1341,8 +1316,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="03242372ae5b03ca7f547f3cb7dab64f" category="inline-link-macro">DPA(Data Protection Addendum)</block>
   <block id="a58e8ea096956351960d74a5b466e9e0" category="paragraph">Keystone ITOM 모니터링 솔루션은 유럽 연합 GDPR(General Data Protection Regulation) 및 CCPA(California Consumer Privacy Act)를 준수합니다. 이러한 약속을 문서화하기 위한 에도 를 <block ref="12861122e9a15898b646770ef3c2b260" category="inline-link-macro-rx"></block>제공합니다. ITOM 모니터링 솔루션은 개인 데이터를 수집하거나 저장하지 않습니다.</block>
   <block id="8851c6fe19bf967cca1a7747c9a0b08e" category="list-text">Keystone IT 운영 관리(ITOM) 모니터링 솔루션: Keystone 환경을 모니터링하는 데 사용되는 클라우드 기반 SaaS 애플리케이션입니다. NetApp 스토리지 플랫폼과의 통합 기능이 내장되어 있어 환경 데이터를 수집하고 Keystone 인프라의 컴퓨팅, 네트워크 및 스토리지 구성 요소를 모니터링할 수 있습니다. 이 모니터링 기능은 온프레미스 설정, 데이터 센터, 클라우드 환경 또는 이러한 구성 요소까지 확장됩니다. 이 서비스는 클라우드 포털과 통신하는 사이트에 설치된 로컬 ITOM Collector를 사용하여 활성화됩니다.</block>
-  <block id="b9582a9d01a3bb00c5c7df318f3cd4ed" category="summary">미국 보호 지원은 미국 토양에 있는 미국 시민으로부터 지속적인 Keystone 서비스를 제공하고 지원하는 애드온 서비스입니다.</block>
-  <block id="21fe13388dd575bae131356d62eb3d04" category="paragraph">USPS(미국 보호 지원)는 NetApp Keystone 구독에 대한 추가 서비스입니다. 이를 통해 미국 영토에 거주하는 미국 시민으로부터 지속적인 Keystone 서비스를 제공하고 지원할 수 있습니다.</block>
   <block id="10d701676d6c78ebafad1c0adf816cc7" category="section-title">NetApp USPS 모니터링</block>
   <block id="75d0ff56559c8650dad12b15a71e6950" category="paragraph">NetApp USPS Keystone 지원 팀은 고객의 제품 및 구독 서비스의 상태를 모니터링하고 원격 지원을 제공하며 Keystone 성공 관리자와 협력합니다. 관련 Keystone 구독 주문과 관련된 제품을 모니터링하는 모든 직원은 u입니다 미국 토양에서 활동하는 시민들.</block>
   <block id="9c62788e882432afb4a67231a8793b98" category="summary">Linux 기반 시스템에 ITOM Collector 소프트웨어를 설치합니다.</block>
@@ -1433,7 +1406,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">볼륨 및 개체 * 의 * 볼륨 세부 정보 * 탭에 있는 * 논리적 사용된 * 열이 이제 * Keystone 논리적 사용됨 * 으로 이름이 바뀌었습니다.</block>
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">Enhanced Assets(향상된 자산) 탭</block>
   <block id="d7dc6f5447fca23324df2672bac7c802" category="section-title">새 열 숨기기/표시 옵션</block>
-  <block id="196d7c712c7c6a9911f2d9bbb5f61bf7" category="sidebar">Keystone 서비스로 더 많은 작업 수행</block>
   <block id="84b3e771654397ccc8ec23cf38bfc805" category="sidebar">스토리지를 모니터링, 문제 해결 및 개선합니다</block>
   <block id="4082fa09d81cb2bcef02087304b3c30e" category="paragraph">RPM 또는 데비안 패키지를 사용하여 Linux 서버에 Keystone Collector 소프트웨어를 설치할 수 있습니다. Linux 배포에 따라 설치 단계를 따릅니다.</block>
   <block id="3fc1f45d72a49b590c944fab8aac1e82" category="open-title">RPM 사용</block>
@@ -1513,7 +1485,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d4f29e3a940c48363ab7a3bcb13cf87f" category="paragraph">표준 및 추가 서비스에 대한 정보는 다음을 참조하세요. <block ref="32999c765ee523f7718a7908120f4502" category="inline-link-macro-rx"></block> . 성과 서비스 수준에 대한 정보는 다음을 참조하세요. <block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> .</block>
   <block id="effc5725f73525238563e67c654a7578" category="inline-link-macro">키스톤의 성과 서비스 수준</block>
   <block id="3baadf2264f6a3ed3c5dfbc1e7a94348" category="paragraph">성과 서비스 수준에 대한 정보는 다음을 참조하세요. <block ref="d2021ebe74ad4577de5c973838fa2a38" category="inline-link-macro-rx"></block> .</block>
-  <block id="d534e2cd061f06b6e0ad742d6dda7fee" category="list-text"><block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block></block>
   <block id="b1951e8ebdcabd07a41b38adc74988e3" category="admonition">NetApp Keystone STaaS 성능 서비스 수준에 대한 자세한 서비스 설명을 사용할 수 있습니다. <block ref="d71be405d81c1e2747195607ed9eca90" category="inline-link-rx"></block> .</block>
   <block id="7c917a242507a352850575e21d7b1850" category="paragraph">기본 성능 서비스 수준 측정항목은 다음 조건에 따라 달라집니다.</block>
   <block id="acfc67d5d434abd61811abf81c0d1571" category="cell">*성능 서비스 수준*</block>
@@ -1703,7 +1674,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7c38a1a6d325208696c25a2b660d7c45" category="sidebar">자산을 봅니다</block>
   <block id="90b170feab9928831461b78974ca9730" category="sidebar">데이터 검색 및 보고서 생성</block>
   <block id="ffd11ace57b086a5480fb17f7a15d168" category="sidebar">키스톤 성과 서비스 수준</block>
-  <block id="f5d84aae2147a90073cdd05d5634eb44" category="sidebar">Keystone STaaS에 대해 알아보세요</block>
   <block id="4f179a0bb822f4da6689d45dccc557c0" category="sidebar">Keystone 구독 관리 및 모니터링</block>
   <block id="dc3d90b89d4bb2fb5b175190b27ff49d" category="sidebar">데이터 검색, 보고서 생성 및 알림 보기</block>
   <block id="425d3e4b5c54f50fdadad62ba355981f" category="sidebar">구독과 관련된 자산 보기</block>
@@ -1747,27 +1717,8 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="743bda28c7e3ff71e63d96fad8b96946" category="list-text">*처리량*: FCP가 포함된 ONTAP 9.16.1의 경우 각 성능 수준 인스턴스는 100% 읽기와 64KB 블록 크기의 순차적 액세스를 지원합니다.</block>
   <block id="311fa0b14c132cc09ffa0940763ed317" category="paragraph">SnapMirror 대상 볼륨의 가격은 재해 복구 또는 장기 보존에 사용 여부와 관계없이 대상 볼륨에 할당된 성능 서비스 수준에 따라 결정됩니다. 데이터 보호에는 추가 요금이 없습니다.</block>
   <block id="043a801e169414534666972af92048c7" category="paragraph">LUN의 경우 요금은 볼륨의 성능 서비스 수준을 기준으로 청구됩니다.</block>
-  <block id="6318e8b902dd302d5ad2e2ac912ca98c" category="list-text">*파트너 운영 모델*: 이 모델은 두 가지 옵션을 제공합니다.</block>
-  <block id="c611ee589f9a1c9e3b6492cc4cacf6d1" category="list-text">*서비스 제공업체*: 서비스 제공업체는 최종 고객을 위해 서비스를 운영합니다. NetApp과 계약한 당사자로서, 서비스 제공업체는 각 테넌트(서비스 제공업체의 고객)가 자체 구독을 통해 서비스 제공업체로부터 요금을 청구받는 멀티 테넌트 환경을 관리합니다. 서비스 제공업체 관리자는 테넌트의 모든 관리 업무를 담당합니다.</block>
-  <block id="f6d7168635231e9ae9dffcb54c7d1149" category="list-text">*리셀러*: 리셀러로서 파트너는 NetApp과 고객 사이의 가교 역할을 합니다. 파트너는 최종 고객에게 Keystone 서비스를 판매하고 청구를 관리합니다. 파트너가 청구를 처리하는 동안 NetApp은 고객에게 직접 지원을 제공합니다. Keystone 지원팀은 고객과 소통하고 테넌트의 모든 관리 업무를 처리합니다.</block>
-  <block id="28b248353af5ce3bf6916f6280f509a3" category="list-text">*고객 운영 모델*: 고객은 선택한 성능 서비스 수준 및 스토리지에 따라 Keystone 서비스를 구독할 수 있습니다. NetApp은 아키텍처 및 제품을 정의하고 Keystone을 사내에 구축합니다. 스토리지 및 IT 리소스를 통해 인프라를 관리해야 합니다. 계약에 따라 NetApp 또는 서비스 공급자가 해결해야 할 서비스 요청을 제출할 수 있습니다. 조직의 관리자가 사이트(환경)에서 관리 작업을 수행할 수 있습니다. 이러한 작업은 환경 내 사용자와 연결됩니다.</block>
-  <block id="51716409e7a7cd44b90ac44db0fcb1f2" category="list-text">*파트너 운영 모델*: 역할과 책임의 공유는 귀하와 서비스 제공자 또는 파트너 간의 계약에 따라 달라집니다. 자세한 내용은 서비스 공급업체에 문의하십시오.</block>
-  <block id="6d7eb772ffa1657b401639ad7643de00" category="paragraph">NetApp Keystone은 선불 자본 지출이나 데이터 저장 및 보호 요구 사항을 충족하기 위한 임대보다 운영 비용 소비 모델을 선호하는 기업을 위해 원활한 하이브리드 클라우드 환경을 제공하는 종량제 구독 기반 서비스 모델입니다.</block>
-  <block id="0e0663d0cd50d63b8c1a8c2f4b8e245e" category="paragraph">Keystone을 사용하면 다음과 같은 이점을 누릴 수 있습니다.</block>
-  <block id="293f329ac1b5f2e326126f6010c7cb0a" category="list-text">*비용 효율성*: 필요한 저장 용량에 대해서만 비용을 지불하고 추가 용량을 유연하게 처리할 수 있습니다.</block>
-  <block id="7cedbc8165f3ea707459d6c31dad742d" category="list-text">*자본 효율성*: 사전 투자 없이 엔터프라이즈급 스토리지에 액세스하세요.</block>
-  <block id="445d8846356b3dfdd1274453dc0427a1" category="list-text">*확장성*: 비즈니스가 성장함에 따라 저장 용량을 쉽게 확장할 수 있습니다.</block>
-  <block id="c43a7fafafef1b3b0121e22470675788" category="list-text">*맞춤형*: 필요에 따라 저장 용량 계획을 조정하고 클라우드로 전환하여 전체 비용을 최적화하세요.</block>
-  <block id="b398b395055931a2208ae5fba25c03d2" category="list-text">*클라우드 통합*: 온프레미스 서비스와 클라우드 서비스를 하나의 구독으로 결합합니다.</block>
-  <block id="c42045f8c1e7b91e0b11f358a25d0962" category="list-text">*보안*: 고급 보안 조치와 위협으로부터의 보장된 복구로 귀하의 데이터를 보호하세요.</block>
-  <block id="41a3dc785b2cc9fed55d572f2573b61e" category="inline-image-macro">키스톤 혜택</block>
-  <block id="dcaaa9fce1472aa821202e8e51abbd95" category="paragraph"><block ref="dcaaa9fce1472aa821202e8e51abbd95" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9c466ee20ee6cd0a46097868e1e033ae" category="paragraph">Keystone은 파일, 블록 및 객체 스토리지 유형에 대해 사전 정의된 성능 서비스 수준의 스토리지 용량을 제공합니다. 이 스토리지는 온프레미스에 구축하여 NetApp, 파트너 또는 고객사가 운영할 수 있습니다. Keystone은 선택한 하이퍼스케일 환경에 구축할 수 있는 Cloud Volumes ONTAP와 같은 NetApp 클라우드 서비스와 함께 사용할 수 있습니다.</block>
-  <block id="e6e41564c0eb58e7df450956b2e9d7ef" category="section-title">키스톤 스토리지 서비스(STaaS)</block>
-  <block id="db1293ec8548c413e40861e5a81d1401" category="paragraph">STaaS(Storage-as-a-Service) 오퍼링은 스토리지 인프라의 조달, 구축 및 관리에 필요한 퍼블릭 클라우드와 같은 모델을 제공하는 것을 목표로 합니다. 많은 기업이 여전히 하이브리드 클라우드 전략을 수립하는 동안, Keystone STaaS는 온프레미스 서비스로 시작하여 적절한 시기에 클라우드로 전환할 수 있는 유연성을 제공합니다. 이를 통해 다양한 배포 모델에 걸쳐 약정을 보호하고, 월별 요금을 인상하지 않고도 필요에 따라 지출을 재분배할 수 있습니다.</block>
   <block id="50e0459d44500ff84b442895fa1a64f1" category="list-text">하드웨어, 코어 OS의 번들 가격을 선택하고 $/TiB 단일 가격을 지원할 수 있습니다. 통합, 블록, 최적화, 객체 또는 클라우드 스토리지 서비스 등 각 스토리지 유형별로 단일 송장이 있습니다.</block>
   <block id="6770f961b4c4aaa762fb284da8cafd6f" category="list-text">월별, 분기별, 반기별 또는 연간 등 서비스와 지불 옵션에 대한 유연한 기간을 선택할 수 있습니다.</block>
-  <block id="65f13786054dfad371efd46410aaee0a" category="summary">Keystone STaaS 버전 3은 사전 정의된 서비스 수준에서 스토리지 용량을 제공합니다. Keystone에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다.</block>
   <block id="ef2cb5595bf65cf069d594658bcda8d1" category="section-title">통합 스토리지의 성능 서비스 수준</block>
   <block id="1542ef6889c18a1989b129e50a4702ca" category="cell">AI/ML, HPC, InMem DB</block>
   <block id="6aa07a7abeb9497eacc86475d1f571ae" category="cell">분석, EDA, OLTP</block>
@@ -1801,7 +1752,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7143d2451eb843694f0db7a7c055bc1c" category="cell">25티비</block>
   <block id="09db5cf9dee1953ac746dd636e0db3e0" category="cell">4TiB</block>
   <block id="4e5cad9a39114e168c84b904c78fec9d" category="cell">1TiB</block>
-  <block id="e89bdbf88ea78e787698305e26fb7442" category="summary">Keystone은 소비 용량에 대한 Keystone 주문에 설명된 대로 버스트 한도까지 성능 서비스 수준별로 지연 기반 SLO를 제공합니다.</block>
   <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">다음 사항에 유의하십시오.</block>
   <block id="aa26b728d618a456dca6365c13707f90" category="summary">NetApp Keystone STaaS 서비스 버전 3에서 지원하는 스토리지 용량 유형에 대해 알아보세요.</block>
   <block id="d0178ba7ef0d480555c11a8e0e008358" category="paragraph">이는 스토리지 어레이가 제공하는 데이터 효율성이 적용되기 전에 사용자 데이터를 저장하는 데 필요한 저장 용량입니다.</block>
@@ -1817,7 +1767,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d9374af96a68f98b2e73d35fada43a6f" category="inline-link-macro">ONTAP 라이센스 개요</block>
   <block id="c5808afbd20dfa63abd66a2d8a4d9085" category="inline-link-macro">ONTAP One: ONTAP의 모든 기능을 이제 하나로</block>
   <block id="48253bd066795a2facb396b656e80739" category="paragraph">ONTAP One에 대해 자세히 알아보려면 다음을 참조하세요. <block ref="2385cd8a90d8020136016b7d34b32baf" category="inline-link-macro-rx"></block> 그리고 <block ref="a896c96ece5f68865a35c0c7b3ab15b7" category="inline-link-macro-rx"></block> .</block>
-  <block id="0964ef7e9609896cd57878b05fd16b15" category="paragraph">스토리지 환경에서 메트릭 데이터를 수집하는 ITOM Collector를 설치하려면 몇 가지 단계를 완료하세요. 요구 사항에 따라 Windows 또는 Linux 시스템에 설치할 수 있습니다.</block>
   <block id="85ff0853762a6567724e52f29bc65ca4" category="paragraph">Keystone Collector는 Keystone 청구 플랫폼의 사용 취득 구성 요소입니다. 이 솔루션은 Active IQ Unified Manager와 기타 애플리케이션을 활용하여 ONTAP 및 StorageGRID 시스템에 연결하고 Keystone 구독의 사용 및 성능 측정에 필요한 메타데이터를 수집합니다. 이 보고서를 통해 시스템 상태를 모니터링하는 동시에 보고용 청구 데이터를 전송할 수 있습니다.</block>
   <block id="d4283d1f6908b4b327f950a4c1b90e7a" category="paragraph">Keystone Collector는 Keystone 시스템의 사용 데이터를 수집하는 표준 접근 방식을 나타냅니다. Keystone Collector를 지원하지 않는 환경에서는 Keystone 지원팀에 AutoSupport 원격 측정 메커니즘을 대체 수단으로 사용하도록 승인을 요청할 수 있습니다. . <block ref="580f515f260b4eafdf5c4395b86d5cc8" category="inline-link-macro-rx"></block> .</block>
   <block id="4ea8a3a9d8ab9e67b390f8303bee8565" category="paragraph"><block ref="4ea8a3a9d8ab9e67b390f8303bee8565" category="inline-image-macro-rx" type="image"></block></block>
@@ -1837,7 +1786,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="ee326973c25ecfa958c9bcb665f7c905" category="list-text">*용량 추세* 탭에서 소비량 및 누적 버스트 사용 데이터를 확인할 수 있습니다.</block>
   <block id="e00666b1159de8493cf756574e49f1ec" category="list-text">*성능* 탭에서 ONTAP 볼륨의 성능 측정 항목을 볼 수 있습니다.</block>
   <block id="ac75d9678d2b707154377e207cada198" category="paragraph">데이터는 선택한 구독 시작 날짜를 기준으로 표시됩니다.</block>
-  <block id="914dcbba0b077ce4f352aa32f6a6d389" category="sidebar">NetApp Keystone은 온프레미스와 클라우드 데이터 스토리지 서비스 모두를 위한 종량제 방식의 스토리지 서비스로, 하나의 구독으로 제공되며, 스토리지 비용을 클라우드 전반에 걸쳐 재할당할 수 있는 기능을 제공합니다.</block>
   <block id="d390d1bb241eb25a8ca394226a403023" category="sidebar">버스트 용량 증가</block>
   <block id="cfa9db7c89ff68cb147c3dad7e8b0b59" category="section-title">Keystone 버전 3(v3) 릴리스</block>
   <block id="e4662d7ea2c66dc53eb2e68d2bceffac" category="paragraph">시작하려면 BlueXP 왼쪽 탐색 메뉴에서 *저장소 &gt; 키스톤*으로 이동하세요. 자세한 내용은 을 <block ref="d1eddf69542d0beadf02459455377203" category="inline-link-macro-rx"></block>참조하십시오.</block>
@@ -1870,7 +1818,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7faee727fce43e18a5f377b7afb57542" category="paragraph">이제 * Capacity Trend * 탭에서 * Accounted Burst * 의 레이블이 * Invoiced Accounting Burst * 로 수정됩니다. 이 옵션을 선택하면 청구된 누적 버스트 데이터의 월별 차트를 볼 수 있습니다. 자세한 내용은 을 <block ref="eabab3ebfcc1135a01e03f1ece2ffb1c" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="8c238ecbe1955b491db6b48ea17933c2" category="paragraph">Digital Advisor의 감시 목록에 대한 지원이 Keystone 시스템까지 확장되었습니다. 이제 관심 목록을 사용하여 검색하여 여러 고객의 구독 세부 정보를 볼 수 있습니다. Keystone STaaS의 시청자 목록 사용에 대한 자세한 내용은 을 참조하십시오 <block ref="2875e10a779b54ebea1ca23299e1022f" category="inline-link-macro-rx"></block>.</block>
   <block id="e2328d669041a542b4660884da5e30c6" category="paragraph">Digital Advisor의 *Keystone 구독* 화면 탭에 반환된 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리에 날짜를 입력하면 UTC 시간으로 자동 간주됩니다. 자세한 내용은 을 <block ref="111f11f9178fe48f6cc874a0bf33e9ed" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="7c5da8baa0fbbd37b4a692b7125db568" category="paragraph">Keystone Keystone ONTAP 및 Keystone StorageGRID 구독의 구성, 상태 및 사용 정보와 Keystone Collector를 호스팅하는 가상 머신(VM)의 원격 측정 데이터를 수집합니다. Keystone Collector에서 이 옵션이 활성화된 경우 ONTAP 에 대한 성능 데이터만 수집할 수 있습니다.</block>
   <block id="6aa83c82143e174e72f244ecef8dc7ad" category="section-title">원격 측정 데이터 수집</block>
   <block id="49e2322dae056a2f8739263d880abd73" category="example-title">&lt;strong&gt; Keystone Collector VM에서 수집된 원격 측정 데이터: 자세히 알아보기&lt;/strong&gt;</block>
   <block id="ce4c85de38de26999e02d0806330175d" category="paragraph">다음 목록은 Keystone 시스템에서 수집된 원격 측정 데이터의 대표적인 샘플입니다.</block>
@@ -1919,13 +1866,9 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="afb3d054878af254ad9d657e9c39d6be" category="paragraph">선택한 Keystone STaaS 구독에 대해 총 볼륨 수, 보호된 볼륨 수, 랜섬웨어 보호 상태, 모든 볼륨에서 약정된 총 용량, 사용된 용량, 사용 가능한 용량을 확인할 수 있습니다.  보호된 볼륨의 수를 클릭하면 *볼륨 세부 정보* 탭으로 이동하며, 여기서 선택 사항에 따라 보호된 볼륨을 보여주는 필터링된 목록을 볼 수 있습니다.</block>
   <block id="c7409eaa8633fe96cf75ec03a907af58" category="paragraph"><block ref="c7409eaa8633fe96cf75ec03a907af58" category="inline-image-macro-rx" type="image"></block></block>
   <block id="964c0373b6e90b739308a155629631d1" category="paragraph"><block ref="964c0373b6e90b739308a155629631d1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0d3416f2b111546052098b9c77ea87f5" category="paragraph">Keystone STaaS 서비스의 최신 기능과 향상된 기능에 대해 알아보세요.</block>
   <block id="5e7c6c3c4a3f1109745fdf45ec1f1b45" category="section-title">2025년 8월 5일</block>
   <block id="860a9b00f775e55f5f4abd684d89a362" category="paragraph">이제 NetApp Keystone STaaS 제품의 최신 릴리스인 Keystone 버전 3(v3)을 구독할 수 있습니다. 이 버전에서는 간소화된 성능 서비스 수준, 추가 버스트 용량 옵션, 유연한 청구 빈도 등 여러 가지 향상된 기능이 도입되었습니다. 이러한 개선 사항을 통해 스토리지 솔루션의 관리, 최적화 및 확장이 간소화됩니다. 자세한 내용은 다음을 참조하세요.<block ref="d7deefef65ef51793b8b97cb33a8c208" category="inline-link-macro-rx"></block> .</block>
-  <block id="5c201143f722abb135fb91ea77a2a32b" category="sidebar">NetApp Keystone 자본 지출이나 리스보다 운영 비용을 선호하는 고객에게 원활한 하이브리드 클라우드 환경을 제공하는 유연한 종량제 구독 기반 서비스입니다. IT 부서의 리소스 관리 부담을 없애고 긴 조달 주기를 피함으로써 가치 실현 시간을 단축할 수 있습니다. 이 라이브러리의 문서를 탐색하여 NetApp Keystone Storage-as-a-Service(STaaS) 제품에 대해 자세히 알아보세요.</block>
-  <block id="d86cc1250d7492d626c32cc9fb65dfab" category="sidebar">Keystone 가격에 대해 알아보세요</block>
   <block id="f4933584c28adc3bd3ea423ed96920ec" category="sidebar">지원팀에 대해 알아보세요</block>
-  <block id="d59048f21fd887ad520398ce677be586" category="sidebar">자세히 알아보기</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">개념</block>
   <block id="5a7ddcb67d8774d8c3bdc821152d43f1" category="paragraph">추가 데이터 계층화 서비스를 사용하면 Extreme, Premium, Performance, Standard 및 Value 계층에서 개체 스토리지 대상까지 계층화할 수 있습니다. 계층화될 핫 데이터와 콜드 데이터의 비율은 고정되어 있지 않으며, 각 계층은 별도로 측정되고 청구됩니다.</block>
   <block id="f02c5e27d3f80e7755fdb672ca0a6235" category="list-text">Keystone STaaS Value 계층, Keystone STaaS StorageGRID Object 계층 또는 기존 StorageGRID Webscale(SGWS) 그리드(고객 소유) - 추가 비용은 없으며 표준 서비스의 일부입니다.</block>
@@ -1955,7 +1898,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d5361f65bad1a0cefb26442a03e3f1a3" category="paragraph">*구독* 탭에서 별도 탭에서 확장 가능한 보기로 이동된 성능 서비스 수준 정보를 볼 수 있습니다.  각 구독에 대한 만료일을 보려면 *만료일* 열 옆에 있는 아래쪽 화살표를 클릭하세요. 자세한 내용은 다음을 참조하세요.<block ref="c9175061cd37da451a004ee428397f08" category="inline-link-macro-rx"></block> .</block>
   <block id="1c560ebcd3a4417c966fc32410160aad" category="list-text"><block ref="1c560ebcd3a4417c966fc32410160aad" category="inline-link-macro-rx"></block></block>
   <block id="f1725014f45852c6d29865ed1732954a" category="paragraph">선택한 시간 범위를 기준으로 각 성과 서비스 수준에 대한 과거 소비 데이터가 선 그래프로 표시됩니다. Keystone 구독이 수정되거나 갱신되는 경우 시작 날짜를 이전 날짜로 설정하여 과거 소비 데이터를 볼 수 있습니다.</block>
-  <block id="59bf2678f53f6a44de56bb54540c62f2" category="summary">모니터링 탭을 사용하여 Keystone 구독에 대한 알림 모니터를 보고 생성합니다.</block>
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="doc">Keystone 구독에 대한 알림 모니터 보기 및 생성</block>
   <block id="0189c782e04bc566597908eddaee3dd5" category="section-title">알림 모니터 보기</block>
   <block id="d8d1f09f12d3047d0b1d5264e0fbb3d4" category="paragraph">알림 모니터를 보려면 다음 단계를 따르세요.</block>
@@ -1997,7 +1939,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="b3f8c20435f04a33e07ab53c0c9f7689" category="list-text"><block ref="b3f8c20435f04a33e07ab53c0c9f7689" category="inline-link-macro-rx"></block></block>
   <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Keystone 구독에 대한 알림을 보고 관리합니다.</block>
   <block id="45b1b24d622565a139eb50e1cef4cd1b" category="list-text"><block ref="45b1b24d622565a139eb50e1cef4cd1b" category="inline-link-macro-rx"></block></block>
-  <block id="1853b61f9b6b779d424aeae83667bdd2" category="summary">모니터링 탭을 사용하여 Keystone 구독에 대한 알림을 보고 관리하세요.</block>
   <block id="7945624e1cf116b23d8e231fa6ab8d6d" category="paragraph">사용자 정의 알림을 구성하려면 다음을 참조하세요.<block ref="78059b8e17cadd39b328bdc0fd7cd2de" category="inline-link-macro-rx"></block> .</block>
   <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">알림 보기</block>
   <block id="17ec1dd00ee2fa8e3a2bea341f3176eb" category="paragraph">활성 알림을 보려면 다음 단계를 따르세요.</block>
@@ -2038,8 +1979,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3c031b939f6ec312ee601d021e7a6644" category="open-title">NetApp 콘솔</block>
   <block id="e833a568221431c19dcca95c850ae159" category="paragraph">콘솔이나 Digital Advisor 통해 월별 또는 분기별 청구 기간 동안 발생한 일일 버스트 데이터 사용량을 볼 수 있습니다. 콘솔에서 *일별 누적 버스트* 표는 *소비 추세* 탭의 *보기* 드롭다운에서 *누적 버스트*를 선택하면 타임스탬프, 커밋, 사용 및 누적 버스트 용량을 포함한 자세한 데이터를 제공합니다.</block>
   <block id="dfa8d7fe27ec169b0ef41ef00fee0ae8" category="paragraph">NetApp 콘솔이나 Digital Advisor 통해 구독의 현재 소비 상태를 보려면 다음 단계를 따르세요.</block>
-  <block id="10cb2c81585ad95f970824cfe6301506" category="summary">NetApp Keystone STaaS 구독자는 NetApp Console 또는 Digital Advisor 통해 Keystone 대시보드에 액세스할 수 있습니다.</block>
-  <block id="c3cfe25887e605c51c4e6e8d2d976921" category="paragraph">NetApp Keystone 서비스에 가입한 후 NetApp Console이나 Digital Advisor 통해 Keystone 대시보드에 액세스할 수 있습니다.</block>
   <block id="f5d302c73eacff7b76d482bf489706b0" category="inline-link-macro">콘솔에 로그인</block>
   <block id="635729a4f0a6dc6d9b4d20446b497c80" category="paragraph">NetApp 지원 사이트 자격 증명을 사용하여 콘솔에 로그인하거나 이메일과 비밀번호를 사용하여 NetApp 클라우드 로그인에 가입하세요. 자세한 내용은 다음을 참조하십시오. <block ref="7dcc8a9f27b5ee3278b228b8863caa51" category="inline-link-macro-rx"></block> .</block>
   <block id="4a43cddfeeabba4570c14c252dec0bd1" category="list-text">콘솔에 로그인합니다.</block>
@@ -2082,7 +2021,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="579139f19217a677980dce581b098367" category="paragraph">용량 사용량, 구독 만료 상태, 해결되지 않은 알림 등의 주요 지표를 볼 수 있습니다.</block>
   <block id="09253a17dd3290d17d3baeba1a85ec41" category="paragraph">다음 세부 정보는 표에서 확인할 수 있습니다.</block>
   <block id="a79d6591df4c712ce010c266887785cb" category="paragraph">이러한 세부 정보를 보려면 NetApp 콘솔의 *자산* 페이지를 참조하세요. 특정 Keystone STaaS 구독에 대한 세부 정보를 보려면 다음을 참조하세요.<block ref="33df2a894b84cf92bf7b059b0628f59d" category="inline-link-macro-rx"></block> . 여러 Keystone 구독에 대한 세부 정보를 보려면 다음을 참조하세요.<block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block> .</block>
-  <block id="a117e95e0e717db586ac46cfe455c16c" category="summary">알려진 문제는 Keystone 효과적으로 사용하는 데 방해가 될 수 있는 문제를 나타냅니다.</block>
   <block id="56c7b419b1c28b2e596114d1fcf4fd33" category="paragraph">알려진 문제는 Keystone STaaS를 효과적으로 사용하는 데 방해가 될 수 있는 문제를 식별합니다.</block>
   <block id="ebc614947502c956dd0fcafc02067f05" category="paragraph">이 API는 주어진 customerID와 연관된 모든 구독 및 성과 서비스 수준 목록을 검색합니다.</block>
   <block id="af84df9dc62db50a848fb88711a5b185" category="paragraph">API는 지정된 고객에 대한 모든 구독 및 관련 성과 서비스 수준 세부 정보 목록이 포함된 JSON 객체로 응답합니다. 다음은 응답의 예입니다.</block>
@@ -2207,17 +2145,9 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">소비량이 허용된 버스트 한도 내에 있음에도 불구하고 구독이 Digital Advisor 대시보드에서 *버스트 한도 초과* 상태로 잘못 표시됩니다.</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025년 12월 8일</block>
   <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">파이썬 3(3.9.14~3.11.8)</block>
-  <block id="584993c35b748425f19f9e50be222b34" category="doc">Keystone 구독용 버스트 용량 추가 기능</block>
   <block id="e1ae7a5642f41154cb522f32ff888693" category="doc">Keystone 성능 서비스 수준에 필요한 용량</block>
   <block id="a2cec0e19e9a9e466d5734a20002287a" category="doc">Keystone 서비스에 필요한 구성 요소</block>
   <block id="e6031ccc926a297ed489fed2eb5fc832" category="paragraph">NetApp Keystone STaaS 서비스를 활성화하려면 몇 가지 구성 요소가 필요합니다. 시작하기 전에 다음 구성 요소를 검토하십시오.</block>
-  <block id="7b2a0cab269bf73e47e958a9123402e1" category="doc">Keystone 용 Data Infrastructure Insights 추가 기능</block>
-  <block id="f4661181da0130d61f3128498582908f" category="doc">Keystone 용 데이터 계층화 추가 서비스</block>
-  <block id="43b82c4e7e58013ebe91d40fcb3f7718" category="doc">Keystone 의 가용성 SLO</block>
-  <block id="259bdb910694b04b20beea4776938bc1" category="doc">Keystone 의 성능 SLO</block>
-  <block id="55f8301e147b74d377ba17c059419cab" category="doc">Keystone 랜섬웨어 복구 보장</block>
-  <block id="34a4bf3e6647e3dbdeb2e4f10c663eab" category="doc">Keystone 의 지속가능성 SLO</block>
-  <block id="27aa1272743b7f2386d3189a53b56acd" category="doc">Keystone 용 USPS 추가 서비스</block>
   <block id="52f54d887aa41d09a6436a07a2e0764c" category="doc">Keystone 의 ONTAP 및 StorageGRID 요구 사항</block>
   <block id="116f188b55b3963186369fe6e76fae16" category="doc">Linux 시스템에 Keystone ITOM Collector를 설치하세요</block>
   <block id="d647eab7452f325c298991f79290af31" category="doc">Windows 시스템에 Keystone ITOM Collector를 설치하세요.</block>
@@ -2415,10 +2345,7 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="ed7ea238eb12e525c819f7503ae42929" category="list-text">*Keystone 버전*: 구독에 사용되는 Keystone 서비스의 버전입니다. 성능 서비스 수준에 대한 요금제 규칙은 구독 버전에 따라 다를 수 있습니다. 버전 v1에 대한 자세한 내용은<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>를 참조하십시오. 이 열은 기본적으로 숨겨져 있으며 열 선택기 <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> 아이콘을 사용하여 활성화할 수 있습니다.</block>
   <block id="a317125c258dec2606079ff63caaadb2" category="paragraph">2026-03-30</block>
   <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026년 3월 30일</block>
-  <block id="a98df09202cc6e4ad7e06d5c995a6d93" category="summary">NetApp 지원 사이트를 이용하여 지원 사례를 생성하거나 Keystone 구독 관련 연락처 정보를 찾아보세요.</block>
-  <block id="87c73f5bfb171c5c0b72cd1a7ea79280" category="paragraph">NetApp은 Keystone 고객에게 운영 서비스를 제공합니다. 고객은 전담 Keystone 성공 관리자(KSM), 직접 지원 연락 옵션, ITOM 솔루션을 통한 사전 예방적 모니터링 서비스를 이용할 수 있습니다.</block>
   <block id="585c05c1d0460b954c3964cd9a3ffb3e" category="section-title">NetApp 지원 서비스</block>
-  <block id="d76bb60a63fdb624e2fc6b78e311c3e3" category="paragraph">NetApp은 Keystone 고객에게 원격으로 운영 서비스를 제공합니다. 이러한 서비스는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트 및 사고 관리, 서비스 요청 처리, 보고 등 다양한 스토리지 관리 활동을 포괄합니다.</block>
   <block id="a2900fe72fef1254ae96a9980be42aa2" category="paragraph">담당 KSM(Keystone Service Manager)은 고객과 긴밀히 협력하여 Keystone 서비스를 관리하고 주간 또는 월간 청구 및 운영 보고서를 제공합니다. 구체적인 책임 사항은 NetApp Keystone 계약서에 명시되어 있습니다.</block>
   <block id="ad119d5ea30f6c26b58e0af5bc43c9fe" category="section-title">지원 팀에 문의하십시오</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp 지원 사이트</block>
@@ -2481,7 +2408,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="a4310d73f780750663c3602120bbc3b0" category="paragraph">버스트 용량은 구독 시 약정된 용량을 초과하여 사용할 수 있는 추가 스토리지 용량을 의미합니다. 이는 성능 서비스 수준별로 측정 및 청구됩니다. 기본적으로 버스트 한도는 약정 용량의 20%로 설정되어 있습니다. 하지만 통합 및 블록 최적화 데이터 스토리지 유형에 한해 이 한도를 40% 또는 60%까지 늘릴 수 있습니다.</block>
   <block id="1ed342711f67dbf9a9ec0d44d0a87997" category="inline-link-macro">Keystone의 스토리지 용량 유형</block>
   <block id="de0a1ffd5945a7c03b043b1b02676ff7" category="paragraph">Keystone에서 지원되는 다양한 용량에 대한 자세한 내용은 <block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
-  <block id="724916146bfc3bc66e8deddecfa76c99" category="doc">Keystone의 용량 요구 사항 및 조정</block>
   <block id="e7428377a60709c47544d358e09574fb" category="paragraph">Keystone STaaS 성능 서비스 수준의 최소 용량 요구 사항 및 증분 용량은 스토리지 유형에 따라 다릅니다. 이 페이지에서는 구독 기간 동안 약정 용량을 늘리거나 줄이거나 재할당하는 방법도 설명합니다.</block>
   <block id="8ed91d5e0c37ad81bec715aab6a2e10e" category="paragraph">PSLI당 최소 용량[TiB]</block>
   <block id="93a5d11c035d31b33ba55595f21dc177" category="section-title">AFF 스토리지의 최소 용량 요구 사항</block>
@@ -2545,7 +2471,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="bdcd0790b387669bdb07fee0a1463b92" category="list-text">모든 성능 서비스 수준 인스턴스는 모니터링 도구와 AutoSupport(ASUP)을 완벽하고 지속적으로 활성화해야 합니다.</block>
   <block id="dce1b40515aa817043b0bf0763077312" category="paragraph">다음 예에서는 서비스 크레딧을 계산하는 방법을 보여 줍니다.</block>
   <block id="30ffee792d3072c7be1c949f62571d1a" category="paragraph">계산 결과 서비스 크레딧은 $12입니다.</block>
-  <block id="f098ec66e0f26f5df7a5592bdb141c0a" category="summary">Keystone의 지속 가능성 SLO가 STaaS 구축에 대한 전력 소비 목표를 정의하는 방법과 해당 목표가 충족되지 않을 경우 서비스 크레딧을 청구하는 방법을 알아보십시오.</block>
   <block id="8d35a7b89502c52082173da04de457f8" category="paragraph">지속가능성 서비스 수준 목표(SLO)는 통합 스토리지(_Value_ 성능 서비스 수준 제외) 및 블록 최적화 스토리지에 대한 성능 서비스 수준 인스턴스(PSLI)를 제공하기 위해 배포된 STaaS 제품 또는 AFX 클러스터당 전력 소비량을 최대 정격 와트까지 목표로 합니다. Keystone의 지속가능성 목표가 STaaS 설정에 미치는 영향과 제한을 충족하지 못할 경우 서비스 크레딧을 획득하는 방법을 알아보세요.</block>
   <block id="e5e09031843479ef9ef8cbbd4c2f404c" category="inline-link-macro">NetApp Hardware Universe</block>
   <block id="0957c568dff0d0f914638526e7f1a262" category="list-text">*와트*: 스토리지 어레이 또는 AFX 클러스터에서 소비되는 전력으로, 모니터링 도구에서 보고되는 값입니다. 참조 최대 전력 소비 제한은 <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>에 제공됩니다.</block>
@@ -2613,9 +2538,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026년 4월 27일</block>
   <block id="8ebbc3a6a44524610a169b7e4db2ddbc" category="inline-link-macro">Keystone 청구 방식에 대해 알아보세요.</block>
   <block id="d56b56ae0720370eaf400254df6aa080" category="paragraph">버스트 용량 요금 청구 방식에 대한 자세한 내용은 <block ref="eebbce9749818e6938a56810fdeb360e" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
-  <block id="5291334872bb2b7e5cf95536dd3a906c" category="summary">Keystone 요금 청구 규칙은 특정 볼륨 구성에 따라 다릅니다. 이 페이지에서는 복제된 볼륨, SnapMirror 대상, LUN, 임시 볼륨 및 시스템 볼륨에 대한 요금 청구 방식을 설명합니다.</block>
-  <block id="6c46cb6cf0652f0fe88be3a6955c9f48" category="doc">특정 볼륨 유형에 대한 Keystone 청구</block>
-  <block id="43fffe4235f6524fab1b0a5220a42095" category="paragraph">Keystone 요금 청구 규칙은 특정 볼륨 구성에 따라 다릅니다. 이러한 예외 사항을 알아두면 복제 볼륨, SnapMirror 대상, LUN 또는 임시 스토리지를 사용할 때 예상치 못한 요금이 발생하는 것을 방지할 수 있습니다.</block>
   <block id="b590799a8ecda393e0cc7a8bf3cb312f" category="paragraph">다음 표는 각 볼륨 유형에 대한 청구 규칙을 요약한 것입니다.</block>
   <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="cell">볼륨 유형</block>
   <block id="d5465dc71da8ae6290b478e8a9b6efbd" category="cell">청구 규칙</block>
@@ -2629,7 +2551,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="781546ea6acbfdd0e276e47d654c9fe5" category="cell">포함하는 볼륨의 성능 서비스 수준에 따라 요금이 청구됩니다.</block>
   <block id="74657ec129dc15f7fdb526f3f32caf32" category="cell">모니터링되지만 청구되지 않음</block>
   <block id="841167ec264a9aa4b443a52ea8c623d4" category="paragraph">복제된 볼륨은 복제된 원본 볼륨과 동일한 성능 서비스 수준으로 표준 볼륨으로 청구됩니다. 모든 복제된 볼륨은 크기나 용도에 관계없이 측정되고 청구됩니다.</block>
-  <block id="1019a6badef4a8bfc164197c487e8b15" category="summary">NetApp Keystone STaaS를 사용하면 약정한 용량만큼만 지불하고, 초과 사용량에 대해서만 추가 비용을 지불합니다. 이 페이지에서는 스토리지 약정 가격 책정 방식부터 용량 측정 및 청구 방식, 청구서 발행 시점까지, 사용량에 따라 지불하는 방식의 작동 방식을 설명합니다.</block>
   <block id="218297c180a0d90e1e1e369654e41b5e" category="paragraph">NetApp Keystone STaaS를 사용하면 약정한 용량만큼만 지불하고, 초과 사용량에 대해서만 추가 비용을 지불합니다. 이 페이지에서는 스토리지 약정 가격 책정 방식, 용량 측정 및 청구 방식, 청구서 발행 시점 등 사용량 기반 요금 모델의 작동 방식을 설명합니다.</block>
   <block id="d49c791831a337b675eb6b844e7d0282" category="section-title">Keystone 가격 모델</block>
   <block id="f413046b2aeb1ac90c58e030bc21f7e0" category="paragraph">Keystone 구독을 통해 예측 가능한 비용과 워크로드 증가에 따른 유연한 확장성을 누릴 수 있습니다. Keystone 요금은 선택하신 성능 서비스 수준과 약정 용량에 따라 결정됩니다.</block>
@@ -2668,7 +2589,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="3679634ac4d56686ec17bf3b53f67247" category="sidebar">확정 용량이란 무엇인가요?</block>
   <block id="e6ff8f3b83ecc7de79998d1038e44b10" category="sidebar">커밋된 용량을 초과하면 어떻게 되나요?</block>
   <block id="8c4d76fa92f09a8376865002414752f9" category="sidebar">송장은 언제 생성되나요?</block>
-  <block id="58738d2f8ee7ea1370382ef241eb44f2" category="sidebar">Keystone 청구 방식을 이해하세요</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">구독 타임라인에서 같은 날짜에 여러 업데이트가 있을 때 표시 방식이 개선되었습니다.</block>
   <block id="0e3e57bffd0893b655bd0cbbfa13b3f1" category="paragraph"><block ref="0e3e57bffd0893b655bd0cbbfa13b3f1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb648f8805fc9b54e9ef8edf7809ab97" category="paragraph">구독 타임라인은 기본적으로 선 그래프로 표시되며, 중요한 이벤트는 아이콘으로 표시됩니다. 같은 날에 여러 유형의 구독 업데이트가 발생하는 경우, 차트에는 개별 아이콘 대신 숫자가 표시됩니다. 숫자 위에 마우스를 올리면 해당 날짜에 발생한 모든 업데이트 유형을 볼 수 있으며, 이벤트 아이콘 위에 마우스를 올리면 날짜 및 확정 용량 변경과 같은 세부 정보를 확인할 수 있습니다. 이러한 이벤트를 표 형식으로 보려면 *View as* 드롭다운 메뉴에서 *Table* 옵션을 선택하세요. 다른 구독 타임라인을 보려면 *Tracking ID* 드롭다운 메뉴에서 선택하거나 검색하세요.</block>
@@ -2730,8 +2650,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="68590e28745629d3e9c45d233ec874f4" category="paragraph">Digital Advisor의 *소비 추세* 탭에서 소비 추세 차트는 당일의 소비 데이터를 표시하지 않고 전날까지의 데이터만 표시합니다.</block>
   <block id="c11ff4c4af6e617e0c27f005526215c1" category="paragraph">2026-08-10</block>
   <block id="92f0ca3d130ab33a16d28b57af2ef1fa" category="doc">Keystone 인프라에 대해 알아보기</block>
-  <block id="efc51c397e61250c642c86d68b092174" category="doc">Keystone를 위한 NRNVC 및 SnapLock 규정 준수 애드온 서비스</block>
-  <block id="7e09a61a4369064a74afa38f6e7a8c9a" category="paragraph">배포에 대한 자세한 내용은 <block ref="d03ef5b6e8b6191ac72b7ae5462d2546" category="inline-link-macro-rx"></block> 및 <block ref="79f76dbd81e71f36d15d1dac3766b8c8" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="d03ef5b6e8b6191ac72b7ae5462d2546" category="list-text"><block ref="d03ef5b6e8b6191ac72b7ae5462d2546" category="inline-link-macro-rx"></block></block>
   <block id="b3e473fe04a8ccacad32fa6cbce9ed33" category="inline-link-macro">Keystone 지원 서비스</block>
   <block id="2ae9de9c5ee3388c99fec10e172f6fc8" category="list-text">서비스 크레딧은 향후 청구서에 적용될 수 있습니다. 서비스 크레딧은 만료된 Keystone 구독에는 적용되지 않습니다. NetApp 지원팀에 문의하여 서비스 크레딧 요청에 필요한 지원 사례를 개설하려면 <block ref="1ed065cbb5ab0431ea9f338f6c76a9cb" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
@@ -2761,7 +2679,6 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="2166e76dc88d642260416a536b06a412" category="cell">내구성</block>
   <block id="7207796055990c2fdf24c8139ff9cd48" category="cell">내구성은 고객에 의한 삭제 또는 손상을 제외하고, 데이터의 정확성 손실 없이 접근할 수 있는 데이터의 비율을 나타냅니다.</block>
   <block id="67636cabf90c8bc5f88a58c653bd06ef" category="cell">지연 시간은 클라이언트로부터 수신한 I/O 요청을 처리하는 데 걸리는 시간으로, 서비스 경계 지점(스토리지 컨트롤러 I/O 포트)에서 측정됩니다.</block>
-  <block id="9e1f1d9a0941c4381482b8b0522725a2" category="list-text"><block ref="9e1f1d9a0941c4381482b8b0522725a2" category="inline-link-macro-rx"></block></block>
   <block id="9af3a80255b1f2badb4f52464dc42a1a" category="paragraph">Digital Advisor의 *Consumption Trend* 탭에서 청구된 누적 버스트 차트는 선택한 날짜 범위에 따라 동일한 청구 기간에 대해 다른 값을 표시합니다.</block>
   <block id="46c131fa48958e881a135770d82d1ed2" category="paragraph">2026-08-31</block>
   <block id="ad931b1068f269c0ef3c383147ccdc53" category="admonition">Keystone 구독의 용량 사용량은 대시보드와 보고서에서 TiBs 단위로 표시되며 소수점 둘째 자리까지 반올림됩니다. 사용량이 0.01 TiB 미만인 경우 값은 0 또는 사용량 없음으로 표시됩니다. 이러한 화면의 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리할 날짜를 입력하면 자동으로 UTC 시간으로 간주됩니다. 사용량 측정항목에 대한 자세한 내용은 <block ref="9b55f40c1987bcafac5b8c4a6068e0eb" category="inline-link-macro-rx"></block>을 참조하십시오. Keystone에서 사용되는 다양한 용량에 대한 자세한 내용은 <block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
@@ -2839,4 +2756,104 @@ JSON 본체는 에 대한 전반적인 상태를 제공합니다<block ref="39c3
   <block id="d2fc234fa58b5424fb66e69d6f37ea37" category="paragraph">NetApp Console을 사용하여 하나 이상의 구독에 대한 상태 보고서를 생성하거나 예약할 수 있습니다. 이러한 PowerPoint 보고서는 구독 사용량, 운영 상태, 위험 및 취약점을 통합적으로 보여줍니다. Digital Advisor는 상태 평가 보고서 생성 또는 예약을 지원하지 않습니다.</block>
   <block id="0557e64d44b59ed5a4145771c544da91" category="paragraph">자세한 내용은 <block ref="1f95c525270767ec0581ce04383996f5" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026년 10월 12일</block>
+  <block id="e4a689245c04941e542e87f87c71830f" category="doc">Keystone STaaS용 고급 데이터 보호 추가 기능</block>
+  <block id="b1e554c11cc09abee3d0d645ec38628c" category="doc">Keystone STaaS 구독용 버스트 용량 추가 기능</block>
+  <block id="c1bec1b4a3f0a5d826cc94b870131b21" category="doc">Keystone STaaS의 용량 요구 사항 및 조정 사항</block>
+  <block id="fb7e3602321c198f1b68df6f2bddaf51" category="doc">Keystone STaaS 서비스에 필요한 구성 요소</block>
+  <block id="3982aa9c00ca1105982d7b420aa229d1" category="doc">Keystone STaaS용 Data Infrastructure Insights 추가 기능</block>
+  <block id="a62b271fa3f5a9f9fbb89e9400bebdd0" category="paragraph">NetApp Data Infrastructure Insights(DII, 이전 명칭: Cloud Insights)는 Keystone STaaS용 추가 서비스입니다. 이 서비스를 Keystone STaaS와 통합하면 퍼블릭 클라우드 및 프라이빗 데이터 센터 전반에 걸쳐 Keystone에서 제공하는 스토리지 리소스에 대한 모니터링, 문제 해결 및 최적화 기능을 향상시킬 수 있습니다.</block>
+  <block id="64fa90c4f22186e52644e58da8e73710" category="doc">Keystone STaaS용 데이터 계층화 추가 서비스</block>
+  <block id="9b7f299ef284f363333bfeb461335dd0" category="summary">Keystone STaaS 인프라, 설계, 기술 선택 및 구성 요소 제품은 전적으로 NetApp에 속합니다.</block>
+  <block id="88b9a02d2802c69bfdfff8cc758fc128" category="doc">Keystone STaaS 인프라에 대해 알아보십시오.</block>
+  <block id="813fac179986d80a080c66a7a7b15442" category="paragraph">NetApp은 Keystone STaaS의 인프라, 설계, 기술 선택 및 구성 요소에 대해 전적으로 책임을 지며, 이는 NetApp 및 고객 운영 환경 모두에 적용됩니다.</block>
+  <block id="6f285b6c1a2d390cb50ce12d04f5ee5b" category="summary">Keystone STaaS 요금 청구 규칙은 특정 볼륨 구성에 따라 다릅니다. 이 페이지에서는 복제된 볼륨, SnapMirror 대상, LUN, 임시 볼륨 및 시스템 볼륨에 대한 요금 청구 방식을 설명합니다.</block>
+  <block id="829210c07994a3174c03425581a0b91e" category="doc">Keystone STaaS의 특정 볼륨 유형별 청구</block>
+  <block id="d383107dbc2fbb5b836a6c3f1f66251c" category="paragraph">Keystone STaaS 요금 청구 규칙은 특정 볼륨 구성에 따라 다릅니다. 이러한 예외 사항을 알아두면 복제 볼륨, SnapMirror 대상, LUN 또는 임시 스토리지를 사용할 때 예상치 못한 요금이 발생하는 것을 방지할 수 있습니다.</block>
+  <block id="5523984d83e6484992e74f6bf0473696" category="summary">Keystone STaaS 구독의 일부로 NetApp은 파일, 블록 및 오브젝트 서비스에 대한 NRNVC 추가 서비스를 제공합니다.</block>
+  <block id="7ab2ac1fbc10a6ee11d8a2934cc7401f" category="doc">Keystone STaaS용 NRNVC 및 SnapLock 규정 준수 추가 기능 서비스</block>
+  <block id="de9d26eaa9f4a5b3bfe4f73a6df3458d" category="paragraph">Keystone STaaS 구독의 일부로 NetApp은 파일, 블록 및 오브젝트 서비스에 대한 반환 불가능한 비휘발성 구성 요소(NRNVC) 추가 서비스를 제공합니다.</block>
+  <block id="1eb1bf476d163a8d68b96ccdb527663e" category="summary">파트너 운영 방식과 고객 운영 방식의 Keystone STaaS 모델 간 운영 책임의 차이점과 Keystone XaaS 고객이 지원을 받을 수 있는 곳을 알아보세요.</block>
+  <block id="84927023d57ff7105e2d1513a930ba4b" category="doc">Keystone 운영 모델</block>
+  <block id="8f85ca2a6f749b6e5996d5cf9c77d8d0" category="paragraph">NetApp Keystone은 Keystone Storage-as-a-Service(STaaS) 및 Keystone XaaS 구독 상품을 통해 이용할 수 있습니다. Keystone STaaS는 파트너 운영 및 고객 운영 모델을 지원하며, Keystone XaaS는 NetApp 파트너를 통해서만 제공됩니다. 스토리지 환경을 관리하고, 일상적인 운영을 처리하며, 지원을 제공하는 주체는 귀하의 오퍼링 및 운영 모델에 따라 결정됩니다.</block>
+  <block id="ec8aea78d93b7a391484480ec257b19c" category="section-title">Keystone STaaS 운영 모델</block>
+  <block id="5f4a423b6db8c24ff99e0b3fd91875ee" category="paragraph">Keystone STaaS 운영 모델은 서비스 수명 주기 전반에 걸쳐 NetApp, 파트너 및 고객의 책임을 정의합니다. 다음 섹션에서는 파트너 운영 모델과 고객 운영 모델에 대해 설명합니다.</block>
+  <block id="f3cb6d41bba80312235e23ec8b86dd9c" category="section-title">파트너 운영 모델</block>
+  <block id="6893c5c77b841676a3202adf82f522ad" category="paragraph">파트너는 서비스 제공업체 또는 리셀러로서 Keystone STaaS를 제공할 수 있습니다. 책임은 파트너와의 계약에 따라 달라집니다. 어떤 작업을 대신 처리해 주는지 알아보려면 서비스 제공업체 또는 파트너에게 문의하십시오.</block>
+  <block id="a5c530aebe9501248c4ab02a82823ec5" category="paragraph">*서비스 제공업체*: 서비스 제공업체는 최종 고객을 위해 서비스를 운영합니다. NetApp과 계약을 맺은 당사자로서 서비스 제공업체는 멀티 테넌트(multi-tenant) 환경을 관리합니다. 각 테넌트는 서비스 제공업체의 고객이며, 서비스 제공업체가 직접 청구하는 별도의 구독을 보유합니다. 서비스 제공업체 관리자는 테넌트를 위한 모든 관리 작업을 수행할 책임이 있습니다. *리셀러*: 리셀러로서 파트너는 NetApp과 고객 간의 가교 역할을 합니다. 파트너는 최종 고객에게 Keystone 서비스를 판매하고 청구를 관리합니다. 파트너가 청구를 담당하는 동안 NetApp은 고객에게 직접적인 지원을 제공합니다. Keystone 지원팀은 고객과 소통하며 테넌트를 위한 모든 관리 작업을 처리합니다.</block>
+  <block id="d3b0fab21e3be9cba3f2f45f27029849" category="section-title">고객 운영 모델</block>
+  <block id="a389b6ccd467f426c8951a6b7030e884" category="paragraph">고객 운영 모델에서는 스토리지 요구 사항과 선택한 성능 서비스 수준에 따라 Keystone STaaS를 구독합니다. NetApp은 아키텍처와 제품을 정의하고 고객 시설에 스토리지를 배포합니다.</block>
+  <block id="3d1646f86c028711718c84767624ef9a" category="paragraph">귀사의 스토리지 및 IT 팀에서 인프라를 관리합니다. 귀사 소속 관리자가 환경 내 사용자를 위한 관리 작업을 수행합니다. 계약 조건에 따라 NetApp 또는 서비스 제공업체에 서비스 요청을 제출할 수 있습니다.</block>
+  <block id="559c91aead2d4c8d8a888dcfc781ebfd" category="paragraph">다음 표는 고객이 운영하는 Keystone STaaS 환경에서 NetApp과 고객의 책임 사항을 요약한 것입니다.</block>
+  <block id="b0da4a424e4ac203b0070238f4756d46" category="section-title">Keystone XaaS 파트너 제공 및 지원</block>
+  <block id="a0a49c1cd12aae07c0e0cd0ae609080c" category="paragraph">Keystone XaaS는 NetApp Keystone에 속한 별도의 구독 오퍼링으로, 오직 NetApp 파트너를 통해서만 제공됩니다. 파트너사는 최종 고객에게 서비스를 제공하고 지원 및 일상적인 운영을 관리합니다.</block>
+  <block id="6a0c9de0f54e1bb01b0de08ad1bd0376" category="paragraph">Keystone XaaS를 사용하시는 경우 서비스 및 지원 관련 문의는 담당 파트너에게 연락하십시오. 위에 제시된 Keystone STaaS 운영 모델 및 고객 책임 분담표는 Keystone XaaS의 책임 사항을 설명하지 않습니다.</block>
+  <block id="fd0a6672dd43784ae9da165b72211dde" category="list-text"><block ref="fd0a6672dd43784ae9da165b72211dde" category="inline-link-macro-rx"></block></block>
+  <block id="dc991dde3226679c296b3a015f8c6004" category="list-text"><block ref="dc991dde3226679c296b3a015f8c6004" category="inline-link-macro-rx"></block></block>
+  <block id="9c6d4d86654b407a13c4377f57433185" category="summary">NetApp Keystone은 NetApp의 서비스형 스토리지 플랫폼이자 브랜드입니다. Keystone STaaS는 파일, 블록 및 오브젝트 스토리지 서비스를 위한 주요 구독형 상품입니다.</block>
+  <block id="ade44830b69d05e1478ac622dc80a132" category="paragraph">NetApp Keystone은 초기 자본 지출이나 리스보다 운영 비용 소비를 선호하는 기업을 위한 종량제 구독 서비스인 Keystone Storage-as-a-Service(STaaS)를 제공하는 플랫폼입니다.</block>
+  <block id="ab39311f1bc80acdd6e070ce577c0769" category="section-title">Keystone STaaS 오퍼링 및 서비스</block>
+  <block id="f46441640db1db4fabeccd81a7923b2b" category="paragraph">Keystone STaaS는 스토리지 인프라를 조달, 구축 및 관리하기 위한 퍼블릭 클라우드와 유사한 모델을 제공합니다. Keystone STaaS를 구독하면 요구 사항에 맞는 데이터 스토리지 유형과 성능 서비스 수준을 선택할 수 있습니다.</block>
+  <block id="ef365496afdec899c0755c18ef9c7cc7" category="paragraph">Keystone STaaS는 스토리지 기능의 제공 및 사용 방식을 정의하는 제품입니다. 서비스는 해당 제품에서 사용할 수 있는 기능을 의미하며, 표준 서비스는 기본 구독에 포함되어 있고, 추가 기능이 필요할 경우 애드온 서비스를 구매할 수 있습니다. 예를 들어, 고급 데이터 보호(ADP)는 지원되는 구성에 대해 동기식 사이트 간 미러링을 제공하는 애드온 서비스입니다.</block>
+  <block id="758647d81ff350c6880c630570b44a0f" category="paragraph">이러한 구분은 구독에 포함된 기능과 추가 구매가 필요한 기능을 이해하는 데 도움이 됩니다. 표준 서비스 및 추가 서비스에 대한 자세한 내용은 <block ref="32999c765ee523f7718a7908120f4502" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="ab1dfb7377b06b4577e13687b7089dd6" category="section-title">스토리지 유연성 및 운영 모델</block>
+  <block id="5d5cee9b9ecdd7a2357bbf3567479a88" category="paragraph">Keystone STaaS는 다양한 데이터 스토리지 유형과 성능 서비스 수준을 지원합니다. 온프레미스 스토리지로 시작하여 요구 사항이 변경됨에 따라 클라우드 서비스를 추가할 수 있습니다. 용량 조정 및 클라우드 재할당은 구독 약관에 따릅니다.</block>
+  <block id="850ca4ac8d4367a08746a9965b376b4d" category="paragraph">Keystone STaaS는 파트너 운영 모델 또는 고객 운영 모델로 운영할 수 있습니다. 자세한 내용은 <block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block>을(를) 참조하십시오.</block>
+  <block id="932c94fd3f6f5ed5cceccfacda6b64a1" category="section-title">Keystone STaaS의 주요 이점</block>
+  <block id="16970e9e21f42da13f7973e2bc152e5a" category="list-text">*비용 효율성*: 약정 용량에 대해서는 예측 가능한 비용을 제공하고, 약정 용량 초과 사용량에 대해서는 사용량 기반 요금을 적용합니다.</block>
+  <block id="90afbe0dfb88863b07a75ada0118737e" category="list-text">*자본 효율성*: 대규모 초기 투자 없이 엔터프라이즈급 스토리지에 액세스할 수 있습니다.</block>
+  <block id="17a1f31c882f22dd3cda7c251eba6496" category="list-text">*확장성*: 비즈니스 규모가 커짐에 따라 스토리지 용량을 늘릴 수 있습니다.</block>
+  <block id="163cdeffc182ad9d3b71b8f39e0f445d" category="list-text">*유연성*: 스토리지 플랜을 조정하고 필요에 따라 워크로드를 클라우드로 이전하세요.</block>
+  <block id="43314ea9f4dd88c136c5daf801c99518" category="list-text">*클라우드 통합*: 단일 구독으로 온프레미스 및 클라우드 서비스를 사용하십시오.</block>
+  <block id="d01680bd9e5edb3376e627cd6f72a7c4" category="list-text">*Security*: 고급 보안 조치와 복구 기능을 통해 데이터를 보호하십시오.</block>
+  <block id="04b52c545ff55f9ed2d541fec1b2b5d2" category="inline-link-macro">Keystone STaaS 청구</block>
+  <block id="55494aae2e75daf13526bf526456cf99" category="list-text"><block ref="55494aae2e75daf13526bf526456cf99" category="inline-link-macro-rx"></block></block>
+  <block id="b0e4b48b1b20c14e687b39b510f4f574" category="inline-link-macro">고급 데이터 보호 추가 서비스</block>
+  <block id="8b329d90071eeb9833e6bf7e38d6751d" category="list-text"><block ref="8b329d90071eeb9833e6bf7e38d6751d" category="inline-link-macro-rx"></block></block>
+  <block id="32999c765ee523f7718a7908120f4502" category="list-text"><block ref="32999c765ee523f7718a7908120f4502" category="inline-link-macro-rx"></block></block>
+  <block id="97aa8c41b45bb85c7d02d2ba4207fe77" category="inline-link-macro">Keystone STaaS의 성능 서비스 수준</block>
+  <block id="5afba0544f1ccb40bf471ad13881c152" category="list-text"><block ref="5afba0544f1ccb40bf471ad13881c152" category="inline-link-macro-rx"></block></block>
+  <block id="d81446da754fd372d574ffb0de4f0885" category="list-text"><block ref="d81446da754fd372d574ffb0de4f0885" category="inline-link-macro-rx"></block></block>
+  <block id="cb2c00e885d9f9df1add423a84ab143d" category="summary">NetApp Keystone STaaS를 사용하면 약정한 용량만큼만 지불하고, 초과 사용량에 대해서만 추가 비용을 지불합니다. 이 페이지에서는 스토리지 약정 가격 책정 방식부터 용량 측정 및 청구 방식, 청구서 발행 시점까지, 사용량 기반 요금 모델의 작동 방식을 설명합니다.</block>
+  <block id="a9a9bf6b6c0cb590666e48740616bb84" category="doc">Keystone STaaS 청구 방식에 대해 알아보십시오.</block>
+  <block id="60aec626991dc0ffcdec7dd5f8a3c4fc" category="summary">버전 3용 Keystone STaaS는 사전 정의된 서비스 수준으로 스토리지 용량을 제공합니다. Keystone STaaS에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다.</block>
+  <block id="c58bcd6909c6274a2cd1cdabea7b9310" category="doc">Keystone STaaS의 가용성 SLO</block>
+  <block id="ae329aa1322861385426793daef84b59" category="summary">Keystone STaaS는 Keystone 주문서에 명시된 대로 버스트 제한까지 사용된 용량에 대해 성능 서비스 수준별로 지연 시간 기반 SLO를 제공합니다.</block>
+  <block id="6e81588c686416479139c45583fe8153" category="doc">Keystone STaaS의 성능 SLO</block>
+  <block id="eb39f4d278c726b88763c2231c0eec38" category="summary">Keystone STaaS 구독의 경우, NetApp은 랜섬웨어 복구 보증 프로그램을 통해 랜섬웨어 공격 발생 시 SnapLock Compliance 볼륨에서 스냅샷 데이터 복구를 보장합니다.</block>
+  <block id="b7c207a4f359ff5de1a204f31b383c9b" category="doc">Keystone STaaS 랜섬웨어 복구 보장</block>
+  <block id="af3e5868c67db6ef71bbef290ba461e4" category="summary">Keystone STaaS의 지속가능성 SLO가 구축 환경에 대한 전력 소비 목표를 어떻게 정의하는지, 그리고 목표가 달성되지 않을 경우 서비스 크레딧을 어떻게 청구할 수 있는지 알아보세요.</block>
+  <block id="5bfb94695f5c10a684a50cca0d10e48c" category="doc">Keystone STaaS의 지속가능성 SLO</block>
+  <block id="f2db38fdad38511d80c2353842fd12b0" category="summary">NetApp 지원 사이트를 사용하여 지원 케이스를 생성하거나 Keystone STaaS 구독에 대한 연락처 정보를 찾으십시오.</block>
+  <block id="04caaedeaecbb1c1a9884b171745eade" category="doc">Keystone STaaS 지원 서비스</block>
+  <block id="4db08f31801a5ab611d53b62185c9334" category="paragraph">NetApp은 Keystone STaaS 고객에게 운영 서비스를 제공합니다. 고객은 전담 Keystone Success Manager(KSM), 직접 지원 연락 옵션, ITOM 솔루션을 통한 사전 예방적 모니터링을 제공받습니다.</block>
+  <block id="c6ec8c918eb2766c554098b0dc610a08" category="paragraph">NetApp은 Keystone STaaS 고객에게 원격으로 운영 서비스를 제공합니다. 이러한 서비스는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트 및 사고 관리, 서비스 요청 처리, 보고 등 다양한 스토리지 관리 활동을 포괄합니다.</block>
+  <block id="e8e3442d8a4e29f5e0801cb4b8111ca6" category="doc">Keystone STaaS용 스토리지 용량 유형</block>
+  <block id="064c213e881f5f4f3d5396ec658179d9" category="doc">Keystone STaaS에서 지원하는</block>
+  <block id="b977abc2798f221d949e00cb5b93f3f7" category="summary">United States Protected Support는 미국 영토 내에서 미국 시민이 지속적인 Keystone 서비스의 제공 및 지원을 담당하는 NetApp Keystone STaaS 구독을 위한 추가 서비스입니다.</block>
+  <block id="3cfe0a2552b9528612502f2978e9e0dc" category="doc">Keystone STaaS용 미국 보호 지원 추가 기능</block>
+  <block id="f8bd4e9c5347b2f14cfb7befdb857aba" category="paragraph">미국 보호 지원(USPS)은 NetApp Keystone STaaS 구독을 위한 추가 서비스입니다. 이 서비스를 통해 미국 영토 내에서 미국 시민권자로부터 지속적인 Keystone 서비스의 제공 및 지원을 받을 수 있습니다.</block>
+  <block id="e4a83797ae987c5417978ed86f322c8a" category="summary">인터넷 접속이 없는 _다크 사이트_ 환경에서 프라이빗 모드로 사용량 데이터를 수집하도록 Keystone Collector를 구성하십시오.</block>
+  <block id="313c970e13f71f61db473edeebd291ce" category="paragraph">Keystone Collector를 인터넷 접속이 없는 _다크 사이트_ 환경에서 비공개 모드로 사용량 데이터를 수집하도록 구성하십시오. 이 일회성 설정은 필요한 구성 요소를 활성화하고 스토리지 환경과 연결합니다. 구성이 완료되면 Keystone Collector는 Active IQ Unified Manager에서 관리하는 모든 ONTAP 클러스터를 모니터링합니다.</block>
+  <block id="fc54b8700160e588a86ad81f8fe4a4ec" category="summary">Keystone Collector는 Keystone STaaS 구독과 연결된 ONTAP 및 StorageGRID 시스템에서 구성, 상태 및 사용량 데이터를 수집합니다. 또한 Keystone Collector를 호스팅하는 VM에서 원격 측정 데이터를 수집하며, 선택적으로 ONTAP 성능 데이터도 수집할 수 있습니다.</block>
+  <block id="87c52dfb4bdf6fa05a865ff443ffd4ab" category="doc">Keystone Collector에서 수집한 데이터</block>
+  <block id="b5f7c87a270181a33a3db1fb108b451a" category="paragraph">Keystone Collector는 Keystone STaaS 구독과 연결된 ONTAP 및 StorageGRID 시스템의 구성, 상태 및 사용량 데이터와 Keystone Collector를 호스팅하는 가상 머신(VM)의 원격 측정 데이터를 수집합니다. 선택적으로, 이 기능을 활성화하면 Keystone Collector는 ONTAP 성능 데이터를 수집할 수 있습니다.</block>
+  <block id="5495cc8f648825d7b80220c80f654660" category="paragraph">Keystone STaaS 환경 모니터링을 위한 인프라 메트릭을 수집하려면 Linux 시스템에 ITOM Collector를 설치하십시오.</block>
+  <block id="26375d95670c04ad36b5c730599965db" category="summary">NetApp Keystone STaaS 구독자는 NetApp Console 또는 Digital Advisor를 통해 Keystone 대시보드에 액세스할 수 있습니다.</block>
+  <block id="88a86d7a0eb477abd41518699763adfa" category="paragraph">NetApp Console 또는 Digital Advisor를 통해 Keystone STaaS 구독을 위한 Keystone 대시보드에 액세스할 수 있습니다.</block>
+  <block id="0bd9b5f0cd69fa03457d5261e27e985e" category="summary">모니터링 탭을 사용하여 Keystone 구독에 대한 알림 모니터를 보고 생성하십시오.</block>
+  <block id="bb0423c913eb15d7c9f73c6f1fb0f03e" category="summary">모니터링 탭을 사용하여 Keystone 구독에 대한 알림을 확인하고 관리할 수 있습니다.</block>
+  <block id="8791357f8b99ca86537057245eed8ddd" category="summary">이 페이지는 Keystone STaaS 및 해당 구성 요소에서 해결된 문제 목록을 제공합니다.</block>
+  <block id="53f6379d281525b874bffcca82338881" category="summary">알려진 제한 사항은 Keystone STaaS 서비스 또는 구성 요소에서 지원되지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 나타냅니다.</block>
+  <block id="f72e3263f44391ec212f134c66adc466" category="summary">기존 Keystone 구독 서비스와 Keystone STaaS의 차이점을 알아보세요</block>
+  <block id="63162f8712c65392ebbb9f00c368c716" category="summary">Keystone STaaS의 최신 기능 및 개선 사항에 대해 알아보세요.</block>
+  <block id="2ab679218907c9a0b4e63d1d59504cf1" category="sidebar">NetApp Keystone은 NetApp의 서비스형 스토리지 플랫폼입니다. Keystone의 구독 오퍼링인 Keystone STaaS(Storage-as-a-Service)는 사용량 기반 요금제 모델을 통해 파일, 블록 및 오브젝트 스토리지 서비스를 제공합니다. Keystone STaaS를 통해 기업은 초기 자본 투자 없이 운영 비용으로 스토리지를 사용할 수 있습니다.</block>
+  <block id="faddb25a2d7ddac0ce3d45a0c83a2b5f" category="sidebar">Keystone STaaS는 NetApp Keystone 플랫폼의 구독형 서비스로, 사용량 기반 요금제를 통해 파일, 블록 및 오브젝트 스토리지 서비스를 제공합니다.</block>
+  <block id="997f1c45a230e3dc1dd544b1cbc5987a" category="sidebar">Keystone STaaS에서 지원되는 서비스</block>
+  <block id="a28313cbc23d61683e0a7011c19f0ee3" category="sidebar">Keystone STaaS 가격 및 청구</block>
+  <block id="48f04a7ecce4b3969cc574012d6d1763" category="sidebar">Keystone STaaS용 추가 서비스</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">추가 자료</block>
+  <block id="4693cd1b6690921f370c1c0ecccf429a" category="sidebar">Keystone STaaS 인프라</block>
+  <block id="4f31540eacf98846f3768b63903865ae" category="sidebar">Keystone STaaS 설정 및 구성</block>
+  <block id="fa1e432a1f554890f9fa99b0d4c0bc99" category="sidebar">Keystone STaaS 추가 서비스</block>
+  <block id="6ef8b6f4a4abf48e514d5a286146651b" category="sidebar">Keystone STaaS 청구 방식 이해</block>
 </blocks>

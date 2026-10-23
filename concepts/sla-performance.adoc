@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/sla-performance.html 
 keywords: sustainability, sla, service level agreement, slo, service level objectives 
-summary: Keystone은 소비 용량에 대한 Keystone 주문에 설명된 대로 버스트 한도까지 성능 서비스 수준별로 지연 기반 SLO를 제공합니다. 
+summary: Keystone STaaS는 Keystone 주문서에 명시된 대로 버스트 제한까지 사용된 용량에 대해 성능 서비스 수준별로 지연 시간 기반 SLO를 제공합니다. 
 ---
-= Keystone 의 성능 SLO
+= Keystone STaaS의 성능 SLO
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

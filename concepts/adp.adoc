@@ -4,7 +4,7 @@ permalink: concepts/adp.html
 keywords: data protection advanced 
 summary: 고급 데이터 보호 추가 서비스를 사용하여 미션 크리티컬 워크로드의 효율적인 데이터 보호를 보장하십시오. 
 ---
-= Keystone용 고급 데이터 보호 추가 기능
+= Keystone STaaS용 고급 데이터 보호 추가 기능
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

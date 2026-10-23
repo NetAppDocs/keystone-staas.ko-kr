@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concepts/operational-models.html 
-keywords: Operational models, partner operations, customer operations, roles and responsibilities, 
-summary: NetApp Keystone STaaS는 서비스를 제공하기 위해 두 가지 운영 모델을 제공합니다. Keystone을 시작하기 전에 이러한 옵션을 이해해야 합니다. 
+keywords: operational models, Keystone STaaS, Keystone XaaS, partner operations, customer operations, roles and responsibilities, partner support 
+summary: 파트너 운영 방식과 고객 운영 방식의 Keystone STaaS 모델 간 운영 책임의 차이점과 Keystone XaaS 고객이 지원을 받을 수 있는 곳을 알아보세요. 
 ---
-= Keystone의 운영 모델
+= Keystone 운영 모델
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,25 +14,34 @@ summary: NetApp Keystone STaaS는 서비스를 제공하기 위해 두 가지 �
 
 
 [role="lead"]
-NetApp Keystone STaaS는 파트너 운영 모델과 고객 운영 모델의 두 가지 운영 모델을 제공합니다. Keystone을 시작하기 전에 이러한 옵션을 이해해야 합니다.
-
-* *파트너 운영 모델*: 이 모델은 두 가지 옵션을 제공합니다.
-+
-** *서비스 제공업체*: 서비스 제공업체는 최종 고객을 위해 서비스를 운영합니다. NetApp과 계약한 당사자로서, 서비스 제공업체는 각 테넌트(서비스 제공업체의 고객)가 자체 구독을 통해 서비스 제공업체로부터 요금을 청구받는 멀티 테넌트 환경을 관리합니다. 서비스 제공업체 관리자는 테넌트의 모든 관리 업무를 담당합니다.
-** *리셀러*: 리셀러로서 파트너는 NetApp과 고객 사이의 가교 역할을 합니다. 파트너는 최종 고객에게 Keystone 서비스를 판매하고 청구를 관리합니다. 파트너가 청구를 처리하는 동안 NetApp은 고객에게 직접 지원을 제공합니다. Keystone 지원팀은 고객과 소통하고 테넌트의 모든 관리 업무를 처리합니다.
-
-
-* *고객 운영 모델*: 고객은 선택한 성능 서비스 수준 및 스토리지에 따라 Keystone 서비스를 구독할 수 있습니다. NetApp은 아키텍처 및 제품을 정의하고 Keystone을 사내에 구축합니다. 스토리지 및 IT 리소스를 통해 인프라를 관리해야 합니다. 계약에 따라 NetApp 또는 서비스 공급자가 해결해야 할 서비스 요청을 제출할 수 있습니다. 조직의 관리자가 사이트(환경)에서 관리 작업을 수행할 수 있습니다. 이러한 작업은 환경 내 사용자와 연결됩니다.
+NetApp Keystone은 Keystone Storage-as-a-Service(STaaS) 및 Keystone XaaS 구독 상품을 통해 이용할 수 있습니다. Keystone STaaS는 파트너 운영 및 고객 운영 모델을 지원하며, Keystone XaaS는 NetApp 파트너를 통해서만 제공됩니다. 스토리지 환경을 관리하고, 일상적인 운영을 처리하며, 지원을 제공하는 주체는 귀하의 오퍼링 및 운영 모델에 따라 결정됩니다.
 
 
 
+[[keystone-staas-operational-models]]
+== Keystone STaaS 운영 모델
 
-[[roles-and-responsibilities-across-the-service-lifecycle]]
-== 서비스 라이프사이클 전반에서 역할 및 책임
+Keystone STaaS 운영 모델은 서비스 수명 주기 전반에 걸쳐 NetApp, 파트너 및 고객의 책임을 정의합니다. 다음 섹션에서는 파트너 운영 모델과 고객 운영 모델에 대해 설명합니다.
 
-* *파트너 운영 모델*: 역할과 책임의 공유는 귀하와 서비스 제공자 또는 파트너 간의 계약에 따라 달라집니다. 자세한 내용은 서비스 공급업체에 문의하십시오.
-* * 고객 운영 모델 *: 다음 표에는 전반적인 서비스 수명 주기 모델과 고객 운영 환경에서 이와 관련된 역할 및 책임이 요약되어 있습니다.
 
+
+[[partner-operated-model]]
+=== 파트너 운영 모델
+
+파트너는 서비스 제공업체 또는 리셀러로서 Keystone STaaS를 제공할 수 있습니다. 책임은 파트너와의 계약에 따라 달라집니다. 어떤 작업을 대신 처리해 주는지 알아보려면 서비스 제공업체 또는 파트너에게 문의하십시오.
+
+*서비스 제공업체*: 서비스 제공업체는 최종 고객을 위해 서비스를 운영합니다. NetApp과 계약을 맺은 당사자로서 서비스 제공업체는 멀티 테넌트(multi-tenant) 환경을 관리합니다. 각 테넌트는 서비스 제공업체의 고객이며, 서비스 제공업체가 직접 청구하는 별도의 구독을 보유합니다. 서비스 제공업체 관리자는 테넌트를 위한 모든 관리 작업을 수행할 책임이 있습니다. *리셀러*: 리셀러로서 파트너는 NetApp과 고객 간의 가교 역할을 합니다. 파트너는 최종 고객에게 Keystone 서비스를 판매하고 청구를 관리합니다. 파트너가 청구를 담당하는 동안 NetApp은 고객에게 직접적인 지원을 제공합니다. Keystone 지원팀은 고객과 소통하며 테넌트를 위한 모든 관리 작업을 처리합니다.
+
+
+
+[[customer-operated-model]]
+=== 고객 운영 모델
+
+고객 운영 모델에서는 스토리지 요구 사항과 선택한 성능 서비스 수준에 따라 Keystone STaaS를 구독합니다. NetApp은 아키텍처와 제품을 정의하고 고객 시설에 스토리지를 배포합니다.
+
+귀사의 스토리지 및 IT 팀에서 인프라를 관리합니다. 귀사 소속 관리자가 환경 내 사용자를 위한 관리 작업을 수행합니다. 계약 조건에 따라 NetApp 또는 서비스 제공업체에 서비스 요청을 제출할 수 있습니다.
+
+다음 표는 고객이 운영하는 Keystone STaaS 환경에서 NetApp과 고객의 책임 사항을 요약한 것입니다.
 
 |===
 | 작업 | 넷엡 | 고객 
@@ -80,4 +89,21 @@ NetApp Keystone STaaS는 파트너 운영 모델과 고객 운영 모델의 두 
 
 | image:check.png["체크 표시"] | 없음 
 |===
-배포에 대한 자세한 내용은 link:../concepts/infra.html["Keystone 인프라에 대해 알아보기"] 및 link:..//concepts/components.html["Keystone 서비스에 필요한 구성 요소"]을 참조하십시오.
+
+
+[[keystone-xaas-partner-delivery-and-support]]
+== Keystone XaaS 파트너 제공 및 지원
+
+Keystone XaaS는 NetApp Keystone에 속한 별도의 구독 오퍼링으로, 오직 NetApp 파트너를 통해서만 제공됩니다. 파트너사는 최종 고객에게 서비스를 제공하고 지원 및 일상적인 운영을 관리합니다.
+
+Keystone XaaS를 사용하시는 경우 서비스 및 지원 관련 문의는 담당 파트너에게 연락하십시오. 위에 제시된 Keystone STaaS 운영 모델 및 고객 책임 분담표는 Keystone XaaS의 책임 사항을 설명하지 않습니다.
+
+
+
+[[related-information]]
+== 관련 정보
+
+* link:../concepts/overview.html["NetApp Keystone에 대해 자세히 알아보십시오"]
+* link:../concepts/infra.html["Keystone 인프라에 대해 알아보기"]
+* link:../concepts/components.html["Keystone 서비스에 필요한 구성 요소"]
+

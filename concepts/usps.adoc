@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/usps.html 
 keywords: netapp, keystone, US citizen support, USPS, Keystone Success Manager, USPS support 
-summary: 미국 보호 지원은 미국 토양에 있는 미국 시민으로부터 지속적인 Keystone 서비스를 제공하고 지원하는 애드온 서비스입니다. 
+summary: United States Protected Support는 미국 영토 내에서 미국 시민이 지속적인 Keystone 서비스의 제공 및 지원을 담당하는 NetApp Keystone STaaS 구독을 위한 추가 서비스입니다. 
 ---
-= Keystone 용 USPS 추가 서비스
+= Keystone STaaS용 미국 보호 지원 추가 기능
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 미국 보호 지원은 미국 토양에 있는 미국 시민으로부�
 
 
 [role="lead"]
-USPS(미국 보호 지원)는 NetApp Keystone 구독에 대한 추가 서비스입니다. 이를 통해 미국 영토에 거주하는 미국 시민으로부터 지속적인 Keystone 서비스를 제공하고 지원할 수 있습니다.
+미국 보호 지원(USPS)은 NetApp Keystone STaaS 구독을 위한 추가 서비스입니다. 이 서비스를 통해 미국 영토 내에서 미국 시민권자로부터 지속적인 Keystone 서비스의 제공 및 지원을 받을 수 있습니다.
 
 다음 섹션을 읽고 이 애드온 서비스에 구속되고 NetApp Keystone 계약 약관에 따라 제공되는 구독 요소를 이해합니다.각주:청구1 [여기에 설명된 서비스 및 오퍼링은 완전히 실행된 Keystone 계약의 적용을 받으며 이 계약에 의해 제한 및 관리됩니다.]
 

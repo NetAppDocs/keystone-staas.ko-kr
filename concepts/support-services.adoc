@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/support-services.html 
 keywords: Keystone support, service request, support ticket 
-summary: NetApp 지원 사이트를 이용하여 지원 사례를 생성하거나 Keystone 구독 관련 연락처 정보를 찾아보세요. 
+summary: NetApp 지원 사이트를 사용하여 지원 케이스를 생성하거나 Keystone STaaS 구독에 대한 연락처 정보를 찾으십시오. 
 ---
-= Keystone 지원 서비스
+= Keystone STaaS 지원 서비스
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,14 +14,14 @@ summary: NetApp 지원 사이트를 이용하여 지원 사례를 생성하거�
 
 
 [role="lead"]
-NetApp은 Keystone 고객에게 운영 서비스를 제공합니다. 고객은 전담 Keystone 성공 관리자(KSM), 직접 지원 연락 옵션, ITOM 솔루션을 통한 사전 예방적 모니터링 서비스를 이용할 수 있습니다.
+NetApp은 Keystone STaaS 고객에게 운영 서비스를 제공합니다. 고객은 전담 Keystone Success Manager(KSM), 직접 지원 연락 옵션, ITOM 솔루션을 통한 사전 예방적 모니터링을 제공받습니다.
 
 
 
 [[netapp-support-services]]
 == NetApp 지원 서비스
 
-NetApp은 Keystone 고객에게 원격으로 운영 서비스를 제공합니다. 이러한 서비스는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트 및 사고 관리, 서비스 요청 처리, 보고 등 다양한 스토리지 관리 활동을 포괄합니다.
+NetApp은 Keystone STaaS 고객에게 원격으로 운영 서비스를 제공합니다. 이러한 서비스는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트 및 사고 관리, 서비스 요청 처리, 보고 등 다양한 스토리지 관리 활동을 포괄합니다.
 
 .Keystone 성공 관리자
 담당 KSM(Keystone Service Manager)은 고객과 긴밀히 협력하여 Keystone 서비스를 관리하고 주간 또는 월간 청구 및 운영 보고서를 제공합니다. 구체적인 책임 사항은 NetApp Keystone 계약서에 명시되어 있습니다.

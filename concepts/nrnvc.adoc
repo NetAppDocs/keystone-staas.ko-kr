@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/nrnvc.html 
 keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service 
-summary: NetApp은 NetApp Keystone 구독의 일환으로 파일, 블록 및 오브젝트 서비스에 대한 NRNVC 오퍼링을 확장합니다. 
+summary: Keystone STaaS 구독의 일부로 NetApp은 파일, 블록 및 오브젝트 서비스에 대한 NRNVC 추가 서비스를 제공합니다. 
 ---
-= Keystone를 위한 NRNVC 및 SnapLock 규정 준수 애드온 서비스
+= Keystone STaaS용 NRNVC 및 SnapLock 규정 준수 추가 기능 서비스
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: NetApp은 NetApp Keystone 구독의 일환으로 파일, 블록 및 오
 
 
 [role="lead"]
-NetApp Keystone 구독의 일환으로 NetApp은 파일, 블록 및 오브젝트 서비스에 대한 반품 불가 비휘발성 구성 요소(NRNVC) 오퍼링을 확장합니다.
+Keystone STaaS 구독의 일부로 NetApp은 파일, 블록 및 오브젝트 서비스에 대한 반환 불가능한 비휘발성 구성 요소(NRNVC) 추가 서비스를 제공합니다.
 
 NetApp은 서비스 제공 시 사용된 모든 물리적 자산을 복구하지 않습니다. 단, NetApp이 서비스 제공 기간에 사용한 전체 물리적 자산을 복구하지 않습니다.
 

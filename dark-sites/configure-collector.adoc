@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: dark-sites/configure-collector.html 
 keywords: configure, keystone, collector, private mode, darksite mode, tui utility 
-summary: 'Keystone Collector가 인터넷에 액세스할 수 없는 환경(예: A_Dark site_ 또는 _private mode_라고도 함)에서 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료합니다.' 
+summary: 인터넷 접속이 없는 _다크 사이트_ 환경에서 프라이빗 모드로 사용량 데이터를 수집하도록 Keystone Collector를 구성하십시오. 
 ---
 = Keystone Collector를 비공개 모드로 구성합니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Keystone Collector가 인터넷에 액세스할 수 없는 환경(예:
 
 
 [role="lead"]
-Keystone Collector가 인터넷에 액세스할 수 없는 환경(예: A_Dark site_ 또는 _private mode_라고도 함)에서 사용 데이터를 수집할 수 있도록 몇 가지 구성 작업을 완료합니다. 필수 구성 요소를 활성화하고 스토리지 환경을 연결하는 일회성 활동입니다. 구성되면 Keystone Collector는 Active IQ Unified Manager에서 관리하는 모든 ONTAP 클러스터를 모니터링합니다.
+Keystone Collector를 인터넷 접속이 없는 _다크 사이트_ 환경에서 비공개 모드로 사용량 데이터를 수집하도록 구성하십시오. 이 일회성 설정은 필요한 구성 요소를 활성화하고 스토리지 환경과 연결합니다. 구성이 완료되면 Keystone Collector는 Active IQ Unified Manager에서 관리하는 모든 ONTAP 클러스터를 모니터링합니다.
 
 
 NOTE: Keystone Collector는 구성 및 모니터링 작업을 수행할 수 있는 Keystone Collector Management Terminal User Interface(TUI) 유틸리티를 제공합니다. Enter 및 화살표 키와 같은 다양한 키보드 컨트롤을 사용하여 옵션을 선택하고 이 TUI를 탐색할 수 있습니다.

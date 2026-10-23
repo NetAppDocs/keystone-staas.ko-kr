@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: integrations/monitoring-alert-monitors.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, netapp console 
-summary: 모니터링 탭을 사용하여 Keystone 구독에 대한 알림 모니터를 보고 생성합니다. 
+summary: 모니터링 탭을 사용하여 Keystone 구독에 대한 알림 모니터를 보고 생성하십시오. 
 ---
 = Keystone 구독에 대한 알림 모니터 보기 및 생성
 :hardbreaks:

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/infra.html 
 keywords: keystone infrastructure, infra 
-summary: Keystone 인프라, 설계, 기술 선택, 구성요소 제품은 NetApp의 전적인 재량에 따라 집니다. 
+summary: Keystone STaaS 인프라, 설계, 기술 선택 및 구성 요소 제품은 전적으로 NetApp에 속합니다. 
 ---
-= Keystone 인프라에 대해 알아보기
+= Keystone STaaS 인프라에 대해 알아보십시오.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone 인프라, 설계, 기술 선택, 구성요소 제품은 NetAp
 
 
 [role="lead"]
-NetApp은 NetApp 및 고객 운영 환경 모두에 적용되는 Keystone의 인프라, 설계, 기술 선택 및 구성요소에 대한 전적인 책임을 집니다.
+NetApp은 Keystone STaaS의 인프라, 설계, 기술 선택 및 구성 요소에 대해 전적으로 책임을 지며, 이는 NetApp 및 고객 운영 환경 모두에 적용됩니다.
 
 NetApp은 다음과 같은 조치를 취할 권리를 보유합니다.
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/pricing.html 
 keywords: pricing, Keystone billing, committed capacity, consumed capacity, burst consumption, billing schedules 
-summary: NetApp Keystone STaaS를 사용하면 약정한 용량만큼만 지불하고, 초과 사용량에 대해서만 추가 비용을 지불합니다. 이 페이지에서는 스토리지 약정 가격 책정 방식부터 용량 측정 및 청구 방식, 청구서 발행 시점까지, 사용량에 따라 지불하는 방식의 작동 방식을 설명합니다. 
+summary: NetApp Keystone STaaS를 사용하면 약정한 용량만큼만 지불하고, 초과 사용량에 대해서만 추가 비용을 지불합니다. 이 페이지에서는 스토리지 약정 가격 책정 방식부터 용량 측정 및 청구 방식, 청구서 발행 시점까지, 사용량 기반 요금 모델의 작동 방식을 설명합니다. 
 ---
-= Keystone 청구 방식에 대해 알아보세요.
+= Keystone STaaS 청구 방식에 대해 알아보십시오.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

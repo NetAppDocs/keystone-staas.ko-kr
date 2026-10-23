@@ -1,12 +1,12 @@
 ---
 indexpage:
   title: Keystone 설명서
-  summary: NetApp Keystone은 온프레미스와 클라우드 데이터 스토리지 서비스 모두를 위한 종량제 방식의 스토리지 서비스로, 하나의
-    구독으로 제공되며, 스토리지 비용을 클라우드 전반에 걸쳐 재할당할 수 있는 기능을 제공합니다.
-  keywords: Keystone STaaS
-  lead: NetApp Keystone 자본 지출이나 리스보다 운영 비용을 선호하는 고객에게 원활한 하이브리드 클라우드 환경을 제공하는 유연한
-    종량제 구독 기반 서비스입니다. IT 부서의 리소스 관리 부담을 없애고 긴 조달 주기를 피함으로써 가치 실현 시간을 단축할 수 있습니다. 이
-    라이브러리의 문서를 탐색하여 NetApp Keystone Storage-as-a-Service(STaaS) 제품에 대해 자세히 알아보세요.
+  summary: Keystone STaaS는 NetApp Keystone 플랫폼의 구독형 서비스로, 사용량 기반 요금제를 통해 파일, 블록 및
+    오브젝트 스토리지 서비스를 제공합니다.
+  keywords: NetApp Keystone, Keystone STaaS, storage as a service, subscription
+  lead: NetApp Keystone은 NetApp의 서비스형 스토리지 플랫폼입니다. Keystone의 구독 오퍼링인 Keystone STaaS(Storage-as-a-Service)는
+    사용량 기반 요금제 모델을 통해 파일, 블록 및 오브젝트 스토리지 서비스를 제공합니다. Keystone STaaS를 통해 기업은 초기 자본
+    투자 없이 운영 비용으로 스토리지를 사용할 수 있습니다.
   tiles:
   - title: 시작하십시오
     links:
@@ -32,7 +32,7 @@ indexpage:
       url: "/integrations/health-assessment-reports.html"
     - title: 데이터 검색 및 보고서 생성
       url: "/integrations/options.html"
-  - title: Keystone에서 지원되는 서비스
+  - title: Keystone STaaS에서 지원되는 서비스
     links:
     - title: 키스톤 성과 서비스 수준
       url: "/concepts/service-levels.html"
@@ -42,9 +42,9 @@ indexpage:
       url: "/concepts/supported-storage-services.html"
     - title: 온프레미스의 지출을 클라우드로 재할당할 수 있습니까?
       url: "/concepts/capacity-requirements.html#capacity-adjustments"
-  - title: Keystone 가격 및 비용청구
+  - title: Keystone STaaS 가격 및 청구
     links:
-    - title: Keystone 가격에 대해 알아보세요
+    - title: Keystone STaaS 청구 방식에 대해 알아보십시오.
       url: "/concepts/pricing.html"
     - title: Keystone은 용량을 어떻게 측정하나요?
       url: "/concepts/pricing.html#how-keystone-measures-capacity"
@@ -54,7 +54,7 @@ indexpage:
       url: "/concepts/pricing.html#burst-consumption"
     - title: 송장은 언제 생성되나요?
       url: "/concepts/pricing.html#billing-schedules"
-  - title: Keystone 서비스로 더 많은 작업 수행
+  - title: Keystone STaaS용 추가 서비스
     links:
     - title: 지원팀에 대해 알아보세요
       url: "/concepts/support-services.html"
@@ -66,9 +66,9 @@ indexpage:
       url: "/concepts/adp.html"
     - title: 스토리지를 모니터링, 문제 해결 및 개선합니다
       url: "/concepts/data-infra-insights.html"
-    - title: 미국 시민 지원
+    - title: USPS(미국 보호 지원)
       url: "/concepts/usps.html"
-  - title: 자세히 알아보기
+  - title: 추가 자료
     links:
     - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: integrations/monitoring-alerts.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, console 
-summary: 모니터링 탭을 사용하여 Keystone 구독에 대한 알림을 보고 관리하세요. 
+summary: 모니터링 탭을 사용하여 Keystone 구독에 대한 알림을 확인하고 관리할 수 있습니다. 
 ---
 = Keystone 구독에 대한 알림을 보고 관리합니다.
 :hardbreaks:

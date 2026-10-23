@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/service-levels.html 
 keywords: service levels, service level, rate plan or service level 
-summary: Keystone STaaS 버전 3은 사전 정의된 서비스 수준에서 스토리지 용량을 제공합니다. Keystone에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다. 
+summary: 버전 3용 Keystone STaaS는 사전 정의된 서비스 수준으로 스토리지 용량을 제공합니다. Keystone STaaS에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다. 
 ---
-= 키스톤의 성능 서비스 수준
+= Keystone STaaS의 성능 서비스 수준
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
